@@ -29,7 +29,7 @@ def iter_plugins(client, search='pytest-'):
 def download_plugins():
     client = xmlrpclib.ServerProxy('http://pypi.python.org/pypi')
     plugins = iter_plugins(client)
-    plugins = [('pytest-pep8', '1.0.5')]
+    plugins = [('pytest-pep8', '1.0.5')] # only one package so we can quickly test the system
     for name, version in plugins:
         for url_data in client.release_urls(name, version):
             basename = os.path.basename(url_data['url'])
