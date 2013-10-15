@@ -33,4 +33,8 @@ nosetests.xml
 # Mr Developer
 .mr.developer.cfg
 .project
-.pydevproject
+
+# Packages
+*.tar.gz
+*.tgz
+*.zip
