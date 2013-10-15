@@ -1,21 +1,37 @@
 import glob
-import operator
 import os
+from pprint import pprint
 import tarfile
 import urllib
 import xmlrpclib
 from zipfile import ZipFile
+
+import simplejson
+
+
+#===================================================================================================
+# iter_plugins
+#===================================================================================================
+def iter_plugins(client, search='pytest-'):
+    '''
+    Returns an iterator of (name, version) from PyPI.
+    
+    :param client: xmlrpclib.ServerProxy
+    :param search: package names to search for 
+    '''
+    for plug_data in client.search({'name' : search}):
+        yield plug_data['name'], plug_data['version']
 
 
 #===================================================================================================
 # download_plugins
 #===================================================================================================
 def download_plugins():
-    
     client = xmlrpclib.ServerProxy('http://pypi.python.org/pypi')
-    for plug_data in sorted(client.search({'name' : 'pytest-'}), key=operator.itemgetter('_pypi_ordering')):
-        print plug_data['name'], plug_data['version'], plug_data['summary']
-        for url_data in client.release_urls(plug_data['name'], plug_data['version']):
+    plugins = iter_plugins(client)
+    plugins = [('pytest-pep8', '1.0.5')]
+    for name, version in plugins:
+        for url_data in client.release_urls(name, version):
             basename = os.path.basename(url_data['url'])
             if url_data['packagetype'] != 'sdist':
                 print ' -> skipped ({}, {})'.format(url_data['packagetype'], basename)
@@ -46,26 +62,27 @@ def extract_plugins():
     
     
 #===================================================================================================
-# check_tox
+# run_tox
 #===================================================================================================
-def check_tox():
-    total = 0
-    with_tox = 0
+def run_tox():
     for name in os.listdir('.'):
         if os.path.isdir(name):
             if os.path.isfile(os.path.join(name, 'tox.ini')):
-                print name
-                with_tox += 1
-            total += 1
-            
-    print 'total:', total
-    print 'tox:', with_tox
-    
+                oldcwd = os.getcwd()
+                try:
+                    os.chdir(name)
+                    os.system('tox --result-json=result.json -e py27')
+                    contents = file('result.json').read()
+                    json = simplejson.loads(contents) 
+                    print contents
+                finally:
+                    os.chdir(oldcwd)
+                    
     
 #===================================================================================================
 # main    
 #===================================================================================================
 if __name__ == '__main__':    
-    #download_plugins()
-    #extract_plugins() 
-    check_tox()   
+    download_plugins()
+    extract_plugins() 
+    run_tox()   
