@@ -3,9 +3,9 @@ python:
   - "2.6"
   - "2.7"
 install:
-  - pip install tox
-  - pip install pytest==$PYTEST_VERSION
-  - pip install simplejson
+  - pip install --use-mirrors tox
+  - pip install --use-mirrors pytest==$PYTEST_VERSION
+  - pip install --use-mirrors simplejson
 env:
   - PYTEST_VERSION=2.3.5
   - PYTEST_VERSION=2.4.2  
