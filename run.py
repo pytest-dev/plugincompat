@@ -1,6 +1,7 @@
+from __future__ import with_statement
 import glob
 import os
-from pprint import pprint
+import sys
 import tarfile
 import urllib
 import xmlrpclib
@@ -65,13 +66,15 @@ def extract_plugins():
 # run_tox
 #===================================================================================================
 def run_tox():
+    tox_env = 'py%d%d' % sys.version_info[:2]
     for name in os.listdir('.'):
         if os.path.isdir(name):
             if os.path.isfile(os.path.join(name, 'tox.ini')):
                 oldcwd = os.getcwd()
                 try:
                     os.chdir(name)
-                    os.system('tox --result-json=result.json -e py27')
+                    print '-> Running tox for', tox_env
+                    os.system('tox --result-json=result.json -e %s' % tox_env)
                     contents = file('result.json').read()
                     json = simplejson.loads(contents) 
                     print contents
