@@ -1,4 +1,6 @@
 pytest-plugs
 ============
 
-Test execution and compatibility checks for pytest plugins
+![plug](static/electrical-plug-th.png)
+
+Test execution and compatibility checks for pytest plugins.
