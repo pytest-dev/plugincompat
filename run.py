@@ -49,13 +49,14 @@ def download_plugins():
 # extract_plugins
 #===================================================================================================
 def extract_plugins():
+    from contextlib import closing
     
     def extract(extension, file_class):
         
         for filename in glob.glob('*%s' % extension):
             basename = filename[:-len(extension)]
             print basename, extension
-            with file_class(filename) as f:
+            with closing(file_class(filename)) as f: # need closing for python 2.6 because of TarFile
                 f.extractall('.')
             
     extract('.zip', ZipFile)
