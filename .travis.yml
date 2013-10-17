@@ -3,7 +3,6 @@ python:
   - "2.6"
   - "2.7"
   - "3.3"
-  - "3.4"
 install:
   - pip uninstall -y pytest
   - pip install --use-mirrors pytest==$PYTEST_VERSION
