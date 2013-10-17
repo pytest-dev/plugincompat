@@ -25,68 +25,82 @@ def iter_plugins(client, search='pytest-'):
 
 
 #===================================================================================================
-# download_plugins
+# download_package
 #===================================================================================================
-def download_plugins():
-    client = xmlrpclib.ServerProxy('https://pypi.python.org/pypi')
-    #plugins = iter_plugins(client) # weird, failing for py2.6
-    plugins = [('pytest-pep8', '1.0.5')] # only one package so we can quickly test the system
-    for name, version in plugins:
-        for url_data in client.release_urls(name, version):
-            basename = os.path.basename(url_data['url'])
-            if url_data['packagetype'] != 'sdist':
-                print ' -> skipped ({}, {})'.format(url_data['packagetype'], basename)
-            elif os.path.isfile(basename):
-                print ' -> {} already downloaded'.format(basename)
-            else:
-                print ' ...', url_data['url'],
-                urllib.urlretrieve(url_data['url'], basename)
-                print 'OK'
-            
-    
+def download_package(client, name, version):
+    found_dists = []
+    for url_data in client.release_urls(name, version):
+        basename = os.path.basename(url_data['url'])
+        found_dists.append(url_data['packagetype'])
+        if url_data['packagetype'] == 'sdist':
+            urllib.urlretrieve(url_data['url'], basename)
+            return basename
+        
+    assert 'could not found a source dist: %r' % found_dists
+
 
 #===================================================================================================
-# extract_plugins
+# extract
 #===================================================================================================
-def extract_plugins():
+def extract(basename):
     from contextlib import closing
     
-    def extract(extension, file_class):
-        
-        for filename in glob.glob('*%s' % extension):
-            basename = filename[:-len(extension)]
-            print basename, extension
-            with closing(file_class(filename)) as f: # need closing for python 2.6 because of TarFile
+    extractors = {
+        '.zip' :  ZipFile,
+        '.tar.gz': tarfile.open,
+        '.tgz': tarfile.open,
+    }
+    for ext, extractor in extractors.items():
+        if basename.endswith(ext):
+            with closing(extractor(basename)) as f: # need closing for python 2.6 because of TarFile
                 f.extractall('.')
+            return basename[:-len(ext)]
+    assert False, 'could not extract %s' % basename
+    
             
-    extract('.zip', ZipFile)
-    extract('.tar.gz', tarfile.open)
-    
-    
 #===================================================================================================
 # run_tox
 #===================================================================================================
-def run_tox():
+def run_tox(directory):
     tox_env = 'py%d%d' % sys.version_info[:2]
-    for name in os.listdir('.'):
-        if os.path.isdir(name):
-            if os.path.isfile(os.path.join(name, 'tox.ini')):
-                oldcwd = os.getcwd()
-                try:
-                    os.chdir(name)
-                    print '-> Running tox for', tox_env
-                    os.system('tox --result-json=result.json -e %s' % tox_env)
-                    contents = file('result.json').read()
-                    json = simplejson.loads(contents) 
-                    print contents
-                finally:
-                    os.chdir(oldcwd)
+    
+    tox_file = os.path.join(directory, 'tox.ini')
+    if os.path.isfile(tox_file):
+        oldcwd = os.getcwd()
+        try:
+            os.chdir(directory)
+            result = os.system('tox --result-json=result.json -e %s' % tox_env)
+            return result
+        finally:
+            os.chdir(oldcwd)
+            
+    return None
                     
+#===================================================================================================
+# main
+#===================================================================================================
+def main():                    
+    client = xmlrpclib.ServerProxy('https://pypi.python.org/pypi')
+    
+    # only one package so we can quickly test the system
+    #plugins = iter_plugins(client) 
+    plugins = [
+        ('pytest-pep8', '1.0.5'),
+        ('pytest-cache', '1.0'),
+        ('pytest-xdist', '1.9'),
+    ]                 
+    
+    for name, version in plugins:
+        print '=' * 60
+        basename = download_package(client, name, version)
+        print '-> downloaded', basename
+        directory = extract(basename)
+        print '-> extracted to', directory
+        result = run_tox(directory)
+        print '-> tox returned %s' % result 
     
 #===================================================================================================
 # main    
 #===================================================================================================
 if __name__ == '__main__':    
-    download_plugins()
-    extract_plugins() 
-    run_tox()   
+    main()  
