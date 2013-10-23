@@ -146,7 +146,6 @@ def main():
         result = run_tox(directory)
         print('-> tox returned %s' % result)
         test_results[(name, version)] = result
-        StrictVersion
 
 
     print('\n\n')
