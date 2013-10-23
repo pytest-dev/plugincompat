@@ -26,7 +26,7 @@ def iter_plugins(client, search='pytest-'):
     :param client: xmlrpclib.ServerProxy
     :param search: package names to search for 
     '''
-    for plug_data in client.search({'name' : search}):
+    for plug_data in client.search({'name': search}):
         yield plug_data['name'], plug_data['version']
 
 
@@ -41,7 +41,7 @@ def download_package(client, name, version):
         if url_data['packagetype'] == 'sdist':
             urlretrieve(url_data['url'], basename)
             return basename
-        
+
     assert 'could not found a source dist: %r' % found_dists
 
 
@@ -50,9 +50,9 @@ def download_package(client, name, version):
 #===================================================================================================
 def extract(basename):
     from contextlib import closing
-    
+
     extractors = {
-        '.zip' :  ZipFile,
+        '.zip': ZipFile,
         '.tar.gz': tarfile.open,
         '.tgz': tarfile.open,
     }
@@ -62,51 +62,69 @@ def extract(basename):
                 f.extractall('.')
             return basename[:-len(ext)]
     assert False, 'could not extract %s' % basename
-    
-            
+
+
 #===================================================================================================
 # run_tox
 #===================================================================================================
 def run_tox(directory):
     tox_env = 'py%d%d' % sys.version_info[:2]
-    
+
     tox_file = os.path.join(directory, 'tox.ini')
-    if os.path.isfile(tox_file):
-        oldcwd = os.getcwd()
+    if not os.path.isfile(tox_file):
+        f = file(tox_file, 'w')
         try:
-            os.chdir(directory)
-            result = os.system('tox --result-json=result.json -e %s' % tox_env)
-            return result
+            f.write(PLACEHOLDER_TOX)
         finally:
-            os.chdir(oldcwd)
-            
-    return None
-                    
+            f.close()
+
+    oldcwd = os.getcwd()
+    try:
+        os.chdir(directory)
+        result = os.system('tox --result-json=result.json -e %s' % tox_env)
+        return result
+    finally:
+        os.chdir(oldcwd)
+
+# tox.ini contents when downloaded package does not have a tox.ini file
+# in this case we only display help information
+PLACEHOLDER_TOX = '''\
+[tox]
+
+[testenv]
+deps=pytest
+commands=
+    py.test --help
+'''
+
+
 #===================================================================================================
 # main
 #===================================================================================================
-def main():                    
+def main():
     client = ServerProxy('https://pypi.python.org/pypi')
-    
+
     # only one package so we can quickly test the system
     #plugins = iter_plugins(client) 
     plugins = [
-        ('pytest-pep8', '1.0.5'),
-        ('pytest-cache', '1.0'),
-        ('pytest-xdist', '1.9'),
-    ]                 
-    
+        #('pytest-pep8', '1.0.5'),
+        #('pytest-cache', '1.0'),
+        #('pytest-xdist', '1.9'),
+        ('pytest-bugzilla', '0.2'),
+    ]
+
     for name, version in plugins:
-        print( '=' * 60)
+        print('=' * 60)
         basename = download_package(client, name, version)
         print('-> downloaded', basename)
         directory = extract(basename)
         print('-> extracted to', directory)
         result = run_tox(directory)
-        print('-> tox returned %s' % result) 
-    
+        print('-> tox returned %s' % result)
+
+    #===================================================================================================
+
+# main
 #===================================================================================================
-# main    
-#===================================================================================================
-if __name__ == '__main__':    
+if __name__ == '__main__':
     main()  
