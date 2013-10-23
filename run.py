@@ -133,7 +133,7 @@ def main():
     #]
 
     test_results = {}
-    for name, version in plugins[:3]:
+    for name, version in plugins:
         print('=' * 60)
         print('%s-%s' % (name, version))
         basename = download_package(client, name, version)
@@ -146,6 +146,7 @@ def main():
         result = run_tox(directory)
         print('-> tox returned %s' % result)
         test_results[(name, version)] = result
+        StrictVersion
 
 
     print('\n\n')
