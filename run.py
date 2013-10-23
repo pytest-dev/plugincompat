@@ -124,7 +124,7 @@ def main():
     client = ServerProxy('https://pypi.python.org/pypi')
 
     plugins = iter_plugins(client)
-    plugins = get_latest_versions(plugins)
+    plugins = list(get_latest_versions(plugins))
     #plugins = [
     #    ('pytest-pep8', '1.0.5'),
     #    ('pytest-cache', '1.0'),
@@ -133,7 +133,7 @@ def main():
     #]
 
     test_results = {}
-    for name, version in plugins:
+    for name, version in plugins[:3]:
         print('=' * 60)
         print('%s-%s' % (name, version))
         basename = download_package(client, name, version)
@@ -158,7 +158,9 @@ def main():
             status = 'OK'
         else:
             status = 'Failed'
-        print('%s-%s \t\t\t %s' % (name, version, status))
+        package = '%s-%s' % (name, version)
+        spaces = (50 - len(package)) * ' '
+        print('%s%s%s' % (package, spaces, status))
 
 
 #===================================================================================================
