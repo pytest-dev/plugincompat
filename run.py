@@ -72,7 +72,7 @@ def run_tox(directory):
 
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
-        f = file(tox_file, 'w')
+        f = open(tox_file, 'w')
         try:
             f.write(PLACEHOLDER_TOX)
         finally:
