@@ -86,6 +86,7 @@ def run_tox(directory):
     finally:
         os.chdir(oldcwd)
 
+
 # tox.ini contents when downloaded package does not have a tox.ini file
 # in this case we only display help information
 PLACEHOLDER_TOX = '''\
@@ -104,15 +105,15 @@ commands=
 def main():
     client = ServerProxy('https://pypi.python.org/pypi')
 
-    # only one package so we can quickly test the system
-    #plugins = iter_plugins(client) 
-    plugins = [
-        #('pytest-pep8', '1.0.5'),
-        #('pytest-cache', '1.0'),
-        #('pytest-xdist', '1.9'),
-        ('pytest-bugzilla', '0.2'),
-    ]
+    plugins = iter_plugins(client)
+    #plugins = [
+    #    ('pytest-pep8', '1.0.5'),
+    #    ('pytest-cache', '1.0'),
+    #    ('pytest-xdist', '1.9'),
+    #    ('pytest-bugzilla', '0.2'),
+    #]
 
+    test_results = {}
     for name, version in plugins:
         print('=' * 60)
         basename = download_package(client, name, version)
@@ -121,9 +122,23 @@ def main():
         print('-> extracted to', directory)
         result = run_tox(directory)
         print('-> tox returned %s' % result)
+        test_results[(name, version)] = result
 
-    #===================================================================================================
 
+    print('\n\n')
+    print('=' * 60)
+    print('Summary')
+    print('=' * 60)
+    for (name, version) in test_results:
+        result = test_results[(name, version)]
+        if result == 0:
+            status = 'OK'
+        else:
+            status = 'Failed'
+        print('%s-%s \t\t\t %s' % (name, version, status))
+
+
+#===================================================================================================
 # main
 #===================================================================================================
 if __name__ == '__main__':
