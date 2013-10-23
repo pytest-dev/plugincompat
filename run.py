@@ -1,4 +1,5 @@
 from __future__ import print_function, with_statement, division
+from distutils.version import LooseVersion
 
 import os
 import sys
@@ -8,6 +9,8 @@ from zipfile import ZipFile
 #===================================================================================================
 # py2x3 compatibility
 #===================================================================================================
+import itertools
+
 if sys.version_info[0] == 3:
     from xmlrpc.client import ServerProxy
     from urllib.request import urlretrieve
@@ -31,6 +34,21 @@ def iter_plugins(client, search='pytest-'):
 
 
 #===================================================================================================
+# get_latest_versions
+#===================================================================================================
+def get_latest_versions(plugins):
+    '''
+    Returns an iterator of (name, version) from the given list of (name, version), but returning
+    only the latest version of the package. Uses distutils.LooseVersion to ensure compatibility
+    with PEP386.
+    '''
+    plugins = [(name, LooseVersion(version)) for (name, version) in plugins]
+    for name, grouped_plugins in itertools.groupby(plugins, key=lambda x: x[0]):
+        name, loose_version = list(grouped_plugins)[-1]
+        yield name, str(loose_version)
+
+
+#===================================================================================================
 # download_package
 #===================================================================================================
 def download_package(client, name, version):
@@ -42,7 +60,7 @@ def download_package(client, name, version):
             urlretrieve(url_data['url'], basename)
             return basename
 
-    assert 'could not found a source dist: %r' % found_dists
+    return None
 
 
 #===================================================================================================
@@ -106,6 +124,7 @@ def main():
     client = ServerProxy('https://pypi.python.org/pypi')
 
     plugins = iter_plugins(client)
+    plugins = get_latest_versions(plugins)
     #plugins = [
     #    ('pytest-pep8', '1.0.5'),
     #    ('pytest-cache', '1.0'),
@@ -116,7 +135,11 @@ def main():
     test_results = {}
     for name, version in plugins:
         print('=' * 60)
+        print('%s-%s' % (name, version))
         basename = download_package(client, name, version)
+        if basename is None:
+            print('-> No sdist found (skipping)')
+            continue
         print('-> downloaded', basename)
         directory = extract(basename)
         print('-> extracted to', directory)
@@ -129,7 +152,7 @@ def main():
     print('=' * 60)
     print('Summary')
     print('=' * 60)
-    for (name, version) in test_results:
+    for (name, version) in sorted(test_results):
         result = test_results[(name, version)]
         if result == 0:
             status = 'OK'
