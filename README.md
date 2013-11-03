@@ -1,6 +1,15 @@
-pytest-plugs
-============
+# pytest-plugs #
+
+Test execution and compatibility checks for pytest plugins. 
 
 ![plug](static/electrical-plug-th.png)
 
-Test execution and compatibility checks for pytest plugins.
+The purpose of this project is to provide a web page to
+check known python and pytest compatibility for plugins.
+
+## Status ##
+
+Right now we have a [travis-ci](https://travis-ci.org/nicoddemus/pytest-plugs) build matrix 
+running several python versions against some pytest versions.
+
+This is a work in progress, of course. :)
