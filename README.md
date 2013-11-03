@@ -10,6 +10,6 @@ check known python and pytest compatibility for plugins.
 ## Status ##
 
 Right now we have a [travis-ci](https://travis-ci.org/nicoddemus/pytest-plugs) build matrix 
-running several python versions against some pytest versions.
+that checks if plugins work against several python and pytest versions.
 
 This is a work in progress, of course. :)
