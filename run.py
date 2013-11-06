@@ -67,6 +67,15 @@ def download_package(client, name, version):
 # extract
 #===================================================================================================
 def extract(basename):
+    """
+    Extracts the contents of the given archive into the current directory.
+
+    :param basename: name of the archive related to the current directory
+    :type basename: str
+
+    :rtype: str
+    :return: the name of the directory where the contents where extracted
+    """
     from contextlib import closing
 
     extractors = {
@@ -125,12 +134,12 @@ def main():
 
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
-    #plugins = [
-    #    ('pytest-pep8', '1.0.5'),
+    plugins = [
+        ('pytest-pep8', '1.0.5'),
     #    ('pytest-cache', '1.0'),
     #    ('pytest-xdist', '1.9'),
     #    ('pytest-bugzilla', '0.2'),
-    #]
+    ]
 
     test_results = {}
     for name, version in plugins:
