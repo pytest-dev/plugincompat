@@ -10,6 +10,10 @@ from zipfile import ZipFile
 # py2x3 compatibility
 #===================================================================================================
 import itertools
+import pytest
+import requests
+import simplejson
+
 
 if sys.version_info[0] == 3:
     from xmlrpc.client import ServerProxy
@@ -94,9 +98,7 @@ def extract(basename):
 #===================================================================================================
 # run_tox
 #===================================================================================================
-def run_tox(directory):
-    tox_env = 'py%d%d' % sys.version_info[:2]
-
+def run_tox(directory, tox_env):
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
         f = open(tox_file, 'w')
@@ -130,16 +132,18 @@ commands=
 # main
 #===================================================================================================
 def main():
+    tox_env = 'py%d%d' % sys.version_info[:2]
+    pytest_version = pytest.__version__
     client = ServerProxy('https://pypi.python.org/pypi')
 
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
-    plugins = [
-        ('pytest-pep8', '1.0.5'),
+    #plugins = [
+    #    ('pytest-pep8', '1.0.5'),
     #    ('pytest-cache', '1.0'),
     #    ('pytest-xdist', '1.9'),
     #    ('pytest-bugzilla', '0.2'),
-    ]
+    #]
 
     test_results = {}
     for name, version in plugins:
@@ -152,7 +156,7 @@ def main():
         print('-> downloaded', basename)
         directory = extract(basename)
         print('-> extracted to', directory)
-        result = run_tox(directory)
+        result = run_tox(directory, tox_env)
         print('-> tox returned %s' % result)
         test_results[(name, version)] = result
 
@@ -161,15 +165,31 @@ def main():
     print('=' * 60)
     print('Summary')
     print('=' * 60)
+    post_data = []
     for (name, version) in sorted(test_results):
         result = test_results[(name, version)]
         if result == 0:
-            status = 'OK'
+            status = 'ok'
         else:
-            status = 'Failed'
+            status = 'fail'
         package = '%s-%s' % (name, version)
         spaces = (50 - len(package)) * ' '
         print('%s%s%s' % (package, spaces, status))
+        post_data.append(
+            {'name': name,
+             'version': version,
+             'env' : tox_env,
+             'pytest': pytest_version,
+             'status': status,
+             }
+        )
+    post_url = os.environ.get('PLUGS_SITE')
+    if post_url:
+        headers = {'content-type': 'application/json'}
+        response = requests.post(post_url, data=simplejson.dumps(post_data), headers=headers)
+        print('posted to {}; response={}'.format(post_url, response))
+    else:
+        print('not posting, no $PLUGS_SITE defined: {}'.format(post_data))
 
 
 #===================================================================================================

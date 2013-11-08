@@ -10,5 +10,6 @@ install:
 env:
   - PYTEST_VERSION=2.3.5
   - PYTEST_VERSION=2.4.2
+  - PLUGS_SITE=http://pytest-plugs.herokuapp.com
 script: 
   - python run.py
