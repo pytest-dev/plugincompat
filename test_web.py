@@ -1,3 +1,4 @@
+from flask import json
 import pytest
 from web import PlugsStorage
 
@@ -63,22 +64,22 @@ def storage(request):
     return result
 
 
+def make_result_data(**kwparams):
+    result = {
+        'name': 'mylib',
+        'version': '1.0',
+        'env': 'py27',
+        'pytest': '2.3',
+        'status': 'ok',
+    }
+    result.update(kwparams)
+    return result
+
 #noinspection PyShadowingNames
 class TestPlugsStorage(object):
     """
     Tests for PlugsStorage class
     """
-    def make_result_data(self, **kwparams):
-        result = {
-            'name': 'mylib',
-            'version': '1.0',
-            'env': 'py27',
-            'pytest': '2.3',
-            'status': 'ok',
-        }
-        result.update(kwparams)
-        return result
-
 
     def test_add_test_result(self, storage):
         """
@@ -88,23 +89,23 @@ class TestPlugsStorage(object):
 
         with pytest.raises(TypeError):
             # missing "env" key
-            invalid_result = self.make_result_data()
+            invalid_result = make_result_data()
             del invalid_result['env']
             storage.add_test_result(invalid_result)
 
-        result1 = self.make_result_data()
+        result1 = make_result_data()
         storage.add_test_result(result1)
         assert storage.get_test_results('mylib', '1.0') == [result1]
 
-        result2 = self.make_result_data(env='py33', status='failed')
+        result2 = make_result_data(env='py33', status='failed')
         storage.add_test_result(result2)
         assert storage.get_test_results('mylib', '1.0') == [result1, result2]
 
-        result3 = self.make_result_data(env='py33')
+        result3 = make_result_data(env='py33')
         storage.add_test_result(result3)
         assert storage.get_test_results('mylib', '1.0') == [result1, result3]
 
-        result4 = self.make_result_data(version='1.1')
+        result4 = make_result_data(version='1.1')
         storage.add_test_result(result4)
         assert storage.get_test_results('mylib', '1.0') == [result1, result3]
         assert storage.get_test_results('mylib', '1.1') == [result4]
@@ -115,36 +116,51 @@ class TestPlugsStorage(object):
     def test_get_all_results(self, storage):
         assert list(storage.get_all_results()) == []
 
-        result1 = self.make_result_data()
+        result1 = make_result_data()
         storage.add_test_result(result1)
         assert list(storage.get_all_results()) == [result1]
 
-        result2 = self.make_result_data(version='1.1')
+        result2 = make_result_data(version='1.1')
         storage.add_test_result(result2)
         assert list(storage.get_all_results()) == [result1, result2]
 
-        result3 = self.make_result_data(name='myotherlib')
+        result3 = make_result_data(name='myotherlib')
         storage.add_test_result(result3)
         assert list(storage.get_all_results()) == [result1, result2, result3]
 
-#@pytest.fixture
-#def use_memory_storage(monkeypatch):
-#    import web
-#    monkeypatch.setattr(web, 'get_storage_for_view', lambda: MemoryStorage())
-#
-#class TestView(object):
-#    """
-#
-#    """
-#
-#    def test_index(self):
-#        """
-#
-#        """
-#        from web import app
-#
-#
-#        client = app.test_client()
-#        print client.get('/').data
-#        print client.post('/', )
-#        assert 0
+@pytest.fixture
+def patched_storage(monkeypatch):
+    import web
+    result = MemoryStorage()
+    monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
+    return result
+
+@pytest.fixture
+def client():
+    from web import app
+    result = app.test_client()
+    return result
+
+#noinspection PyShadowingNames
+class TestView(object):
+    """
+    Tests web views for pytest-plugs
+    """
+    def post_result(self, client, result):
+        response = client.post('/', data=json.dumps(result), content_type='application/json')
+        assert response.status_code == 200
+
+    def test_index_post(self, client, patched_storage):
+        result1 = make_result_data()
+        self.post_result(client, result1)
+        assert patched_storage.get_all_results() == [result1]
+
+        result2 = make_result_data(env='py33')
+        self.post_result(client, result2)
+        assert patched_storage.get_all_results() == [result1, result2]
+
+        result3 = make_result_data(name='myotherlib')
+        result4 = make_result_data(name='myotherlib', env='py33')
+        self.post_result(client, [result3, result4])
+        assert patched_storage.get_all_results() == [result1, result2, result3, result4]
+

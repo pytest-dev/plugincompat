@@ -64,24 +64,28 @@ class PlugsStorage(object):
             result.append(entry)
         return result
 
+app = flask.Flask('pytest-plugs')
 
-#app = flask.Flask('pytest-plugs')
-#
-#
-#def get_storage_for_view():
-#    """
-#    Returns a storage instance to be used by the view functions. This exists solely we can mock this function
-#    during testing.
-#    """
-#    return PlugsStorage()
-#
-#
-#@app.route('/', methods=['GET', 'POST'])
-#def index():
-#    print 'DATA:', request.data, request.headers
-#    return 'Hell'
-#
-#
-#if __name__ == '__main__':
-#    app.debug = True
-#    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))
+
+def get_storage_for_view():
+    """
+    Returns a storage instance to be used by the view functions. This exists solely we can mock this function
+    during testing.
+    """
+    return PlugsStorage()
+
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        results = request.get_json()
+        if not isinstance(results, list):
+            results = [results]
+        storage = get_storage_for_view()
+        for result in results:
+            storage.add_test_result(result)
+        return 'OK'
+
+if __name__ == '__main__':
+    app.debug = True
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))
