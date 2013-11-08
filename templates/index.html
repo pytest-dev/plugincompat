@@ -5,7 +5,7 @@
 <div class="row">
 <h1>pytest Plugins Compatibility</h1>
 
-    <p>This page shows the results of compatibility tests between several <a href="http://pytest.org">py.test</a> plugins
+    <p>This page shows the results of compatibility tests between <a href="http://pytest.org">py.test</a> plugins
        against different versions of the python interpreter.
     </p>
     <p>The plugins are listed automatically from <a href="https://pypi.python.org/pypi">pypi</a>.
@@ -26,7 +26,7 @@
         <tbody>
             {% for lib_name in lib_names %}
             <tr>
-                <td>{{ lib_name }}</td>
+                <td><a href="#{{lib_name}}">{{ lib_name }}</a></td>
                 {% for python_ver in python_versions %}
                     {% if statuses.get((lib_name, python_ver, latest_pytest_ver)) == "ok" %}
                         <td><img src="{{ url_for('static', filename='ok.png') }}"/></td>
@@ -42,6 +42,7 @@
     </table>
 
     {% for lib_name in lib_names %}
+        <a id="{{lib_name}}"/>
         <table class="striped rounded metro">
             <caption>{{ lib_name }}</caption>
             <thead>
