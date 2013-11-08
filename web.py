@@ -1,6 +1,7 @@
 import os
 from urlparse import urlsplit
-
+from flask import request
+import flask
 import pymongo
 
 
@@ -19,11 +20,9 @@ class PlugsStorage(object):
 
         self.__TESTING__ = False
 
-
     def get_connection(self):
         assert self.__TESTING__
         return self._connection
-
 
     def add_test_result(self, result):
         """
@@ -52,13 +51,37 @@ class PlugsStorage(object):
         entry['status'] = result['status']
         self._db.results.save(entry)
 
-
     def get_all_results(self):
-        return self._db.results.find()
+        return self._filter_entry_ids(self._db.results.find())
 
     def get_test_results(self, name, version):
+        return self._filter_entry_ids(self._db.results.find({'name': name, 'version': version}))
+
+    def _filter_entry_ids(self, entries):
         result = []
-        for entry in self._db.results.find({'name': name, 'version': version}):
+        for entry in entries:
             del entry['_id']
             result.append(entry)
         return result
+
+
+#app = flask.Flask('pytest-plugs')
+#
+#
+#def get_storage_for_view():
+#    """
+#    Returns a storage instance to be used by the view functions. This exists solely we can mock this function
+#    during testing.
+#    """
+#    return PlugsStorage()
+#
+#
+#@app.route('/', methods=['GET', 'POST'])
+#def index():
+#    print 'DATA:', request.data, request.headers
+#    return 'Hell'
+#
+#
+#if __name__ == '__main__':
+#    app.debug = True
+#    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))
