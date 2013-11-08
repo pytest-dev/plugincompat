@@ -210,3 +210,9 @@ class TestView(object):
             'latest_pytest_ver': '2.4',
             'statuses' : statuses,
         }
+
+    def test_get_with_empty_database(self, client, patched_storage):
+        assert len(patched_storage.get_all_results()) == 0
+
+        response = client.get('/')
+        assert response.data == 'Database is empty'

@@ -95,8 +95,11 @@ def index():
             response = flask.jsonify(data=all_results)
             return response
         else:
-            namespace = get_namespace_for_rendering(all_results)
-            return render_template('index.html', **namespace)
+            if all_results:
+                namespace = get_namespace_for_rendering(all_results)
+                return render_template('index.html', **namespace)
+            else:
+                return 'Database is empty'
 
 
 def get_namespace_for_rendering(all_results):
