@@ -164,13 +164,35 @@ class TestView(object):
         self.post_result(client, [result3, result4])
         assert patched_storage.get_all_results() == [result1, result2, result3, result4]
 
-    def test_index_get(self, client, patched_storage):
+    def test_index_get_json(self, client, patched_storage):
         self.post_result(client, make_result_data())
         self.post_result(client, make_result_data(env='py33'))
         self.post_result(client, make_result_data(name='myotherlib'))
         self.post_result(client, make_result_data(name='myotherlib', env='py33'))
         assert len(patched_storage.get_all_results()) == 4
 
-        response = client.get('/')
+        response = client.get('/?json=1')
         results = json.loads(response.data)['data']
         assert set(x['name'] for x in results) == {'mylib', 'myotherlib'}
+
+    def test_get_render_namespace(self):
+        from web import get_namespace_for_rendering
+        result1 = make_result_data()
+        result2 = make_result_data(env='py33', status='failed')
+        result3 = make_result_data(env='py33', pytest='2.4')
+        result4 = make_result_data(name='myotherlib', version='2.0', pytest='2.4')
+        all_results = [result1, result2, result3, result4]
+
+        statuses = {
+            ('mylib-1.0', 'py27', '2.3'): 'ok',
+            ('mylib-1.0', 'py33', '2.3'): 'failed',
+            ('mylib-1.0', 'py33', '2.4'): 'ok',
+            ('myotherlib-2.0', 'py27', '2.4'): 'ok',
+        }
+        assert get_namespace_for_rendering(all_results) == {
+            'python_versions': ['py27', 'py33'],
+            'lib_names': ['mylib-1.0', 'myotherlib-2.0'],
+            'pytest_versions': ['2.3', '2.4'],
+            'latest_pytest_ver': '2.4',
+            'statuses' : statuses,
+        }

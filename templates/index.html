@@ -1,0 +1,74 @@
+<!doctype html>
+<title>pytest Plugins</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='gumby.css') }}">
+
+<div class="row">
+<h1>pytest Plugins Compatibility</h1>
+
+    <p>This page shows the results of compatibility tests between several <a href="http://pytest.org">py.test</a> plugins
+       against different versions of the python interpreter.
+    </p>
+    <p>The plugins are listed automatically from <a href="https://pypi.python.org/pypi">pypi</a>.
+        For more information, please see <a href="https://github.com/nicoddemus/pytest-plugs">
+            https://github.com/nicoddemus/pytest-plugs</a>.
+    </p>
+
+    <table class="striped rounded metro">
+        <caption>Summary for latest pytest version ({{ latest_pytest_ver }})</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                {% for python_ver in python_versions %}
+                <th>{{ python_ver }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for lib_name in lib_names %}
+            <tr>
+                <td>{{ lib_name }}</td>
+                {% for python_ver in python_versions %}
+                    {% if statuses.get((lib_name, python_ver, latest_pytest_ver)) == "ok" %}
+                        <td><img src="{{ url_for('static', filename='ok.png') }}"/></td>
+                    {% elif statuses.get((lib_name, python_ver, latest_pytest_ver)) == "fail" %}
+                        <td><img src="{{ url_for('static', filename='fail.png') }}"/></td>
+                    {% else %}
+                        <td><img src="{{ url_for('static', filename='unknown.png') }}"/></td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% for lib_name in lib_names %}
+        <table class="striped rounded metro">
+            <caption>{{ lib_name }}</caption>
+            <thead>
+                <tr>
+                    <th>pytest</th>
+                    {% for python_ver in python_versions %}
+                    <th>{{ python_ver }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for pytest_ver in pytest_versions %}
+                    <tr>
+                    <td>{{ pytest_ver }}</td>
+                    {% for python_ver in python_versions %}
+                        {% if statuses.get((lib_name, python_ver, pytest_ver)) == "ok" %}
+                            <td><img src="{{ url_for('static', filename='ok.png') }}"/></td>
+                        {% elif statuses.get((lib_name, python_ver, pytest_ver)) == "fail" %}
+                            <td><img src="{{ url_for('static', filename='fail.png') }}"/></td>
+                        {% else %}
+                            <td><img src="{{ url_for('static', filename='unknown.png') }}"/></td>
+                        {% endif %}
+                    {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+
+</div>

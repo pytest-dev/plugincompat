@@ -1,6 +1,7 @@
+from distutils.version import LooseVersion
 import os
 from urlparse import urlsplit
-from flask import request
+from flask import request, render_template
 import flask
 import pymongo
 
@@ -86,8 +87,36 @@ def index():
             storage.add_test_result(result)
         return 'OK'
     else:
-        response = flask.jsonify(data=storage.get_all_results())
-        return response
+        all_results = storage.get_all_results()
+        if request.args.get('json', False):
+            response = flask.jsonify(data=all_results)
+            return response
+        else:
+            namespace = get_namespace_for_rendering(all_results)
+            return render_template('index.html', **namespace)
+
+
+def get_namespace_for_rendering(all_results):
+    # python_versions, lib_names, pytest_versions, statuses, latest_pytest_ver
+    python_versions = set()
+    lib_names = set()
+    pytest_versions = set()
+    statuses = {}
+    for result in all_results:
+        lib_name = '{}-{}'.format(result['name'], result['version'])
+        python_versions.add(result['env'])
+        lib_names.add(lib_name)
+        pytest_versions.add(result['pytest'])
+        statuses[(lib_name, result['env'], result['pytest'])] = result['status']
+
+    latest_pytest_ver = str(sorted(LooseVersion(x) for x in pytest_versions)[-1])
+    return dict(
+        python_versions=sorted(python_versions),
+        lib_names=sorted(lib_names),
+        pytest_versions=sorted(pytest_versions),
+        statuses=statuses,
+        latest_pytest_ver=latest_pytest_ver,
+    )
 
 if __name__ == '__main__':
     app.debug = True
