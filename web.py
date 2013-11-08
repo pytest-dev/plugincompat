@@ -52,6 +52,9 @@ class PlugsStorage(object):
         entry['status'] = result['status']
         self._db.results.save(entry)
 
+    def drop_all(self):
+        self._db.drop_collection('results')
+
     def get_all_results(self):
         return self._filter_entry_ids(self._db.results.find())
 

@@ -37,6 +37,9 @@ class MemoryStorage(object):
                 result.append(entry)
         return result
 
+    def drop_all(self):
+        self._results[:] = []
+
 @pytest.fixture(params=[PlugsStorage, MemoryStorage])
 def storage(request):
     '''
@@ -127,6 +130,17 @@ class TestPlugsStorage(object):
         result3 = make_result_data(name='myotherlib')
         storage.add_test_result(result3)
         assert list(storage.get_all_results()) == [result1, result2, result3]
+
+    def test_drop_all(self, storage):
+        result1 = make_result_data()
+        result2 = make_result_data(version='1.1')
+        storage.add_test_result(result1)
+        storage.add_test_result(result2)
+        assert len(storage.get_all_results()) == 2
+
+        storage.drop_all()
+        assert len(storage.get_all_results()) == 0
+
 
 @pytest.fixture
 def patched_storage(monkeypatch):
