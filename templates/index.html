@@ -44,7 +44,7 @@
     {% for lib_name in lib_names %}
         <a id="{{lib_name}}"/>
         <table class="striped rounded metro">
-            <caption>{{ lib_name }}</caption>
+            <caption><a href="https://pypi.python.org/pypi/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></caption>
             <thead>
                 <tr>
                     <th>pytest</th>
