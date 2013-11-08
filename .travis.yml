@@ -4,12 +4,10 @@ python:
   - "3.3"
 install:
   - pip uninstall -y pytest
-  - pip install --use-mirrors pytest==$PYTEST_VERSION
-  - pip install --use-mirrors tox
-  - pip install --use-mirrors simplejson
+  - pip install pytest==$PYTEST_VERSION
+  - pip install -r requirements.txt
 env:
-  - PYTEST_VERSION=2.3.5
-  - PYTEST_VERSION=2.4.2
-  - PLUGS_SITE=http://pytest-plugs.herokuapp.com
+  - PYTEST_VERSION=2.3.5 PLUGS_SITE=http://pytest-plugs.herokuapp.com
+  - PYTEST_VERSION=2.4.2 PLUGS_SITE=http://pytest-plugs.herokuapp.com
 script: 
   - python run.py
