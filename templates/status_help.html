@@ -1,0 +1,24 @@
+<!doctype html>
+<title>pytest Plugins</title>
+
+<h1>Plugin Status Images</h1>
+
+<h2>API</h2>
+<p>The API will return an image response encoded as <code>"image/png"</code> as content-type, representing the status
+of the plugin requested in the URL.</p>
+
+<h3>/status/:name/</h3>
+<p>You must pass the following parameters to this query:</p>
+<ul>
+    <li>
+        <b>py</b>: python version as used in <a href="http://tox.org">tox</a>, for instance "py33" or "py22".
+    </li>
+    <li>
+        <b>pytest</b>: pytest version, for instance "2.3.5" or "2.4.2".
+    </li>
+</ul>
+
+<p>For example, to query the status of plugin <a href="https://pypi.python.org/pypi/{{ name }}">{{ name }}</a> for
+        python 3.3 and pytest version 2.4.2, hit this url:</p>
+
+<code>/status/{{ name }}?py=py33&pytest=2.4.2</code>

@@ -124,6 +124,35 @@ def get_namespace_for_rendering(all_results):
         latest_pytest_ver=latest_pytest_ver,
     )
 
+
+@app.route('/status')
+@app.route('/status/<name>')
+def status_image(name=None):
+    py = request.args.get('py')
+    pytest = request.args.get('pytest')
+    if name and py and pytest:
+        storage = get_storage_for_view()
+        status = get_status_for(storage, name, py, pytest)
+        if not status:
+            status = 'unknown'
+        dirname = os.path.dirname(__file__)
+        filename = os.path.join(dirname, 'static', '%s.png' % status)
+        response = flask.make_response(open(filename, 'rb').read())
+        response.content_type = 'image/png'
+        return response
+    else:
+        if name is None:
+            name = 'pytest-pep8-1.0.5'
+        return render_template('status_help.html', name=name)
+
+
+def get_status_for(storage, fullname, env, pytest):
+    name, version = fullname.rsplit('-', 1)
+    for test_result in storage.get_test_results(name, version):
+        if test_result['env'] == env and test_result['pytest'] == pytest:
+            return test_result['status']
+    return None
+
 if __name__ == '__main__':
     app.debug = True
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))

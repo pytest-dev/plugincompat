@@ -216,3 +216,13 @@ class TestView(object):
 
         response = client.get('/')
         assert response.data == 'Database is empty'
+
+    def test_status_image_help(self, client):
+        response = client.get('/status/mylib-1.0')
+        assert 'Plugin Status Images' in response.data
+
+    def test_status_image(self, client):
+        self.post_result(client, make_result_data())
+
+        response = client.get('/status/mylib-1.0?py=py27&pytest=2.3')
+        assert response.content_type == 'image/png'
