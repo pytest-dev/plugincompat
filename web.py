@@ -77,14 +77,17 @@ def get_storage_for_view():
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    storage = get_storage_for_view()
     if request.method == 'POST':
         results = request.get_json()
         if not isinstance(results, list):
             results = [results]
-        storage = get_storage_for_view()
         for result in results:
             storage.add_test_result(result)
         return 'OK'
+    else:
+        response = flask.jsonify(data=storage.get_all_results())
+        return response
 
 if __name__ == '__main__':
     app.debug = True

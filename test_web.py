@@ -164,3 +164,13 @@ class TestView(object):
         self.post_result(client, [result3, result4])
         assert patched_storage.get_all_results() == [result1, result2, result3, result4]
 
+    def test_index_get(self, client, patched_storage):
+        self.post_result(client, make_result_data())
+        self.post_result(client, make_result_data(env='py33'))
+        self.post_result(client, make_result_data(name='myotherlib'))
+        self.post_result(client, make_result_data(name='myotherlib', env='py33'))
+        assert len(patched_storage.get_all_results()) == 4
+
+        response = client.get('/')
+        results = json.loads(response.data)['data']
+        assert set(x['name'] for x in results) == {'mylib', 'myotherlib'}
