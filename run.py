@@ -141,7 +141,6 @@ def main():
     #plugins = [
     #    ('pytest-pep8', '1.0.5'),
     #    ('pytest-cache', '1.0'),
-    #    ('pytest-xdist', '1.9'),
     #    ('pytest-bugzilla', '0.2'),
     #]
 
