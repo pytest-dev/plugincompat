@@ -4,7 +4,6 @@ python:
   - "3.3"
 install:
   - pip uninstall -y pytest
-  - pip install pytest==$PYTEST_VERSION
   - pip install -r requirements.txt
 env:
   - PYTEST_VERSION=2.3.5 PLUGS_SITE=http://pytest-plugs.herokuapp.com

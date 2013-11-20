@@ -98,7 +98,7 @@ def extract(basename):
 #===================================================================================================
 # run_tox
 #===================================================================================================
-def run_tox(directory, tox_env):
+def run_tox(directory, tox_env, pytest_version):
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
         f = open(tox_file, 'w')
@@ -110,7 +110,7 @@ def run_tox(directory, tox_env):
     oldcwd = os.getcwd()
     try:
         os.chdir(directory)
-        result = os.system('tox --result-json=result.json -e %s' % tox_env)
+        result = os.system('tox --result-json=result.json -e %s --force-dep-version=pytest==%s' % (tox_env, pytest_version))
         return result
     finally:
         os.chdir(oldcwd)
@@ -138,11 +138,11 @@ def main():
 
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
-    #plugins = [
-    #    ('pytest-pep8', '1.0.5'),
-    #    ('pytest-cache', '1.0'),
-    #    ('pytest-bugzilla', '0.2'),
-    #]
+    plugins = [
+        ('pytest-pep8', '1.0.5'),
+        ('pytest-cache', '1.0'),
+        ('pytest-bugzilla', '0.2'),
+    ]
 
     test_results = {}
     for name, version in plugins:
@@ -155,7 +155,7 @@ def main():
         print('-> downloaded', basename)
         directory = extract(basename)
         print('-> extracted to', directory)
-        result = run_tox(directory, tox_env)
+        result = run_tox(directory, tox_env, pytest_version)
         print('-> tox returned %s' % result)
         test_results[(name, version)] = result
 
