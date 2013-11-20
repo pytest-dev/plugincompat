@@ -10,7 +10,6 @@ from zipfile import ZipFile
 # py2x3 compatibility
 #===================================================================================================
 import itertools
-import pytest
 import requests
 import simplejson
 
