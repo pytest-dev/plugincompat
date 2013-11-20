@@ -133,7 +133,7 @@ commands=
 #===================================================================================================
 def main():
     tox_env = 'py%d%d' % sys.version_info[:2]
-    pytest_version = pytest.__version__
+    pytest_version = os.environ['PYTEST_VERSION']
     client = ServerProxy('https://pypi.python.org/pypi')
 
     plugins = iter_plugins(client)
