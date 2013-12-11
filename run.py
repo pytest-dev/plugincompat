@@ -109,7 +109,7 @@ def run_tox(directory, tox_env, pytest_version):
     oldcwd = os.getcwd()
     try:
         os.chdir(directory)
-        result = os.system('tox --result-json=result.json -e %s --force-dep-version=pytest==%s' % (tox_env, pytest_version))
+        result = os.system('tox --result-json=result.json -e %s --force-dep=pytest==%s' % (tox_env, pytest_version))
         return result
     finally:
         os.chdir(oldcwd)
