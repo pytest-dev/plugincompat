@@ -137,11 +137,11 @@ def main():
 
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
-    plugins = [
-        ('pytest-pep8', '1.0.5'),
-        ('pytest-cache', '1.0'),
-        ('pytest-bugzilla', '0.2'),
-    ]
+    #plugins = [
+    #    ('pytest-pep8', '1.0.5'),
+    #    ('pytest-cache', '1.0'),
+    #    ('pytest-bugzilla', '0.2'),
+    #]
 
     test_results = {}
     for name, version in plugins:
