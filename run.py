@@ -5,10 +5,6 @@ import os
 import sys
 import tarfile
 from zipfile import ZipFile
-
-#===================================================================================================
-# py2x3 compatibility
-#===================================================================================================
 import itertools
 import requests
 import simplejson
@@ -22,9 +18,6 @@ else:
     from urllib import urlretrieve
 
 
-#===================================================================================================
-# iter_plugins
-#===================================================================================================
 def iter_plugins(client, search='pytest-'):
     '''
     Returns an iterator of (name, version) from PyPI.
@@ -36,9 +29,6 @@ def iter_plugins(client, search='pytest-'):
         yield plug_data['name'], plug_data['version']
 
 
-#===================================================================================================
-# get_latest_versions
-#===================================================================================================
 def get_latest_versions(plugins):
     '''
     Returns an iterator of (name, version) from the given list of (name, version), but returning
@@ -51,9 +41,6 @@ def get_latest_versions(plugins):
         yield name, str(loose_version)
 
 
-#===================================================================================================
-# download_package
-#===================================================================================================
 def download_package(client, name, version):
     found_dists = []
     for url_data in client.release_urls(name, version):
@@ -66,9 +53,6 @@ def download_package(client, name, version):
     return None
 
 
-#===================================================================================================
-# extract
-#===================================================================================================
 def extract(basename):
     """
     Extracts the contents of the given archive into the current directory.
@@ -88,15 +72,13 @@ def extract(basename):
     }
     for ext, extractor in extractors.items():
         if basename.endswith(ext):
-            with closing(extractor(basename)) as f: # need closing for python 2.6 because of TarFile
+            with closing(extractor(
+                    basename)) as f: # need closing for python 2.6 because of TarFile
                 f.extractall('.')
             return basename[:-len(ext)]
     assert False, 'could not extract %s' % basename
 
 
-#===================================================================================================
-# run_tox
-#===================================================================================================
 def run_tox(directory, tox_env, pytest_version):
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
@@ -109,7 +91,9 @@ def run_tox(directory, tox_env, pytest_version):
     oldcwd = os.getcwd()
     try:
         os.chdir(directory)
-        result = os.system('tox --result-json=result.json -e %s --force-dep=pytest==%s' % (tox_env, pytest_version))
+        result = os.system(
+            'tox --result-json=result.json -e %s --force-dep=pytest==%s' % (
+                tox_env, pytest_version))
         return result
     finally:
         os.chdir(oldcwd)
@@ -127,9 +111,6 @@ commands=
 '''
 
 
-#===================================================================================================
-# main
-#===================================================================================================
 def main():
     tox_env = 'py%d%d' % sys.version_info[:2]
     pytest_version = os.environ['PYTEST_VERSION']
@@ -158,7 +139,6 @@ def main():
         print('-> tox returned %s' % result)
         test_results[(name, version)] = result
 
-
     print('\n\n')
     print('=' * 60)
     print('Summary')
@@ -176,15 +156,16 @@ def main():
         post_data.append(
             {'name': name,
              'version': version,
-             'env' : tox_env,
+             'env': tox_env,
              'pytest': pytest_version,
              'status': status,
-             }
+            }
         )
     post_url = os.environ.get('PLUGS_SITE')
     if post_url:
         headers = {'content-type': 'application/json'}
-        response = requests.post(post_url, data=simplejson.dumps(post_data), headers=headers)
+        response = requests.post(post_url, data=simplejson.dumps(post_data),
+                                 headers=headers)
         print('posted to {}; response={}'.format(post_url, response))
     else:
         print('not posting, no $PLUGS_SITE defined: {}'.format(post_data))

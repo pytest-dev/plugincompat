@@ -2,6 +2,7 @@ from flask import json
 import pytest
 from web import PlugsStorage
 
+
 class MemoryStorage(object):
     """
     Mock class that simulates a PlugsStorage instance. This class simply holds the values in memory, and is
@@ -9,6 +10,7 @@ class MemoryStorage(object):
 
     Hmm interfaces would be handy here.
     """
+
     def __init__(self):
         self._results = []
 
@@ -19,9 +21,9 @@ class MemoryStorage(object):
 
         for index, existing_result in enumerate(self._results):
             if (existing_result['name'] == result['name'] and
-                    existing_result['version'] == result['version'] and
-                    existing_result['env'] == result['env'] and
-                    existing_result['pytest'] == result['pytest']):
+                        existing_result['version'] == result['version'] and
+                        existing_result['env'] == result['env'] and
+                        existing_result['pytest'] == result['pytest']):
                 self._results[index] = result
                 break
         else:
@@ -39,6 +41,7 @@ class MemoryStorage(object):
 
     def drop_all(self):
         self._results[:] = []
+
 
 @pytest.fixture(params=[PlugsStorage, MemoryStorage])
 def storage(request):
@@ -145,13 +148,18 @@ class TestPlugsStorage(object):
 @pytest.fixture
 def patched_storage(monkeypatch):
     import web
+
+
     result = MemoryStorage()
     monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
     return result
 
+
 @pytest.fixture
 def client():
     from web import app
+
+
     result = app.test_client()
     return result
 
@@ -160,8 +168,10 @@ class TestView(object):
     """
     Tests web views for pytest-plugs
     """
+
     def post_result(self, client, result):
-        response = client.post('/', data=json.dumps(result), content_type='application/json')
+        response = client.post('/', data=json.dumps(result),
+                               content_type='application/json')
         assert response.status_code == 200
 
     def test_index_post(self, client, patched_storage):
@@ -176,13 +186,15 @@ class TestView(object):
         result3 = make_result_data(name='myotherlib')
         result4 = make_result_data(name='myotherlib', env='py33')
         self.post_result(client, [result3, result4])
-        assert patched_storage.get_all_results() == [result1, result2, result3, result4]
+        assert patched_storage.get_all_results() == [result1, result2, result3,
+                                                     result4]
 
     def test_index_get_json(self, client, patched_storage):
         self.post_result(client, make_result_data())
         self.post_result(client, make_result_data(env='py33'))
         self.post_result(client, make_result_data(name='myotherlib'))
-        self.post_result(client, make_result_data(name='myotherlib', env='py33'))
+        self.post_result(client,
+                         make_result_data(name='myotherlib', env='py33'))
         assert len(patched_storage.get_all_results()) == 4
 
         response = client.get('/?json=1')
@@ -191,10 +203,13 @@ class TestView(object):
 
     def test_get_render_namespace(self):
         from web import get_namespace_for_rendering
+
+
         result1 = make_result_data()
         result2 = make_result_data(env='py33', status='failed')
         result3 = make_result_data(env='py33', pytest='2.4')
-        result4 = make_result_data(name='myotherlib', version='2.0', pytest='2.4')
+        result4 = make_result_data(name='myotherlib', version='2.0',
+                                   pytest='2.4')
         all_results = [result1, result2, result3, result4]
 
         statuses = {
@@ -208,7 +223,7 @@ class TestView(object):
             'lib_names': ['mylib-1.0', 'myotherlib-2.0'],
             'pytest_versions': ['2.3', '2.4'],
             'latest_pytest_ver': '2.4',
-            'statuses' : statuses,
+            'statuses': statuses,
         }
 
     def test_get_with_empty_database(self, client, patched_storage):

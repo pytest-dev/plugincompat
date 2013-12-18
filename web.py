@@ -12,12 +12,15 @@ class PlugsStorage(object):
     """
 
     def __init__(self, default_db_name='test-results'):
-        mongodb_uri = os.environ.get('MONGOLAB_URI', 'mongodb://localhost:27017/{}'.format(default_db_name))
+        mongodb_uri = os.environ.get('MONGOLAB_URI',
+                                     'mongodb://localhost:27017/{}'.format(
+                                         default_db_name))
         db_name = urlsplit(mongodb_uri).path[1:]
         self._connection = pymongo.Connection(mongodb_uri)
         self._db = self._connection[db_name]
 
-        self._db.results.create_index([('name', pymongo.ASCENDING), ('version', pymongo.ASCENDING)])
+        self._db.results.create_index(
+            [('name', pymongo.ASCENDING), ('version', pymongo.ASCENDING)])
 
         self.__TESTING__ = False
 
@@ -59,7 +62,8 @@ class PlugsStorage(object):
         return self._filter_entry_ids(self._db.results.find())
 
     def get_test_results(self, name, version):
-        return self._filter_entry_ids(self._db.results.find({'name': name, 'version': version}))
+        return self._filter_entry_ids(
+            self._db.results.find({'name': name, 'version': version}))
 
     def _filter_entry_ids(self, entries):
         result = []
@@ -67,6 +71,7 @@ class PlugsStorage(object):
             del entry['_id']
             result.append(entry)
         return result
+
 
 app = flask.Flask('pytest-plugs')
 
@@ -115,7 +120,8 @@ def get_namespace_for_rendering(all_results):
         pytest_versions.add(result['pytest'])
         statuses[(lib_name, result['env'], result['pytest'])] = result['status']
 
-    latest_pytest_ver = str(sorted(LooseVersion(x) for x in pytest_versions)[-1])
+    latest_pytest_ver = str(
+        sorted(LooseVersion(x) for x in pytest_versions)[-1])
     return dict(
         python_versions=sorted(python_versions),
         lib_names=sorted(lib_names),
@@ -152,6 +158,7 @@ def get_status_for(storage, fullname, env, pytest):
         if test_result['env'] == env and test_result['pytest'] == pytest:
             return test_result['status']
     return None
+
 
 if __name__ == '__main__':
     app.debug = True
