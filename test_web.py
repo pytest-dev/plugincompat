@@ -204,13 +204,17 @@ class TestView(object):
     def test_get_render_namespace(self):
         from web import get_namespace_for_rendering
 
-
-        result1 = make_result_data()
-        result2 = make_result_data(env='py33', status='failed')
-        result3 = make_result_data(env='py33', pytest='2.4')
-        result4 = make_result_data(name='myotherlib', version='2.0',
-                                   pytest='2.4')
-        all_results = [result1, result2, result3, result4]
+        # post results; only the latest lib versions should be rendered
+        all_results = [
+            make_result_data(),
+            make_result_data(env='py33', status='failed'),
+            make_result_data(name='myotherlib', version='2.0', pytest='2.4'),
+            make_result_data(env='py33', pytest='2.4'),
+            make_result_data(env='py33', pytest='2.4', version='0.6'),
+            make_result_data(env='py33', pytest='2.4', version='0.7'),
+            make_result_data(env='py33', pytest='2.4', version='0.8'),
+            make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
+        ]
 
         statuses = {
             ('mylib-1.0', 'py27', '2.3'): 'ok',

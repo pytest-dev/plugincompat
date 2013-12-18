@@ -1,6 +1,8 @@
 from distutils.version import LooseVersion
 import os
 from urlparse import urlsplit
+import itertools
+
 from flask import request, render_template
 import flask
 import pymongo
@@ -113,7 +115,12 @@ def get_namespace_for_rendering(all_results):
     lib_names = set()
     pytest_versions = set()
     statuses = {}
+
+    latest_versions = set(get_latest_versions((x['name'], x['version']) for x in all_results))
+
     for result in all_results:
+        if (result['name'], result['version']) not in latest_versions:
+            continue
         lib_name = '{}-{}'.format(result['name'], result['version'])
         python_versions.add(result['env'])
         lib_names.add(lib_name)
@@ -129,6 +136,20 @@ def get_namespace_for_rendering(all_results):
         statuses=statuses,
         latest_pytest_ver=latest_pytest_ver,
     )
+
+
+def get_latest_versions(names_and_versions):
+    """
+    Returns an iterator of (name, version) from the given list of (name,
+    version), but returning only the latest version of the package. Uses
+    distutils.LooseVersion to ensure compatibility with PEP386.
+    """
+    names_and_versions = sorted((name, LooseVersion(version)) for
+                                (name, version) in names_and_versions)
+    for name, grouped_versions in itertools.groupby(names_and_versions,
+                                                    key=lambda x: x[0]):
+        name, loose_version = list(grouped_versions)[-1]
+        yield name, str(loose_version)
 
 
 @app.route('/status')
