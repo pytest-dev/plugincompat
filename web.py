@@ -130,7 +130,7 @@ def get_namespace_for_rendering(all_results):
         pytest_versions.add(result['pytest'])
         key = (lib_name, result['env'], result['pytest'])
         statuses[key] = result['status']
-        outputs[key] = result['output']
+        outputs[key] = result.get('output', '<no output available>')
 
     latest_pytest_ver = str(
         sorted(LooseVersion(x) for x in pytest_versions)[-1])

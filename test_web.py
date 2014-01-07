@@ -220,8 +220,13 @@ class TestView(object):
             make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
         ]
 
+        bad_result = make_result_data(name='badlib')
+        del bad_result['output']
+        all_results.append(bad_result)
+
         output_ok = 'all commands:\nok'
         statuses_and_outputs = {
+            ('badlib-1.0', 'py27', '2.3'): ('ok', '<no output available>'),
             ('mylib-1.0', 'py27', '2.3'): ('ok', output_ok),
             ('mylib-1.0', 'py33', '2.3'): ('failed', output_ok),
             ('mylib-1.0', 'py33', '2.4'): ('ok', output_ok),
@@ -235,7 +240,7 @@ class TestView(object):
 
         assert get_namespace_for_rendering(all_results) == {
             'python_versions': ['py27', 'py33'],
-            'lib_names': ['mylib-1.0', 'myotherlib-2.0'],
+            'lib_names': ['badlib-1.0', 'mylib-1.0', 'myotherlib-2.0'],
             'pytest_versions': ['2.3', '2.4'],
             'latest_pytest_ver': '2.4',
             'statuses': statuses,
