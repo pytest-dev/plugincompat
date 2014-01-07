@@ -40,8 +40,9 @@ class PlugsStorage(object):
             * "env": python environment of the test. Examples: "py27", "py32", "py33".
             * "pytest": pytest version of the test. Examples: "2.3.5"
             * "status": "ok" or "fail".
+            * "output": string with output from running tox commands.
         """
-        expected = {'name', 'version', 'env', 'pytest', 'status'}
+        expected = {'name', 'version', 'env', 'pytest', 'status', 'output'}
         if not expected.issubset(result):
             raise TypeError('Invalid keys given: %s' % result.keys())
 
@@ -55,6 +56,7 @@ class PlugsStorage(object):
         if entry is None:
             entry = query
         entry['status'] = result['status']
+        entry['output'] = result['output']
         self._db.results.save(entry)
 
     def drop_all(self):

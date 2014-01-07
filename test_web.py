@@ -14,15 +14,15 @@ class MemoryStorage(object):
         self._results = []
 
     def add_test_result(self, result):
-        expected = {'name', 'version', 'env', 'pytest', 'status'}
+        expected = {'name', 'version', 'env', 'pytest', 'status', 'output'}
         if not expected.issubset(result):
             raise TypeError('Invalid keys given: %s' % result.keys())
 
         for index, existing_result in enumerate(self._results):
             if (existing_result['name'] == result['name'] and
-                        existing_result['version'] == result['version'] and
-                        existing_result['env'] == result['env'] and
-                        existing_result['pytest'] == result['pytest']):
+                    existing_result['version'] == result['version'] and
+                    existing_result['env'] == result['env'] and
+                    existing_result['pytest'] == result['pytest']):
                 self._results[index] = result
                 break
         else:
@@ -79,6 +79,7 @@ def make_result_data(**kwparams):
         'env': 'py27',
         'pytest': '2.3',
         'status': 'ok',
+        'output': 'all commands:\nok'
     }
     result.update(kwparams)
     return result
@@ -114,7 +115,7 @@ class TestPlugsStorage(object):
         storage.add_test_result(result3)
         assert storage.get_test_results('mylib', '1.0') == [result1, result3]
 
-        result4 = make_result_data(version='1.1')
+        result4 = make_result_data(version='1.1', output='another output')
         storage.add_test_result(result4)
         assert storage.get_test_results('mylib', '1.0') == [result1, result3]
         assert storage.get_test_results('mylib', '1.1') == [result4]
