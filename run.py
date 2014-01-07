@@ -8,6 +8,7 @@ from zipfile import ZipFile
 import itertools
 import requests
 import simplejson
+import subprocess
 
 
 if sys.version_info[0] == 3:
@@ -65,6 +66,7 @@ def extract(basename):
     """
     from contextlib import closing
 
+
     extractors = {
         '.zip': ZipFile,
         '.tar.gz': tarfile.open,
@@ -91,10 +93,18 @@ def run_tox(directory, tox_env, pytest_version):
     oldcwd = os.getcwd()
     try:
         os.chdir(directory)
-        result = os.system(
-            'tox --result-json=result.json -e %s --force-dep=pytest==%s' % (
-                tox_env, pytest_version))
-        return result
+        cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
+        cmdline %= (tox_env, pytest_version)
+
+        try:
+            output = subprocess.check_output(
+                cmdline, shell=True, stderr=subprocess.STDOUT)
+            result = 0
+        except subprocess.CalledProcessError as e:
+            result = e.returncode
+            output = e.output
+
+        return result, output
     finally:
         os.chdir(oldcwd)
 
@@ -119,9 +129,9 @@ def main():
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
     #plugins = [
-    #    ('pytest-pep8', '1.0.5'),
-    #    ('pytest-cache', '1.0'),
-    #    ('pytest-bugzilla', '0.2'),
+        #('pytest-pep8', '1.0.5'),
+        #    ('pytest-cache', '1.0'),
+        #    ('pytest-bugzilla', '0.2'),
     #]
 
     test_results = {}
@@ -135,9 +145,9 @@ def main():
         print('-> downloaded', basename)
         directory = extract(basename)
         print('-> extracted to', directory)
-        result = run_tox(directory, tox_env, pytest_version)
+        result, output = run_tox(directory, tox_env, pytest_version)
         print('-> tox returned %s' % result)
-        test_results[(name, version)] = result
+        test_results[(name, version)] = result, output
 
     print('\n\n')
     print('=' * 60)
@@ -145,7 +155,7 @@ def main():
     print('=' * 60)
     post_data = []
     for (name, version) in sorted(test_results):
-        result = test_results[(name, version)]
+        result, output = test_results[(name, version)]
         if result == 0:
             status = 'ok'
         else:
@@ -159,6 +169,7 @@ def main():
              'env': tox_env,
              'pytest': pytest_version,
              'status': status,
+             'output': output,
             }
         )
     post_url = os.environ.get('PLUGS_SITE')
