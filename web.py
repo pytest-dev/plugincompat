@@ -160,12 +160,12 @@ def get_latest_versions(names_and_versions):
 
 @app.route('/status')
 @app.route('/status/<name>')
-def status_image(name=None):
+def get_status_image(name=None):
     py = request.args.get('py')
     pytest = request.args.get('pytest')
     if name and py and pytest:
         storage = get_storage_for_view()
-        status = get_status_for(storage, name, py, pytest)
+        status = get_field_for(storage, name, py, pytest, 'status')
         if not status:
             status = 'unknown'
         dirname = os.path.dirname(__file__)
@@ -178,12 +178,23 @@ def status_image(name=None):
             name = 'pytest-pep8-1.0.5'
         return render_template('status_help.html', name=name)
 
+@app.route('/output/<name>')
+def get_output(name):
+    py = request.args.get('py')
+    pytest = request.args.get('pytest')
+    if name and py and pytest:
+        storage = get_storage_for_view()
+        output = get_field_for(storage, name, py, pytest, 'output')
+        return output
+    else:
+        return 'Specify "py" and "pytest" parameters'
 
-def get_status_for(storage, fullname, env, pytest):
+
+def get_field_for(storage, fullname, env, pytest, field_name):
     name, version = fullname.rsplit('-', 1)
     for test_result in storage.get_test_results(name, version):
         if test_result['env'] == env and test_result['pytest'] == pytest:
-            return test_result['status']
+            return test_result[field_name]
     return None
 
 
