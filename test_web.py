@@ -5,10 +5,9 @@ from web import PlugsStorage
 
 class MemoryStorage(object):
     """
-    Mock class that simulates a PlugsStorage instance. This class simply holds the values in memory, and is
-    used by TestView as a mock to the real storage class, allowing the view to be tested without a database.
-
-    Hmm interfaces would be handy here.
+    Mock class that simulates a PlugsStorage instance. This class simply
+    holds the values in memory, and is used by TestView as a mock to the real
+    storage class, allowing the view to be tested without a database.
     """
 
     def __init__(self):
@@ -45,29 +44,32 @@ class MemoryStorage(object):
 
 @pytest.fixture(params=[PlugsStorage, MemoryStorage])
 def storage(request):
-    '''
-    Initializes a Storage for execution in a test environment. This fixture will instantiate the storage class
-    given in the parameters. This way we ensure both the real implementation and dummy implementation
-    work in the same way.
+    """
+    Initializes a Storage for execution in a test environment. This fixture
+    will instantiate the storage class given in the parameters. This way we
+    ensure both the real implementation and dummy implementation work in the
+    same way.
 
-    When initializing the real PlugsStorage(), it will use a test-specific data-base to avoid any conflicts between
-    tests and to avoid clashing with real databases.
-    '''
+    When initializing the real PlugsStorage(), it will use a test-specific
+    data-base to avoid any conflicts between tests and to avoid clashing with
+    real databases.
+    """
     if request.param is PlugsStorage:
         db_name = 'testing-{}'.format(request.node.name)
 
-        result = PlugsStorage(default_db_name=db_name)
-        result.__TESTING__ = True
+        plugs_storage = PlugsStorage(default_db_name=db_name)
+        plugs_storage.__TESTING__ = True
 
         def finalizer():
-            result.get_connection().drop_database(db_name)
+            plugs_storage.get_connection().drop_database(db_name)
 
         request.addfinalizer(finalizer)
+        return plugs_storage
     elif request.param is MemoryStorage:
-        result = MemoryStorage()
+        memory_storage = MemoryStorage()
+        return memory_storage
     else:
         assert False
-    return result
 
 
 def make_result_data(**kwparams):
@@ -80,6 +82,7 @@ def make_result_data(**kwparams):
     }
     result.update(kwparams)
     return result
+
 
 #noinspection PyShadowingNames
 class TestPlugsStorage(object):
@@ -149,7 +152,6 @@ class TestPlugsStorage(object):
 def patched_storage(monkeypatch):
     import web
 
-
     result = MemoryStorage()
     monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
     return result
@@ -159,9 +161,9 @@ def patched_storage(monkeypatch):
 def client():
     from web import app
 
-
     result = app.test_client()
     return result
+
 
 #noinspection PyShadowingNames
 class TestView(object):
