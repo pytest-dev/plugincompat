@@ -185,7 +185,9 @@ def get_output(name):
     if name and py and pytest:
         storage = get_storage_for_view()
         output = get_field_for(storage, name, py, pytest, 'output')
-        return output
+        response = flask.make_response(output)
+        response.content_type = 'text/plain'
+        return response
     else:
         return 'Specify "py" and "pytest" parameters'
 

@@ -258,6 +258,7 @@ class TestView(object):
 
         response = client.get('/output/mylib-1.0?py=py27&pytest=2.3')
         assert response.data == 'all commands:\nok'
+        assert response.content_type == 'text/plain'
 
     def test_status_image_help(self, client):
         response = client.get('/status/mylib-1.0')
