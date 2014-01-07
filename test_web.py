@@ -211,7 +211,8 @@ class TestView(object):
         all_results = [
             make_result_data(),
             make_result_data(env='py33', status='failed'),
-            make_result_data(name='myotherlib', version='2.0', pytest='2.4'),
+            make_result_data(name='myotherlib', version='2.0', pytest='2.4',
+                             output='output for myotherlib-2.0'),
             make_result_data(env='py33', pytest='2.4'),
             make_result_data(env='py33', pytest='2.4', version='0.6'),
             make_result_data(env='py33', pytest='2.4', version='0.7'),
@@ -219,18 +220,26 @@ class TestView(object):
             make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
         ]
 
-        statuses = {
-            ('mylib-1.0', 'py27', '2.3'): 'ok',
-            ('mylib-1.0', 'py33', '2.3'): 'failed',
-            ('mylib-1.0', 'py33', '2.4'): 'ok',
-            ('myotherlib-2.0', 'py27', '2.4'): 'ok',
+        output_ok = 'all commands:\nok'
+        statuses_and_outputs = {
+            ('mylib-1.0', 'py27', '2.3'): ('ok', output_ok),
+            ('mylib-1.0', 'py33', '2.3'): ('failed', output_ok),
+            ('mylib-1.0', 'py33', '2.4'): ('ok', output_ok),
+            ('myotherlib-2.0', 'py27', '2.4'): ('ok', 'output for myotherlib-2.0'),
         }
+
+        statuses = {k: status for (k, (status, output)) in
+                    statuses_and_outputs.items()}
+        outputs = {k: output for (k, (status, output)) in
+                   statuses_and_outputs.items()}
+
         assert get_namespace_for_rendering(all_results) == {
             'python_versions': ['py27', 'py33'],
             'lib_names': ['mylib-1.0', 'myotherlib-2.0'],
             'pytest_versions': ['2.3', '2.4'],
             'latest_pytest_ver': '2.4',
             'statuses': statuses,
+            'outputs': outputs,
         }
 
     def test_get_with_empty_database(self, client, patched_storage):
