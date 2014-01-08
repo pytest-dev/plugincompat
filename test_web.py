@@ -14,8 +14,8 @@ class MemoryStorage(object):
         self._results = []
 
     def add_test_result(self, result):
-        expected = {'name', 'version', 'env', 'pytest', 'status', 'output'}
-        if not expected.issubset(result):
+        required = {'name', 'version', 'env', 'pytest', 'status'}
+        if not required.issubset(result):
             raise TypeError('Invalid keys given: %s' % result.keys())
 
         for index, existing_result in enumerate(self._results):
@@ -258,6 +258,15 @@ class TestView(object):
 
         response = client.get('/output/mylib-1.0?py=py27&pytest=2.3')
         assert response.data == 'all commands:\nok'
+        assert response.content_type == 'text/plain'
+
+    def test_get_output_missing(self, client, patched_storage):
+        post_data = make_result_data()
+        del post_data['output']
+        patched_storage.add_test_result(post_data)
+
+        response = client.get('/output/mylib-1.0?py=py27&pytest=2.3')
+        assert response.data == '<no output available>'
         assert response.content_type == 'text/plain'
 
     def test_status_image_help(self, client):

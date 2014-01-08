@@ -130,7 +130,7 @@ def get_namespace_for_rendering(all_results):
         pytest_versions.add(result['pytest'])
         key = (lib_name, result['env'], result['pytest'])
         statuses[key] = result['status']
-        outputs[key] = result.get('output', '<no output available>')
+        outputs[key] = result.get('output', NO_OUTPUT_AVAILABLE)
 
     latest_pytest_ver = str(
         sorted(LooseVersion(x) for x in pytest_versions)[-1])
@@ -164,8 +164,7 @@ def get_status_image(name=None):
     py = request.args.get('py')
     pytest = request.args.get('pytest')
     if name and py and pytest:
-        storage = get_storage_for_view()
-        status = get_field_for(storage, name, py, pytest, 'status')
+        status = get_field_for(name, py, pytest, 'status')
         if not status:
             status = 'unknown'
         dirname = os.path.dirname(__file__)
@@ -183,8 +182,9 @@ def get_output(name):
     py = request.args.get('py')
     pytest = request.args.get('pytest')
     if name and py and pytest:
-        storage = get_storage_for_view()
-        output = get_field_for(storage, name, py, pytest, 'output')
+        output = get_field_for(name, py, pytest, 'output')
+        if not output:
+            output = NO_OUTPUT_AVAILABLE
         response = flask.make_response(output)
         response.content_type = 'text/plain'
         return response
@@ -192,13 +192,16 @@ def get_output(name):
         return 'Specify "py" and "pytest" parameters'
 
 
-def get_field_for(storage, fullname, env, pytest, field_name):
+def get_field_for(fullname, env, pytest, field_name):
+    storage = get_storage_for_view()
     name, version = fullname.rsplit('-', 1)
     for test_result in storage.get_test_results(name, version):
         if test_result['env'] == env and test_result['pytest'] == pytest:
-            return test_result[field_name]
+            return test_result.get(field_name, None)
     return None
 
+# text returned when an entry in the database lacks an "output" field
+NO_OUTPUT_AVAILABLE = '<no output available>'
 
 if __name__ == '__main__':
     app.debug = True

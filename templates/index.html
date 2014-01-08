@@ -28,13 +28,17 @@
             <tr>
                 <td><a href="#{{lib_name}}">{{ lib_name }}</a></td>
                 {% for python_ver in python_versions %}
+                    <td>
+                    <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, latest_pytest_ver) }}">
                     {% if statuses.get((lib_name, python_ver, latest_pytest_ver)) == "ok" %}
-                        <td><img src="{{ url_for('static', filename='ok.png') }}"/></td>
+                        <img src="{{ url_for('static', filename='ok.png') }}"/>
                     {% elif statuses.get((lib_name, python_ver, latest_pytest_ver)) == "fail" %}
-                        <td><img src="{{ url_for('static', filename='fail.png') }}"/></td>
+                        <img src="{{ url_for('static', filename='fail.png') }}"/>
                     {% else %}
-                        <td><img src="{{ url_for('static', filename='unknown.png') }}"/></td>
+                        <img src="{{ url_for('static', filename='unknown.png') }}"/>
                     {% endif %}
+                    </a>
+                    </td>
                 {% endfor %}
             </tr>
             {% endfor %}
@@ -58,13 +62,17 @@
                     <tr>
                     <td>{{ pytest_ver }}</td>
                     {% for python_ver in python_versions %}
+                        <td>
+                            <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, pytest_ver) }}">
                         {% if statuses.get((lib_name, python_ver, pytest_ver)) == "ok" %}
-                            <td><img src="{{ url_for('static', filename='ok.png') }}"/></td>
+                            <img src="{{ url_for('static', filename='ok.png') }}"/>
                         {% elif statuses.get((lib_name, python_ver, pytest_ver)) == "fail" %}
-                            <td><img src="{{ url_for('static', filename='fail.png') }}"/></td>
+                            <img src="{{ url_for('static', filename='fail.png') }}"/>
                         {% else %}
-                            <td><img src="{{ url_for('static', filename='unknown.png') }}"/></td>
+                            <img src="{{ url_for('static', filename='unknown.png') }}"/>
                         {% endif %}
+                            </a>
+                        </td>
                     {% endfor %}
                     </tr>
                 {% endfor %}
