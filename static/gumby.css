@@ -1866,7 +1866,7 @@ table { display: table; background-color: white; border-collapse: collapse; bord
 table caption { text-align: center; font-size: 30px; padding: .75em; }
 table thead th, table tbody td, table tr td { display: table-cell; padding: 10px; vertical-align: top; text-align: left; border-top: 1px solid #e5e5e5; }
 table tr td, table tbody tr td { font-size: 16px; }
-table tr td:first-child { font-weight: bold; }
+table tr td:first-child { font-weight: bold; white-space: nowrap;}
 table thead { background-color: #3085d6; color: #fff; }
 table thead tr th { font-size: 16px; font-weight: bold; vertical-align: bottom; }
 table.striped tr:nth-of-type(even), table table tr.stripe, table table tr.striped { background-color: #e5e5e5; }
