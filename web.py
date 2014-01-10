@@ -133,7 +133,7 @@ def get_namespace_for_rendering(all_results):
         key = (lib_name, result['env'], result['pytest'])
         statuses[key] = result['status']
         outputs[key] = result.get('output', NO_OUTPUT_AVAILABLE)
-        if not descriptions.get('key'):
+        if not descriptions.get(key):
             descriptions[key] = result.get('description', '')
 
     latest_pytest_ver = str(
