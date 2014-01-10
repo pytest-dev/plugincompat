@@ -247,7 +247,7 @@ class TestView(object):
                     lib_data.items()}
         outputs = {k: output for (k, (status, output, desc)) in
                    lib_data.items()}
-        descriptions = {k: desc for (k, (status, output, desc)) in
+        descriptions = {k[0]: desc for (k, (status, output, desc)) in
                         lib_data.items()}
 
         assert get_namespace_for_rendering(all_results) == {
