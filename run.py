@@ -21,25 +21,25 @@ else:
 
 def iter_plugins(client, search='pytest-'):
     '''
-    Returns an iterator of (name, version) from PyPI.
+    Returns an iterator of (name, version, summary) from PyPI.
     
     :param client: xmlrpclib.ServerProxy
     :param search: package names to search for 
     '''
     for plug_data in client.search({'name': search}):
-        yield plug_data['name'], plug_data['version']
+        yield plug_data['name'], plug_data['version'], plug_data['summary']
 
 
 def get_latest_versions(plugins):
     '''
-    Returns an iterator of (name, version) from the given list of (name, version), but returning
-    only the latest version of the package. Uses distutils.LooseVersion to ensure compatibility
-    with PEP386.
+    Returns an iterator of (name, version, summary) from the given list of (name,
+    version, summary), but returning only the latest version of the package. Uses
+    distutils.LooseVersion to ensure compatibility with PEP386.
     '''
-    plugins = [(name, LooseVersion(version)) for (name, version) in plugins]
+    plugins = [(name, LooseVersion(version), desc) for (name, version, desc) in plugins]
     for name, grouped_plugins in itertools.groupby(plugins, key=lambda x: x[0]):
-        name, loose_version = list(grouped_plugins)[-1]
-        yield name, str(loose_version)
+        name, loose_version, desc = list(grouped_plugins)[-1]
+        yield name, str(loose_version), desc
 
 
 def download_package(client, name, version):
@@ -128,14 +128,11 @@ def main():
 
     plugins = iter_plugins(client)
     plugins = list(get_latest_versions(plugins))
-    #plugins = [
-        #('pytest-pep8', '1.0.5'),
-        #    ('pytest-cache', '1.0'),
-        #    ('pytest-bugzilla', '0.2'),
-    #]
 
     test_results = {}
-    for name, version in plugins:
+    for name, version, desc in plugins:
+        # if name != 'pytest-pep8':
+        #     continue
         print('=' * 60)
         print('%s-%s' % (name, version))
         basename = download_package(client, name, version)
@@ -147,7 +144,7 @@ def main():
         print('-> extracted to', directory)
         result, output = run_tox(directory, tox_env, pytest_version)
         print('-> tox returned %s' % result)
-        test_results[(name, version)] = result, output
+        test_results[(name, version)] = result, output, desc
 
     print('\n\n')
     print('=' * 60)
@@ -155,7 +152,7 @@ def main():
     print('=' * 60)
     post_data = []
     for (name, version) in sorted(test_results):
-        result, output = test_results[(name, version)]
+        result, output, desc = test_results[(name, version)]
         if result == 0:
             status = 'ok'
         else:
@@ -170,6 +167,7 @@ def main():
              'pytest': pytest_version,
              'status': status,
              'output': output,
+             'description': desc,
             }
         )
     post_url = os.environ.get('PLUGS_SITE')
