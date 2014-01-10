@@ -20,9 +20,9 @@ class MemoryStorage(object):
 
         for index, existing_result in enumerate(self._results):
             if (existing_result['name'] == result['name'] and
-                    existing_result['version'] == result['version'] and
-                    existing_result['env'] == result['env'] and
-                    existing_result['pytest'] == result['pytest']):
+                        existing_result['version'] == result['version'] and
+                        existing_result['env'] == result['env'] and
+                        existing_result['pytest'] == result['pytest']):
                 self._results[index] = result
                 break
         else:
@@ -154,6 +154,7 @@ class TestPlugsStorage(object):
 def patched_storage(monkeypatch):
     import web
 
+
     result = MemoryStorage()
     monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
     return result
@@ -163,7 +164,9 @@ def patched_storage(monkeypatch):
 def client():
     from web import app
 
+
     result = app.test_client()
+    app.testing = True
     return result
 
 
@@ -212,13 +215,14 @@ class TestView(object):
         all_results = [
             make_result_data(),
             make_result_data(env='py33', status='failed'),
-            make_result_data(name='myotherlib', version='2.0', pytest='2.4',
-                             output='output for myotherlib-2.0'),
+            make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
             make_result_data(env='py33', pytest='2.4'),
             make_result_data(env='py33', pytest='2.4', version='0.6'),
             make_result_data(env='py33', pytest='2.4', version='0.7'),
             make_result_data(env='py33', pytest='2.4', version='0.8'),
-            make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
+            make_result_data(name='myotherlib', version='2.0', pytest='2.4',
+                             description='my other library',
+                             output='output for myotherlib-2.0'),
         ]
 
         bad_result = make_result_data(name='badlib')
@@ -226,18 +230,25 @@ class TestView(object):
         all_results.append(bad_result)
 
         output_ok = 'all commands:\nok'
-        statuses_and_outputs = {
-            ('badlib-1.0', 'py27', '2.3'): ('ok', '<no output available>'),
-            ('mylib-1.0', 'py27', '2.3'): ('ok', output_ok),
-            ('mylib-1.0', 'py33', '2.3'): ('failed', output_ok),
-            ('mylib-1.0', 'py33', '2.4'): ('ok', output_ok),
-            ('myotherlib-2.0', 'py27', '2.4'): ('ok', 'output for myotherlib-2.0'),
+        lib_data = {
+            ('badlib-1.0', 'py27', '2.3'): (
+                'ok', '<no output available>', 'a generic library'),
+            ('mylib-1.0', 'py27', '2.3'): (
+                'ok', output_ok, 'a generic library'),
+            ('mylib-1.0', 'py33', '2.3'): (
+                'failed', output_ok, 'a generic library'),
+            ('mylib-1.0', 'py33', '2.4'): (
+                'ok', output_ok, 'a generic library'),
+            ('myotherlib-2.0', 'py27', '2.4'): (
+                'ok', 'output for myotherlib-2.0', 'my other library'),
         }
 
-        statuses = {k: status for (k, (status, output)) in
-                    statuses_and_outputs.items()}
-        outputs = {k: output for (k, (status, output)) in
-                   statuses_and_outputs.items()}
+        statuses = {k: status for (k, (status, output, desc)) in
+                    lib_data.items()}
+        outputs = {k: output for (k, (status, output, desc)) in
+                   lib_data.items()}
+        descriptions = {k: desc for (k, (status, output, desc)) in
+                        lib_data.items()}
 
         assert get_namespace_for_rendering(all_results) == {
             'python_versions': ['py27', 'py33'],
@@ -246,6 +257,7 @@ class TestView(object):
             'latest_pytest_ver': '2.4',
             'statuses': statuses,
             'outputs': outputs,
+            'descriptions': descriptions,
         }
 
     def test_get_with_empty_database(self, client, patched_storage):

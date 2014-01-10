@@ -119,6 +119,7 @@ def get_namespace_for_rendering(all_results):
     pytest_versions = set()
     statuses = {}
     outputs = {}
+    descriptions = {}
 
     latest_versions = set(get_latest_versions((x['name'], x['version']) for x in all_results))
 
@@ -132,6 +133,7 @@ def get_namespace_for_rendering(all_results):
         key = (lib_name, result['env'], result['pytest'])
         statuses[key] = result['status']
         outputs[key] = result.get('output', NO_OUTPUT_AVAILABLE)
+        descriptions[key] = result.get('description', '')
 
     latest_pytest_ver = str(
         sorted(LooseVersion(x) for x in pytest_versions)[-1])
@@ -141,6 +143,7 @@ def get_namespace_for_rendering(all_results):
         pytest_versions=sorted(pytest_versions),
         statuses=statuses,
         outputs=outputs,
+        descriptions=descriptions,
         latest_pytest_ver=latest_pytest_ver,
     )
 

@@ -21,6 +21,7 @@
                 {% for python_ver in python_versions %}
                 <th>{{ python_ver }}</th>
                 {% endfor %}
+                <th>Description</th>
             </tr>
         </thead>
         <tbody>
@@ -40,6 +41,7 @@
                     </a>
                     </td>
                 {% endfor %}
+                <td>{{ descriptions[lib_name]}}</td>
             </tr>
             {% endfor %}
         </tbody>
