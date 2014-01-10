@@ -79,7 +79,8 @@ def make_result_data(**kwparams):
         'env': 'py27',
         'pytest': '2.3',
         'status': 'ok',
-        'output': 'all commands:\nok'
+        'output': 'all commands:\nok',
+        'description': 'a generic library',
     }
     result.update(kwparams)
     return result

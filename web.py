@@ -57,6 +57,7 @@ class PlugsStorage(object):
             entry = query
         entry['status'] = result['status']
         entry['output'] = result['output']
+        entry['description'] = result.get('description', '')
         self._db.results.save(entry)
 
     def drop_all(self):
@@ -82,8 +83,8 @@ app = flask.Flask('pytest-plugs')
 
 def get_storage_for_view():
     """
-    Returns a storage instance to be used by the view functions. This exists solely we can mock this function
-    during testing.
+    Returns a storage instance to be used by the view functions. This exists
+    solely we can mock this function during testing.
     """
     return PlugsStorage()
 
