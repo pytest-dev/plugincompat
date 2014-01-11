@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
   - "3.3"
-#before_install:
+before_install:
   # pytest-qt
   - sudo apt-get install -qq python-pyside
   #- export PYTHONPATH="$PYTHONPATH:/usr/lib/python2.7/dist-packages/"
