@@ -67,10 +67,24 @@ class PlugsStorage(object):
         return self._filter_entry_ids(self._db.results.find())
 
     def get_test_results(self, name, version):
-        return self._filter_entry_ids(
-            self._db.results.find({'name': name, 'version': version}))
+        """
+        searches the database for all test results given library name and
+        version. If version is LATEST_VERSION, only results for highest
+        version number are returned.
+        """
+        query = {'name': name}
+        if version != LATEST_VERSION:
+            query.update({'version': version})
+        results = self._filter_entry_ids(self._db.results.find(query))
+        if version != LATEST_VERSION:
+            return results
+        else:
+            return filter_latest_results(results)
 
     def _filter_entry_ids(self, entries):
+        """
+        removes special "_id" from entries returned from MongoDB
+        """
         result = []
         for entry in entries:
             del entry['_id']
@@ -112,6 +126,19 @@ def index():
                 return 'Database is empty'
 
 
+def filter_latest_results(all_results):
+    """
+    given a list of test results read from the db, filter out only the ones
+    for highest library version available in the database.
+    """
+    latest_versions = set(
+        get_latest_versions((x['name'], x['version']) for x in all_results))
+
+    for result in all_results:
+        if (result['name'], result['version']) in latest_versions:
+            yield result
+
+
 def get_namespace_for_rendering(all_results):
     # python_versions, lib_names, pytest_versions, statuses, latest_pytest_ver
     python_versions = set()
@@ -121,11 +148,8 @@ def get_namespace_for_rendering(all_results):
     outputs = {}
     descriptions = {}
 
-    latest_versions = set(get_latest_versions((x['name'], x['version']) for x in all_results))
-
-    for result in all_results:
-        if (result['name'], result['version']) not in latest_versions:
-            continue
+    latest_results = filter_latest_results(all_results)
+    for result in latest_results:
         lib_name = '{}-{}'.format(result['name'], result['version'])
         python_versions.add(result['env'])
         lib_names.add(lib_name)
@@ -207,6 +231,7 @@ def get_field_for(fullname, env, pytest, field_name):
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'
+LATEST_VERSION = 'latest'
 
 if __name__ == '__main__':
     app.debug = True

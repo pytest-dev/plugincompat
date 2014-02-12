@@ -266,28 +266,43 @@ class TestView(object):
         response = client.get('/')
         assert response.data == 'Database is empty'
 
-    def test_get_output(self, client):
-        self.post_result(client, make_result_data())
+    @pytest.mark.parametrize('lib_version', ['1.0', '1.2', 'latest'])
+    def test_get_output(self, client, lib_version):
+        self.post_result(client,
+                         make_result_data(version='0.9', output='ver 0.9'))
+        self.post_result(client,
+                         make_result_data(version='1.0', output='ver 1.0'))
+        self.post_result(client,
+                         make_result_data(version='1.2', output='ver 1.2'))
 
-        response = client.get('/output/mylib-1.0?py=py27&pytest=2.3')
-        assert response.data == 'all commands:\nok'
+        url = '/output/mylib-{0}?py=py27&pytest=2.3'.format(lib_version)
+        response = client.get(url)
+
+        if lib_version == 'latest':
+            lib_version = '1.2'
+        assert response.data == 'ver {}'.format(lib_version)
         assert response.content_type == 'text/plain'
 
-    def test_get_output_missing(self, client, patched_storage):
+    @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
+    def test_get_output_missing(self, client, patched_storage, lib_version):
         post_data = make_result_data()
         del post_data['output']
         patched_storage.add_test_result(post_data)
 
-        response = client.get('/output/mylib-1.0?py=py27&pytest=2.3')
+        response = client.get('/output/mylib-{}?py=py27&pytest=2.3'
+                              .format(lib_version))
         assert response.data == '<no output available>'
         assert response.content_type == 'text/plain'
 
-    def test_status_image_help(self, client):
-        response = client.get('/status/mylib-1.0')
+    @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
+    def test_status_image_help(self, client, lib_version):
+        response = client.get('/status/mylib-{}'.format(lib_version))
         assert 'Plugin Status Images' in response.data
 
-    def test_status_image(self, client):
+    @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
+    def test_status_image(self, client, lib_version):
         self.post_result(client, make_result_data())
 
-        response = client.get('/status/mylib-1.0?py=py27&pytest=2.3')
+        response = client.get('/status/mylib-{}?py=py27&pytest=2.3'
+                              .format(lib_version))
         assert response.content_type == 'image/png'
