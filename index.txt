@@ -1,0 +1,282 @@
+[
+  [
+    "pytest-bdd",
+    "2.1.0",
+    "BDD for pytest"
+  ],
+  [
+    "pytest-bench",
+    "0.2.5",
+    "Benchmark utility that plugs into pytest."
+  ],
+  [
+    "pytest-blockage",
+    "0.1",
+    "Disable network requests during a test run."
+  ],
+  [
+    "pytest-browsermob-proxy",
+    "0.1",
+    "BrowserMob proxy plugin for py.test."
+  ],
+  [
+    "pytest-bugzilla",
+    "0.2",
+    "py.test bugzilla integration plugin"
+  ],
+  [
+    "pytest-cache",
+    "1.0",
+    "pytest plugin with mechanisms for caching across test runs"
+  ],
+  [
+    "pytest-capturelog",
+    "0.7",
+    "py.test plugin to capture log messages"
+  ],
+  [
+    "pytest-codecheckers",
+    "0.2",
+    "pytest plugin to add source code sanity checks (pep8 and friends)"
+  ],
+  [
+    "pytest-contextfixture",
+    "0.1.1",
+    "Define pytest fixtures as context managers."
+  ],
+  [
+    "pytest-couchdbkit",
+    "0.5.1",
+    "py.test extension for per-test couchdb databases using couchdbkit"
+  ],
+  [
+    "pytest-cov",
+    "1.6",
+    "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing"
+  ],
+  [
+    "pytest-dbfixtures",
+    "0.4.8",
+    "Databases fixtures plugin for py.test."
+  ],
+  [
+    "pytest-dbus-notification",
+    "1.0.1",
+    "D-BUS notifications for pytest results."
+  ],
+  [
+    "pytest-diffeo",
+    "0.1.7",
+    "Common py.test support for Diffeo packages"
+  ],
+  [
+    "pytest-django",
+    "2.6.1",
+    "A Django plugin for py.test."
+  ],
+  [
+    "pytest-django-haystack",
+    "0.1",
+    "Cleanup your Haystack indexes between tests"
+  ],
+  [
+    "pytest-django-lite",
+    "0.1.1",
+    "The bare minimum to integrate py.test with Django."
+  ],
+  [
+    "pytest-figleaf",
+    "1.0",
+    "py.test figleaf coverage plugin"
+  ],
+  [
+    "pytest-flakes",
+    "0.2",
+    "pytest plugin to check source code with pyflakes"
+  ],
+  [
+    "pytest-greendots",
+    "0.3",
+    "Green progress dots"
+  ],
+  [
+    "pytest-growl",
+    "0.2",
+    "Growl notifications for pytest results."
+  ],
+  [
+    "pytest-httpretty",
+    "0.2.0",
+    "A thin wrapper of HTTPretty for pytest"
+  ],
+  [
+    "pytest-incremental",
+    "0.3.0",
+    "an incremental test runner (pytest plugin)"
+  ],
+  [
+    "pytest-instafail",
+    "0.2.0",
+    "py.test plugin to show failures instantly"
+  ],
+  [
+    "pytest-ipdb",
+    "0.1-prerelease",
+    "A py.test plug-in to enable drop to ipdb debugger on test failure."
+  ],
+  [
+    "pytest-jira",
+    "0.01",
+    "py.test JIRA integration plugin, using markers"
+  ],
+  [
+    "pytest-konira",
+    "0.2",
+    "Run Konira DSL tests with py.test"
+  ],
+  [
+    "pytest-localserver",
+    "0.3.2",
+    "py.test plugin to test server connections locally."
+  ],
+  [
+    "pytest-marker-bugzilla",
+    "0.06",
+    "py.test bugzilla integration plugin, using markers"
+  ],
+  [
+    "pytest-markfiltration",
+    "0.8",
+    "UNKNOWN"
+  ],
+  [
+    "pytest-marks",
+    "0.4",
+    "UNKNOWN"
+  ],
+  [
+    "pytest-monkeyplus",
+    "1.1.0",
+    "pytest's monkeypatch subclass with extra functionalities"
+  ],
+  [
+    "pytest-mozwebqa",
+    "1.1.1",
+    "Mozilla WebQA plugin for py.test."
+  ],
+  [
+    "pytest-oerp",
+    "0.2.0",
+    "pytest plugin to test OpenERP modules"
+  ],
+  [
+    "pytest-ordering",
+    "0.3",
+    "pytest plugin to run your tests in a specific order"
+  ],
+  [
+    "pytest-osxnotify",
+    "0.1.4",
+    "OS X notifications for py.test results."
+  ],
+  [
+    "pytest-paste-config",
+    "0.1",
+    "Allow setting the path to a paste config file"
+  ],
+  [
+    "pytest-pep8",
+    "1.0.6",
+    "pytest plugin to check PEP8 requirements"
+  ],
+  [
+    "pytest-poo",
+    "0.2",
+    "Visualize your crappy tests"
+  ],
+  [
+    "pytest-pydev",
+    "0.1",
+    "py.test plugin to connect to a remote debug server with PyDev or PyCharm."
+  ],
+  [
+    "pytest-pythonpath",
+    "0.3",
+    "pytest plugin for adding to the PYTHONPATH from command line or configs."
+  ],
+  [
+    "pytest-qt",
+    "1.0.2",
+    "pytest plugin that adds fixtures for testing Qt (PyQt and PySide) applications."
+  ],
+  [
+    "pytest-quickcheck",
+    "0.8",
+    "pytest plugin to generate random data inspired by QuickCheck"
+  ],
+  [
+    "pytest-rage",
+    "0.1",
+    "pytest plugin to implement PEP712"
+  ],
+  [
+    "pytest-random",
+    "0.02",
+    "py.test plugin to randomize tests"
+  ],
+  [
+    "pytest-rerunfailures",
+    "0.03",
+    "py.test plugin to re-run tests to eliminate flakey failures"
+  ],
+  [
+    "pytest-runfailed",
+    "0.3",
+    "implement a --failed option for pytest"
+  ],
+  [
+    "pytest-runner",
+    "2.0",
+    "UNKNOWN"
+  ],
+  [
+    "pytest-splinter",
+    "1.0.2",
+    "Splinter subplugin for Pytest BDD plugin"
+  ],
+  [
+    "pytest-sugar",
+    "0.3.4",
+    "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly)."
+  ],
+  [
+    "pytest-timeout",
+    "0.3",
+    "pytest plugin to abort tests after a timeout"
+  ],
+  [
+    "pytest-twisted",
+    "1.5",
+    "A twisted plugin for py.test."
+  ],
+  [
+    "pytest-xdist",
+    "1.10",
+    "py.test xdist plugin for distributed testing and loop-on-failing modes"
+  ],
+  [
+    "pytest-xprocess",
+    "0.8",
+    "pytest plugin to manage external processes across test runs"
+  ],
+  [
+    "pytest-yamlwsgi",
+    "0.6",
+    "Run tests against wsgi apps defined in yaml"
+  ],
+  [
+    "pytest-zap",
+    "0.1",
+    "OWASP ZAP plugin for py.test."
+  ]
+]

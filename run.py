@@ -1,45 +1,39 @@
+"""
+Reads index.txt file containing plugins versions and descriptions, and
+test them against current python version and pytest version selected by
+$PYTEST_VERSION environment variable.
+
+The plugins are tested using tox. If a plugin provides a tox.ini file,
+that is used to test the plugin compatibility, otherwise we provide a simple
+tox.ini that practically just tests that the plugin was installed successfully
+by running `pytest --help`.
+
+The pytest version to use is obtained by $PYTEST_VERSION, which is forced as
+a dependency when invoking tox.
+
+Once all results are obtained, they are posted to the pytest-plugs heroku app
+which can then be visualized.
+"""
 from __future__ import print_function, with_statement, division
-from distutils.version import LooseVersion
 
 import os
 import sys
 import tarfile
 from zipfile import ZipFile
-import itertools
-import requests
-import simplejson
 import subprocess
+import json
+
+import requests
+
+import update_index
 
 
 if sys.version_info[0] == 3:
-    from xmlrpc.client import ServerProxy
     from urllib.request import urlretrieve
+    from xmlrpc.client import ServerProxy
 else:
-    from xmlrpclib import ServerProxy
     from urllib import urlretrieve
-
-
-def iter_plugins(client, search='pytest-'):
-    '''
-    Returns an iterator of (name, version, summary) from PyPI.
-    
-    :param client: xmlrpclib.ServerProxy
-    :param search: package names to search for 
-    '''
-    for plug_data in client.search({'name': search}):
-        yield plug_data['name'], plug_data['version'], plug_data['summary']
-
-
-def get_latest_versions(plugins):
-    '''
-    Returns an iterator of (name, version, summary) from the given list of (name,
-    version, summary), but returning only the latest version of the package. Uses
-    distutils.LooseVersion to ensure compatibility with PEP386.
-    '''
-    plugins = [(name, LooseVersion(version), desc) for (name, version, desc) in plugins]
-    for name, grouped_plugins in itertools.groupby(plugins, key=lambda x: x[0]):
-        name, loose_version, desc = list(grouped_plugins)[-1]
-        yield name, str(loose_version), desc
+    from xmlrpclib import ServerProxy
 
 
 def download_package(client, name, version):
@@ -74,8 +68,7 @@ def extract(basename):
     }
     for ext, extractor in extractors.items():
         if basename.endswith(ext):
-            with closing(extractor(
-                    basename)) as f: # need closing for python 2.6 because of TarFile
+            with closing(extractor(basename)) as f:
                 f.extractall('.')
             return basename[:-len(ext)]
     assert False, 'could not extract %s' % basename
@@ -124,13 +117,18 @@ commands=
 '''
 
 
+def read_plugins_index(file_name):
+    with open(file_name) as f:
+        return json.load(f)
+
+
 def main():
-    tox_env = 'py%d%d' % sys.version_info[:2]
     pytest_version = os.environ['PYTEST_VERSION']
+    tox_env = 'py%d%d' % sys.version_info[:2]
+
     client = ServerProxy('https://pypi.python.org/pypi')
 
-    plugins = iter_plugins(client)
-    plugins = list(get_latest_versions(plugins))
+    plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
 
     test_results = {}
     for name, version, desc in plugins:
@@ -176,15 +174,12 @@ def main():
     post_url = os.environ.get('PLUGS_SITE')
     if post_url:
         headers = {'content-type': 'application/json'}
-        response = requests.post(post_url, data=simplejson.dumps(post_data),
+        response = requests.post(post_url, data=json.dumps(post_data),
                                  headers=headers)
         print('posted to {}; response={}'.format(post_url, response))
     else:
         print('not posting, no $PLUGS_SITE defined: {}'.format(post_data))
 
 
-#===================================================================================================
-# main
-#===================================================================================================
 if __name__ == '__main__':
     main()  
