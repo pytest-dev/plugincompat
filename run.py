@@ -82,6 +82,9 @@ def extract(basename):
 
 
 def run_tox(directory, tox_env, pytest_version):
+    """
+    Runs tox on the given directory and return (exit code, output)
+    """
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
         f = open(tox_file, 'w')
