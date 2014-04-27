@@ -82,7 +82,7 @@ def main():
     plugins = sorted(get_latest_versions(plugins))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
-        print(INDEX_FILE_NAME, 'updated.')
+        print(INDEX_FILE_NAME, 'updated (push to GitHub).')
     else:
         print(INDEX_FILE_NAME, 'skipped, no changes.')
 
