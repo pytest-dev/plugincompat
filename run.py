@@ -98,9 +98,9 @@ def run_tox(directory, tox_env, pytest_version):
             result = 0
         except subprocess.CalledProcessError as e:
             result = e.returncode
-            output = e.output.decode('ascii')
+            output = e.output
 
-        return result, output
+        return result, output.decode()
     finally:
         os.chdir(oldcwd)
 
