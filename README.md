@@ -78,7 +78,7 @@ like this:
 ...
 ```
 
-To execute the script, just execute it without parameters:
+To run the script, just execute it without parameters:
 
 ```
 ] python update_index.py
@@ -98,35 +98,35 @@ index.txt skipped, no changes.
 
 ### run.py ###
 
-This script reads `index.txt` file and executes tests for each package in
-the current python interpreter and posting the results back to
+This script reads `index.txt` file, executes tests for each package in
+the current python interpreter and posts results back to
 [heroku](heroku.com).
 
-We download the source package for each plugin and extract it into the
-current directory. We assume that plugins use [tox](http://tox.readthedocs.org/en/latest/)
+Then it downloads the source package for each plugin and extracts it into the
+current directory. It is assumed that plugins use [tox](http://tox.readthedocs.org/en/latest/)
 for testing; if a plugin doesn't have a `tox.ini` file, the script will generate
 a simple `tox.ini` that just tries to ensure the plugins installs cleanly.
 
-After all plugins are tested, we post the results to the web page.
+After all plugins are tested, results are posted to the web page.
 
-The script is configured by using two environment variables:
+The script is configured by two environment variables:
 
-`PYTEST_VERSION`: pytest version that will be passed to `tox` as a `--force-dep`
- parameter, ensuring that we test against the pytest version we want and not
+`PYTEST_VERSION`: pytest version that will be passed to `tox` as `--force-dep`
+ parameter, ensuring that it is tested against that pytest version and not
  what is installed in the system.
 
 `PLUGS_SITE`: URL to post the results data to. Example of a payload:
 
 ```
 [
-{"name": "pytest-blockage",
- "version": "0.1",
- "env": "py33",
- "pytest": "2.5.2",
- "status": "ok",
- "output": "GLOB sdist-make: /home/travis/...",
- "description": "Disable network requests during a test run.",
-},
+ {"name": "pytest-blockage",
+  "version": "0.1",
+  "env": "py33",
+  "pytest": "2.5.2",
+  "status": "ok",
+  "output": "GLOB sdist-make: /home/travis/...",
+  "description": "Disable network requests during a test run.",
+ },
 ...
 ]
 ```
