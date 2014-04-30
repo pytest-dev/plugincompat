@@ -21,7 +21,7 @@ index.txt updated (push to GitHub).
 
 If `index.txt` is updated as the message above states, that file should be committed
 and pushed back to GitHub in order to trigger a new [travis](travis.org) build.
-The build matrix page should be updated when the full matrix gets a chance
+The web page should be updated when the full matrix gets a chance
 to run, usually after 10 minutes or so.
 
 If `index.txt` does not change, no further action is needed:
@@ -36,10 +36,10 @@ index.txt skipped, no changes.
 For each each plugin, as identified by a search for `pytest-*` on PyPI, we
 download, install and execute its tests using [tox](http://tox.readthedocs.org/en/latest/).
 If a plugin doesn't have a `tox.ini` file, we generate a simple
-`tox.ini` which just tests that the plugin was installed successfully.
+`tox.ini` which just ensures that the plugin was installed successfully.
 
-Once we have a tested all plugins, we post the results to a web application
-that keeps track and displays them.
+Once we have tested all plugins, the results are posted to a web application
+that can be used to visualize them.
 
 The steps above are executed for some Python and pytest versions,
 resulting in a matrix of plugin x python x pytest compatibility.
@@ -132,7 +132,7 @@ The script is configured by using two environment variables:
 ```
 
 The above environment variables are configured in the
-[.travis.yaml](/travis.yaml) file and are part of the build matrix.
+[.travis.yaml](/.travis.yaml) file and are part of the build matrix.
 
 
 
