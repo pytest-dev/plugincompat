@@ -18,3 +18,9 @@ env:
   - PYTEST_VERSION=2.5.2 PLUGS_SITE=http://pytest-plugs.herokuapp.com
 script: 
   - python run.py
+
+branches:
+  only:
+    - master
+    - /feature-.*/
+  
