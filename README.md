@@ -60,7 +60,7 @@ from PyPI and contains the list of plugins to test. It is a `JSON`
 formatted file containing a list of `(plugin name, version, description)`,
 like this:
 
-```
+```json
 [
   [
     "pytest-bdd",
@@ -77,7 +77,7 @@ like this:
     "0.1",
     "Disable network requests during a test run."
   ],
-...
+]
 ```
 
 To run the script, just execute it without parameters:
