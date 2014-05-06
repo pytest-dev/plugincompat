@@ -7,6 +7,8 @@ Compatibility checks for pytest plugins.
 This project tests pytest plugins compatibility across python and pytest
 versions, displaing them in a web page for quick consulting.
 
+See test results at http://pytest-plugs.herokuapp.com.
+
 ## Updating ##
 
 Right now the process is manual, but should be executed automatically in the
@@ -134,5 +136,26 @@ The script is configured by two environment variables:
 The above environment variables are configured in the
 [.travis.yaml](/.travis.yaml) file and are part of the build matrix.
 
+### web.py ###
 
+This is the webserver that is hosted at [heroku](http://pytest-plugs.herokuapp.com).
+
+It serves an index page containing a table displaying test results for pytest
+plugins against different python and pytest versions.
+
+It supports the following URLs:
+
+`GET /`: main page, shows the test results table.
+
+`POST /`: posts a new payload that update test results. See above for an
+ example of a valid payload.
+
+ `GET /status`: help on how to obtain status images (badges) for each plugin.
+
+ `GET /status/:name/`: returns an image for a specific plugin indicating its
+ status when tested against a python and pytest versions. For instance:
+ `/status/pytest-pep8-1.0.5?py=py33&pytest=2.4.2`
+
+ `web.py` has test cases to ensure pages are behaving as expected, see
+  `test_web.py`.
 
