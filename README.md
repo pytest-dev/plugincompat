@@ -121,15 +121,15 @@ The script is configured by two environment variables:
 
 ```json
 [
- {"name": "pytest-blockage",
-  "version": "0.1",
-  "env": "py33",
-  "pytest": "2.5.2",
-  "status": "ok",
-  "output": "GLOB sdist-make: /home/travis/...",
-  "description": "Disable network requests during a test run.",
- },
-...
+  {
+    "name": "pytest-blockage",
+    "version": "0.1",
+    "env": "py33",
+    "pytest": "2.5.2",
+    "status": "ok",
+    "output": "GLOB sdist-make: /home/travis/...",
+    "description": "Disable network requests during a test run.",
+  },
 ]
 ```
 
@@ -171,3 +171,9 @@ status when tested against a python and pytest versions. For example:
 [web.py](/web.py) has test cases to ensure pages are behaving as expected, see
 [test_web.py](/test_web.py).
 
+```
+GET /output/:name/
+```
+
+Receives the same parameter as `/status/:name/`, but returns the output
+of the tox run as plain text.
