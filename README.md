@@ -119,7 +119,7 @@ The script is configured by two environment variables:
 
 `PLUGS_SITE`: URL to post the results data to. Example of a payload:
 
-```
+```json
 [
  {"name": "pytest-blockage",
   "version": "0.1",
@@ -145,17 +145,29 @@ plugins against different python and pytest versions.
 
 It supports the following URLs:
 
-`GET /`: main page, shows the test results table.
+```
+GET /
+```
+Returns main page, showing the test results table.
 
-`POST /`: posts a new payload that update test results. See above for an
- example of a valid payload.
+```
+POST /
+```
+Posts a new payload that update test results. See above for an
+example of a valid payload. Returns
 
- `GET /status`: help on how to obtain status images (badges) for each plugin.
+```
+GET /status
+```
+Returns a page explaining on how to obtain status images (badges) for each plugin.
 
- `GET /status/:name/`: returns an image for a specific plugin indicating its
- status when tested against a python and pytest versions. For instance:
+```
+GET /status/:name/`
+```
+Returns an image for a specific plugin indicating its
+status when tested against a python and pytest versions. For example:
  `/status/pytest-pep8-1.0.5?py=py33&pytest=2.4.2`
 
- `web.py` has test cases to ensure pages are behaving as expected, see
-  `test_web.py`.
+[web.py](/web.py) has test cases to ensure pages are behaving as expected, see
+[test_web.py](/test_web.py).
 
