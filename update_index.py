@@ -61,7 +61,14 @@ def write_plugins_index(file_name, plugins):
     up-to-date.
     """
     # separators is given to avoid trailing whitespaces; see docs
-    contents = json.dumps(plugins, indent=2, separators=(',', ': '))
+    plugin_contents = []
+    for (name, version, description) in plugins:
+        plugin_contents.append({
+            'name': name,
+            'version': version,
+            'description': description,
+        })
+    contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '))
     if os.path.isfile(file_name):
         with open(file_name, 'rU') as f:
             current_contents = f.read()

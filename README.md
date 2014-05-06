@@ -63,21 +63,21 @@ like this:
 
 ```json
 [
-  [
-    "pytest-bdd",
-    "2.1.0",
-    "BDD for pytest"
-  ],
-  [
-    "pytest-bench",
-    "0.2.5",
-    "Benchmark utility that plugs into pytest."
-  ],
-  [
-    "pytest-blockage",
-    "0.1",
-    "Disable network requests during a test run."
-  ],
+  {
+    "version": "1.3.7",
+    "name": "pytest-allure-adaptor",
+    "description": "Plugin for py.test to generate allure xml reports"
+  },
+  {
+    "version": "2.1.0",
+    "name": "pytest-bdd",
+    "description": "BDD for pytest"
+  },
+  {
+    "version": "0.0.1",
+    "name": "pytest-beds",
+    "description": "Fixtures for testing Google Appengine (GAE) apps"
+  },
 ]
 ```
 
