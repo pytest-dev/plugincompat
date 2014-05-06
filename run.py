@@ -131,9 +131,10 @@ def main():
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
 
     test_results = {}
-    for name, version, desc in plugins:
-        # if name != 'pytest-pep8':
-        #     continue
+    for plugin in plugins:
+        name = plugin['name']
+        version = plugin['version']
+        description = plugin['description']
         print('=' * 60)
         print('%s-%s' % (name, version))
         basename = download_package(client, name, version)
@@ -145,7 +146,7 @@ def main():
         print('-> extracted to', directory)
         result, output = run_tox(directory, tox_env, pytest_version)
         print('-> tox returned %s' % result)
-        test_results[(name, version)] = result, output, desc
+        test_results[(name, version)] = result, output, description
 
     print('\n\n')
     print('=' * 60)
@@ -153,7 +154,7 @@ def main():
     print('=' * 60)
     post_data = []
     for (name, version) in sorted(test_results):
-        result, output, desc = test_results[(name, version)]
+        result, output, description = test_results[(name, version)]
         if result == 0:
             status = 'ok'
         else:
@@ -168,7 +169,7 @@ def main():
              'pytest': pytest_version,
              'status': status,
              'output': output,
-             'description': desc,
+             'description': description,
             }
         )
     post_url = os.environ.get('PLUGS_SITE')
