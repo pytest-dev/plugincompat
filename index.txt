@@ -65,7 +65,7 @@
     "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing"
   },
   {
-    "version": "0.4.12",
+    "version": "0.4.17",
     "name": "pytest-dbfixtures",
     "description": "Databases fixtures plugin for py.test."
   },
@@ -80,12 +80,12 @@
     "description": "Common py.test support for Diffeo packages"
   },
   {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "name": "pytest-django",
     "description": "A Django plugin for py.test."
   },
   {
-    "version": "0.1",
+    "version": "0.1.1",
     "name": "pytest-django-haystack",
     "description": "Cleanup your Haystack indexes between tests"
   },
@@ -220,7 +220,7 @@
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs."
   },
   {
-    "version": "1.0.2",
+    "version": "1.1",
     "name": "pytest-qt",
     "description": "pytest plugin that adds fixtures for testing Qt (PyQt and PySide) applications."
   },
@@ -295,7 +295,7 @@
     "description": "Run tests against wsgi apps defined in yaml"
   },
   {
-    "version": "0.1",
+    "version": "0.2",
     "name": "pytest-zap",
     "description": "OWASP ZAP plugin for py.test."
   }
