@@ -39,3 +39,4 @@ nosetests.xml
 *.tgz
 *.zip
 pytest-*
+*.env*
