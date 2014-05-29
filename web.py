@@ -141,19 +141,21 @@ def filter_latest_results(all_results):
 
 def get_namespace_for_rendering(all_results):
     # python_versions, lib_names, pytest_versions, statuses, latest_pytest_ver
-    python_versions = set()
+    python_versions = get_python_versions()
     lib_names = set()
-    pytest_versions = set()
+    pytest_versions = get_pytest_versions()
     statuses = {}
     outputs = {}
     descriptions = {}
 
     latest_results = filter_latest_results(all_results)
     for result in latest_results:
+        ignore = result['env'] not in python_versions \
+            or result['pytest'] not in pytest_versions
+        if ignore:
+            continue
         lib_name = '{}-{}'.format(result['name'], result['version'])
-        python_versions.add(result['env'])
         lib_names.add(lib_name)
-        pytest_versions.add(result['pytest'])
         key = (lib_name, result['env'], result['pytest'])
         statuses[key] = result['status']
         outputs[key] = result.get('output', NO_OUTPUT_AVAILABLE)
@@ -228,6 +230,21 @@ def get_field_for(fullname, env, pytest, field_name):
         if test_result['env'] == env and test_result['pytest'] == pytest:
             return test_result.get(field_name, None)
     return None
+
+
+def get_python_versions():
+    """
+    Python versions we are willing to display on the page, in order to ignore
+    old and incomplete results.
+    """
+    return {'py27', 'py34'}
+
+
+def get_pytest_versions():
+    """
+    Same as `get_python_versions`, but for pytest versions.
+    """
+    return {'2.5.2'}
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'

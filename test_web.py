@@ -1,5 +1,7 @@
-from flask import json
 import pytest
+
+from flask import json
+import mock
 from web import PlugsStorage
 
 
@@ -211,54 +213,67 @@ class TestView(object):
     def test_get_render_namespace(self):
         from web import get_namespace_for_rendering
 
-        # post results; only the latest lib versions should be rendered
-        all_results = [
-            make_result_data(),
-            make_result_data(env='py33', status='failed'),
-            make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
-            make_result_data(env='py33', pytest='2.4'),
-            make_result_data(env='py33', pytest='2.4', version='0.6'),
-            make_result_data(env='py33', pytest='2.4', version='0.7'),
-            make_result_data(env='py33', pytest='2.4', version='0.8'),
-            make_result_data(name='myotherlib', version='2.0', pytest='2.4',
-                             description='my other library',
-                             output='output for myotherlib-2.0'),
-        ]
 
-        bad_result = make_result_data(name='badlib')
-        del bad_result['output']
-        all_results.append(bad_result)
+        with mock.patch('web.get_python_versions') as mock_python_versions, \
+                mock.patch('web.get_pytest_versions') as mock_pytest_versions:
+            mock_python_versions.return_value = {'py27', 'py33'}
+            mock_pytest_versions.return_value = {'2.4', '2.3'}
+            # post results; only the latest lib versions should be rendered
+            all_results = [
+                make_result_data(),
+                make_result_data(env='py26', status='failed'),
+                make_result_data(env='py32', status='failed'),
+                make_result_data(env='py33', status='failed'),
+                make_result_data(name='myotherlib', version='1.8', pytest='2.4'),
+                make_result_data(env='py33', pytest='2.4'),
+                make_result_data(env='py33', pytest='2.4', version='0.6'),
+                make_result_data(env='py33', pytest='2.4', version='0.7'),
+                make_result_data(env='py33', pytest='2.4', version='0.8'),
+                make_result_data(name='myotherlib', version='2.0', pytest='2.4',
+                                 description='my other library',
+                                 output='output for myotherlib-2.0'),
+            ]
 
-        output_ok = 'all commands:\nok'
-        lib_data = {
-            ('badlib-1.0', 'py27', '2.3'): (
-                'ok', '<no output available>', 'a generic library'),
-            ('mylib-1.0', 'py27', '2.3'): (
-                'ok', output_ok, 'a generic library'),
-            ('mylib-1.0', 'py33', '2.3'): (
-                'failed', output_ok, 'a generic library'),
-            ('mylib-1.0', 'py33', '2.4'): (
-                'ok', output_ok, 'a generic library'),
-            ('myotherlib-2.0', 'py27', '2.4'): (
-                'ok', 'output for myotherlib-2.0', 'my other library'),
-        }
+            bad_result = make_result_data(name='badlib')
+            del bad_result['output']
+            all_results.append(bad_result)
 
-        statuses = {k: status for (k, (status, output, desc)) in
-                    lib_data.items()}
-        outputs = {k: output for (k, (status, output, desc)) in
-                   lib_data.items()}
-        descriptions = {k[0]: desc for (k, (status, output, desc)) in
+            output_ok = 'all commands:\nok'
+            lib_data = {
+                ('badlib-1.0', 'py27', '2.3'): (
+                    'ok', '<no output available>', 'a generic library'),
+                ('mylib-1.0', 'py27', '2.3'): (
+                    'ok', output_ok, 'a generic library'),
+                ('mylib-1.0', 'py33', '2.3'): (
+                    'failed', output_ok, 'a generic library'),
+                ('mylib-1.0', 'py33', '2.4'): (
+                    'ok', output_ok, 'a generic library'),
+                ('myotherlib-2.0', 'py27', '2.4'): (
+                    'ok', 'output for myotherlib-2.0', 'my other library'),
+            }
+
+            statuses = {k: status for (k, (status, output, desc)) in
                         lib_data.items()}
+            outputs = {k: output for (k, (status, output, desc)) in
+                       lib_data.items()}
+            descriptions = {k[0]: desc for (k, (status, output, desc)) in
+                            lib_data.items()}
 
-        assert get_namespace_for_rendering(all_results) == {
-            'python_versions': ['py27', 'py33'],
-            'lib_names': ['badlib-1.0', 'mylib-1.0', 'myotherlib-2.0'],
-            'pytest_versions': ['2.3', '2.4'],
-            'latest_pytest_ver': '2.4',
-            'statuses': statuses,
-            'outputs': outputs,
-            'descriptions': descriptions,
-        }
+            assert get_namespace_for_rendering(all_results) == {
+                'python_versions': ['py27', 'py33'],
+                'lib_names': ['badlib-1.0', 'mylib-1.0', 'myotherlib-2.0'],
+                'pytest_versions': ['2.3', '2.4'],
+                'latest_pytest_ver': '2.4',
+                'statuses': statuses,
+                'outputs': outputs,
+                'descriptions': descriptions,
+            }
+
+    def test_versions(self):
+        from web import get_python_versions, get_pytest_versions
+        assert get_python_versions() == {'py27', 'py34'}
+        assert get_pytest_versions() == {'2.5.2'}
+
 
     def test_get_with_empty_database(self, client, patched_storage):
         assert len(patched_storage.get_all_results()) == 0
@@ -269,11 +284,11 @@ class TestView(object):
     @pytest.mark.parametrize('lib_version', ['1.0', '1.2', 'latest'])
     def test_get_output(self, client, lib_version):
         self.post_result(client,
-                         make_result_data(version='0.9', output='ver 0.9'))
+                         make_result_data(version='0.9', output='ver 0.9', pytest='2.3'))
         self.post_result(client,
-                         make_result_data(version='1.0', output='ver 1.0'))
+                         make_result_data(version='1.0', output='ver 1.0', pytest='2.3'))
         self.post_result(client,
-                         make_result_data(version='1.2', output='ver 1.2'))
+                         make_result_data(version='1.2', output='ver 1.2', pytest='2.3'))
 
         url = '/output/mylib-{0}?py=py27&pytest=2.3'.format(lib_version)
         response = client.get(url)
