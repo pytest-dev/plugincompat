@@ -27,7 +27,7 @@
         <tbody>
             {% for lib_name in lib_names %}
             <tr>
-                <td><a href="#{{lib_name}}">{{ lib_name }}</a></td>
+                <td><a href="https://pypi.python.org/pypi/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></td>
                 {% for python_ver in python_versions %}
                     <td>
                     <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, latest_pytest_ver) }}">
@@ -47,6 +47,7 @@
         </tbody>
     </table>
 
+    {% if pytest_versions|count > 1 %}
     {% for lib_name in lib_names %}
         <a id="{{lib_name}}"/>
         <table class="striped rounded metro">
@@ -81,6 +82,7 @@
             </tbody>
         </table>
     {% endfor %}
+    {% endif %}
 
 </div>
 
