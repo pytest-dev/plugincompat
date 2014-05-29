@@ -13,6 +13,18 @@
             https://github.com/nicoddemus/pytest-plugs</a>.
     </p>
 
+    <p>
+        <strong>Note:</strong> although some may appear as "broken" keep in mind
+        that all dependencies may not be installed during testing, particularly
+        if a dependency is too big or requires a dedicated server (such
+        as <a href="https://pypi.python.org/pypi/pytest-jira">pytest-jira</a>,
+        which requires a jira server, or
+        <a href="https://pypi.python.org/pypi/pytest-qt">pytest-qt</a>,
+        which requires PyQt or PySide, both which take a long time to install).
+        Take the information you find here with a grain of salt, and rely on
+        each plugin's homepage for up-to-date compatilibty information.
+    </p>
+
     <table class="striped rounded metro">
         <caption>Summary for latest pytest version ({{ latest_pytest_ver }})</caption>
         <thead>
