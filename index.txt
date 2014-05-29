@@ -1,6 +1,6 @@
 [
   {
-    "version": "1.3.7",
+    "version": "1.3.8",
     "name": "pytest-allure-adaptor",
     "description": "Plugin for py.test to generate allure xml reports"
   },
@@ -65,7 +65,7 @@
     "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing"
   },
   {
-    "version": "0.4.17",
+    "version": "0.4.18",
     "name": "pytest-dbfixtures",
     "description": "Databases fixtures plugin for py.test."
   },
@@ -95,7 +95,7 @@
     "description": "The bare minimum to integrate py.test with Django."
   },
   {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "pytest-eradicate",
     "description": "pytest plugin to check for commented out code"
   },
@@ -143,6 +143,11 @@
     "version": "0.01",
     "name": "pytest-jira",
     "description": "py.test JIRA integration plugin, using markers"
+  },
+  {
+    "version": "0.1.0",
+    "name": "pytest-knows",
+    "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace"
   },
   {
     "version": "0.2",
@@ -245,7 +250,7 @@
     "description": "py.test plugin to randomize tests"
   },
   {
-    "version": "0.03",
+    "version": "0.05",
     "name": "pytest-rerunfailures",
     "description": "py.test plugin to re-run tests to eliminate flakey failures"
   },
