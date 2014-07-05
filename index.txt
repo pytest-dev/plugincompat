@@ -50,6 +50,11 @@
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)"
   },
   {
+    "version": "0.0.8",
+    "name": "pytest-config",
+    "description": "Base configurations and utilities for developing\n    your Python project test suite."
+  },
+  {
     "version": "0.1.1",
     "name": "pytest-contextfixture",
     "description": "Define pytest fixtures as context managers."
@@ -220,6 +225,11 @@
     "description": "Visualize your crappy tests"
   },
   {
+    "version": "0.1.0",
+    "name": "pytest-pycharm",
+    "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions"
+  },
+  {
     "version": "0.1",
     "name": "pytest-pydev",
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm."
@@ -230,9 +240,9 @@
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs."
   },
   {
-    "version": "1.1.1",
+    "version": "1.2.0-rc.1",
     "name": "pytest-qt",
-    "description": "pytest plugin that adds fixtures for testing Qt (PyQt and PySide) applications."
+    "description": "pytest support for PyQt and PySide applications"
   },
   {
     "version": "0.8",
