@@ -17,19 +17,19 @@ future.
 To update, execute `update_index.py` with no parameters:
 
 ```
-] python update_index.py
+python update_index.py
 index.txt updated (push to GitHub).
 ```
 
 If `index.txt` is updated as the message above states, that file should be committed
-and pushed back to GitHub in order to trigger a new [travis](travis.org) build.
+and pushed back to GitHub in order to trigger a new [travis](https://travis-ci.org) build.
 The web page will be updated when the full matrix gets a chance
 to run, usually after 10 minutes or so.
 
 If `index.txt` does not change, no further action is needed:
 
 ```
-] python update_index.py
+python update_index.py
 index.txt skipped, no changes.
 ```
 
@@ -47,8 +47,8 @@ that can be used to visualize them.
 The steps above are executed for some Python and pytest versions,
 resulting in a matrix of plugin x Python x pytest compatibility.
 
-We use [travis](travis.org) to execute the tests and post the results. The web
-page is hosted by [heroku](heroku.com) at http://pytest-plugs.herokuapp.com.
+We use [travis](https://travis-ci.org) to execute the tests and post the results. The web
+page is hosted by [heroku](https://www.heroku.com) at http://pytest-plugs.herokuapp.com.
 
 ## Details ##
 
@@ -84,7 +84,7 @@ like this:
 To run the script, just execute it without parameters:
 
 ```
-] python update_index.py
+python update_index.py
 index.txt updated, push to GitHub.
 ```
 
@@ -95,7 +95,7 @@ committed and pushed to GitHub as the message says.
 If nothing has changed, no further action is needed:
 
 ```
-] python update_index.py
+python update_index.py
 index.txt skipped, no changes.
 ```
 
@@ -103,7 +103,7 @@ index.txt skipped, no changes.
 
 This script should be executed by travis: it reads `index.txt` file,
 executes tests for each package in the current Python interpreter
-and posts results back to [heroku](heroku.com).
+and posts results back to [heroku](https://www.heroku.com).
 
 It does so by downloading the source package for each plugin and extracts it into the
 current directory. It is assumed that plugins use [tox](http://tox.readthedocs.org/en/latest/)
@@ -121,7 +121,7 @@ The script is configured by two environment variables:
 `PLUGS_SITE`: URL to post the test result data to. See below for an example of a payload.
 
 The above environment variables are configured in the
-[.travis.yaml](/.travis.yaml) file and are part of the travis build matrix.
+[.travis.yml](/.travis.yml) file and are part of the travis build matrix.
 
 ### web.py ###
 
