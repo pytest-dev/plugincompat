@@ -50,9 +50,9 @@
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)"
   },
   {
-    "version": "0.0.9",
+    "version": "0.0.10",
     "name": "pytest-config",
-    "description": "Base configurations and utilities for developing\n    your Python project test suite."
+    "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest."
   },
   {
     "version": "0.1.1",
@@ -288,6 +288,11 @@
     "version": "1.0.3",
     "name": "pytest-splinter",
     "description": "Splinter subplugin for Pytest BDD plugin"
+  },
+  {
+    "version": "0.1",
+    "name": "pytest-stepwise",
+    "description": "Run a test suite one failing test at a time."
   },
   {
     "version": "0.3.4",
