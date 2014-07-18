@@ -185,6 +185,11 @@
     "description": "UNKNOWN"
   },
   {
+    "version": "0.1.0",
+    "name": "pytest-mock",
+    "description": "Thin-wrapper around the mock package for easier use with py.test"
+  },
+  {
     "version": "1.1.0",
     "name": "pytest-monkeyplus",
     "description": "pytest's monkeypatch subclass with extra functionalities"
@@ -278,6 +283,11 @@
     "version": "2.0",
     "name": "pytest-runner",
     "description": "UNKNOWN"
+  },
+  {
+    "version": "1.0.0",
+    "name": "pytest-sftpserver",
+    "description": "py.test plugin to locally test sftp server connections."
   },
   {
     "version": "0.2.22",
