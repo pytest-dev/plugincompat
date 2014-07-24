@@ -68,7 +68,8 @@ def write_plugins_index(file_name, plugins):
             'version': version,
             'description': description,
         })
-    contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '))
+    contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '), 
+                          sort_keys=True)
     if os.path.isfile(file_name):
         with open(file_name, 'rU') as f:
             current_contents = f.read()
