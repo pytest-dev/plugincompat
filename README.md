@@ -9,6 +9,8 @@ versions, displaing them in a web page for quick consulting.
 
 See test results at http://pytest-plugs.herokuapp.com.
 
+[![ci](http://img.shields.io/travis/nicoddemus/pytest-plugs.svg)](https://travis-ci.org/nicoddemus/pytest-plugs)
+
 ## Updating ##
 
 Right now the process is manual, but should be executed automatically in the
