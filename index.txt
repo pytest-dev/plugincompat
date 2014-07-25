@@ -1,342 +1,342 @@
 [
   {
     "description": "Plugin for py.test to generate allure xml reports",
-    "version": "1.3.8",
-    "name": "pytest-allure-adaptor"
+    "name": "pytest-allure-adaptor",
+    "version": "1.3.8"
   },
   {
     "description": "BDD for pytest",
-    "version": "2.1.1",
-    "name": "pytest-bdd"
+    "name": "pytest-bdd",
+    "version": "2.1.1"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
-    "version": "0.0.1",
-    "name": "pytest-beds"
+    "name": "pytest-beds",
+    "version": "0.0.1"
   },
   {
     "description": "Benchmark utility that plugs into pytest.",
-    "version": "0.3.0",
-    "name": "pytest-bench"
+    "name": "pytest-bench",
+    "version": "0.3.0"
   },
   {
     "description": "Disable network requests during a test run.",
-    "version": "0.1",
-    "name": "pytest-blockage"
+    "name": "pytest-blockage",
+    "version": "0.1"
   },
   {
     "description": "BrowserMob proxy plugin for py.test.",
-    "version": "0.1",
-    "name": "pytest-browsermob-proxy"
+    "name": "pytest-browsermob-proxy",
+    "version": "0.1"
   },
   {
     "description": "py.test bugzilla integration plugin",
-    "version": "0.2",
-    "name": "pytest-bugzilla"
+    "name": "pytest-bugzilla",
+    "version": "0.2"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
-    "version": "1.0",
-    "name": "pytest-cache"
+    "name": "pytest-cache",
+    "version": "1.0"
   },
   {
     "description": "py.test plugin to capture log messages",
-    "version": "0.7",
-    "name": "pytest-capturelog"
+    "name": "pytest-capturelog",
+    "version": "0.7"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
-    "version": "0.2",
-    "name": "pytest-codecheckers"
+    "name": "pytest-codecheckers",
+    "version": "0.2"
   },
   {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
-    "version": "0.0.10",
-    "name": "pytest-config"
+    "name": "pytest-config",
+    "version": "0.0.10"
   },
   {
     "description": "Define pytest fixtures as context managers.",
-    "version": "0.1.1",
-    "name": "pytest-contextfixture"
+    "name": "pytest-contextfixture",
+    "version": "0.1.1"
   },
   {
     "description": "py.test extension for per-test couchdb databases using couchdbkit",
-    "version": "0.5.1",
-    "name": "pytest-couchdbkit"
+    "name": "pytest-couchdbkit",
+    "version": "0.5.1"
   },
   {
     "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing",
-    "version": "1.7.0",
-    "name": "pytest-cov"
+    "name": "pytest-cov",
+    "version": "1.7.0"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
-    "version": "0.4.20",
-    "name": "pytest-dbfixtures"
+    "name": "pytest-dbfixtures",
+    "version": "0.4.20"
   },
   {
     "description": "D-BUS notifications for pytest results.",
-    "version": "1.0.1",
-    "name": "pytest-dbus-notification"
+    "name": "pytest-dbus-notification",
+    "version": "1.0.1"
   },
   {
     "description": "Common py.test support for Diffeo packages",
-    "version": "0.1.7",
-    "name": "pytest-diffeo"
+    "name": "pytest-diffeo",
+    "version": "0.1.7"
   },
   {
     "description": "A Django plugin for py.test.",
-    "version": "2.6.2",
-    "name": "pytest-django"
+    "name": "pytest-django",
+    "version": "2.6.2"
   },
   {
     "description": "Cleanup your Haystack indexes between tests",
-    "version": "0.1.1",
-    "name": "pytest-django-haystack"
+    "name": "pytest-django-haystack",
+    "version": "0.1.1"
   },
   {
     "description": "The bare minimum to integrate py.test with Django.",
-    "version": "0.1.1",
-    "name": "pytest-django-lite"
+    "name": "pytest-django-lite",
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin to check for commented out code",
-    "version": "0.0.2",
-    "name": "pytest-eradicate"
+    "name": "pytest-eradicate",
+    "version": "0.0.2"
   },
   {
     "description": "py.test figleaf coverage plugin",
-    "version": "1.0",
-    "name": "pytest-figleaf"
+    "name": "pytest-figleaf",
+    "version": "1.0"
   },
   {
     "description": "pytest plugin to check source code with pyflakes",
-    "version": "0.2",
-    "name": "pytest-flakes"
+    "name": "pytest-flakes",
+    "version": "0.2"
   },
   {
     "description": "Green progress dots",
-    "version": "0.3",
-    "name": "pytest-greendots"
+    "name": "pytest-greendots",
+    "version": "0.3"
   },
   {
     "description": "Growl notifications for pytest results.",
-    "version": "0.2",
-    "name": "pytest-growl"
+    "name": "pytest-growl",
+    "version": "0.2"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
-    "version": "0.0.2",
-    "name": "pytest-httpbin"
+    "name": "pytest-httpbin",
+    "version": "0.0.2"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
-    "version": "0.2.0",
-    "name": "pytest-httpretty"
+    "name": "pytest-httpretty",
+    "version": "0.2.0"
   },
   {
     "description": "an incremental test runner (pytest plugin)",
-    "version": "0.3.0",
-    "name": "pytest-incremental"
+    "name": "pytest-incremental",
+    "version": "0.3.0"
   },
   {
     "description": "py.test plugin to show failures instantly",
-    "version": "0.2.0",
-    "name": "pytest-instafail"
+    "name": "pytest-instafail",
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
-    "version": "0.1-prerelease",
-    "name": "pytest-ipdb"
+    "name": "pytest-ipdb",
+    "version": "0.1-prerelease"
   },
   {
     "description": "py.test JIRA integration plugin, using markers",
-    "version": "0.01",
-    "name": "pytest-jira"
+    "name": "pytest-jira",
+    "version": "0.01"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
-    "version": "0.1.0",
-    "name": "pytest-knows"
+    "name": "pytest-knows",
+    "version": "0.1.0"
   },
   {
     "description": "Run Konira DSL tests with py.test",
-    "version": "0.2",
-    "name": "pytest-konira"
+    "name": "pytest-konira",
+    "version": "0.2"
   },
   {
     "description": "py.test plugin to test server connections locally.",
-    "version": "0.3.2",
-    "name": "pytest-localserver"
+    "name": "pytest-localserver",
+    "version": "0.3.2"
   },
   {
     "description": "py.test bugzilla integration plugin, using markers",
-    "version": "0.06",
-    "name": "pytest-marker-bugzilla"
+    "name": "pytest-marker-bugzilla",
+    "version": "0.06"
   },
   {
     "description": "UNKNOWN",
-    "version": "0.8",
-    "name": "pytest-markfiltration"
+    "name": "pytest-markfiltration",
+    "version": "0.8"
   },
   {
     "description": "UNKNOWN",
-    "version": "0.4",
-    "name": "pytest-marks"
+    "name": "pytest-marks",
+    "version": "0.4"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
-    "version": "0.2.0",
-    "name": "pytest-mock"
+    "name": "pytest-mock",
+    "version": "0.2.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
-    "version": "1.1.0",
-    "name": "pytest-monkeyplus"
+    "name": "pytest-monkeyplus",
+    "version": "1.1.0"
   },
   {
     "description": "Mozilla WebQA plugin for py.test.",
-    "version": "1.1.1",
-    "name": "pytest-mozwebqa"
+    "name": "pytest-mozwebqa",
+    "version": "1.1.1"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
-    "version": "0.2.0",
-    "name": "pytest-oerp"
+    "name": "pytest-oerp",
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
-    "version": "0.3",
-    "name": "pytest-ordering"
+    "name": "pytest-ordering",
+    "version": "0.3"
   },
   {
     "description": "OS X notifications for py.test results.",
-    "version": "0.1.4",
-    "name": "pytest-osxnotify"
+    "name": "pytest-osxnotify",
+    "version": "0.1.4"
   },
   {
     "description": "Allow setting the path to a paste config file",
-    "version": "0.1",
-    "name": "pytest-paste-config"
+    "name": "pytest-paste-config",
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to check PEP8 requirements",
-    "version": "1.0.6",
-    "name": "pytest-pep8"
+    "name": "pytest-pep8",
+    "version": "1.0.6"
   },
   {
     "description": "Visualize your crappy tests",
-    "version": "0.2",
-    "name": "pytest-poo"
+    "name": "pytest-poo",
+    "version": "0.2"
   },
   {
     "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions",
-    "version": "0.1.0",
-    "name": "pytest-pycharm"
+    "name": "pytest-pycharm",
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
-    "version": "0.1",
-    "name": "pytest-pydev"
+    "name": "pytest-pydev",
+    "version": "0.1"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
-    "version": "0.3",
-    "name": "pytest-pythonpath"
+    "name": "pytest-pythonpath",
+    "version": "0.3"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
-    "version": "1.2.0",
-    "name": "pytest-qt"
+    "name": "pytest-qt",
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
-    "version": "0.8",
-    "name": "pytest-quickcheck"
+    "name": "pytest-quickcheck",
+    "version": "0.8"
   },
   {
     "description": "pytest plugin to implement PEP712",
-    "version": "0.1",
-    "name": "pytest-rage"
+    "name": "pytest-rage",
+    "version": "0.1"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
-    "version": "1.0",
-    "name": "pytest-raisesregexp"
+    "name": "pytest-raisesregexp",
+    "version": "1.0"
   },
   {
     "description": "py.test plugin to randomize tests",
-    "version": "0.02",
-    "name": "pytest-random"
+    "name": "pytest-random",
+    "version": "0.02"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
-    "version": "0.05",
-    "name": "pytest-rerunfailures"
+    "name": "pytest-rerunfailures",
+    "version": "0.05"
   },
   {
     "description": "implement a --failed option for pytest",
-    "version": "0.3",
-    "name": "pytest-runfailed"
+    "name": "pytest-runfailed",
+    "version": "0.3"
   },
   {
     "description": "UNKNOWN",
-    "version": "2.0",
-    "name": "pytest-runner"
+    "name": "pytest-runner",
+    "version": "2.0"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
-    "version": "1.0.0",
-    "name": "pytest-sftpserver"
+    "name": "pytest-sftpserver",
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
-    "version": "0.2.22",
-    "name": "pytest-spec"
+    "name": "pytest-spec",
+    "version": "0.2.22"
   },
   {
     "description": "Splinter subplugin for Pytest BDD plugin",
-    "version": "1.0.3",
-    "name": "pytest-splinter"
+    "name": "pytest-splinter",
+    "version": "1.0.3"
   },
   {
     "description": "Run a test suite one failing test at a time.",
-    "version": "0.2",
-    "name": "pytest-stepwise"
+    "name": "pytest-stepwise",
+    "version": "0.2"
   },
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
-    "version": "0.3.4",
-    "name": "pytest-sugar"
+    "name": "pytest-sugar",
+    "version": "0.3.4"
   },
   {
     "description": "pytest plugin to abort tests after a timeout",
-    "version": "0.3",
-    "name": "pytest-timeout"
+    "name": "pytest-timeout",
+    "version": "0.3"
   },
   {
     "description": "A twisted plugin for py.test.",
-    "version": "1.5",
-    "name": "pytest-twisted"
+    "name": "pytest-twisted",
+    "version": "1.5"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
-    "version": "1.10",
-    "name": "pytest-xdist"
+    "name": "pytest-xdist",
+    "version": "1.10"
   },
   {
     "description": "pytest plugin to manage external processes across test runs",
-    "version": "0.8",
-    "name": "pytest-xprocess"
+    "name": "pytest-xprocess",
+    "version": "0.8"
   },
   {
     "description": "Run tests against wsgi apps defined in yaml",
-    "version": "0.6",
-    "name": "pytest-yamlwsgi"
+    "name": "pytest-yamlwsgi",
+    "version": "0.6"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
-    "version": "0.2",
-    "name": "pytest-zap"
+    "name": "pytest-zap",
+    "version": "0.2"
   }
 ]
