@@ -11,31 +11,7 @@ See test results at http://pytest-plugs.herokuapp.com.
 
 [![ci](http://img.shields.io/travis/nicoddemus/pytest-plugs.svg)](https://travis-ci.org/nicoddemus/pytest-plugs)
 
-## Updating ##
-
-Right now the process is manual, but should be executed automatically in the
-future.
-
-To update, execute `update_index.py` with no parameters:
-
-```
-python update_index.py
-index.txt updated (push to GitHub).
-```
-
-If `index.txt` is updated as the message above states, that file should be committed
-and pushed back to GitHub in order to trigger a new [travis](https://travis-ci.org) build.
-The web page will be updated when the full matrix gets a chance
-to run, usually after 10 minutes or so.
-
-If `index.txt` does not change, no further action is needed:
-
-```
-python update_index.py
-index.txt skipped, no changes.
-```
-
-## How It Works ##
+## Overview ##
 
 For each each plugin, as identified by a search for `pytest-*` on PyPI, we
 download, install and execute its tests using [tox](http://tox.readthedocs.org/en/latest/).
@@ -49,8 +25,17 @@ that can be used to visualize them.
 The steps above are executed for some Python and pytest versions,
 resulting in a matrix of plugin x Python x pytest compatibility.
 
-We use [travis](https://travis-ci.org) to execute the tests and post the results. The web
+[Travis](https://travis-ci.org) is used to execute the tests and post the results. The web
 page is hosted by [heroku](https://www.heroku.com) at http://pytest-plugs.herokuapp.com.
+
+## Updating ##
+
+A [heroku scheduler](https://addons.heroku.com/scheduler) job runs once a day that executes the `heroku_update.bash`
+script.
+
+The main job of this script is to run `update_index.py`, which is reponsible for querying `pypi` and updating
+`index.txt` with latest pytest plugin information. This file is then pushed back to GitHub which will trigger a new [travis](https://travis-ci.org) build.
+  
 
 ## Details ##
 
