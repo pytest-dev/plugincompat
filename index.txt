@@ -110,6 +110,11 @@
     "version": "1.0"
   },
   {
+    "description": "Plugin for pytest which provides tools for fixtures",
+    "name": "pytest-fixture-tools",
+    "version": "1.0.0"
+  },
+  {
     "description": "pytest plugin to check source code with pyflakes",
     "name": "pytest-flakes",
     "version": "0.2"
