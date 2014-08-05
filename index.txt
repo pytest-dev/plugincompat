@@ -72,7 +72,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.4.21"
+    "version": "0.4.22"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -98,6 +98,11 @@
     "description": "The bare minimum to integrate py.test with Django.",
     "name": "pytest-django-lite",
     "version": "0.1.1"
+  },
+  {
+    "description": "pytest plugin with mechanisms for echoing environment variables, package version and django settings",
+    "name": "pytest-echo",
+    "version": "1.0"
   },
   {
     "description": "pytest plugin to check for commented out code",
