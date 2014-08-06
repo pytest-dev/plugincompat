@@ -102,7 +102,7 @@
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and django settings",
     "name": "pytest-echo",
-    "version": "1.0"
+    "version": "1.2"
   },
   {
     "description": "pytest plugin to check for commented out code",
@@ -320,9 +320,9 @@
     "version": "0.3.4"
   },
   {
-    "description": "pytest plugin to abort tests after a timeout",
+    "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "A twisted plugin for py.test.",
