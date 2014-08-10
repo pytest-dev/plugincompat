@@ -100,9 +100,9 @@
     "version": "0.1.1"
   },
   {
-    "description": "pytest plugin with mechanisms for echoing environment variables, package version and django settings",
+    "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
-    "version": "1.2"
+    "version": "1.3"
   },
   {
     "description": "pytest plugin to check for commented out code",
