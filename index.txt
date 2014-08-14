@@ -70,6 +70,11 @@
     "version": "1.7.0"
   },
   {
+    "description": "Use pytest's runner to discover and execute C++ tests",
+    "name": "pytest-cpp",
+    "version": "0.1.0"
+  },
+  {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
     "version": "0.4.22"
@@ -82,7 +87,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.7"
+    "version": "0.1.8.dev1"
   },
   {
     "description": "A Django plugin for py.test.",
