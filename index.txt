@@ -72,7 +72,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
