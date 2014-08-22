@@ -297,7 +297,7 @@
   {
     "description": "UNKNOWN",
     "name": "pytest-runner",
-    "version": "2.0"
+    "version": "2.1"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
