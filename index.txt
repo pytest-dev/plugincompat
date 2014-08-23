@@ -67,7 +67,7 @@
   {
     "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing",
     "name": "pytest-cov",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
@@ -172,7 +172,7 @@
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
     "name": "pytest-knows",
-    "version": "0.1.0"
+    "version": "0.1.5"
   },
   {
     "description": "Run Konira DSL tests with py.test",
