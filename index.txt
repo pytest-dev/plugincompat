@@ -77,7 +77,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -238,6 +238,11 @@
     "description": "pytest plugin to check PEP8 requirements",
     "name": "pytest-pep8",
     "version": "1.0.6"
+  },
+  {
+    "description": "Pytest plugin for functional testing of data analysis pipelines",
+    "name": "pytest-pipeline",
+    "version": "0.1.0"
   },
   {
     "description": "Visualize your crappy tests",
