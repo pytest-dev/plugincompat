@@ -72,7 +72,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -202,7 +202,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
