@@ -300,9 +300,9 @@
     "version": "0.3"
   },
   {
-    "description": "UNKNOWN",
+    "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.1"
+    "version": "2.1.2"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
