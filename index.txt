@@ -72,7 +72,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -157,7 +157,7 @@
   {
     "description": "py.test plugin to show failures instantly",
     "name": "pytest-instafail",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
