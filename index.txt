@@ -162,7 +162,7 @@
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
     "name": "pytest-ipdb",
-    "version": "0.1-prerelease"
+    "version": "0.1-prerelease2"
   },
   {
     "description": "py.test JIRA integration plugin, using markers",
