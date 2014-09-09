@@ -322,7 +322,7 @@
   {
     "description": "Splinter subplugin for Pytest BDD plugin",
     "name": "pytest-splinter",
-    "version": "1.0.3"
+    "version": "1.1.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
