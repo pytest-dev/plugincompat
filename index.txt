@@ -292,7 +292,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.0.5"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
