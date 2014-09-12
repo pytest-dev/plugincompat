@@ -7,7 +7,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.3.2"
+    "version": "2.3.3"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
@@ -128,6 +128,11 @@
     "description": "pytest plugin to check source code with pyflakes",
     "name": "pytest-flakes",
     "version": "0.2"
+  },
+  {
+    "description": "A set of py.test fixtures to test Flask applications.",
+    "name": "pytest-flask",
+    "version": "0.3.1"
   },
   {
     "description": "Green progress dots",
