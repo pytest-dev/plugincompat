@@ -24,6 +24,7 @@ import subprocess
 import json
 
 import requests
+import time
 
 import update_index
 
@@ -131,7 +132,9 @@ def main():
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
 
     test_results = {}
+    overall_start = time.time()
     for plugin in plugins:
+        start = time.time()
         name = plugin['name']
         version = plugin['version']
         description = plugin['description']
@@ -146,11 +149,16 @@ def main():
         print('-> extracted to', directory)
         result, output = run_tox(directory, tox_env, pytest_version)
         print('-> tox returned %s' % result)
+        print('-> time: %.1f seconds' % (time.time() - start))
         test_results[(name, version)] = result, output, description
 
     print('\n\n')
+    overall_elapsed = time.time() - overall_start
+    elapsed_m = overall_elapsed // 60
+    elapsed_s = overall_elapsed % 60
     print('=' * 60)
     print('Summary')
+    print('Time: %dm %02ds' % (elapsed_m, elapsed_s))
     print('=' * 60)
     post_data = []
     for (name, version) in sorted(test_results):
