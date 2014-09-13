@@ -170,8 +170,7 @@ def working_dir(new_cwd):
 
 
 def main():
-    #pytest_version = os.environ['PYTEST_VERSION']
-    pytest_version = '2.6.2'
+    pytest_version = os.environ['PYTEST_VERSION']
     tox_env = 'py%d%d' % sys.version_info[:2]
 
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
@@ -181,7 +180,7 @@ def main():
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
     with working_dir('.work'), executor:
         fs = []
-        for plugin in plugins[:4]:
+        for plugin in plugins:
             f = executor.submit(process_package, tox_env,
                                 pytest_version, plugin['name'],
                                 plugin['version'], plugin['description'])
