@@ -94,24 +94,18 @@ def run_tox(directory, tox_env, pytest_version):
         finally:
             f.close()
 
-    oldcwd = os.getcwd()
+    cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
+    cmdline %= (tox_env, pytest_version)
+
     try:
-        os.chdir(directory)
-        cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
-        cmdline %= (tox_env, pytest_version)
+        output = subprocess.check_output(
+            cmdline, shell=True, stderr=subprocess.STDOUT, cwd=directory)
+        result = 0
+    except subprocess.CalledProcessError as e:
+        result = e.returncode
+        output = e.output
 
-        try:
-            output = subprocess.check_output(
-                cmdline, shell=True, stderr=subprocess.STDOUT)
-            result = 0
-        except subprocess.CalledProcessError as e:
-            result = e.returncode
-            output = e.output
-
-        return result, output.decode()
-    finally:
-        os.chdir(oldcwd)
-
+    return result, output.decode()
 
 # tox.ini contents when downloaded package does not have a tox.ini file
 # in this case we only display help information
