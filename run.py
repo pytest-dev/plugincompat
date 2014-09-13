@@ -171,7 +171,7 @@ def main():
 
     test_results = {}
     overall_start = time.time()
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
     with working_dir('.work'), executor:
         fs = []
         for plugin in plugins:
