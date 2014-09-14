@@ -85,6 +85,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "Describe-style plugin for pytest",
+    "name": "pytest-describe",
+    "version": "0.5"
+  },
+  {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
     "version": "0.1.8.dev1"
