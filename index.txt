@@ -77,7 +77,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -87,7 +87,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -152,7 +152,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
