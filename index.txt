@@ -7,7 +7,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.3.3"
+    "version": "2.4.0"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
@@ -87,7 +87,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.6"
+    "version": "0.7"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -332,7 +332,7 @@
   {
     "description": "Splinter subplugin for Pytest BDD plugin",
     "name": "pytest-splinter",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
