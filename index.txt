@@ -137,7 +137,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "Green progress dots",
@@ -357,7 +357,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.10"
+    "version": "1.11"
   },
   {
     "description": "pytest plugin to manage external processes across test runs",
