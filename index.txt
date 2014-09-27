@@ -292,7 +292,7 @@
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
     "name": "pytest-raisesregexp",
-    "version": "1.0"
+    "version": "2.0"
   },
   {
     "description": "py.test plugin to randomize tests",
@@ -330,9 +330,9 @@
     "version": "0.2.22"
   },
   {
-    "description": "Splinter subplugin for Pytest BDD plugin",
+    "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.1.1"
+    "version": "1.2.2"
   },
   {
     "description": "Run a test suite one failing test at a time.",
