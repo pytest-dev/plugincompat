@@ -87,7 +87,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.9"
+    "version": "0.10"
   },
   {
     "description": "Common py.test support for Diffeo packages",
