@@ -45,6 +45,11 @@
     "version": "0.7"
   },
   {
+    "description": "py.test plugin for CircleCI",
+    "name": "pytest-circleci",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
     "name": "pytest-codecheckers",
     "version": "0.2"
