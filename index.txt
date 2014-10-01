@@ -180,6 +180,11 @@
     "version": "0.1-prerelease2"
   },
   {
+    "description": "Use pytest's runner to discover and execute tests as cells of IPython notebooks",
+    "name": "pytest-ipynb",
+    "version": "0.1.1"
+  },
+  {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
     "version": "0.01"
