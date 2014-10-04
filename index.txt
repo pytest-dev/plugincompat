@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
   {
     "description": "BDD for pytest",
