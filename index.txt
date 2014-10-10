@@ -20,6 +20,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "",
+    "name": "pytest-benchmark",
+    "version": "0.0.1"
+  },
+  {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
     "version": "0.1"
