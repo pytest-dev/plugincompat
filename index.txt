@@ -342,7 +342,7 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.0.2"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
