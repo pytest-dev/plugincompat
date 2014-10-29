@@ -125,6 +125,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
+    "name": "pytest-django-sqlcount",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
     "version": "1.3"
@@ -152,7 +157,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.3.4"
+    "version": "0.4.0"
   },
   {
     "description": "Green progress dots",
