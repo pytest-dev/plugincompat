@@ -335,6 +335,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "py.test plugin to remove stale byte code files.",
+    "name": "pytest-remove-stale-bytecode",
+    "version": "1.0"
+  },
+  {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
     "name": "pytest-rerunfailures",
     "version": "0.05"
