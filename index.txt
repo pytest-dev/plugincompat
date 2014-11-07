@@ -82,7 +82,7 @@
   {
     "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing",
     "name": "pytest-cov",
-    "version": "1.8.0"
+    "version": "1.8.1"
   },
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
@@ -92,7 +92,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -107,7 +107,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.8.dev1"
+    "version": "0.1.8.dev3"
   },
   {
     "description": "A Django plugin for py.test.",
