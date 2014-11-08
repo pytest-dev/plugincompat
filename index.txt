@@ -67,7 +67,7 @@
   {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
     "name": "pytest-config",
-    "version": "0.0.10"
+    "version": "0.0.11"
   },
   {
     "description": "Define pytest fixtures as context managers.",
