@@ -7,7 +7,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.4.5"
+    "version": "2.5.0"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
