@@ -10,6 +10,11 @@
     "version": "2.5.0"
   },
   {
+    "description": "A pytest plugin that reports test results to the BeakerLib framework",
+    "name": "pytest-beakerlib",
+    "version": "0.3"
+  },
+  {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
     "name": "pytest-beds",
     "version": "0.0.1"
