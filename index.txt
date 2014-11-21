@@ -70,6 +70,11 @@
     "version": "0.2"
   },
   {
+    "description": "Colorizes the progress indicators",
+    "name": "pytest-colordots",
+    "version": "0.1"
+  },
+  {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
     "name": "pytest-config",
     "version": "0.0.11"
@@ -337,7 +342,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
