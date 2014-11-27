@@ -260,6 +260,11 @@
     "version": "1.3"
   },
   {
+    "description": "Utility for writing multi-host tests for pytest",
+    "name": "pytest-multihost",
+    "version": "0.3"
+  },
+  {
     "description": "pytest plugin to test OpenERP modules",
     "name": "pytest-oerp",
     "version": "0.2.0"
@@ -387,7 +392,7 @@
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "py.test plugin to abort hanging tests",
