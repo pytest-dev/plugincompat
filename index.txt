@@ -182,7 +182,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -290,6 +290,11 @@
     "version": "0.1"
   },
   {
+    "description": "py.test plugin for pep257",
+    "name": "pytest-pep257",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to check PEP8 requirements",
     "name": "pytest-pep8",
     "version": "1.0.6"
@@ -373,6 +378,11 @@
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
     "version": "1.1.0"
+  },
+  {
+    "description": "Test-ordering plugin for pytest",
+    "name": "pytest-sourceorder",
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
