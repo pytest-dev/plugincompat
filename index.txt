@@ -282,7 +282,7 @@
   {
     "description": "OS X notifications for py.test results.",
     "name": "pytest-osxnotify",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Allow setting the path to a paste config file",
