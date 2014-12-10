@@ -267,7 +267,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
