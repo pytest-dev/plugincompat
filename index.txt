@@ -27,7 +27,7 @@
   {
     "description": "py.test fixture for benchmarking code",
     "name": "pytest-benchmark",
-    "version": "0.8.0"
+    "version": "1.0.0"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -267,7 +267,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
