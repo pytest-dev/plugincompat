@@ -122,7 +122,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.8.dev3"
+    "version": "0.1.8"
   },
   {
     "description": "A Django plugin for py.test.",
