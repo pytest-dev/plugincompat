@@ -327,7 +327,7 @@
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
-    "version": "0.3"
+    "version": "0.5"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
@@ -397,7 +397,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.2.5"
+    "version": "1.2.7"
   },
   {
     "description": "Run a test suite one failing test at a time.",
