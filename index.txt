@@ -337,7 +337,7 @@
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
     "name": "pytest-quickcheck",
-    "version": "0.8"
+    "version": "0.8.1"
   },
   {
     "description": "pytest plugin to implement PEP712",
