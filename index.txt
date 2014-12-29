@@ -355,6 +355,11 @@
     "version": "0.02"
   },
   {
+    "description": "Test your README.md file",
+    "name": "pytest-readme",
+    "version": "1.0.0"
+  },
+  {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
     "version": "0.4.1"
