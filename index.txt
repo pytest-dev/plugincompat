@@ -275,6 +275,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Run object-oriented tests in a simple format",
+    "name": "pytest-oot",
+    "version": "0.1"
+  },
+  {
     "description": "include/exclude values of fixtures in pytest",
     "name": "pytest-optional",
     "version": "0.0.2"
@@ -418,6 +423,11 @@
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
     "version": "0.4"
+  },
+  {
+    "description": "Test your translation files",
+    "name": "pytest-translations",
+    "version": "0.1.0"
   },
   {
     "description": "A twisted plugin for py.test.",
