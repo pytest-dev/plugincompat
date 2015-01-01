@@ -277,7 +277,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.1"
+    "version": "0.2a"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
