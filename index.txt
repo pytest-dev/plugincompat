@@ -277,7 +277,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.2.1"
+    "version": "0.2.6"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -387,7 +387,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.1.2"
+    "version": "2.2"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
