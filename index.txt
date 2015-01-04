@@ -277,7 +277,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.2.6"
+    "version": "0.2.8"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -393,6 +393,11 @@
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
     "version": "1.1.0"
+  },
+  {
+    "description": "Smart coverage plugin for pytest.",
+    "name": "pytest-smartcov",
+    "version": "0.1"
   },
   {
     "description": "Test-ordering plugin for pytest",
