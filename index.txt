@@ -387,7 +387,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.2"
+    "version": "2.2.1"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
