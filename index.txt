@@ -7,7 +7,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.5.3"
+    "version": "2.6.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -367,7 +367,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
