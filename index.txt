@@ -7,7 +7,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.6.0"
+    "version": "2.6.1"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -438,6 +438,11 @@
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
     "version": "1.5"
+  },
+  {
+    "description": "Local continuous test runner with pytest and watchdog.",
+    "name": "pytest-watch",
+    "version": "0.1.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
