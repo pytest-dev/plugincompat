@@ -332,12 +332,12 @@
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
