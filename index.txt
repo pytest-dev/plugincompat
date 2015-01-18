@@ -70,6 +70,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "Distributed tests planner plugin for pytest testing framework.",
+    "name": "pytest-cloud",
+    "version": "1.0.5"
+  },
+  {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
     "name": "pytest-codecheckers",
     "version": "0.2"
@@ -442,7 +447,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
