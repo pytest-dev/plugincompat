@@ -37,7 +37,7 @@
   {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
     "name": "pytest-bpdb",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "BrowserMob proxy plugin for py.test.",
@@ -400,9 +400,9 @@
     "version": "2.2.1"
   },
   {
-    "description": "Splinter plugin for pytest testing framework",
+    "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.0.0"
+    "version": "1.0.3"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
