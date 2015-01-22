@@ -5,6 +5,11 @@
     "version": "1.5.2"
   },
   {
+    "description": "automatically check condition and log all the checks",
+    "name": "pytest-autochecklog",
+    "version": "0.1.1"
+  },
+  {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
     "version": "2.6.1"
@@ -77,7 +82,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.0.8"
+    "version": "1.0.10"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -117,7 +122,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.8.1"
+    "version": "0.8.2"
   },
   {
     "description": "D-BUS notifications for pytest results.",
