@@ -432,7 +432,7 @@
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
     "name": "pytest-spec",
-    "version": "0.2.22"
+    "version": "0.2.23"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
