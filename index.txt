@@ -17,7 +17,7 @@
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
     "name": "pytest-beakerlib",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
@@ -187,7 +187,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "Green progress dots",
@@ -282,7 +282,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -427,7 +427,7 @@
   {
     "description": "Test-ordering plugin for pytest",
     "name": "pytest-sourceorder",
-    "version": "0.1"
+    "version": "0.4"
   },
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
