@@ -187,7 +187,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "Green progress dots",
@@ -345,9 +345,9 @@
     "version": "0.1"
   },
   {
-    "description": "UNKNOWN",
+    "description": "Pytest fixture \"q\" for pyq",
     "name": "pytest-pyq",
-    "version": "0.9"
+    "version": "0.9.1"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
