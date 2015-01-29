@@ -277,7 +277,7 @@
   {
     "description": "Mozilla WebQA plugin for py.test.",
     "name": "pytest-mozwebqa",
-    "version": "1.4"
+    "version": "1.5"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
