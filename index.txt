@@ -82,7 +82,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.0.10"
+    "version": "1.0.13"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -437,7 +437,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.2.9"
+    "version": "1.2.10"
   },
   {
     "description": "Run a test suite one failing test at a time.",
