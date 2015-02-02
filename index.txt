@@ -247,7 +247,7 @@
   {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "py.test bugzilla integration plugin, using markers",
