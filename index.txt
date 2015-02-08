@@ -472,7 +472,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
