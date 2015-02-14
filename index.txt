@@ -465,6 +465,11 @@
     "version": "0.4"
   },
   {
+    "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
+    "name": "pytest-tornado",
+    "version": "0.4.1"
+  },
+  {
     "description": "Test your translation files",
     "name": "pytest-translations",
     "version": "0.2.0"
