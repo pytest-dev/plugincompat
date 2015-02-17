@@ -5,6 +5,11 @@
     "version": "1.5.4"
   },
   {
+    "description": "UNKNOWN",
+    "name": "pytest-ansible",
+    "version": "1.1"
+  },
+  {
     "description": "automatically check condition and log all the checks",
     "name": "pytest-autochecklog",
     "version": "0.1.2"
@@ -82,7 +87,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.0.13"
+    "version": "1.0.14"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -207,7 +212,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -417,7 +422,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.2.1"
+    "version": "2.3"
   },
   {
     "description": "Services plugin for pytest testing framework",
