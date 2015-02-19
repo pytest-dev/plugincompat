@@ -87,7 +87,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.0.14"
+    "version": "1.0.15"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -483,6 +483,11 @@
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
     "version": "1.5"
+  },
+  {
+    "description": "Run only unmarked tests",
+    "name": "pytest-unmarked",
+    "version": "1.1"
   },
   {
     "description": "Local continuous test runner with pytest and watchdog.",
