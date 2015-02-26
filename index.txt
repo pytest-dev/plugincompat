@@ -197,7 +197,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "Green progress dots",
@@ -352,7 +352,7 @@
   {
     "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions",
     "name": "pytest-pycharm",
-    "version": "0.1.0"
+    "version": "0.3.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
