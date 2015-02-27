@@ -197,7 +197,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.7.1"
+    "version": "0.7.2"
   },
   {
     "description": "Green progress dots",
