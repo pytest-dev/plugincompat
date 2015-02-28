@@ -1,4 +1,4 @@
-# pytest-plugs #
+# plugincompat #
 
 Compatibility checks for pytest plugins. 
 
@@ -7,9 +7,9 @@ Compatibility checks for pytest plugins.
 This project tests pytest plugins compatibility across Python and pytest
 versions, displaing them in a web page for quick consulting.
 
-See test results at http://pytest-plugs.herokuapp.com.
+See test results at http://plugincompat.herokuapp.com.
 
-[![ci](http://img.shields.io/travis/nicoddemus/pytest-plugs.svg)](https://travis-ci.org/nicoddemus/pytest-plugs)
+[![ci](http://img.shields.io/travis/pytest-dev/plugincompat.svg)](https://travis-ci.org/pytest-dev/plugincompat)
 
 ## Overview ##
 
@@ -26,7 +26,7 @@ The steps above are executed for some Python and pytest versions,
 resulting in a matrix of plugin x Python x pytest compatibility.
 
 [Travis](https://travis-ci.org) is used to execute the tests and post the results. The web
-page is hosted by [heroku](https://www.heroku.com) at http://pytest-plugs.herokuapp.com.
+page is hosted by [heroku](https://www.heroku.com) at http://plugincompat.herokuapp.com.
 
 ## Updating ##
 
@@ -112,7 +112,7 @@ The above environment variables are configured in the
 
 ### web.py ###
 
-This is the webserver that is hosted at [heroku](http://pytest-plugs.herokuapp.com).
+This is the webserver that is hosted at [heroku](http://plugincompat.herokuapp.com).
 
 It serves an index page containing a table displaying test results for pytest
 plugins against different Python and pytest versions.

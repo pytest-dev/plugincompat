@@ -11,7 +11,7 @@ by running `pytest --help`.
 The pytest version to use is obtained by $PYTEST_VERSION, which is forced as
 a dependency when invoking tox.
 
-Once all results are obtained, they are posted to the pytest-plugs heroku app
+Once all results are obtained, they are posted to the plugincompat heroku app
 which can then be visualized.
 """
 from __future__ import print_function, with_statement, division
@@ -217,14 +217,14 @@ def main():
              'description': description,
             }
         )
-    post_url = os.environ.get('PLUGS_SITE')
+    post_url = os.environ.get('PLUGINCOMPAT_SITE')
     if post_url:
         headers = {'content-type': 'application/json'}
         response = requests.post(post_url, data=json.dumps(post_data),
                                  headers=headers)
         print('posted to {}; response={}'.format(post_url, response))
     else:
-        print('not posting, no $PLUGS_SITE defined: {}'.format(post_data))
+        print('not posting, no $PLUGINCOMPAT_SITE defined: {}'.format(post_data))
 
 
 if __name__ == '__main__':

@@ -175,7 +175,7 @@ def client():
 #noinspection PyShadowingNames
 class TestView(object):
     """
-    Tests web views for pytest-plugs
+    Tests web views for plugincompat
     """
 
     def post_result(self, client, result):

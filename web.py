@@ -92,7 +92,7 @@ class PlugsStorage(object):
         return result
 
 
-app = flask.Flask('pytest-plugs')
+app = flask.Flask('plugincompat')
 
 
 def get_storage_for_view():
