@@ -7,7 +7,7 @@
   {
     "description": "Plugin for py.test to allow running ansible",
     "name": "pytest-ansible",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   {
     "description": "automatically check condition and log all the checks",
@@ -17,7 +17,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.6.2"
+    "version": "2.7.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -467,7 +467,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.2.10"
+    "version": "1.2.11"
   },
   {
     "description": "Run a test suite one failing test at a time.",
