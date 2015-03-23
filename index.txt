@@ -250,6 +250,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "pytest plugin to perform isort checks (import ordering)",
+    "name": "pytest-isort",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
     "version": "0.01"
@@ -528,5 +533,10 @@
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
+  },
+  {
+    "description": "pytest-ipdb installable from pip. Using this until https://github.com/mverteuil/pytest-ipdb/issues/9 is resolved.",
+    "name": "robpol86-pytest-ipdb",
+    "version": "0.0.1"
   }
 ]
