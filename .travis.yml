@@ -15,6 +15,7 @@ install:
 env:
   - PYTEST_VERSION=2.5.2 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
   - PYTEST_VERSION=2.6.4 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=2.7.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
 script: 
   - python run.py
 
