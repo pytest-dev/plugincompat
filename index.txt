@@ -187,7 +187,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "py.test figleaf coverage plugin",
