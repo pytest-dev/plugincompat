@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.5.4"
+    "version": "1.6.0"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -187,7 +187,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   {
     "description": "py.test figleaf coverage plugin",
@@ -198,6 +198,11 @@
     "description": "Plugin for pytest which provides tools for fixtures",
     "name": "pytest-fixture-tools",
     "version": "1.0.0"
+  },
+  {
+    "description": "pytest plugin to check FLAKE8 requirements",
+    "name": "pytest-flake8",
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to check source code with pyflakes",
@@ -292,7 +297,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -352,7 +357,7 @@
   {
     "description": "Pytest plugin for functional testing of data analysis pipelines",
     "name": "pytest-pipeline",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Visualize your crappy tests",
