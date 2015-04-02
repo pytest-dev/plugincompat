@@ -505,6 +505,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Plugin for py.test that integrates trello using markers",
+    "name": "pytest-trello",
+    "version": "0.0.1"
+  },
+  {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
     "version": "1.5"
