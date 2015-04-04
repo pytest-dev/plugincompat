@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.6.0"
+    "version": "1.6.1"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -137,7 +137,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.10"
+    "version": "0.10.1"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -337,7 +337,7 @@
   {
     "description": "OS X notifications for py.test results.",
     "name": "pytest-osxnotify",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "Allow setting the path to a paste config file",
@@ -397,7 +397,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "1.2.3"
+    "version": "1.3.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -442,7 +442,7 @@
   {
     "description": "implement a --failed option for pytest",
     "name": "pytest-runfailed",
-    "version": "0.3"
+    "version": "0.5"
   },
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
@@ -477,7 +477,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
