@@ -457,7 +457,7 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Smart coverage plugin for pytest.",
