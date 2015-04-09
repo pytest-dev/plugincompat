@@ -215,6 +215,11 @@
     "version": "0.7.5"
   },
   {
+    "description": "py.test plugin to ignore the same files as git",
+    "name": "pytest-gitignore",
+    "version": "1.1"
+  },
+  {
     "description": "Green progress dots",
     "name": "pytest-greendots",
     "version": "0.3"
@@ -507,7 +512,7 @@
   {
     "description": "Plugin for py.test that integrates trello using markers",
     "name": "pytest-trello",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "A twisted plugin for py.test.",
