@@ -17,7 +17,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.7.1"
+    "version": "2.7.2"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -142,7 +142,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.8"
+    "version": "0.1.9.dev1"
   },
   {
     "description": "A Django plugin for py.test.",
@@ -183,6 +183,11 @@
     "description": "pytest plugin to check for commented out code",
     "name": "pytest-eradicate",
     "version": "0.0.2"
+  },
+  {
+    "description": "Factory Boy support for pytest.",
+    "name": "pytest-factoryboy",
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -302,7 +307,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
