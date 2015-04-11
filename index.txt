@@ -190,6 +190,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "Faker integration for pytest framework.",
+    "name": "pytest-faker",
+    "version": "1.0.0"
+  },
+  {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
     "version": "0.2.1"
@@ -378,6 +383,11 @@
     "description": "Visualize your failed tests with poo",
     "name": "pytest-poo-fail",
     "version": "1.1"
+  },
+  {
+    "description": "pytest: simple powerful testing with Python",
+    "name": "pytest-proper-wheel",
+    "version": "2.7.1.dev3"
   },
   {
     "description": "py.test plugin for purkinje test runner",
