@@ -10,6 +10,11 @@
     "version": "1.2.4"
   },
   {
+    "description": "Pytest support for asyncio.",
+    "name": "pytest-asyncio",
+    "version": "0.1"
+  },
+  {
     "description": "automatically check condition and log all the checks",
     "name": "pytest-autochecklog",
     "version": "0.1.2"
