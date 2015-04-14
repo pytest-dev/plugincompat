@@ -232,7 +232,7 @@
   {
     "description": "py.test plugin to ignore the same files as git",
     "name": "pytest-gitignore",
-    "version": "1.1"
+    "version": "1.2"
   },
   {
     "description": "Green progress dots",
@@ -538,6 +538,11 @@
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
     "version": "1.5"
+  },
+  {
+    "description": "Easily mock calls to ubersmith at the `requests` level.",
+    "name": "pytest-ubersmith",
+    "version": "1.2.0"
   },
   {
     "description": "Run only unmarked tests",
