@@ -147,7 +147,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.9"
+    "version": "0.1.10"
   },
   {
     "description": "A Django plugin for py.test.",
@@ -502,7 +502,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.3.4"
+    "version": "1.3.5"
   },
   {
     "description": "Run a test suite one failing test at a time.",
