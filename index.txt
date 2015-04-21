@@ -7,7 +7,7 @@
   {
     "description": "Plugin for py.test to allow running ansible",
     "name": "pytest-ansible",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   {
     "description": "Pytest support for asyncio.",
@@ -243,6 +243,11 @@
     "description": "Growl notifications for pytest results.",
     "name": "pytest-growl",
     "version": "0.2"
+  },
+  {
+    "description": "pytest plugin for generating HTML reports",
+    "name": "pytest-html",
+    "version": "1.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
