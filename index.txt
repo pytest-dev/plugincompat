@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.6.3"
+    "version": "1.6.4"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -132,7 +132,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.9.0"
+    "version": "0.10.0"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -227,7 +227,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -583,5 +583,10 @@
     "description": "pytest-ipdb installable from pip. Using this until https://github.com/mverteuil/pytest-ipdb/issues/9 is resolved.",
     "name": "robpol86-pytest-ipdb",
     "version": "0.0.1"
+  },
+  {
+    "description": "Tox + Py.test summary",
+    "name": "tox-pytest-summary",
+    "version": "0.1"
   }
 ]
