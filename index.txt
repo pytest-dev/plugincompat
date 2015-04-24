@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.6.4"
+    "version": "1.6.5"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -12,7 +12,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.1"
+    "version": "0.1.1"
   },
   {
     "description": "automatically check condition and log all the checks",
@@ -192,7 +192,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Faker integration for pytest framework.",
@@ -347,7 +347,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.3.1"
+    "version": "0.5.05"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -413,6 +413,11 @@
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
     "name": "pytest-pydev",
     "version": "0.1"
+  },
+  {
+    "description": "pytest plugin to check source code with pylint",
+    "name": "pytest-pylint",
+    "version": "0.1.0"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
@@ -537,7 +542,7 @@
   {
     "description": "Plugin for py.test that integrates trello using markers",
     "name": "pytest-trello",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "A twisted plugin for py.test.",
@@ -587,6 +592,6 @@
   {
     "description": "Tox + Py.test summary",
     "name": "tox-pytest-summary",
-    "version": "0.1"
+    "version": "0.1.1"
   }
 ]
