@@ -17,7 +17,7 @@
   {
     "description": "automatically check condition and log all the checks",
     "name": "pytest-autochecklog",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   {
     "description": "BDD for pytest",
@@ -347,7 +347,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.5.05"
+    "version": "0.5.6"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -417,7 +417,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
@@ -592,6 +592,6 @@
   {
     "description": "Tox + Py.test summary",
     "name": "tox-pytest-summary",
-    "version": "0.1.1"
+    "version": "0.1.2"
   }
 ]
