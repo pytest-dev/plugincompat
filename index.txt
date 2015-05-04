@@ -322,7 +322,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.4.3"
+    "version": "0.5.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
