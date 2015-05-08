@@ -262,7 +262,7 @@
   {
     "description": "an incremental test runner (pytest plugin)",
     "name": "pytest-incremental",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to show failures instantly",
