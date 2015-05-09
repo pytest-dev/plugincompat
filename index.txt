@@ -247,7 +247,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -262,7 +262,7 @@
   {
     "description": "an incremental test runner (pytest plugin)",
     "name": "pytest-incremental",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "py.test plugin to show failures instantly",
