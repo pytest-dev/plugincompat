@@ -132,7 +132,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.10.0"
+    "version": "0.11.0"
   },
   {
     "description": "D-BUS notifications for pytest results.",
