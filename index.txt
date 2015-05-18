@@ -22,7 +22,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.7.2"
+    "version": "2.8.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -537,7 +537,7 @@
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "Test your translation files",
