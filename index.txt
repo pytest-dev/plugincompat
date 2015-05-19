@@ -132,7 +132,7 @@
   {
     "description": "pytest plugin to generate curl command line report",
     "name": "pytest-curl-report",
-    "version": "0.5.0"
+    "version": "0.5.2"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
