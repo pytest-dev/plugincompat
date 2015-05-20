@@ -252,7 +252,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.1"
+    "version": "1.2"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
