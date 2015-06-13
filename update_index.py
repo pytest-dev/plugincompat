@@ -30,7 +30,7 @@ else:
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.txt')
 
 
-def iter_plugins(client, search='pytest-'):
+def iter_plugins(client, search='pytest'):
     '''
     Returns an iterator of (name, version, summary) from PyPI.
 
@@ -38,7 +38,8 @@ def iter_plugins(client, search='pytest-'):
     :param search: package names to search for
     '''
     for plug_data in client.search({'name': search}):
-        yield plug_data['name'], plug_data['version'], plug_data['summary']
+        if plug_data['name'].startswith('pytest-'):
+            yield plug_data['name'], plug_data['version'], plug_data['summary']
 
 
 def get_latest_versions(plugins):
@@ -86,7 +87,7 @@ def write_plugins_index(file_name, plugins):
 
 def main():
     client = ServerProxy('https://pypi.python.org/pypi')
-    plugins = iter_plugins(client)
+    plugins = list(iter_plugins(client))
     plugins = sorted(get_latest_versions(plugins))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
