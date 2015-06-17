@@ -190,6 +190,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
+    "name": "pytest-django-sqlcounts",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
     "version": "1.3"
