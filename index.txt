@@ -22,7 +22,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.12.0"
+    "version": "2.12.1"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -587,7 +587,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "py.test plugin to abort hanging tests",
