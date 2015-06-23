@@ -47,7 +47,7 @@
   {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
-    "version": "0.1"
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
