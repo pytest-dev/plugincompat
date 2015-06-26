@@ -365,6 +365,11 @@
     "version": "1.6"
   },
   {
+    "description": "pytest plugin to help with testing figures output from Matplotlib",
+    "name": "pytest-mpl",
+    "version": "0.2"
+  },
+  {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
     "version": "0.8"
