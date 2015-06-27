@@ -277,7 +277,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -367,7 +367,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
