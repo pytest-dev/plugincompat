@@ -195,6 +195,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "A documentation plugin for py.test.",
+    "name": "pytest-doc",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
     "version": "1.3"
