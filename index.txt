@@ -127,7 +127,7 @@
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
     "name": "pytest-cover",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
@@ -198,6 +198,11 @@
     "description": "A documentation plugin for py.test.",
     "name": "pytest-doc",
     "version": "0.0.1"
+  },
+  {
+    "description": "A pytest plugin for dumping test results to json.",
+    "name": "pytest-dump2json",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
@@ -647,7 +652,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "3.1.0"
+    "version": "3.2.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
