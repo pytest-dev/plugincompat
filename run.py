@@ -88,11 +88,8 @@ def run_tox(directory, tox_env, pytest_version):
     """
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
-        f = open(tox_file, 'w')
-        try:
+        with open(tox_file, 'w') as f:
             f.write(PLACEHOLDER_TOX)
-        finally:
-            f.close()
 
     cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
     cmdline %= (tox_env, pytest_version)
