@@ -1,5 +1,5 @@
 """
-Reads index.txt file containing plugins versions and descriptions, and
+Reads index.json file containing plugins versions and descriptions, and
 test them against current python version and pytest version selected by
 $PYTEST_VERSION environment variable.
 

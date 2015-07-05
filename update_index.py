@@ -2,9 +2,9 @@
 Updates the plugin index with the latest version and descriptions from
 PyPI.
 
-The index file (index.txt) contains all plugins found by a search for
+The index file (index.json) contains all plugins found by a search for
 "pytest-" in PyPI in order to find all pytest plugins. We then save their
-latest version and description into index.txt, which will be read by
+latest version and description into index.json, which will be read by
 "run.py" in order to execute compatibility tests between the plugins
 and pytest/python versions. See "run.py" for more details.
 
@@ -12,7 +12,7 @@ Usage:
 
     python update_index.py
 
-If index.txt was updated, it should be pushed back to GitHub, which will
+If index.json was updated, it should be pushed back to GitHub, which will
 trigger a new travis build using the new versions.
 """
 from __future__ import print_function, with_statement, division
@@ -27,7 +27,7 @@ if sys.version_info[0] == 3:
 else:
     from xmlrpclib import ServerProxy
 
-INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.txt')
+INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.json')
 
 
 def iter_plugins(client, search='pytest'):
