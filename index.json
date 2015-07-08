@@ -22,7 +22,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.13.1"
+    "version": "2.14.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -92,7 +92,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.0.26"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -388,6 +388,11 @@
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
     "version": "0.8"
+  },
+  {
+    "description": "Run all tests without custom markers",
+    "name": "pytest-nocustom",
+    "version": "1.0"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
