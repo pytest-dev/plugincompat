@@ -92,7 +92,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.1.0"
+    "version": "1.2.4"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -127,7 +127,7 @@
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
     "name": "pytest-cover",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
