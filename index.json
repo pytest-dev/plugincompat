@@ -92,7 +92,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.2.10"
+    "version": "1.2.11"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
