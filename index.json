@@ -22,7 +22,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.14.0"
+    "version": "2.14.1"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -547,7 +547,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.0.5"
+    "version": "1.0.8"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
