@@ -92,7 +92,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.2.11"
+    "version": "1.2.12"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -547,7 +547,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.0.8"
+    "version": "1.0.10"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
@@ -672,7 +672,7 @@
   {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
-    "version": "0.8"
+    "version": "0.9"
   },
   {
     "description": "Run tests against wsgi apps defined in yaml",
