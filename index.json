@@ -672,7 +672,7 @@
   {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
-    "version": "0.9"
+    "version": "0.9.1"
   },
   {
     "description": "Run tests against wsgi apps defined in yaml",
