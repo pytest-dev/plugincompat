@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.6.6"
+    "version": "1.6.7"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -92,7 +92,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.2.12"
+    "version": "1.3.3"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -547,7 +547,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.0.10"
+    "version": "1.1.1"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
@@ -657,7 +657,7 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "Local continuous test runner with pytest and watchdog.",
