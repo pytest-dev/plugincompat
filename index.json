@@ -120,9 +120,9 @@
     "version": "0.5.1"
   },
   {
-    "description": "py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing",
+    "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "1.8.1"
+    "version": "2.0.0"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
@@ -148,6 +148,11 @@
     "description": "pytest plugin for test data directories and files",
     "name": "pytest-datadir",
     "version": "0.1.0"
+  },
+  {
+    "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
+    "name": "pytest-datafiles",
+    "version": "0.1.dev0"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -542,7 +547,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.5.1"
+    "version": "2.6"
   },
   {
     "description": "A selenium plugin for pytest",
@@ -552,7 +557,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.1.3"
+    "version": "1.1.4"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
