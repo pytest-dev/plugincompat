@@ -547,7 +547,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.6"
+    "version": "2.6.1"
   },
   {
     "description": "A selenium plugin for pytest",
@@ -667,7 +667,7 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.1"
+    "version": "1.2"
   },
   {
     "description": "Local continuous test runner with pytest and watchdog.",
