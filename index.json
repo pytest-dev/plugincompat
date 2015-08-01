@@ -600,6 +600,11 @@
     "version": "0.4"
   },
   {
+    "description": "py.test plugin to spawn process and communicate with them.",
+    "name": "pytest-spawner",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
     "name": "pytest-spec",
     "version": "0.2.24"
