@@ -127,7 +127,7 @@
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
     "name": "pytest-cover",
-    "version": "2.0.2"
+    "version": "3.0.0"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
@@ -152,7 +152,7 @@
   {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
     "name": "pytest-datafiles",
-    "version": "0.1.dev0"
+    "version": "0.1"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -497,7 +497,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "1.5.0"
+    "version": "1.5.1"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
