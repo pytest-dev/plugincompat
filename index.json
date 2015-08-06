@@ -50,6 +50,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "pytest plugin to mark a test as blocker and skip all other tests",
+    "name": "pytest-blocker",
+    "version": "0.1"
+  },
+  {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
     "name": "pytest-bpdb",
     "version": "0.1.4"
@@ -527,7 +532,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.8.0"
+    "version": "0.8.2"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
