@@ -390,6 +390,11 @@
     "version": "1.1.0"
   },
   {
+    "description": "Fixtures for integration tests of AWS services,uses moto mocking library.",
+    "name": "pytest-moto",
+    "version": "0.1.1"
+  },
+  {
     "description": "Mozilla WebQA plugin for py.test.",
     "name": "pytest-mozwebqa",
     "version": "1.6"
