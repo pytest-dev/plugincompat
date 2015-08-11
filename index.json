@@ -315,6 +315,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "ignore failures from flaky tests (pytest plugin)",
+    "name": "pytest-ignore-flaky",
+    "version": "0.1.0"
+  },
+  {
     "description": "an incremental test runner (pytest plugin)",
     "name": "pytest-incremental",
     "version": "0.4.2"
