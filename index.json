@@ -592,11 +592,6 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.1.0"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
     "version": "1.1.1"
   },
   {
@@ -647,7 +642,7 @@
   {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
