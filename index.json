@@ -177,7 +177,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.11.dev1"
+    "version": "0.1.12.dev1"
   },
   {
     "description": "A Django plugin for py.test.",
@@ -302,7 +302,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.4"
+    "version": "1.5.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -542,7 +542,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.8.2"
+    "version": "0.8.3"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -562,7 +562,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.6.1"
+    "version": "2.6.2"
   },
   {
     "description": "A selenium plugin for pytest",
@@ -627,7 +627,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.4.6"
+    "version": "1.4.8"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -697,7 +697,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.12"
+    "version": "1.13.1"
   },
   {
     "description": "pytest plugin to manage external processes across test runs",
