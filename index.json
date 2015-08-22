@@ -592,6 +592,11 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
+    "version": "1.1.0"
+  },
+  {
+    "description": "py.test plugin to locally test sftp server connections.",
+    "name": "pytest-sftpserver",
     "version": "1.1.1"
   },
   {
@@ -622,7 +627,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.5.2"
+    "version": "1.6.6"
   },
   {
     "description": "Run a test suite one failing test at a time.",
