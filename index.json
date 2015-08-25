@@ -142,7 +142,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.3.1"
+    "version": "0.4"
   },
   {
     "description": "pytest plugin to generate curl command line report",
@@ -588,11 +588,6 @@
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
     "version": "1.0.2"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
-    "version": "1.1.0"
   },
   {
     "description": "py.test plugin to locally test sftp server connections.",
