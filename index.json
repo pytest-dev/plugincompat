@@ -415,6 +415,11 @@
     "version": "3.2.0"
   },
   {
+    "description": "pytest addon for displaying the whole node id for failures",
+    "name": "pytest-wholenodeid",
+    "version": "0.2"
+  },
+  {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
     "version": "1.13.1"
