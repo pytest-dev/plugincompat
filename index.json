@@ -10,11 +10,6 @@
     "version": "0.2.0"
   },
   {
-    "description": "BDD for pytest",
-    "name": "pytest-bdd",
-    "version": "2.14.4"
-  },
-  {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
     "name": "pytest-beakerlib",
     "version": "0.5"
@@ -108,6 +103,11 @@
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
     "version": "0.10.1"
+  },
+  {
+    "description": "pytest plugin for diamond",
+    "name": "pytest-diamond",
+    "version": "0.0.1"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -358,6 +358,11 @@
     "description": "py.test plugin to spawn process and communicate with them.",
     "name": "pytest-spawner",
     "version": "0.1.0"
+  },
+  {
+    "description": "Splinter plugin for pytest testing framework",
+    "name": "pytest-splinter",
+    "version": "1.7.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
