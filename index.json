@@ -10,6 +10,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "BDD for pytest",
+    "name": "pytest-bdd",
+    "version": "2.15.0"
+  },
+  {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
     "name": "pytest-beakerlib",
     "version": "0.5"
