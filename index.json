@@ -97,7 +97,7 @@
   {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
     "name": "pytest-datafiles",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "D-BUS notifications for pytest results.",
