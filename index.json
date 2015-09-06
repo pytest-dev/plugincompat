@@ -145,6 +145,11 @@
     "version": "0.0.1"
   },
   {
+    "description": "pytest plugin for writing functional tests with pexpect and docker",
+    "name": "pytest-docker-pexpect",
+    "version": "0.5"
+  },
+  {
     "description": "A pytest plugin for dumping test results to json.",
     "name": "pytest-dump2json",
     "version": "0.1.0"
