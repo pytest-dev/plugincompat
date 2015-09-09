@@ -115,9 +115,9 @@
     "version": "0.0.1"
   },
   {
-    "description": "Common py.test support for Diffeo packages",
-    "name": "pytest-diffeo",
-    "version": "0.1.12.dev1"
+    "description": "",
+    "name": "pytest-disable",
+    "version": "0.1"
   },
   {
     "description": "A Django plugin for py.test.",
@@ -187,7 +187,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.5.1"
+    "version": "1.6"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -335,9 +335,9 @@
     "version": "0.05"
   },
   {
-    "description": "A selenium plugin for pytest",
+    "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "0.1.0"
+    "version": "1.0b1"
   },
   {
     "description": "Services plugin for pytest testing framework",
