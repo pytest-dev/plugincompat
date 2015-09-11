@@ -70,6 +70,11 @@
     "version": "0.1"
   },
   {
+    "description": "pytest support for PyQt and PySide applications",
+    "name": "pytest-qt",
+    "version": "1.6.0"
+  },
+  {
     "description": "Simple pytest plugin to look for regex in Exceptions",
     "name": "pytest-raisesregexp",
     "version": "2.0"
