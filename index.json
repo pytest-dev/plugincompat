@@ -40,9 +40,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "py.test fixture for benchmarking code",
+    "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "2.5.0"
+    "version": "3.0.0a1"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -133,11 +133,6 @@
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
     "name": "pytest-cover",
     "version": "3.0.0"
-  },
-  {
-    "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
-    "name": "pytest-coverage",
-    "version": "0.0"
   },
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
@@ -597,31 +592,6 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.0.0"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
-    "version": "1.0.1"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
-    "version": "1.0.2"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
-    "version": "1.1.0"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
-    "version": "1.1.1"
-  },
-  {
-    "description": "py.test plugin to locally test sftp server connections.",
-    "name": "pytest-sftpserver",
     "version": "1.1.2"
   },
   {
@@ -663,6 +633,11 @@
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.6"
+  },
+  {
+    "description": "take TDD to a new level with py.test and testmon",
+    "name": "pytest-testmon",
+    "version": "0.7"
   },
   {
     "description": "py.test plugin to abort hanging tests",
