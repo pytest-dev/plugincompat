@@ -297,7 +297,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.9.0"
+    "version": "0.10.0"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -693,6 +693,11 @@
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
     "version": "3.2.0"
+  },
+  {
+    "description": "Local continuous test runner with pytest and watchdog.",
+    "name": "pytest-watch",
+    "version": "3.3.0"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
