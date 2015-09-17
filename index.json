@@ -530,6 +530,11 @@
     "version": "1.6.0"
   },
   {
+    "description": "pytest support for PyQt and PySide applications",
+    "name": "pytest-qt",
+    "version": "1.7.0"
+  },
+  {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
     "name": "pytest-quickcheck",
     "version": "0.8.2"
