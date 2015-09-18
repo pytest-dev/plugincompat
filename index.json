@@ -147,7 +147,7 @@
   {
     "description": "Useful functions for managing data for pytest fixtures",
     "name": "pytest-data",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "pytest plugin for test data directories and files",
@@ -247,7 +247,7 @@
   {
     "description": "pytest plugin to check for commented out code",
     "name": "pytest-eradicate",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
@@ -292,7 +292,7 @@
   {
     "description": "pytest plugin to check source code with pyflakes",
     "name": "pytest-flakes",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "A set of py.test fixtures to test Flask applications.",
