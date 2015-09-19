@@ -267,7 +267,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "0.2.1"
+    "version": "1.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -702,7 +702,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "3.3.0"
+    "version": "3.5.0"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
