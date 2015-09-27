@@ -630,6 +630,11 @@
     "version": "0.3"
   },
   {
+    "description": "Run a test suite one failing test at a time.",
+    "name": "pytest-stepwise",
+    "version": "0.4"
+  },
+  {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.4.0"
