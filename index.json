@@ -402,7 +402,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.7.0"
+    "version": "0.8.1"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -512,7 +512,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
