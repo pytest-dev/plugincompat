@@ -237,7 +237,7 @@ def get_python_versions():
     Python versions we are willing to display on the page, in order to ignore
     old and incomplete results.
     """
-    return {'py27', 'py34'}
+    return {'py27', 'py35'}
 
 
 def get_pytest_versions():

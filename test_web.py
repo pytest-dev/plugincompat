@@ -271,7 +271,7 @@ class TestView(object):
 
     def test_versions(self):
         from web import get_python_versions, get_pytest_versions
-        assert get_python_versions() == {'py27', 'py34'}
+        assert get_python_versions() == {'py27', 'py35'}
         assert get_pytest_versions() == {'2.7.3', '2.8.1'}
 
 
