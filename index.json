@@ -267,7 +267,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.0"
+    "version": "1.0.1"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
