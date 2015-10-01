@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0a1"
+    "version": "3.0.0a2"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -567,7 +567,7 @@
   {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
-    "version": "1.0"
+    "version": "2.1"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
