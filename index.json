@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0a2"
+    "version": "3.0.0a3"
   },
   {
     "description": "Disable network requests during a test run.",
