@@ -1,3 +1,4 @@
+import logging
 from distutils.version import LooseVersion
 import os
 from urlparse import urlsplit
@@ -6,6 +7,7 @@ import itertools
 from flask import request, render_template
 import flask
 import pymongo
+import sys
 
 
 class PlugsStorage(object):
@@ -93,6 +95,9 @@ class PlugsStorage(object):
 
 
 app = flask.Flask('plugincompat')
+app.debug = True
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.ERROR)
 
 
 def get_storage_for_view():
