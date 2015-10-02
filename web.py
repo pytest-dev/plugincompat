@@ -20,7 +20,7 @@ class PlugsStorage(object):
                                      'mongodb://localhost:27017/{}'.format(
                                          default_db_name))
         db_name = urlsplit(mongodb_uri).path[1:]
-        self._connection = pymongo.Connection(mongodb_uri)
+        self._connection = pymongo.MongoClient(mongodb_uri)
         self._db = self._connection[db_name]
 
         self._db.results.create_index(
