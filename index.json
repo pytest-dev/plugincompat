@@ -352,7 +352,7 @@
   {
     "description": "Use pytest's runner to discover and execute tests as cells of IPython notebooks",
     "name": "pytest-ipynb",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "pytest plugin to perform isort checks (import ordering)",
