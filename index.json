@@ -192,7 +192,7 @@
   {
     "description": "A Django plugin for py.test.",
     "name": "pytest-django",
-    "version": "2.8.0"
+    "version": "2.9.0"
   },
   {
     "description": "Integrate CasperJS with your django tests as a pytest fixture.",
