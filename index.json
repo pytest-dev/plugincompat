@@ -192,7 +192,7 @@
   {
     "description": "A Django plugin for py.test.",
     "name": "pytest-django",
-    "version": "2.9.0"
+    "version": "2.9.1"
   },
   {
     "description": "Integrate CasperJS with your django tests as a pytest fixture.",
@@ -588,6 +588,11 @@
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
     "version": "1.0b1"
+  },
+  {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium",
+    "version": "1.0b2"
   },
   {
     "description": "Services plugin for pytest testing framework",
