@@ -715,6 +715,11 @@
     "version": "1.2"
   },
   {
+    "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
+    "name": "pytest-vw",
+    "version": "0.1.0"
+  },
+  {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
     "version": "3.2.0"
