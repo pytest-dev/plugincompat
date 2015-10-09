@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0a3"
+    "version": "3.0.0a4"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -243,6 +243,11 @@
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
     "version": "0.5.1"
+  },
+  {
+    "description": "A py.test plugin that parses environment files before running tests",
+    "name": "pytest-envfiles",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to check for commented out code",
