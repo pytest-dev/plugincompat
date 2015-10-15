@@ -242,7 +242,7 @@
   {
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -600,6 +600,11 @@
     "version": "1.0b2"
   },
   {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium",
+    "version": "1.0b3"
+  },
+  {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
     "version": "1.1.11"
@@ -613,6 +618,11 @@
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
     "name": "pytest-session2file",
     "version": "0.1.6"
+  },
+  {
+    "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
+    "name": "pytest-session2file",
+    "version": "0.1.8"
   },
   {
     "description": "pytest-session_to_file is a py.test plugin for capturing and saving to file the stdout of py.test.",
