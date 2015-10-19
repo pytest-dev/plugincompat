@@ -712,7 +712,7 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
