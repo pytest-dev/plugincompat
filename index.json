@@ -322,7 +322,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.6"
+    "version": "1.7"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -580,6 +580,16 @@
     "version": "2.1"
   },
   {
+    "description": "pytest plugin for repeating tests",
+    "name": "pytest-repeat",
+    "version": "0.1"
+  },
+  {
+    "description": "pytest plugin for repeating tests",
+    "name": "pytest-repeat-tests",
+    "version": "0.1"
+  },
+  {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
     "name": "pytest-rerunfailures",
     "version": "0.05"
@@ -608,6 +618,11 @@
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
     "version": "1.0b3"
+  },
+  {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium",
+    "version": "1.0b4"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -712,7 +727,7 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
