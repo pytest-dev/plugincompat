@@ -625,6 +625,11 @@
     "version": "1.0b4"
   },
   {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium",
+    "version": "1.0b5"
+  },
+  {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
     "version": "1.1.11"
