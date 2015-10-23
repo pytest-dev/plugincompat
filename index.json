@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0b2"
+    "version": "3.0.0b3"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -118,6 +118,11 @@
     "description": "Define pytest fixtures as context managers.",
     "name": "pytest-contextfixture",
     "version": "0.1.1"
+  },
+  {
+    "description": "A Pytest plugin for your Cookiecutter templates",
+    "name": "pytest-cookies",
+    "version": "0.1.0"
   },
   {
     "description": "py.test extension for per-test couchdb databases using couchdbkit",
