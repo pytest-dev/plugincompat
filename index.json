@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0b3"
+    "version": "3.0.0rc1"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -737,7 +737,7 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
