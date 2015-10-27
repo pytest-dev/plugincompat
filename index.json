@@ -385,6 +385,11 @@
     "version": "0.2"
   },
   {
+    "description": "pytest krtech common library",
+    "name": "pytest-krtech-common",
+    "version": "0.1"
+  },
+  {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
     "version": "0.3.4"
@@ -608,6 +613,11 @@
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
     "version": "2.6.2"
+  },
+  {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium",
+    "version": "1.0"
   },
   {
     "description": "pytest plugin for Selenium",
