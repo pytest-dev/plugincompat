@@ -596,6 +596,11 @@
   },
   {
     "description": "pytest plugin for repeating tests",
+    "name": "pytest-repeat",
+    "version": "0.2"
+  },
+  {
+    "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat-tests",
     "version": "0.1"
   },
