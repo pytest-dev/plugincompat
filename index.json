@@ -262,7 +262,7 @@
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
     "name": "pytest-expect",
-    "version": "0.9.1"
+    "version": "0.10.0"
   },
   {
     "description": "Factory Boy support for pytest.",
@@ -552,7 +552,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
