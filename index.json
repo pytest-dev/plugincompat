@@ -395,6 +395,11 @@
     "version": "0.3.4"
   },
   {
+    "description": "Configures logging and allows tweaking the log level with a py.test flag",
+    "name": "pytest-logging",
+    "version": "2015.11.3.1"
+  },
+  {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
     "version": "0.06"
