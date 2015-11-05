@@ -152,7 +152,7 @@
   {
     "description": "Useful functions for managing data for pytest fixtures",
     "name": "pytest-data",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "pytest plugin for test data directories and files",
@@ -397,7 +397,7 @@
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
     "name": "pytest-logging",
-    "version": "2015.11.3.1"
+    "version": "2015.11.4"
   },
   {
     "description": "py.test bugzilla integration plugin, using markers",
@@ -730,6 +730,11 @@
     "version": "0.5.1"
   },
   {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.4"
+  },
+  {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.6"
@@ -757,7 +762,7 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
