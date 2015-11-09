@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0rc1"
+    "version": "3.0.0"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -87,7 +87,7 @@
   {
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
     "name": "pytest-catchlog",
-    "version": "1.1"
+    "version": "1.2.0"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -177,7 +177,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.10.1"
+    "version": "0.10.2"
   },
   {
     "description": "pytest plugin for diamond",
@@ -738,6 +738,11 @@
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
     "version": "2015.11.6"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.8"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
