@@ -662,7 +662,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.1.11"
+    "version": "1.1.12"
   },
   {
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
@@ -730,6 +730,11 @@
     "version": "0.4"
   },
   {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.2"
+  },
+  {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.4.0"
@@ -738,6 +743,16 @@
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.5.1"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.16"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.17"
   },
   {
     "description": "Predictable and repeatable tempdir support.",
