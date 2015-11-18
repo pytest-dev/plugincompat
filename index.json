@@ -397,7 +397,7 @@
   {
     "description": "py.test plugin to capture logbook log messages",
     "name": "pytest-logbook",
-    "version": "1.0.3"
+    "version": "1.1.0"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -733,6 +733,11 @@
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
     "version": "0.0.2"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.3"
   },
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
