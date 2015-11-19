@@ -427,7 +427,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.8.1"
+    "version": "0.9.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -738,6 +738,16 @@
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
     "version": "0.0.3"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.4"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.5"
   },
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
