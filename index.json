@@ -840,6 +840,11 @@
     "version": "0.0.6"
   },
   {
+    "description": "Plugin for py.test that integrates trello using markers",
+    "name": "pytest-trello",
+    "version": "0.0.7"
+  },
+  {
     "description": "Pytest plugin for trepan debugger.",
     "name": "pytest-trepan",
     "version": "1.0.0"
