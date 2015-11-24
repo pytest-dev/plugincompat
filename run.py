@@ -24,7 +24,6 @@ from zipfile import ZipFile
 import subprocess
 import json
 import traceback
-import io
 import time
 import threading
 
@@ -140,7 +139,11 @@ def process_package(tox_env, pytest_version, name, version, description):
         result, output = 1, 'tox run timed out'
     except Exception:
         f.cancel()
-        stream = io.StringIO()
+        if sys.version_info[0] == 2:
+            from StringIO import StringIO
+        else:
+            from io import StringIO
+        stream = StringIO()
         traceback.print_exc(file=stream)
         result, output = 'error', 'traceback:\n%s' % stream.getvalue()
     finally:
