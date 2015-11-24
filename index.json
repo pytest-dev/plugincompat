@@ -42,7 +42,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code.",
     "name": "pytest-benchmark",
-    "version": "3.0.0rc1"
+    "version": "3.0.0"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -87,7 +87,12 @@
   {
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
     "name": "pytest-catchlog",
-    "version": "1.1"
+    "version": "1.2.0"
+  },
+  {
+    "description": "pytest plugin to test Check_MK checks",
+    "name": "pytest-check-mk",
+    "version": "0.1.1"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -152,7 +157,7 @@
   {
     "description": "Useful functions for managing data for pytest fixtures",
     "name": "pytest-data",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "pytest plugin for test data directories and files",
@@ -177,7 +182,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.10.1"
+    "version": "0.10.2"
   },
   {
     "description": "pytest plugin for diamond",
@@ -262,7 +267,7 @@
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
     "name": "pytest-expect",
-    "version": "0.9.1"
+    "version": "0.10.0"
   },
   {
     "description": "Factory Boy support for pytest.",
@@ -277,7 +282,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -332,7 +337,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -395,6 +400,16 @@
     "version": "0.3.4"
   },
   {
+    "description": "py.test plugin to capture logbook log messages",
+    "name": "pytest-logbook",
+    "version": "1.2.0"
+  },
+  {
+    "description": "Configures logging and allows tweaking the log level with a py.test flag",
+    "name": "pytest-logging",
+    "version": "2015.11.4"
+  },
+  {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
     "version": "0.06"
@@ -417,7 +432,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.8.1"
+    "version": "0.9.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -552,7 +567,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -652,7 +667,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.1.11"
+    "version": "1.1.12"
   },
   {
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
@@ -685,6 +700,11 @@
     "version": "0.1"
   },
   {
+    "description": "py.test plugin for Snap-CI",
+    "name": "pytest-snapci",
+    "version": "0.1.4"
+  },
+  {
     "description": "Test-ordering plugin for pytest",
     "name": "pytest-sourceorder",
     "version": "0.4"
@@ -715,6 +735,26 @@
     "version": "0.4"
   },
   {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.2"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.3"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.4"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.5"
+  },
+  {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.4.0"
@@ -723,6 +763,41 @@
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.5.1"
+  },
+  {
+    "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
+    "name": "pytest-tblineinfo",
+    "version": "0.1"
+  },
+  {
+    "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
+    "name": "pytest-tblineinfo",
+    "version": "0.3"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.16"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.17"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.4"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.6"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.11.8"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
@@ -740,6 +815,11 @@
     "version": "0.5"
   },
   {
+    "description": "py.test plugin to abort hanging tests",
+    "name": "pytest-timeout",
+    "version": "1.0.0"
+  },
+  {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
     "version": "0.4.4"
@@ -752,12 +832,17 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
     "name": "pytest-trello",
     "version": "0.0.6"
+  },
+  {
+    "description": "Plugin for py.test that integrates trello using markers",
+    "name": "pytest-trello",
+    "version": "0.0.7"
   },
   {
     "description": "Pytest plugin for trepan debugger.",
