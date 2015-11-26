@@ -267,7 +267,7 @@
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
     "name": "pytest-expect",
-    "version": "0.10.0"
+    "version": "1.0"
   },
   {
     "description": "Factory Boy support for pytest.",
@@ -457,7 +457,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "0.8"
+    "version": "0.9"
   },
   {
     "description": "Run all tests without custom markers",
