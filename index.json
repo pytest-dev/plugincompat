@@ -240,6 +240,11 @@
     "version": "0.5"
   },
   {
+    "description": "A Pytest plugin to drop duplicated tests during collection",
+    "name": "pytest-drop-dup-tests",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin for dumping test results to json.",
     "name": "pytest-dump2json",
     "version": "0.1.0"
@@ -758,6 +763,11 @@
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
     "version": "0.0.6"
+  },
+  {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.7"
   },
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
