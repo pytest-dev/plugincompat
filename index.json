@@ -802,6 +802,11 @@
   {
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
+    "version": "2015.11.29"
+  },
+  {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
     "version": "2015.11.4"
   },
   {
@@ -902,7 +907,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "3.5.0"
+    "version": "3.6.0"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
