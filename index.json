@@ -770,6 +770,11 @@
     "version": "0.0.7"
   },
   {
+    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
+    "name": "pytest-subunit",
+    "version": "0.0.8"
+  },
+  {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.4.0"
@@ -788,6 +793,11 @@
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
     "name": "pytest-tblineinfo",
     "version": "0.3"
+  },
+  {
+    "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
+    "name": "pytest-tblineinfo",
+    "version": "0.4"
   },
   {
     "description": "Predictable and repeatable tempdir support.",
@@ -907,7 +917,12 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "3.6.0"
+    "version": "3.3.0"
+  },
+  {
+    "description": "Local continuous test runner with pytest and watchdog.",
+    "name": "pytest-watch",
+    "version": "3.7.0"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
