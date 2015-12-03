@@ -272,7 +272,7 @@
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
     "name": "pytest-expect",
-    "version": "1.0"
+    "version": "1.0.1"
   },
   {
     "description": "Factory Boy support for pytest.",
