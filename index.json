@@ -320,6 +320,11 @@
     "version": "0.10.0"
   },
   {
+    "description": "For finding/executing Ghost Inspector tests",
+    "name": "pytest-ghostinspector",
+    "version": "0.1.1"
+  },
+  {
     "description": "py.test plugin to ignore the same files as git",
     "name": "pytest-gitignore",
     "version": "1.3"
