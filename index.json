@@ -930,6 +930,11 @@
     "version": "3.7.0"
   },
   {
+    "description": "Local continuous test runner with pytest and watchdog.",
+    "name": "pytest-watch",
+    "version": "3.8.0"
+  },
+  {
     "description": "pytest addon for displaying the whole node id for failures",
     "name": "pytest-wholenodeid",
     "version": "0.2"
