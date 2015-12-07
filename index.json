@@ -835,6 +835,11 @@
     "version": "2015.11.8"
   },
   {
+    "description": "Predictable and repeatable tempdir support.",
+    "name": "pytest-tempdir",
+    "version": "2015.12.6"
+  },
+  {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.6"
