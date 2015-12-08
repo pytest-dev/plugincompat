@@ -87,7 +87,7 @@
   {
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
     "name": "pytest-catchlog",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -322,7 +322,7 @@
   {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
