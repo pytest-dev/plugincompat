@@ -10,6 +10,11 @@
     "version": "1.2.5"
   },
   {
+    "description": "A pytest plugin that allows multiple failures per test",
+    "name": "pytest-assume",
+    "version": "1.1"
+  },
+  {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
     "version": "0.2.0"
@@ -277,7 +282,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "1.1.4"
+    "version": "1.1.5"
   },
   {
     "description": "Faker integration for pytest framework.",
@@ -287,7 +292,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -402,7 +407,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.1"
+    "version": "0.1.4"
   },
   {
     "description": "py.test plugin to test server connections locally.",
