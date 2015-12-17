@@ -292,7 +292,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -568,6 +568,11 @@
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
     "version": "0.7"
+  },
+  {
+    "description": "pytest support for PyQt and PySide applications",
+    "name": "pytest-qt",
+    "version": "1.10.0"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
