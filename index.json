@@ -145,6 +145,11 @@
     "version": "2.2.0"
   },
   {
+    "description": "Pytest plugin for excluding tests based on coverage data",
+    "name": "pytest-cov-exclude",
+    "version": "0.0.6"
+  },
+  {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
     "name": "pytest-cover",
     "version": "3.0.0"
@@ -197,7 +202,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.12"
+    "version": "0.1.13.dev2"
   },
   {
     "description": "pytest plugin to disable a test and skip it from testrun",
@@ -603,6 +608,11 @@
     "description": "Simple pytest plugin to look for regex in Exceptions",
     "name": "pytest-raisesregexp",
     "version": "2.0"
+  },
+  {
+    "description": "Simple pytest plugin to look for regex in Exceptions",
+    "name": "pytest-raisesregexp",
+    "version": "2.1"
   },
   {
     "description": "py.test plugin to randomize tests",
