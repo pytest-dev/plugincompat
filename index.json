@@ -17,7 +17,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "automatically check condition and log all the checks",
