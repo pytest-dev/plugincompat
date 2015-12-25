@@ -297,7 +297,7 @@
   {
     "description": "Pytest helpers for Falcon.",
     "name": "pytest-falcon",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -422,7 +422,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.7"
+    "version": "0.1.10"
   },
   {
     "description": "A simple network listener",
