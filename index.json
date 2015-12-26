@@ -422,7 +422,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.10"
+    "version": "0.1.11"
   },
   {
     "description": "A simple network listener",
