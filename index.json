@@ -175,6 +175,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
+    "name": "pytest-datadir-ng",
+    "version": "1.0.0"
+  },
+  {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
     "name": "pytest-datafiles",
     "version": "0.2"
@@ -340,6 +345,11 @@
     "version": "0.10.0"
   },
   {
+    "description": "Uses gcov to measure test coverage of a C library",
+    "name": "pytest-gcov",
+    "version": "0.0.1-alpha"
+  },
+  {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
     "version": "0.1.2"
@@ -408,6 +418,11 @@
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
     "version": "0.01"
+  },
+  {
+    "description": "Generate JSON test reports",
+    "name": "pytest-json",
+    "version": "0.1.3"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
