@@ -422,7 +422,7 @@
   {
     "description": "Generate JSON test reports",
     "name": "pytest-json",
-    "version": "0.1.3"
+    "version": "0.2.1"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
