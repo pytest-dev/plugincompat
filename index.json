@@ -302,7 +302,7 @@
   {
     "description": "Pytest helpers for Falcon.",
     "name": "pytest-falcon",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -422,7 +422,7 @@
   {
     "description": "Generate JSON test reports",
     "name": "pytest-json",
-    "version": "0.2.3"
+    "version": "0.3.0"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -513,6 +513,11 @@
     "description": "Run all tests without custom markers",
     "name": "pytest-nocustom",
     "version": "1.0"
+  },
+  {
+    "description": "A pytest plugin to notify test result",
+    "name": "pytest-notifier",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
