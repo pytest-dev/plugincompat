@@ -517,7 +517,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "0.0.1"
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1083,6 +1083,11 @@
     "description": "pytest addon for displaying the whole node id for failures",
     "name": "pytest-wholenodeid",
     "version": "0.2"
+  },
+  {
+    "description": "Test-Driven-Nondevelopment for Pytest",
+    "name": "pytest-wish",
+    "version": "0.1.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
