@@ -180,6 +180,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
+    "name": "pytest-datadir-ng",
+    "version": "1.0.1"
+  },
+  {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
     "name": "pytest-datafiles",
     "version": "0.2"
@@ -1090,9 +1095,19 @@
     "version": "0.1.0"
   },
   {
-    "description": "Test-Driven-Nondevelopment plugin for pytest",
+    "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
-    "version": "0.2.0"
+    "version": "0.3.1"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.4.0"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.5.1"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
