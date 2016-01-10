@@ -522,7 +522,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -838,6 +838,11 @@
     "description": "Run a test suite one failing test at a time.",
     "name": "pytest-stepwise",
     "version": "0.4"
+  },
+  {
+    "description": "A hack to explicitly set up and tear down fixtures.",
+    "name": "pytest-subtesthack",
+    "version": "0.1.0"
   },
   {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
