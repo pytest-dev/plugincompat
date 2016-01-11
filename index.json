@@ -1115,6 +1115,11 @@
     "version": "0.5.1"
   },
   {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.6.0"
+  },
+  {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
     "version": "1.13.1"
