@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.6.8"
+    "version": "1.7.0"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -160,6 +160,11 @@
     "version": "0.4"
   },
   {
+    "description": "Pytest support for curio.",
+    "name": "pytest-curio",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin to generate curl command line report",
     "name": "pytest-curl-report",
     "version": "0.5.2"
@@ -202,7 +207,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.10.2"
+    "version": "0.10.3"
   },
   {
     "description": "pytest plugin for diamond",
@@ -442,7 +447,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.12"
+    "version": "0.1.13"
   },
   {
     "description": "A simple network listener",
@@ -1118,6 +1123,11 @@
     "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
     "version": "0.6.0"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.6.1"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
