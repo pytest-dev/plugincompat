@@ -312,7 +312,7 @@
   {
     "description": "Pytest helpers for Falcon.",
     "name": "pytest-falcon",
-    "version": "0.2.0"
+    "version": "0.3.1"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
