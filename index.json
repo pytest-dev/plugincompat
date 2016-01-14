@@ -432,7 +432,7 @@
   {
     "description": "Generate JSON test reports",
     "name": "pytest-json",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -447,7 +447,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.13"
+    "version": "0.1.14"
   },
   {
     "description": "A simple network listener",
