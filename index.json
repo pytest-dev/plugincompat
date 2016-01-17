@@ -457,7 +457,7 @@
   {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
