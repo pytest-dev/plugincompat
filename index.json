@@ -217,7 +217,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.13.dev3"
+    "version": "0.1.15.dev1"
   },
   {
     "description": "pytest plugin to disable a test and skip it from testrun",
@@ -378,6 +378,11 @@
     "description": "Growl notifications for pytest results.",
     "name": "pytest-growl",
     "version": "0.2"
+  },
+  {
+    "description": "Hide captured output",
+    "name": "pytest-hidecaptured",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for generating HTML reports",
