@@ -452,7 +452,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.16"
+    "version": "0.1.17"
   },
   {
     "description": "A simple network listener",
@@ -498,6 +498,11 @@
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
     "version": "0.9.0"
+  },
+  {
+    "description": "pytest plugin for MongoDB fixtures",
+    "name": "pytest-mongodb",
+    "version": "2.0.1"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -1133,6 +1138,11 @@
     "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
     "version": "0.6.1"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.7.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
