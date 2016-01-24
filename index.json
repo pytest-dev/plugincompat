@@ -300,6 +300,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "A fork of 'expecter' with better support for pytest.",
+    "name": "pytest-expecter",
+    "version": "0.2.2.post2"
+  },
+  {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
     "version": "1.1.5"
@@ -978,6 +983,11 @@
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.7"
+  },
+  {
+    "description": "pytest plugin for creating TestRail runs and adding results",
+    "name": "pytest-testrail",
+    "version": "0.0.2"
   },
   {
     "description": "py.test plugin to abort hanging tests",
