@@ -990,6 +990,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "pytest plugin for creating TestRail runs and adding results",
+    "name": "pytest-testrail",
+    "version": "0.0.3"
+  },
+  {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
     "version": "0.5"
