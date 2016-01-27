@@ -835,6 +835,11 @@
     "version": "0.4"
   },
   {
+    "description": "Test-ordering plugin for pytest",
+    "name": "pytest-sourceorder",
+    "version": "0.5"
+  },
+  {
     "description": "py.test plugin to spawn process and communicate with them.",
     "name": "pytest-spawner",
     "version": "0.1.0"
