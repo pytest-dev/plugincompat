@@ -217,7 +217,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.15.dev1"
+    "version": "0.1.15.dev2"
   },
   {
     "description": "pytest plugin to disable a test and skip it from testrun",
@@ -502,7 +502,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.9.0"
+    "version": "0.10.1"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
@@ -852,7 +852,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.7.0"
+    "version": "1.7.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -1152,17 +1152,17 @@
   {
     "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
-    "version": "0.6.0"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
     "version": "0.6.1"
   },
   {
     "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
     "version": "0.7.0"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.8.0"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
