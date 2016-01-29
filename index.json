@@ -980,6 +980,11 @@
     "version": "2015.12.6"
   },
   {
+    "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.",
+    "name": "pytest-test-groups",
+    "version": "1.0.1"
+  },
+  {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.6"
