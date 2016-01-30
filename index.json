@@ -142,7 +142,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -855,6 +855,11 @@
     "version": "1.7.1"
   },
   {
+    "description": "pytest plugin with sqlalchemy related fixtures",
+    "name": "pytest-sqlalchemy",
+    "version": "0.1"
+  },
+  {
     "description": "Run a test suite one failing test at a time.",
     "name": "pytest-stepwise",
     "version": "0.3"
@@ -1168,6 +1173,11 @@
     "description": "Test-Driven no-Development plugin for pytest",
     "name": "pytest-wish",
     "version": "0.8.0"
+  },
+  {
+    "description": "Test-Driven no-Development plugin for pytest",
+    "name": "pytest-wish",
+    "version": "0.8.1"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
