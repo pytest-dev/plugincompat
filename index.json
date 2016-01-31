@@ -1185,6 +1185,11 @@
     "version": "1.13.1"
   },
   {
+    "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
+    "name": "pytest-xdist",
+    "version": "1.14"
+  },
+  {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
     "version": "0.9.1"
