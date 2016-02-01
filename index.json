@@ -875,6 +875,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "A hack to explicitly set up and tear down fixtures.",
+    "name": "pytest-subtesthack",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
     "version": "0.0.2"
