@@ -730,6 +730,11 @@
     "version": "0.05"
   },
   {
+    "description": "pytest plugin to re-run tests to eliminate flaky failures",
+    "name": "pytest-rerunfailures",
+    "version": "1.0.1"
+  },
+  {
     "description": "implement a --failed option for pytest",
     "name": "pytest-runfailed",
     "version": "0.5"
