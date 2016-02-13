@@ -14,7 +14,7 @@ install:
   - pip install -r requirements.txt
 env:
   - PYTEST_VERSION=2.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
-  - PYTEST_VERSION=2.8.5 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=2.8.7 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
 script: 
   - python run.py
 
