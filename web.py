@@ -1,13 +1,13 @@
-import logging
-from distutils.version import LooseVersion
-import os
-from urlparse import urlsplit
 import itertools
+import logging
+import os
+import sys
+from distutils.version import LooseVersion
+from urlparse import urlsplit
 
-from flask import request, render_template
 import flask
 import pymongo
-import sys
+from flask import request, render_template
 
 
 class PlugsStorage(object):
@@ -212,6 +212,7 @@ def get_status_image(name=None):
         if name is None:
             name = 'pytest-pep8-1.0.5'
         return render_template('status_help.html', name=name)
+
 
 @app.route('/output/<name>')
 def get_output(name):

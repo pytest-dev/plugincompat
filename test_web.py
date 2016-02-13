@@ -1,7 +1,7 @@
-import pytest
-
-from flask import json
 import mock
+import pytest
+from flask import json
+
 from web import PlugsStorage
 
 
@@ -156,7 +156,6 @@ class TestPlugsStorage(object):
 def patched_storage(monkeypatch):
     import web
 
-
     result = MemoryStorage()
     monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
     return result
@@ -165,7 +164,6 @@ def patched_storage(monkeypatch):
 @pytest.fixture
 def client():
     from web import app
-
 
     result = app.test_client()
     app.testing = True
@@ -212,7 +210,6 @@ class TestView(object):
 
     def test_get_render_namespace(self):
         from web import get_namespace_for_rendering
-
 
         with mock.patch('web.get_python_versions') as mock_python_versions, \
                 mock.patch('web.get_pytest_versions') as mock_pytest_versions:

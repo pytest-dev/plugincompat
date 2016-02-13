@@ -16,11 +16,12 @@ If index.json was updated, it should be pushed back to GitHub, which will
 trigger a new travis build using the new versions.
 """
 from __future__ import print_function, with_statement, division
-from distutils.version import LooseVersion
+
 import itertools
+import json
 import os
 import sys
-import json
+from distutils.version import LooseVersion
 
 if sys.version_info[0] == 3:
     from xmlrpc.client import ServerProxy
