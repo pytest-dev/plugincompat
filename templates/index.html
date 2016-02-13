@@ -40,6 +40,7 @@
             {% for lib_name in lib_names %}
             <tr>
                 <td><a href="https://pypi.python.org/pypi/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></td>
+                <td>{{ descriptions[lib_name]}}</td>
                 {% for python_ver in python_versions %}
                     <td>
                     <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, latest_pytest_ver) }}">
@@ -52,8 +53,7 @@
                     {% endif %}
                     </a>
                     </td>
-                {% endfor %}
-                <td>{{ descriptions[lib_name]}}</td>
+                {% endfor %}                
             </tr>
             {% endfor %}
         </tbody>
