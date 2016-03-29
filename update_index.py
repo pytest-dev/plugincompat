@@ -17,7 +17,6 @@ trigger a new travis build using the new versions.
 """
 from __future__ import print_function, with_statement, division
 
-import itertools
 import json
 import os
 import sys
@@ -31,28 +30,33 @@ else:
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.json')
 
 
-def iter_plugins(client, search='pytest'):
+def iter_plugins(client):
     '''
-    Returns an iterator of (name, version, summary) from PyPI.
+    Returns an iterator of (name, latest version, summary) from PyPI.
 
     :param client: xmlrpclib.ServerProxy
     :param search: package names to search for
     '''
-    for plug_data in client.search({'name': search}):
-        if plug_data['name'].startswith('pytest-'):
-            yield plug_data['name'], plug_data['version'], plug_data['summary']
+    # previously we used the more efficient "search" XMLRPC method, but
+    # that stopped returning all results after a while
+    package_names = [x for x in client.list_packages()
+                     if x.startswith('pytest-')]
+    names_and_versions = {}
+    for name in package_names:
+        versions = client.package_releases(name)
+        names_and_versions[name] = sorted(versions, key=LooseVersion)[0]
 
+    print('pytest-*: %d packages' % len(names_and_versions))
 
-def get_latest_versions(plugins):
-    '''
-    Returns an iterator of (name, version, summary) from the given list of (name,
-    version, summary), but returning only the latest version of the package. Uses
-    distutils.LooseVersion to ensure compatibility with PEP386.
-    '''
-    plugins = [(name, LooseVersion(version), desc) for (name, version, desc) in plugins]
-    for name, grouped_plugins in itertools.groupby(plugins, key=lambda x: x[0]):
-        name, loose_version, desc = list(grouped_plugins)[-1]
-        yield name, str(loose_version), desc
+    # search for the new Pytest classifier
+    found = client.browse(['Framework :: Pytest'])
+    print('classifier: %d packages' % len(found))
+    names_and_versions.update(dict(found))
+    print('total: %d packages' % len(names_and_versions))
+
+    for name, version in names_and_versions.items():
+        plug_data = client.release_data(name, version)
+        yield plug_data['name'], plug_data['version'], plug_data['summary']
 
 
 def write_plugins_index(file_name, plugins):
@@ -88,8 +92,7 @@ def write_plugins_index(file_name, plugins):
 
 def main():
     client = ServerProxy('https://pypi.python.org/pypi')
-    plugins = list(iter_plugins(client))
-    plugins = sorted(get_latest_versions(plugins))
+    plugins = sorted(iter_plugins(client))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
         print(INDEX_FILE_NAME, 'updated, push to GitHub.')
