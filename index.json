@@ -2,7 +2,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.7.0"
+    "version": "1.7.1"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -13,6 +13,11 @@
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
     "version": "1.2"
+  },
+  {
+    "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
+    "name": "pytest-ast-back-to-python",
+    "version": "0.1.0"
   },
   {
     "description": "Pytest support for asyncio.",
@@ -27,7 +32,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.16.0"
+    "version": "2.16.1"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -52,7 +57,7 @@
   {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
-    "version": "0.2.0"
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
@@ -107,7 +112,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "1.3.8"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -132,7 +137,7 @@
   {
     "description": "A Pytest plugin for your Cookiecutter templates",
     "name": "pytest-cookies",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "py.test extension for per-test couchdb databases using couchdbkit",
@@ -155,9 +160,19 @@
     "version": "3.0.0"
   },
   {
+    "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
+    "name": "pytest-coverage",
+    "version": "0.0"
+  },
+  {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
     "version": "0.4"
+  },
+  {
+    "description": "Run cram tests with pytest.",
+    "name": "pytest-cram",
+    "version": "0.1.2.dev0"
   },
   {
     "description": "Pytest support for curio.",
@@ -182,11 +197,6 @@
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
     "name": "pytest-datadir-ng",
-    "version": "1.0.0"
-  },
-  {
-    "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
-    "name": "pytest-datadir-ng",
     "version": "1.0.1"
   },
   {
@@ -197,7 +207,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.12.0"
+    "version": "0.13.1"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -210,6 +220,11 @@
     "version": "0.10.3"
   },
   {
+    "description": "DevPI server fixture for py.test",
+    "name": "pytest-devpi-server",
+    "version": "1.1.0"
+  },
+  {
     "description": "pytest plugin for diamond",
     "name": "pytest-diamond",
     "version": "0.0.1"
@@ -217,7 +232,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.15.dev2"
+    "version": "0.1.15.dev3"
   },
   {
     "description": "pytest plugin to disable a test and skip it from testrun",
@@ -302,7 +317,7 @@
   {
     "description": "A fork of 'expecter' with better support for pytest.",
     "name": "pytest-expecter",
-    "version": "0.2.2.post2"
+    "version": "0.2.2.post3"
   },
   {
     "description": "Factory Boy support for pytest.",
@@ -347,7 +362,12 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.1"
+    "version": "0.2"
+  },
+  {
+    "description": "Runs tests multiple times to expose flakiness.",
+    "name": "pytest-flakefinder",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to check source code with pyflakes",
@@ -367,7 +387,17 @@
   {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
-    "version": "0.1.2"
+    "version": "0.2.1"
+  },
+  {
+    "description": "Git repository fixture for py.test",
+    "name": "pytest-git",
+    "version": "1.2.0"
+  },
+  {
+    "description": "Plugin for py.test that associates tests with github issues using a marker.",
+    "name": "pytest-github",
+    "version": "0.0.4"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -387,17 +417,17 @@
   {
     "description": "Hide captured output",
     "name": "pytest-hidecaptured",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.7"
+    "version": "1.8.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.2.0"
+    "version": "0.2.3"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -422,12 +452,12 @@
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
     "name": "pytest-ipdb",
-    "version": "0.1-prerelease2"
+    "version": "0.1-prerelease"
   },
   {
     "description": "Use pytest's runner to discover and execute tests as cells of IPython notebooks",
     "name": "pytest-ipynb",
-    "version": "1.0.2"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin to perform isort checks (import ordering)",
@@ -457,7 +487,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.17"
+    "version": "0.1.25"
   },
   {
     "description": "A simple network listener",
@@ -502,7 +532,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.10.1"
+    "version": "0.11.0"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
@@ -532,12 +562,17 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "0.9"
+    "version": "1.0"
   },
   {
     "description": "Run all tests without custom markers",
     "name": "pytest-nocustom",
     "version": "1.0"
+  },
+  {
+    "description": "Test-driven source code search for Python.",
+    "name": "pytest-nodev",
+    "version": "0.9.8"
   },
   {
     "description": "A pytest plugin to notify test result",
@@ -577,7 +612,7 @@
   {
     "description": "py.test plugin for pep257",
     "name": "pytest-pep257",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "pytest plugin to check PEP8 requirements",
@@ -588,6 +623,11 @@
     "description": "Pytest plugin for functional testing of data analysis pipelines",
     "name": "pytest-pipeline",
     "version": "0.2.0"
+  },
+  {
+    "description": "Markers for pytest to skip tests on specific platforms",
+    "name": "pytest-platform-markers",
+    "version": "0.1.0"
   },
   {
     "description": "Visualize your crappy tests",
@@ -602,7 +642,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.0.1"
+    "version": "1.1.1"
   },
   {
     "description": "pytest: simple powerful testing with Python",
@@ -650,21 +690,6 @@
     "version": "1.11.0"
   },
   {
-    "description": "pytest support for PyQt and PySide applications",
-    "name": "pytest-qt",
-    "version": "1.6.0"
-  },
-  {
-    "description": "pytest support for PyQt and PySide applications",
-    "name": "pytest-qt",
-    "version": "1.7.0"
-  },
-  {
-    "description": "pytest support for PyQt and PySide applications",
-    "name": "pytest-qt",
-    "version": "1.9.0"
-  },
-  {
     "description": "QT app fixture for py.test",
     "name": "pytest-qt-app",
     "version": "1.0.1"
@@ -680,9 +705,9 @@
     "version": "0.1"
   },
   {
-    "description": "Simple pytest plugin to look for regex in Exceptions",
-    "name": "pytest-raisesregexp",
-    "version": "2.0"
+    "description": "An implementation of pytest.raises as a pytest.mark fixture",
+    "name": "pytest-raises",
+    "version": "0.4"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -712,17 +737,7 @@
   {
     "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat",
-    "version": "0.1"
-  },
-  {
-    "description": "pytest plugin for repeating tests",
-    "name": "pytest-repeat",
     "version": "0.2"
-  },
-  {
-    "description": "pytest plugin for repeating tests",
-    "name": "pytest-repeat-tests",
-    "version": "0.1"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
@@ -730,59 +745,29 @@
     "version": "0.05"
   },
   {
-    "description": "pytest plugin to re-run tests to eliminate flaky failures",
-    "name": "pytest-rerunfailures",
-    "version": "1.0.1"
+    "description": "pytest plugin to test webapplications using the Ringo webframework",
+    "name": "pytest-ringo",
+    "version": "0.2.1"
   },
   {
     "description": "implement a --failed option for pytest",
     "name": "pytest-runfailed",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "Invoke py.test as distutils command with dependency resolution.",
     "name": "pytest-runner",
-    "version": "2.6.2"
+    "version": "2.7"
   },
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.0"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.0b1"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.0b2"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.0b3"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.0b4"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.0b5"
-  },
-  {
-    "description": "pytest plugin for Selenium",
-    "name": "pytest-selenium",
-    "version": "1.1"
+    "version": "1.2.1"
   },
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -792,17 +777,7 @@
   {
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
     "name": "pytest-session2file",
-    "version": "0.1.3"
-  },
-  {
-    "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
-    "name": "pytest-session2file",
-    "version": "0.1.6"
-  },
-  {
-    "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
-    "name": "pytest-session2file",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "pytest-session_to_file is a py.test plugin for capturing and saving to file the stdout of py.test.",
@@ -812,17 +787,12 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.1.2"
-  },
-  {
-    "description": "A goodie-bag of unix shell and environment tools for py.test",
-    "name": "pytest-shutil",
     "version": "1.0.0"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.0.1"
+    "version": "1.1.1"
   },
   {
     "description": "Smart coverage plugin for pytest.",
@@ -837,11 +807,6 @@
   {
     "description": "Test-ordering plugin for pytest",
     "name": "pytest-sourceorder",
-    "version": "0.4"
-  },
-  {
-    "description": "Test-ordering plugin for pytest",
-    "name": "pytest-sourceorder",
     "version": "0.5"
   },
   {
@@ -852,12 +817,12 @@
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
     "name": "pytest-spec",
-    "version": "0.2.24"
+    "version": "1.0.1"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.7.1"
+    "version": "1.7.2"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -867,17 +832,7 @@
   {
     "description": "Run a test suite one failing test at a time.",
     "name": "pytest-stepwise",
-    "version": "0.3"
-  },
-  {
-    "description": "Run a test suite one failing test at a time.",
-    "name": "pytest-stepwise",
     "version": "0.4"
-  },
-  {
-    "description": "A hack to explicitly set up and tear down fixtures.",
-    "name": "pytest-subtesthack",
-    "version": "0.1.0"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
@@ -887,57 +842,12 @@
   {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
-    "version": "0.0.2"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.3"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.4"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.5"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.6"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.7"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
-    "version": "0.0.8"
-  },
-  {
-    "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
-    "name": "pytest-subunit",
     "version": "0.0.9"
   },
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.4.0"
-  },
-  {
-    "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
-    "name": "pytest-sugar",
-    "version": "0.5.1"
-  },
-  {
-    "description": "SVN repository fixture for py.test",
-    "name": "pytest-svn",
-    "version": "1.0.0"
+    "version": "0.6.0"
   },
   {
     "description": "SVN repository fixture for py.test",
@@ -947,47 +857,7 @@
   {
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
     "name": "pytest-tblineinfo",
-    "version": "0.1"
-  },
-  {
-    "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
-    "name": "pytest-tblineinfo",
-    "version": "0.3"
-  },
-  {
-    "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
-    "name": "pytest-tblineinfo",
     "version": "0.4"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.16"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.17"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.29"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.4"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.6"
-  },
-  {
-    "description": "Predictable and repeatable tempdir support.",
-    "name": "pytest-tempdir",
-    "version": "2015.11.8"
   },
   {
     "description": "Predictable and repeatable tempdir support.",
@@ -1002,17 +872,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.6"
-  },
-  {
-    "description": "take TDD to a new level with py.test and testmon",
-    "name": "pytest-testmon",
-    "version": "0.7"
-  },
-  {
-    "description": "pytest plugin for creating TestRail runs and adding results",
-    "name": "pytest-testrail",
-    "version": "0.0.2"
+    "version": "0.8.2"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -1022,17 +882,12 @@
   {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "0.5"
-  },
-  {
-    "description": "py.test plugin to abort hanging tests",
-    "name": "pytest-timeout",
     "version": "1.0.0"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   {
     "description": "Test your translation files",
@@ -1043,11 +898,6 @@
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
     "version": "1.2.0"
-  },
-  {
-    "description": "Plugin for py.test that integrates trello using markers",
-    "name": "pytest-trello",
-    "version": "0.0.6"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
@@ -1082,27 +932,17 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.2"
-  },
-  {
-    "description": "pytest plugin for providing variables to tests/fixtures",
-    "name": "pytest-variables",
-    "version": "1.3"
+    "version": "1.4"
   },
   {
     "description": "More descriptive output for parametrized py.test tests",
     "name": "pytest-verbose-parametrize",
-    "version": "1.0.0"
+    "version": "1.2.1"
   },
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.0.0"
-  },
-  {
-    "description": "Virtualenv fixture for py.test",
-    "name": "pytest-virtualenv",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
@@ -1112,32 +952,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "3.2.0"
-  },
-  {
-    "description": "Local continuous test runner with pytest and watchdog.",
-    "name": "pytest-watch",
-    "version": "3.3.0"
-  },
-  {
-    "description": "Local continuous test runner with pytest and watchdog.",
-    "name": "pytest-watch",
-    "version": "3.5.0"
-  },
-  {
-    "description": "Local continuous test runner with pytest and watchdog.",
-    "name": "pytest-watch",
-    "version": "3.7.0"
-  },
-  {
-    "description": "Local continuous test runner with pytest and watchdog.",
-    "name": "pytest-watch",
-    "version": "3.8.0"
-  },
-  {
-    "description": "Selenium webdriver fixture for py.test",
-    "name": "pytest-webdriver",
-    "version": "1.0.0"
+    "version": "3.10.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
@@ -1150,56 +965,6 @@
     "version": "0.2"
   },
   {
-    "description": "Test-Driven-Nondevelopment for Pytest",
-    "name": "pytest-wish",
-    "version": "0.1.0"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.3.1"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.4.0"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.5.1"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.6.1"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.7.0"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.8.0"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.8.1"
-  },
-  {
-    "description": "Test-Driven no-Development plugin for pytest",
-    "name": "pytest-wish",
-    "version": "0.8.2"
-  },
-  {
-    "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
-    "name": "pytest-xdist",
-    "version": "1.13.1"
-  },
-  {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
     "version": "1.14"
@@ -1210,6 +975,11 @@
     "version": "0.9.1"
   },
   {
+    "description": "A pytest plugin to run Xvfb for tests.",
+    "name": "pytest-xvfb",
+    "version": "0.2.0"
+  },
+  {
     "description": "Run tests against wsgi apps defined in yaml",
     "name": "pytest-yamlwsgi",
     "version": "0.6"
@@ -1218,5 +988,10 @@
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
+  },
+  {
+    "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
+    "name": "sentinel-s3",
+    "version": "0.4.0"
   }
 ]
