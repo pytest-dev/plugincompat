@@ -740,9 +740,9 @@
     "version": "0.2"
   },
   {
-    "description": "py.test plugin to re-run tests to eliminate flakey failures",
+    "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "0.05"
+    "version": "1.0.2"
   },
   {
     "description": "pytest plugin to test webapplications using the Ringo webframework",
@@ -847,7 +847,7 @@
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "SVN repository fixture for py.test",
