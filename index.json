@@ -847,7 +847,7 @@
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "SVN repository fixture for py.test",
