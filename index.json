@@ -415,6 +415,11 @@
     "version": "0.2"
   },
   {
+    "description": "PyTest Helpers Namespace",
+    "name": "pytest-helpers-namespace",
+    "version": "2016.4.3"
+  },
+  {
     "description": "Hide captured output",
     "name": "pytest-hidecaptured",
     "version": "0.1.2"
@@ -640,6 +645,11 @@
     "version": "1.1"
   },
   {
+    "description": "Minitest-style test colors",
+    "name": "pytest-pride",
+    "version": "0.1.2"
+  },
+  {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
     "version": "1.1.1"
@@ -667,7 +677,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
@@ -755,9 +765,9 @@
     "version": "0.6"
   },
   {
-    "description": "Invoke py.test as distutils command with dependency resolution.",
+    "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "2.7"
+    "version": "2.7.1"
   },
   {
     "description": "pytest plugin for Selenium",
