@@ -397,7 +397,7 @@
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
     "name": "pytest-github",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -417,7 +417,7 @@
   {
     "description": "PyTest Helpers Namespace",
     "name": "pytest-helpers-namespace",
-    "version": "2016.4.3"
+    "version": "2016.4.5"
   },
   {
     "description": "Hide captured output",
@@ -902,7 +902,7 @@
   {
     "description": "Test your translation files",
     "name": "pytest-translations",
-    "version": "0.2.0"
+    "version": "1.0.0"
   },
   {
     "description": "Folds captured output sections in Travis CI build log",
