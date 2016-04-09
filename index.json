@@ -232,7 +232,7 @@
   {
     "description": "Common py.test support for Diffeo packages",
     "name": "pytest-diffeo",
-    "version": "0.1.15.dev3"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to disable a test and skip it from testrun",
@@ -967,7 +967,7 @@
   {
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
-    "version": "4.0.0"
+    "version": "4.1.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
