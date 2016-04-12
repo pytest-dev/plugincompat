@@ -812,7 +812,7 @@
   {
     "description": "Allow for multiple processes to log to a single file",
     "name": "pytest-single-file-logging",
-    "version": "0.1.7"
+    "version": "0.1.10"
   },
   {
     "description": "Smart coverage plugin for pytest.",
@@ -848,6 +848,11 @@
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-sqlalchemy",
     "version": "0.1"
+  },
+  {
+    "description": "Start pytest run from a given point",
+    "name": "pytest-start-from",
+    "version": "0.1.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
