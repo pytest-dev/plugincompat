@@ -667,7 +667,7 @@
   {
     "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions",
     "name": "pytest-pycharm",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
