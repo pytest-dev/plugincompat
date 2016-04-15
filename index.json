@@ -417,7 +417,7 @@
   {
     "description": "PyTest Helpers Namespace",
     "name": "pytest-helpers-namespace",
-    "version": "2016.4.5"
+    "version": "2016.4.15"
   },
   {
     "description": "Hide captured output",
@@ -842,7 +842,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.7.2"
+    "version": "1.7.3"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -1017,7 +1017,7 @@
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
-    "version": "0.4.0"
+    "version": "0.5.1"
   },
   {
     "description": "Test infrastructures",
