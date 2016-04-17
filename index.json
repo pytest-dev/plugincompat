@@ -765,6 +765,11 @@
     "version": "2.0.0"
   },
   {
+    "description": "Pytest plugin to restrict the test types allowed",
+    "name": "pytest-restrict",
+    "version": "1.0.0"
+  },
+  {
     "description": "pytest plugin to test webapplications using the Ringo webframework",
     "name": "pytest-ringo",
     "version": "0.2.1"
