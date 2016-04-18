@@ -185,6 +185,11 @@
     "version": "0.5.2"
   },
   {
+    "description": "A plugin for testing Cython extension modules",
+    "name": "pytest-cython",
+    "version": "0.1.0"
+  },
+  {
     "description": "Useful functions for managing data for pytest fixtures",
     "name": "pytest-data",
     "version": "0.3"
@@ -492,7 +497,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.25"
+    "version": "0.1.26"
   },
   {
     "description": "A simple network listener",
