@@ -367,7 +367,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Runs tests multiple times to expose flakiness.",
@@ -402,7 +402,7 @@
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
     "name": "pytest-github",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
