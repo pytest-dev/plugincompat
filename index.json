@@ -327,7 +327,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "1.1.5"
+    "version": "1.1.6"
   },
   {
     "description": "Faker integration for pytest framework.",
@@ -367,7 +367,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "Runs tests multiple times to expose flakiness.",
@@ -497,7 +497,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.26"
+    "version": "0.1.27"
   },
   {
     "description": "A simple network listener",
@@ -827,7 +827,7 @@
   {
     "description": "Allow for multiple processes to log to a single file",
     "name": "pytest-single-file-logging",
-    "version": "0.1.10"
+    "version": "0.1.13"
   },
   {
     "description": "Smart coverage plugin for pytest.",
@@ -888,6 +888,11 @@
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.7.1"
+  },
+  {
+    "description": "Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.",
+    "name": "pytest-super-check",
+    "version": "1.0.0"
   },
   {
     "description": "SVN repository fixture for py.test",
