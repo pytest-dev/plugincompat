@@ -20,6 +20,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "A pytest plugin AST SPL for given search query.",
+    "name": "pytest-ast-search",
+    "version": "0.0.4"
+  },
+  {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
     "version": "0.3.0"
@@ -317,7 +322,7 @@
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
     "name": "pytest-expect",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "A fork of 'expecter' with better support for pytest.",
@@ -367,7 +372,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "Runs tests multiple times to expose flakiness.",
@@ -572,7 +577,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "Run all tests without custom markers",
@@ -1038,6 +1043,11 @@
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
     "version": "0.5.1"
+  },
+  {
+    "description": "Variety of remote sensing data for testing",
+    "name": "stestdata",
+    "version": "0.0.1"
   },
   {
     "description": "Test infrastructures",
