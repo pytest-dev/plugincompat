@@ -20,11 +20,6 @@
     "version": "0.1.0"
   },
   {
-    "description": "A pytest plugin AST SPL for given search query.",
-    "name": "pytest-ast-search",
-    "version": "0.0.4"
-  },
-  {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
     "version": "0.3.0"
@@ -1013,6 +1008,11 @@
     "description": "pytest addon for displaying the whole node id for failures",
     "name": "pytest-wholenodeid",
     "version": "0.2"
+  },
+  {
+    "description": "Windows tray notifications for py.test results.",
+    "name": "pytest-winnotify",
+    "version": "0.4.1"
   },
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
