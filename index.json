@@ -1,5 +1,10 @@
 [
   {
+    "description": "Python wrapper for OTRS (using REST API)",
+    "name": "PyOTRS",
+    "version": "0.1.7"
+  },
+  {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.2"
@@ -42,7 +47,7 @@
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
     "name": "pytest-beds",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Benchmark utility that plugs into pytest.",
@@ -937,7 +942,7 @@
   {
     "description": "Test your translation files",
     "name": "pytest-translations",
-    "version": "1.0.0"
+    "version": "1.0.3"
   },
   {
     "description": "Folds captured output sections in Travis CI build log",
