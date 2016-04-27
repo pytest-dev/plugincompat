@@ -1,6 +1,6 @@
 [
   {
-    "description": "Python wrapper for OTRS (using REST API)",
+    "description": "Python wrapper for OTRS (REST) API",
     "name": "PyOTRS",
     "version": "0.1.7"
   },
@@ -727,7 +727,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
