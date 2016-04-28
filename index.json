@@ -157,7 +157,7 @@
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
     "name": "pytest-cov-exclude",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
@@ -1047,7 +1047,7 @@
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   {
     "description": "Variety of remote sensing data for testing",
