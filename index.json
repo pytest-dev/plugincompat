@@ -5,6 +5,11 @@
     "version": "0.1.7"
   },
   {
+    "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of ansible.",
+    "name": "goodplay",
+    "version": "0.6.0"
+  },
+  {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.2"
@@ -157,7 +162,7 @@
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
     "name": "pytest-cov-exclude",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
@@ -777,7 +782,7 @@
   {
     "description": "Pytest plugin to restrict the test types allowed",
     "name": "pytest-restrict",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin to test webapplications using the Ringo webframework",
@@ -832,7 +837,7 @@
   {
     "description": "Allow for multiple processes to log to a single file",
     "name": "pytest-single-file-logging",
-    "version": "0.1.13"
+    "version": "0.1.14"
   },
   {
     "description": "Smart coverage plugin for pytest.",
