@@ -212,7 +212,7 @@
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
     "name": "pytest-datadir-ng",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
