@@ -925,6 +925,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "A plugin to run tests written in Jupyter notebook",
+    "name": "pytest-testbook",
+    "version": "0.0.3"
+  },
+  {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.8.2"
@@ -1048,6 +1053,11 @@
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
+  },
+  {
+    "description": "Remote control a radio transceiver through RigCtl.",
+    "name": "rig-remote",
+    "version": "2.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
