@@ -1055,11 +1055,6 @@
     "version": "0.2"
   },
   {
-    "description": "Remote control a radio transceiver through RigCtl.",
-    "name": "rig-remote",
-    "version": "2.0"
-  },
-  {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
     "version": "0.6.0"
