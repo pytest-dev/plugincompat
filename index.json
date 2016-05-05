@@ -402,7 +402,7 @@
   {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -577,7 +577,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -837,7 +837,7 @@
   {
     "description": "Allow for multiple processes to log to a single file",
     "name": "pytest-single-file-logging",
-    "version": "0.1.14"
+    "version": "0.1.18"
   },
   {
     "description": "Smart coverage plugin for pytest.",
