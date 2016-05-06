@@ -577,7 +577,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
