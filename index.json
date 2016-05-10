@@ -40,6 +40,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "pytest plugin for URL based testing",
+    "name": "pytest-base-url",
+    "version": "1.0.0"
+  },
+  {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
     "version": "2.16.1"
@@ -775,6 +780,11 @@
     "version": "0.2"
   },
   {
+    "description": "Creates json report that is compatible with atom.io's linter message format",
+    "name": "pytest-report",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
     "version": "2.0.0"
@@ -927,7 +937,7 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
