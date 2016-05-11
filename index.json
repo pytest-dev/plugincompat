@@ -782,7 +782,7 @@
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
     "name": "pytest-report",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
