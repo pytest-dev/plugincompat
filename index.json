@@ -810,6 +810,11 @@
     "version": "2.7.1"
   },
   {
+    "description": "pytest plugin for test scenarios",
+    "name": "pytest-scenario",
+    "version": "1.0"
+  },
+  {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
     "version": "1.2.1"
