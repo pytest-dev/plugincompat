@@ -812,7 +812,7 @@
   {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
-    "version": "1.0"
+    "version": "1.0a1"
   },
   {
     "description": "pytest plugin for Selenium",
@@ -1018,6 +1018,11 @@
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
     "version": "1.1.0"
+  },
+  {
+    "description": "pytest plugin for automatic recording of http stubbed tests",
+    "name": "pytest-vts",
+    "version": "0.1.5"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
