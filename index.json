@@ -812,7 +812,7 @@
   {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
-    "version": "1.0a1"
+    "version": "1.0a3"
   },
   {
     "description": "pytest plugin for Selenium",
