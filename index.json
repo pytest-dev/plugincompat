@@ -407,7 +407,7 @@
   {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Git repository fixture for py.test",
