@@ -225,6 +225,11 @@
     "version": "0.2"
   },
   {
+    "description": "A datatest plugin for py.test.",
+    "name": "pytest-datatest",
+    "version": "0.0.0"
+  },
+  {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
     "version": "0.13.1"
