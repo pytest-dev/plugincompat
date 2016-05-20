@@ -35,6 +35,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
+    "name": "pytest-attrib",
+    "version": "0.1.1"
+  },
+  {
     "description": "automatically check condition and log all the checks",
     "name": "pytest-autochecklog",
     "version": "0.2.0"
@@ -562,7 +567,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "0.11.0"
+    "version": "1.0"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
