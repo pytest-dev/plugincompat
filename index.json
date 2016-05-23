@@ -822,7 +822,7 @@
   {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
-    "version": "1.0a3"
+    "version": "1.0a4"
   },
   {
     "description": "pytest plugin for Selenium",
@@ -973,6 +973,11 @@
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
     "version": "0.4.5"
+  },
+  {
+    "description": "py.test plugin for testing Python 3.5+ Tornado code",
+    "name": "pytest-tornasync",
+    "version": "0.2.0"
   },
   {
     "description": "Test your translation files",
