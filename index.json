@@ -977,7 +977,7 @@
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
     "name": "pytest-tornasync",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Test your translation files",
