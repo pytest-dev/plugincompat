@@ -12,7 +12,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.7.2"
+    "version": "1.7.4b0"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -32,7 +32,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
@@ -378,6 +378,11 @@
     "description": "py.test figleaf coverage plugin",
     "name": "pytest-figleaf",
     "version": "1.0"
+  },
+  {
+    "description": "A pytest plugin to treat non-assertion failures as test errors.",
+    "name": "pytest-finer-verdicts",
+    "version": "1.0.2"
   },
   {
     "description": "Fixture configuration utils for py.test",
