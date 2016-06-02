@@ -32,7 +32,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
@@ -572,7 +572,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
