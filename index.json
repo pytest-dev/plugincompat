@@ -5,6 +5,11 @@
     "version": "0.1.8"
   },
   {
+    "description": "A pytest fixture to provide Docker integration.",
+    "name": "docker-integration",
+    "version": "0.0.1"
+  },
+  {
     "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of ansible.",
     "name": "goodplay",
     "version": "0.6.0"
@@ -12,7 +17,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.7.4b0"
+    "version": "1.7.5"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -507,7 +512,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.01"
+    "version": "0.2.0"
   },
   {
     "description": "Generate JSON test reports",
@@ -833,6 +838,11 @@
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
     "version": "1.2.1"
+  },
+  {
+    "description": "A pytest package implementing perceptualdiff for Selenium tests.",
+    "name": "pytest-selenium-pdiff",
+    "version": "0.2.1"
   },
   {
     "description": "Extensible server fixures for py.test",
