@@ -1,7 +1,7 @@
 ## Overview ##
 
 For each each plugin, as identified by a search for `pytest-*` on PyPI, we
-download, install and execute its tests using [tox](http://tox.readthedocs.org/en/latest/).
+download, install and execute its tests using [tox](https://tox.readthedocs.io/en/latest/).
 If a plugin doesn't have a `tox.ini` file, we generate a simple
 `tox.ini` which just ensures that the plugin was installed successfully by
 running `py.test --help`.
@@ -80,7 +80,7 @@ executes tests for each package in the current Python interpreter
 and posts results back to [heroku](https://www.heroku.com).
 
 It does so by downloading the source package for each plugin and extracts it into the
-current directory. It is assumed that plugins use [tox](http://tox.readthedocs.org/en/latest/)
+current directory. It is assumed that plugins use [tox](https://tox.readthedocs.io/en/latest/)
 for testing; if a plugin doesn't have a `tox.ini` file, the script will generate
 a simple `tox.ini` that just tries to ensure the plugins installs cleanly.
 
