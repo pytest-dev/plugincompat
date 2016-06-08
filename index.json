@@ -67,7 +67,7 @@
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
     "name": "pytest-beds",
-    "version": "0.0.2"
+    "version": "0.3.0"
   },
   {
     "description": "Benchmark utility that plugs into pytest.",
