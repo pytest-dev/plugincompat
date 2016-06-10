@@ -557,7 +557,7 @@
   {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
-    "version": "0.06"
+    "version": "0.7"
   },
   {
     "description": "UNKNOWN",
@@ -842,7 +842,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Extensible server fixures for py.test",
