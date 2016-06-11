@@ -757,7 +757,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -842,7 +842,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "Extensible server fixures for py.test",
@@ -1112,7 +1112,7 @@
   {
     "description": "Variety of remote sensing data for testing",
     "name": "stestdata",
-    "version": "0.0.1"
+    "version": "0.1.0"
   },
   {
     "description": "Test infrastructures",
