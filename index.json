@@ -627,7 +627,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -847,7 +847,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   {
     "description": "Extensible server fixures for py.test",
