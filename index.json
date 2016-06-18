@@ -10,9 +10,9 @@
     "version": "0.0.1"
   },
   {
-    "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of ansible.",
+    "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of Ansible.",
     "name": "goodplay",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "Plugin for py.test to generate allure xml reports",
