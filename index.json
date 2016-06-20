@@ -1117,7 +1117,7 @@
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "Variety of remote sensing data for testing",
