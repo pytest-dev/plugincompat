@@ -15,6 +15,16 @@
     "version": "0.7.0"
   },
   {
+    "description": "Routines and classes supporting MongoDB environments",
+    "name": "jaraco.mongodb",
+    "version": "3.17"
+  },
+  {
+    "description": "jaraco.postgres",
+    "name": "jaraco.postgres",
+    "version": "1.5"
+  },
+  {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.5"
@@ -242,7 +252,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.14.1"
+    "version": "0.14.2"
   },
   {
     "description": "D-BUS notifications for pytest results.",
