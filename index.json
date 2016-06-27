@@ -612,7 +612,7 @@
   {
     "description": "Mozilla WebQA plugin for py.test.",
     "name": "pytest-mozwebqa",
-    "version": "1.6"
+    "version": "2.0"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -1077,6 +1077,11 @@
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
     "name": "pytest-vw",
+    "version": "0.1.0"
+  },
+  {
+    "description": "pytest plugin to list Python warnings in pytest report",
+    "name": "pytest-warnings",
     "version": "0.1.0"
   },
   {
