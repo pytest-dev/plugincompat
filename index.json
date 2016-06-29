@@ -372,7 +372,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "1.1.6"
+    "version": "1.2.1"
   },
   {
     "description": "Faker integration for pytest framework.",
@@ -547,7 +547,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.27"
+    "version": "0.1.28"
   },
   {
     "description": "A simple network listener",
