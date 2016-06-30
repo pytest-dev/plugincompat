@@ -67,7 +67,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.16.1"
+    "version": "2.17.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -402,7 +402,7 @@
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Fixture configuration utils for py.test",
@@ -845,6 +845,11 @@
     "version": "2.8"
   },
   {
+    "description": "A Pytest plugin that creates docker containers with salt",
+    "name": "pytest-salt-containers",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
     "version": "1.0a5"
@@ -1072,7 +1077,7 @@
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
     "name": "pytest-vts",
-    "version": "0.1.5"
+    "version": "0.2.0"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
