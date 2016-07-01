@@ -345,6 +345,11 @@
     "version": "1.4"
   },
   {
+    "description": "Elasticsearch process and client fixtures fir py.test.",
+    "name": "pytest-elasticsearch",
+    "version": "0.0.0"
+  },
+  {
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
     "version": "0.6.0"
@@ -527,7 +532,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Generate JSON test reports",
@@ -812,7 +817,7 @@
   {
     "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat",
-    "version": "0.2"
+    "version": "0.3.0"
   },
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
@@ -845,9 +850,9 @@
     "version": "2.8"
   },
   {
-    "description": "A Pytest plugin that creates docker containers with salt",
+    "description": "A Pytest plugin that builds and creates docker containers",
     "name": "pytest-salt-containers",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for test scenarios",
