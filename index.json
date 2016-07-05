@@ -165,6 +165,11 @@
     "version": "0.0.11"
   },
   {
+    "description": "pytest plugin with fixtures for testing consul aware apps",
+    "name": "pytest-consul",
+    "version": "0.0.2"
+  },
+  {
     "description": "Define pytest fixtures as context managers.",
     "name": "pytest-contextfixture",
     "version": "0.1.1"
