@@ -187,7 +187,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.2.1"
+    "version": "2.3.0"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -382,7 +382,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Faker integration for pytest framework.",
