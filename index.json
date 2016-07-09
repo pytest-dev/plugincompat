@@ -680,9 +680,14 @@
     "version": "0.1"
   },
   {
+    "description": "pytest plugin which adds pdb helper commands related to pytest.",
+    "name": "pytest-pdb",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test plugin for pep257",
     "name": "pytest-pep257",
-    "version": "0.0.2"
+    "version": "0.0.5"
   },
   {
     "description": "pytest plugin to check PEP8 requirements",
