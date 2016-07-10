@@ -482,7 +482,7 @@
   {
     "description": "PyTest Helpers Namespace",
     "name": "pytest-helpers-namespace",
-    "version": "2016.4.15"
+    "version": "2016.7.10"
   },
   {
     "description": "Hide captured output",
