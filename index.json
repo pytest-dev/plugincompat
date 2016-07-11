@@ -5,6 +5,11 @@
     "version": "0.1.8"
   },
   {
+    "description": "Extendible configuration testing in parallel.",
+    "name": "ctip",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest fixture to provide Docker integration.",
     "name": "docker-integration",
     "version": "0.0.1"
