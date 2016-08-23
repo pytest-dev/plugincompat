@@ -50,8 +50,12 @@ def iter_plugins(client):
 
     # search for the new Pytest classifier
     found = client.browse(['Framework :: Pytest'])
-    print('classifier: %d packages' % len(found))
-    names_and_versions.update(dict(found))
+    valid = 0
+    for name, version in found:
+        if name and version:
+            names_and_versions[name] = version
+            valid += 1
+    print('classifier: %d packages (%d valid)' % (len(found), valid))
     print('total: %d packages' % len(names_and_versions))
 
     for name, version in names_and_versions.items():
