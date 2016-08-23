@@ -250,7 +250,7 @@ def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {'2.8.7', '2.9.1'}
+    return {'2.9.2', '3.0.0'}
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'

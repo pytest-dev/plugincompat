@@ -13,8 +13,8 @@ install:
   - pip uninstall -y pytest
   - pip install -r requirements.txt
 env:
-  - PYTEST_VERSION=2.8.7 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
-  - PYTEST_VERSION=2.9.1 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=2.9.2 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=3.0.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
 script: 
   - python run.py
 
