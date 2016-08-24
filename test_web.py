@@ -269,7 +269,7 @@ class TestView(object):
     def test_versions(self):
         from web import get_python_versions, get_pytest_versions
         assert get_python_versions() == {'py27', 'py35'}
-        assert get_pytest_versions() == {'2.9.2', '3.0.0'}
+        assert get_pytest_versions() == {'2.9.2', '3.0.1'}
 
 
     def test_get_with_empty_database(self, client, patched_storage):
