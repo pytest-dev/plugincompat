@@ -365,6 +365,11 @@
     "version": "0.0.3"
   },
   {
+    "description": "Pytest plugin to treat skipped tests a test failure",
+    "name": "pytest-error-for-skips",
+    "version": "1.0.0"
+  },
+  {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
     "version": "1.1.0"
