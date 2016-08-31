@@ -627,7 +627,7 @@
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
     "name": "pytest-mongo",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
@@ -710,6 +710,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "pytest plugin for fuzzing with Peach Fuzzer Web Proxy",
+    "name": "pytest-peach",
+    "version": "1.0.0"
+  },
+  {
     "description": "py.test plugin for pep257",
     "name": "pytest-pep257",
     "version": "0.0.5"
@@ -738,6 +743,11 @@
     "description": "Visualize your failed tests with poo",
     "name": "pytest-poo-fail",
     "version": "1.1"
+  },
+  {
+    "description": "UNKNOWN",
+    "name": "pytest-postgresql",
+    "version": "0.0.0"
   },
   {
     "description": "Minitest-style test colors",
