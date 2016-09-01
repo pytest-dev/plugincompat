@@ -932,7 +932,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.5"
+    "version": "0.2.6"
   },
   {
     "description": "Extensible server fixures for py.test",
