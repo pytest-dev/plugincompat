@@ -857,7 +857,7 @@
   {
     "description": "py.test plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.10.0"
+    "version": "0.13.0"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
