@@ -27,7 +27,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
@@ -397,7 +397,7 @@
   {
     "description": "Pytest helpers for Falcon.",
     "name": "pytest-falcon",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -855,9 +855,9 @@
     "version": "1.0.0"
   },
   {
-    "description": "py.test plugin for regression tests",
+    "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.13.0"
+    "version": "0.13.1"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -932,7 +932,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.7"
+    "version": "0.2.8"
   },
   {
     "description": "Extensible server fixures for py.test",
