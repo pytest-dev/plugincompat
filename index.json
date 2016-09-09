@@ -2,7 +2,7 @@
   {
     "description": "pytest plugin for aiohttp support",
     "name": "pytest-aiohttp",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "Plugin for py.test to generate allure xml reports",
@@ -318,6 +318,11 @@
     "description": "A py.test plugin for customizing string representations of doctest results.",
     "name": "pytest-doctest-custom",
     "version": "1.0.0"
+  },
+  {
+    "description": "Some extra stuff that we use ininternally",
+    "name": "pytest-dolphin",
+    "version": "0.1.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -1072,7 +1077,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "0.0.3"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin to abort hanging tests",
