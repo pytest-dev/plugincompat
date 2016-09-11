@@ -705,6 +705,11 @@
     "version": "0.1.7"
   },
   {
+    "description": "pytest plugin to test all, first, last or random params",
+    "name": "pytest-param",
+    "version": "0.1.1"
+  },
+  {
     "description": "Allow setting the path to a paste config file",
     "name": "pytest-paste-config",
     "version": "0.1"
