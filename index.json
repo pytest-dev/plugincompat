@@ -322,7 +322,7 @@
   {
     "description": "Some extra stuff that we use ininternally",
     "name": "pytest-dolphin",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
