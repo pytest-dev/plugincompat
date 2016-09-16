@@ -340,6 +340,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "UNKNOWN",
+    "name": "pytest-dynamodb",
+    "version": "0.0.0"
+  },
+  {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
     "version": "1.4"
@@ -670,6 +675,11 @@
     "version": "1.1"
   },
   {
+    "description": "UNKNOWN",
+    "name": "pytest-mysql",
+    "version": "0.0.0"
+  },
+  {
     "description": "Run all tests without custom markers",
     "name": "pytest-nocustom",
     "version": "1.0"
@@ -760,6 +770,11 @@
     "version": "1.1"
   },
   {
+    "description": "Run PostgreSQL in Docker container in Pytest.",
+    "name": "pytest-postgres",
+    "version": "0.1.0"
+  },
+  {
     "description": "UNKNOWN",
     "name": "pytest-postgresql",
     "version": "0.0.0"
@@ -840,6 +855,11 @@
     "version": "0.8.2"
   },
   {
+    "description": "UNKNOWN",
+    "name": "pytest-rabbitmq",
+    "version": "0.0.0"
+  },
+  {
     "description": "pytest plugin to implement PEP712",
     "name": "pytest-rage",
     "version": "0.1"
@@ -868,6 +888,11 @@
     "description": "Test your README.md file",
     "name": "pytest-readme",
     "version": "1.0.0"
+  },
+  {
+    "description": "UNKNOWN",
+    "name": "pytest-redis",
+    "version": "0.0.0"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -947,7 +972,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.2.8"
+    "version": "0.3.0"
   },
   {
     "description": "Extensible server fixures for py.test",
@@ -1212,7 +1237,7 @@
   {
     "description": "A pytest plugin to run Xvfb for tests.",
     "name": "pytest-xvfb",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Run tests against wsgi apps defined in yaml",
