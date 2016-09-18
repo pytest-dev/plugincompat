@@ -547,7 +547,7 @@
   {
     "description": "pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
-    "version": "0.1"
+    "version": "0.1.1"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -702,7 +702,7 @@
   {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
-    "version": "0.5.6"
+    "version": "0.6.1"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
