@@ -242,7 +242,7 @@
   {
     "description": "Databases fixtures plugin for py.test.",
     "name": "pytest-dbfixtures",
-    "version": "0.15.0"
+    "version": "0.16.0"
   },
   {
     "description": "D-BUS notifications for pytest results.",
@@ -545,7 +545,7 @@
     "version": "0.3.0"
   },
   {
-    "description": "pytest plugin for console based interactive test selection just after the collection phase",
+    "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
     "version": "0.1.1"
   },
