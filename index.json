@@ -322,7 +322,7 @@
   {
     "description": "Some extra stuff that we use ininternally",
     "name": "pytest-dolphin",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -897,7 +897,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.14.1"
+    "version": "0.14.2"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -1012,7 +1012,7 @@
   {
     "description": "Smart coverage plugin for pytest.",
     "name": "pytest-smartcov",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "py.test plugin for Snap-CI",
