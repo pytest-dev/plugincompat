@@ -107,7 +107,7 @@
   {
     "description": "Pytest plugin to only run tests affected by changes",
     "name": "pytest-cagoule",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "py.test plugin to capture log messages",
@@ -192,7 +192,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.4"
+    "version": "0.4.1"
   },
   {
     "description": "Run cram tests with pytest.",
