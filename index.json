@@ -802,7 +802,7 @@
   {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "py.test plugin for purkinje test runner",
