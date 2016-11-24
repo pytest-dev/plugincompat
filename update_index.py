@@ -44,7 +44,8 @@ def iter_plugins(client):
     names_and_versions = {}
     for name in package_names:
         versions = client.package_releases(name)
-        names_and_versions[name] = sorted(versions, key=LooseVersion)[0]
+        if versions:  # Package can exist without public releases
+            names_and_versions[name] = sorted(versions, key=LooseVersion)[0]
 
     print('pytest-*: %d packages' % len(names_and_versions))
 
@@ -78,7 +79,7 @@ def write_plugins_index(file_name, plugins):
             'version': version,
             'description': description,
         })
-    contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '), 
+    contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '),
                           sort_keys=True)
     if os.path.isfile(file_name):
         with open(file_name, 'rU') as f:
