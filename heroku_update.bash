@@ -10,4 +10,4 @@ python update_index.py
 
 echo "Push..."
 git commit -a -m "Updating index (from heroku)"
-git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/pytest-dev/plugincompat.git 
+git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/pytest-dev/plugincompat.git master
