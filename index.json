@@ -547,7 +547,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.11.0"
+    "version": "1.11.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -915,9 +915,9 @@
     "version": "0.8.2"
   },
   {
-    "description": "UNKNOWN",
+    "description": "RabbitMQ process and client fixtures for pytest",
     "name": "pytest-rabbitmq",
-    "version": "0.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Race conditions tester for pytest",
