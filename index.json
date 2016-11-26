@@ -20,6 +20,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "pytest plugin to help with comparing array output from tests",
+    "name": "pytest-arraydiff",
+    "version": "0.1"
+  },
+  {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
     "version": "1.2"
@@ -352,7 +357,7 @@
   {
     "description": "Some extra stuff that we use ininternally",
     "name": "pytest-dolphin",
-    "version": "0.3.7"
+    "version": "0.3.8"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -722,7 +727,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.6"
+    "version": "0.7"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
