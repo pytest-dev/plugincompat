@@ -632,7 +632,7 @@
   {
     "description": "pytest krtech common library",
     "name": "pytest-krtech-common",
-    "version": "0.1.34"
+    "version": "0.1.35"
   },
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
@@ -1248,6 +1248,11 @@
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
     "version": "1.4"
+  },
+  {
+    "description": "py.test fixture for creating a virtual environment",
+    "name": "pytest-venv",
+    "version": "0.2"
   },
   {
     "description": "More descriptive output for parametrized py.test tests",
