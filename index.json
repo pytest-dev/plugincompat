@@ -237,7 +237,7 @@
   {
     "description": "pytest plugin to generate curl command line report",
     "name": "pytest-curl-report",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "A plugin for testing Cython extension modules",
