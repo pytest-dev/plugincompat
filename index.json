@@ -960,9 +960,9 @@
     "version": "1.0.0"
   },
   {
-    "description": "UNKNOWN",
+    "description": "Redis fixtures and fixture factories for Pytest.",
     "name": "pytest-redis",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -1102,7 +1102,7 @@
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
     "name": "pytest-spec",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
@@ -1182,7 +1182,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "0.0.10"
+    "version": "0.0.11"
   },
   {
     "description": "A pytest plugin to time test function runs",
@@ -1193,6 +1193,11 @@
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
     "version": "1.2.0"
+  },
+  {
+    "description": "Numerous useful plugins for pytest.",
+    "name": "pytest-toolbox",
+    "version": "0.1"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
