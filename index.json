@@ -762,7 +762,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1177,12 +1177,12 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.8.3"
+    "version": "0.9.0"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
