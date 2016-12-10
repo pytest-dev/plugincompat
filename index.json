@@ -107,7 +107,7 @@
   {
     "description": "A pytest plugin for console based browser test selection just after the collection phase",
     "name": "pytest-browser",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "BrowserMob proxy plugin for py.test.",
@@ -1052,7 +1052,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -1177,7 +1177,7 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
@@ -1272,7 +1272,7 @@
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
