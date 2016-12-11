@@ -237,7 +237,7 @@
   {
     "description": "pytest plugin to generate curl command line report",
     "name": "pytest-curl-report",
-    "version": "0.5.3"
+    "version": "0.5.4"
   },
   {
     "description": "A plugin for testing Cython extension modules",
@@ -648,6 +648,11 @@
     "description": "A simple network listener",
     "name": "pytest-listener",
     "version": "1.2.2"
+  },
+  {
+    "description": "A PyTest plugin which provides an FTP fixture for your tests",
+    "name": "pytest-localftpserver",
+    "version": "0.1.1"
   },
   {
     "description": "py.test plugin to test server connections locally.",
