@@ -1182,7 +1182,7 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.8"
+    "version": "0.0.10"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
