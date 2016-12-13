@@ -1010,6 +1010,11 @@
     "version": "0.05"
   },
   {
+    "description": "py.test integration for responses",
+    "name": "pytest-responses",
+    "version": "0.1.0"
+  },
+  {
     "description": "Pytest plugin to restrict the test types allowed",
     "name": "pytest-restrict",
     "version": "2.0.0"
