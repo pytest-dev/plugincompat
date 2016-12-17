@@ -1192,7 +1192,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.0"
+    "version": "0.9.3"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
