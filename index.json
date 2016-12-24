@@ -960,9 +960,9 @@
     "version": "0.02"
   },
   {
-    "description": "Randomise the order tests in pytest with class-, module-, or package-limited randomisation or global randomisation",
+    "description": "Randomise the order in which pytest tests are run with some control over the randomness",
     "name": "pytest-random-order",
-    "version": "0.2.5"
+    "version": "0.3.0"
   },
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
