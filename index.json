@@ -1335,6 +1335,11 @@
     "version": "1.15.0"
   },
   {
+    "description": "An extended parametrizing plugin of pytest.",
+    "name": "pytest-xpara",
+    "version": "0.0.0.dev0"
+  },
+  {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
     "version": "0.9.1"
