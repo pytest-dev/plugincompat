@@ -635,6 +635,11 @@
     "version": "0.1.35"
   },
   {
+    "description": "",
+    "name": "pytest-lamp",
+    "version": "0.1.0"
+  },
+  {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
     "version": "0.2.0"
