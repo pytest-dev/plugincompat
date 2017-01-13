@@ -32,7 +32,7 @@
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
     "name": "pytest-ast-back-to-python",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "Pytest support for asyncio.",
