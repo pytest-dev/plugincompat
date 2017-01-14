@@ -32,7 +32,7 @@
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
     "name": "pytest-ast-back-to-python",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Pytest support for asyncio.",
@@ -772,7 +772,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
