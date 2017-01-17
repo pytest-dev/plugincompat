@@ -812,7 +812,7 @@
   {
     "description": "pytest plugin which adds pdb helper commands related to pytest.",
     "name": "pytest-pdb",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for fuzzing with Peach Fuzzer Web Proxy",
