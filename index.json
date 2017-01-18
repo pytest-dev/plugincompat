@@ -792,7 +792,7 @@
   {
     "description": "pytest plugin to run your tests in a specific order",
     "name": "pytest-ordering",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "OS X notifications for py.test results.",
