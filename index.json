@@ -815,9 +815,9 @@
     "version": "0.2.0"
   },
   {
-    "description": "pytest plugin for fuzzing with Peach Fuzzer Web Proxy",
+    "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.0.0"
+    "version": "0.1.3"
   },
   {
     "description": "py.test plugin for pep257",
@@ -830,9 +830,9 @@
     "version": "1.0.6"
   },
   {
-    "description": "Pytest plugin for functional testing of data analysis pipelines",
+    "description": "Pytest plugin for functional testing of data analysispipelines",
     "name": "pytest-pipeline",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Markers for pytest to skip tests on specific platforms",
@@ -982,7 +982,7 @@
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
     "name": "pytest-redis",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "pytest plugin for regression tests",
