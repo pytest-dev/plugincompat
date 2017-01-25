@@ -387,7 +387,7 @@
   {
     "description": "Elasticsearch process and client fixtures for py.test.",
     "name": "pytest-elasticsearch",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest + emoji",
@@ -857,7 +857,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -1062,7 +1062,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
