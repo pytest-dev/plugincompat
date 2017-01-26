@@ -705,6 +705,11 @@
     "version": "1.5.0"
   },
   {
+    "description": "Base fixtures for mockito",
+    "name": "pytest-mockito",
+    "version": "0.0.2"
+  },
+  {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
     "name": "pytest-modifyjunit",
     "version": "1.0"
