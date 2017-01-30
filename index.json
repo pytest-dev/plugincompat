@@ -90,6 +90,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
+    "name": "pytest-blink1",
+    "version": "0.0.3"
+  },
+  {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
     "version": "0.1"
@@ -280,6 +285,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "Manage dependencies of tests",
+    "name": "pytest-dependency",
+    "version": "0.1"
+  },
+  {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
     "version": "0.11.0"
@@ -328,6 +338,11 @@
     "description": "The bare minimum to integrate py.test with Django.",
     "name": "pytest-django-lite",
     "version": "0.1.1"
+  },
+  {
+    "description": "A pytest plugin for preserving the order in which Django runs tests.",
+    "name": "pytest-django-ordering",
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
