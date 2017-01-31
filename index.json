@@ -342,7 +342,7 @@
   {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
     "name": "pytest-django-ordering",
-    "version": "0.1.0"
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -432,7 +432,7 @@
   {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
