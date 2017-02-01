@@ -432,7 +432,7 @@
   {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
@@ -1067,7 +1067,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "2.10.1"
+    "version": "2.11"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -1322,7 +1322,7 @@
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
     "name": "pytest-vts",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
