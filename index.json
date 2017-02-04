@@ -922,7 +922,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
