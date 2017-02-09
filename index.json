@@ -92,7 +92,7 @@
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
     "name": "pytest-blink1",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -148,6 +148,11 @@
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
     "name": "pytest-catchlog",
     "version": "1.2.2"
+  },
+  {
+    "description": "Check links in files",
+    "name": "pytest-check-links",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -1067,7 +1072,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "2.11"
+    "version": "2.11.1"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -1077,7 +1082,7 @@
   {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
-    "version": "1.0a5"
+    "version": "1.0a6"
   },
   {
     "description": "pytest plugin for Selenium",
