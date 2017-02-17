@@ -67,7 +67,7 @@
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
     "name": "pytest-beakerlib",
-    "version": "0.6"
+    "version": "0.7"
   },
   {
     "description": "Fixtures for testing Google Appengine (GAE) apps",
@@ -302,7 +302,7 @@
   {
     "description": "DevPI server fixture for py.test",
     "name": "pytest-devpi-server",
-    "version": "1.2.2"
+    "version": "1.2.6"
   },
   {
     "description": "pytest plugin for diamond",
@@ -897,7 +897,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.2.2"
+    "version": "1.2.6"
   },
   {
     "description": "pytest plugin for instant test progress status",
@@ -1102,7 +1102,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.2.5"
+    "version": "1.2.6"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -1127,7 +1127,7 @@
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.2.4"
+    "version": "1.2.6"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
