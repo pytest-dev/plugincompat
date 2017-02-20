@@ -152,7 +152,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.0.2"
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -942,7 +942,7 @@
   {
     "description": "Pyramid server fixture for py.test",
     "name": "pytest-pyramid-server",
-    "version": "1.2.2"
+    "version": "1.2.7"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -1102,7 +1102,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.2.6"
+    "version": "1.2.7"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -1327,7 +1327,7 @@
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.2.5"
+    "version": "1.2.7"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
