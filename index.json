@@ -487,7 +487,7 @@
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "Fixture configuration utils for py.test",
@@ -722,7 +722,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
@@ -912,7 +912,7 @@
   {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
-    "version": "0.2"
+    "version": "0.5"
   },
   {
     "description": "py.test plugin for purkinje test runner",
@@ -1352,7 +1352,7 @@
   {
     "description": "Selenium webdriver fixture for py.test",
     "name": "pytest-webdriver",
-    "version": "1.2.2"
+    "version": "1.2.10"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
