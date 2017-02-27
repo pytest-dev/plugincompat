@@ -20,6 +20,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "AppEngine integration that works well with pytest-django",
+    "name": "pytest-appengine",
+    "version": "0.0.2"
+  },
+  {
     "description": "pytest plugin to help with comparing array output from tests",
     "name": "pytest-arraydiff",
     "version": "0.1"
