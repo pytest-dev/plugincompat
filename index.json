@@ -605,6 +605,11 @@
     "version": "0.4.2"
   },
   {
+    "description": "Solver thing",
+    "name": "pytest-info-collector",
+    "version": "0.1"
+  },
+  {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
     "version": "0.3"
@@ -732,7 +737,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
@@ -912,7 +917,7 @@
   {
     "description": "pytest plugin for instant test progress status",
     "name": "pytest-progress",
-    "version": "1.0.0"
+    "version": "1.0.2"
   },
   {
     "description": "pytest: simple powerful testing with Python",
@@ -1102,7 +1107,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.9.0"
+    "version": "1.9.1"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -1322,7 +1327,7 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.4"
+    "version": "1.5.1"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
