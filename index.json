@@ -167,7 +167,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -242,7 +242,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   {
     "description": "Run cram tests with pytest.",
