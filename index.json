@@ -167,7 +167,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -925,11 +925,6 @@
     "version": "1.0.2"
   },
   {
-    "description": "pytest: simple powerful testing with Python",
-    "name": "pytest-proper-wheel",
-    "version": "2.7.1.dev3"
-  },
-  {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
     "version": "0.5"
@@ -1253,6 +1248,11 @@
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
     "version": "0.0.10"
+  },
+  {
+    "description": "A testdox format reporter for pytest",
+    "name": "pytest-testdox",
+    "version": "0.1.0"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
