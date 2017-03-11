@@ -1027,7 +1027,7 @@
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
     "name": "pytest-redis",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -1148,6 +1148,11 @@
     "description": "Allow for multiple processes to log to a single file",
     "name": "pytest-single-file-logging",
     "version": "0.1.18"
+  },
+  {
+    "description": "A plugin that selects only tests with changes in execution path",
+    "name": "pytest-skipper",
+    "version": "0.1.0"
   },
   {
     "description": "Smart coverage plugin for pytest.",
