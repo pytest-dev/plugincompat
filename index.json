@@ -1,5 +1,10 @@
 [
   {
+    "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
+    "name": "pytest-aiofiles",
+    "version": "0.1.1.dev1"
+  },
+  {
     "description": "pytest plugin for aiohttp support",
     "name": "pytest-aiohttp",
     "version": "0.1.3"
@@ -377,7 +382,7 @@
   {
     "description": "UNKNOWN",
     "name": "pytest-docker",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -453,6 +458,11 @@
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
     "version": "1.2.2"
+  },
+  {
+    "description": "Better exceptions",
+    "name": "pytest-exceptional",
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
@@ -1257,7 +1267,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
