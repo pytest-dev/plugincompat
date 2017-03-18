@@ -627,7 +627,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -1162,7 +1162,7 @@
   {
     "description": "A plugin that selects only tests with changes in execution path",
     "name": "pytest-skipper",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "Smart coverage plugin for pytest.",
