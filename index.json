@@ -1,5 +1,10 @@
 [
   {
+    "description": "A simple image diff plugin for pytest",
+    "name": "pytest-Inomaly",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
     "name": "pytest-aiofiles",
     "version": "0.1.1.dev1"
