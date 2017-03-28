@@ -845,6 +845,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Use @pytest.mark.only to run a single test",
+    "name": "pytest-only",
+    "version": "1.1.0"
+  },
+  {
     "description": "Run object-oriented tests in a simple format",
     "name": "pytest-oot",
     "version": "0.6.1"
