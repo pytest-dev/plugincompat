@@ -615,6 +615,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
+    "name": "pytest-idapro",
+    "version": "0.1.2"
+  },
+  {
     "description": "ignore failures from flaky tests (pytest plugin)",
     "name": "pytest-ignore-flaky",
     "version": "0.1.1"
@@ -717,7 +722,7 @@
   {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
-    "version": "0.3.6"
+    "version": "0.3.7"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
