@@ -167,7 +167,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -892,7 +892,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.0.0"
+    "version": "1.1.11"
   },
   {
     "description": "py.test plugin for pep257",
