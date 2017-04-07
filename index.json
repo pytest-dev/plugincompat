@@ -1060,6 +1060,11 @@
     "version": "0.15.0"
   },
   {
+    "description": "Relaxed test discovery/organization for pytest",
+    "name": "pytest-relaxed",
+    "version": "0.0.4"
+  },
+  {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
     "version": "2.1"
@@ -1137,7 +1142,7 @@
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Extensible server fixures for py.test",
