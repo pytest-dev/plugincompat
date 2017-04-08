@@ -617,7 +617,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -1062,7 +1062,7 @@
   {
     "description": "Relaxed test discovery/organization for pytest",
     "name": "pytest-relaxed",
-    "version": "0.0.4"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
