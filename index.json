@@ -667,7 +667,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Generate JSON test reports",
@@ -812,7 +812,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "1.1"
+    "version": "1.1.1"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -1197,7 +1197,7 @@
   {
     "description": "Test-ordering plugin for pytest",
     "name": "pytest-sourceorder",
-    "version": "0.5"
+    "version": "0.5.1"
   },
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
