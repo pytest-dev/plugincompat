@@ -615,7 +615,7 @@
     "version": "0.2.0"
   },
   {
-    "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
+    "description": "A pytest plugin that mocks idapython modules to perform tests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
     "version": "0.1.5"
   },
