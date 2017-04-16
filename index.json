@@ -617,7 +617,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -972,7 +972,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
