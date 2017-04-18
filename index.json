@@ -107,7 +107,7 @@
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
     "name": "pytest-blink1",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Disable network requests during a test run.",
@@ -477,7 +477,7 @@
   {
     "description": "A fork of 'expecter' with better support for pytest.",
     "name": "pytest-expecter",
-    "version": "0.2.2.post3"
+    "version": "0.2.2.post6"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -892,7 +892,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.1.13"
+    "version": "1.2.3"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1007,7 +1007,7 @@
   {
     "description": "RabbitMQ process and client fixtures for pytest",
     "name": "pytest-rabbitmq",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Race conditions tester for pytest",
