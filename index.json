@@ -107,7 +107,7 @@
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
     "name": "pytest-blink1",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "Disable network requests during a test run.",
