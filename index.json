@@ -387,7 +387,7 @@
   {
     "description": "UNKNOWN",
     "name": "pytest-docker",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
