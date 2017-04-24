@@ -892,7 +892,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   {
     "description": "py.test plugin for pep257",
