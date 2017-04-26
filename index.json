@@ -422,7 +422,7 @@
   {
     "description": "DynamoDB fixtures for pytest",
     "name": "pytest-dynamodb",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
@@ -1287,7 +1287,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
