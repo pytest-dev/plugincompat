@@ -787,7 +787,7 @@
   {
     "description": "pytest plugin for MongoDB fixtures",
     "name": "pytest-mongodb",
-    "version": "2.0.2"
+    "version": "2.1.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
