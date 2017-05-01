@@ -77,7 +77,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.18.1"
+    "version": "2.18.2"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -873,6 +873,11 @@
     "description": "OS X notifications for py.test results.",
     "name": "pytest-osxnotify",
     "version": "0.1.7"
+  },
+  {
+    "description": "Python implementation for Pact (http://pact.io/)",
+    "name": "pytest-pact",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
