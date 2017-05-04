@@ -1092,7 +1092,7 @@
   {
     "description": "Agent for Reproting results of tests to the Report Portal server",
     "name": "pytest-reportportal",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -1147,7 +1147,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.9.1"
+    "version": "1.10.0"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
