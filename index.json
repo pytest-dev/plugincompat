@@ -1090,11 +1090,6 @@
     "version": "0.2.1"
   },
   {
-    "description": "Agent for Reproting results of tests to the Report Portal server",
-    "name": "pytest-reportportal",
-    "version": "0.2.5"
-  },
-  {
     "description": "pytest plugin to check pinned requirements",
     "name": "pytest-reqs",
     "version": "0.0.5"
@@ -1378,6 +1373,11 @@
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
     "version": "1.6.1"
+  },
+  {
+    "description": "Plugin for managing VCR.py cassettes",
+    "name": "pytest-vcr",
+    "version": "0.1.0"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
