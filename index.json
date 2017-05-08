@@ -1377,7 +1377,7 @@
   {
     "description": "Plugin for managing VCR.py cassettes",
     "name": "pytest-vcr",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
