@@ -1062,7 +1062,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "0.15.0"
+    "version": "0.15.1"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
@@ -1117,7 +1117,7 @@
   {
     "description": "pytest plugin to test webapplications using the Ringo webframework",
     "name": "pytest-ringo",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "implement a --failed option for pytest",
@@ -1288,6 +1288,11 @@
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
     "version": "0.0.10"
+  },
+  {
+    "description": "A py.test plugin providing temporary directories in unit tests.",
+    "name": "pytest-testdirectory",
+    "version": "1.0.2"
   },
   {
     "description": "A testdox format reporter for pytest",
