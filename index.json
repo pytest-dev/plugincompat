@@ -232,7 +232,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.4.0"
+    "version": "2.5.0"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -1222,7 +1222,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.8.1"
+    "version": "1.8.3"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -1233,6 +1233,11 @@
     "description": "Start pytest run from a given point",
     "name": "pytest-start-from",
     "version": "0.1.0"
+  },
+  {
+    "description": "pytest plugin for reporting to graphite",
+    "name": "pytest-statsd",
+    "version": "1.0.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
