@@ -847,7 +847,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -902,7 +902,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.2.21"
+    "version": "1.2.22"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1162,7 +1162,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.1.15"
+    "version": "1.2.1"
   },
   {
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
@@ -1457,7 +1457,7 @@
   {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
-    "version": "0.9.1"
+    "version": "0.10"
   },
   {
     "description": "A pytest plugin to run Xvfb for tests.",
