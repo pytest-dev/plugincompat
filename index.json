@@ -1227,7 +1227,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.8.3"
+    "version": "1.8.4"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
