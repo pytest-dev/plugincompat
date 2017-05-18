@@ -770,6 +770,11 @@
     "version": "1.5.0"
   },
   {
+    "description": "pytest plugin to display test execution output like a mochajs",
+    "name": "pytest-mocha",
+    "version": "0.1.0"
+  },
+  {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
     "version": "1.6.0"
@@ -1227,7 +1232,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.8.4"
+    "version": "1.8.5"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -1457,7 +1462,7 @@
   {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
-    "version": "0.10"
+    "version": "0.11"
   },
   {
     "description": "A pytest plugin to run Xvfb for tests.",
