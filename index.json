@@ -342,7 +342,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -907,7 +907,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.2.22"
+    "version": "1.2.24"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1312,7 +1312,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "0.2.1"
+    "version": "1.0.0"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
