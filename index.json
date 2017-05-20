@@ -885,11 +885,6 @@
     "version": "0.1.7"
   },
   {
-    "description": "Python implementation for Pact (http://pact.io/)",
-    "name": "pytest-pact",
-    "version": "0.1.0"
-  },
-  {
     "description": "pytest plugin to test all, first, last or random params",
     "name": "pytest-param",
     "version": "0.1.1"
