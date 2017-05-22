@@ -555,6 +555,11 @@
     "version": "0.10.0"
   },
   {
+    "description": "Wrap tests with fixtures in freeze_time",
+    "name": "pytest-freezegun",
+    "version": "0.1.0"
+  },
+  {
     "description": "Uses gcov to measure test coverage of a C library",
     "name": "pytest-gcov",
     "version": "0.0.1-alpha"
@@ -852,7 +857,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1133,6 +1138,11 @@
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
     "version": "2.11.1"
+  },
+  {
+    "description": "",
+    "name": "pytest-sa-pg",
+    "version": "0.1.0"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -1422,7 +1432,7 @@
   {
     "description": "pytest plugin to list Python warnings in pytest report",
     "name": "pytest-warnings",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Local continuous test runner with pytest and watchdog.",
