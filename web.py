@@ -1,12 +1,12 @@
-import itertools
 import logging
 import os
-import sys
 from distutils.version import LooseVersion
 from urlparse import urlsplit
 
 import flask
+import itertools
 import pymongo
+import sys
 from flask import request, render_template
 
 
@@ -250,7 +250,7 @@ def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {'2.9.2', '3.0.3'}
+    return {'3.0.0', '3.1.0'}
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'
