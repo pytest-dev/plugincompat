@@ -677,7 +677,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "Generate JSON test reports",
