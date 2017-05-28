@@ -312,7 +312,7 @@
   {
     "description": "Manage dependencies of tests",
     "name": "pytest-dependency",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Describe-style plugin for pytest",
