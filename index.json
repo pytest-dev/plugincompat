@@ -907,7 +907,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.2.24"
+    "version": "1.2.28"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1098,6 +1098,11 @@
     "description": "Creates json report that is compatible with atom.io's linter message format",
     "name": "pytest-report",
     "version": "0.2.1"
+  },
+  {
+    "description": "Agent for Reporting results of tests to the Report Portal",
+    "name": "pytest-reportportal",
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -1322,7 +1327,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.4"
+    "version": "0.9.5"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
