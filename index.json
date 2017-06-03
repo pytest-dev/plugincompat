@@ -840,6 +840,11 @@
     "version": "1.1.1"
   },
   {
+    "description": "pytest plugin for visual testing websites using selenium",
+    "name": "pytest-needle",
+    "version": "0.2.0"
+  },
+  {
     "description": "Run all tests without custom markers",
     "name": "pytest-nocustom",
     "version": "1.0"
@@ -928,6 +933,11 @@
     "description": "Markers for pytest to skip tests on specific platforms",
     "name": "pytest-platform-markers",
     "version": "0.1.0"
+  },
+  {
+    "description": "pytest plugin for collecting test cases and recording test results",
+    "name": "pytest-polarion-cfme",
+    "version": "0.1.2"
   },
   {
     "description": "Visualize your crappy tests",
