@@ -1442,7 +1442,7 @@
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
     "name": "pytest-vts",
-    "version": "0.4.1"
+    "version": "0.4.3"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
