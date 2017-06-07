@@ -15,23 +15,23 @@ Once all results are obtained, they are posted to the plugincompat heroku app
 which can then be visualized.
 """
 from __future__ import print_function, with_statement, division
-from contextlib import contextmanager
+
+import json
 import os
 import shutil
+import subprocess
 import sys
 import tarfile
-from zipfile import ZipFile
-import subprocess
-import json
-import traceback
-import time
 import threading
+import time
+import traceback
+from contextlib import contextmanager
+from zipfile import ZipFile
 
 import concurrent.futures
 import requests
 
 import update_index
-
 
 if sys.version_info[0] == 3:
     from urllib.request import urlretrieve
@@ -197,7 +197,7 @@ def main():
     print('Summary')
     print('Time: %dm %02ds' % (elapsed_m, elapsed_s))
     print('=' * 60)
-    post_data = []
+    results = []
     for (name, version) in sorted(test_results):
         result, output, description = test_results[(name, version)]
         if result == 0:
@@ -207,7 +207,7 @@ def main():
         package = '%s-%s' % (name, version)
         spaces = (50 - len(package)) * ' '
         print('%s%s%s' % (package, spaces, status))
-        post_data.append(
+        results.append(
             {'name': name,
              'version': version,
              'env': tox_env,
@@ -219,14 +219,21 @@ def main():
         )
     post_url = os.environ.get('PLUGINCOMPAT_SITE')
     if post_url:
+        secret = os.environ['POST_KEY']
+        data = {
+            'secret': secret,
+            'results': results,
+        }
         headers = {'content-type': 'application/json'}
-        response = requests.post(post_url, data=json.dumps(post_data),
+        response = requests.post(post_url, data=json.dumps(data),
                                  headers=headers)
         print('posted to {}; response={}'.format(post_url, response))
+        if response.status_code != 200:
+            return 1
     else:
-        print('not posting, no $PLUGINCOMPAT_SITE defined: {}'.format(post_data))
+        print('not posting, no $PLUGINCOMPAT_SITE defined: {}'.format(results))
 
 
 if __name__ == '__main__':
-    main()
-    os._exit(0) # futures may be still running, force exit
+    result = main() or 0
+    os._exit(result) # futures may be still running, force exit

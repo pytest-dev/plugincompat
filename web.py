@@ -1,12 +1,12 @@
+import itertools
 import logging
 import os
+import sys
 from distutils.version import LooseVersion
 from urlparse import urlsplit
 
 import flask
-import itertools
 import pymongo
-import sys
 from flask import request, render_template
 
 
@@ -108,16 +108,26 @@ def get_storage_for_view():
     return PlugsStorage()
 
 
+def authenticate(json_data):
+    """Ensure the posted data contains the correct secret"""
+    if 'secret' not in json_data:
+        flask.abort(401)
+    if json_data['secret'] != os.environ['POST_KEY']:
+        flask.abort(401)
+
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     storage = get_storage_for_view()
     if request.method == 'POST':
-        results = request.get_json()
+        data = request.get_json()
+        authenticate(data)
+        results = data['results']
         if not isinstance(results, list):
             results = [results]
         for result in results:
             storage.add_test_result(result)
-        return 'OK'
+        return 'OK, posted {} entries'.format(len(results))
     else:
         all_results = storage.get_all_results()
         if request.args.get('json', False):

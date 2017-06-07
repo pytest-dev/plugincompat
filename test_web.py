@@ -176,10 +176,25 @@ class TestView(object):
     Tests web views for plugincompat
     """
 
-    def post_result(self, client, result):
-        response = client.post('/', data=json.dumps(result),
+    TEST_SECRET = '123456'
+
+    @pytest.fixture(autouse=True)
+    def configure_secret(self, monkeypatch):
+        monkeypatch.setenv('POST_KEY', self.TEST_SECRET)
+
+    def post_result(self, client, result, secret=None, expected_status=200):
+        data = {
+            'secret': secret or self.TEST_SECRET,
+            'results': result,
+        }
+        response = client.post('/', data=json.dumps(data),
                                content_type='application/json')
-        assert response.status_code == 200
+        assert response.status_code == expected_status
+
+    def test_auth_failure(self, client, patched_storage):
+        assert patched_storage.get_all_results() == []
+        self.post_result(client, make_result_data(), secret='invalid', expected_status=401)
+        assert patched_storage.get_all_results() == []
 
     def test_index_post(self, client, patched_storage):
         result1 = make_result_data()
