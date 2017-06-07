@@ -165,6 +165,7 @@ def working_dir(new_cwd):
 
 def main():
     pytest_version = os.environ['PYTEST_VERSION']
+    secret = os.environ['POST_KEY']
     tox_env = 'py%d%d' % sys.version_info[:2]
 
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
@@ -219,7 +220,6 @@ def main():
         )
     post_url = os.environ.get('PLUGINCOMPAT_SITE')
     if post_url:
-        secret = os.environ['POST_KEY']
         data = {
             'secret': secret,
             'results': results,
