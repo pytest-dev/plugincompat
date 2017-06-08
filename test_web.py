@@ -290,7 +290,7 @@ class TestView(object):
         assert len(patched_storage.get_all_results()) == 0
 
         response = client.get('/')
-        assert response.data == 'Database is empty'
+        assert response.data.decode('utf-8') == 'Database is empty'
 
     @pytest.mark.parametrize('lib_version', ['1.0', '1.2', 'latest'])
     def test_get_output(self, client, lib_version):
@@ -306,7 +306,7 @@ class TestView(object):
 
         if lib_version == 'latest':
             lib_version = '1.2'
-        assert response.data == 'ver {}'.format(lib_version)
+        assert response.data.decode('utf-8') == 'ver {}'.format(lib_version)
         assert response.content_type == 'text/plain'
 
     @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
@@ -317,13 +317,13 @@ class TestView(object):
 
         response = client.get('/output/mylib-{}?py=py27&pytest=2.3'
                               .format(lib_version))
-        assert response.data == '<no output available>'
+        assert response.data.decode('utf-8') == '<no output available>'
         assert response.content_type == 'text/plain'
 
     @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
     def test_status_image_help(self, client, lib_version):
         response = client.get('/status/mylib-{}'.format(lib_version))
-        assert 'Plugin Status Images' in response.data
+        assert 'Plugin Status Images' in response.data.decode('utf-8')
 
     @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
     def test_status_image(self, client, lib_version):
@@ -332,3 +332,30 @@ class TestView(object):
         response = client.get('/status/mylib-{}?py=py27&pytest=2.3'
                               .format(lib_version))
         assert response.content_type == 'image/png'
+
+
+def _post_dummy_data():
+    """
+    posts some dummy data on the local server for manual testing.
+    """
+    import os
+    import requests
+
+    results = [
+        make_result_data(pytest='3.1.0', env='py27', name='pytest-xdist', version='1.14'),
+        make_result_data(pytest='3.1.0', env='py36', name='pytest-xdist', version='1.14'),
+    ]
+
+    data = {
+        'secret': os.environ['POST_KEY'],
+        'results': results,
+    }
+
+    response = requests.post('http://127.0.0.1:5000', json=data)
+    print(f'response: {response.status_code}')
+    for x in results:
+        print(x)
+
+
+if __name__ == '__main__':
+    _post_dummy_data()

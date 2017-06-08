@@ -40,3 +40,4 @@ nosetests.xml
 *.zip
 pytest-*
 *.env*
+.cache/
