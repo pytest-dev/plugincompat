@@ -344,6 +344,7 @@ def _post_dummy_data():
     results = [
         make_result_data(pytest='3.1.0', env='py27', name='pytest-xdist', version='1.14'),
         make_result_data(pytest='3.1.0', env='py36', name='pytest-xdist', version='1.14'),
+        make_result_data(pytest='3.1.0', env='py36', name='pytest-mock', version='1.6.0'),
     ]
 
     data = {
@@ -353,10 +354,11 @@ def _post_dummy_data():
     site = os.environ.get('PLUGINCOMPAT_SITE', 'http://127.0.0.1:5000')
 
     response = requests.post(f'{site}', json=data)
-    print('posted to', site)
-    print(f'response: {response.status_code}')
     for x in results:
         print(x)
+
+    print('posted to', site)
+    print(f'response: {response.status_code}')
 
 
 if __name__ == '__main__':
