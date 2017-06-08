@@ -447,7 +447,7 @@
   {
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
