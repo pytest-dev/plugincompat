@@ -207,7 +207,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -1117,7 +1117,7 @@
   {
     "description": "pytest plugin to check pinned requirements",
     "name": "pytest-reqs",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
