@@ -612,7 +612,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.14.2"
+    "version": "1.15.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -1477,7 +1477,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.16.0"
+    "version": "1.17.1"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
