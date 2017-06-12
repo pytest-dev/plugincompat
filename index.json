@@ -990,6 +990,11 @@
     "version": "0.4.0"
   },
   {
+    "description": "pytest plugin to check PEP8 requirements",
+    "name": "pytest-pycodestyle",
+    "version": "1.0.6"
+  },
+  {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
     "name": "pytest-pydev",
     "version": "0.1"
@@ -1332,7 +1337,7 @@
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
     "name": "pytest-testdirectory",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "A testdox format reporter for pytest",
