@@ -72,7 +72,7 @@
   {
     "description": "pytest plugin for URL based testing",
     "name": "pytest-base-url",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   {
     "description": "BDD for pytest",
@@ -612,7 +612,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.15.0"
+    "version": "1.15.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -677,7 +677,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "Generate JSON test reports",
