@@ -1005,6 +1005,11 @@
     "version": "0.7.1"
   },
   {
+    "description": "Core engine for tierra_qa package",
+    "name": "pytest-pypom-navigation",
+    "version": "0.0.1"
+  },
+  {
     "description": "Pytest fixture \"q\" for pyq",
     "name": "pytest-pyq",
     "version": "1.1"
