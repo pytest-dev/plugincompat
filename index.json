@@ -937,7 +937,7 @@
   {
     "description": "pytest plugin for collecting test cases and recording test results",
     "name": "pytest-polarion-cfme",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "Visualize your crappy tests",
