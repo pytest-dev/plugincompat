@@ -447,7 +447,7 @@
   {
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -1077,7 +1077,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "Test your README.md file",
