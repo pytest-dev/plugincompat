@@ -1077,7 +1077,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Test your README.md file",
