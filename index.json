@@ -72,7 +72,7 @@
   {
     "description": "pytest plugin for URL based testing",
     "name": "pytest-base-url",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "BDD for pytest",
@@ -627,7 +627,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.10"
+    "version": "0.1.11"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -1182,7 +1182,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.10.0"
+    "version": "1.11.0"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -1243,6 +1243,11 @@
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
     "version": "0.1.0"
+  },
+  {
+    "description": "Solr process and client fixtures for py.test.",
+    "name": "pytest-solr",
+    "version": "1.0a1"
   },
   {
     "description": "Test-ordering plugin for pytest",
@@ -1352,7 +1357,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.5"
+    "version": "0.9.6"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
