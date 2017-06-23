@@ -540,6 +540,11 @@
     "version": "0.8.1"
   },
   {
+    "description": "A pytest fixture for testing flake8 plugins.",
+    "name": "pytest-flake8dir",
+    "version": "1.1.0"
+  },
+  {
     "description": "Runs tests multiple times to expose flakiness.",
     "name": "pytest-flakefinder",
     "version": "0.1.0"
@@ -912,7 +917,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.2.28"
+    "version": "1.2.33"
   },
   {
     "description": "py.test plugin for pep257",
