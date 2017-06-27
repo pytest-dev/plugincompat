@@ -1262,7 +1262,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
@@ -1497,7 +1497,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.17.1"
+    "version": "1.18.0"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
