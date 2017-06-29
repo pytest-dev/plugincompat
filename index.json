@@ -652,7 +652,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.4"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -1180,6 +1180,11 @@
     "version": "0.2.dev7"
   },
   {
+    "description": "",
+    "name": "pytest-sanic",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
     "version": "1.0a6"
@@ -1262,7 +1267,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
