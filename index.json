@@ -652,7 +652,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "py.test plugin to show failures instantly",
