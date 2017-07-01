@@ -862,7 +862,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin to run Odoo tests",
