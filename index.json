@@ -1375,6 +1375,11 @@
     "version": "0.0.11"
   },
   {
+    "description": "Detects thread leaks",
+    "name": "pytest-threadleak",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin to time test function runs",
     "name": "pytest-timeit",
     "version": "0.3.0"
