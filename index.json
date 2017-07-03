@@ -1407,7 +1407,7 @@
   {
     "description": "Test your translation files",
     "name": "pytest-translations",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "Folds captured output sections in Travis CI build log",
