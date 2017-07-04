@@ -1177,7 +1177,7 @@
   {
     "description": "A Pytest plugin that builds and creates docker containers",
     "name": "pytest-salt-containers",
-    "version": "0.2.dev7"
+    "version": "0.2.dev8"
   },
   {
     "description": "",
