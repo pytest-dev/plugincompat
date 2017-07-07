@@ -1530,6 +1530,11 @@
     "version": "0.6"
   },
   {
+    "description": "Run yapf",
+    "name": "pytest-yapf",
+    "version": "0.1.1"
+  },
+  {
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
