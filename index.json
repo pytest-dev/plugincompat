@@ -1182,7 +1182,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for test scenarios",
