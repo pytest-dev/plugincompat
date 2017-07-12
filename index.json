@@ -342,7 +342,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1032,7 +1032,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   {
     "description": "QT app fixture for py.test",
