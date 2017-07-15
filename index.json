@@ -747,7 +747,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -917,7 +917,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.3.3"
+    "version": "1.3.4"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1252,7 +1252,7 @@
   {
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
