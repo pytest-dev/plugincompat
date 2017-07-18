@@ -787,7 +787,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.6.0"
+    "version": "1.6.2"
   },
   {
     "description": "Base fixtures for mockito",
