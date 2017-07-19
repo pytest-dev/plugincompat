@@ -427,7 +427,7 @@
   {
     "description": "DynamoDB fixtures for pytest",
     "name": "pytest-dynamodb",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
@@ -682,7 +682,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "Generate JSON test reports",
@@ -827,7 +827,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.7"
+    "version": "0.8"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -1422,7 +1422,7 @@
   {
     "description": "Pytest plugin for trepan debugger.",
     "name": "pytest-trepan",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin for using the same _trial_temp working directory as trial",
