@@ -97,7 +97,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.",
     "name": "pytest-benchmark",
-    "version": "3.1.0a2"
+    "version": "3.1.0"
   },
   {
     "description": "A BigchainDB plugin for pytest.",
@@ -322,7 +322,7 @@
   {
     "description": "DevPI server fixture for py.test",
     "name": "pytest-devpi-server",
-    "version": "1.2.6"
+    "version": "1.2.11"
   },
   {
     "description": "pytest plugin for diamond",
@@ -342,7 +342,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.1.6"
+    "version": "0.2.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -527,7 +527,7 @@
   {
     "description": "Fixture configuration utils for py.test",
     "name": "pytest-fixture-config",
-    "version": "1.2.2"
+    "version": "1.2.11"
   },
   {
     "description": "Plugin for pytest which provides tools for fixtures",
@@ -577,7 +577,7 @@
   {
     "description": "Git repository fixture for py.test",
     "name": "pytest-git",
-    "version": "1.2.2"
+    "version": "1.2.11"
   },
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
@@ -727,7 +727,7 @@
   {
     "description": "A simple network listener",
     "name": "pytest-listener",
-    "version": "1.2.2"
+    "version": "1.2.11"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -807,7 +807,7 @@
   {
     "description": "pytest plugin for MongoDB fixtures",
     "name": "pytest-mongodb",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -972,7 +972,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.2.6"
+    "version": "1.2.11"
   },
   {
     "description": "pytest plugin for instant test progress status",
@@ -1022,7 +1022,7 @@
   {
     "description": "Pyramid server fixture for py.test",
     "name": "pytest-pyramid-server",
-    "version": "1.2.7"
+    "version": "1.2.11"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -1202,7 +1202,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.2.9"
+    "version": "1.2.11"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -1227,7 +1227,7 @@
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.2.8"
+    "version": "1.2.11"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
@@ -1327,7 +1327,7 @@
   {
     "description": "SVN repository fixture for py.test",
     "name": "pytest-svn",
-    "version": "1.2.2"
+    "version": "1.2.11"
   },
   {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
@@ -1462,12 +1462,12 @@
   {
     "description": "More descriptive output for parametrized py.test tests",
     "name": "pytest-verbose-parametrize",
-    "version": "1.2.2"
+    "version": "1.2.11"
   },
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.2.7"
+    "version": "1.2.11"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
@@ -1492,7 +1492,7 @@
   {
     "description": "Selenium webdriver fixture for py.test",
     "name": "pytest-webdriver",
-    "version": "1.2.10"
+    "version": "1.2.11"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
