@@ -1525,6 +1525,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "Create or check file/directory trees described by YAML",
+    "name": "pytest-yamltree",
+    "version": "0.1.1"
+  },
+  {
     "description": "Run tests against wsgi apps defined in yaml",
     "name": "pytest-yamlwsgi",
     "version": "0.6"
