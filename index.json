@@ -120,6 +120,11 @@
     "version": "0.2"
   },
   {
+    "description": "run tests in isolated forked subprocesses",
+    "name": "pytest-boxed",
+    "version": "0.1"
+  },
+  {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
     "name": "pytest-bpdb",
     "version": "0.1.4"
@@ -797,7 +802,7 @@
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
     "name": "pytest-modifyjunit",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -1507,7 +1512,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.18.1"
+    "version": "1.18.2"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
