@@ -17,7 +17,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.7.7"
+    "version": "1.7.8"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -123,11 +123,6 @@
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
     "name": "pytest-blocker",
     "version": "0.2"
-  },
-  {
-    "description": "run tests in isolated forked subprocesses",
-    "name": "pytest-boxed",
-    "version": "0.1"
   },
   {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
@@ -262,7 +257,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   {
     "description": "Run cram tests with pytest.",
@@ -568,6 +563,11 @@
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
     "version": "0.10.0"
+  },
+  {
+    "description": "run tests in isolated forked subprocesses",
+    "name": "pytest-forked",
+    "version": "0.2"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -1282,7 +1282,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.3.1"
+    "version": "0.4.0"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
