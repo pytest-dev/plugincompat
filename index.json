@@ -287,7 +287,7 @@
   {
     "description": "pytest plugin for test data directories and files",
     "name": "pytest-datadir",
-    "version": "0.2.0"
+    "version": "1.0.0"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -528,6 +528,11 @@
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
     "version": "1.0.4"
+  },
+  {
+    "description": "pytest plugin to manipulate firefox",
+    "name": "pytest-firefox",
+    "version": "0.1.1"
   },
   {
     "description": "Fixture configuration utils for py.test",
@@ -782,7 +787,7 @@
   {
     "description": "Skip matching marks. Matches partial marks using wildcards.",
     "name": "pytest-match-skip",
-    "version": "0.0.1"
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
@@ -1462,7 +1467,7 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.6.1"
+    "version": "1.7.0"
   },
   {
     "description": "Plugin for managing VCR.py cassettes",
