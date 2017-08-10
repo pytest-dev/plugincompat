@@ -205,6 +205,11 @@
     "version": "0.1"
   },
   {
+    "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
+    "name": "pytest-concurrent",
+    "version": "0.1.0"
+  },
+  {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
     "name": "pytest-config",
     "version": "0.0.11"
@@ -1527,7 +1532,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.18.2"
+    "version": "1.19.0"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
