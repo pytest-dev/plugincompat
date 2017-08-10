@@ -15,14 +15,14 @@ install:
 env:
   matrix:
   - PYTEST_VERSION=3.0.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
-  - PYTEST_VERSION=3.1.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=3.2.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
   global:
     secure: I7Lx3j8NZx29yHe2tgNyXQkbXVRDJDhmgYRH3N8Z9sYBOnhfuMAXYJhBn9xmlMFB6FzUs/+P5Ba0u9MO/P+bTqCz0fnkYH/3tC6NzOLxZHVtvnhgFftlUPgMNLmnwOKvpOaet7TpB1HYntjUGYR4watoqIKR6Wg2joTKgt3dlWE=
-script: 
+script:
   - python run.py
 
 branches:
   only:
     - master
     - /feature-.*/
-  
+
