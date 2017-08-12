@@ -2,7 +2,7 @@
   {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -665,9 +665,9 @@
     "version": "0.4.2"
   },
   {
-    "description": "Solver thing",
+    "description": "pytest plugin to collect information from tests",
     "name": "pytest-info-collector",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
@@ -1382,7 +1382,7 @@
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
     "name": "pytest-testdirectory",
-    "version": "2.1.0"
+    "version": "3.0.0"
   },
   {
     "description": "A testdox format reporter for pytest",
