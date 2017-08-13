@@ -207,7 +207,7 @@
   {
     "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
     "name": "pytest-concurrent",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
@@ -532,7 +532,7 @@
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "pytest plugin to manipulate firefox",
@@ -767,7 +767,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.1.5"
+    "version": "0.2.0"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -793,6 +793,11 @@
     "description": "Skip matching marks. Matches partial marks using wildcards.",
     "name": "pytest-match-skip",
     "version": "0.1.1"
+  },
+  {
+    "description": "Match test output against patterns stored in files",
+    "name": "pytest-matcher",
+    "version": "0.9.0"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
@@ -873,6 +878,11 @@
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
     "version": "0.2.0"
+  },
+  {
+    "description": "nginx fixture for pytest",
+    "name": "pytest-nginx",
+    "version": "1.1"
   },
   {
     "description": "Run all tests without custom markers",
@@ -1357,7 +1367,7 @@
   {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
     "name": "pytest-tap",
-    "version": "2.0"
+    "version": "2.1"
   },
   {
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
