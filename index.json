@@ -400,9 +400,9 @@
     "version": "0.0.1"
   },
   {
-    "description": "Docker-based integration tests",
+    "description": "",
     "name": "pytest-docker",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -637,7 +637,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.15.1"
+    "version": "1.15.2"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -1352,7 +1352,7 @@
   {
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.",
