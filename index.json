@@ -1392,7 +1392,7 @@
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
     "name": "pytest-testdirectory",
-    "version": "3.0.0"
+    "version": "3.1.0"
   },
   {
     "description": "A testdox format reporter for pytest",
