@@ -797,7 +797,7 @@
   {
     "description": "Match test output against patterns stored in files",
     "name": "pytest-matcher",
-    "version": "0.9.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
