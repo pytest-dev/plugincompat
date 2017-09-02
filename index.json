@@ -1232,7 +1232,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.11.0"
+    "version": "1.11.1"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
