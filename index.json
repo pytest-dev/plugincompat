@@ -1202,7 +1202,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "2.11.1"
+    "version": "2.12"
   },
   {
     "description": "",
