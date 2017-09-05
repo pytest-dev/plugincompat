@@ -372,7 +372,7 @@
   {
     "description": "Cleanup your Haystack indexes between tests",
     "name": "pytest-django-haystack",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "The bare minimum to integrate py.test with Django.",
@@ -743,6 +743,11 @@
     "description": "A pytest plugin to trace resource leaks.",
     "name": "pytest-leaks",
     "version": "0.2.2"
+  },
+  {
+    "description": "A python-libfaketime plugin for pytest.",
+    "name": "pytest-libfaketime",
+    "version": "0.1.0"
   },
   {
     "description": "A simple network listener",
