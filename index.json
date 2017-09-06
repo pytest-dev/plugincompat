@@ -652,7 +652,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.14"
+    "version": "0.1.16"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -1222,7 +1222,7 @@
   {
     "description": "A Pytest plugin that builds and creates docker containers",
     "name": "pytest-salt-containers",
-    "version": "0.2.dev9"
+    "version": "0.2.dev10"
   },
   {
     "description": "",
@@ -1483,6 +1483,11 @@
     "description": "Easily mock calls to ubersmith at the `requests` level.",
     "name": "pytest-ubersmith",
     "version": "1.2.0"
+  },
+  {
+    "description": "Text User Interface for running python tests",
+    "name": "pytest-ui",
+    "version": "0.1b0"
   },
   {
     "description": "Run only unmarked tests",
