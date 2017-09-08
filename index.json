@@ -1487,7 +1487,7 @@
   {
     "description": "Text User Interface for running python tests",
     "name": "pytest-ui",
-    "version": "0.2b0"
+    "version": "0.2b1"
   },
   {
     "description": "Run only unmarked tests",
