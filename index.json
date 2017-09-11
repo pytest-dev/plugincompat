@@ -292,7 +292,7 @@
   {
     "description": "pytest plugin for test data directories and files",
     "name": "pytest-datadir",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -622,7 +622,7 @@
   {
     "description": "Functions to help in using the pytest testing framework",
     "name": "pytest-helper",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "PyTest Helpers Namespace",
