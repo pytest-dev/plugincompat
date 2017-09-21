@@ -2,7 +2,7 @@
   {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -642,7 +642,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.15.2"
+    "version": "1.16.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -917,7 +917,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.2.3"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
