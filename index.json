@@ -777,7 +777,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -1027,7 +1027,7 @@
   {
     "description": "pytest plugin for instant test progress status",
     "name": "pytest-progress",
-    "version": "1.0.2"
+    "version": "1.1.1"
   },
   {
     "description": "Pytest PuDB debugger integration",
