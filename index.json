@@ -2,7 +2,7 @@
   {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -52,7 +52,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
