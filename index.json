@@ -1360,6 +1360,11 @@
     "version": "0.4"
   },
   {
+    "description": "A pytest plugin to organize long run tests (named studies) without interfering the regular tests",
+    "name": "pytest-study",
+    "version": "0.1"
+  },
+  {
     "description": "A hack to explicitly set up and tear down fixtures.",
     "name": "pytest-subtesthack",
     "version": "0.1.1"
