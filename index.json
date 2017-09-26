@@ -587,7 +587,7 @@
   {
     "description": "Wrap tests with fixtures in freeze_time",
     "name": "pytest-freezegun",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Uses gcov to measure test coverage of a C library",
@@ -1362,7 +1362,7 @@
   {
     "description": "A pytest plugin to organize long run tests (named studies) without interfering the regular tests",
     "name": "pytest-study",
-    "version": "0.1"
+    "version": "0.14"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
