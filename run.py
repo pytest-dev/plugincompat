@@ -16,6 +16,7 @@ which can then be visualized.
 """
 from __future__ import print_function, with_statement, division
 
+import concurrent.futures
 import json
 import os
 import shutil
@@ -25,10 +26,10 @@ import tarfile
 import threading
 import time
 import traceback
+from collections import namedtuple
 from contextlib import contextmanager
 from zipfile import ZipFile
 
-import concurrent.futures
 import requests
 
 import update_index
@@ -120,23 +121,40 @@ def read_plugins_index(file_name):
         return json.load(f)
 
 
+class PackageResult(
+    namedtuple('PackageResult', 'name version status_code status output description elapsed')):
+    pass
+
+
 def process_package(tox_env, pytest_version, name, version, description):
     def get_elapsed():
         return time.time() - start
+
     start = time.time()
+
+    # if we already results, skip testing this plugin
+    url = os.environ.get('PLUGINCOMPAT_SITE')
+    if url:
+        params = dict(py=tox_env, pytest=pytest_version)
+        response = requests.get(f'{url}/output/{name}-{version}', params=params)
+        if response.status_code == 200:
+            return PackageResult(name, version, 0, 'SKIPPED', 'Skipped', description,
+                                 get_elapsed())
+
     client = ServerProxy('https://pypi.python.org/pypi')
     basename = download_package(client, name, version)
     if basename is None:
-        result, output = 1, 'No sdist found'
-        return name, version, result, output, description, get_elapsed()
+        status_code, output = 1, 'No sdist found'
+        return PackageResult(name, version, status_code, 'XFAILED', output, description,
+                             get_elapsed())
     directory = extract(basename)
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
     f = executor.submit(run_tox, directory, tox_env, pytest_version)
     try:
-        result, output = f.result(timeout=5 * 60)
+        status_code, output = f.result(timeout=5 * 60)
     except concurrent.futures.TimeoutError:
         f.cancel()
-        result, output = 1, 'tox run timed out'
+        status_code, output = 1, 'tox run timed out'
     except Exception:
         f.cancel()
         if sys.version_info[0] == 2:
@@ -145,11 +163,12 @@ def process_package(tox_env, pytest_version, name, version, description):
             from io import StringIO
         stream = StringIO()
         traceback.print_exc(file=stream)
-        result, output = 'error', 'traceback:\n%s' % stream.getvalue()
+        status_code, output = 'error', 'traceback:\n%s' % stream.getvalue()
     finally:
         executor.shutdown(wait=False)
     output += '\n\nTime: %.1f seconds' % get_elapsed()
-    return name, version, result, output, description, get_elapsed()
+    status = 'PASSED' if status_code == 0 else 'FAILED'
+    return PackageResult(name, version, status_code, status, output, description, get_elapsed())
 
 
 @contextmanager
@@ -183,12 +202,15 @@ def main():
 
         print('Processing %d packages' % len(fs))
         for f in concurrent.futures.as_completed(fs):
-            name, version, result, output, description, elapsed = f.result()
+            package_result = f.result()
             print('=' * 60)
-            print('%s-%s' % (name, version))
-            print('-> tox returned %s' % result)
-            print('-> time: %.1f seconds' % elapsed)
-            test_results[(name, version)] = result, output, description
+            print('%s-%s' % (package_result.name, package_result.version))
+            print('-> tox returned %s' % package_result.status_code)
+            print('-> status:', package_result.status)
+            print('-> time: %.1f seconds' % package_result.elapsed)
+            if package_result.status != 'SKIPPED':
+                test_results[(package_result.name, package_result.version)] = \
+                    package_result.status_code, package_result.output, package_result.description
 
     print('\n\n')
     overall_elapsed = time.time() - overall_start
@@ -197,6 +219,7 @@ def main():
     print('=' * 60)
     print('Summary')
     print('Time: %dm %02ds' % (elapsed_m, elapsed_s))
+    print('Skipped:', len(plugins) - len(test_results))
     print('=' * 60)
     results = []
     for (name, version) in sorted(test_results):
