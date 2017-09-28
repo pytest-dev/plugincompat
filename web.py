@@ -230,10 +230,14 @@ def get_output(name):
     pytest = request.args.get('pytest')
     if name and py and pytest:
         output = get_field_for(name, py, pytest, 'output')
+        status_code = 200
         if not output:
             output = NO_OUTPUT_AVAILABLE
+            status_code = 404
         response = flask.make_response(output)
         response.content_type = 'text/plain'
+        response.content_type = 'text/plain'
+        response.status_code = status_code
         return response
     else:
         return 'Specify "py" and "pytest" parameters'

@@ -308,6 +308,7 @@ class TestView(object):
             lib_version = '1.2'
         assert response.data.decode('utf-8') == 'ver {}'.format(lib_version)
         assert response.content_type == 'text/plain'
+        assert response.status_code == 200
 
     @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
     def test_get_output_missing(self, client, patched_storage, lib_version):
@@ -319,6 +320,7 @@ class TestView(object):
                               .format(lib_version))
         assert response.data.decode('utf-8') == '<no output available>'
         assert response.content_type == 'text/plain'
+        assert response.status_code == 404
 
     @pytest.mark.parametrize('lib_version', ['1.0', 'latest'])
     def test_status_image_help(self, client, lib_version):
