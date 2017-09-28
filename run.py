@@ -260,5 +260,4 @@ def main():
 
 
 if __name__ == '__main__':
-    result = main() or 0
-    os._exit(result) # futures may be still running, force exit
+    sys.exit(main() or 0)
