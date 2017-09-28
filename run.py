@@ -136,7 +136,7 @@ def process_package(tox_env, pytest_version, name, version, description):
     url = os.environ.get('PLUGINCOMPAT_SITE')
     if url:
         params = dict(py=tox_env, pytest=pytest_version)
-        response = requests.get(f'{url}/output/{name}-{version}', params=params)
+        response = requests.get('{}/output/{}-{}'.format(url, name, version), params=params)
         if response.status_code == 200:
             return PackageResult(name, version, 0, 'SKIPPED', 'Skipped', description,
                                  get_elapsed())
@@ -145,7 +145,7 @@ def process_package(tox_env, pytest_version, name, version, description):
     basename = download_package(client, name, version)
     if basename is None:
         status_code, output = 1, 'No sdist found'
-        return PackageResult(name, version, status_code, 'XFAILED', output, description,
+        return PackageResult(name, version, status_code, 'NO SOURCE', output, description,
                              get_elapsed())
     directory = extract(basename)
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
@@ -220,6 +220,7 @@ def main():
     print('Summary')
     print('Time: %dm %02ds' % (elapsed_m, elapsed_s))
     print('Skipped:', len(plugins) - len(test_results))
+    print('Run:', len(test_results))
     print('=' * 60)
     results = []
     for (name, version) in sorted(test_results):
@@ -252,6 +253,7 @@ def main():
                                  headers=headers)
         print('posted to {}; response={}'.format(post_url, response))
         if response.status_code != 200:
+            print('Failed to post results:', response)
             return 1
     else:
         print('not posting, no $PLUGINCOMPAT_SITE defined: {}'.format(results))
