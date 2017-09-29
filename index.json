@@ -1422,7 +1422,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "take TDD to a new level with py.test and testmon",
