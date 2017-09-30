@@ -917,7 +917,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1448,6 +1448,11 @@
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
     "version": "1.2.0"
+  },
+  {
+    "description": "",
+    "name": "pytest-tipsi-django",
+    "version": "0.1.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
