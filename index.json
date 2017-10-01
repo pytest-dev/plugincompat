@@ -1297,7 +1297,7 @@
   {
     "description": "Smart coverage plugin for pytest.",
     "name": "pytest-smartcov",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "py.test plugin for Snap-CI",
@@ -1457,7 +1457,7 @@
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Numerous useful plugins for pytest.",
