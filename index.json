@@ -827,7 +827,7 @@
   {
     "description": "pytest plugin to display test execution output like a mochajs",
     "name": "pytest-mocha",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
