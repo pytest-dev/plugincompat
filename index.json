@@ -1030,6 +1030,11 @@
     "version": "1.1.1"
   },
   {
+    "description": "Report test pass / failures to a Prometheus PushGateway",
+    "name": "pytest-prometheus",
+    "version": "0.1"
+  },
+  {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
     "version": "0.5"
@@ -1452,7 +1457,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "0.1.0"
+    "version": "0.3.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
