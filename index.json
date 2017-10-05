@@ -70,6 +70,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "pytest plugin for testing AWS resource configurations",
+    "name": "pytest-aws",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest fixture for axe-selenium-python",
     "name": "pytest-axe",
     "version": "0.0.173"
@@ -1027,7 +1032,7 @@
   {
     "description": "pytest plugin for instant test progress status",
     "name": "pytest-progress",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "Report test pass / failures to a Prometheus PushGateway",
