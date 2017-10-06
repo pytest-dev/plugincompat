@@ -822,7 +822,7 @@
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-menu",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "pytest plugin for test session metadata",
@@ -1092,7 +1092,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "QT app fixture for py.test",
@@ -1323,6 +1323,11 @@
     "description": "Solr process and client fixtures for py.test.",
     "name": "pytest-solr",
     "version": "1.0a1"
+  },
+  {
+    "description": "A simple plugin to first execute tests that historically failed more",
+    "name": "pytest-sorter",
+    "version": "0.1.0"
   },
   {
     "description": "Test-ordering plugin for pytest",
