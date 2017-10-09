@@ -807,7 +807,7 @@
   {
     "description": "Skip matching marks. Matches partial marks using wildcards.",
     "name": "pytest-match-skip",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Match test output against patterns stored in files",
