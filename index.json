@@ -50,6 +50,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "Meta-package containing dependencies for testing",
+    "name": "pytest-astropy",
+    "version": "0.1.0"
+  },
+  {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
     "version": "0.8.0"
@@ -423,6 +428,11 @@
     "description": "A py.test plugin for customizing string representations of doctest results.",
     "name": "pytest-doctest-custom",
     "version": "1.0.0"
+  },
+  {
+    "description": "Pytest plugin with advanced doctest features.",
+    "name": "pytest-doctestplus",
+    "version": "0.1.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -940,6 +950,11 @@
     "version": "0.6.1"
   },
   {
+    "description": "Pytest plugin for detecting inadvertent open file handles",
+    "name": "pytest-openfiles",
+    "version": "0.1.0"
+  },
+  {
     "description": "include/exclude values of fixtures in pytest",
     "name": "pytest-optional",
     "version": "0.0.3"
@@ -1165,6 +1180,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Pytest plugin for controlling remote data access.",
+    "name": "pytest-remotedata",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
     "version": "3.0"
@@ -1202,7 +1222,7 @@
   {
     "description": "py.test integration for responses",
     "name": "pytest-responses",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Pytest plugin to restrict the test types allowed",
