@@ -830,6 +830,11 @@
     "version": "0.1"
   },
   {
+    "description": "Estimates memory consumption of test functions",
+    "name": "pytest-memprof",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-menu",
     "version": "0.0.4"
