@@ -1142,7 +1142,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.6"
+    "version": "0.7"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -1475,6 +1475,11 @@
     "version": "0.0.11"
   },
   {
+    "description": "",
+    "name": "pytest-testrail-reporter",
+    "version": "1.2"
+  },
+  {
     "description": "Detects thread leaks",
     "name": "pytest-threadleak",
     "version": "0.2.0"
@@ -1497,7 +1502,7 @@
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Numerous useful plugins for pytest.",
