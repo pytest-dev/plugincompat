@@ -55,6 +55,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "pytest plugin for async MongoDB",
+    "name": "pytest-async-mongodb",
+    "version": "0.0.1.dev3"
+  },
+  {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
     "version": "0.8.0"
@@ -672,7 +677,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.16"
+    "version": "0.1.17"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
