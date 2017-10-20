@@ -437,7 +437,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -547,7 +547,7 @@
   {
     "description": "Integration of fauxfactory into pytest.",
     "name": "pytest-fauxfactory",
-    "version": "1.0"
+    "version": "1.0.1"
   },
   {
     "description": "py.test figleaf coverage plugin",
@@ -983,6 +983,11 @@
     "description": "pytest plugin to test all, first, last or random params",
     "name": "pytest-param",
     "version": "0.1.1"
+  },
+  {
+    "description": "Pytest plugin for parametrizing tests with default iterables.",
+    "name": "pytest-parametrized",
+    "version": "0.1"
   },
   {
     "description": "Allow setting the path to a paste config file",
@@ -1477,7 +1482,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "0.0.11"
+    "version": "1.0.0"
   },
   {
     "description": "",
@@ -1507,7 +1512,7 @@
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "Numerous useful plugins for pytest.",
