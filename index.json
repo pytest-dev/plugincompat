@@ -47,7 +47,7 @@
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
     "name": "pytest-ast-back-to-python",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Meta-package containing dependencies for testing",
