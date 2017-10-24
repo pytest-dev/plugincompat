@@ -577,7 +577,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.8.1"
+    "version": "0.9"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -917,7 +917,7 @@
   {
     "description": "Run and lint notebooks",
     "name": "pytest-nbsane",
-    "version": "0.0.3"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin for visual testing websites using selenium",
