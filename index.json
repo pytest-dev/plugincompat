@@ -577,7 +577,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.9"
+    "version": "0.9.1"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -1287,7 +1287,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "pytest plugin for test scenarios",
