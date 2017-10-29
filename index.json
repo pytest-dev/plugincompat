@@ -667,7 +667,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.2.3"
+    "version": "0.3.0"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -947,7 +947,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1267,7 +1267,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "2.12.2"
+    "version": "3.0"
   },
   {
     "description": "",
