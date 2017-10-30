@@ -185,6 +185,11 @@
     "version": "1.2.2"
   },
   {
+    "description": "A pytest plugin that allows multiple failures per test.",
+    "name": "pytest-check",
+    "version": "0.2.1"
+  },
+  {
     "description": "Check links in files",
     "name": "pytest-check-links",
     "version": "0.2.0"
@@ -1082,7 +1087,7 @@
   {
     "description": "py.test plugin for purkinje test runner",
     "name": "pytest-purkinje",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions",
@@ -1107,7 +1112,7 @@
   {
     "description": "Core engine for tierra_qa package",
     "name": "pytest-pypom-navigation",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
