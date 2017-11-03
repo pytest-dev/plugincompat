@@ -1395,6 +1395,11 @@
     "version": "1.1.0"
   },
   {
+    "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
+    "name": "pytest-sphinx",
+    "version": "0.1.1"
+  },
+  {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
     "version": "1.8.5"
