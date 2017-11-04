@@ -180,6 +180,11 @@
     "version": "0.7"
   },
   {
+    "description": "Cassandra CCM Test Fixtures for pytest",
+    "name": "pytest-cassandra",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
     "name": "pytest-catchlog",
     "version": "1.2.2"
@@ -730,6 +735,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Run jasmine tests from your pytest test suite",
+    "name": "pytest-jasmine",
+    "version": "0.0.2"
+  },
+  {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
     "version": "0.3.6"
@@ -802,7 +812,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -920,14 +930,14 @@
     "version": "1.1.1"
   },
   {
-    "description": "Run and lint notebooks",
-    "name": "pytest-nbsane",
-    "version": "0.0.6"
+    "description": "Basic notebook checks. Do they run? Do they contain lint?",
+    "name": "pytest-nbsmoke",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
-    "version": "0.3.0"
+    "version": "0.3.3"
   },
   {
     "description": "nginx fixture for pytest",
@@ -1182,7 +1192,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Test your README.md file",
@@ -1397,7 +1407,7 @@
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
