@@ -932,7 +932,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "pytest-nbsmoke",
-    "version": "0.1.0"
+    "version": "0.1.5"
   },
   {
     "description": "pytest plugin for visual testing websites using selenium",
