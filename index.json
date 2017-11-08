@@ -1427,7 +1427,7 @@
   {
     "description": "pytest plugin for reporting to graphite",
     "name": "pytest-statsd",
-    "version": "1.0.0"
+    "version": "1.1.3"
   },
   {
     "description": "Run a test suite one failing test at a time.",
