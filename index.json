@@ -662,7 +662,7 @@
   {
     "description": "PyTest Helpers Namespace",
     "name": "pytest-helpers-namespace",
-    "version": "2016.7.10"
+    "version": "2017.11.11"
   },
   {
     "description": "Hide captured output",
@@ -1217,7 +1217,7 @@
   {
     "description": "Pytest plugin for controlling remote data access.",
     "name": "pytest-remotedata",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -1407,7 +1407,7 @@
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
-    "version": "0.1.2"
+    "version": "0.2"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
