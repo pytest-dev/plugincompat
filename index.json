@@ -960,6 +960,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "pytest results data-base and HTML reporter",
+    "name": "pytest-ochrus",
+    "version": "0.0.2"
+  },
+  {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
     "version": "0.3.2"
