@@ -432,7 +432,7 @@
   {
     "description": "",
     "name": "pytest-docker",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -937,7 +937,7 @@
   {
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "nginx fixture for pytest",
@@ -1052,7 +1052,7 @@
   {
     "description": "pytest plugin for collecting test cases and recording test results",
     "name": "pytest-polarion-cfme",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Visualize your crappy tests",
