@@ -1480,6 +1480,11 @@
     "version": "1.2.11"
   },
   {
+    "description": "pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.",
+    "name": "pytest-symbols",
+    "version": "0.1.1"
+  },
+  {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
     "name": "pytest-tap",
     "version": "2.1"
