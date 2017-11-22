@@ -22,7 +22,7 @@
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
     "name": "pytest-annotate",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -1082,7 +1082,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "Minitest-style test colors",
@@ -1157,7 +1157,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.2.1"
+    "version": "2.3.0"
   },
   {
     "description": "QT app fixture for py.test",
@@ -1257,7 +1257,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -1557,7 +1557,7 @@
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "0.4.1"
+    "version": "0.5.1"
   },
   {
     "description": "Numerous useful plugins for pytest.",
