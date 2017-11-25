@@ -167,7 +167,7 @@
   {
     "description": "A plugin that allows you to post test runs to BugZilla tickets",
     "name": "pytest-bugzilla-notifier",
-    "version": "0.1.2"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
@@ -503,6 +503,11 @@
     "description": "py.test plugin that allows you to add environment variables.",
     "name": "pytest-env",
     "version": "0.6.2"
+  },
+  {
+    "description": "Push information about the running pytest into envvars",
+    "name": "pytest-env-info",
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
