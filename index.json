@@ -507,7 +507,7 @@
   {
     "description": "Push information about the running pytest into envvars",
     "name": "pytest-env-info",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -737,7 +737,7 @@
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
