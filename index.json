@@ -737,7 +737,7 @@
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -912,7 +912,7 @@
   {
     "description": "pytest plugin for MongoDB fixtures",
     "name": "pytest-mongodb",
-    "version": "2.1.1"
+    "version": "2.1.2"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -1332,7 +1332,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "pytest plugin for test scenarios",
