@@ -822,7 +822,7 @@
   {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
-    "version": "0.3.7"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
@@ -882,7 +882,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.5.0"
+    "version": "1.5.1"
   },
   {
     "description": "pytest plugin to display test execution output like a mochajs",
@@ -1063,6 +1063,11 @@
     "description": "pytest plugin to check PEP8 requirements",
     "name": "pytest-pep8",
     "version": "1.0.6"
+  },
+  {
+    "description": "Pytest plugins and helpers for tests using a Postgres database.",
+    "name": "pytest-pgsql",
+    "version": "1.0.1"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -1590,9 +1595,9 @@
     "version": "0.4.0"
   },
   {
-    "description": "Test your translation files",
+    "description": "Test your translation files.",
     "name": "pytest-translations",
-    "version": "1.0.5"
+    "version": "2.0.0"
   },
   {
     "description": "Folds captured output sections in Travis CI build log",
