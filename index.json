@@ -22,7 +22,7 @@
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
     "name": "pytest-annotate",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Plugin for py.test to allow running ansible",
@@ -1290,6 +1290,11 @@
     "version": "0.05"
   },
   {
+    "description": "Resilient Circuits fixtures for PyTest.",
+    "name": "pytest-resilient-circuits",
+    "version": "29.0.0"
+  },
+  {
     "description": "py.test integration for responses",
     "name": "pytest-responses",
     "version": "0.3.0"
@@ -1567,7 +1572,7 @@
   {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "",
