@@ -12,7 +12,7 @@
   {
     "description": "pytest plugin for aiohttp support",
     "name": "pytest-aiohttp",
-    "version": "0.1.3"
+    "version": "0.2.0"
   },
   {
     "description": "Plugin for py.test to generate allure xml reports",
@@ -737,7 +737,7 @@
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -1607,7 +1607,7 @@
   {
     "description": "Folds captured output sections in Travis CI build log",
     "name": "pytest-travis-fold",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   {
     "description": "Plugin for py.test that integrates trello using markers",
