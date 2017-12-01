@@ -797,7 +797,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
@@ -1432,7 +1432,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
