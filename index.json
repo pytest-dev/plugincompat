@@ -542,7 +542,7 @@
   {
     "description": "A fork of 'expecter' with better support for pytest.",
     "name": "pytest-expecter",
-    "version": "0.2.2.post6"
+    "version": "0.2.2.post7"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1432,7 +1432,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
