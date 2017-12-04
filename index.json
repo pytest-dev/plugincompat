@@ -540,9 +540,9 @@
     "version": "1.1.0"
   },
   {
-    "description": "A fork of 'expecter' with better support for pytest.",
+    "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "0.2.2.post7"
+    "version": "1.0.post1"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1557,7 +1557,7 @@
   {
     "description": "",
     "name": "pytest-testrail-reporter",
-    "version": "1.3"
+    "version": "1.4"
   },
   {
     "description": "Detects thread leaks",
