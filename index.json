@@ -1052,7 +1052,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.12"
+    "version": "1.4.13"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1067,7 +1067,7 @@
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
     "name": "pytest-pgsql",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -1352,7 +1352,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.11.2"
+    "version": "1.11.3"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
