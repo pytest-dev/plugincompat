@@ -572,7 +572,7 @@
   {
     "description": "Integration of fauxfactory into pytest.",
     "name": "pytest-fauxfactory",
-    "version": "1.0.1"
+    "version": "1.1.1"
   },
   {
     "description": "py.test figleaf coverage plugin",
@@ -1227,7 +1227,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "Test your README.md file",
@@ -1557,7 +1557,7 @@
   {
     "description": "",
     "name": "pytest-testrail-reporter",
-    "version": "1.4"
+    "version": "1.5"
   },
   {
     "description": "Detects thread leaks",
