@@ -10,6 +10,21 @@ import pymongo
 from flask import request, render_template
 
 
+def get_python_versions():
+    """
+    Python versions we are willing to display on the page, in order to ignore
+    old and incomplete results.
+    """
+    return {'py27', 'py36'}
+
+
+def get_pytest_versions():
+    """
+    Same as `get_python_versions`, but for pytest versions.
+    """
+    return {'3.3.0'}
+
+
 class PlugsStorage(object):
     """
     API around a MongoDatabase used to add and obtain test results for pytest plugins.
@@ -251,20 +266,6 @@ def get_field_for(fullname, env, pytest, field_name):
             return test_result.get(field_name, None)
     return None
 
-
-def get_python_versions():
-    """
-    Python versions we are willing to display on the page, in order to ignore
-    old and incomplete results.
-    """
-    return {'py27', 'py36'}
-
-
-def get_pytest_versions():
-    """
-    Same as `get_python_versions`, but for pytest versions.
-    """
-    return {'3.3.0'}
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'
