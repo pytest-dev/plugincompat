@@ -57,7 +57,7 @@
   {
     "description": "Meta-package containing dependencies for testing",
     "name": "pytest-astropy",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for async MongoDB",
@@ -452,7 +452,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -1012,7 +1012,7 @@
   {
     "description": "Pytest plugin for detecting inadvertent open file handles",
     "name": "pytest-openfiles",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -1052,7 +1052,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.13"
+    "version": "1.4.14"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1623,6 +1623,11 @@
     "description": "py.test plugin for using the same _trial_temp working directory as trial",
     "name": "pytest-trialtemp",
     "version": "1.0.1"
+  },
+  {
+    "description": "Pytest plugin for trio",
+    "name": "pytest-trio",
+    "version": "0.1.1"
   },
   {
     "description": "A twisted plugin for py.test.",
