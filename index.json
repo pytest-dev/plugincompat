@@ -1557,7 +1557,7 @@
   {
     "description": "",
     "name": "pytest-testrail-reporter",
-    "version": "1.5"
+    "version": "1.6"
   },
   {
     "description": "Detects thread leaks",
