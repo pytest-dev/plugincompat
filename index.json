@@ -1292,7 +1292,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "29.0.0"
+    "version": "29.0.1"
   },
   {
     "description": "py.test integration for responses",
