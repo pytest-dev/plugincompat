@@ -230,6 +230,11 @@
     "version": "0.2"
   },
   {
+    "description": "pytest plugin to run pycodestyle",
+    "name": "pytest-codestyle",
+    "version": "1.0.0"
+  },
+  {
     "description": "Colorizes the progress indicators",
     "name": "pytest-colordots",
     "version": "1.1"
@@ -443,6 +448,11 @@
     "description": "pytest plugin for writing functional tests with pexpect and docker",
     "name": "pytest-docker-pexpect",
     "version": "0.5"
+  },
+  {
+    "description": "pytest plugin to run pydocstyle",
+    "name": "pytest-docstyle",
+    "version": "1.0.0"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -1037,7 +1047,7 @@
   {
     "description": "Pytest plugin for parametrizing tests with default iterables.",
     "name": "pytest-parametrized",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Allow setting the path to a paste config file",
@@ -1552,7 +1562,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "",
