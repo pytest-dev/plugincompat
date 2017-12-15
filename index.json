@@ -717,7 +717,7 @@
   {
     "description": "A pytest plugin that mocks idapython modules to performtests outside of IDA in an automated manner.",
     "name": "pytest-idapro",
-    "version": "0.1.17"
+    "version": "0.1.20"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -1062,7 +1062,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.14"
+    "version": "1.4.17"
   },
   {
     "description": "py.test plugin for pep257",
