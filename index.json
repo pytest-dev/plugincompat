@@ -1637,7 +1637,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A twisted plugin for py.test.",
