@@ -1595,6 +1595,11 @@
     "version": "0.5.4"
   },
   {
+    "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
+    "name": "pytest-todo",
+    "version": "0.2"
+  },
+  {
     "description": "Numerous useful plugins for pytest.",
     "name": "pytest-toolbox",
     "version": "0.2"
