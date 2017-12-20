@@ -232,7 +232,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -452,7 +452,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -1062,7 +1062,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.17"
+    "version": "1.4.20"
   },
   {
     "description": "py.test plugin for pep257",
