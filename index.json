@@ -232,7 +232,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -452,7 +452,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -1090,9 +1090,9 @@
     "version": "0.1.0"
   },
   {
-    "description": "Selenium/Splinter executor engine",
+    "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "0.0.1"
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1297,7 +1297,7 @@
   {
     "description": "pytest plugin to check pinned requirements",
     "name": "pytest-reqs",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
@@ -1592,7 +1592,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
