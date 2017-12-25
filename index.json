@@ -1592,12 +1592,12 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "0.4.0"
+    "version": "1.0.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "0.5.4"
+    "version": "1.0.0"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
