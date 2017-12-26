@@ -1732,7 +1732,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.20.1"
+    "version": "1.21.0"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
