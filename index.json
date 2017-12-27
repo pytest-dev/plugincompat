@@ -362,7 +362,7 @@
   {
     "description": "Manage dependencies of tests",
     "name": "pytest-dependency",
-    "version": "0.2"
+    "version": "0.3.1"
   },
   {
     "description": "Describe-style plugin for pytest",
@@ -452,7 +452,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
