@@ -595,6 +595,11 @@
     "version": "1.0"
   },
   {
+    "description": "easily load data from files",
+    "name": "pytest-filedata",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
     "version": "1.0.5"
