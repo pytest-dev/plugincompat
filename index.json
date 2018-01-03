@@ -920,6 +920,11 @@
     "version": "0.0.3"
   },
   {
+    "description": "An in-memory mock of a Redis server that runs in a separate thread. This is to be used for unit-tests that require a Redis database.",
+    "name": "pytest-mockredis",
+    "version": "0.1.6"
+  },
+  {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
     "name": "pytest-modifyjunit",
     "version": "1.1"
@@ -987,7 +992,7 @@
   {
     "description": "pytest ngs fixtures",
     "name": "pytest-ngsfixtures",
-    "version": "0.6.2"
+    "version": "0.6.3"
   },
   {
     "description": "Run all tests without custom markers",
@@ -1102,7 +1107,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1180,9 +1185,9 @@
     "version": "0.7.1"
   },
   {
-    "description": "Core engine for tierra_qa package",
+    "description": "Core engine for cookiecutter-qa and pytest-play packages",
     "name": "pytest-pypom-navigation",
-    "version": "1.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
