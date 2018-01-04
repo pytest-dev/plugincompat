@@ -712,7 +712,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.16.0"
+    "version": "1.16.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -1107,7 +1107,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1662,7 +1662,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A twisted plugin for py.test.",
