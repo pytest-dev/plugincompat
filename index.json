@@ -1107,7 +1107,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1207,7 +1207,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.3.0"
+    "version": "2.3.1"
   },
   {
     "description": "QT app fixture for py.test",
@@ -1587,7 +1587,7 @@
   {
     "description": "",
     "name": "pytest-testrail-reporter",
-    "version": "1.6"
+    "version": "1.7"
   },
   {
     "description": "Detects thread leaks",
@@ -1748,6 +1748,11 @@
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
     "version": "1.21.0"
+  },
+  {
+    "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
+    "name": "pytest-xfiles",
+    "version": "0.1.1"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
