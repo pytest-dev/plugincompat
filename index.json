@@ -1082,7 +1082,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.23"
+    "version": "1.4.24"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1097,7 +1097,7 @@
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
     "name": "pytest-pgsql",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -1112,7 +1112,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "0.3.1"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1547,7 +1547,7 @@
   {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
     "name": "pytest-tap",
-    "version": "2.1"
+    "version": "2.2"
   },
   {
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
