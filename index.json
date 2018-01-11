@@ -17,7 +17,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
-    "version": "1.7.9"
+    "version": "1.7.10"
   },
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
@@ -507,7 +507,7 @@
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
-    "version": "1.4"
+    "version": "1.5.1"
   },
   {
     "description": "Elasticsearch process and client fixtures for py.test.",
@@ -637,7 +637,7 @@
   {
     "description": "Runs tests multiple times to expose flakiness.",
     "name": "pytest-flakefinder",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin to check source code with pyflakes",
@@ -1387,7 +1387,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.11.3"
+    "version": "1.11.4"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -1713,6 +1713,11 @@
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
     "version": "1.2.11"
+  },
+  {
+    "description": "Pytest plugin for asserting data against voluptuous schema.",
+    "name": "pytest-voluptuous",
+    "version": "1.0.1"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
