@@ -280,6 +280,11 @@
     "version": "0.5.1"
   },
   {
+    "description": "count erros and send email",
+    "name": "pytest-count",
+    "version": "0.1.0"
+  },
+  {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
     "version": "2.5.1"
@@ -1672,7 +1677,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.5"
+    "version": "1.6"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -1757,7 +1762,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.21.0"
+    "version": "1.22.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
