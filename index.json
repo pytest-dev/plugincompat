@@ -475,6 +475,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "Setup additional values for ELLIPSIS_MARKER for doctests",
+    "name": "pytest-doctest-ellipsis-markers",
+    "version": "0.1.0"
+  },
+  {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
     "version": "0.1.2"
@@ -1372,7 +1377,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2017.8.23"
+    "version": "2018.1.13"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
