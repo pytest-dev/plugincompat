@@ -1622,7 +1622,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
@@ -1643,6 +1643,11 @@
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
     "version": "0.4.5"
+  },
+  {
+    "description": "A pytest plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
+    "name": "pytest-tornado-yen3",
+    "version": "0.4.6"
   },
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
