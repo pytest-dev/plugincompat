@@ -85,6 +85,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Pytest plugin to prune unchanged tests.",
+    "name": "pytest-autoskip",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin for testing AWS resource configurations",
     "name": "pytest-aws",
     "version": "0.1.0"
@@ -807,7 +812,7 @@
   {
     "description": "A pytest plugin to report test results to JSON files",
     "name": "pytest-json-report",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "UNKNOWN",
@@ -975,6 +980,11 @@
     "version": "2.0"
   },
   {
+    "description": "A test batcher for multiprocessed Pytest runs",
+    "name": "pytest-mp",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
     "version": "0.9"
@@ -997,7 +1007,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "pytest-nbsmoke",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "pytest plugin for visual testing websites using selenium",
@@ -1292,7 +1302,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.2"
+    "version": "1.0.6"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
