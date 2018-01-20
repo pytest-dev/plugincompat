@@ -85,7 +85,7 @@
     "version": "0.2.0"
   },
   {
-    "description": "Pytest plugin to prune unchanged tests.",
+    "description": "Automatically skip tests that don't need to run!",
     "name": "pytest-autoskip",
     "version": "0.1.0"
   },
