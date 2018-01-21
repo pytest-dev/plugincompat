@@ -812,7 +812,7 @@
   {
     "description": "A pytest plugin to report test results to JSON files",
     "name": "pytest-json-report",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "UNKNOWN",
@@ -1183,6 +1183,11 @@
     "description": "Report test pass / failures to a Prometheus PushGateway",
     "name": "pytest-prometheus",
     "version": "0.1"
+  },
+  {
+    "description": "A rspec format reporter for Python ptest",
+    "name": "pytest-pspec",
+    "version": "0.0.1"
   },
   {
     "description": "Pytest PuDB debugger integration",
