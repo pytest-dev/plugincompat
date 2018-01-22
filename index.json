@@ -87,7 +87,7 @@
   {
     "description": "Automatically skip tests that don't need to run!",
     "name": "pytest-autoskip",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin for testing AWS resource configurations",
@@ -227,7 +227,7 @@
   {
     "description": "",
     "name": "pytest-clld",
-    "version": "0.3"
+    "version": "0.4.0"
   },
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
@@ -810,9 +810,9 @@
     "version": "0.4.0"
   },
   {
-    "description": "A pytest plugin to report test results to JSON files",
+    "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "0.4"
+    "version": "0.4.1"
   },
   {
     "description": "UNKNOWN",
@@ -932,7 +932,7 @@
   {
     "description": "pytest plugin to display test execution output like a mochajs",
     "name": "pytest-mocha",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
@@ -1137,7 +1137,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions. Supports by default Selenium/Splinter actions",
     "name": "pytest-play",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -1187,7 +1187,7 @@
   {
     "description": "A rspec format reporter for Python ptest",
     "name": "pytest-pspec",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Pytest PuDB debugger integration",
@@ -1307,7 +1307,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
