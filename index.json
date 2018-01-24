@@ -107,7 +107,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "2.19.0"
+    "version": "2.20.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -942,7 +942,7 @@
   {
     "description": "Help you mock HTTP call and generate mock code",
     "name": "pytest-mock-helper",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Base fixtures for mockito",
@@ -1312,7 +1312,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
