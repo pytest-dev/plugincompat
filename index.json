@@ -1312,7 +1312,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.8"
+    "version": "1.0.11"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
