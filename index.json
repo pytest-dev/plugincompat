@@ -315,6 +315,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "A Cricri plugin for pytest.",
+    "name": "pytest-cricri",
+    "version": "1.0"
+  },
+  {
     "description": "Pytest support for curio.",
     "name": "pytest-curio",
     "version": "0.1.0"
