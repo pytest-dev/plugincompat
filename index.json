@@ -42,7 +42,7 @@
   {
     "description": "pytest plugin to help with comparing array output from tests",
     "name": "pytest-arraydiff",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "A pytest plugin that allows multiple failures per test",
@@ -1312,7 +1312,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.11"
+    "version": "1.0.12"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
