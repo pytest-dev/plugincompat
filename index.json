@@ -257,7 +257,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -1247,7 +1247,7 @@
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
-    "version": "0.7.1"
+    "version": "0.7.2"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
@@ -1537,7 +1537,7 @@
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-sqlalchemy",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "Start pytest run from a given point",
