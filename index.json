@@ -622,7 +622,7 @@
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "pytest plugin to manipulate firefox",
