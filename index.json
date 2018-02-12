@@ -827,7 +827,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "UNKNOWN",
@@ -1012,7 +1012,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "1.1.1"
+    "version": "2.0"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -1637,7 +1637,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.8"
+    "version": "0.9.9"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
