@@ -607,7 +607,7 @@
   {
     "description": "Pytest `client` fixture for the Falcon Framework",
     "name": "pytest-falcon-client",
-    "version": "0.0.1"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -1127,7 +1127,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.31"
+    "version": "1.4.32"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1212,7 +1212,7 @@
   {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "py.test plugin for purkinje test runner",
@@ -1427,7 +1427,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "pytest plugin for test scenarios",
