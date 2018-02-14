@@ -2,7 +2,7 @@
   {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
-    "version": "0.2.3"
+    "version": "0.2.5"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -1427,7 +1427,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "pytest plugin for test scenarios",
