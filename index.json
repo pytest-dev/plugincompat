@@ -1777,7 +1777,7 @@
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
     "name": "pytest-voluptuous",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
