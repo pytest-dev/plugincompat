@@ -952,7 +952,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.6.3"
+    "version": "1.7.0"
   },
   {
     "description": "Help you mock HTTP call and generate mock code",
