@@ -627,7 +627,7 @@
   {
     "description": "easily load data from files",
     "name": "pytest-filedata",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
@@ -1158,6 +1158,11 @@
     "description": "pytest plugin that let you play a json file describing some actions and assertions.",
     "name": "pytest-play",
     "version": "1.3.2"
+  },
+  {
+    "description": "",
+    "name": "pytest-pmisc",
+    "version": "1.0"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
