@@ -470,6 +470,11 @@
     "version": "0.6.1"
   },
   {
+    "description": "A plugin to use docker databases for pytests",
+    "name": "pytest-docker-db",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
     "name": "pytest-docker-pexpect",
     "version": "0.5"
@@ -1127,7 +1132,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.32"
+    "version": "1.4.33"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1822,7 +1827,7 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.22.0"
+    "version": "1.22.1"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
