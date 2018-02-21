@@ -800,6 +800,11 @@
     "version": "0.1.4"
   },
   {
+    "description": "Pytest fixtures for Invenio.",
+    "name": "pytest-invenio",
+    "version": "1.0.0a1"
+  },
+  {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
     "name": "pytest-ipdb",
     "version": "0.1-prerelease"
@@ -947,7 +952,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.5.1"
+    "version": "1.6.0"
   },
   {
     "description": "pytest plugin to display test execution output like a mochajs",
@@ -1132,7 +1137,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.33"
+    "version": "1.4.34"
   },
   {
     "description": "py.test plugin for pep257",
