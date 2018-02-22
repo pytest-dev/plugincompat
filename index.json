@@ -587,7 +587,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "1.0.post1"
+    "version": "1.1"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1072,7 +1072,7 @@
   {
     "description": "pytest results data-base and HTML reporter",
     "name": "pytest-ochrus",
-    "version": "0.0.4"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin to run Odoo tests",
@@ -1392,7 +1392,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "29.0.1"
+    "version": "29.1.0"
   },
   {
     "description": "py.test integration for responses",
