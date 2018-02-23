@@ -1370,6 +1370,11 @@
     "version": "0.4.1"
   },
   {
+    "description": "Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests",
+    "name": "pytest-replay",
+    "version": "0.2.0"
+  },
+  {
     "description": "Creates json report that is compatible with atom.io's linter message format",
     "name": "pytest-report",
     "version": "0.2.1"
