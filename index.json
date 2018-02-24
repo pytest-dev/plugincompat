@@ -1692,7 +1692,7 @@
   {
     "description": "Better fixtures management. Various helpers",
     "name": "pytest-tipsi-testing",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
