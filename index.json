@@ -662,7 +662,7 @@
   {
     "description": "A pytest fixture for testing flake8 plugins.",
     "name": "pytest-flake8dir",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Runs tests multiple times to expose flakiness.",
