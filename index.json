@@ -1692,7 +1692,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
@@ -1842,12 +1842,12 @@
   {
     "description": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.22.1"
+    "version": "1.22.2"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
     "name": "pytest-xfiles",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
