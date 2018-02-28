@@ -837,7 +837,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "UNKNOWN",
@@ -1347,7 +1347,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.13"
+    "version": "1.0.14"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
