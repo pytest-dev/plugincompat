@@ -962,7 +962,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.7.0"
+    "version": "1.7.1"
   },
   {
     "description": "Help you mock HTTP call and generate mock code",
@@ -1257,7 +1257,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "Core engine for cookiecutter-qa and pytest-play packages",
