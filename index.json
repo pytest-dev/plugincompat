@@ -1375,9 +1375,9 @@
     "version": "0.4.1"
   },
   {
-    "description": "Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests",
+    "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
     "name": "pytest-replay",
-    "version": "0.2.0"
+    "version": "0.2.2"
   },
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
@@ -1452,7 +1452,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "pytest plugin for test scenarios",
