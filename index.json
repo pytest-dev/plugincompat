@@ -570,6 +570,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "py.test plugin for testing Ethereum smart contracts",
+    "name": "pytest-ethereum",
+    "version": "0.0.1a1"
+  },
+  {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
     "version": "1.2.2"
@@ -1258,6 +1263,11 @@
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
     "version": "0.9.0"
+  },
+  {
+    "description": "Easily test your HTTP library against a local copy of pypi",
+    "name": "pytest-pypi",
+    "version": "0.1.1"
   },
   {
     "description": "Core engine for cookiecutter-qa and pytest-play packages",
