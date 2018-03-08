@@ -397,7 +397,7 @@
   {
     "description": "DevPI server fixture for py.test",
     "name": "pytest-devpi-server",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "pytest plugin for diamond",
@@ -577,7 +577,7 @@
   {
     "description": "py.test plugin for testing Ethereum smart contracts",
     "name": "pytest-ethereum",
-    "version": "0.1.0a5"
+    "version": "0.1.0a6"
   },
   {
     "description": "pytest plugin for generating excel reports",
@@ -657,7 +657,7 @@
   {
     "description": "Fixture configuration utils for py.test",
     "name": "pytest-fixture-config",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Plugin for pytest which provides tools for fixtures",
@@ -722,7 +722,7 @@
   {
     "description": "Git repository fixture for py.test",
     "name": "pytest-git",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
@@ -892,7 +892,7 @@
   {
     "description": "A simple network listener",
     "name": "pytest-listener",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -1152,7 +1152,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.34"
+    "version": "1.4.37"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1222,7 +1222,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "pytest plugin for instant test progress status",
@@ -1287,7 +1287,7 @@
   {
     "description": "Pyramid server fixture for py.test",
     "name": "pytest-pyramid-server",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -1487,7 +1487,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.2.12"
+    "version": "1.3.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -1512,7 +1512,7 @@
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
@@ -1632,7 +1632,7 @@
   {
     "description": "SVN repository fixture for py.test",
     "name": "pytest-svn",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.",
@@ -1772,7 +1772,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.6"
+    "version": "1.7"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -1807,12 +1807,12 @@
   {
     "description": "More descriptive output for parametrized py.test tests",
     "name": "pytest-verbose-parametrize",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
@@ -1842,7 +1842,7 @@
   {
     "description": "Selenium webdriver fixture for py.test",
     "name": "pytest-webdriver",
-    "version": "1.2.11"
+    "version": "1.3.0"
   },
   {
     "description": "pytest addon for displaying the whole node id for failures",
