@@ -622,7 +622,7 @@
   {
     "description": "Pytest `client` fixture for the Falcon Framework",
     "name": "pytest-falcon-client",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
