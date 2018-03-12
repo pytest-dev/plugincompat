@@ -477,7 +477,7 @@
   {
     "description": "A plugin to use docker databases for pytests",
     "name": "pytest-docker-db",
-    "version": "0.1.0"
+    "version": "0.1.1a2"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1707,7 +1707,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
