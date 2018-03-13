@@ -480,6 +480,11 @@
     "version": "0.1.1a2"
   },
   {
+    "description": "pytest docker fixtures",
+    "name": "pytest-docker-fixtures",
+    "version": "1.0.1"
+  },
+  {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
     "name": "pytest-docker-pexpect",
     "version": "0.5"
@@ -1152,7 +1157,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.37"
+    "version": "1.4.38"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1587,7 +1592,7 @@
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-sqlalchemy",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Start pytest run from a given point",
