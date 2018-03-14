@@ -910,6 +910,11 @@
     "version": "0.4.1"
   },
   {
+    "description": "Pytest plugin for AWS integration tests",
+    "name": "pytest-localstack",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test plugin to capture logbook log messages",
     "name": "pytest-logbook",
     "version": "1.2.0"
@@ -1738,6 +1743,11 @@
     "description": "A pytest plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado-yen3",
     "version": "0.4.6"
+  },
+  {
+    "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
+    "name": "pytest-tornado5",
+    "version": "1.0.0"
   },
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
