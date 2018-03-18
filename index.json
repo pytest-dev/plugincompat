@@ -602,7 +602,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "1.2a1"
+    "version": "1.2"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1457,7 +1457,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "4.0"
+    "version": "4.2"
   },
   {
     "description": "",
