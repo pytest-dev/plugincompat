@@ -672,7 +672,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "0.9.1"
+    "version": "1.0.0"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -1037,7 +1037,7 @@
   {
     "description": "A test batcher for multiprocessed Pytest runs",
     "name": "pytest-mp",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -1205,6 +1205,11 @@
     "version": "0.1.5"
   },
   {
+    "description": "PonyORM in Pytest",
+    "name": "pytest-ponyorm",
+    "version": "0.2.5"
+  },
+  {
     "description": "Visualize your crappy tests",
     "name": "pytest-poo",
     "version": "0.2"
@@ -1265,14 +1270,19 @@
     "version": "0.5.0"
   },
   {
-    "description": "pytest plugin to check PEP8 requirements",
+    "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "1.0.6"
+    "version": "1.1.2"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
     "name": "pytest-pydev",
     "version": "0.1.1"
+  },
+  {
+    "description": "pytest plugin to run pydocstyle",
+    "name": "pytest-pydocstyle",
+    "version": "1.2.2"
   },
   {
     "description": "pytest plugin to check source code with pylint",
@@ -1352,7 +1362,7 @@
   {
     "description": "Randomise the order in which pytest tests are run with some control over the randomness",
     "name": "pytest-random-order",
-    "version": "0.5.6"
+    "version": "0.6.0"
   },
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
@@ -1368,6 +1378,11 @@
     "description": "Redis fixtures and fixture factories for Pytest.",
     "name": "pytest-redis",
     "version": "1.3.2"
+  },
+  {
+    "description": "Pytest plugin for redmine",
+    "name": "pytest-redmine",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -1417,7 +1432,7 @@
   {
     "description": "pytest plugin to check pinned requirements",
     "name": "pytest-reqs",
-    "version": "0.0.7"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to re-run tests to eliminate flakey failures",
