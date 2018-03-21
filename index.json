@@ -1227,7 +1227,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.3.2"
+    "version": "1.3.3"
   },
   {
     "description": "Minitest-style test colors",
@@ -1502,7 +1502,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.11.4"
+    "version": "1.12.0"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -1923,6 +1923,11 @@
     "description": "Run yapf",
     "name": "pytest-yapf",
     "version": "0.1.1"
+  },
+  {
+    "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other test",
+    "name": "pytest-yield",
+    "version": "0.1.3"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
