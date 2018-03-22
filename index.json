@@ -817,7 +817,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.0a1"
+    "version": "1.0.0"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -1002,7 +1002,7 @@
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
     "name": "pytest-modifyjunit",
-    "version": "1.1"
+    "version": "1.2"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
