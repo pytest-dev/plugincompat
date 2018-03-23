@@ -1227,7 +1227,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.3.3"
+    "version": "1.3.4"
   },
   {
     "description": "Minitest-style test colors",
