@@ -1222,7 +1222,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
