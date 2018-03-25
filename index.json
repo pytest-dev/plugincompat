@@ -382,7 +382,7 @@
   {
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
-    "version": "0.3.0"
+    "version": "1.0.0"
   },
   {
     "description": "Manage dependencies of tests",
