@@ -242,7 +242,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -475,6 +475,11 @@
     "version": "0.6.1"
   },
   {
+    "description": "Manages Docker containers during your integration tests",
+    "name": "pytest-docker-compose",
+    "version": "1.0.1"
+  },
+  {
     "description": "A plugin to use docker databases for pytests",
     "name": "pytest-docker-db",
     "version": "0.1.1a2"
@@ -492,7 +497,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.2.2"
+    "version": "1.3.0"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -632,7 +637,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -1272,7 +1277,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
@@ -1282,7 +1287,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-pydocstyle",
-    "version": "1.2.2"
+    "version": "1.3.0"
   },
   {
     "description": "pytest plugin to check source code with pylint",
@@ -1517,7 +1522,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.2.1"
+    "version": "1.3.0"
   },
   {
     "description": "pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.",
