@@ -325,6 +325,11 @@
     "version": "1.0"
   },
   {
+    "description": "CSV output for pytest.",
+    "name": "pytest-csv",
+    "version": "1.0.0"
+  },
+  {
     "description": "Pytest support for curio.",
     "name": "pytest-curio",
     "version": "0.1.0"
@@ -538,6 +543,11 @@
     "description": "DynamoDB fixtures for pytest",
     "name": "pytest-dynamodb",
     "version": "1.2.0"
+  },
+  {
+    "description": "Simple API testing with pytest",
+    "name": "pytest-easy-api",
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin that makes terminal printouts of the reports easier to read",
