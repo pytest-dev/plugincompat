@@ -172,7 +172,7 @@
   {
     "description": "A plugin that allows you to post test runs to BugZilla tickets and create new tickets",
     "name": "pytest-bugzilla-notifier",
-    "version": "1.1.0"
+    "version": "1.1.5"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
@@ -327,7 +327,7 @@
   {
     "description": "CSV output for pytest.",
     "name": "pytest-csv",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Pytest support for curio.",
