@@ -172,7 +172,7 @@
   {
     "description": "A plugin that allows you to post test runs to BugZilla tickets and create new tickets",
     "name": "pytest-bugzilla-notifier",
-    "version": "1.1.5"
+    "version": "1.1.7"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
@@ -967,7 +967,7 @@
   {
     "description": "Match test output against patterns stored in files",
     "name": "pytest-matcher",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
