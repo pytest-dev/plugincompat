@@ -1177,7 +1177,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.39"
+    "version": "1.4.41"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1717,7 +1717,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.9"
+    "version": "0.9.10"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
