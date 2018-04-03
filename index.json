@@ -92,7 +92,7 @@
   {
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
-    "version": "0.2.6"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -1222,7 +1222,7 @@
   {
     "description": "PonyORM in Pytest",
     "name": "pytest-ponyorm",
-    "version": "0.2.9"
+    "version": "0.3.0"
   },
   {
     "description": "Visualize your crappy tests",
