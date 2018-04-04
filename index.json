@@ -492,7 +492,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1237,7 +1237,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
@@ -1492,7 +1492,7 @@
   {
     "description": "",
     "name": "pytest-sa-pg",
-    "version": "0.2.0"
+    "version": "0.3.1"
   },
   {
     "description": "Pytest Salt Plugin",
