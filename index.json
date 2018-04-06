@@ -1207,7 +1207,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions.",
     "name": "pytest-play",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "",
