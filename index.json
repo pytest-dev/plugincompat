@@ -997,7 +997,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.7.1"
+    "version": "1.8.0"
   },
   {
     "description": "Help you mock HTTP call and generate mock code",
@@ -1762,7 +1762,7 @@
   {
     "description": "Numerous useful plugins for pytest.",
     "name": "pytest-toolbox",
-    "version": "0.2"
+    "version": "0.4"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
