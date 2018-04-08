@@ -370,9 +370,9 @@
     "version": "0.0.2"
   },
   {
-    "description": "A datatest plugin for py.test.",
+    "description": "A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).",
     "name": "pytest-datatest",
-    "version": "0.0.0"
+    "version": "0.1.1"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
