@@ -597,7 +597,7 @@
   {
     "description": "py.test plugin for testing Ethereum smart contracts",
     "name": "pytest-ethereum",
-    "version": "0.1.0a6"
+    "version": "0.1.0a8"
   },
   {
     "description": "pytest plugin for generating excel reports",
@@ -997,7 +997,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
     "name": "pytest-mock",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   {
     "description": "Help you mock HTTP call and generate mock code",
