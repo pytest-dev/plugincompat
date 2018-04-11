@@ -1177,7 +1177,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.42"
+    "version": "1.4.43"
   },
   {
     "description": "py.test plugin for pep257",
