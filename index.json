@@ -720,6 +720,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "pytest plugin for Firefox Accounts",
+    "name": "pytest-fxa",
+    "version": "1.0.0"
+  },
+  {
     "description": "The garbage collector plugin for py.test",
     "name": "pytest-gc",
     "version": "0.0.1"
@@ -1478,6 +1483,11 @@
     "description": "pytest plugin to test webapplications using the Ringo webframework",
     "name": "pytest-ringo",
     "version": "0.2.3"
+  },
+  {
+    "description": "Extend py.test for RPC OpenStack testing.",
+    "name": "pytest-rpc",
+    "version": "0.5.0"
   },
   {
     "description": "implement a --failed option for pytest",
