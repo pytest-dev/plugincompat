@@ -427,7 +427,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.1.2"
+    "version": "3.2.1"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1253,6 +1253,11 @@
     "description": "Minitest-style test colors",
     "name": "pytest-pride",
     "version": "0.1.2"
+  },
+  {
+    "description": "pytest plugin that provides a fixture to print onto the PyTest reporting",
+    "name": "pytest-print",
+    "version": "0.1.0"
   },
   {
     "description": "Profiling plugin for py.test",
