@@ -1,5 +1,200 @@
 [
   {
+    "description": "Creates Apsim-Project files from given parameters and files.",
+    "name": "CrApsim",
+    "version": "0.0.1a0"
+  },
+  {
+    "description": "Automated Malware Analysis System",
+    "name": "Cuckoo",
+    "version": "2.0.5.3"
+  },
+  {
+    "description": "Multi-purpose search engine for various protocols.",
+    "name": "Findex-GUI",
+    "version": "0.2.18"
+  },
+  {
+    "description": "Python wrapper for OTRS (using REST API)",
+    "name": "PyOTRS",
+    "version": "0.1.29"
+  },
+  {
+    "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
+    "name": "aiohttp-json-rpc",
+    "version": "0.8.4.2"
+  },
+  {
+    "description": "Allure pytest integration",
+    "name": "allure-pytest",
+    "version": "2.3.2b1"
+  },
+  {
+    "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
+    "name": "automock",
+    "version": "1.1.0a1"
+  },
+  {
+    "description": "A wrapper for WebDriver that provides some extended and additional functionality",
+    "name": "basepage",
+    "version": "1.6.8"
+  },
+  {
+    "description": "library extracting coastline regions from raster data",
+    "name": "beachfront",
+    "version": "0.2.4"
+  },
+  {
+    "description": "Run Cassandra in Docker container for Pytest.",
+    "name": "cassandra-pytest",
+    "version": "1.1.0"
+  },
+  {
+    "description": "Extendible configuration testing in parallel.",
+    "name": "ctip",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Cuckoo Sandbox Setup Monitoring",
+    "name": "cuckoo-brood",
+    "version": "0.1"
+  },
+  {
+    "description": "Picky test coverage for pytest",
+    "name": "divide-and-cover",
+    "version": "0.1.1"
+  },
+  {
+    "description": "Automantic compress files after upload",
+    "name": "django-compress-field",
+    "version": "0.9.9"
+  },
+  {
+    "description": "A pytest fixture to provide Docker integration.",
+    "name": "docker-integration",
+    "version": "0.0.3"
+  },
+  {
+    "description": "Uses docker to spawn containers for services required during tests",
+    "name": "docker-services",
+    "version": "0.2.1"
+  },
+  {
+    "description": "Cuckoo Sandbox Shellcode Identification & Formatting",
+    "name": "egghatch",
+    "version": "0.2.2"
+  },
+  {
+    "description": "Collection of utils for the Falcon Framework",
+    "name": "falcon-toolkit",
+    "version": "0.0.1"
+  },
+  {
+    "description": "Simple slack bot for providing teammates with anonymous feedback",
+    "name": "feedbackbot",
+    "version": "0.0.2"
+  },
+  {
+    "description": "Python utilities for packer/pyinfra/pytest deploiments",
+    "name": "fpr-infra",
+    "version": "0.1.9"
+  },
+  {
+    "description": "Python utilities for packer deploiments",
+    "name": "fpr-packer",
+    "version": "0.2.3a1"
+  },
+  {
+    "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of Ansible.",
+    "name": "goodplay",
+    "version": "0.9.1"
+  },
+  {
+    "description": "a simple virtual machine management tool",
+    "name": "hark",
+    "version": "1.0.0.dev3"
+  },
+  {
+    "description": "tool to build hark images",
+    "name": "hark-builder",
+    "version": "1.0.0.dev6"
+  },
+  {
+    "description": "image store service for the hark tool",
+    "name": "hark-imagestore",
+    "version": "1.0.0.dev4"
+  },
+  {
+    "description": "",
+    "name": "hcache",
+    "version": "1.0.3"
+  },
+  {
+    "description": "Test tool for overridable json fixtures",
+    "name": "jabstract",
+    "version": "0.1.2"
+  },
+  {
+    "description": "Routines and classes supporting MongoDB environments",
+    "name": "jaraco.mongodb",
+    "version": "7.5"
+  },
+  {
+    "description": "jaraco.postgres",
+    "name": "jaraco.postgres",
+    "version": "4.1"
+  },
+  {
+    "description": "labgrid: lab hardware and software control layer",
+    "name": "labgrid",
+    "version": "0.1.0"
+  },
+  {
+    "description": "",
+    "name": "limix-ext",
+    "version": "1.0.0"
+  },
+  {
+    "description": "MyAnimeList web scraper",
+    "name": "mal-scraper",
+    "version": "0.3.0"
+  },
+  {
+    "description": "",
+    "name": "mutmut",
+    "version": "0.0.9"
+  },
+  {
+    "description": "Basic notebook checks. Do they run? Do they contain lint?",
+    "name": "nbsmoke",
+    "version": "0.2.2"
+  },
+  {
+    "description": "A py.test plugin to validate Jupyter notebooks",
+    "name": "nbval",
+    "version": "0.9.0"
+  },
+  {
+    "description": "Python interface for the Cephes library.",
+    "name": "ncephes",
+    "version": "1.0.5"
+  },
+  {
+    "description": "A tool for creating regression tests through logging data during pytest runs.",
+    "name": "onaji",
+    "version": "0.1.2"
+  },
+  {
+    "description": "Find changes between OpenStack-Ansible versions",
+    "name": "osa_differ",
+    "version": "0.0.2"
+  },
+  {
+    "description": "pypom_form",
+    "name": "pypom-form",
+    "version": "0.3.1"
+  },
+  {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
     "version": "0.2.5"
@@ -137,7 +332,7 @@
   {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
-    "version": "0.1"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
@@ -305,9 +500,9 @@
     "version": "3.0.0"
   },
   {
-    "description": "Pytest plugin for measuring coverage. Forked from `pytest-cov`.",
+    "description": "",
     "name": "pytest-coverage",
-    "version": "0.0"
+    "version": "0.0.1"
   },
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
@@ -617,7 +812,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "1.2"
+    "version": "1.2a1"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -787,7 +982,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.17.0"
+    "version": "1.9.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -837,12 +1032,12 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
     "name": "pytest-ipdb",
-    "version": "0.1-prerelease"
+    "version": "0.1-prerelease2"
   },
   {
     "description": "Use pytest's runner to discover and execute tests as cells of IPython notebooks",
@@ -862,7 +1057,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.6"
+    "version": "0.3.0"
   },
   {
     "description": "Generate JSON test reports",
@@ -1422,7 +1617,7 @@
   {
     "description": "Relaxed test discovery/organization for pytest",
     "name": "pytest-relaxed",
-    "version": "0.1.0"
+    "version": "1.1.2"
   },
   {
     "description": "Pytest plugin for controlling remote data access.",
@@ -1457,7 +1652,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.1"
+    "version": "1.0.3"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -1465,14 +1660,14 @@
     "version": "0.1.0"
   },
   {
-    "description": "py.test plugin to re-run tests to eliminate flakey failures",
+    "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "0.05"
+    "version": "4.0"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "30.0.85"
+    "version": "30.0.86"
   },
   {
     "description": "py.test integration for responses",
@@ -1522,7 +1717,7 @@
   {
     "description": "A Pytest plugin that builds and creates docker containers",
     "name": "pytest-salt-containers",
-    "version": "0.2.dev10"
+    "version": "0.2.dev9"
   },
   {
     "description": "",
@@ -1537,7 +1732,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.12.0"
+    "version": "1.9.1"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -1567,7 +1762,7 @@
   {
     "description": "py.test plugin to locally test sftp server connections.",
     "name": "pytest-sftpserver",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -1722,7 +1917,7 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.10"
+    "version": "0.0.9"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
@@ -1837,7 +2032,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.7"
+    "version": "1.7.1"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -1968,5 +2163,110 @@
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
+  },
+  {
+    "description": "Elizabeth integration with the pytest test runner",
+    "name": "pytest_elizabeth",
+    "version": "0.0.2"
+  },
+  {
+    "description": "pytest plugin for apps written with Google's AppEngine",
+    "name": "pytest_gae",
+    "version": "0.2.4"
+  },
+  {
+    "description": "Provide tools for generating tests from combinations of fixtures.",
+    "name": "pytest_matrix",
+    "version": "0.4"
+  },
+  {
+    "description": "IoT honeypotting and fuzzing framework for Cuckoo/QEMU",
+    "name": "quailbox",
+    "version": "0.1.4"
+  },
+  {
+    "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
+    "name": "querify",
+    "version": "0.1.0"
+  },
+  {
+    "description": "rigor",
+    "name": "rigor",
+    "version": "0.5.0"
+  },
+  {
+    "description": "A python client for sat-api",
+    "name": "satsearch",
+    "version": "0.1.0b7"
+  },
+  {
+    "description": "Test Docker container images",
+    "name": "seaworthy",
+    "version": "0.2.1.2"
+  },
+  {
+    "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
+    "name": "sentinel-s3",
+    "version": "0.8.0"
+  },
+  {
+    "description": "Pure python tools for SIP testing",
+    "name": "sipster",
+    "version": "0.0.1"
+  },
+  {
+    "description": "github: https://github.com/fy0/slim",
+    "name": "slim",
+    "version": "0.0.4"
+  },
+  {
+    "description": "Snapshot Testing utils for Python",
+    "name": "snapshottest",
+    "version": "0.5.0"
+  },
+  {
+    "description": "Variety of remote sensing data for testing",
+    "name": "stestdata",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Simple testing of RESTful APIs",
+    "name": "tavern",
+    "version": "0.9.2"
+  },
+  {
+    "description": "Test infrastructures",
+    "name": "testinfra",
+    "version": "1.9.1"
+  },
+  {
+    "description": "A tool that executes a suite of static analysis tools upon a Python project.",
+    "name": "tidypy",
+    "version": "0.4.0"
+  },
+  {
+    "description": "Helper for checking variable equivalence by type. Useful for tests.",
+    "name": "type_comparable",
+    "version": "0.2"
+  },
+  {
+    "description": "Test fixtures for Websauna",
+    "name": "websauna.tests",
+    "version": "1.0a8"
+  },
+  {
+    "description": "A rewrite of the builtin doctest module",
+    "name": "xdoctest",
+    "version": "0.3.0"
+  },
+  {
+    "description": "An XResources parser for python applications.",
+    "name": "xparser",
+    "version": "0.0.2a0"
+  },
+  {
+    "description": "Yet Another Option Parser (full fledged)",
+    "name": "yaop",
+    "version": "0.1.1"
   }
 ]
