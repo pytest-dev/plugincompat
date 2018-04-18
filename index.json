@@ -1272,7 +1272,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -1382,7 +1382,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.43"
+    "version": "1.4.45"
   },
   {
     "description": "py.test plugin for pep257",
@@ -1612,7 +1612,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.14"
+    "version": "1.0.15"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
