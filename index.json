@@ -420,6 +420,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "Easy quality control for CLDF datasets using pytest",
+    "name": "pytest-cldf",
+    "version": "0.1.1"
+  },
+  {
     "description": "",
     "name": "pytest-clld",
     "version": "0.4.0"
@@ -1692,7 +1697,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "0.5.0"
+    "version": "0.6.1"
   },
   {
     "description": "implement a --failed option for pytest",
