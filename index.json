@@ -442,7 +442,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -1502,7 +1502,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
@@ -1987,7 +1987,7 @@
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.4.5"
+    "version": "0.5.0"
   },
   {
     "description": "A pytest plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
