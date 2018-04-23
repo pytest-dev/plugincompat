@@ -622,7 +622,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -702,7 +702,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -757,7 +757,7 @@
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
-    "version": "1.5.1"
+    "version": "1.6.0"
   },
   {
     "description": "Elasticsearch process and client fixtures for py.test.",
@@ -1512,7 +1512,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-pydocstyle",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "pytest plugin to check source code with pylint",
