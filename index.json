@@ -1132,7 +1132,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.1.0"
+    "version": "0.1.1.post1"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
