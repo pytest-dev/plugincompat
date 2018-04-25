@@ -365,9 +365,9 @@
     "version": "0.2"
   },
   {
-    "description": "A plugin that allows you to post test runs to BugZilla tickets and create new tickets",
+    "description": "A plugin that allows you to execute create, update, and read information from BugZilla bugs",
     "name": "pytest-bugzilla-notifier",
-    "version": "1.1.7"
+    "version": "1.1.8"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
@@ -797,7 +797,7 @@
   {
     "description": "py.test plugin for testing Ethereum smart contracts",
     "name": "pytest-ethereum",
-    "version": "0.1.0a8"
+    "version": "0.1.0a9"
   },
   {
     "description": "pytest plugin for generating excel reports",
@@ -908,6 +908,11 @@
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
     "version": "0.10.0"
+  },
+  {
+    "description": "pytest plugin with sqlalchemy related fixtures",
+    "name": "pytest-flask-sqlalchemy",
+    "version": "0.1.0"
   },
   {
     "description": "run tests in isolated forked subprocesses",
@@ -1112,7 +1117,7 @@
   {
     "description": "A python-libfaketime plugin for pytest.",
     "name": "pytest-libfaketime",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A simple network listener",
