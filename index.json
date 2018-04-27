@@ -380,6 +380,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "A plugin that replays pRNG state on failure.",
+    "name": "pytest-caprng",
+    "version": "0.0.1"
+  },
+  {
     "description": "py.test plugin to capture log messages",
     "name": "pytest-capturelog",
     "version": "0.7"
@@ -512,7 +517,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "0.4.5"
+    "version": "1.0.1"
   },
   {
     "description": "Run cram tests with pytest.",
@@ -587,7 +592,7 @@
   {
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
-    "version": "1.0.1"
+    "version": "2.0.0"
   },
   {
     "description": "Manage dependencies of tests",
@@ -913,6 +918,11 @@
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-flask-sqlalchemy",
     "version": "0.1.0"
+  },
+  {
+    "description": "py.test plugin to make the test failing regardless of pytest.makr.xfail",
+    "name": "pytest-forcefail",
+    "version": "0.0.0.2"
   },
   {
     "description": "run tests in isolated forked subprocesses",
