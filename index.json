@@ -240,6 +240,11 @@
     "version": "0.2"
   },
   {
+    "description": "test Answer Set Programming programs",
+    "name": "pytest-asptest",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
     "version": "1.2"
@@ -382,7 +387,7 @@
   {
     "description": "A plugin that replays pRNG state on failure.",
     "name": "pytest-caprng",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "py.test plugin to capture log messages",
@@ -847,7 +852,7 @@
   {
     "description": "Pytest `client` fixture for the Falcon Framework",
     "name": "pytest-falcon-client",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
