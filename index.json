@@ -852,7 +852,7 @@
   {
     "description": "Pytest `client` fixture for the Falcon Framework",
     "name": "pytest-falcon-client",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -1160,9 +1160,9 @@
     "version": "1.2.0"
   },
   {
-    "description": "Pytest plugin to write test logs to file(s)",
+    "description": "Pytest plugin providing three logger fixtures with basic or full writing to log files",
     "name": "pytest-logfest",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
