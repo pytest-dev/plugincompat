@@ -897,7 +897,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -2057,7 +2057,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.7.1"
+    "version": "1.8"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
