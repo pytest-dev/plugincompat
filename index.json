@@ -167,7 +167,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -387,7 +387,7 @@
   {
     "description": "A plugin that replays pRNG state on failure.",
     "name": "pytest-caprng",
-    "version": "0.0.2"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to capture log messages",
@@ -972,7 +972,7 @@
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
     "name": "pytest-github",
-    "version": "0.0.9"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -2217,7 +2217,7 @@
   {
     "description": "rigor",
     "name": "rigor",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "A python client for sat-api",
