@@ -167,7 +167,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -1002,7 +1002,7 @@
   {
     "description": "Hide captured output",
     "name": "pytest-hidecaptured",
-    "version": "0.1.2"
+    "version": "0.2.2"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -2250,6 +2250,11 @@
     "version": "0.5.0"
   },
   {
+    "description": "specd",
+    "name": "specd",
+    "version": "0.1.1"
+  },
+  {
     "description": "Variety of remote sensing data for testing",
     "name": "stestdata",
     "version": "0.1.0"
@@ -2257,7 +2262,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "Test infrastructures",
