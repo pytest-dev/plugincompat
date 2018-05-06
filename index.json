@@ -702,7 +702,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.1.0"
+    "version": "1.2.2"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1383,6 +1383,11 @@
     "description": "OS X notifications for py.test results.",
     "name": "pytest-osxnotify",
     "version": "0.1.7"
+  },
+  {
+    "description": "a py.test plugin for parallel and concurrent testing",
+    "name": "pytest-parallel",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
@@ -2272,7 +2277,7 @@
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
     "name": "tidypy",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Helper for checking variable equivalence by type. Useful for tests.",
@@ -2292,7 +2297,7 @@
   {
     "description": "An XResources parser for python applications.",
     "name": "xparser",
-    "version": "0.0.2a0"
+    "version": "0.0.4rc0"
   },
   {
     "description": "Yet Another Option Parser (full fledged)",
