@@ -737,7 +737,7 @@
   {
     "description": "A py.test plugin that parses environment files before running tests",
     "name": "pytest-dotenv",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1070,9 +1070,9 @@
     "version": "1.1.0"
   },
   {
-    "description": "pytest plugin to perform isort checks (import ordering)",
+    "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
@@ -1387,7 +1387,7 @@
   {
     "description": "a py.test plugin for parallel and concurrent testing",
     "name": "pytest-parallel",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
