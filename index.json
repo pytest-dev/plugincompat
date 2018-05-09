@@ -1457,7 +1457,7 @@
   {
     "description": "PonyORM in Pytest",
     "name": "pytest-ponyorm",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "Visualize your crappy tests",
@@ -1472,7 +1472,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
@@ -2298,6 +2298,11 @@
     "description": "An XResources parser for python applications.",
     "name": "xparser",
     "version": "0.0.4rc0"
+  },
+  {
+    "description": "cli app for customizing terminals",
+    "name": "xthematic",
+    "version": "0.0.3"
   },
   {
     "description": "Yet Another Option Parser (full fledged)",
