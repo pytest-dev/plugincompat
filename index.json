@@ -2252,7 +2252,7 @@
   {
     "description": "specd",
     "name": "specd",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Variety of remote sensing data for testing",
@@ -2287,7 +2287,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "An XResources parser for python applications.",
