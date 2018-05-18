@@ -850,6 +850,11 @@
     "version": "1.0.2"
   },
   {
+    "description": "Use SCM and coverage data to run only needed tests",
+    "name": "pytest-fastest",
+    "version": "0.0.4"
+  },
+  {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
     "version": "1.5.0"
@@ -1442,7 +1447,7 @@
   {
     "description": "pytest plugin that let you play a json file describing some actions and assertions.",
     "name": "pytest-play",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   {
     "description": "",
