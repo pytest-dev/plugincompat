@@ -852,7 +852,7 @@
   {
     "description": "Use SCM and coverage data to run only needed tests",
     "name": "pytest-fastest",
-    "version": "0.0.4"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -1052,7 +1052,7 @@
   {
     "description": "py.test plugin to show failures instantly",
     "name": "pytest-instafail",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
