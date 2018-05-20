@@ -852,7 +852,7 @@
   {
     "description": "Use SCM and coverage data to run only needed tests",
     "name": "pytest-fastest",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
@@ -1083,6 +1083,11 @@
     "description": "Run jasmine tests from your pytest test suite",
     "name": "pytest-jasmine",
     "version": "0.0.2"
+  },
+  {
+    "description": "A custom jest-pytest oriented Pytest reporter",
+    "name": "pytest-jest",
+    "version": "0.1.0"
   },
   {
     "description": "py.test JIRA integration plugin, using markers",
