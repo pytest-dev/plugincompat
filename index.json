@@ -1292,7 +1292,7 @@
   {
     "description": "A test batcher for multiprocessed Pytest runs",
     "name": "pytest-mp",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -1332,7 +1332,7 @@
   {
     "description": "pytest ngs fixtures",
     "name": "pytest-ngsfixtures",
-    "version": "0.6.4"
+    "version": "0.7.2"
   },
   {
     "description": "Run all tests without custom markers",
@@ -1438,6 +1438,11 @@
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
     "name": "pytest-pgsql",
     "version": "1.1.0"
+  },
+  {
+    "description": "Run the tests related to the changed files",
+    "name": "pytest-picked",
+    "version": "0.1.0"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -1582,7 +1587,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.3.2"
+    "version": "2.4.0"
   },
   {
     "description": "QT app fixture for py.test",
@@ -1702,7 +1707,7 @@
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "4.0"
+    "version": "4.1"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
