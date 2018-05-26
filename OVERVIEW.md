@@ -4,7 +4,7 @@ For each each plugin, as identified by a search for `pytest-*` on PyPI, we
 download, install and execute its tests using [tox](https://tox.readthedocs.io/en/latest/).
 If a plugin doesn't have a `tox.ini` file, we generate a simple
 `tox.ini` which just ensures that the plugin was installed successfully by
-running `py.test --help`.
+running `pytest --help`.
 
 Once we have tested all plugins, the results are posted to a web application
 that can be used to visualize them.
@@ -22,7 +22,7 @@ script.
 
 The main job of this script is to run `update_index.py`, which is reponsible for querying `pypi` and updating
 `index.txt` with latest pytest plugin information. This file is then pushed back to GitHub which will trigger a new [travis](https://travis-ci.org) build.
-  
+
 
 ## Details ##
 
@@ -40,7 +40,7 @@ like this:
   {
     "version": "1.3.7",
     "name": "pytest-allure-adaptor",
-    "description": "Plugin for py.test to generate allure xml reports"
+    "description": "Plugin for pytest to generate allure xml reports"
   },
   {
     "version": "2.1.0",
