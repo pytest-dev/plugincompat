@@ -1062,7 +1062,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -2292,7 +2292,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "0.9.7"
+    "version": "0.9.8"
   },
   {
     "description": "Test infrastructures",
@@ -2303,6 +2303,11 @@
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
     "name": "tidypy",
     "version": "0.5.0"
+  },
+  {
+    "description": "Transfer learning info.",
+    "name": "transfer-learning",
+    "version": "0.1"
   },
   {
     "description": "Helper for checking variable equivalence by type. Useful for tests.",
