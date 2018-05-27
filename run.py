@@ -110,9 +110,8 @@ PLACEHOLDER_TOX = '''\
 [tox]
 
 [testenv]
-deps=pytest
-commands=
-    py.test --help
+deps = pytest
+commands = pytest --help
 '''
 
 
