@@ -27,7 +27,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.3.3b1"
+    "version": "2.3.4b1"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -42,7 +42,7 @@
   {
     "description": "library extracting coastline regions from raster data",
     "name": "beachfront",
-    "version": "0.2.4"
+    "version": "0.2.5"
   },
   {
     "description": "Run Cassandra in Docker container for Pytest.",
@@ -1887,7 +1887,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "1.8.5"
+    "version": "1.8.6"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -2052,7 +2052,7 @@
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
     "name": "pytest-tornasync",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Test your translation files.",
@@ -2292,7 +2292,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "0.9.8"
+    "version": "0.9.9"
   },
   {
     "description": "Test infrastructures",
