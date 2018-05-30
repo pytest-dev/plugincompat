@@ -257,7 +257,7 @@
   {
     "description": "Meta-package containing dependencies for testing",
     "name": "pytest-astropy",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "pytest plugin for async MongoDB",
@@ -1667,7 +1667,7 @@
   {
     "description": "Pytest plugin for controlling remote data access.",
     "name": "pytest-remotedata",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
