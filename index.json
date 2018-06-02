@@ -167,7 +167,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.2.6"
+    "version": "0.2.7"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -1307,7 +1307,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -1422,7 +1422,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.47"
+    "version": "1.4.49"
   },
   {
     "description": "py.test plugin for pep257",
