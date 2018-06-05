@@ -172,7 +172,7 @@
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
     "name": "nbval",
-    "version": "0.9.0"
+    "version": "0.9.1"
   },
   {
     "description": "Python interface for the Cephes library.",
@@ -1152,7 +1152,7 @@
   {
     "description": "A pytest plugin that stream output in LITF format",
     "name": "pytest-litf",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
