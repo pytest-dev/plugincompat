@@ -897,7 +897,7 @@
   {
     "description": "Common fixtures for pytest",
     "name": "pytest-fixtures",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to check FLAKE8 requirements",
@@ -1258,6 +1258,11 @@
     "description": "An in-memory mock of a Redis server that runs in a separate thread. This is to be used for unit-tests that require a Redis database.",
     "name": "pytest-mockredis",
     "version": "0.1.6"
+  },
+  {
+    "description": "A set of fixtures to test your requests to HTTP/UDP servers",
+    "name": "pytest-mockservers",
+    "version": "0.1.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -1862,7 +1867,7 @@
   {
     "description": "A simple plugin to first execute tests that historically failed more",
     "name": "pytest-sorter",
-    "version": "0.1.2"
+    "version": "0.1.6"
   },
   {
     "description": "Test-ordering plugin for pytest",
