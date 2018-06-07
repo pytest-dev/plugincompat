@@ -7,7 +7,7 @@
   {
     "description": "Automated Malware Analysis System",
     "name": "Cuckoo",
-    "version": "2.0.5.3"
+    "version": "2.0.6"
   },
   {
     "description": "Multi-purpose search engine for various protocols.",
@@ -1667,7 +1667,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.0.15"
+    "version": "1.2.0"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
