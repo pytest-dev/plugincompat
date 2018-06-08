@@ -1747,7 +1747,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "0.6.1"
+    "version": "0.7.0"
   },
   {
     "description": "implement a --failed option for pytest",
