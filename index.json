@@ -1867,7 +1867,7 @@
   {
     "description": "A simple plugin to first execute tests that historically failed more",
     "name": "pytest-sorter",
-    "version": "0.1.6"
+    "version": "0.1.8"
   },
   {
     "description": "Test-ordering plugin for pytest",
