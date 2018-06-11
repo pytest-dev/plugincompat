@@ -632,7 +632,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -697,7 +697,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -928,6 +928,11 @@
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-flask-sqlalchemy",
     "version": "0.1.0"
+  },
+  {
+    "description": "Run tests in transactions using pytest, Flask, and SQLalchemy.",
+    "name": "pytest-flask-sqlalchemy-transactions",
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin to make the test failing regardless of pytest.mark.xfail",
@@ -2332,7 +2337,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.3.5"
+    "version": "0.4.0.dev0"
   },
   {
     "description": "An XResources parser for python applications.",
