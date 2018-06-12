@@ -7,7 +7,7 @@
   {
     "description": "Automated Malware Analysis System",
     "name": "Cuckoo",
-    "version": "2.0.6"
+    "version": "2.0.6.1"
   },
   {
     "description": "Multi-purpose search engine for various protocols.",
@@ -632,7 +632,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1727,7 +1727,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "30.0.86"
+    "version": "30.0.89"
   },
   {
     "description": "py.test integration for responses",
