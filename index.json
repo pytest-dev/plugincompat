@@ -70,6 +70,11 @@
     "version": "0.9.9"
   },
   {
+    "description": "django-test-plus provides useful additions to Django's default TestCase",
+    "name": "django-test-plus",
+    "version": "1.1.0"
+  },
+  {
     "description": "A pytest fixture to provide Docker integration.",
     "name": "docker-integration",
     "version": "0.0.3"
@@ -382,7 +387,7 @@
   {
     "description": "A plugin that allows you to execute create, update, and read information from BugZilla bugs",
     "name": "pytest-bugzilla-notifier",
-    "version": "1.1.8"
+    "version": "1.1.9"
   },
   {
     "description": "pytest plugin with mechanisms for caching across test runs",
@@ -647,7 +652,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.2.1"
+    "version": "3.3.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -683,6 +688,11 @@
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
     "name": "pytest-django-sqlcounts",
     "version": "0.1.0"
+  },
+  {
+    "description": "Nice pytest plugin to help you with Django pluggable application testing.",
+    "name": "pytest-djangoapp",
+    "version": "0.2.0"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -962,7 +972,7 @@
   {
     "description": "pytest plugin for Firefox Accounts",
     "name": "pytest-fxa",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "The garbage collector plugin for py.test",
