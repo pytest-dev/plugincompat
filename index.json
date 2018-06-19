@@ -137,7 +137,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.59.1"
+    "version": "3.59.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -347,7 +347,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -638,6 +638,11 @@
     "description": "pytest plugin for diamond",
     "name": "pytest-diamond",
     "version": "0.0.1"
+  },
+  {
+    "description": "",
+    "name": "pytest-dictsdiff",
+    "version": "0.5.4"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -2262,7 +2267,7 @@
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other test",
     "name": "pytest-yield",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
