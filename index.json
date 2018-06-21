@@ -1495,6 +1495,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "",
+    "name": "pytest-pigeonhole",
+    "version": "0.1"
+  },
+  {
     "description": "Pytest plugin for functional testing of data analysispipelines",
     "name": "pytest-pipeline",
     "version": "0.3.0"
@@ -2042,7 +2047,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "1.1.4"
+    "version": "1.1.5"
   },
   {
     "description": "",
@@ -2158,6 +2163,11 @@
     "description": "Run only unmarked tests",
     "name": "pytest-unmarked",
     "version": "1.1"
+  },
+  {
+    "description": "A py.test plugin providing access to vagrant.",
+    "name": "pytest-vagrant",
+    "version": "0.0.0"
   },
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
@@ -2348,6 +2358,11 @@
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
     "version": "0.9.9"
+  },
+  {
+    "description": "Simple testing of RESTful APIs",
+    "name": "tavern-extended",
+    "version": "0.9.1"
   },
   {
     "description": "Test infrastructures",
