@@ -7,7 +7,7 @@
   {
     "description": "Automated Malware Analysis System",
     "name": "Cuckoo",
-    "version": "2.0.6.1"
+    "version": "2.0.6.2"
   },
   {
     "description": "Multi-purpose search engine for various protocols.",
@@ -87,7 +87,7 @@
   {
     "description": "Cuckoo Sandbox Shellcode Identification & Formatting",
     "name": "egghatch",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "Collection of utils for the Falcon Framework",
@@ -602,7 +602,7 @@
   {
     "description": "A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).",
     "name": "pytest-datatest",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -662,7 +662,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.3.0"
+    "version": "3.3.2"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1497,7 +1497,7 @@
   {
     "description": "",
     "name": "pytest-pigeonhole",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -2167,7 +2167,7 @@
   {
     "description": "A py.test plugin providing access to vagrant.",
     "name": "pytest-vagrant",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
