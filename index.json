@@ -137,7 +137,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.60.1"
+    "version": "3.61.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -462,7 +462,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "2.0.0"
+    "version": "3.0.0"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -1202,7 +1202,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.1.1.post1"
+    "version": "0.1.2"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
@@ -2297,7 +2297,7 @@
   {
     "description": "Provide tools for generating tests from combinations of fixtures.",
     "name": "pytest_matrix",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "IoT honeypotting and fuzzing framework for Cuckoo/QEMU",
