@@ -137,7 +137,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.61.0"
+    "version": "3.64.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -413,6 +413,11 @@
     "description": "py.test plugin to capture log messages",
     "name": "pytest-capturelog",
     "version": "0.7"
+  },
+  {
+    "description": "Separate test code from test cases in pytest.",
+    "name": "pytest-cases",
+    "version": "0.1.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -2072,7 +2077,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.11.0"
+    "version": "1.12.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
