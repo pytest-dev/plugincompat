@@ -20,6 +20,11 @@
     "version": "0.1.29"
   },
   {
+    "description": "SOCKS5 server management tool and library",
+    "name": "Socks5man",
+    "version": "0.1"
+  },
+  {
     "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
     "name": "aiohttp-json-rpc",
     "version": "0.8.4.2"
