@@ -142,7 +142,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.65.0"
+    "version": "3.65.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1812,7 +1812,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "0.8.0rc0"
+    "version": "0.8.0rc1"
   },
   {
     "description": "implement a --failed option for pytest",
