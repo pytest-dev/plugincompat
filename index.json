@@ -142,7 +142,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.65.1"
+    "version": "3.65.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -717,7 +717,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -1777,7 +1777,7 @@
   {
     "description": "Fixtures to mock requests",
     "name": "pytest-requests",
-    "version": "0.0.1"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
@@ -2067,7 +2067,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "1.1.5"
+    "version": "1.1.6"
   },
   {
     "description": "",
