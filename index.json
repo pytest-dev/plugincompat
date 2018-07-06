@@ -142,7 +142,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.65.3"
+    "version": "3.66.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -422,7 +422,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "0.1.0"
+    "version": "0.7.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
