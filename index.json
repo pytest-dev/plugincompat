@@ -422,7 +422,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -717,7 +717,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -1317,7 +1317,7 @@
   {
     "description": "A set of fixtures to test your requests to HTTP/UDP servers",
     "name": "pytest-mockservers",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -2337,7 +2337,7 @@
   {
     "description": "A python client for sat-api",
     "name": "satsearch",
-    "version": "0.1.0b7"
+    "version": "1.0.0b5"
   },
   {
     "description": "Test Docker container images",
