@@ -717,7 +717,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "A documentation plugin for py.test.",
