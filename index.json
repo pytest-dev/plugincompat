@@ -40,6 +40,11 @@
     "version": "1.1.0a1"
   },
   {
+    "description": "backports.unittest_mock",
+    "name": "backports.unittest_mock",
+    "version": "1.4"
+  },
+  {
     "description": "A wrapper for WebDriver that provides some extended and additional functionality",
     "name": "basepage",
     "version": "1.6.8"
@@ -142,7 +147,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.66.0"
+    "version": "3.66.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -717,7 +722,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -2337,7 +2342,7 @@
   {
     "description": "A python client for sat-api",
     "name": "satsearch",
-    "version": "1.0.0b5"
+    "version": "1.0.0b6"
   },
   {
     "description": "Test Docker container images",
