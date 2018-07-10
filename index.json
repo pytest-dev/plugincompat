@@ -32,7 +32,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.4.1"
+    "version": "2.5.0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -157,7 +157,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "7.5"
+    "version": "7.6"
   },
   {
     "description": "jaraco.postgres",
@@ -522,7 +522,7 @@
   {
     "description": "A plugin to run tests written with the Contexts framework using pytest",
     "name": "pytest-contexts",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A Pytest plugin for your Cookiecutter templates",
@@ -722,7 +722,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -1817,7 +1817,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "0.8.0rc1"
+    "version": "0.9.0"
   },
   {
     "description": "implement a --failed option for pytest",
@@ -2342,7 +2342,7 @@
   {
     "description": "A python client for sat-api",
     "name": "satsearch",
-    "version": "1.0.0b6"
+    "version": "1.0.0b9"
   },
   {
     "description": "Test Docker container images",
@@ -2372,7 +2372,7 @@
   {
     "description": "specd",
     "name": "specd",
-    "version": "0.1.9"
+    "version": "0.2.1"
   },
   {
     "description": "Variety of remote sensing data for testing",
