@@ -602,7 +602,7 @@
   {
     "description": "pytest plugin for test data directories and files",
     "name": "pytest-datadir",
-    "version": "1.0.1"
+    "version": "1.2.0"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -1817,7 +1817,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "0.9.0"
+    "version": "0.9.1"
   },
   {
     "description": "implement a --failed option for pytest",
