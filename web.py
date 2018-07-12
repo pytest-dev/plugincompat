@@ -22,7 +22,7 @@ def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {'3.3.0'}
+    return {'3.6.0'}
 
 
 class PlugsStorage(object):
