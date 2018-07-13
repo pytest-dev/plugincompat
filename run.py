@@ -220,7 +220,8 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
 
 def main(argv):
     from colorama import Fore
-    colorama.init(autoreset=True)
+    strip = False if 'TRAVIS' in os.environ else None
+    colorama.init(autoreset=True, strip=strip)
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
 
     pytest_version = os.environ['PYTEST_VERSION']
@@ -259,7 +260,7 @@ def main(argv):
             package_result = f.result()
             package = '%s-%s' % (package_result.name, package_result.version)
 
-            print('{package:<30s} {status_color}{package_result.status:>15s}'
+            print('{package:<60s} {status_color}{package_result.status:>15s}'
                   '{elapsed_color}{package_result.elapsed:>6.1f}s '
                   '{percent_color}[%{percent:>3d}]'.format(
                 package=package,
