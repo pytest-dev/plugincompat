@@ -30,6 +30,7 @@ from collections import namedtuple
 from contextlib import contextmanager
 from zipfile import ZipFile
 
+import colorama
 import requests
 
 import update_index
@@ -41,10 +42,9 @@ else:
     from urllib import urlretrieve
     from xmlrpclib import ServerProxy
 
-
-
 # oh my, urlretrieve is not thread safe :(
 _urlretrieve_lock = threading.Lock()
+
 
 def download_package(client, name, version):
     for url_data in client.release_urls(name, version):
@@ -103,6 +103,7 @@ def run_tox(directory, tox_env, pytest_version):
         output = e.output
 
     return result, output.decode()
+
 
 # tox.ini contents when downloaded package does not have a tox.ini file
 # in this case we only display help information
@@ -181,46 +182,8 @@ def working_dir(new_cwd):
     os.chdir(old_cwd)
 
 
-def main():
-    pytest_version = os.environ['PYTEST_VERSION']
-    secret = os.environ['POST_KEY']
-    tox_env = 'py%d%d' % sys.version_info[:2]
-
-    plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
-
-    test_results = {}
-    overall_start = time.time()
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
-    with working_dir('.work'), executor:
-        fs = []
-        for plugin in plugins:
-            f = executor.submit(process_package, tox_env,
-                                pytest_version, plugin['name'],
-                                plugin['version'], plugin['description'])
-            fs.append(f)
-
-        print('Processing %d packages' % len(fs))
-        for f in concurrent.futures.as_completed(fs):
-            package_result = f.result()
-            print('=' * 60)
-            print('%s-%s' % (package_result.name, package_result.version))
-            print('-> tox returned %s' % package_result.status_code)
-            print('-> status:', package_result.status)
-            print('-> time: %.1f seconds' % package_result.elapsed)
-            if package_result.status != 'SKIPPED':
-                test_results[(package_result.name, package_result.version)] = \
-                    package_result.status_code, package_result.output, package_result.description
-
-    print('\n\n')
-    overall_elapsed = time.time() - overall_start
-    elapsed_m = overall_elapsed // 60
-    elapsed_s = overall_elapsed % 60
-    print('=' * 60)
-    print('Summary')
-    print('Time: %dm %02ds' % (elapsed_m, elapsed_s))
-    print('Skipped:', len(plugins) - len(test_results))
-    print('Run:', len(test_results))
-    print('=' * 60)
+def post_test_results(test_results, tox_env, pytest_version, secret):
+    from colorama import Fore
     results = []
     for (name, version) in sorted(test_results):
         result, output, description = test_results[(name, version)]
@@ -228,9 +191,6 @@ def main():
             status = 'ok'
         else:
             status = 'fail'
-        package = '%s-%s' % (name, version)
-        spaces = (50 - len(package)) * ' '
-        print('%s%s%s' % (package, spaces, status))
         results.append(
             {'name': name,
              'version': version,
@@ -239,7 +199,7 @@ def main():
              'status': status,
              'output': output,
              'description': description,
-            }
+             }
         )
     post_url = os.environ.get('PLUGINCOMPAT_SITE')
     if post_url:
@@ -250,13 +210,81 @@ def main():
         headers = {'content-type': 'application/json'}
         response = requests.post(post_url, data=json.dumps(data),
                                  headers=headers)
-        print('posted to {}; response={}'.format(post_url, response))
-        if response.status_code != 200:
-            print('Failed to post results:', response)
-            return 1
+        print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
+        response.raise_for_status()
+        return True
     else:
-        print('not posting, no $PLUGINCOMPAT_SITE defined: {}'.format(results))
+        print(Fore.YELLOW + 'NOT posted, $PLUGINCOMPAT_SITE not defined')
+        return False
+
+
+def main(argv):
+    from colorama import Fore
+    colorama.init(autoreset=True)
+    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
+
+    pytest_version = os.environ['PYTEST_VERSION']
+    secret = os.environ['POST_KEY']
+    tox_env = 'py%d%d' % sys.version_info[:2]
+
+    plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
+    if limit:
+        plugins = plugins[:limit]
+
+    test_results = {}
+
+    status_color_map = {
+        'SKIPPED': Fore.YELLOW,
+        'NO SOURCE': Fore.MAGENTA,
+        'PASSED': Fore.GREEN,
+        'FAILED': Fore.RED,
+    }
+    total_plugins = len(plugins)
+    processed_plugins = 0
+
+    POST_CHUNKS = 10
+
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
+    with working_dir('.work'), executor:
+        fs = []
+        for plugin in plugins:
+            f = executor.submit(process_package, tox_env,
+                                pytest_version, plugin['name'],
+                                plugin['version'], plugin['description'])
+            fs.append(f)
+
+        print(Fore.CYAN + 'Processing %d packages' % len(fs))
+        for f in concurrent.futures.as_completed(fs):
+            processed_plugins += 1
+            package_result = f.result()
+            package = '%s-%s' % (package_result.name, package_result.version)
+
+            print('{package:<30s} {status_color}{package_result.status:>15s}'
+                  '{elapsed_color}{package_result.elapsed:>6.1f}s '
+                  '{percent_color}[%{percent:>3d}]'.format(
+                package=package,
+                status_color=status_color_map[package_result.status],
+                package_result=package_result,
+                elapsed_color=Fore.CYAN,
+                percent_color=Fore.LIGHTCYAN_EX,
+                percent=processed_plugins * 100 // total_plugins,
+            ))
+            if package_result.status != 'SKIPPED':
+                test_results[(package_result.name, package_result.version)] = \
+                    package_result.status_code, package_result.output, package_result.description
+
+            if len(test_results) >= POST_CHUNKS:
+                post_test_results(test_results, tox_env=tox_env,
+                                  pytest_version=pytest_version,
+                                  secret=secret)
+        if test_results:
+            post_test_results(test_results, tox_env=tox_env,
+                              pytest_version=pytest_version,
+                              secret=secret)
+
+    print()
+    print(Fore.GREEN + 'All done, congratulations :)')
 
 
 if __name__ == '__main__':
-    sys.exit(main() or 0)
+    sys.exit(main(sys.argv) or 0)
