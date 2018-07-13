@@ -357,7 +357,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -602,7 +602,7 @@
   {
     "description": "pytest plugin for test data directories and files",
     "name": "pytest-datadir",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -1032,7 +1032,7 @@
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
     "name": "pytest-github",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -1332,7 +1332,7 @@
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
     "name": "pytest-mongo",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin for MongoDB fixtures",
@@ -1662,7 +1662,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "2.4.1"
+    "version": "3.0.0"
   },
   {
     "description": "QT app fixture for py.test",
@@ -2097,7 +2097,7 @@
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
     "name": "pytest-timeouts",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "",
