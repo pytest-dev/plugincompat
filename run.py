@@ -242,6 +242,7 @@ def main(argv):
     }
     total_plugins = len(plugins)
     processed_plugins = 0
+    posted_results = 0
 
     POST_CHUNKS = 10
 
@@ -278,12 +279,16 @@ def main(argv):
                 post_test_results(test_results, tox_env=tox_env,
                                   pytest_version=pytest_version,
                                   secret=secret)
+                posted_results += len(test_results)
+                test_results.clear()
         if test_results:
             post_test_results(test_results, tox_env=tox_env,
                               pytest_version=pytest_version,
                               secret=secret)
+            posted_results += len(test_results)
 
     print()
+    print(Fore.GREEN + 'Posted {} new results'.format(posted_results))
     print(Fore.GREEN + 'All done, congratulations :)')
 
 
