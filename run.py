@@ -245,8 +245,9 @@ def main(argv):
     posted_results = 0
 
     POST_CHUNKS = 10
+    WORKERS = 8
 
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS)
     with working_dir('.work'), executor:
         fs = []
         for plugin in plugins:
@@ -255,7 +256,7 @@ def main(argv):
                                 plugin['version'], plugin['description'])
             fs.append(f)
 
-        print(Fore.CYAN + 'Processing %d packages' % len(fs))
+        print(Fore.CYAN + 'Processing {} packages with {} workers'.format(len(fs), WORKERS))
         for f in concurrent.futures.as_completed(fs):
             processed_plugins += 1
             package_result = f.result()
