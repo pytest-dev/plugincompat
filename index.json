@@ -1512,7 +1512,7 @@
   {
     "description": "Run the tests related to the changed files",
     "name": "pytest-picked",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "",
@@ -2328,11 +2328,6 @@
     "description": "Provide tools for generating tests from combinations of fixtures.",
     "name": "pytest_matrix",
     "version": "0.6"
-  },
-  {
-    "description": "IoT honeypotting and fuzzing framework for Cuckoo/QEMU",
-    "name": "quailbox",
-    "version": "0.1.4"
   },
   {
     "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
