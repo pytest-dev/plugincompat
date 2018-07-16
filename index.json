@@ -1927,7 +1927,7 @@
   {
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
-    "version": "0.2.0"
+    "version": "0.3.1"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
@@ -2352,7 +2352,7 @@
   {
     "description": "Test Docker container images",
     "name": "seaworthy",
-    "version": "0.2.1.2"
+    "version": "0.3.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
