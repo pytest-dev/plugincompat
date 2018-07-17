@@ -40,6 +40,11 @@
     "version": "2.5.0"
   },
   {
+    "description": "Clean, human-readable tests for Appdaemon",
+    "name": "appdaemontestframework",
+    "version": "1.0.0"
+  },
+  {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
     "name": "automock",
     "version": "1.1.0a1"
