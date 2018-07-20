@@ -152,7 +152,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.66.2"
+    "version": "3.66.4"
   },
   {
     "description": "Test tool for overridable json fixtures",
