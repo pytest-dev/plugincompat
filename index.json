@@ -42,7 +42,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -152,7 +152,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.66.5"
+    "version": "3.66.6"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -527,7 +527,7 @@
   {
     "description": "A plugin to run tests written with the Contexts framework using pytest",
     "name": "pytest-contexts",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A Pytest plugin for your Cookiecutter templates",
@@ -758,6 +758,11 @@
     "description": "pytest plugin for writing functional tests with pexpect and docker",
     "name": "pytest-docker-pexpect",
     "version": "0.5"
+  },
+  {
+    "description": "",
+    "name": "pytest-docker-tools",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -2063,6 +2068,11 @@
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
     "version": "0.0.9"
+  },
+  {
+    "description": "Test configuration plugin for pytest.",
+    "name": "pytest-testconfig",
+    "version": "0.1.0"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
