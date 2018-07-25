@@ -22,7 +22,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0b17"
+    "version": "3.0.0b18"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -1752,7 +1752,7 @@
   {
     "description": "Relaxed test discovery/organization for pytest",
     "name": "pytest-relaxed",
-    "version": "1.1.2"
+    "version": "1.1.4"
   },
   {
     "description": "Pytest plugin for controlling remote data access.",
