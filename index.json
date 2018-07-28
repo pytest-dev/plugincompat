@@ -767,7 +767,7 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -940,6 +940,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "run test cases filter by mark",
+    "name": "pytest-filter-case",
+    "version": "1.0.1"
+  },
+  {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
     "version": "1.0.6"
@@ -1067,7 +1072,7 @@
   {
     "description": "Display \"\ud83d\udd28 \" instead of \".\" for passed pytest tests.",
     "name": "pytest-hammertime",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1752,7 +1757,7 @@
   {
     "description": "Easy to use fixtures to write regression tests.",
     "name": "pytest-regressions",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -2012,7 +2017,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2147,7 +2152,7 @@
   {
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
@@ -2302,7 +2307,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.22.4"
+    "version": "1.22.5"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
@@ -2350,11 +2355,6 @@
     "version": "0.2"
   },
   {
-    "description": "Elizabeth integration with the pytest test runner",
-    "name": "pytest_elizabeth",
-    "version": "0.0.2"
-  },
-  {
     "description": "pytest plugin for apps written with Google's AppEngine",
     "name": "pytest_gae",
     "version": "0.2.4"
@@ -2362,7 +2362,7 @@
   {
     "description": "A py.test plugin that runs tests its found in your Markdown files.",
     "name": "pytest_markdown",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "Provide tools for generating tests from combinations of fixtures.",
