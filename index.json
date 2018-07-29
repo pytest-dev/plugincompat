@@ -297,7 +297,7 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -942,7 +942,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
@@ -1072,7 +1072,7 @@
   {
     "description": "Display \"\ud83d\udd28 \" instead of \".\" for passed pytest tests.",
     "name": "pytest-hammertime",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1205,6 +1205,11 @@
     "version": "0.1.35"
   },
   {
+    "description": "Define pytest fixtures using lambda functions",
+    "name": "pytest-lambda",
+    "version": "0.0.1a1"
+  },
+  {
     "description": "",
     "name": "pytest-lamp",
     "version": "0.1.0"
@@ -1232,7 +1237,7 @@
   {
     "description": "A pytest plugin that stream output in LITF format",
     "name": "pytest-litf",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -1512,7 +1517,7 @@
   {
     "description": "pytest plugin which adds pdb helper commands related to pytest.",
     "name": "pytest-pdb",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -2202,7 +2207,7 @@
   {
     "description": "Pytest plugin for trepan debugger.",
     "name": "pytest-trepan",
-    "version": "1.0.1"
+    "version": "2.0.0"
   },
   {
     "description": "py.test plugin for using the same _trial_temp working directory as trial",
@@ -2362,7 +2367,7 @@
   {
     "description": "A py.test plugin that runs tests its found in your Markdown files.",
     "name": "pytest_markdown",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Provide tools for generating tests from combinations of fixtures.",
