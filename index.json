@@ -767,7 +767,7 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -1207,7 +1207,7 @@
   {
     "description": "Define pytest fixtures using lambda functions",
     "name": "pytest-lambda",
-    "version": "0.0.1a1"
+    "version": "0.0.2"
   },
   {
     "description": "",
@@ -1662,7 +1662,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.11.0"
+    "version": "0.12.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
