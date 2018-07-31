@@ -767,7 +767,7 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
-    "version": "0.0.6"
+    "version": "0.0.8"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -1517,7 +1517,7 @@
   {
     "description": "pytest plugin which adds pdb helper commands related to pytest.",
     "name": "pytest-pdb",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
