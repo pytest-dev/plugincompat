@@ -162,7 +162,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "7.6"
+    "version": "7.7"
   },
   {
     "description": "jaraco.postgres",
@@ -178,6 +178,11 @@
     "description": "",
     "name": "limix-ext",
     "version": "1.0.0"
+  },
+  {
+    "description": "A pytest-based tool to list test fixtures declared but not used in a test",
+    "name": "loofah",
+    "version": "0.1.1"
   },
   {
     "description": "MyAnimeList web scraper",
@@ -302,7 +307,7 @@
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
     "name": "pytest-asyncio-network-simulator",
-    "version": "0.1.0a1"
+    "version": "0.1.0a2"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
@@ -987,7 +992,7 @@
   {
     "description": "pytest plugin to check source code with pyflakes",
     "name": "pytest-flakes",
-    "version": "3.0.2"
+    "version": "4.0.0"
   },
   {
     "description": "A set of py.test fixtures to test Flask applications.",
@@ -1792,7 +1797,7 @@
   {
     "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
@@ -2375,6 +2380,11 @@
     "version": "0.6"
   },
   {
+    "description": "Unofficial python API client for Hiptest",
+    "name": "python-hiptest",
+    "version": "0.0.0"
+  },
+  {
     "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
     "name": "querify",
     "version": "0.1.0"
@@ -2392,7 +2402,7 @@
   {
     "description": "A python client for sat-api",
     "name": "satsearch",
-    "version": "1.0.0b9"
+    "version": "1.0.0rc1"
   },
   {
     "description": "Test Docker container images",
