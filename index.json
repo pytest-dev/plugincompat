@@ -1000,14 +1000,14 @@
     "version": "0.10.0"
   },
   {
-    "description": "pytest plugin with sqlalchemy related fixtures",
+    "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
     "name": "pytest-flask-sqlalchemy",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "Run tests in transactions using pytest, Flask, and SQLalchemy.",
     "name": "pytest-flask-sqlalchemy-transactions",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "py.test plugin to make the test failing regardless of pytest.mark.xfail",
@@ -1667,7 +1667,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.12.0"
+    "version": "0.12.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
