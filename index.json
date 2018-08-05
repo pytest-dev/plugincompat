@@ -42,7 +42,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.1.1"
+    "version": "1.2.1"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -923,6 +923,11 @@
     "description": "Pytest `client` fixture for the Falcon Framework",
     "name": "pytest-falcon-client",
     "version": "1.0.2"
+  },
+  {
+    "description": "Pytest plugin for Flask Fantasy Framework",
+    "name": "pytest-fantasy",
+    "version": "0.1.0"
   },
   {
     "description": "Use SCM and coverage data to run only needed tests",
