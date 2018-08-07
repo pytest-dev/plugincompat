@@ -777,7 +777,7 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "pytest plugin to run pydocstyle",
