@@ -75,6 +75,11 @@
     "version": "0.1"
   },
   {
+    "description": "Testing tools for data validation and analysis.",
+    "name": "datatest",
+    "version": "0.9.2"
+  },
+  {
     "description": "Picky test coverage for pytest",
     "name": "divide-and-cover",
     "version": "0.1.1"
@@ -377,7 +382,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.1.7"
+    "version": "0.2.0"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -1122,7 +1127,7 @@
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
     "name": "pytest-idapro",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
