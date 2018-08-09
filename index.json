@@ -382,7 +382,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -1123,6 +1123,11 @@
     "description": "A thin wrapper of HTTPretty for pytest",
     "name": "pytest-httpretty",
     "version": "0.2.0"
+  },
+  {
+    "description": "use icdiff for better error messages in pytest assertions",
+    "name": "pytest-icdiff",
+    "version": "0.0.2"
   },
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
