@@ -132,7 +132,7 @@
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
     "name": "ghlinguist",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of Ansible.",
@@ -162,7 +162,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.66.9"
+    "version": "3.67.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -730,6 +730,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "A model instance factory for pytest-django",
+    "name": "pytest-django-ifactory",
+    "version": "0.1.0"
+  },
+  {
     "description": "The bare minimum to integrate py.test with Django.",
     "name": "pytest-django-lite",
     "version": "0.1.1"
@@ -902,7 +907,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "1.3b1"
+    "version": "1.3b4"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1567,7 +1572,7 @@
   {
     "description": "Run the tests related to the changed files",
     "name": "pytest-picked",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "",
@@ -1732,7 +1737,7 @@
   {
     "description": "RabbitMQ process and client fixtures for pytest",
     "name": "pytest-rabbitmq",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "Race conditions tester for pytest",
@@ -2438,6 +2443,11 @@
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
     "version": "0.8.0"
+  },
+  {
+    "description": "This is the SG_TESTING Project",
+    "name": "sg-testing",
+    "version": "0.0.3"
   },
   {
     "description": "Pure python tools for SIP testing",
