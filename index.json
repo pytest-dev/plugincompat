@@ -670,6 +670,11 @@
     "version": "0.3.2"
   },
   {
+    "description": "Tests that depend on other tests",
+    "name": "pytest-depends",
+    "version": "0.8.1"
+  },
+  {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
     "version": "0.11.1"
@@ -1132,7 +1137,7 @@
   {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
@@ -2117,7 +2122,7 @@
   {
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
-    "version": "2016.8.20"
+    "version": "2018.8.11"
   },
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.",
@@ -2447,7 +2452,7 @@
   {
     "description": "This is the SG_TESTING Project",
     "name": "sg-testing",
-    "version": "0.0.3"
+    "version": "0.0.30"
   },
   {
     "description": "Pure python tools for SIP testing",
