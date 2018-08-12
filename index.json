@@ -42,7 +42,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
