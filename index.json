@@ -22,7 +22,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0b18"
+    "version": "3.0.0b19"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -2062,7 +2062,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
