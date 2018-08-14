@@ -1907,7 +1907,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2018.2.2"
+    "version": "2018.8.13"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2038,6 +2038,11 @@
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
     "version": "0.2"
+  },
+  {
+    "description": "Exports unit tests as test runs in SpiraTest/Team/Plan",
+    "name": "pytest-spiratest",
+    "version": "1.0.0"
   },
   {
     "description": "Splinter plugin for pytest testing framework",
