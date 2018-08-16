@@ -162,7 +162,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.67.1"
+    "version": "3.68.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1302,7 +1302,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
