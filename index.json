@@ -265,9 +265,9 @@
     "version": "1.0.2"
   },
   {
-    "description": "Plugin for py.test to allow running ansible",
+    "description": "Plugin for py.test to simplify calling ansible modules from tests or fixtures",
     "name": "pytest-ansible",
-    "version": "1.3.1"
+    "version": "2.0.1"
   },
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
@@ -712,7 +712,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.3.3"
+    "version": "3.4.1"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -2022,7 +2022,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
