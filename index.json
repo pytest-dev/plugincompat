@@ -162,7 +162,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.68.0"
+    "version": "3.68.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1287,7 +1287,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
