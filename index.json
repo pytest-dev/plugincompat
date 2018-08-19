@@ -162,7 +162,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.68.1"
+    "version": "3.68.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1133,6 +1133,11 @@
     "description": "A thin wrapper of HTTPretty for pytest",
     "name": "pytest-httpretty",
     "version": "0.2.0"
+  },
+  {
+    "description": "pytest-httpserver is a httpserver for pytest",
+    "name": "pytest-httpserver",
+    "version": "0.1.1"
   },
   {
     "description": "use icdiff for better error messages in pytest assertions",
