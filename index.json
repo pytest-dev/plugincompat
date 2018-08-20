@@ -65,6 +65,11 @@
     "version": "0.2.5"
   },
   {
+    "description": "CI helper for STScI Jenkins",
+    "name": "ci-watson",
+    "version": "0.1"
+  },
+  {
     "description": "Extendible configuration testing in parallel.",
     "name": "ctip",
     "version": "0.1.0"
@@ -162,7 +167,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.68.2"
+    "version": "3.69.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -2458,6 +2463,11 @@
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
     "name": "sentinel-s3",
     "version": "0.8.0"
+  },
+  {
+    "description": "This is the SG_Test_Env Project",
+    "name": "sg-test-env",
+    "version": "0.0.1"
   },
   {
     "description": "This is the SG_TESTING Project",
