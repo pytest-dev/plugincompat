@@ -37,7 +37,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.5.0"
+    "version": "2.5.1"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -167,7 +167,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.69.0"
+    "version": "3.69.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -620,6 +620,11 @@
     "version": "0.5.4"
   },
   {
+    "description": "Configure the symbols displayed for test outcomes",
+    "name": "pytest-custom-report",
+    "version": "1.0.0"
+  },
+  {
     "description": "A plugin for testing Cython extension modules",
     "name": "pytest-cython",
     "version": "0.1.0"
@@ -717,7 +722,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.1"
+    "version": "3.4.2"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -2452,7 +2457,7 @@
   {
     "description": "A python client for sat-api",
     "name": "satsearch",
-    "version": "1.0.0rc1"
+    "version": "1.0.0rc2"
   },
   {
     "description": "Test Docker container images",
