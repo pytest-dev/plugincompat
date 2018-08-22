@@ -17,7 +17,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.1.29"
+    "version": "0.2.3"
   },
   {
     "description": "A highly customizable Discord bot",
@@ -177,7 +177,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "7.7"
+    "version": "7.9"
   },
   {
     "description": "jaraco.postgres",
@@ -1507,7 +1507,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
