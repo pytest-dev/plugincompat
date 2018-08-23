@@ -167,7 +167,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.69.1"
+    "version": "3.69.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1737,7 +1737,7 @@
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
-    "version": "0.7.2"
+    "version": "0.7.3"
   },
   {
     "description": "pytest support for PyQt and PySide applications",
@@ -1842,7 +1842,7 @@
   {
     "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
