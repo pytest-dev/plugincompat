@@ -20,8 +20,8 @@ page is hosted by [heroku](https://www.heroku.com) at http://plugincompat.heroku
 A [heroku scheduler](https://addons.heroku.com/scheduler) job runs once a day that executes the `heroku_update.bash`
 script.
 
-The main job of this script is to run `update_index.py`, which is reponsible for querying `pypi` and updating
-`index.txt` with latest pytest plugin information. This file is then pushed back to GitHub which will trigger a new [travis](https://travis-ci.org) build.
+The main job of this script is to run `update_index.py`, which is responsible for querying PyPI and updating
+`index.json` with latest pytest plugin information. This file is then pushed back to GitHub which will trigger a new [travis](https://travis-ci.org) build.
 
 
 ## Details ##
@@ -30,7 +30,7 @@ Below there's a more detailed description of the system for those interested.
 
 ### update_index.py ###
 
-This script creates/updates the file `index.txt` file using new information
+This script creates/updates the file `index.json` file using new information
 from PyPI and contains the list of plugins to test. It is a `JSON`
 formatted file containing a list of `(plugin name, version, description)`,
 like this:
@@ -59,10 +59,10 @@ To run the script, just execute it without parameters:
 
 ```
 python update_index.py
-index.txt updated, push to GitHub.
+index.json updated, push to GitHub.
 ```
 
-If `index.txt` was updated it means either new plugins were posted or some
+If `index.json` was updated it means either new plugins were posted or some
 of the existing plugins were updated, so it should be
 committed and pushed to GitHub as the message says.
 
@@ -70,12 +70,12 @@ If nothing has changed, no further action is needed:
 
 ```
 python update_index.py
-index.txt skipped, no changes.
+index.json skipped, no changes.
 ```
 
 ### run.py ###
 
-This script should be executed by travis: it reads `index.txt` file,
+This script should be executed by travis: it reads `index.json` file,
 executes tests for each package in the current Python interpreter
 and posts results back to [heroku](https://www.heroku.com).
 
@@ -92,7 +92,7 @@ The script is configured by two environment variables:
  parameter, ensuring that it is tested against that pytest version and not
  what is installed in the system.
 
-`PLUGS_SITE`: URL to post the test result data to. See below for an example of a payload.
+`PLUGINCOMPAT_SITE`: URL to post the test result data to. See below for an example of a payload.
 
 The above environment variables are configured in the
 [.travis.yml](/.travis.yml) file and are part of the travis build matrix.
