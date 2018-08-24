@@ -54,8 +54,6 @@ def download_package(client, name, version):
                 urlretrieve(url_data['url'], basename)
             return basename
 
-    return None
-
 
 def extract(basename):
     """
@@ -218,7 +216,7 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
         return False
 
 
-def main(argv):
+def main():
     from colorama import Fore
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
@@ -297,4 +295,4 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv) or 0)
+    main()
