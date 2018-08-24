@@ -215,7 +215,7 @@ def main():
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
     parser = ArgumentParser()
-    parser.add_argument('limit', type=int)
+    parser.add_argument('limit', type=int, nargs='?')
     limit = parser.parse_args().limit
 
     pytest_version = os.environ['PYTEST_VERSION']
