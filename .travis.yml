@@ -11,7 +11,7 @@ before_script:
 
 install:
   - pip uninstall -y pytest
-  - pip install -r requirements.txt colorama
+  - pip install -r requirements.txt
 env:
   matrix:
   - PYTEST_VERSION=3.6.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
