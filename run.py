@@ -27,20 +27,25 @@ import threading
 import time
 import traceback
 from collections import namedtuple
+from contextlib import closing
 from contextlib import contextmanager
 from zipfile import ZipFile
 
 import colorama
 import requests
+from colorama import Fore
 
 import update_index
 
-if sys.version_info[0] == 3:
+if sys.version_info >= (3,):
     from urllib.request import urlretrieve
     from xmlrpc.client import ServerProxy
+    from io import StringIO
 else:
     from urllib import urlretrieve
     from xmlrpclib import ServerProxy
+    from StringIO import StringIO
+
 
 # oh my, urlretrieve is not thread safe :(
 _urlretrieve_lock = threading.Lock()
@@ -65,7 +70,6 @@ def extract(basename):
     :rtype: str
     :return: the name of the directory where the contents where extracted
     """
-    from contextlib import closing
 
     extractors = {
         '.zip': ZipFile,
@@ -155,10 +159,6 @@ def process_package(tox_env, pytest_version, name, version, description):
         status_code, output = 1, 'tox run timed out'
     except Exception:
         f.cancel()
-        if sys.version_info[0] == 2:
-            from StringIO import StringIO
-        else:
-            from io import StringIO
         stream = StringIO()
         traceback.print_exc(file=stream)
         status_code, output = 'error', 'traceback:\n%s' % stream.getvalue()
@@ -181,7 +181,6 @@ def working_dir(new_cwd):
 
 
 def post_test_results(test_results, tox_env, pytest_version, secret):
-    from colorama import Fore
     results = []
     for (name, version) in sorted(test_results):
         result, output, description = test_results[(name, version)]
@@ -217,7 +216,6 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
 
 
 def main():
-    from colorama import Fore
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
