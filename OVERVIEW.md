@@ -51,7 +51,7 @@ like this:
     "version": "0.0.1",
     "name": "pytest-beds",
     "description": "Fixtures for testing Google Appengine (GAE) apps"
-  },
+  }
 ]
 ```
 
@@ -134,9 +134,9 @@ Example of an expected pyload:
       "pytest": "2.5.2",
       "status": "ok",
       "output": "GLOB sdist-make: /home/travis/...",
-      "description": "Disable network requests during a test run.",
-    },
-  ],
+      "description": "Disable network requests during a test run."
+    }
+  ]
 }
 ```
 
