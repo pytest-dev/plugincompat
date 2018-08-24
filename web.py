@@ -10,6 +10,9 @@ import pymongo
 from flask import request, render_template
 
 
+app = flask.Flask('plugincompat')
+
+
 def get_python_versions():
     """
     Python versions we are willing to display on the page, in order to ignore
@@ -107,12 +110,6 @@ class PlugsStorage(object):
             del entry['_id']
             result.append(entry)
         return result
-
-
-app = flask.Flask('plugincompat')
-app.debug = True
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.ERROR)
 
 
 def get_storage_for_view():
@@ -264,13 +261,19 @@ def get_field_for(fullname, env, pytest, field_name):
     for test_result in storage.get_test_results(name, version):
         if test_result['env'] == env and test_result['pytest'] == pytest:
             return test_result.get(field_name, None)
-    return None
 
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'
 LATEST_VERSION = 'latest'
 
-if __name__ == '__main__':
+
+def main():
     app.debug = True
+    app.logger.addHandler(logging.StreamHandler(sys.stdout))
+    app.logger.setLevel(logging.ERROR)
     app.run(host='127.0.0.1', port=int(os.environ.get('PORT', '5000')))
+
+
+if __name__ == '__main__':
+    main()

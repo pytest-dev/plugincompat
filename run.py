@@ -134,7 +134,7 @@ def process_package(tox_env, pytest_version, name, version, description):
 
     start = time.time()
 
-    # if we already results, skip testing this plugin
+    # if we already have results, skip testing this plugin
     url = os.environ.get('PLUGINCOMPAT_SITE')
     if url:
         params = dict(py=tox_env, pytest=pytest_version)
