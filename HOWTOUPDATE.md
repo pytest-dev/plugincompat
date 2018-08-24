@@ -9,7 +9,7 @@ Follow this steps to update Python and pytest versions on the site:
      - "3.6"
    env:
      matrix:
-     - PYTEST_VERSION=3.3.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.co   
+     - PYTEST_VERSION=3.3.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
    ```
 
 2. Update `get_pytest_versions()` and `get_python_versions()` in `web.py` to match the versions in `.travis.yml`.
