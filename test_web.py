@@ -1,8 +1,15 @@
 import mock
+import os
+
 import pytest
+import requests
 from flask import json
 
+import web
+from web import app
+from web import get_namespace_for_rendering
 from web import PlugsStorage
+from web import get_python_versions, get_pytest_versions
 
 
 class MemoryStorage(object):
@@ -154,8 +161,6 @@ class TestPlugsStorage(object):
 
 @pytest.fixture
 def patched_storage(monkeypatch):
-    import web
-
     result = MemoryStorage()
     monkeypatch.setattr(web, 'get_storage_for_view', lambda: result)
     return result
@@ -163,8 +168,6 @@ def patched_storage(monkeypatch):
 
 @pytest.fixture
 def client():
-    from web import app
-
     result = app.test_client()
     app.testing = True
     return result
@@ -224,7 +227,6 @@ class TestView(object):
         assert set(x['name'] for x in results) == {'mylib', 'myotherlib'}
 
     def test_get_render_namespace(self):
-        from web import get_namespace_for_rendering
 
         with mock.patch('web.get_python_versions') as mock_python_versions, \
                 mock.patch('web.get_pytest_versions') as mock_pytest_versions:
@@ -282,7 +284,6 @@ class TestView(object):
             }
 
     def test_versions(self):
-        from web import get_python_versions, get_pytest_versions
         assert get_python_versions() == {'py27', 'py36'}
         assert get_pytest_versions() == {'3.6.0'}
 
@@ -340,9 +341,6 @@ def _post_dummy_data():
     """
     posts some dummy data on the local server for manual testing.
     """
-    import os
-    import requests
-
     results = [
         make_result_data(pytest='3.1.0', env='py27', name='pytest-xdist', version='1.14'),
         make_result_data(pytest='3.1.0', env='py36', name='pytest-xdist', version='1.14'),
