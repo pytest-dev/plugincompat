@@ -26,6 +26,7 @@ import tarfile
 import threading
 import time
 import traceback
+from argparse import ArgumentParser
 from collections import namedtuple
 from contextlib import closing
 from contextlib import contextmanager
@@ -213,7 +214,9 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
 def main():
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
+    parser = ArgumentParser()
+    parser.add_argument('limit', type=int)
+    limit = parser.parse_args().limit
 
     pytest_version = os.environ['PYTEST_VERSION']
 

@@ -18,14 +18,14 @@ def get_python_versions():
     Python versions we are willing to display on the page, in order to ignore
     old and incomplete results.
     """
-    return {'py27', 'py36'}
+    return {'py27', 'py36', 'py37'}
 
 
 def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {'3.6.0'}
+    return {'3.7.2'}
 
 
 class PlugsStorage(object):
