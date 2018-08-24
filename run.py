@@ -198,21 +198,16 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
              'description': description,
              }
         )
-    post_url = os.environ.get('PLUGINCOMPAT_SITE')
-    if post_url:
-        data = {
-            'secret': secret,
-            'results': results,
-        }
-        headers = {'content-type': 'application/json'}
-        response = requests.post(post_url, data=json.dumps(data),
-                                 headers=headers)
-        print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
-        response.raise_for_status()
-        return True
-    else:
-        print(Fore.YELLOW + 'NOT posted, $PLUGINCOMPAT_SITE not defined')
-        return False
+    post_url = os.environ['PLUGINCOMPAT_SITE']
+    data = {
+        'secret': secret,
+        'results': results,
+    }
+    headers = {'content-type': 'application/json'}
+    response = requests.post(post_url, data=json.dumps(data),
+                             headers=headers)
+    response.raise_for_status()
+    print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
 
 
 def main():
