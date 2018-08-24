@@ -82,7 +82,13 @@ def write_plugins_index(file_name, plugins):
     contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '),
                           sort_keys=True)
     if os.path.isfile(file_name):
-        with open(file_name, 'rU') as f:
+        if sys.version_info[0] < (3,):
+            mode = 'rU'
+        else:
+            # universal newlines is enabled by default, and specifying it
+            # will cause deprecation warnings
+            mode = 'r'
+        with open(file_name, mode) as f:
             current_contents = f.read()
     else:
         current_contents = ''
