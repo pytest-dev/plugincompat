@@ -143,7 +143,7 @@ def process_package(tox_env, pytest_version, name, version, description):
             return PackageResult(name, version, 0, 'SKIPPED', 'Skipped', description,
                                  get_elapsed())
 
-    client = ServerProxy('https://pypi.python.org/pypi')
+    client = ServerProxy('https://pypi.org/pypi')
     basename = download_package(client, name, version)
     if basename is None:
         status_code, output = 1, 'No sdist found'
