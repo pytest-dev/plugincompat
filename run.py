@@ -115,7 +115,7 @@ PLACEHOLDER_TOX = '''\
 
 [testenv]
 deps = pytest
-commands = pytest --help
+commands = pytest --trace-config --help
 '''
 
 
