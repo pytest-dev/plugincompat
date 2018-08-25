@@ -240,6 +240,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "A project which requires Python 3.6 to parse the setup file",
+    "name": "pynapple",
+    "version": "0.2"
+  },
+  {
     "description": "pypom_form",
     "name": "pypom-form",
     "version": "0.3.1"
@@ -2372,7 +2377,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.22.5"
+    "version": "1.23.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
