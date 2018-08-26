@@ -16,7 +16,7 @@ env:
   matrix:
   - PYTEST_VERSION=3.6.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
   global:
-    secure: I7Lx3j8NZx29yHe2tgNyXQkbXVRDJDhmgYRH3N8Z9sYBOnhfuMAXYJhBn9xmlMFB6FzUs/+P5Ba0u9MO/P+bTqCz0fnkYH/3tC6NzOLxZHVtvnhgFftlUPgMNLmnwOKvpOaet7TpB1HYntjUGYR4watoqIKR6Wg2joTKgt3dlWE=
+    secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="
 script:
   - python run.py
 

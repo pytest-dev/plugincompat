@@ -225,7 +225,10 @@ def main(argv):
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
 
     pytest_version = os.environ['PYTEST_VERSION']
-    secret = os.environ['POST_KEY']
+
+    # important to remove POST_KEY from environment so others cannot sniff it somehow (#26)
+    secret = os.environ.pop('POST_KEY')
+
     tox_env = 'py%d%d' % sys.version_info[:2]
 
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
