@@ -240,11 +240,6 @@
     "version": "0.0.2"
   },
   {
-    "description": "A project which requires Python 3.6 to parse the setup file",
-    "name": "pynapple",
-    "version": "0.2"
-  },
-  {
     "description": "pypom_form",
     "name": "pypom-form",
     "version": "0.3.1"
@@ -2502,7 +2497,7 @@
   {
     "description": "specd",
     "name": "specd",
-    "version": "0.2.1"
+    "version": "0.2.3"
   },
   {
     "description": "Variety of remote sensing data for testing",
