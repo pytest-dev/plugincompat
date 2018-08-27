@@ -22,7 +22,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0b19"
+    "version": "3.0.0b20"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -167,7 +167,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.69.2"
+    "version": "3.69.4"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -787,7 +787,7 @@
   {
     "description": "A plugin to use docker databases for pytests",
     "name": "pytest-docker-db",
-    "version": "0.1.1a2"
+    "version": "1.0.1"
   },
   {
     "description": "pytest docker fixtures",
@@ -1152,7 +1152,7 @@
   {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
@@ -2277,7 +2277,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.4.2"
+    "version": "0.5.0"
   },
   {
     "description": "A twisted plugin for py.test.",
