@@ -198,16 +198,20 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
              'description': description,
              }
         )
-    post_url = os.environ['PLUGINCOMPAT_SITE']
-    data = {
-        'secret': secret,
-        'results': results,
-    }
-    headers = {'content-type': 'application/json'}
-    response = requests.post(post_url, data=json.dumps(data),
-                             headers=headers)
-    response.raise_for_status()
-    print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
+    if secret:
+        post_url = os.environ['PLUGINCOMPAT_SITE']
+        data = {
+            'secret': secret,
+            'results': results,
+        }
+        headers = {'content-type': 'application/json'}
+        response = requests.post(post_url, data=json.dumps(data),
+                                 headers=headers)
+        response.raise_for_status()
+        print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
+    else:
+        msg = 'Skipping posting batch of {} because secret is not available'
+        print(Fore.YELLOW + msg.format(len(test_results)))
 
 
 def main():
@@ -220,7 +224,7 @@ def main():
     pytest_version = os.environ['PYTEST_VERSION']
 
     # important to remove POST_KEY from environment so others cannot sniff it somehow (#26)
-    secret = os.environ.pop('POST_KEY')
+    secret = os.environ.pop('POST_KEY', None)
 
     tox_env = 'py%d%d' % sys.version_info[:2]
 
