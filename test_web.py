@@ -1,3 +1,5 @@
+from __future__ import print_function, unicode_literals
+
 import mock
 import os
 
@@ -353,12 +355,12 @@ def _post_dummy_data():
     }
     site = os.environ.get('PLUGINCOMPAT_SITE', 'http://127.0.0.1:5000')
 
-    response = requests.post(f'{site}', json=data)
+    response = requests.post(site, json=data)
     for x in results:
         print(x)
 
     print('posted to', site)
-    print(f'response: {response.status_code}')
+    print('response:', response.status_code)
 
 
 if __name__ == '__main__':
