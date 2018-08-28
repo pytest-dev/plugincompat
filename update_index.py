@@ -22,7 +22,7 @@ import os
 import sys
 from distutils.version import LooseVersion
 
-if sys.version_info[0] == 3:
+if sys.version_info >= (3,):
     from xmlrpc.client import ServerProxy
 else:
     from xmlrpclib import ServerProxy
@@ -31,12 +31,12 @@ INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.json')
 
 
 def iter_plugins(client):
-    '''
+    """
     Returns an iterator of (name, latest version, summary) from PyPI.
 
     :param client: xmlrpclib.ServerProxy
     :param search: package names to search for
-    '''
+    """
     # previously we used the more efficient "search" XMLRPC method, but
     # that stopped returning all results after a while
     package_names = [x for x in client.list_packages()
@@ -82,7 +82,13 @@ def write_plugins_index(file_name, plugins):
     contents = json.dumps(plugin_contents, indent=2, separators=(',', ': '),
                           sort_keys=True)
     if os.path.isfile(file_name):
-        with open(file_name, 'rU') as f:
+        if sys.version_info < (3,):
+            mode = 'rU'
+        else:
+            # universal newlines is enabled by default, and specifying it
+            # will cause deprecation warnings
+            mode = 'r'
+        with open(file_name, mode) as f:
             current_contents = f.read()
     else:
         current_contents = ''
@@ -96,7 +102,7 @@ def write_plugins_index(file_name, plugins):
 
 
 def main():
-    client = ServerProxy('https://pypi.python.org/pypi')
+    client = ServerProxy('https://pypi.org/pypi')
     plugins = sorted(iter_plugins(client))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
