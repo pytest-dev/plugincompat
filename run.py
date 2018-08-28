@@ -96,14 +96,15 @@ def run_tox(directory, tox_env, pytest_version):
 
     cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
     cmdline %= (tox_env, pytest_version)
+    args = cmdline.split()
 
     try:
-        output = subprocess.check_output(
-            cmdline, shell=True, stderr=subprocess.STDOUT, cwd=directory)
-        result = 0
+        output = subprocess.check_output(args, stderr=subprocess.STDOUT, cwd=directory)
     except subprocess.CalledProcessError as e:
         result = e.returncode
         output = e.output
+    else:
+        result = 0
 
     return result, output.decode()
 
