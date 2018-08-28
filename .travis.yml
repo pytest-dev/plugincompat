@@ -9,15 +9,15 @@ before_script:
   - sleep 3
 
 install:
-- pip install -r requirements.txt -U pytest==$PYTEST_VERSION
+  - pip install -r requirements.txt -U pytest==$PYTEST_VERSION
 
 jobs:
   include:
-  - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+    - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
       python: '2.7'
-  - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+    - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
       python: '3.6'
-  - env: RUN_COMMAND="pytest test_web.py"
+    - env: RUN_COMMAND="pytest test_web.py"
       python: '3.6'    
 env:
   global:
