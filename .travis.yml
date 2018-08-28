@@ -3,6 +3,9 @@ python:
   - "2.7"
   - "3.6"
 
+services:
+  - mongodb
+
 # for plugins that require UI
 before_script:
   - "export DISPLAY=:99.0"
@@ -10,18 +13,17 @@ before_script:
   - sleep 3
 
 install:
-  - pip uninstall -y pytest
-  - pip install -r requirements.txt colorama
+  - if [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then pip install --upgrade pytest; else pip uninstall -y pytest; fi
+  - pip install -r requirements.txt
 env:
   matrix:
-  - PYTEST_VERSION=3.6.0 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
   global:
     secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="
 script:
-  - python run.py
+  - if [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then pytest; else python run.py; fi
 
 branches:
   only:
     - master
     - /feature-.*/
-

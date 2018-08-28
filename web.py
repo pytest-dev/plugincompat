@@ -10,19 +10,22 @@ import pymongo
 from flask import request, render_template
 
 
+app = flask.Flask('plugincompat')
+
+
 def get_python_versions():
     """
     Python versions we are willing to display on the page, in order to ignore
     old and incomplete results.
     """
-    return {'py27', 'py36'}
+    return {'py27', 'py36', 'py37'}
 
 
 def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {'3.6.0'}
+    return {'3.7.3'}
 
 
 class PlugsStorage(object):
@@ -109,12 +112,6 @@ class PlugsStorage(object):
         return result
 
 
-app = flask.Flask('plugincompat')
-app.debug = True
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.ERROR)
-
-
 def get_storage_for_view():
     """
     Returns a storage instance to be used by the view functions. This exists
@@ -192,8 +189,7 @@ def get_namespace_for_rendering(all_results):
         if not descriptions.get(lib_name):
             descriptions[lib_name] = result.get('description', '')
 
-    latest_pytest_ver = str(
-        sorted(LooseVersion(x) for x in pytest_versions)[-1])
+    latest_pytest_ver = max(pytest_versions, key=LooseVersion)
     return dict(
         python_versions=sorted(python_versions),
         lib_names=sorted(lib_names),
@@ -264,13 +260,19 @@ def get_field_for(fullname, env, pytest, field_name):
     for test_result in storage.get_test_results(name, version):
         if test_result['env'] == env and test_result['pytest'] == pytest:
             return test_result.get(field_name, None)
-    return None
 
 
 # text returned when an entry in the database lacks an "output" field
 NO_OUTPUT_AVAILABLE = '<no output available>'
 LATEST_VERSION = 'latest'
 
-if __name__ == '__main__':
+
+def main():
     app.debug = True
+    app.logger.addHandler(logging.StreamHandler(sys.stdout))
+    app.logger.setLevel(logging.ERROR)
     app.run(host='127.0.0.1', port=int(os.environ.get('PORT', '5000')))
+
+
+if __name__ == '__main__':
+    main()
