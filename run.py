@@ -125,9 +125,7 @@ def read_plugins_index(file_name):
         return json.load(f)
 
 
-class PackageResult(
-    namedtuple('PackageResult', 'name version status_code status output description elapsed')):
-    pass
+PackageResult = namedtuple('PackageResult', 'name version status_code status output description elapsed')
 
 
 def process_package(tox_env, pytest_version, name, version, description):
