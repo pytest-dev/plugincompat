@@ -26,21 +26,27 @@ import tarfile
 import threading
 import time
 import traceback
+from argparse import ArgumentParser
 from collections import namedtuple
+from contextlib import closing
 from contextlib import contextmanager
 from zipfile import ZipFile
 
 import colorama
 import requests
+from colorama import Fore
 
 import update_index
 
-if sys.version_info[0] == 3:
+if sys.version_info >= (3,):
     from urllib.request import urlretrieve
     from xmlrpc.client import ServerProxy
+    from io import StringIO
 else:
     from urllib import urlretrieve
     from xmlrpclib import ServerProxy
+    from StringIO import StringIO
+
 
 # oh my, urlretrieve is not thread safe :(
 _urlretrieve_lock = threading.Lock()
@@ -54,8 +60,6 @@ def download_package(client, name, version):
                 urlretrieve(url_data['url'], basename)
             return basename
 
-    return None
-
 
 def extract(basename):
     """
@@ -67,7 +71,6 @@ def extract(basename):
     :rtype: str
     :return: the name of the directory where the contents where extracted
     """
-    from contextlib import closing
 
     extractors = {
         '.zip': ZipFile,
@@ -93,14 +96,15 @@ def run_tox(directory, tox_env, pytest_version):
 
     cmdline = 'tox --result-json=result.json -e %s --force-dep=pytest==%s'
     cmdline %= (tox_env, pytest_version)
+    args = cmdline.split()
 
     try:
-        output = subprocess.check_output(
-            cmdline, shell=True, stderr=subprocess.STDOUT, cwd=directory)
-        result = 0
+        output = subprocess.check_output(args, stderr=subprocess.STDOUT, cwd=directory)
     except subprocess.CalledProcessError as e:
         result = e.returncode
         output = e.output
+    else:
+        result = 0
 
     return result, output.decode()
 
@@ -112,7 +116,7 @@ PLACEHOLDER_TOX = '''\
 
 [testenv]
 deps = pytest
-commands = pytest --help
+commands = pytest --trace-config --help
 '''
 
 
@@ -121,9 +125,7 @@ def read_plugins_index(file_name):
         return json.load(f)
 
 
-class PackageResult(
-    namedtuple('PackageResult', 'name version status_code status output description elapsed')):
-    pass
+PackageResult = namedtuple('PackageResult', 'name version status_code status output description elapsed')
 
 
 def process_package(tox_env, pytest_version, name, version, description):
@@ -132,7 +134,7 @@ def process_package(tox_env, pytest_version, name, version, description):
 
     start = time.time()
 
-    # if we already results, skip testing this plugin
+    # if we already have results, skip testing this plugin
     url = os.environ.get('PLUGINCOMPAT_SITE')
     if url:
         params = dict(py=tox_env, pytest=pytest_version)
@@ -141,7 +143,7 @@ def process_package(tox_env, pytest_version, name, version, description):
             return PackageResult(name, version, 0, 'SKIPPED', 'Skipped', description,
                                  get_elapsed())
 
-    client = ServerProxy('https://pypi.python.org/pypi')
+    client = ServerProxy('https://pypi.org/pypi')
     basename = download_package(client, name, version)
     if basename is None:
         status_code, output = 1, 'No sdist found'
@@ -157,10 +159,6 @@ def process_package(tox_env, pytest_version, name, version, description):
         status_code, output = 1, 'tox run timed out'
     except Exception:
         f.cancel()
-        if sys.version_info[0] == 2:
-            from StringIO import StringIO
-        else:
-            from io import StringIO
         stream = StringIO()
         traceback.print_exc(file=stream)
         status_code, output = 'error', 'traceback:\n%s' % stream.getvalue()
@@ -183,7 +181,6 @@ def working_dir(new_cwd):
 
 
 def post_test_results(test_results, tox_env, pytest_version, secret):
-    from colorama import Fore
     results = []
     for (name, version) in sorted(test_results):
         result, output, description = test_results[(name, version)]
@@ -201,8 +198,8 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
              'description': description,
              }
         )
-    post_url = os.environ.get('PLUGINCOMPAT_SITE')
-    if post_url:
+    if secret:
+        post_url = os.environ['PLUGINCOMPAT_SITE']
         data = {
             'secret': secret,
             'results': results,
@@ -210,24 +207,24 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
         headers = {'content-type': 'application/json'}
         response = requests.post(post_url, data=json.dumps(data),
                                  headers=headers)
-        print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
         response.raise_for_status()
-        return True
+        print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
     else:
-        print(Fore.YELLOW + 'NOT posted, $PLUGINCOMPAT_SITE not defined')
-        return False
+        msg = 'Skipping posting batch of {} because secret is not available'
+        print(Fore.YELLOW + msg.format(len(test_results)))
 
 
-def main(argv):
-    from colorama import Fore
+def main():
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
+    parser = ArgumentParser()
+    parser.add_argument('limit', type=int, nargs='?')
+    limit = parser.parse_args().limit
 
     pytest_version = os.environ['PYTEST_VERSION']
 
     # important to remove POST_KEY from environment so others cannot sniff it somehow (#26)
-    secret = os.environ.pop('POST_KEY')
+    secret = os.environ.pop('POST_KEY', None)
 
     tox_env = 'py%d%d' % sys.version_info[:2]
 
@@ -297,4 +294,4 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv) or 0)
+    main()

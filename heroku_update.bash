@@ -1,5 +1,5 @@
 # script ran periodically by Heroku to update the plugin index file
-echo "Clonning..."
+echo "Cloning..."
 git config --global user.name "Bruno Oliveira"
 git config --global user.email nicoddemus@gmail.com
 git clone https://github.com/pytest-dev/plugincompat.git

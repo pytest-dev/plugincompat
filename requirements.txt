@@ -2,6 +2,7 @@ Flask
 pymongo>=3
 requests>=1.3.0
 gunicorn==19.5
-futures
+futures; python_version < '3.2'
 tox
 mock
+colorama

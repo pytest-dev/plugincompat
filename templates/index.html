@@ -8,7 +8,7 @@
     <p>This page shows results of compatibility tests between <a href="https://pytest.org">pytest</a> plugins
        against different versions of the python interpreter.
     </p>
-    <p>The plugins are listed and tested automatically from <a href="https://pypi.python.org/pypi">pypi</a>.
+    <p>The plugins are listed and tested automatically from <a href="https://pypi.org/">PyPI</a>.
         For more information, please see <a href="https://github.com/pytest-dev/plugincompat">
             https://github.com/pytest-dev/plugincompat</a>.
     </p>
@@ -20,9 +20,9 @@
         <strong>Note:</strong> although some may appear as "broken" keep in mind
         that all dependencies may not be installed during testing, particularly
         if a dependency is too big or requires a dedicated server (such
-        as <a href="https://pypi.python.org/pypi/pytest-jira">pytest-jira</a>,
+        as <a href="https://pypi.org/project/pytest-jira">pytest-jira</a>,
         which requires a jira server, or
-        <a href="https://pypi.python.org/pypi/pytest-qt">pytest-qt</a>,
+        <a href="https://pypi.org/project/pytest-qt">pytest-qt</a>,
         which requires PyQt or PySide, both which take a long time to install).
         Take the information you find here with a grain of salt, and rely on
         each plugin's homepage for up-to-date compatibility information.
@@ -42,7 +42,7 @@
         <tbody>
             {% for lib_name in lib_names %}
             <tr>
-                <td><a href="https://pypi.python.org/pypi/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></td>
+                <td><a href="https://pypi.org/project/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></td>
                 <td>{{ descriptions[lib_name]}}</td>
                 {% for python_ver in python_versions %}
                     <td>
@@ -66,7 +66,7 @@
     {% for lib_name in lib_names %}
         <a id="{{lib_name}}"/>
         <table class="striped rounded metro">
-            <caption><a href="https://pypi.python.org/pypi/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></caption>
+            <caption><a href="https://pypi.org/project/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></caption>
             <thead>
                 <tr>
                     <th>pytest</th>
