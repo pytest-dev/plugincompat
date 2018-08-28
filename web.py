@@ -189,8 +189,7 @@ def get_namespace_for_rendering(all_results):
         if not descriptions.get(lib_name):
             descriptions[lib_name] = result.get('description', '')
 
-    latest_pytest_ver = str(
-        sorted(LooseVersion(x) for x in pytest_versions)[-1])
+    latest_pytest_ver = max(pytest_versions, key=LooseVersion)
     return dict(
         python_versions=sorted(python_versions),
         lib_names=sorted(lib_names),
