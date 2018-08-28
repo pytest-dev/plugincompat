@@ -17,6 +17,10 @@ jobs:
       python: '2.7'
     - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
       python: '3.6'
+    - env: RUN_COMMAND="python run.py" PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+      python: '3.7'
+      sudo: required
+      dist: xenial
     - env: RUN_COMMAND="pytest test_web.py" PYTEST_VERSION=3.7.3
       python: '3.6'    
 env:
