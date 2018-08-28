@@ -1,12 +1,10 @@
 language: python
+python:
+  - "2.7"
+  - "3.6"
 
-matrix:
-  include:
-    - python: 2.7
-    - python: 3.6
-    - python: 3.7
-      dist: xenial
-      sudo: true
+services:
+  - mongodb
 
 # for plugins that require UI
 before_script:
@@ -15,15 +13,15 @@ before_script:
   - sleep 3
 
 install:
-  - pip uninstall -y pytest
+  - if [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then pip install --upgrade pytest; else pip uninstall -y pytest; fi
   - pip install -r requirements.txt
 env:
   matrix:
-  - PYTEST_VERSION=3.7.2 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
+  - PYTEST_VERSION=3.7.3 PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
   global:
     secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="
 script:
-  - python run.py
+  - if [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then pytest; else python run.py; fi
 
 branches:
   only:
