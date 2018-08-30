@@ -90,6 +90,7 @@ def posted_results(monkeypatch):
 def test_main(monkeypatch, capsys, posted_results):
     monkeypatch.setattr("run.process_package", fake_process_package)
     monkeypatch.setattr("sys.argv", ["run.py", "--limit=2", "--workers=1"])
+    monkeypatch.setattr("colorama.init", lambda autoreset, strip: None)
     main()
     out, err = capsys.readouterr()
     assert err == ""
