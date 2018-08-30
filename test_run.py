@@ -34,21 +34,17 @@ def fake_index_json(monkeypatch):
     monkeypatch.setattr("run.read_plugins_index", lambda file_name: canned_data)
 
 
-@pytest.fixture
-def main_mocks(monkeypatch):
-    def fake_process_package(tox_env, pytest_version, name, version, description):
-        result = PackageResult(
-            name=name,
-            version=version,
-            status_code=0,
-            status="PASSED",
-            output="whatever",
-            description=description,
-            elapsed=0,
-        )
-        return result
-
-    monkeypatch.setattr("run.process_package", fake_process_package)
+def fake_process_package(tox_env, pytest_version, name, version, description):
+    result = PackageResult(
+        name=name,
+        version=version,
+        status_code=0,
+        status="PASSED",
+        output="whatever",
+        description=description,
+        elapsed=0,
+    )
+    return result
 
 
 @pytest.fixture
@@ -64,7 +60,8 @@ def posted_results(monkeypatch):
     return collector
 
 
-def test_main(monkeypatch, capsys, main_mocks, posted_results):
+def test_main(monkeypatch, capsys, posted_results):
+    monkeypatch.setattr("run.process_package", fake_process_package)
     monkeypatch.setattr("sys.argv", ["run.py", "--limit=2", "--workers=1"])
     main()
     out, err = capsys.readouterr()
