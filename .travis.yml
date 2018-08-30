@@ -22,7 +22,13 @@ jobs:
       sudo: required
       dist: xenial
     - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.3
-      python: '3.6'    
+      python: '2.7'
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.3
+      python: '3.6'
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.3
+      python: '3.7'
+      sudo: required
+      dist: xenial
 env:
   global:
     secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="

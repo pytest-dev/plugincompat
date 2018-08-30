@@ -52,6 +52,15 @@ def freeze_time(monkeypatch):
     monkeypatch.setattr("time.time", lambda: 1535608108.637679)
 
 
+@pytest.fixture(autouse=True)
+def greyorama(monkeypatch):
+    class Fore:
+        def __getattr__(self, name):
+            return ""
+
+    monkeypatch.setattr("run.Fore", Fore())
+
+
 def fake_process_package(tox_env, pytest_version, name, version, description):
     result = PackageResult(
         name=name,
