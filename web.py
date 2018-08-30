@@ -232,6 +232,7 @@ def get_status_image(name=None):
     else:
         if name is None:
             name = 'pytest-pep8-1.0.5'
+        name = name.rsplit('-', 1)[0]
         return render_template('status_help.html', name=name)
 
 
