@@ -80,7 +80,7 @@ def posted_results(monkeypatch):
 
     def fake_post_test_results(test_results, tox_env, pytest_version, secret):
         assert pytest_version == "1.2.3"
-        assert secret is None
+        assert secret == "my cat's breath smells like cat food"
         collector.append(test_results)
 
     monkeypatch.setattr("run.post_test_results", fake_post_test_results)
@@ -91,6 +91,7 @@ def test_main(monkeypatch, capsys, posted_results):
     monkeypatch.setattr("run.process_package", fake_process_package)
     monkeypatch.setattr("sys.argv", ["run.py", "--limit=2", "--workers=1"])
     monkeypatch.setattr("colorama.init", lambda autoreset, strip: None)
+    monkeypatch.setenv("POST_KEY", "my cat's breath smells like cat food")
     main()
     out, err = capsys.readouterr()
     assert err == ""
