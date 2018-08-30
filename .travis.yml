@@ -21,7 +21,7 @@ jobs:
       python: '3.7'
       sudo: required
       dist: xenial
-    - env: RUN_COMMAND="pytest test_web.py" PYTEST_VERSION=3.7.3
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.3
       python: '3.6'    
 env:
   global:
