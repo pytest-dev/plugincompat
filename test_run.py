@@ -1,3 +1,4 @@
+import json
 from textwrap import dedent
 
 import pytest
@@ -95,6 +96,32 @@ def test_post_test_results(capsys):
     out, err = capsys.readouterr()
     assert err == ""
     assert "Batch of 2 posted\n" in out
+    assert len(responses.calls) == 1
+    [call] = responses.calls
+    assert call.request.url == "http://plugincompat.example.com/"
+    assert json.loads(call.request.body) == {
+        "results": [
+            {
+                "description": "a cool plugin",
+                "env": "py10",
+                "name": "pytest-shmytest",
+                "output": "this one was ok",
+                "pytest": "1.2.3",
+                "status": "ok",
+                "version": "0.0",
+            },
+            {
+                "description": "uncool plugin",
+                "env": "py10",
+                "name": "pytest-yo-dawg",
+                "output": "this one was a failure",
+                "pytest": "1.2.3",
+                "status": "fail",
+                "version": "6.9",
+            },
+        ],
+        "secret": "ILIKETURTLES",
+    }
 
 
 @responses.activate
