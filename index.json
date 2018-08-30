@@ -137,7 +137,7 @@
   {
     "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
     "name": "fsforge",
-    "version": "0.2"
+    "version": "0.3.1"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -1932,7 +1932,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2018.8.13"
+    "version": "2018.8.30"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2432,7 +2432,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.0.1rc0"
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
