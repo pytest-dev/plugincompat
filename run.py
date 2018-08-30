@@ -82,7 +82,7 @@ def extract(basename):
             with closing(extractor(basename)) as f:
                 f.extractall('.')
             return basename[:-len(ext)]
-    assert False, 'could not extract %s' % basename
+    raise Exception('could not extract %s' % basename)
 
 
 def run_tox(directory, tox_env, pytest_version):
@@ -161,7 +161,7 @@ def process_package(tox_env, pytest_version, name, version, description):
         f.cancel()
         stream = StringIO()
         traceback.print_exc(file=stream)
-        status_code, output = 'error', 'traceback:\n%s' % stream.getvalue()
+        status_code, output = 1, 'traceback:\n%s' % stream.getvalue()
     finally:
         executor.shutdown(wait=False)
     output += '\n\nTime: %.1f seconds' % get_elapsed()
