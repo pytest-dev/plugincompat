@@ -122,9 +122,7 @@ def get_storage_for_view():
 
 def authenticate(json_data):
     """Ensure the posted data contains the correct secret"""
-    if 'secret' not in json_data:
-        flask.abort(401)
-    if json_data['secret'] != os.environ['POST_KEY']:
+    if json_data.get('secret') != os.environ['POST_KEY']:
         flask.abort(401)
 
 
