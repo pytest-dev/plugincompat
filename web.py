@@ -3,7 +3,10 @@ import logging
 import os
 import sys
 from distutils.version import LooseVersion
-from urllib.parse import urlsplit
+try:
+    from urllib.parse import urlsplit
+except ImportError:
+    from urlparse import urlsplit
 
 import flask
 import pymongo
@@ -122,9 +125,7 @@ def get_storage_for_view():
 
 def authenticate(json_data):
     """Ensure the posted data contains the correct secret"""
-    if 'secret' not in json_data:
-        flask.abort(401)
-    if json_data['secret'] != os.environ['POST_KEY']:
+    if json_data.get('secret') != os.environ['POST_KEY']:
         flask.abort(401)
 
 
@@ -232,6 +233,7 @@ def get_status_image(name=None):
     else:
         if name is None:
             name = 'pytest-pep8-1.0.5'
+        name = name.rsplit('-', 1)[0]
         return render_template('status_help.html', name=name)
 
 

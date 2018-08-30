@@ -82,7 +82,7 @@ def extract(basename):
             with closing(extractor(basename)) as f:
                 f.extractall('.')
             return basename[:-len(ext)]
-    assert False, 'could not extract %s' % basename
+    raise Exception('could not extract %s' % basename)
 
 
 def run_tox(directory, tox_env, pytest_version):
@@ -161,7 +161,7 @@ def process_package(tox_env, pytest_version, name, version, description):
         f.cancel()
         stream = StringIO()
         traceback.print_exc(file=stream)
-        status_code, output = 'error', 'traceback:\n%s' % stream.getvalue()
+        status_code, output = 1, 'traceback:\n%s' % stream.getvalue()
     finally:
         executor.shutdown(wait=False)
     output += '\n\nTime: %.1f seconds' % get_elapsed()
@@ -218,8 +218,14 @@ def main():
     strip = False if 'TRAVIS' in os.environ else None
     colorama.init(autoreset=True, strip=strip)
     parser = ArgumentParser()
-    parser.add_argument('limit', type=int, nargs='?')
-    limit = parser.parse_args().limit
+    parser.add_argument('--limit', type=int)
+    parser.add_argument('--workers', type=int, default=8)
+    parser.add_argument('--post-chunks', type=int, default=10)
+
+    args = parser.parse_args()
+    limit = args.limit
+    workers = args.workers
+    post_chunks = args.post_chunks
 
     pytest_version = os.environ['PYTEST_VERSION']
 
@@ -229,7 +235,7 @@ def main():
     tox_env = 'py%d%d' % sys.version_info[:2]
 
     plugins = read_plugins_index(update_index.INDEX_FILE_NAME)
-    if limit:
+    if limit is not None:
         plugins = plugins[:limit]
 
     test_results = {}
@@ -244,10 +250,7 @@ def main():
     processed_plugins = 0
     posted_results = 0
 
-    POST_CHUNKS = 10
-    WORKERS = 8
-
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=workers)
     with working_dir('.work'), executor:
         fs = []
         for plugin in plugins:
@@ -256,7 +259,7 @@ def main():
                                 plugin['version'], plugin['description'])
             fs.append(f)
 
-        print(Fore.CYAN + 'Processing {} packages with {} workers'.format(len(fs), WORKERS))
+        print(Fore.CYAN + 'Processing {} packages with {} workers'.format(len(fs), workers))
         for f in concurrent.futures.as_completed(fs):
             processed_plugins += 1
             package_result = f.result()
@@ -276,7 +279,7 @@ def main():
                 test_results[(package_result.name, package_result.version)] = \
                     package_result.status_code, package_result.output, package_result.description
 
-            if len(test_results) >= POST_CHUNKS:
+            if len(test_results) >= post_chunks:
                 post_test_results(test_results, tox_env=tox_env,
                                   pytest_version=pytest_version,
                                   secret=secret)
