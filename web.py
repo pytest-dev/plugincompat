@@ -3,7 +3,10 @@ import logging
 import os
 import sys
 from distutils.version import LooseVersion
-from urllib.parse import urlsplit
+try:
+    from urllib.parse import urlsplit
+except ImportError:
+    from urlparse import urlsplit
 
 import flask
 import pymongo
