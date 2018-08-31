@@ -84,6 +84,7 @@ def posted_results(monkeypatch):
         assert pytest_version == "1.2.3"
         assert secret == "my cat's breath smells like cat food"
         collector.append(test_results)
+        return len(test_results)
 
     monkeypatch.setattr("run.post_test_results", fake_post_test_results)
     return collector
@@ -214,7 +215,7 @@ def test_process_package_no_dist_available(monkeypatch):
         version="1.0",
         status_code=1,
         status="NO DIST",
-        output="No sdist found",
+        output="No source or compatible distribution found",
         description="'sup",
         elapsed=0.0,
     )
