@@ -297,6 +297,10 @@ def main():
 
     # important to remove POST_KEY from environment so others cannot sniff it somehow (#26)
     secret = os.environ.pop('POST_KEY', None)
+    if secret is None and limit is None:
+        # bail out early so CI doesn't take forever for a PR
+        limit = args.post_chunks * 3
+        print(Fore.CYAN + 'Limit forced to {} since secret is unavail'.format(limit))
 
     tox_env = 'py%d%d' % sys.version_info[:2]
 
