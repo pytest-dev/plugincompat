@@ -334,9 +334,6 @@ def main():
             n_posted += post_test_results(test_results, tox_env=tox_env,
                                           pytest_version=pytest_version,
                                           secret=secret)
-            if secret is None:
-                # bail out early so CI doesn't take forever
-                break
 
     print()
     if n_posted:
