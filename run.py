@@ -30,7 +30,7 @@ from argparse import ArgumentParser
 from collections import defaultdict
 from collections import namedtuple
 from contextlib import closing
-from contextlib import contextmanager
+from tempfile import mkdtemp
 from zipfile import ZipFile
 
 import colorama
@@ -38,6 +38,8 @@ import requests
 from colorama import Fore
 from wheel.install import WheelFile
 from wimpy.util import chunks
+from wimpy.util import strip_suffix
+from wimpy.util import working_directory
 
 import update_index
 
@@ -109,7 +111,8 @@ def run_tox(target, tox_env, pytest_version, mode="sdist"):
         directory = target
         PLACEHOLDER_TOX = PLACEHOLDER_TOX_SDIST
     elif mode == "bdist_wheel":
-        directory = '.'
+        directory = strip_suffix(target, ".whl")
+        os.makedirs(directory)
         PLACEHOLDER_TOX = PLACEHOLDER_TOX_BDIST.format(wheel_fname=target)
     else:
         raise NotImplementedError
@@ -152,7 +155,7 @@ deps =
     pytest
     pip
 commands =
-    pip install ./{wheel_fname}
+    pip install ../{wheel_fname}
     pytest --trace-config --help
 '''
 
@@ -186,7 +189,7 @@ def process_package(tox_env, pytest_version, name, version, description):
         status_code, output = 1, 'No source or compatible distribution found'
         return PackageResult(name, version, status_code, 'NO DIST', output, description,
                              get_elapsed())
-    if basename.endswith('whl'):
+    if basename.endswith('.whl'):
         target = basename
         mode = "bdist_wheel"
     else:
@@ -209,17 +212,6 @@ def process_package(tox_env, pytest_version, name, version, description):
     output += '\n\nTime: %.1f seconds' % get_elapsed()
     status = 'PASSED' if status_code == 0 else 'FAILED'
     return PackageResult(name, version, status_code, status, output, description, get_elapsed())
-
-
-@contextmanager
-def working_dir(new_cwd):
-    if os.path.isdir(new_cwd):
-        shutil.rmtree(new_cwd)
-    os.makedirs(new_cwd)
-    old_cwd = os.getcwd()
-    os.chdir(new_cwd)
-    yield new_cwd
-    os.chdir(old_cwd)
 
 
 def post_test_results(test_results, tox_env, pytest_version, secret):
@@ -312,7 +304,8 @@ def main():
     n_posted = 0
 
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=workers)
-    with working_dir('.work'), executor:
+    tmp = mkdtemp()
+    with working_directory(tmp), executor:
         fs = []
         for plugin in plugins:
             f = executor.submit(process_package, tox_env,
@@ -339,6 +332,7 @@ def main():
     if n_posted:
         print(Fore.GREEN + 'Posted {} new results'.format(n_posted))
     print(Fore.GREEN + 'All done, congratulations :)')
+    shutil.rmtree(tmp)
 
 
 if __name__ == '__main__':
