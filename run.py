@@ -27,6 +27,7 @@ import threading
 import time
 import traceback
 from argparse import ArgumentParser
+from collections import defaultdict
 from collections import namedtuple
 from contextlib import closing
 from contextlib import contextmanager
@@ -35,6 +36,7 @@ from zipfile import ZipFile
 import colorama
 import requests
 from colorama import Fore
+from wheel.install import WheelFile
 
 import update_index
 
@@ -53,12 +55,25 @@ _urlretrieve_lock = threading.Lock()
 
 
 def download_package(client, name, version):
-    for url_data in client.release_urls(name, version):
-        basename = os.path.basename(url_data['url'])
-        if url_data['packagetype'] == 'sdist':
-            with _urlretrieve_lock:
-                urlretrieve(url_data['url'], basename)
-            return basename
+    urls = client.release_urls(name, version)
+    dists = defaultdict(list)
+    for data in urls:
+        dists[data.get('packagetype')].append(data)
+    url = fname = None
+    for sdist in dists['sdist']:
+        url = sdist['url']
+        fname = sdist['filename']
+        break
+    else:
+        for bdist in dists['bdist_wheel']:
+            if WheelFile(bdist['filename']).compatible:
+                url = bdist['url']
+                fname = bdist['filename']
+                break
+    if fname is not None:
+        with _urlretrieve_lock:
+            urlretrieve(url, fname)
+        return fname
 
 
 def extract(basename):
@@ -85,10 +100,18 @@ def extract(basename):
     raise Exception('could not extract %s' % basename)
 
 
-def run_tox(directory, tox_env, pytest_version):
+def run_tox(target, tox_env, pytest_version, mode="sdist"):
     """
     Runs tox on the given directory and return (exit code, output)
     """
+    if mode == "sdist":
+        directory = target
+        PLACEHOLDER_TOX = PLACEHOLDER_TOX_SDIST
+    elif mode == "bdist_wheel":
+        directory = '.'
+        PLACEHOLDER_TOX = PLACEHOLDER_TOX_BDIST.format(wheel_fname=target)
+    else:
+        raise NotImplementedError
     tox_file = os.path.join(directory, 'tox.ini')
     if not os.path.isfile(tox_file):
         with open(tox_file, 'w') as f:
@@ -111,12 +134,25 @@ def run_tox(directory, tox_env, pytest_version):
 
 # tox.ini contents when downloaded package does not have a tox.ini file
 # in this case we only display help information
-PLACEHOLDER_TOX = '''\
+PLACEHOLDER_TOX_SDIST = '''\
 [tox]
 
 [testenv]
 deps = pytest
 commands = pytest --trace-config --help
+'''
+
+PLACEHOLDER_TOX_BDIST = '''\
+[tox]
+skipsdist = True
+
+[testenv]
+deps =
+    pytest
+    pip
+commands =
+    pip install ./{wheel_fname}
+    pytest --trace-config --help
 '''
 
 
@@ -147,11 +183,16 @@ def process_package(tox_env, pytest_version, name, version, description):
     basename = download_package(client, name, version)
     if basename is None:
         status_code, output = 1, 'No sdist found'
-        return PackageResult(name, version, status_code, 'NO SOURCE', output, description,
+        return PackageResult(name, version, status_code, 'NO DIST', output, description,
                              get_elapsed())
-    directory = extract(basename)
+    if basename.endswith('whl'):
+        target = basename
+        mode = "bdist_wheel"
+    else:
+        target = extract(basename)
+        mode = "sdist"
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-    f = executor.submit(run_tox, directory, tox_env, pytest_version)
+    f = executor.submit(run_tox, target, tox_env, pytest_version, mode)
     try:
         status_code, output = f.result(timeout=5 * 60)
     except concurrent.futures.TimeoutError:
@@ -242,7 +283,7 @@ def main():
 
     status_color_map = {
         'SKIPPED': Fore.YELLOW,
-        'NO SOURCE': Fore.MAGENTA,
+        'NO DIST': Fore.MAGENTA,
         'PASSED': Fore.GREEN,
         'FAILED': Fore.RED,
     }

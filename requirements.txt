@@ -5,6 +5,7 @@ gunicorn == 19.5
 futures; python_version < '3.2'
 tox
 colorama
+wheel >= 0.31.1
 
 # extra test deps:
 mock
