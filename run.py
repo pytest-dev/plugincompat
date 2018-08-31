@@ -37,6 +37,7 @@ import colorama
 import requests
 from colorama import Fore
 from wheel.install import WheelFile
+from wimpy.util import chunks
 
 import update_index
 
@@ -182,7 +183,7 @@ def process_package(tox_env, pytest_version, name, version, description):
     client = ServerProxy('https://pypi.org/pypi')
     basename = download_package(client, name, version)
     if basename is None:
-        status_code, output = 1, 'No sdist found'
+        status_code, output = 1, 'No source or compatible distribution found'
         return PackageResult(name, version, status_code, 'NO DIST', output, description,
                              get_elapsed())
     if basename.endswith('whl'):
@@ -250,9 +251,33 @@ def post_test_results(test_results, tox_env, pytest_version, secret):
                                  headers=headers)
         response.raise_for_status()
         print(Fore.GREEN + 'Batch of {} posted'.format(len(test_results)))
+        return len(results)
     else:
         msg = 'Skipping posting batch of {} because secret is not available'
         print(Fore.YELLOW + msg.format(len(test_results)))
+        return 0
+
+
+def printer(result_iterator, n_total):
+    status_color_map = {
+        'SKIPPED': Fore.YELLOW,
+        'NO DIST': Fore.MAGENTA,
+        'PASSED': Fore.GREEN,
+        'FAILED': Fore.RED,
+    }
+    for i, package_result in enumerate(result_iterator, 1):
+        package = '%s-%s' % (package_result.name, package_result.version)
+        print('{package:<60s} {status_color}{package_result.status:>15s}'
+              '{elapsed_color}{package_result.elapsed:>6.1f}s '
+              '{percent_color}[%{percent:>3d}]'.format(
+            package=package,
+            status_color=status_color_map[package_result.status],
+            package_result=package_result,
+            elapsed_color=Fore.CYAN,
+            percent_color=Fore.LIGHTCYAN_EX,
+            percent=i * 100 // n_total,
+        ))
+        yield package_result
 
 
 def main():
@@ -279,17 +304,8 @@ def main():
     if limit is not None:
         plugins = plugins[:limit]
 
-    test_results = {}
-
-    status_color_map = {
-        'SKIPPED': Fore.YELLOW,
-        'NO DIST': Fore.MAGENTA,
-        'PASSED': Fore.GREEN,
-        'FAILED': Fore.RED,
-    }
-    total_plugins = len(plugins)
-    processed_plugins = 0
-    posted_results = 0
+    n_total = len(plugins)
+    n_posted = 0
 
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=workers)
     with working_dir('.work'), executor:
@@ -301,39 +317,26 @@ def main():
             fs.append(f)
 
         print(Fore.CYAN + 'Processing {} packages with {} workers'.format(len(fs), workers))
-        for f in concurrent.futures.as_completed(fs):
-            processed_plugins += 1
-            package_result = f.result()
-            package = '%s-%s' % (package_result.name, package_result.version)
 
-            print('{package:<60s} {status_color}{package_result.status:>15s}'
-                  '{elapsed_color}{package_result.elapsed:>6.1f}s '
-                  '{percent_color}[%{percent:>3d}]'.format(
-                package=package,
-                status_color=status_color_map[package_result.status],
-                package_result=package_result,
-                elapsed_color=Fore.CYAN,
-                percent_color=Fore.LIGHTCYAN_EX,
-                percent=processed_plugins * 100 // total_plugins,
-            ))
-            if package_result.status != 'SKIPPED':
-                test_results[(package_result.name, package_result.version)] = \
-                    package_result.status_code, package_result.output, package_result.description
-
-            if len(test_results) >= post_chunks:
-                post_test_results(test_results, tox_env=tox_env,
-                                  pytest_version=pytest_version,
-                                  secret=secret)
-                posted_results += len(test_results)
-                test_results.clear()
-        if test_results:
-            post_test_results(test_results, tox_env=tox_env,
-                              pytest_version=pytest_version,
-                              secret=secret)
-            posted_results += len(test_results)
+        results = (f.result() for f in concurrent.futures.as_completed(fs))
+        results = printer(results, n_total=n_total)  # print them as they complete
+        chunked_results = chunks(results, chunk_size=post_chunks)
+        for chunk in chunked_results:
+            test_results = {}
+            for package_result in chunk:
+                if package_result.status != 'SKIPPED':
+                    test_results[(package_result.name, package_result.version)] = \
+                        package_result.status_code, package_result.output, package_result.description
+            n_posted += post_test_results(test_results, tox_env=tox_env,
+                                          pytest_version=pytest_version,
+                                          secret=secret)
+            if secret is None:
+                # bail out early so CI doesn't take forever
+                break
 
     print()
-    print(Fore.GREEN + 'Posted {} new results'.format(posted_results))
+    if n_posted:
+        print(Fore.GREEN + 'Posted {} new results'.format(n_posted))
     print(Fore.GREEN + 'All done, congratulations :)')
 
 
