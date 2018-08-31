@@ -272,7 +272,7 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
 @responses.activate
 def test_process_package_tox_succeeded(tmpdir, monkeypatch):
     py = "py{}{}".format(*sys.version_info[:2])
-    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.3".format(
+    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.4".format(
         py
     )
     responses.add(responses.GET, url, status=404)
@@ -290,7 +290,7 @@ def test_process_package_tox_succeeded(tmpdir, monkeypatch):
         z.write("myplugin")
     result = process_package(
         tox_env=py,
-        pytest_version="3.7.3",
+        pytest_version="3.7.4",
         name="myplugin",
         version="1.0",
         description="'sup",
