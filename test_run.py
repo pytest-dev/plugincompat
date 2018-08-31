@@ -228,10 +228,9 @@ def test_process_package_tox_errored(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").ensure(file=True)
-    with zipfile.ZipFile(str(zip), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
         tox_env="py36",
@@ -254,9 +253,8 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     empty_zipfile_bytes = b"PK\x05\x06" + b"\x00" * 18
-    zip.write(empty_zipfile_bytes)
+    tmpdir.join("myplugin.zip").write(empty_zipfile_bytes)
     result = process_package(
         tox_env="py36",
         pytest_version="1.2.3",
@@ -282,13 +280,12 @@ def test_process_package_tox_succeeded(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").write(
         "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
     )
     tmpdir.join("myplugin").join("tox.ini").write(canned_tox_ini)
-    with zipfile.ZipFile(str(zip), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
         tox_env=py,
@@ -375,12 +372,11 @@ def test_process_package_tox_succeeded_bdist(tmpdir, monkeypatch):
     canned_whl = os.path.join(here, 'test_data', 'myplugin-1.0.0-py2.py3-none-any.whl')
     copy(canned_whl, str(tmpdir))
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").write(
         "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
     )
-    with zipfile.ZipFile(str(zip), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
         tox_env=py,
@@ -389,7 +385,6 @@ def test_process_package_tox_succeeded_bdist(tmpdir, monkeypatch):
         version="1.0.0",
         description="nope",
     )
-    print(result.output)
     assert result.name == "myplugin"
     assert result.version == "1.0.0"
     assert result.status_code == 0
