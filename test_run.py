@@ -373,12 +373,6 @@ def test_process_package_tox_succeeded_bdist(tmpdir, monkeypatch):
     canned_whl = os.path.join(here, 'test_data', 'myplugin-1.0.0-py2.py3-none-any.whl')
     copy(canned_whl, str(tmpdir))
     monkeypatch.chdir(tmpdir)
-    tmpdir.join("myplugin").ensure_dir()
-    tmpdir.join("myplugin").join("setup.py").write(
-        "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
-    )
-    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
-        z.write("myplugin")
     result = process_package(
         tox_env=py,
         pytest_version="3.7.4",
