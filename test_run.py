@@ -1,6 +1,8 @@
 import json
+import os
 import sys
 import zipfile
+from shutil import copy
 from textwrap import dedent
 
 import pytest
@@ -211,7 +213,7 @@ def test_process_package_no_dist_available(monkeypatch):
         name="myplugin",
         version="1.0",
         status_code=1,
-        status="NO SOURCE",
+        status="NO DIST",
         output="No sdist found",
         description="'sup",
         elapsed=0.0,
@@ -226,10 +228,9 @@ def test_process_package_tox_errored(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").ensure(file=True)
-    with zipfile.ZipFile(str(zip), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
         tox_env="py36",
@@ -252,9 +253,8 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     empty_zipfile_bytes = b"PK\x05\x06" + b"\x00" * 18
-    zip.write(empty_zipfile_bytes)
+    tmpdir.join("myplugin.zip").write(empty_zipfile_bytes)
     result = process_package(
         tox_env="py36",
         pytest_version="1.2.3",
@@ -272,7 +272,7 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
 @responses.activate
 def test_process_package_tox_succeeded(tmpdir, monkeypatch):
     py = "py{}{}".format(*sys.version_info[:2])
-    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.3".format(
+    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.4".format(
         py
     )
     responses.add(responses.GET, url, status=404)
@@ -280,17 +280,16 @@ def test_process_package_tox_succeeded(tmpdir, monkeypatch):
         "run.download_package", lambda client, name, version: "myplugin.zip"
     )
     monkeypatch.chdir(tmpdir)
-    zip = tmpdir.join("myplugin.zip")
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").write(
         "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
     )
     tmpdir.join("myplugin").join("tox.ini").write(canned_tox_ini)
-    with zipfile.ZipFile(str(zip), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
         tox_env=py,
-        pytest_version="3.7.3",
+        pytest_version="3.7.4",
         name="myplugin",
         version="1.0",
         description="'sup",
@@ -326,7 +325,73 @@ def test_download_package(monkeypatch):
 
     class FakeClient(object):
         def release_urls(self, name, version):
-            return [{"url": "/path/to/whatever.tar.gz", "packagetype": "sdist"}]
+            return [
+                {
+                    "filename": "whatever.tar.gz",
+                    "url": "/path/to/whatever.tar.gz",
+                    "packagetype": "sdist",
+                }
+            ]
 
     basename = download_package(client=FakeClient(), name="whatever", version="1.0")
     assert basename == "whatever.tar.gz"
+
+
+def test_download_package_whl(monkeypatch):
+    def fake_urlretrieve(url, basename):
+        assert url == "/path/to/myplugin-1.0.0-py2.py3-none-any.whl"
+        assert basename == "myplugin-1.0.0-py2.py3-none-any.whl"
+
+    monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
+
+    class FakeClient(object):
+        def release_urls(self, name, version):
+            return [
+                {
+                    "filename": "myplugin-1.0.0-py2.py3-none-any.whl",
+                    "url": "/path/to/myplugin-1.0.0-py2.py3-none-any.whl",
+                    "packagetype": "bdist_wheel",
+                }
+            ]
+
+    basename = download_package(client=FakeClient(), name="myplugin", version="1.0")
+    assert basename == "myplugin-1.0.0-py2.py3-none-any.whl"
+
+
+@responses.activate
+def test_process_package_tox_succeeded_bdist(tmpdir, monkeypatch):
+    py = "py{}{}".format(*sys.version_info[:2])
+    url = "http://plugincompat.example.com/output/myplugin-1.0.0?py={}&pytest=3.7.4".format(
+        py
+    )
+    responses.add(responses.GET, url, status=404)
+    monkeypatch.setattr(
+        "run.download_package", lambda client, name, version: "myplugin-1.0.0-py2.py3-none-any.whl"
+    )
+    here = os.path.dirname(__file__)
+    canned_whl = os.path.join(here, 'test_data', 'myplugin-1.0.0-py2.py3-none-any.whl')
+    copy(canned_whl, str(tmpdir))
+    monkeypatch.chdir(tmpdir)
+    tmpdir.join("myplugin").ensure_dir()
+    tmpdir.join("myplugin").join("setup.py").write(
+        "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
+    )
+    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
+        z.write("myplugin")
+    result = process_package(
+        tox_env=py,
+        pytest_version="3.7.4",
+        name="myplugin",
+        version="1.0.0",
+        description="nope",
+    )
+    assert result.name == "myplugin"
+    assert result.version == "1.0.0"
+    assert result.status_code == 0
+    assert result.status == "PASSED"
+    assert result.description == "nope"
+    assert result.elapsed == 0.0
+    assert "hi from tox" not in result.output
+    assert "hello world from .whl pytest plugin" in result.output
+    assert "PLUGIN registered: <module 'myplugin'" in result.output
+    assert "congratulations :)" in result.output
