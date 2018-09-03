@@ -172,7 +172,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.70.0"
+    "version": "3.70.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -357,7 +357,7 @@
   {
     "description": "A pytest plugin to detect unused mocks",
     "name": "pytest-bad-mocks",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -397,7 +397,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -1727,7 +1727,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.12.2"
+    "version": "0.12.3"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
