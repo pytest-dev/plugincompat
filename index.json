@@ -582,7 +582,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.5.1"
+    "version": "2.6.0"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
