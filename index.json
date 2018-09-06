@@ -2437,7 +2437,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
