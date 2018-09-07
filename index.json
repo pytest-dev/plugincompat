@@ -617,7 +617,7 @@
   {
     "description": "CSV output for pytest.",
     "name": "pytest-csv",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "Pytest support for curio.",
@@ -1872,7 +1872,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -2472,7 +2472,7 @@
   {
     "description": "rigor",
     "name": "rigor",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "A python client for sat-api",
