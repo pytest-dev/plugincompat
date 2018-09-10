@@ -22,7 +22,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0b20"
+    "version": "3.0.0b21"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -172,7 +172,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.71.1"
+    "version": "3.71.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -287,7 +287,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.0.1.dev1"
+    "version": "0.0.4"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -1567,7 +1567,7 @@
   {
     "description": "a py.test plugin for parallel and concurrent testing",
     "name": "pytest-parallel",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
@@ -1643,6 +1643,11 @@
     "description": "pytest plugin for collecting test cases and recording test results",
     "name": "pytest-polarion-cfme",
     "version": "0.1.5"
+  },
+  {
+    "description": "pytest plugin for collecting polarion test cases data",
+    "name": "pytest-polarion-collect",
+    "version": "0.1"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2072,7 +2077,7 @@
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   {
     "description": "Exports unit tests as test runs in SpiraTest/Team/Plan",
@@ -2202,7 +2207,7 @@
   {
     "description": "",
     "name": "pytest-testrail-reporter",
-    "version": "1.8"
+    "version": "1.9"
   },
   {
     "description": "Detects thread leaks",
