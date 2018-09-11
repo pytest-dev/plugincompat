@@ -1,5 +1,10 @@
 [
   {
+    "description": "A highly customizable Discord bot",
+    "name": "BotEXBotBase",
+    "version": "1.0.3a3"
+  },
+  {
     "description": "Creates Apsim-Project files from given parameters and files.",
     "name": "CrApsim",
     "version": "0.0.1a0"
@@ -1207,7 +1212,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -1222,7 +1227,7 @@
   {
     "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
@@ -2482,7 +2487,7 @@
   {
     "description": "rigor",
     "name": "rigor",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "A python client for sat-api",
