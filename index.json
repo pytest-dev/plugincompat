@@ -517,7 +517,7 @@
   {
     "description": "Easy quality control for CLDF datasets using pytest",
     "name": "pytest-cldf",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "",
@@ -528,6 +528,11 @@
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
     "version": "3.0.0"
+  },
+  {
+    "description": "PyTest plugin for testing Smart Contracts for Ethereum blockchain.",
+    "name": "pytest-cobra",
+    "version": "0.0.2.dev1"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
@@ -1652,7 +1657,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "PonyORM in Pytest",
