@@ -72,7 +72,7 @@
   {
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
-    "version": "0.1"
+    "version": "0.1.2"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -193,6 +193,11 @@
     "description": "jaraco.postgres",
     "name": "jaraco.postgres",
     "version": "4.1"
+  },
+  {
+    "description": "",
+    "name": "kubetest",
+    "version": "0.0.1.dev0"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
