@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.71.3"
+    "version": "3.71.5"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1667,7 +1667,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "PonyORM in Pytest",
