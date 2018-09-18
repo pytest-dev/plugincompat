@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.71.8"
+    "version": "3.71.9"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -2135,6 +2135,11 @@
     "version": "0.4"
   },
   {
+    "description": "Provide stub implementations for subprocesses in Python tests",
+    "name": "pytest-stubprocess",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin to organize long run tests (named studies) without interfering the regular tests",
     "name": "pytest-study",
     "version": "0.14"
@@ -2502,7 +2507,7 @@
   {
     "description": "rigor",
     "name": "rigor",
-    "version": "0.5.3"
+    "version": "0.5.5"
   },
   {
     "description": "A python client for sat-api",
