@@ -582,7 +582,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
