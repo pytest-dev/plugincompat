@@ -260,6 +260,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "Mock object framework",
+    "name": "pymox",
+    "version": "0.7.9.dev38"
+  },
+  {
     "description": "pypom_form",
     "name": "pypom-form",
     "version": "0.3.1"
@@ -2068,6 +2073,11 @@
     "description": "Automatically skip tests that don't need to run!",
     "name": "pytest-skippy",
     "version": "0.1.1"
+  },
+  {
+    "description": "A plugin for collecting tests that touch changed code",
+    "name": "pytest-smartcollect",
+    "version": "0.1.0"
   },
   {
     "description": "Smart coverage plugin for pytest.",
