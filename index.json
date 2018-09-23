@@ -2077,7 +2077,7 @@
   {
     "description": "A plugin for collecting tests that touch changed code",
     "name": "pytest-smartcollect",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Smart coverage plugin for pytest.",
