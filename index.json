@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.71.9"
+    "version": "3.72.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1807,7 +1807,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "3.0.2"
+    "version": "3.1.0"
   },
   {
     "description": "QT app fixture for py.test",
