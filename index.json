@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.72.0"
+    "version": "3.73.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1417,7 +1417,7 @@
   {
     "description": "Estimates memory consumption of test functions",
     "name": "pytest-memprof",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
@@ -1607,7 +1607,7 @@
   {
     "description": "a pytest plugin for parallel and concurrent testing",
     "name": "pytest-parallel",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
@@ -1740,6 +1740,11 @@
     "version": "0.1"
   },
   {
+    "description": "Test helpers for Prosper projects",
+    "name": "pytest-prosper",
+    "version": "1.0.0"
+  },
+  {
     "description": "A rspec format reporter for Python ptest",
     "name": "pytest-pspec",
     "version": "0.0.3"
@@ -1837,7 +1842,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.8"
+    "version": "0.9"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -1983,6 +1988,11 @@
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
     "version": "4.2"
+  },
+  {
+    "description": "Pytets plugin that allows showing runtime info in ide",
+    "name": "pytest-runtime-info",
+    "version": "0.1.0"
   },
   {
     "description": "",
