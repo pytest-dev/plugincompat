@@ -195,6 +195,11 @@
     "version": "4.1"
   },
   {
+    "description": "Manage dependencies between pytests",
+    "name": "khare.pytest-dependency",
+    "version": "0.3.3"
+  },
+  {
     "description": "",
     "name": "kubetest",
     "version": "0.0.1.dev0"
@@ -1687,7 +1692,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2462,7 +2467,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.23.0"
+    "version": "1.23.1"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
@@ -2557,7 +2562,7 @@
   {
     "description": "Test Docker container images",
     "name": "seaworthy",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
