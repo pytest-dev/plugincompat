@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.73.1"
+    "version": "3.73.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -455,6 +455,11 @@
     "version": "0.1.4"
   },
   {
+    "description": "A simple plugin to connect with breed-server",
+    "name": "pytest-breed-adapter",
+    "version": "1.1.1"
+  },
+  {
     "description": "A pytest plugin for console based browser test selection just after the collection phase",
     "name": "pytest-browser",
     "version": "0.2.0"
@@ -537,7 +542,7 @@
   {
     "description": "pytest chinese nodeid support",
     "name": "pytest-chinese-nodeid",
-    "version": "1.1"
+    "version": "1.2"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -1817,7 +1822,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "3.1.0"
+    "version": "3.2.0"
   },
   {
     "description": "QT app fixture for py.test",
@@ -2517,7 +2522,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
