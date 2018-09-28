@@ -227,7 +227,7 @@
   {
     "description": "Command line utility for using the Pytest testing framework in 3ds Max",
     "name": "maxpytest",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "A mock SSH server emulating Aerohive devices",
@@ -507,7 +507,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "0.10.0"
+    "version": "0.10.1"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1642,7 +1642,7 @@
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.4.49"
+    "version": "1.5.9"
   },
   {
     "description": "py.test plugin for pep257",
@@ -2012,7 +2012,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2018.9.18"
+    "version": "2018.9.28"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2177,7 +2177,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "0.7.1"
+    "version": "0.7.2"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2377,7 +2377,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "A twisted plugin for py.test.",
@@ -2472,7 +2472,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.23.1"
+    "version": "1.23.2"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
