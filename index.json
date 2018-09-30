@@ -985,6 +985,11 @@
     "version": "1.3b4"
   },
   {
+    "description": "This plugin is used to expect multiple assert using pytest framework.",
+    "name": "pytest-expectr",
+    "version": "1.4"
+  },
+  {
     "description": "a special outcome for tests that are blocked for external reasons",
     "name": "pytest-external-blockers",
     "version": "0.0.1"
@@ -1337,7 +1342,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
