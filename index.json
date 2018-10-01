@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.73.3"
+    "version": "3.74.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -597,7 +597,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -847,7 +847,7 @@
   {
     "description": "A plugin to use docker databases for pytests",
     "name": "pytest-docker-db",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "pytest docker fixtures",
@@ -987,7 +987,7 @@
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
     "name": "pytest-expectr",
-    "version": "1.4"
+    "version": "1.4.1"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1102,7 +1102,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.12.0"
+    "version": "0.13.0"
   },
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
@@ -2500,6 +2500,11 @@
     "version": "1.1.0"
   },
   {
+    "description": "This plugin is used to load yaml output to your test using pytest framework.",
+    "name": "pytest-yaml",
+    "version": "1.2"
+  },
+  {
     "description": "Create or check file/directory trees described by YAML",
     "name": "pytest-yamltree",
     "version": "0.1.1"
@@ -2632,7 +2637,7 @@
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
     "name": "tidypy",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Transfer learning info.",
