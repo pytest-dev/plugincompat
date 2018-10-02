@@ -243,7 +243,7 @@ def test_process_package_tox_errored(tmpdir, monkeypatch):
     assert result.name == "myplugin"
     assert result.status_code == 1
     assert result.status == "FAILED"
-    assert "ERROR: setup.py is empty\n" in result.output
+    assert "ERROR: setup.py is empty" in result.output
 
 
 @responses.activate
@@ -267,7 +267,8 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
     assert result.status_code == 1
     assert result.status == "FAILED"
     assert result.output.startswith("traceback:\n")
-    assert "No such file or directory: 'myplugin/tox.ini'" in result.output
+    fn = os.path.join("myplugin", "tox.ini")
+    assert "No such file or directory: {fn!r}".format(fn=fn) in result.output
 
 
 @responses.activate
