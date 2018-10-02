@@ -1827,7 +1827,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "3.2.0"
+    "version": "3.2.1"
   },
   {
     "description": "QT app fixture for py.test",
