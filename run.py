@@ -36,7 +36,7 @@ from zipfile import ZipFile
 import colorama
 import requests
 from colorama import Fore
-from wheel.install import WheelFile
+from wheel.wheelfile import WheelFile
 from wimpy.util import chunks
 from wimpy.util import strip_suffix
 from wimpy.util import working_directory

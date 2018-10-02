@@ -5,7 +5,7 @@ gunicorn == 19.5
 futures; python_version < '3.2'
 tox
 colorama
-wheel >= 0.31.1
+wheel >= 0.32
 wimpy >= 0.4
 
 # extra test deps:
