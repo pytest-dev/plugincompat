@@ -10,4 +10,5 @@ wimpy >= 0.4
 
 # extra test deps:
 mock
+pytest-mock
 responses
