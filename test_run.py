@@ -339,12 +339,16 @@ def test_download_package(monkeypatch):
     assert basename == "whatever.tar.gz"
 
 
-def test_download_package_whl(monkeypatch):
+def test_download_package_whl(monkeypatch, mocker):
     def fake_urlretrieve(url, basename):
         assert url == "/path/to/myplugin-1.0.0-py2.py3-none-any.whl"
         assert basename == "myplugin-1.0.0-py2.py3-none-any.whl"
 
     monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
+
+    import wheel.wheelfile
+    m = mocker.patch.object(wheel.wheelfile, 'WheelFile', autospec=True)
+    m.return_value.compatible = True
 
     class FakeClient(object):
         def release_urls(self, name, version):
