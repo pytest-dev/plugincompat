@@ -36,6 +36,8 @@ from zipfile import ZipFile
 import colorama
 import requests
 from colorama import Fore
+from wheel.cli import WheelError
+from wheel.wheelfile import WheelFile
 from wimpy.util import chunks
 from wimpy.util import strip_suffix
 from wimpy.util import working_directory
@@ -57,7 +59,6 @@ _urlretrieve_lock = threading.Lock()
 
 
 def download_package(client, name, version):
-    from wheel.wheelfile import WheelFile
     urls = client.release_urls(name, version)
     dists = defaultdict(list)
     for data in urls:
@@ -69,7 +70,11 @@ def download_package(client, name, version):
         break
     else:
         for bdist in dists['bdist_wheel']:
-            if WheelFile(file=bdist['filename']).compatible:
+            try:
+                WheelFile(file=bdist['filename'])
+            except WheelError:
+                continue
+            else:
                 url = bdist['url']
                 fname = bdist['filename']
                 break
