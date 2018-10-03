@@ -8,15 +8,16 @@ from textwrap import dedent
 import pytest
 import responses
 from requests.exceptions import HTTPError
+from wheel.cli import WheelError
 
+import run
+from run import PackageResult
 from run import download_package
 from run import extract
 from run import main
-from run import PackageResult
 from run import post_test_results
 from run import process_package
 from run import read_plugins_index
-
 
 canned_data = [
     {"description": "the description 1", "name": "pytest-plugin-a", "version": "0.1.1"},
@@ -346,9 +347,7 @@ def test_download_package_whl(monkeypatch, mocker):
 
     monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
 
-    import wheel.wheelfile
-    m = mocker.patch.object(wheel.wheelfile, 'WheelFile', autospec=True)
-    m.return_value.compatible = True
+    m = mocker.patch.object(run, 'WheelFile', autospec=True)
 
     class FakeClient(object):
         def release_urls(self, name, version):
@@ -362,6 +361,10 @@ def test_download_package_whl(monkeypatch, mocker):
 
     basename = download_package(client=FakeClient(), name="myplugin", version="1.0")
     assert basename == "myplugin-1.0.0-py2.py3-none-any.whl"
+
+    # invalid wheel
+    m.side_effect = WheelError()
+    assert download_package(client=FakeClient(), name="myplugin", version="1.0") is None
 
 
 @responses.activate
