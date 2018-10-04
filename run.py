@@ -34,10 +34,10 @@ from tempfile import mkdtemp
 from zipfile import ZipFile
 
 import colorama
+import distlib
 import requests
 from colorama import Fore
-from wheel.cli import WheelError
-from wheel.wheelfile import WheelFile
+from distlib.wheel import is_compatible
 from wimpy.util import chunks
 from wimpy.util import strip_suffix
 from wimpy.util import working_directory
@@ -71,8 +71,11 @@ def download_package(client, name, version):
     else:
         for bdist in dists['bdist_wheel']:
             try:
-                WheelFile(file=bdist['filename'])
-            except WheelError:
+                if not is_compatible(bdist['filename']):
+                    continue
+            except distlib.DistlibException:
+                # is_compatible may also raise exceptions with invalid wheel
+                # files instead of returning False :/
                 continue
             else:
                 url = bdist['url']
