@@ -5,10 +5,10 @@ import zipfile
 from shutil import copy
 from textwrap import dedent
 
+import distlib
 import pytest
 import responses
 from requests.exceptions import HTTPError
-from wheel.cli import WheelError
 
 import run
 from run import PackageResult
@@ -347,7 +347,7 @@ def test_download_package_whl(monkeypatch, mocker):
 
     monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
 
-    m = mocker.patch.object(run, 'WheelFile', autospec=True)
+    m = mocker.patch.object(run, 'is_compatible', autospec=True, return_value=True)
 
     class FakeClient(object):
         def release_urls(self, name, version):
@@ -362,8 +362,12 @@ def test_download_package_whl(monkeypatch, mocker):
     basename = download_package(client=FakeClient(), name="myplugin", version="1.0")
     assert basename == "myplugin-1.0.0-py2.py3-none-any.whl"
 
+    # incompatible wheel
+    m.return_value = False
+    assert download_package(client=FakeClient(), name="myplugin", version="1.0") is None
+
     # invalid wheel
-    m.side_effect = WheelError()
+    m.side_effect = distlib.DistlibException()
     assert download_package(client=FakeClient(), name="myplugin", version="1.0") is None
 
 
