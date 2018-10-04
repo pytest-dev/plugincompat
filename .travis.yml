@@ -21,11 +21,11 @@ jobs:
       python: '3.7'
       sudo: required
       dist: xenial
-    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.4
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.8.2
       python: '2.7'
-    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.4
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.8.2
       python: '3.6'
-    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.7.4
+    - env: RUN_COMMAND="pytest" PYTEST_VERSION=3.8.2
       python: '3.7'
       sudo: required
       dist: xenial
