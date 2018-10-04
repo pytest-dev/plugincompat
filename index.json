@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.74.1"
+    "version": "3.74.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -387,7 +387,7 @@
   {
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "A pytest plugin to detect unused mocks",
@@ -687,6 +687,11 @@
   {
     "description": "A plugin for testing Cython extension modules",
     "name": "pytest-cython",
+    "version": "0.1.0"
+  },
+  {
+    "description": "pytest fixtures to run dash app.",
+    "name": "pytest-dash",
     "version": "0.1.0"
   },
   {
@@ -1662,7 +1667,7 @@
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
     "name": "pytest-pgsql",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Run the tests related to the changed files",
@@ -1962,7 +1967,7 @@
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "4.1"
+    "version": "4.2"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
