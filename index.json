@@ -692,7 +692,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "0.1.0"
+    "version": "0.1.3"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -992,7 +992,7 @@
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
     "name": "pytest-expectr",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   {
     "description": "a special outcome for tests that are blocked for external reasons",
@@ -1232,7 +1232,7 @@
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
     "name": "pytest-idapro",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
@@ -2107,7 +2107,7 @@
   {
     "description": "A plugin for collecting tests that touch changed code",
     "name": "pytest-smartcollect",
-    "version": "0.1.3"
+    "version": "1.0.2"
   },
   {
     "description": "Smart coverage plugin for pytest.",
@@ -2507,7 +2507,7 @@
   {
     "description": "This plugin is used to load yaml output to your test using pytest framework.",
     "name": "pytest-yaml",
-    "version": "1.2"
+    "version": "1.2.1"
   },
   {
     "description": "Create or check file/directory trees described by YAML",
