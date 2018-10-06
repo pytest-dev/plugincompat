@@ -27,7 +27,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0b21"
+    "version": "3.0.0rc1.post1"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -187,7 +187,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "7.9"
+    "version": "8.0"
   },
   {
     "description": "jaraco.postgres",
@@ -432,7 +432,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -1627,7 +1627,7 @@
   {
     "description": "a pytest plugin for parallel and concurrent testing",
     "name": "pytest-parallel",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
