@@ -22,7 +22,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.2.3"
+    "version": "0.3.0"
   },
   {
     "description": "A highly customizable Discord bot",
@@ -712,7 +712,7 @@
   {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
     "name": "pytest-datafiles",
-    "version": "1.0"
+    "version": "2.0"
   },
   {
     "description": "A pytest plugin for managing an archive of test data.",
