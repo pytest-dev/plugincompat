@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.75.4"
+    "version": "3.76.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -782,7 +782,7 @@
   {
     "description": "Picky test coverage for pytest",
     "name": "pytest-divide-and-cover",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1627,7 +1627,7 @@
   {
     "description": "a pytest plugin for parallel and concurrent testing",
     "name": "pytest-parallel",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "pytest plugin to test all, first, last or random params",
@@ -1902,7 +1902,7 @@
   {
     "description": "Easy to use fixtures to write regression tests.",
     "name": "pytest-regressions",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "pytest plugin for regression tests",
