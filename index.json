@@ -2,7 +2,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "BotEXBotBase",
-    "version": "1.0.3a3"
+    "version": "1.1.0rc1.post1"
   },
   {
     "description": "Creates Apsim-Project files from given parameters and files.",
