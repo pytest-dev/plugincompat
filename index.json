@@ -312,7 +312,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.0.9"
+    "version": "0.1.0"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -1902,7 +1902,7 @@
   {
     "description": "Pytest fixtures for REANA.",
     "name": "pytest-reana",
-    "version": "0.4.0.dev20181018"
+    "version": "0.4.0.dev201810181"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -1917,7 +1917,7 @@
   {
     "description": "Easy to use fixtures to write regression tests.",
     "name": "pytest-regressions",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "pytest plugin for regression tests",
