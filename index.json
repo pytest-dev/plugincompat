@@ -310,9 +310,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "apistellar plugin for pytest. ",
+    "description": "apistellar plugin for pytest.",
     "name": "pytest-apistellar",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -387,7 +387,7 @@
   {
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
-    "version": "1.1.3"
+    "version": "1.1.4"
   },
   {
     "description": "A pytest plugin to detect unused mocks",
@@ -1932,7 +1932,7 @@
   {
     "description": "Pytest plugin for controlling remote data access.",
     "name": "pytest-remotedata",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -2077,7 +2077,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.3.0"
+    "version": "1.3.1"
   },
   {
     "description": "py.test plugin to make session fixtures behave as if written in conftest, even if it is written in some modules",
@@ -2207,7 +2207,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Run a test suite one failing test at a time.",
