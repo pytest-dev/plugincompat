@@ -397,7 +397,7 @@
   {
     "description": "A bandit plugin for pytest",
     "name": "pytest-bandit",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -1627,7 +1627,7 @@
   {
     "description": "pytest plugin to run your tests in a specific order",
     "name": "pytest-ordering",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "OS X notifications for py.test results.",
@@ -1782,7 +1782,7 @@
   {
     "description": "Pytest PuDB debugger integration",
     "name": "pytest-pudb",
-    "version": "0.6"
+    "version": "0.7.0"
   },
   {
     "description": "py.test plugin for purkinje test runner",
@@ -2207,7 +2207,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2317,7 +2317,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "1.1.6"
+    "version": "2.3.0"
   },
   {
     "description": "",
@@ -2567,7 +2567,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
