@@ -42,7 +42,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.5.2"
+    "version": "2.5.3"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -142,7 +142,7 @@
   {
     "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
     "name": "fsforge",
-    "version": "0.3.1"
+    "version": "0.3.4"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -187,7 +187,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "8.1"
+    "version": "9.0"
   },
   {
     "description": "jaraco.postgres",
@@ -827,7 +827,7 @@
   {
     "description": "A model instance factory for pytest-django",
     "name": "pytest-django-ifactory",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "The bare minimum to integrate py.test with Django.",
@@ -1237,7 +1237,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.1.1"
+    "version": "0.2.1"
   },
   {
     "description": "use icdiff for better error messages in pytest assertions",
