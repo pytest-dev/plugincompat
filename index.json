@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.81.0"
+    "version": "3.82.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -200,9 +200,9 @@
     "version": "0.3.3"
   },
   {
-    "description": "",
+    "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.0.1.dev0"
+    "version": "0.0.2"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -2522,7 +2522,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.23.2"
+    "version": "1.24.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
@@ -2577,7 +2577,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
