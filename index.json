@@ -142,7 +142,7 @@
   {
     "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
     "name": "fsforge",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -302,7 +302,7 @@
   {
     "description": "Plugin for py.test to simplify calling ansible modules from tests or fixtures",
     "name": "pytest-ansible",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
@@ -2322,7 +2322,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.3.0"
+    "version": "2.3.1"
   },
   {
     "description": "",
@@ -2363,6 +2363,11 @@
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
     "version": "0.1.5"
+  },
+  {
+    "description": "Create and run markdown Readmes from within pytest",
+    "name": "pytest-to-md",
+    "version": "20181026"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
