@@ -72,7 +72,7 @@
   {
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
-    "version": "0.1.2"
+    "version": "0.2"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -1727,7 +1727,7 @@
   {
     "description": "PonyORM in Pytest",
     "name": "pytest-ponyorm",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "Visualize your crappy tests",
@@ -2487,7 +2487,7 @@
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
     "name": "pytest-voluptuous",
-    "version": "1.0.2"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
