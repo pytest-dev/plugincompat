@@ -1722,7 +1722,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.4"
+    "version": "0.6"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2621,8 +2621,8 @@
   },
   {
     "description": "A python client for sat-api",
-    "name": "satsearch",
-    "version": "1.0.0rc3"
+    "name": "sat-search",
+    "version": "0.1.0b1"
   },
   {
     "description": "Test Docker container images",
