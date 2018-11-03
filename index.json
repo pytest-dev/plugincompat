@@ -387,7 +387,7 @@
   {
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
-    "version": "1.1.4"
+    "version": "1.1.5"
   },
   {
     "description": "A pytest plugin to detect unused mocks",
@@ -1247,7 +1247,7 @@
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
     "name": "pytest-idapro",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
