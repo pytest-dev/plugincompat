@@ -885,6 +885,11 @@
     "version": "0.0.9"
   },
   {
+    "description": "Documentation tool for pytest",
+    "name": "pytest-docs",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
     "version": "1.4.0"
@@ -1907,7 +1912,7 @@
   {
     "description": "Pytest fixtures for REANA.",
     "name": "pytest-reana",
-    "version": "0.4.0.dev201810181"
+    "version": "0.4.0.dev20181105"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
