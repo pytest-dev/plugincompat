@@ -752,7 +752,7 @@
   {
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
-    "version": "2.0.1"
+    "version": "2.1.0"
   },
   {
     "description": "Manage dependencies of tests",
@@ -882,12 +882,12 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
-    "version": "0.0.9"
+    "version": "0.1.0"
   },
   {
     "description": "Documentation tool for pytest",
     "name": "pytest-docs",
-    "version": "0.0.1"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -1607,7 +1607,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1912,7 +1912,7 @@
   {
     "description": "Pytest fixtures for REANA.",
     "name": "pytest-reana",
-    "version": "0.4.0.dev20181105"
+    "version": "0.4.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -1992,7 +1992,7 @@
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "4.2"
+    "version": "5.0"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
