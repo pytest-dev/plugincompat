@@ -310,9 +310,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "apistellar plugin for pytest.",
+    "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.1"
+    "version": "0.1.3"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -1027,7 +1027,7 @@
   {
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   {
     "description": "Faker integration with the pytest framework.",
@@ -1727,7 +1727,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.6"
+    "version": "0.7"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2258,6 +2258,11 @@
     "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
     "version": "0.9.1"
+  },
+  {
+    "description": "Workaround for https://github.com/Frozenball/pytest-sugar/issues/159",
+    "name": "pytest-sugar-bugfix159",
+    "version": "1.0"
   },
   {
     "description": "Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.",
