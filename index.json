@@ -917,7 +917,7 @@
   {
     "description": "A py.test plugin that parses environment files before running tests",
     "name": "pytest-dotenv",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1607,7 +1607,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.4.5"
+    "version": "0.4.7"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -1882,7 +1882,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.9"
+    "version": "0.10"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -2255,9 +2255,9 @@
     "version": "0.0.10"
   },
   {
-    "description": "py.test is a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly).",
+    "description": "pytest-sugar is a plugin for pytest that changes the default look and feel of pytest (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.9.1"
+    "version": "0.9.2"
   },
   {
     "description": "Workaround for https://github.com/Frozenball/pytest-sugar/issues/159",
@@ -2298,6 +2298,11 @@
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
     "version": "2018.8.11"
+  },
+  {
+    "description": "generate terraform resources to use with pytest",
+    "name": "pytest-terraform-fixture",
+    "version": "0.1.1"
   },
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.",
