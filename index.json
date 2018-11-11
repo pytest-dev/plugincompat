@@ -2067,7 +2067,7 @@
   {
     "description": "",
     "name": "pytest-sanic",
-    "version": "0.1.13"
+    "version": "0.1.15"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -2387,7 +2387,7 @@
   {
     "description": "Create and run markdown Readmes from within pytest",
     "name": "pytest-to-md",
-    "version": "20181026"
+    "version": "20181101"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
