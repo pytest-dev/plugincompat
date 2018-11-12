@@ -887,7 +887,7 @@
   {
     "description": "Documentation tool for pytest",
     "name": "pytest-docs",
-    "version": "0.0.6"
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to run pydocstyle",
@@ -1383,6 +1383,11 @@
     "description": "A python-libfaketime plugin for pytest.",
     "name": "pytest-libfaketime",
     "version": "0.1.1"
+  },
+  {
+    "description": "Pytest plugin that shows notifications about the test run",
+    "name": "pytest-libnotify",
+    "version": "1.0.0"
   },
   {
     "description": "A simple network listener",
