@@ -187,7 +187,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "9.0"
+    "version": "9.1"
   },
   {
     "description": "jaraco.postgres",
@@ -312,7 +312,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -387,7 +387,7 @@
   {
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
-    "version": "1.1.5"
+    "version": "1.1.6"
   },
   {
     "description": "A pytest plugin to detect unused mocks",
@@ -802,7 +802,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.3"
+    "version": "3.4.4"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -903,6 +903,11 @@
     "description": "Setup additional values for ELLIPSIS_MARKER for doctests",
     "name": "pytest-doctest-ellipsis-markers",
     "version": "0.1.0"
+  },
+  {
+    "description": "A simple pytest plugin to import names and add them to the doctest namespace.",
+    "name": "pytest-doctest-import",
+    "version": "0.1.1"
   },
   {
     "description": "Pytest plugin with advanced doctest features.",
@@ -1212,7 +1217,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1982,7 +1987,7 @@
   {
     "description": "pytest plugin for adding tests' parameters to junit report",
     "name": "pytest-report-parameters",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
@@ -2492,7 +2497,7 @@
   {
     "description": "Plugin for managing VCR.py cassettes",
     "name": "pytest-vcr",
-    "version": "0.3.0"
+    "version": "1.0.0"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
@@ -2692,7 +2697,7 @@
   {
     "description": "specd",
     "name": "specd",
-    "version": "0.2.6"
+    "version": "0.2.8"
   },
   {
     "description": "Variety of remote sensing data for testing",
