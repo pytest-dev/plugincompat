@@ -397,7 +397,7 @@
   {
     "description": "A bandit plugin for pytest",
     "name": "pytest-bandit",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -872,7 +872,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.2.3"
+    "version": "1.2.5"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1217,7 +1217,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1412,7 +1412,7 @@
   {
     "description": "py.test plugin to test server connections locally.",
     "name": "pytest-localserver",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "Pytest plugin for AWS integration tests",
@@ -2015,6 +2015,11 @@
     "version": "30.0.111"
   },
   {
+    "description": "Load resource fixture plugin to use with pytest",
+    "name": "pytest-resource",
+    "version": "0.1.3"
+  },
+  {
     "description": "py.test integration for responses",
     "name": "pytest-responses",
     "version": "0.3.0"
@@ -2317,7 +2322,7 @@
   {
     "description": "generate terraform resources to use with pytest",
     "name": "pytest-terraform-fixture",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.",
