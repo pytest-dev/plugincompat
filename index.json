@@ -1132,7 +1132,7 @@
   {
     "description": "Flaptastic py.test plugin",
     "name": "pytest-flaptastic",
-    "version": "0.0.6"
+    "version": "0.0.9"
   },
   {
     "description": "A set of py.test fixtures to test Flask applications.",
@@ -1407,7 +1407,7 @@
   {
     "description": "A pytest plugin that stream output in LITF format",
     "name": "pytest-litf",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
