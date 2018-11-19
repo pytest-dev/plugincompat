@@ -237,7 +237,7 @@
   {
     "description": "",
     "name": "mutmut",
-    "version": "0.0.9"
+    "version": "1.0.1"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
