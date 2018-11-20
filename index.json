@@ -42,7 +42,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.5.3"
+    "version": "2.5.4"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -872,7 +872,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.2.6"
+    "version": "1.2.7"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1222,7 +1222,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "0.9.0"
+    "version": "1.0.0"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1947,7 +1947,7 @@
   {
     "description": "Easy to use fixtures to write regression tests.",
     "name": "pytest-regressions",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -2242,7 +2242,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.0.3"
+    "version": "1.1.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2437,7 +2437,7 @@
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
     "name": "pytest-tornasync",
-    "version": "0.5.0"
+    "version": "0.6.0.post1"
   },
   {
     "description": "Test your translation files.",
@@ -2743,6 +2743,11 @@
     "description": "Helper for checking variable equivalence by type. Useful for tests.",
     "name": "type_comparable",
     "version": "0.3.dev9"
+  },
+  {
+    "description": "Enhances a selenium webdriver to record screenshots along the way",
+    "name": "uw-webdriver-recorder",
+    "version": "1.0"
   },
   {
     "description": "Test fixtures for Websauna",
