@@ -1222,7 +1222,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -2242,7 +2242,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2407,7 +2407,7 @@
   {
     "description": "Create and run markdown Readmes from within pytest",
     "name": "pytest-to-md",
-    "version": "20181103"
+    "version": "20181107"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
@@ -2747,7 +2747,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0"
+    "version": "1.0.5"
   },
   {
     "description": "Test fixtures for Websauna",
