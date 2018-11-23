@@ -2,7 +2,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "BotEXBotBase",
-    "version": "1.2.1rc1.post1"
+    "version": "3.0.0rc3"
   },
   {
     "description": "Creates Apsim-Project files from given parameters and files.",
@@ -312,7 +312,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -548,11 +548,6 @@
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
     "version": "0.3.5"
-  },
-  {
-    "description": "pytest chinese nodeid support",
-    "name": "pytest-chinese-nodeid",
-    "version": "1.2"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -880,6 +875,11 @@
     "version": "0.8"
   },
   {
+    "description": "Easy to use, simple to extend, pytest plugin that minimally leverages docker-py.",
+    "name": "pytest-docker-py",
+    "version": "1.1.0"
+  },
+  {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
     "version": "0.1.0"
@@ -1162,7 +1162,7 @@
   {
     "description": "Wrap tests with fixtures in freeze_time",
     "name": "pytest-freezegun",
-    "version": "0.3.0"
+    "version": "0.3.0.post1"
   },
   {
     "description": "pytest plugin for Firefox Accounts",
@@ -1283,6 +1283,11 @@
     "description": "pytest plugin to collect information from tests",
     "name": "pytest-info-collector",
     "version": "0.2"
+  },
+  {
+    "description": "display more node ininformation.",
+    "name": "pytest-informative-node",
+    "version": "0.1.1"
   },
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
