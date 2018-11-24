@@ -360,9 +360,9 @@
     "version": "0.1.0a2"
   },
   {
-    "description": "atomic pytest suit or even electronic",
+    "description": "Skip rest of tests if previous test failed.",
     "name": "pytest-atomic",
-    "version": "1.1"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin to select tests based on attributes similar to the nose-attrib plugin",
@@ -612,7 +612,7 @@
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
     "name": "pytest-consul",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Define pytest fixtures as context managers.",
