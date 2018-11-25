@@ -1717,7 +1717,7 @@
   {
     "description": "Run the tests related to the changed files",
     "name": "pytest-picked",
-    "version": "0.3.0"
+    "version": "0.3.2"
   },
   {
     "description": "",
