@@ -1527,7 +1527,7 @@
   {
     "description": "A set of fixtures to test your requests to HTTP/UDP servers",
     "name": "pytest-mockservers",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -1847,7 +1847,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.12.3"
+    "version": "0.13.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -2513,6 +2513,11 @@
     "description": "Plugin for managing VCR.py cassettes",
     "name": "pytest-vcr",
     "version": "1.0.1"
+  },
+  {
+    "description": "Test from HTTP interactions to dataframe processed.",
+    "name": "pytest-vcrpandas",
+    "version": "0.0.1"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
