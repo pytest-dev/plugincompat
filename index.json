@@ -342,7 +342,7 @@
   {
     "description": "Meta-package containing dependencies for testing",
     "name": "pytest-astropy",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin for async MongoDB",
@@ -543,6 +543,11 @@
     "description": "pytest plugin to test Check_MK checks",
     "name": "pytest-check-mk",
     "version": "0.1.1"
+  },
+  {
+    "description": "check the README when running tests",
+    "name": "pytest-checkdocs",
+    "version": "1.0.0"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -877,7 +882,7 @@
   {
     "description": "Easy to use, simple to extend, pytest plugin that minimally leverages docker-py.",
     "name": "pytest-docker-py",
-    "version": "1.1.0"
+    "version": "1.1.2"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
@@ -1652,7 +1657,7 @@
   {
     "description": "Pytest plugin for detecting inadvertent open file handles",
     "name": "pytest-openfiles",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -1752,7 +1757,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.7"
+    "version": "0.8"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2347,7 +2352,7 @@
   {
     "description": "Test configuration plugin for pytest.",
     "name": "pytest-testconfig",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
@@ -2362,7 +2367,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.13"
+    "version": "0.9.14"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -2687,7 +2692,7 @@
   {
     "description": "All-in-One Test Automation Framework",
     "name": "seleniumbase",
-    "version": "1.17.6"
+    "version": "1.17.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -2762,7 +2767,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "Test fixtures for Websauna",
