@@ -882,7 +882,7 @@
   {
     "description": "Easy to use, simple to extend, pytest plugin that minimally leverages docker-py.",
     "name": "pytest-docker-py",
-    "version": "1.1.2"
+    "version": "1.1.3"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
@@ -1453,6 +1453,11 @@
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
     "name": "pytest-logging",
     "version": "2015.11.4"
+  },
+  {
+    "description": "pytest marker for marking manual tests",
+    "name": "pytest-manual-marker",
+    "version": "0.1"
   },
   {
     "description": "py.test bugzilla integration plugin, using markers",
@@ -2252,7 +2257,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
