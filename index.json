@@ -190,9 +190,9 @@
     "version": "9.2.1"
   },
   {
-    "description": "jaraco.postgres",
+    "description": "PostgreSQL services by jaraco",
     "name": "jaraco.postgres",
-    "version": "4.1"
+    "version": "4.2"
   },
   {
     "description": "Manage dependencies between pytests",
@@ -547,7 +547,7 @@
   {
     "description": "check the README when running tests",
     "name": "pytest-checkdocs",
-    "version": "1.0.0"
+    "version": "1.1.1"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -1797,7 +1797,7 @@
   {
     "description": "pytest-print adds the printer fixture you can use to print messages to the user (directly to the pytest runner, not stdout)",
     "name": "pytest-print",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Profiling plugin for py.test",
@@ -2697,7 +2697,7 @@
   {
     "description": "All-in-One Test Automation Framework",
     "name": "seleniumbase",
-    "version": "1.17.7"
+    "version": "1.17.8"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
