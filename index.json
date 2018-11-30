@@ -1880,6 +1880,11 @@
     "version": "1.3.0"
   },
   {
+    "description": "pytest plugin for interaction with TestRail",
+    "name": "pytest-pytestrail",
+    "version": "0.0.1a0"
+  },
+  {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
     "name": "pytest-pythonpath",
     "version": "0.7.3"
