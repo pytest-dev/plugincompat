@@ -447,7 +447,7 @@
   {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
@@ -1937,7 +1937,7 @@
   {
     "description": "Randomise the order in which pytest tests are run with some control over the randomness",
     "name": "pytest-random-order",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
@@ -2257,7 +2257,7 @@
   {
     "description": "pytest plugin for reporting to graphite",
     "name": "pytest-statsd",
-    "version": "1.1.3"
+    "version": "1.1.6"
   },
   {
     "description": "Create step-wise / incremental tests in pytest.",
