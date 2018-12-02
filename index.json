@@ -310,6 +310,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
+    "name": "pytest-aoc",
+    "version": "1.0"
+  },
+  {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
     "version": "0.1.5"
@@ -2702,7 +2707,7 @@
   {
     "description": "All-in-One Test Automation Framework",
     "name": "seleniumbase",
-    "version": "1.17.8"
+    "version": "1.17.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
