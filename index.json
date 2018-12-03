@@ -312,7 +312,7 @@
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
     "name": "pytest-aoc",
-    "version": "1.0"
+    "version": "1.1"
   },
   {
     "description": "apistellar plugin for pytest. ",
@@ -712,7 +712,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "0.2.0rc2"
+    "version": "0.2.0rc3"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -762,7 +762,7 @@
   {
     "description": "Manage dependencies of tests",
     "name": "pytest-dependency",
-    "version": "0.3.2"
+    "version": "0.4.0"
   },
   {
     "description": "Tests that depend on other tests",
@@ -1698,6 +1698,11 @@
     "description": "Pytest plugin for parametrizing tests with default iterables.",
     "name": "pytest-parametrized",
     "version": "0.2"
+  },
+  {
+    "description": "Finally spell paramete?ri[sz]e correctly",
+    "name": "pytest-parawtf",
+    "version": "1.0.1"
   },
   {
     "description": "Allow setting the path to a paste config file",
@@ -2647,7 +2652,7 @@
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other test",
     "name": "pytest-yield",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
