@@ -317,7 +317,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -1317,7 +1317,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -1427,7 +1427,7 @@
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
     "name": "pytest-localftpserver",
-    "version": "0.4.1"
+    "version": "0.5.1"
   },
   {
     "description": "py.test plugin to test server connections locally.",
@@ -1702,7 +1702,7 @@
   {
     "description": "Finally spell paramete?ri[sz]e correctly",
     "name": "pytest-parawtf",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Allow setting the path to a paste config file",
@@ -2652,7 +2652,7 @@
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other test",
     "name": "pytest-yield",
-    "version": "0.1.7"
+    "version": "0.1.9"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
