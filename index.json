@@ -712,7 +712,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "0.2.0rc3"
+    "version": "1.0.0"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -2392,7 +2392,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.3.1"
+    "version": "2.3.2"
   },
   {
     "description": "",
@@ -2650,9 +2650,9 @@
     "version": "0.1.1"
   },
   {
-    "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other test",
+    "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
     "name": "pytest-yield",
-    "version": "0.1.9"
+    "version": "0.2.8"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
