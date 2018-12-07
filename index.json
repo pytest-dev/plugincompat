@@ -47,7 +47,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -1737,7 +1737,7 @@
   {
     "description": "Run the tests related to the changed files",
     "name": "pytest-picked",
-    "version": "0.3.2"
+    "version": "0.4.0"
   },
   {
     "description": "",
@@ -2107,7 +2107,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2018.9.28"
+    "version": "2018.12.6"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2707,7 +2707,7 @@
   {
     "description": "Test Docker container images",
     "name": "seaworthy",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "All-in-One Test Automation Framework",
