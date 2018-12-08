@@ -177,7 +177,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.82.1"
+    "version": "3.82.5"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -202,7 +202,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -2107,7 +2107,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2018.12.6"
+    "version": "2018.12.8"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2123,6 +2123,11 @@
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
     "version": "1.0a6"
+  },
+  {
+    "description": "A pytest plugin which allows to (de-)select tests from a file.",
+    "name": "pytest-select",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for Selenium",
