@@ -1287,7 +1287,7 @@
   {
     "description": "an incremental test runner (pytest plugin)",
     "name": "pytest-incremental",
-    "version": "0.4.2"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -1697,7 +1697,7 @@
   {
     "description": "Pytest plugin for parametrizing tests with default iterables.",
     "name": "pytest-parametrized",
-    "version": "0.2"
+    "version": "1.0"
   },
   {
     "description": "Finally spell paramete?ri[sz]e correctly",
@@ -1892,7 +1892,7 @@
   {
     "description": "pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.0.1a0"
+    "version": "0.1.6"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
