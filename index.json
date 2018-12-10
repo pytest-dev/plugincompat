@@ -237,7 +237,7 @@
   {
     "description": "",
     "name": "mutmut",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -1223,6 +1223,11 @@
     "description": "Growl notifications for pytest results.",
     "name": "pytest-growl",
     "version": "0.2"
+  },
+  {
+    "description": "",
+    "name": "pytest-grpc",
+    "version": "0.0.0"
   },
   {
     "description": "Display \"\ud83d\udd28 \" instead of \".\" for passed pytest tests.",
@@ -2427,7 +2432,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.12.1"
+    "version": "1.13.1"
   },
   {
     "description": "Better fixtures management. Various helpers",
