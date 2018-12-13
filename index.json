@@ -150,6 +150,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "",
+    "name": "github-wrapper",
+    "version": "0.0.6"
+  },
+  {
     "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of Ansible.",
     "name": "goodplay",
     "version": "0.9.1"
@@ -177,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.83.0"
+    "version": "3.83.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -187,7 +192,7 @@
   {
     "description": "Routines and classes supporting MongoDB environments",
     "name": "jaraco.mongodb",
-    "version": "9.3"
+    "version": "9.4b5"
   },
   {
     "description": "PostgreSQL services by jaraco",
@@ -1777,7 +1782,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.8"
+    "version": "0.9"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2617,7 +2622,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.24.1"
+    "version": "1.25.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
@@ -2672,7 +2677,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.1.5"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
