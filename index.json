@@ -602,7 +602,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.3.1"
+    "version": "1.4.0"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -1242,7 +1242,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1862,7 +1862,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "1.3.1"
+    "version": "1.4.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
@@ -1912,7 +1912,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "3.2.1"
+    "version": "3.2.2"
   },
   {
     "description": "QT app fixture for py.test",
@@ -2287,7 +2287,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
