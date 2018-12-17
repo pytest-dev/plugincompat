@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.83.1"
+    "version": "3.83.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1948,6 +1948,11 @@
     "description": "Simple pytest plugin to look for regex in Exceptions",
     "name": "pytest-raisesregexp",
     "version": "2.1"
+  },
+  {
+    "description": "Plugin enabling the use of exception instances with pytest.raises",
+    "name": "pytest-raisin",
+    "version": "0.1"
   },
   {
     "description": "py.test plugin to randomize tests",
