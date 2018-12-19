@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.84.0"
+    "version": "3.84.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -2297,7 +2297,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "description": "Run a test suite one failing test at a time.",
