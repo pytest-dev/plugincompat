@@ -1350,11 +1350,6 @@
     "version": "0.1-prerelease2"
   },
   {
-    "description": "Use pytest's runner to discover and execute tests as cells of IPython notebooks",
-    "name": "pytest-ipynb",
-    "version": "1.1.0"
-  },
-  {
     "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
     "version": "0.2.1"
@@ -1432,7 +1427,7 @@
   {
     "description": "A python-libfaketime plugin for pytest.",
     "name": "pytest-libfaketime",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Pytest plugin that shows notifications about the test run",
