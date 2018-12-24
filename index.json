@@ -47,7 +47,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -1677,7 +1677,7 @@
   {
     "description": "Use @pytest.mark.only to run a single test",
     "name": "pytest-only",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Run object-oriented tests in a simple format",
