@@ -1657,7 +1657,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "pytest results data-base and HTML reporter",
