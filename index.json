@@ -2452,7 +2452,7 @@
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
     "name": "pytest-timeouts",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "",
