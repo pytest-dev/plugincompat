@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.84.5"
+    "version": "3.84.6"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -908,6 +908,11 @@
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest-docker-tools",
     "version": "0.1.0"
+  },
+  {
+    "description": "Run, manage and stop Docker Compose project from Docker API",
+    "name": "pytest-dockerc",
+    "version": "1.0.3"
   },
   {
     "description": "Documentation tool for pytest",
@@ -2317,6 +2322,11 @@
   {
     "description": "provide structured temporary directory",
     "name": "pytest-structmpd",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Stub packages, modules and attributes.",
+    "name": "pytest-stub",
     "version": "0.1.0"
   },
   {
