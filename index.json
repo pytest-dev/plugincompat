@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.84.6"
+    "version": "3.85.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -197,7 +197,7 @@
   {
     "description": "PostgreSQL services by jaraco",
     "name": "jaraco.postgres",
-    "version": "4.2"
+    "version": "4.3"
   },
   {
     "description": "Manage dependencies between pytests",
