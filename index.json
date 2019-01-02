@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.85.2"
+    "version": "3.85.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -197,7 +197,7 @@
   {
     "description": "PostgreSQL services by jaraco",
     "name": "jaraco.postgres",
-    "version": "4.3"
+    "version": "5.0"
   },
   {
     "description": "Manage dependencies between pytests",
@@ -2168,6 +2168,11 @@
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
     "version": "0.4.0"
+  },
+  {
+    "description": "Reliable Browser Automation & Testing Framework",
+    "name": "pytest-seleniumbase",
+    "version": "0.1.0"
   },
   {
     "description": "Extensible server fixures for py.test",
