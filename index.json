@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.86.0"
+    "version": "3.86.4"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -892,7 +892,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.2.7"
+    "version": "1.2.8"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -2652,7 +2652,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
