@@ -722,7 +722,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
