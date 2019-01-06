@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.86.4"
+    "version": "3.86.5"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -583,6 +583,11 @@
     "description": "Easy quality control for CLDF datasets using pytest",
     "name": "pytest-cldf",
     "version": "0.2.0"
+  },
+  {
+    "description": "Py.test plugin for Click",
+    "name": "pytest-click",
+    "version": "0.3"
   },
   {
     "description": "",
@@ -1417,7 +1422,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.4.2"
+    "version": "0.5.0"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
