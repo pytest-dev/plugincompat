@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.86.5"
+    "version": "3.86.6"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -298,6 +298,11 @@
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.10"
+  },
+  {
+    "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
+    "name": "pytest-android",
+    "version": "2019.1a5"
   },
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
@@ -667,7 +672,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.6.0"
+    "version": "2.6.1"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -1272,7 +1277,7 @@
   {
     "description": "PyTest Helpers Namespace",
     "name": "pytest-helpers-namespace",
-    "version": "2017.11.11"
+    "version": "2019.1.6"
   },
   {
     "description": "Hide captured output",
@@ -1708,6 +1713,11 @@
     "description": "OS X notifications for py.test results.",
     "name": "pytest-osxnotify",
     "version": "0.1.7"
+  },
+  {
+    "description": "A simple plugin to use with pytest",
+    "name": "pytest-pact",
+    "version": "0.0.0"
   },
   {
     "description": "a pytest plugin for parallel and concurrent testing",
@@ -2562,7 +2572,7 @@
   {
     "description": "Text User Interface for running python tests",
     "name": "pytest-ui",
-    "version": "0.3.1b0"
+    "version": "0.3.2b0"
   },
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
@@ -2682,7 +2692,7 @@
   {
     "description": "A pytest plugin to run Xvfb for tests.",
     "name": "pytest-xvfb",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "This plugin is used to load yaml output to your test using pytest framework.",
