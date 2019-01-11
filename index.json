@@ -27,7 +27,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.0rc2"
+    "version": "3.0.0rc3.post1"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.87.0"
+    "version": "3.88.3"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -242,7 +242,7 @@
   {
     "description": "",
     "name": "mutmut",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -442,7 +442,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.",
     "name": "pytest-benchmark",
-    "version": "3.2.0"
+    "version": "3.2.1"
   },
   {
     "description": "A BigchainDB plugin for pytest.",
@@ -922,7 +922,7 @@
   {
     "description": "Run, manage and stop Docker Compose project from Docker API",
     "name": "pytest-dockerc",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "Documentation tool for pytest",
@@ -1692,7 +1692,7 @@
   {
     "description": "Use @pytest.mark.only to run a single test",
     "name": "pytest-only",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Run object-oriented tests in a simple format",
