@@ -307,7 +307,7 @@
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
     "name": "pytest-android",
-    "version": "2019.1a5"
+    "version": "2019.1a7"
   },
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
@@ -442,7 +442,7 @@
   {
     "description": "A ``py.test`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.",
     "name": "pytest-benchmark",
-    "version": "3.2.1"
+    "version": "3.2.2"
   },
   {
     "description": "A BigchainDB plugin for pytest.",
@@ -637,7 +637,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -1202,7 +1202,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "0.2"
+    "version": "1.0.1"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -2582,7 +2582,7 @@
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
     "name": "pytest-unittest-filter",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Run only unmarked tests",
@@ -2607,7 +2607,7 @@
   {
     "description": "Test from HTTP interactions to dataframe processed.",
     "name": "pytest-vcrpandas",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "py.test fixture for creating a virtual environment",
@@ -2677,7 +2677,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.25.0"
+    "version": "1.26.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
