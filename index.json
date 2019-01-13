@@ -627,7 +627,7 @@
   {
     "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
     "name": "pytest-concurrent",
-    "version": "0.1.2"
+    "version": "0.2.2"
   },
   {
     "description": "Base configurations and utilities for developing\n    your Python project test suite with pytest.",
@@ -2582,7 +2582,7 @@
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
     "name": "pytest-unittest-filter",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Run only unmarked tests",
