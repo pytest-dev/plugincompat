@@ -182,7 +182,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "3.88.3"
+    "version": "4.0.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -720,6 +720,11 @@
     "version": "0.5.4"
   },
   {
+    "description": "Exit pytest test session with custom exit code in different scenarios",
+    "name": "pytest-custom-exit-code",
+    "version": "0.1.1"
+  },
+  {
     "description": "Configure the symbols displayed for test outcomes",
     "name": "pytest-custom-report",
     "version": "1.0.0"
@@ -1157,7 +1162,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -1322,7 +1327,7 @@
   {
     "description": "ignore failures from flaky tests (pytest plugin)",
     "name": "pytest-ignore-flaky",
-    "version": "0.1.1"
+    "version": "1.0.0"
   },
   {
     "description": "an incremental test runner (pytest plugin)",
@@ -2378,6 +2383,11 @@
     "description": "Workaround for https://github.com/Frozenball/pytest-sugar/issues/159",
     "name": "pytest-sugar-bugfix159",
     "version": "1.0"
+  },
+  {
+    "description": "Meta-package containing dependencies for the SunPy test suite.",
+    "name": "pytest-sunpy",
+    "version": "1.0.0"
   },
   {
     "description": "Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.",
