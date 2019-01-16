@@ -29,8 +29,12 @@ else:
 
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.json')
 
+BLACKLIST = {
+    "pytest-nbsmoke",
+}
 
-def iter_plugins(client):
+
+def iter_plugins(client, blacklist):
     """
     Returns an iterator of (name, latest version, summary) from PyPI.
 
@@ -60,8 +64,9 @@ def iter_plugins(client):
     print('total: %d packages' % len(names_and_versions))
 
     for name, version in names_and_versions.items():
-        plug_data = client.release_data(name, version)
-        yield plug_data['name'], plug_data['version'], plug_data['summary']
+        if name not in blacklist:
+            plug_data = client.release_data(name, version)
+            yield plug_data['name'], plug_data['version'], plug_data['summary']
 
 
 def write_plugins_index(file_name, plugins):
@@ -103,7 +108,7 @@ def write_plugins_index(file_name, plugins):
 
 def main():
     client = ServerProxy('https://pypi.org/pypi')
-    plugins = sorted(iter_plugins(client))
+    plugins = sorted(iter_plugins(client, BLACKLIST))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
         print(INDEX_FILE_NAME, 'updated, push to GitHub.')

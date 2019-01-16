@@ -1645,11 +1645,6 @@
     "version": "2.0.1"
   },
   {
-    "description": "Basic notebook checks. Do they run? Do they contain lint?",
-    "name": "pytest-nbsmoke",
-    "version": "0.1.6"
-  },
-  {
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
     "version": "0.3.8"
