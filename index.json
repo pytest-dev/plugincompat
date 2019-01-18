@@ -1122,7 +1122,7 @@
   {
     "description": "easily load data from files",
     "name": "pytest-filedata",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "run test cases filter by mark",
@@ -2152,7 +2152,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.1.16"
+    "version": "2019.1.18.post1"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2677,7 +2677,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -2877,7 +2877,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.6.2"
+    "version": "0.7.0"
   },
   {
     "description": "An XResources parser for python applications.",
