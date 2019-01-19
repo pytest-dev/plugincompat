@@ -272,7 +272,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.1"
+    "version": "2019.0.2"
   },
   {
     "description": "Mock object framework",
@@ -408,6 +408,11 @@
     "description": "pytest plugin for axe-selenium-python",
     "name": "pytest-axe",
     "version": "1.1.6"
+  },
+  {
+    "description": "Formatting PyTest output for Azure Pipelines UI",
+    "name": "pytest-azurepipelines",
+    "version": "0.1.1"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -2172,7 +2177,7 @@
   {
     "description": "A pytest plugin which allows to (de-)select tests from a file.",
     "name": "pytest-select",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for Selenium",
@@ -2192,7 +2197,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Services plugin for pytest testing framework",
