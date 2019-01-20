@@ -40,6 +40,11 @@
     "version": "0.8.4.2"
   },
   {
+    "description": "aiomisc - miscellaneous utils for asyncio",
+    "name": "aiomisc",
+    "version": "5.1.3"
+  },
+  {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
     "version": "2.5.4"
@@ -272,7 +277,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.2"
+    "version": "2019.0.3"
   },
   {
     "description": "Mock object framework",
@@ -473,6 +478,11 @@
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
     "name": "pytest-blocker",
     "version": "0.2"
+  },
+  {
+    "description": "Local continuous test runner with pytest and watchdog.",
+    "name": "pytest-board",
+    "version": "0.1.0"
   },
   {
     "description": "A py.test plug-in to enable drop to bpdb debugger on test failure.",
