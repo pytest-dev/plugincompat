@@ -885,6 +885,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "A Simple Way to Test your Django Models",
+    "name": "pytest-django-models",
+    "version": "0.1.0"
+  },
+  {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
     "name": "pytest-django-ordering",
     "version": "1.0.1"
