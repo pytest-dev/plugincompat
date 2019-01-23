@@ -42,7 +42,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.2.1"
+    "version": "5.2.3"
   },
   {
     "description": "Allure pytest integration",
@@ -187,7 +187,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.0.2"
+    "version": "4.1.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -885,6 +885,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "A Simple Way to Test your Django Models",
+    "name": "pytest-django-model",
+    "version": "0.1.1"
+  },
+  {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
     "name": "pytest-django-ordering",
     "version": "1.0.1"
@@ -1252,7 +1257,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "0.1.0a2"
+    "version": "0.1.0a3"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1412,7 +1417,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "0.8.0.dev0"
+    "version": "1.0.1"
   },
   {
     "description": "UNKNOWN",
@@ -2212,7 +2217,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
