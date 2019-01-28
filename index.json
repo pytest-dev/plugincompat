@@ -47,7 +47,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.5.4"
+    "version": "2.5.5"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -287,7 +287,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.4"
+    "version": "2019.0.5"
   },
   {
     "description": "Mock object framework",
@@ -762,7 +762,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "1.1.0"
+    "version": "2.0.0rc1"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
