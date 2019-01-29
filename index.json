@@ -592,7 +592,7 @@
   {
     "description": "check the README when running tests",
     "name": "pytest-checkdocs",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -792,7 +792,7 @@
   {
     "description": "A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).",
     "name": "pytest-datatest",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "Databases fixtures plugin for py.test.",
@@ -897,7 +897,7 @@
   {
     "description": "A Simple Way to Test your Django Models",
     "name": "pytest-django-model",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
@@ -1427,7 +1427,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "UNKNOWN",
@@ -2182,7 +2182,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.1.23"
+    "version": "2019.1.29"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2192,7 +2192,7 @@
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
     "name": "pytest-salt-from-filenames",
-    "version": "2019.1.22"
+    "version": "2019.1.29"
   },
   {
     "description": "",
@@ -2717,7 +2717,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.26.0"
+    "version": "1.26.1"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
@@ -2772,7 +2772,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "0.2.0"
+    "version": "1.0.0"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
