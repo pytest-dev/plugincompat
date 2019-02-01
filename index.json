@@ -862,7 +862,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.5"
+    "version": "3.4.6"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1197,7 +1197,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -2162,7 +2162,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "1.0.0.dev0"
+    "version": "1.0.1.dev0"
   },
   {
     "description": "pytest data collector plugin for Testgr",
@@ -2840,9 +2840,9 @@
     "version": "0.4.2"
   },
   {
-    "description": "Reliable Browser Automation & Testing Framework",
+    "description": "Easy, Fast, Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.18.2"
+    "version": "1.19.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -2927,7 +2927,7 @@
   {
     "description": "Arcade 2D survival game.",
     "name": "worldmor",
-    "version": "0.2.2"
+    "version": "0.3"
   },
   {
     "description": "A rewrite of the builtin doctest module",
