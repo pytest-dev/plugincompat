@@ -192,7 +192,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.4.3"
+    "version": "4.4.4"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -562,7 +562,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.1.1"
+    "version": "1.2.2"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -2192,7 +2192,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.1.29"
+    "version": "2019.2.1.post1"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2842,7 +2842,7 @@
   {
     "description": "Easy, Fast, Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.0"
+    "version": "1.19.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -2932,7 +2932,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.7.0"
+    "version": "0.7.2"
   },
   {
     "description": "An XResources parser for python applications.",
