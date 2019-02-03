@@ -192,7 +192,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.4.4"
+    "version": "4.5.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -427,7 +427,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -822,7 +822,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.11.1"
+    "version": "0.12.0"
   },
   {
     "description": "DevPI server fixture for py.test",
@@ -2842,7 +2842,7 @@
   {
     "description": "Easy, Fast, Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.1"
+    "version": "1.19.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
