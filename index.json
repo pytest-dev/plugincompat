@@ -862,7 +862,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.6"
+    "version": "3.4.7"
   },
   {
     "description": "A Django plugin for pytest.",
