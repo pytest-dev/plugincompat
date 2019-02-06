@@ -42,7 +42,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.3.0"
+    "version": "5.3.4"
   },
   {
     "description": "Allure pytest integration",
@@ -292,7 +292,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.5"
+    "version": "2019.0.6"
   },
   {
     "description": "Mock object framework",
@@ -352,7 +352,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -2845,9 +2845,9 @@
     "version": "0.4.2"
   },
   {
-    "description": "Easy, Fast, Reliable Browser Automation & Testing Framework",
+    "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.2"
+    "version": "1.19.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
