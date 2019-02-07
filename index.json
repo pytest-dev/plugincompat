@@ -192,7 +192,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.5.1"
+    "version": "4.5.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1307,7 +1307,7 @@
   {
     "description": "pytest plugin for grpc",
     "name": "pytest-grpc",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   {
     "description": "Display \"&#128296; \" instead of \".\" for passed pytest tests.",
@@ -1842,7 +1842,7 @@
   {
     "description": "pytest plugin that let you play a YAML file describing some actions and assertions.",
     "name": "pytest-play",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   {
     "description": "",
@@ -2512,7 +2512,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.14"
+    "version": "0.9.15"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -2732,7 +2732,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "0.4.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
