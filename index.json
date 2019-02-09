@@ -22,7 +22,7 @@
   {
     "description": "The best bot",
     "name": "Maki-Undefined",
-    "version": "3.0.0"
+    "version": "2.0.0"
   },
   {
     "description": "Python wrapper for OTRS (using REST API)",
@@ -357,7 +357,7 @@
   {
     "description": "apistellar plugin for pytest. ",
     "name": "pytest-apistellar",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -772,7 +772,7 @@
   {
     "description": "pytest fixtures to run dash app.",
     "name": "pytest-dash",
-    "version": "2.0.0rc1"
+    "version": "2.0.0rc2"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -2167,7 +2167,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "1.0.1.dev0"
+    "version": "1.0.2.dev0"
   },
   {
     "description": "pytest data collector plugin for Testgr",
