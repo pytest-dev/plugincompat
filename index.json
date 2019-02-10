@@ -1,8 +1,8 @@
 [
   {
-    "description": "A highly customizable Discord bot",
+    "description": "A highly customisable Discord bot",
     "name": "BotEXBotBase",
-    "version": "3.0.0rc6"
+    "version": "3.1.0"
   },
   {
     "description": "Creates Apsim-Project files from given parameters and files.",
@@ -253,6 +253,11 @@
     "description": "A mock SSH server emulating Aerohive devices",
     "name": "mock-aerohive",
     "version": "0.0.2"
+  },
+  {
+    "description": "Python mutation testing.",
+    "name": "mutatest",
+    "version": "0.6.0.dev0"
   },
   {
     "description": "mutation testing for Python 2 and 3",
@@ -770,9 +775,9 @@
     "version": "0.1.0"
   },
   {
-    "description": "pytest fixtures to run dash app.",
+    "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.0.0rc2"
+    "version": "2.0.0rc3"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -2317,7 +2322,7 @@
   {
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
