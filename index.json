@@ -2,7 +2,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "BotEXBotBase",
-    "version": "3.1.0"
+    "version": "3.1.1"
   },
   {
     "description": "Creates Apsim-Project files from given parameters and files.",
@@ -197,7 +197,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.5.4"
+    "version": "4.5.6"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -2522,7 +2522,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.3.2"
+    "version": "2.3.3"
   },
   {
     "description": "",
@@ -2598,6 +2598,11 @@
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
     "name": "pytest-tornasync",
     "version": "0.6.0.post1"
+  },
+  {
+    "description": "",
+    "name": "pytest-track",
+    "version": "0.1.0"
   },
   {
     "description": "Test your translation files.",
