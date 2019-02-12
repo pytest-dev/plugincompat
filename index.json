@@ -197,7 +197,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.5.6"
+    "version": "4.5.8"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -382,7 +382,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
@@ -777,7 +777,7 @@
   {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.0.0rc3"
+    "version": "2.0.0rc4"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -1292,7 +1292,7 @@
   {
     "description": "Git repository fixture for py.test",
     "name": "pytest-git",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
@@ -1352,7 +1352,7 @@
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
     "name": "pytest-httpbin",
-    "version": "0.3.0"
+    "version": "1.0.0"
   },
   {
     "description": "A thin wrapper of HTTPretty for pytest",
@@ -1397,7 +1397,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.4.2"
+    "version": "0.5.0"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -1907,7 +1907,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "pytest plugin for instant test progress status",
@@ -1982,7 +1982,7 @@
   {
     "description": "Pyramid server fixture for py.test",
     "name": "pytest-pyramid-server",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "pytest plugin for interaction with TestRail",
@@ -2037,7 +2037,7 @@
   {
     "description": "Plugin enabling the use of exception instances with pytest.raises",
     "name": "pytest-raisin",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "py.test plugin to randomize tests",
@@ -2190,11 +2190,6 @@
     "version": "4.2"
   },
   {
-    "description": "Pytets plugin that allows showing runtime info in ide",
-    "name": "pytest-runtime-info",
-    "version": "0.1.0"
-  },
-  {
     "description": "",
     "name": "pytest-sa-pg",
     "version": "0.3.1"
@@ -2252,7 +2247,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.5.0"
+    "version": "1.6.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -2287,7 +2282,7 @@
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
@@ -2452,7 +2447,7 @@
   {
     "description": "SVN repository fixture for py.test",
     "name": "pytest-svn",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.",
@@ -2692,7 +2687,7 @@
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.4.0"
+    "version": "1.6.0"
   },
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
@@ -2857,7 +2852,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.4"
+    "version": "1.19.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
