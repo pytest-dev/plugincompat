@@ -257,7 +257,7 @@
   {
     "description": "Python mutation testing.",
     "name": "mutatest",
-    "version": "0.6.0.dev0"
+    "version": "0.6.1"
   },
   {
     "description": "mutation testing for Python 2 and 3",
@@ -302,7 +302,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.6"
+    "version": "2019.0.7"
   },
   {
     "description": "Mock object framework",
@@ -777,7 +777,7 @@
   {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.0.0rc4"
+    "version": "2.0.0rc5"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -1620,6 +1620,11 @@
     "version": "1.9.0"
   },
   {
+    "description": "A mock API server with configurable routes and responses available as a fixture.",
+    "name": "pytest-mock-api",
+    "version": "0.1.0"
+  },
+  {
     "description": "Help you mock HTTP call and generate mock code",
     "name": "pytest-mock-helper",
     "version": "0.2.1"
@@ -1808,6 +1813,11 @@
     "description": "pytest plugin which adds pdb helper commands related to pytest.",
     "name": "pytest-pdb",
     "version": "0.3.1"
+  },
+  {
+    "description": "A pytest command-line option for pdb breakpoints",
+    "name": "pytest-pdb-break",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -2247,7 +2257,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.6.0"
+    "version": "1.6.1"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -2627,7 +2637,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "A twisted plugin for py.test.",
