@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.4.0"
+    "version": "5.4.6"
   },
   {
     "description": "Allure pytest integration",
@@ -152,7 +152,7 @@
   {
     "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
     "name": "fsforge",
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -197,7 +197,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.5.8"
+    "version": "4.5.9"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -430,6 +430,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Makes pytest skip tests that don not need rerunning",
+    "name": "pytest-avoidance",
+    "version": "0.0.0"
+  },
+  {
     "description": "pytest plugin for testing AWS resource configurations",
     "name": "pytest-aws",
     "version": "0.1.0"
@@ -497,7 +502,7 @@
   {
     "description": "Disable network requests during a test run.",
     "name": "pytest-blockage",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "pytest plugin to mark a test as blocker and skip all other tests",
@@ -2197,7 +2202,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "4.2"
+    "version": "4.4"
   },
   {
     "description": "",
@@ -2372,7 +2377,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -2747,7 +2752,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
