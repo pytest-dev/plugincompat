@@ -2,7 +2,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "BotEXBotBase",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   {
     "description": "Creates Apsim-Project files from given parameters and files.",
@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.4.6"
+    "version": "5.4.9"
   },
   {
     "description": "Allure pytest integration",
@@ -295,6 +295,11 @@
     "version": "0.0.1"
   },
   {
+    "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
+    "name": "purerpc",
+    "version": "0.3.2"
+  },
+  {
     "description": "Standard Oracle Using (queries, updates, inserts)",
     "name": "pyDbOracle",
     "version": "0.2"
@@ -432,7 +437,7 @@
   {
     "description": "Makes pytest skip tests that don not need rerunning",
     "name": "pytest-avoidance",
-    "version": "0.0.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for testing AWS resource configurations",
@@ -597,7 +602,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.2.1"
+    "version": "0.3.1"
   },
   {
     "description": "Check links in files",
@@ -917,7 +922,7 @@
   {
     "description": "A Simple Way to Test your Django Models",
     "name": "pytest-django-model",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
@@ -1262,7 +1267,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -1407,7 +1412,7 @@
   {
     "description": "py.test plugin to show failures instantly",
     "name": "pytest-instafail",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
@@ -1417,7 +1422,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.0.6"
+    "version": "1.1.0"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -1822,7 +1827,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -2450,11 +2455,6 @@
     "version": "1.0"
   },
   {
-    "description": "Meta-package containing dependencies for the SunPy test suite.",
-    "name": "pytest-sunpy",
-    "version": "1.0.0"
-  },
-  {
     "description": "Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.",
     "name": "pytest-super-check",
     "version": "1.0.0"
@@ -2857,7 +2857,7 @@
   {
     "description": "A python client for sat-api",
     "name": "sat-search",
-    "version": "0.2.0b1"
+    "version": "0.2.1"
   },
   {
     "description": "Test Docker container images",
@@ -2867,7 +2867,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.5"
+    "version": "1.19.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
