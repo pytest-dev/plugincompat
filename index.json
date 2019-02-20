@@ -62,7 +62,7 @@
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
     "name": "automock",
-    "version": "1.1.0a1"
+    "version": "1.1.1"
   },
   {
     "description": "backports.unittest_mock",
@@ -197,7 +197,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.6.0"
+    "version": "4.6.1"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1622,7 +1622,7 @@
   {
     "description": "pytest plugin to display test execution output like a mochajs",
     "name": "pytest-mocha",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Thin-wrapper around the mock package for easier use with py.test",
@@ -1882,7 +1882,7 @@
   {
     "description": "",
     "name": "pytest-pmisc",
-    "version": "1.0"
+    "version": "1.0.2"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -2590,6 +2590,11 @@
     "version": "0.2"
   },
   {
+    "description": "",
+    "name": "pytest-tomato",
+    "version": "0.1.2"
+  },
+  {
     "description": "Numerous useful plugins for pytest.",
     "name": "pytest-toolbox",
     "version": "0.4"
@@ -2662,7 +2667,7 @@
   {
     "description": "Text User Interface for running python tests",
     "name": "pytest-ui",
-    "version": "0.3.2b0"
+    "version": "0.3.3b0"
   },
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
@@ -2957,7 +2962,7 @@
   {
     "description": "Arcade 2D survival game.",
     "name": "worldmor",
-    "version": "0.3"
+    "version": "0.3.1"
   },
   {
     "description": "A rewrite of the builtin doctest module",
