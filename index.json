@@ -197,7 +197,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.6.1"
+    "version": "4.7.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -342,7 +342,7 @@
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
     "name": "pytest-android",
-    "version": "2019.2a2"
+    "version": "2019.2a3"
   },
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
@@ -602,7 +602,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "Check links in files",
@@ -787,7 +787,7 @@
   {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.0.0rc5"
+    "version": "2.1.0"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -1022,7 +1022,7 @@
   {
     "description": "A py.test plugin that parses environment files before running tests",
     "name": "pytest-dotenv",
-    "version": "0.3.1"
+    "version": "0.4.0"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1600,6 +1600,11 @@
     "version": "0.1"
   },
   {
+    "description": "Plugin for generating Markdown reports for pytest results",
+    "name": "pytest-md",
+    "version": "0.1.0"
+  },
+  {
     "description": "Estimates memory consumption of test functions",
     "name": "pytest-memprof",
     "version": "0.1.1"
@@ -1712,7 +1717,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -1832,7 +1837,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -2272,7 +2277,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.6.1"
+    "version": "1.6.2"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -2592,7 +2597,7 @@
   {
     "description": "",
     "name": "pytest-tomato",
-    "version": "0.1.2"
+    "version": "1.0.4"
   },
   {
     "description": "Numerous useful plugins for pytest.",
@@ -2877,7 +2882,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.8"
+    "version": "1.19.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
