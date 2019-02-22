@@ -155,6 +155,11 @@
     "version": "0.3.6"
   },
   {
+    "description": "Pythonic web testing",
+    "name": "gambit-bromine",
+    "version": "0.1"
+  },
+  {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
     "name": "ghlinguist",
     "version": "1.0.0"
@@ -197,7 +202,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.7.0"
+    "version": "4.7.2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -787,7 +792,7 @@
   {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -1602,7 +1607,7 @@
   {
     "description": "Plugin for generating Markdown reports for pytest results",
     "name": "pytest-md",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -1717,7 +1722,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -2202,7 +2207,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "1.0.2.dev0"
+    "version": "1.1.0"
   },
   {
     "description": "pytest data collector plugin for Testgr",
@@ -2597,7 +2602,7 @@
   {
     "description": "",
     "name": "pytest-tomato",
-    "version": "1.0.4"
+    "version": "1.0.9"
   },
   {
     "description": "Numerous useful plugins for pytest.",
@@ -2827,7 +2832,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "1.0.0"
+    "version": "1.0.0.dev0"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
