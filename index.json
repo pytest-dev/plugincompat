@@ -202,7 +202,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.7.2"
+    "version": "4.7.6"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -312,7 +312,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2019.0.7"
+    "version": "2019.1.0"
   },
   {
     "description": "Mock object framework",
@@ -1887,7 +1887,7 @@
   {
     "description": "pytest plugin that let you play a YAML file describing some actions and assertions.",
     "name": "pytest-play",
-    "version": "2.0.2"
+    "version": "2.1.0"
   },
   {
     "description": "",
@@ -2207,7 +2207,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "pytest data collector plugin for Testgr",
