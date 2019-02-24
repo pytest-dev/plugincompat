@@ -202,7 +202,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.7.6"
+    "version": "4.7.9"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -252,7 +252,7 @@
   {
     "description": "Command line utility for using the Pytest testing framework in 3ds Max",
     "name": "maxpytest",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "A mock SSH server emulating Aerohive devices",
@@ -607,7 +607,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.3.2"
+    "version": "0.3.4"
   },
   {
     "description": "Check links in files",
