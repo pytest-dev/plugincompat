@@ -32,7 +32,7 @@
   {
     "description": "A highly customizable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.0.1"
+    "version": "3.0.2"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -52,7 +52,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.5.5"
+    "version": "2.6.0"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -633,6 +633,11 @@
     "description": "py.test plugin for CircleCI",
     "name": "pytest-circleci",
     "version": "0.0.2"
+  },
+  {
+    "description": "Parallelize pytest across CircleCI workers.",
+    "name": "pytest-circleci-parallelized",
+    "version": "0.0.1"
   },
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
