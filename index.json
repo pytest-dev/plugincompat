@@ -637,7 +637,7 @@
   {
     "description": "Parallelize pytest across CircleCI workers.",
     "name": "pytest-circleci-parallelized",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
@@ -2265,6 +2265,11 @@
     "version": "1.0a6"
   },
   {
+    "description": "An encrypted password store for use within pytest cases",
+    "name": "pytest-securestore",
+    "version": "0.1.1"
+  },
+  {
     "description": "A pytest plugin which allows to (de-)select tests from a file.",
     "name": "pytest-select",
     "version": "0.1.2"
@@ -2837,7 +2842,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "1.0.0.dev0"
+    "version": "1.1.0"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
@@ -2892,7 +2897,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.19.9"
+    "version": "1.20.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
