@@ -897,7 +897,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.7"
+    "version": "3.4.8"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -2147,7 +2147,7 @@
   {
     "description": "pytest plugin for repeating tests",
     "name": "pytest-repeat",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
@@ -2255,9 +2255,9 @@
     "version": "2019.1.30"
   },
   {
-    "description": "",
+    "description": "a pytest plugin for Sanic",
     "name": "pytest-sanic",
-    "version": "0.1.15"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -2267,7 +2267,7 @@
   {
     "description": "An encrypted password store for use within pytest cases",
     "name": "pytest-securestore",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A pytest plugin which allows to (de-)select tests from a file.",
@@ -2742,7 +2742,7 @@
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
     "name": "pytest-vts",
-    "version": "0.4.5"
+    "version": "0.4.6"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
@@ -2842,7 +2842,7 @@
   {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
