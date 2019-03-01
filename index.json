@@ -992,7 +992,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.2.9"
+    "version": "1.2.10"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1497,7 +1497,7 @@
   {
     "description": "Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest",
     "name": "pytest-kafka",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -1760,6 +1760,11 @@
     "version": "1.1"
   },
   {
+    "description": "nginx fixture for pytest - iplweb temporary fork",
+    "name": "pytest-nginx-iplweb",
+    "version": "1.1.1"
+  },
+  {
     "description": "pytest ngs fixtures",
     "name": "pytest-ngsfixtures",
     "version": "0.7.6"
@@ -1862,7 +1867,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -1905,9 +1910,9 @@
     "version": "0.1.0"
   },
   {
-    "description": "pytest plugin that let you play a YAML file describing some actions and assertions.",
+    "description": "pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files",
     "name": "pytest-play",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "",
