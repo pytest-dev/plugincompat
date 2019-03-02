@@ -82,7 +82,7 @@
   {
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -1397,7 +1397,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "use icdiff for better error messages in pytest assertions",
@@ -2112,7 +2112,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "Test your README.md file",
