@@ -462,7 +462,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -1277,7 +1277,7 @@
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
     "name": "pytest-flask-sqlalchemy",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Run tests in transactions using pytest, Flask, and SQLalchemy.",
@@ -2917,7 +2917,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.0"
+    "version": "1.21.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -2972,7 +2972,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "1.9.1"
+    "version": "2.0.0"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
