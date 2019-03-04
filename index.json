@@ -162,7 +162,7 @@
   {
     "description": "Pythonic web testing",
     "name": "gambit-bromine",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -265,9 +265,9 @@
     "version": "0.0.2"
   },
   {
-    "description": "Python mutation testing.",
+    "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "0.7.1"
+    "version": "0.8.0"
   },
   {
     "description": "mutation testing for Python 2 and 3",
@@ -462,7 +462,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "A bandit plugin for pytest",
