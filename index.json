@@ -1682,7 +1682,7 @@
   {
     "description": "A set of fixtures to test your requests to HTTP/UDP servers",
     "name": "pytest-mockservers",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -1818,6 +1818,11 @@
     "description": "include/exclude values of fixtures in pytest",
     "name": "pytest-optional",
     "version": "0.0.3"
+  },
+  {
+    "description": "A pytest plugin for orchestrating tests",
+    "name": "pytest-orchestration",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -2802,7 +2807,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -2917,7 +2922,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.1"
+    "version": "1.21.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -2992,7 +2997,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   {
     "description": "Test fixtures for Websauna",
