@@ -702,7 +702,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -2667,7 +2667,7 @@
   {
     "description": "",
     "name": "pytest-track",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Test your translation files.",
