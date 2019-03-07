@@ -162,7 +162,7 @@
   {
     "description": "Pythonic web testing",
     "name": "gambit-bromine",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -207,7 +207,7 @@
   {
     "description": "A library for property based testing",
     "name": "hypothesis",
-    "version": "4.7.9"
+    "version": "4.8.0"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -300,6 +300,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
+    "name": "parasolr",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin that let you drive a browser with Selenium",
     "name": "play-selenium",
     "version": "0.0.2"
@@ -345,6 +350,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "pytest support for airflow.",
+    "name": "pytest-airflow",
+    "version": "0.0.1"
+  },
+  {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.10"
@@ -367,7 +377,7 @@
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
     "name": "pytest-ansible-playbook",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
@@ -1037,7 +1047,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -1567,7 +1577,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.1.5"
+    "version": "0.2.0"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
@@ -1822,7 +1832,7 @@
   {
     "description": "A pytest plugin for orchestrating tests",
     "name": "pytest-orchestration",
-    "version": "0.0.1"
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -2807,7 +2817,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
