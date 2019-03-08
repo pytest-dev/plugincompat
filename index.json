@@ -352,7 +352,7 @@
   {
     "description": "pytest support for airflow.",
     "name": "pytest-airflow",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Plugin for py.test to generate allure xml reports",
@@ -377,7 +377,7 @@
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
     "name": "pytest-ansible-playbook",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
@@ -1332,7 +1332,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "0.1.0a5"
+    "version": "3.0.0a4"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1342,7 +1342,7 @@
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
     "name": "pytest-github",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -1472,7 +1472,7 @@
   {
     "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
@@ -1832,7 +1832,7 @@
   {
     "description": "A pytest plugin for orchestrating tests",
     "name": "pytest-orchestration",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -1907,7 +1907,7 @@
   {
     "description": "Run the tests related to the changed files",
     "name": "pytest-picked",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "",
@@ -2217,7 +2217,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "32.0.0"
+    "version": "32.0.126"
   },
   {
     "description": "Load resource fixture plugin to use with pytest",
