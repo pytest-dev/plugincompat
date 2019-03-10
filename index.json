@@ -267,7 +267,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "mutation testing for Python 2 and 3",
@@ -1332,7 +1332,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a4"
+    "version": "3.0.0a5.dev12"
   },
   {
     "description": "Git repository fixture for py.test",
