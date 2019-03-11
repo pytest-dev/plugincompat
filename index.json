@@ -102,7 +102,7 @@
   {
     "description": "Create decorators easily in python.",
     "name": "decopatch",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -1407,7 +1407,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.2.2"
+    "version": "0.3.0"
   },
   {
     "description": "use icdiff for better error messages in pytest assertions",
@@ -1472,7 +1472,7 @@
   {
     "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
