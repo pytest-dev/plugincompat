@@ -102,7 +102,7 @@
   {
     "description": "Create decorators easily in python.",
     "name": "decopatch",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -382,7 +382,7 @@
   {
     "description": "Bust functools.lru_cache when running pytest to avoid test pollution",
     "name": "pytest-antilru",
-    "version": "0.2.0"
+    "version": "0.2.1.post1"
   },
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
@@ -1197,7 +1197,7 @@
   {
     "description": "Pytest plugin for Flask Fantasy Framework",
     "name": "pytest-fantasy",
-    "version": "0.2.14"
+    "version": "0.2.15"
   },
   {
     "description": "Use SCM and coverage data to run only needed tests",
@@ -1377,7 +1377,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.6.0"
+    "version": "1.6.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1768,6 +1768,11 @@
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
     "version": "0.3.8"
+  },
+  {
+    "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
+    "name": "pytest-neo",
+    "version": "0.1.3"
   },
   {
     "description": "nginx fixture for pytest",
