@@ -2472,7 +2472,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.5.4"
+    "version": "1.6.1"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -2942,7 +2942,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.5"
+    "version": "1.21.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
