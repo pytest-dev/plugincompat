@@ -52,7 +52,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.6.0"
+    "version": "2.6.1"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -1282,7 +1282,7 @@
   {
     "description": "Flaptastic py.test plugin",
     "name": "pytest-flaptastic",
-    "version": "0.0.9"
+    "version": "0.0.25"
   },
   {
     "description": "A set of py.test fixtures to test Flask applications.",
@@ -1542,7 +1542,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
@@ -2597,7 +2597,7 @@
   {
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
-    "version": "0.9.15"
+    "version": "0.9.16"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -2942,7 +2942,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.6"
+    "version": "1.21.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3002,7 +3002,7 @@
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
     "name": "tidypy",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "Transfer learning info.",
