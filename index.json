@@ -62,7 +62,7 @@
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
     "name": "automock",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "backports.unittest_mock",
@@ -612,7 +612,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -817,7 +817,7 @@
   {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
-    "version": "2.1.1"
+    "version": "2.1.2"
   },
   {
     "description": "Useful functions for managing data for pytest fixtures",
@@ -1937,7 +1937,7 @@
   {
     "description": "pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files",
     "name": "pytest-play",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "",
@@ -2455,6 +2455,11 @@
     "version": "2.0.1"
   },
   {
+    "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
+    "name": "pytest-split-tests",
+    "version": "1.0.4"
+  },
+  {
     "description": "pytest plugin with sqlalchemy related fixtures",
     "name": "pytest-sqlalchemy",
     "version": "0.2.1"
@@ -2942,7 +2947,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.7"
+    "version": "1.21.8"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
