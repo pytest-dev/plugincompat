@@ -350,6 +350,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "A plugin to test aioworkers project with pytest",
+    "name": "pytest-aioworkers",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest support for airflow.",
     "name": "pytest-airflow",
     "version": "0.0.2"
@@ -632,7 +637,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -1337,7 +1342,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a6.dev4"
+    "version": "3.0.0a6.dev6"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1772,7 +1777,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "nginx fixture for pytest",
@@ -2182,7 +2187,7 @@
   {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
-    "version": "3.0"
+    "version": "3.0.1"
   },
   {
     "description": "Reorder tests depending on their paths and names.",
@@ -2837,7 +2842,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.26.1"
+    "version": "1.27.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
