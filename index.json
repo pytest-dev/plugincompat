@@ -617,7 +617,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1977,7 +1977,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
@@ -3042,7 +3042,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.7.2"
+    "version": "0.7.3"
   },
   {
     "description": "An XResources parser for python applications.",
