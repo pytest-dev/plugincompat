@@ -1342,7 +1342,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a6.dev6"
+    "version": "3.0.0a6.dev9"
   },
   {
     "description": "Git repository fixture for py.test",
