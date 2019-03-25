@@ -617,7 +617,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1553,6 +1553,11 @@
     "description": "A pytest plugin to trace resource leaks.",
     "name": "pytest-leaks",
     "version": "0.2.2"
+  },
+  {
+    "description": "Select tests of a given level or lower",
+    "name": "pytest-level",
+    "version": "0.1.1"
   },
   {
     "description": "A python-libfaketime plugin for pytest.",
@@ -2642,7 +2647,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "1.14.0"
+    "version": "2.0.1"
   },
   {
     "description": "Better fixtures management. Various helpers",
