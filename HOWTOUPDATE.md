@@ -14,4 +14,6 @@ Follow this steps to update Python and pytest versions on the site:
 
 2. Update `get_pytest_versions()` and `get_python_versions()` in `web.py` to match the versions in `.travis.yml`.
 
-3. Finally push `master` to GitHub and Heroku.
+3. Update `test_versions` in `test_web.py`.
+
+4. Finally push `master` to GitHub and Heroku.
