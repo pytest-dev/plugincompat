@@ -8,7 +8,7 @@ install:
 env:
   global:
     - secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="
-    - PYTEST_VERSION=3.9.1
+    - PYTEST_VERSION=4.3.0
     - PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
 
 jobs:
