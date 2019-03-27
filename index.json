@@ -662,7 +662,7 @@
   {
     "description": "Parallelize pytest across CircleCI workers.",
     "name": "pytest-circleci-parallelized",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
@@ -2147,7 +2147,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   {
     "description": "Test your README.md file",
