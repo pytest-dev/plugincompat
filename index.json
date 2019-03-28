@@ -2232,7 +2232,7 @@
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "6.0"
+    "version": "7.0"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
@@ -2998,6 +2998,11 @@
     "description": "Variety of remote sensing data for testing",
     "name": "stestdata",
     "version": "0.1.0"
+  },
+  {
+    "description": "A code-driven QA reporting library",
+    "name": "tasting",
+    "version": "0.0.1"
   },
   {
     "description": "Simple testing of RESTful APIs",
