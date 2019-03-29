@@ -1422,7 +1422,7 @@
   {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
-    "version": "0.0.4"
+    "version": "0.2"
   },
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
@@ -1782,7 +1782,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "nginx fixture for pytest",
@@ -1947,7 +1947,7 @@
   {
     "description": "pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files",
     "name": "pytest-play",
-    "version": "2.2.1"
+    "version": "2.2.2"
   },
   {
     "description": "",
@@ -2682,7 +2682,7 @@
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
