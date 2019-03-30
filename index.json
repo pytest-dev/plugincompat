@@ -907,7 +907,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-diff",
-    "version": "0.1.4"
+    "version": "0.1.9"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -1657,7 +1657,7 @@
   {
     "description": "Estimates memory consumption of test functions",
     "name": "pytest-memprof",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
