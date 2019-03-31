@@ -2625,6 +2625,11 @@
     "version": "1.9"
   },
   {
+    "description": "Tesults plugin for pytest",
+    "name": "pytest-tesults",
+    "version": "1.1.0"
+  },
+  {
     "description": "Detects thread leaks",
     "name": "pytest-threadleak",
     "version": "0.2.0"
@@ -2935,6 +2940,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "A recommendation application using either item-based or user-based approaches",
+    "name": "recommender-engine",
+    "version": "0.3.0"
+  },
+  {
     "description": "Python client library for the Responsys Interact REST API",
     "name": "responsysrest",
     "version": "0.1.9"
@@ -3048,6 +3058,11 @@
     "description": "Test fixtures for Websauna",
     "name": "websauna.tests",
     "version": "1.0a8"
+  },
+  {
+    "description": "A multiprocessing web-scraping application to scrape wiki pages and find minimum number of links between two given wiki pages.",
+    "name": "wikilink",
+    "version": "0.3.0.post1"
   },
   {
     "description": "Arcade 2D survival game.",
