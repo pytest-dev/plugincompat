@@ -527,7 +527,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
@@ -1830,6 +1830,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "The ultimate pytest output plugin",
+    "name": "pytest-ok",
+    "version": "2019.4.1"
+  },
+  {
     "description": "Use @pytest.mark.only to run a single test",
     "name": "pytest-only",
     "version": "1.2.1"
@@ -2752,7 +2757,7 @@
   {
     "description": "Text User Interface for running python tests",
     "name": "pytest-ui",
-    "version": "0.3.3b0"
+    "version": "0.3.4b0"
   },
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
@@ -2967,7 +2972,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.21.9"
+    "version": "1.22.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
