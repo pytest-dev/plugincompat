@@ -2530,6 +2530,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "unittest subTest() support and subtests fixture",
+    "name": "pytest-subtests",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
     "name": "pytest-subunit",
     "version": "0.0.10"
@@ -2747,7 +2752,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.9"
+    "version": "1.10"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -2972,7 +2977,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.22.0"
+    "version": "1.22.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3032,7 +3037,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
