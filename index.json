@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.4.9"
+    "version": "5.5.1"
   },
   {
     "description": "Allure pytest integration",
@@ -267,7 +267,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "0.9.0"
+    "version": "0.9.1"
   },
   {
     "description": "mutation testing for Python 2 and 3",
@@ -1122,7 +1122,7 @@
   {
     "description": "",
     "name": "pytest-env-yaml",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -2977,7 +2977,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.22.2"
+    "version": "1.22.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
