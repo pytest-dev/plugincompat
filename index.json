@@ -785,6 +785,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Manages CrateDB instances during your integration tests",
+    "name": "pytest-crate",
+    "version": "0.1.0"
+  },
+  {
     "description": "A Cricri plugin for pytest.",
     "name": "pytest-cricri",
     "version": "1.0"
@@ -1183,6 +1188,11 @@
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
     "version": "2.0.2"
+  },
+  {
+    "description": "A pytest plugin that helps better distinguishing real test failures from setup flakiness.",
+    "name": "pytest-failed-to-verify",
+    "version": "0.1.3"
   },
   {
     "description": "Faker integration with the pytest framework.",
@@ -1952,7 +1962,7 @@
   {
     "description": "pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files",
     "name": "pytest-play",
-    "version": "2.2.2"
+    "version": "2.3.0"
   },
   {
     "description": "",
@@ -2152,7 +2162,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "2.1.1"
+    "version": "3.0.0"
   },
   {
     "description": "Test your README.md file",
@@ -2537,7 +2547,7 @@
   {
     "description": "unittest subTest() support and subtests fixture",
     "name": "pytest-subtests",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
@@ -2915,6 +2925,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "A Zafira plugin for pytest",
+    "name": "pytest-zafira",
+    "version": "1.0.1"
+  },
+  {
     "description": "OWASP ZAP plugin for py.test.",
     "name": "pytest-zap",
     "version": "0.2"
@@ -2982,7 +2997,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.22.4"
+    "version": "1.22.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
