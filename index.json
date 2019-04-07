@@ -1527,7 +1527,7 @@
   {
     "description": "Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest",
     "name": "pytest-kafka",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
