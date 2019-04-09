@@ -1867,7 +1867,7 @@
   {
     "description": "A pytest plugin for orchestrating tests",
     "name": "pytest-orchestration",
-    "version": "0.0.4"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -2002,7 +2002,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.3.4"
+    "version": "1.4.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -3077,7 +3077,7 @@
   {
     "description": "The Unmock Python clent",
     "name": "unmock",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
