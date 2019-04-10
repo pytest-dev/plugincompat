@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "5.5.1"
+    "version": "6.0.4"
   },
   {
     "description": "Allure pytest integration",
@@ -57,7 +57,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "1.2.5"
+    "version": "2.1.0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -272,7 +272,7 @@
   {
     "description": "mutation testing for Python 2 and 3",
     "name": "mutmut",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -1352,7 +1352,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a6.dev9"
+    "version": "3.0.0a7.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
