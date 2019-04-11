@@ -57,7 +57,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -387,7 +387,7 @@
   {
     "description": "Bust functools.lru_cache when running pytest to avoid test pollution",
     "name": "pytest-antilru",
-    "version": "0.2.1.post1"
+    "version": "1.0.5"
   },
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
@@ -1192,7 +1192,7 @@
   {
     "description": "A pytest plugin that helps better distinguishing real test failures from setup flakiness.",
     "name": "pytest-failed-to-verify",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "Faker integration with the pytest framework.",
@@ -2418,6 +2418,11 @@
     "description": "Automatically skip tests that don't need to run!",
     "name": "pytest-skippy",
     "version": "0.1.1"
+  },
+  {
+    "description": "pytest plugin for reporting to slack",
+    "name": "pytest-slack",
+    "version": "1.0.1"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
