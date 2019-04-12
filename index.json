@@ -57,7 +57,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.2.0"
+    "version": "2.3.1"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -302,7 +302,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
@@ -1352,7 +1352,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev2"
+    "version": "3.0.0a7.dev5"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1527,7 +1527,7 @@
   {
     "description": "Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest",
     "name": "pytest-kafka",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
