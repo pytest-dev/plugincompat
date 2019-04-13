@@ -1282,7 +1282,7 @@
   {
     "description": "A pytest fixture for testing flake8 plugins.",
     "name": "pytest-flake8dir",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "Runs tests multiple times to expose flakiness.",
@@ -1352,7 +1352,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev5"
+    "version": "3.0.0a7.dev7"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2252,7 +2252,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "32.0.126"
+    "version": "32.0.140"
   },
   {
     "description": "Load resource fixture plugin to use with pytest",
