@@ -3002,7 +3002,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.22.9"
+    "version": "1.23.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
