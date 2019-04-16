@@ -225,11 +225,6 @@
     "version": "5.0"
   },
   {
-    "description": "Manage dependencies between pytests",
-    "name": "khare.pytest-dependency",
-    "version": "0.3.3"
-  },
-  {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
     "version": "0.0.3"
@@ -2357,7 +2352,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "pytest-seleniumbase",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A pytest plugin to report flaky tests to Sentry.io",
@@ -2900,6 +2895,11 @@
     "version": "0.12.1"
   },
   {
+    "description": "",
+    "name": "pytest-xray",
+    "version": "0.2"
+  },
+  {
     "description": "A pytest plugin to run Xvfb for tests.",
     "name": "pytest-xvfb",
     "version": "1.2.0"
@@ -3002,7 +3002,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.0"
+    "version": "1.23.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
