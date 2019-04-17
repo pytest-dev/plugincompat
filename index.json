@@ -1787,7 +1787,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "nginx fixture for pytest",
@@ -1862,7 +1862,7 @@
   {
     "description": "A pytest plugin for orchestrating tests",
     "name": "pytest-orchestration",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -2167,7 +2167,7 @@
   {
     "description": "Pytest fixtures for REANA.",
     "name": "pytest-reana",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -2692,7 +2692,7 @@
   {
     "description": "Create and run markdown Readmes from within pytest",
     "name": "pytest-to-md",
-    "version": "20181107"
+    "version": "20190421"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
