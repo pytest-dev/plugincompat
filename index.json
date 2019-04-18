@@ -1132,7 +1132,7 @@
   {
     "description": "pytest plugin to check for commented out code",
     "name": "pytest-eradicate",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "Pytest plugin to treat skipped tests a test failure",
@@ -1787,7 +1787,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "nginx fixture for pytest",
@@ -2415,9 +2415,9 @@
     "version": "0.1.1"
   },
   {
-    "description": "pytest plugin for reporting to slack",
+    "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
@@ -2688,11 +2688,6 @@
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
     "version": "0.1.5"
-  },
-  {
-    "description": "Create and run markdown Readmes from within pytest",
-    "name": "pytest-to-md",
-    "version": "20190421"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
@@ -3002,7 +2997,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.1"
+    "version": "1.23.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
