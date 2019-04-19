@@ -227,7 +227,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.0.3"
+    "version": "0.1.0"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -1787,7 +1787,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.1.8"
+    "version": "0.2.0"
   },
   {
     "description": "nginx fixture for pytest",
