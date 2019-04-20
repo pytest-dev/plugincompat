@@ -410,6 +410,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "pytest-assertutil",
+    "name": "pytest-assertutil",
+    "version": "0.0.1"
+  },
+  {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
     "version": "1.2.2"
@@ -2352,7 +2357,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "pytest-seleniumbase",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin to report flaky tests to Sentry.io",
@@ -2398,6 +2403,11 @@
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
     "version": "1.6.0"
+  },
+  {
+    "description": "simple-settings plugin for pytest",
+    "name": "pytest-simple-settings",
+    "version": "0.1.2"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
