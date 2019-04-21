@@ -95,9 +95,9 @@
     "version": "0.1"
   },
   {
-    "description": "Testing tools for data validation and analysis.",
+    "description": "Test driven data-wrangling and data validation.",
     "name": "datatest",
-    "version": "0.9.3"
+    "version": "0.9.4"
   },
   {
     "description": "Create decorators easily in python.",
@@ -1215,9 +1215,9 @@
     "version": "0.2.15"
   },
   {
-    "description": "Use SCM and coverage data to run only needed tests",
+    "description": "Use SCM and coverage to run only needed tests",
     "name": "pytest-fastest",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests",
