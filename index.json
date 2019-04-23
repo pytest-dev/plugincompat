@@ -710,6 +710,11 @@
     "version": "1.1"
   },
   {
+    "description": "pytest framework for testing different aspects of a common method",
+    "name": "pytest-common-subject",
+    "version": "1.0.0"
+  },
+  {
     "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
     "name": "pytest-concurrent",
     "version": "0.2.2"
@@ -1265,6 +1270,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "pytest plugin to control fixture evaluation order",
+    "name": "pytest-fixture-order",
+    "version": "0.1.1"
+  },
+  {
     "description": "Plugin for pytest which provides tools for fixtures",
     "name": "pytest-fixture-tools",
     "version": "1.0.0"
@@ -1547,7 +1557,7 @@
   {
     "description": "Define pytest fixtures using lambda functions",
     "name": "pytest-lambda",
-    "version": "0.0.2"
+    "version": "0.1.0"
   },
   {
     "description": "",
@@ -3007,7 +3017,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.3"
+    "version": "1.23.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
