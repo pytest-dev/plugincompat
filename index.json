@@ -530,6 +530,11 @@
     "version": "0.3.5"
   },
   {
+    "description": "A pytest plugin helps developers to debug by providing useful commits history.",
+    "name": "pytest-blame",
+    "version": "0.1.5"
+  },
+  {
     "description": "Pytest plugin to emit notifications via the Blink(1) RGB LED",
     "name": "pytest-blink1",
     "version": "0.0.8"
@@ -1802,7 +1807,7 @@
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "nginx fixture for pytest",
@@ -3017,7 +3022,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.4"
+    "version": "1.23.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
