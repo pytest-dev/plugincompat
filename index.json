@@ -297,7 +297,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
@@ -1367,7 +1367,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev7"
+    "version": "3.0.0a7.dev71"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -3022,7 +3022,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.5"
+    "version": "1.23.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
