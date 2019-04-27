@@ -50,6 +50,11 @@
     "version": "6.0.4"
   },
   {
+    "description": "Switcher Boiler Bridge and API",
+    "name": "aioswitcher",
+    "version": "2019.4.26"
+  },
+  {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
     "version": "2.6.2"
@@ -1367,7 +1372,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev71"
+    "version": "3.0.0a7.dev76"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2822,7 +2827,7 @@
   {
     "description": "Plugin for managing VCR.py cassettes",
     "name": "pytest-vcr",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Test from HTTP interactions to dataframe processed.",
