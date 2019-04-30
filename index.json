@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "6.0.4"
+    "version": "6.0.6"
   },
   {
     "description": "Switcher Boiler Bridge and API",
@@ -1372,7 +1372,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev81"
+    "version": "3.0.0a7.dev85"
   },
   {
     "description": "Git repository fixture for py.test",
