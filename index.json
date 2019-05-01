@@ -247,7 +247,7 @@
   {
     "description": "A pytest-based tool to list test fixtures declared but not used in a test",
     "name": "loofah",
-    "version": "0.1.1"
+    "version": "0.1.4"
   },
   {
     "description": "MyAnimeList web scraper",
@@ -383,6 +383,11 @@
     "description": "Pytest fixture which runs given ansible playbook file.",
     "name": "pytest-ansible-playbook",
     "version": "0.4.1"
+  },
+  {
+    "description": "Pytest fixture which runs given ansible playbook file.",
+    "name": "pytest-ansible-playbook-runner",
+    "version": "0.0.2"
   },
   {
     "description": "Bust functools.lru_cache when running pytest to avoid test pollution",
@@ -618,6 +623,11 @@
     "description": "A plugin that replays pRNG state on failure.",
     "name": "pytest-caprng",
     "version": "0.1.0"
+  },
+  {
+    "description": "pytest plugin to capture all deprecatedwarnings and put them in one file",
+    "name": "pytest-capture-deprecatedwarnings",
+    "version": "0.2"
   },
   {
     "description": "py.test plugin to capture log messages",
@@ -1372,7 +1382,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev85"
+    "version": "3.0.0a7.dev89"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1532,7 +1542,7 @@
   {
     "description": "Parellise tests with posix jobserver.",
     "name": "pytest-jobserver",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "Generate JSON test reports",
