@@ -100,9 +100,14 @@
     "version": "0.1"
   },
   {
+    "description": "Module created to facilitate the creation and use of data structures",
+    "name": "datastructs",
+    "version": "0.2"
+  },
+  {
     "description": "Test driven data-wrangling and data validation.",
     "name": "datatest",
-    "version": "0.9.4"
+    "version": "0.9.5"
   },
   {
     "description": "Create decorators easily in python.",
@@ -277,7 +282,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.2.7"
+    "version": "0.2.8"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -1302,7 +1307,7 @@
   {
     "description": "Common fixtures for pytest",
     "name": "pytest-fixtures",
-    "version": "0.0.6"
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin to check FLAKE8 requirements",
@@ -1540,9 +1545,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "Parellise tests with posix jobserver.",
+    "description": "Limit parallel tests with posix jobserver.",
     "name": "pytest-jobserver",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Generate JSON test reports",
@@ -2717,7 +2722,7 @@
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
     "name": "pytest-timeouts",
-    "version": "1.1.2"
+    "version": "1.2"
   },
   {
     "description": "",
