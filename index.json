@@ -682,7 +682,7 @@
   {
     "description": "py.test plugin for CircleCI",
     "name": "pytest-circleci",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Parallelize pytest across CircleCI workers.",
@@ -787,7 +787,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.6.1"
+    "version": "2.7.1"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -1387,7 +1387,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev89"
+    "version": "3.0.0a7.dev97"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1547,7 +1547,7 @@
   {
     "description": "Limit parallel tests with posix jobserver.",
     "name": "pytest-jobserver",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Generate JSON test reports",
@@ -2042,7 +2042,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Minitest-style test colors",
