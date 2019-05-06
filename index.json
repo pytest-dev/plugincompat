@@ -102,7 +102,7 @@
   {
     "description": "Module created to facilitate the creation and use of data structures",
     "name": "datastructs",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Test driven data-wrangling and data validation.",
@@ -127,7 +127,7 @@
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
     "name": "django-test-plus",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "A pytest fixture to provide Docker integration.",
@@ -357,7 +357,7 @@
   {
     "description": "A plugin to test aioworkers project with pytest",
     "name": "pytest-aioworkers",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "pytest support for airflow.",
@@ -702,7 +702,7 @@
   {
     "description": "Easy quality control for CLDF datasets using pytest",
     "name": "pytest-cldf",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Py.test plugin for Click",
@@ -1507,7 +1507,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -1667,7 +1667,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -1892,7 +1892,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.4.7"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin to test OpenERP modules",
@@ -3127,7 +3127,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "2.1.0"
+    "version": "3.0.0"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
