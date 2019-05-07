@@ -370,6 +370,11 @@
     "version": "1.7.10"
   },
   {
+    "description": "pytest plugin to test case doc string dls instructions",
+    "name": "pytest-allure-dsl",
+    "version": "0.0.1"
+  },
+  {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
     "name": "pytest-android",
     "version": "2019.2a3"
@@ -3067,7 +3072,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.6"
+    "version": "1.23.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3127,7 +3132,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
