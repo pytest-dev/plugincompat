@@ -2497,7 +2497,7 @@
   {
     "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
@@ -3077,7 +3077,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.8"
+    "version": "1.23.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
