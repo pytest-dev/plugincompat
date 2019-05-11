@@ -1022,7 +1022,7 @@
   {
     "description": "Generate performance rapports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "0.0.0"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -2312,7 +2312,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "pytest plugin to check pinned requirements",
