@@ -2317,7 +2317,7 @@
   {
     "description": "pytest plugin to check pinned requirements",
     "name": "pytest-reqs",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
