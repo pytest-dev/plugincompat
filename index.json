@@ -47,7 +47,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "7.0.3"
+    "version": "7.1.0"
   },
   {
     "description": "Switcher Boiler Bridge and API",
@@ -57,7 +57,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.6.2"
+    "version": "2.6.3"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -665,6 +665,11 @@
     "version": "1.2.2"
   },
   {
+    "description": "A set of py.test fixtures for AWS Chalice",
+    "name": "pytest-chalice",
+    "version": "0.0.3"
+  },
+  {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
     "version": "0.3.4"
@@ -1022,7 +1027,7 @@
   {
     "description": "Generate performance rapports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "0.1.0"
+    "version": "1.0.0.dev1"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -1352,7 +1357,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.14.0"
+    "version": "0.15.0"
   },
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
@@ -2502,7 +2507,7 @@
   {
     "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "1.0.3"
+    "version": "2.0.0"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
