@@ -1,6 +1,11 @@
 [
   {
     "description": "A highly customisable Discord bot",
+    "name": "AN-DiscordBot",
+    "version": "3.9.4"
+  },
+  {
+    "description": "A highly customisable Discord bot",
     "name": "BotEXBotBase",
     "version": "3.1.3"
   },
@@ -672,7 +677,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "Check links in files",
@@ -2797,7 +2802,7 @@
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
