@@ -11,6 +11,11 @@
   },
   {
     "description": "A highly customisable Discord bot",
+    "name": "Blue-DiscordBot",
+    "version": "3.2.0"
+  },
+  {
+    "description": "A highly customisable Discord bot",
     "name": "BotEXBotBase",
     "version": "3.1.3"
   },
@@ -28,6 +33,11 @@
     "description": "Multi-purpose search engine for various protocols.",
     "name": "Findex-GUI",
     "version": "0.2.18"
+  },
+  {
+    "description": "Doing the OAuth dance with style using Flask, requests, and oauthlib",
+    "name": "Flask-Dance",
+    "version": "2.1.0"
   },
   {
     "description": "The best bot",
@@ -568,6 +578,11 @@
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
     "version": "0.3.5"
+  },
+  {
+    "description": "Allow '--black' on older Pythons",
+    "name": "pytest-black-multipy",
+    "version": "1.0.0"
   },
   {
     "description": "A pytest plugin helps developers to debug by providing useful commits history.",
@@ -1592,7 +1607,7 @@
   {
     "description": "Limit parallel tests with posix jobserver.",
     "name": "pytest-jobserver",
-    "version": "0.3.1"
+    "version": "1.0.0"
   },
   {
     "description": "Generate JSON test reports",
@@ -1732,7 +1747,7 @@
   {
     "description": "Skip matching marks. Matches partial marks using wildcards.",
     "name": "pytest-match-skip",
-    "version": "0.1.2"
+    "version": "0.2.1"
   },
   {
     "description": "'Match test output against patterns stored in files'",
@@ -2402,7 +2417,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.5.10.post1"
+    "version": "2019.5.15"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
