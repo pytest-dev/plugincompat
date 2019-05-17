@@ -67,7 +67,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "7.1.0"
+    "version": "7.2.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -192,7 +192,7 @@
   {
     "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
     "name": "fsforge",
-    "version": "0.3.6"
+    "version": "0.3.7"
   },
   {
     "description": "Pythonic web testing",
@@ -397,7 +397,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -697,7 +697,7 @@
   {
     "description": "A set of py.test fixtures for AWS Chalice",
     "name": "pytest-chalice",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "A pytest plugin that allows multiple failures per test.",
@@ -1322,7 +1322,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.0.2"
+    "version": "1.0.4"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
