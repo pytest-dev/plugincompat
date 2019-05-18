@@ -1730,6 +1730,11 @@
     "version": "0.1"
   },
   {
+    "description": "pytest plugin and bowler codemod to help migrate tests to Python 3",
+    "name": "pytest-mark-no-py3",
+    "version": "0.1.0"
+  },
+  {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
     "version": "0.7"
@@ -1868,6 +1873,11 @@
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
     "version": "0.9"
+  },
+  {
+    "description": "",
+    "name": "pytest-mproc",
+    "version": "1.0.3"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3177,7 +3187,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "3.0.3"
+    "version": "3.0.4"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
