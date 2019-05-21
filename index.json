@@ -395,9 +395,14 @@
     "version": "1.7.10"
   },
   {
+    "description": "Plugin for py.test to generate allure xml reports",
+    "name": "pytest-allure-adaptor2",
+    "version": "1.7.11"
+  },
+  {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1877,7 +1882,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.0.3"
+    "version": "1.0.5"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
