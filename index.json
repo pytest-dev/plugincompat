@@ -402,7 +402,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1487,7 +1487,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.6.1"
+    "version": "1.7.0"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -1577,7 +1577,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
