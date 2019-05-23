@@ -67,7 +67,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "7.2.0"
+    "version": "7.2.5"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -522,7 +522,7 @@
   {
     "description": "Makes pytest skip tests that don not need rerunning",
     "name": "pytest-avoidance",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for testing AWS resource configurations",
@@ -2422,7 +2422,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "4.4"
+    "version": "4.5"
   },
   {
     "description": "",
@@ -2493,6 +2493,11 @@
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
     "version": "1.6.2"
+  },
+  {
+    "description": "Automatically mocks resources from serverless.yml file.",
+    "name": "pytest-serverless",
+    "version": "0.3.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
