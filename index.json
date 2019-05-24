@@ -542,7 +542,7 @@
   {
     "description": "A bandit plugin for pytest",
     "name": "pytest-bandit",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -1447,7 +1447,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0a7.dev97"
+    "version": "3.0.0rc2.dev3"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2422,7 +2422,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "4.5"
+    "version": "5.1"
   },
   {
     "description": "",
@@ -2612,7 +2612,7 @@
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Exports unit tests as test runs in SpiraTest/Team/Plan",
@@ -2627,7 +2627,7 @@
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
-    "version": "1.0.5"
+    "version": "1.0.8"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -2832,7 +2832,7 @@
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
     "name": "pytest-todo",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   {
     "description": "",
