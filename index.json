@@ -3242,7 +3242,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   {
     "description": "An XResources parser for python applications.",
