@@ -787,7 +787,7 @@
   {
     "description": "pytest framework for testing different aspects of a common method",
     "name": "pytest-common-subject",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
@@ -1650,9 +1650,9 @@
     "version": "0.1.35"
   },
   {
-    "description": "Define pytest fixtures using lambda functions",
+    "description": "Define pytest fixtures with lambda functions.",
     "name": "pytest-lambda",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "",
@@ -2635,6 +2635,11 @@
     "version": "0.2.1"
   },
   {
+    "description": "pytest plugin for ssh command run",
+    "name": "pytest-ssh",
+    "version": "0.1"
+  },
+  {
     "description": "Start pytest run from a given point",
     "name": "pytest-start-from",
     "version": "0.1.0"
@@ -3092,7 +3097,7 @@
   {
     "description": "A py.test plugin that runs tests its found in your Markdown files.",
     "name": "pytest_markdown",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "Provide tools for generating tests from combinations of fixtures.",
