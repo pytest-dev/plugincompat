@@ -50,6 +50,11 @@
     "version": "0.4.1"
   },
   {
+    "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
+    "name": "PyTestReport",
+    "version": "0.1.5"
+  },
+  {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
     "version": "3.1.1"
@@ -867,7 +872,7 @@
   {
     "description": "Manages CrateDB instances during your integration tests",
     "name": "pytest-crate",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A Cricri plugin for pytest.",
@@ -972,7 +977,7 @@
   {
     "description": "DevPI server fixture for py.test",
     "name": "pytest-devpi-server",
-    "version": "1.4.0"
+    "version": "1.7.0"
   },
   {
     "description": "pytest plugin for diamond",
@@ -1062,7 +1067,7 @@
   {
     "description": "Generate performance rapports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "1.0.0.dev1"
+    "version": "1.0.0rc1"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -1342,7 +1347,7 @@
   {
     "description": "Fixture configuration utils for py.test",
     "name": "pytest-fixture-config",
-    "version": "1.4.0"
+    "version": "1.7.0"
   },
   {
     "description": "A pytest plugin to add markers based on fixtures used.",
@@ -1452,7 +1457,7 @@
   {
     "description": "Git repository fixture for py.test",
     "name": "pytest-git",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
@@ -1492,7 +1497,7 @@
   {
     "description": "Functions to help in using the pytest testing framework",
     "name": "pytest-helper",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "PyTest Helpers Namespace",
@@ -1687,7 +1692,7 @@
   {
     "description": "A simple network listener",
     "name": "pytest-listener",
-    "version": "1.4.0"
+    "version": "1.7.0"
   },
   {
     "description": "A pytest plugin that stream output in LITF format",
@@ -2142,7 +2147,7 @@
   {
     "description": "Profiling plugin for py.test",
     "name": "pytest-profiling",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "pytest plugin for instant test progress status",
@@ -2217,7 +2222,7 @@
   {
     "description": "Pyramid server fixture for py.test",
     "name": "pytest-pyramid-server",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "pytest plugin for interaction with TestRail",
@@ -2492,7 +2497,7 @@
   {
     "description": "Extensible server fixures for py.test",
     "name": "pytest-server-fixtures",
-    "version": "1.6.2"
+    "version": "1.7.0"
   },
   {
     "description": "Automatically mocks resources from serverless.yml file.",
@@ -2532,7 +2537,7 @@
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
     "name": "pytest-shutil",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "simple-settings plugin for pytest",
@@ -2717,7 +2722,7 @@
   {
     "description": "SVN repository fixture for py.test",
     "name": "pytest-svn",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.",
@@ -2957,12 +2962,12 @@
   {
     "description": "More descriptive output for parametrized py.test tests",
     "name": "pytest-verbose-parametrize",
-    "version": "1.5.1"
+    "version": "1.7.0"
   },
   {
     "description": "Virtualenv fixture for py.test",
     "name": "pytest-virtualenv",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
@@ -2992,7 +2997,7 @@
   {
     "description": "Selenium webdriver fixture for py.test",
     "name": "pytest-webdriver",
-    "version": "1.4.0"
+    "version": "1.7.0"
   },
   {
     "description": "Welian API Automation test framework pytest plugin",
