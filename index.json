@@ -587,7 +587,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   {
     "description": "Allow '--black' on older Pythons",
@@ -692,7 +692,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.6.2"
+    "version": "1.6.3"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -2227,7 +2227,7 @@
   {
     "description": "pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -2632,7 +2632,7 @@
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -3232,7 +3232,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   {
     "description": "Test fixtures for Websauna",
