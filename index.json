@@ -87,7 +87,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.6.3"
+    "version": "2.6.4"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -587,7 +587,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.6"
+    "version": "0.3.7"
   },
   {
     "description": "Allow '--black' on older Pythons",
@@ -1452,7 +1452,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0rc2.dev3"
+    "version": "3.0.0rc2.dev5"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2295,6 +2295,11 @@
     "version": "3.0.0"
   },
   {
+    "description": "Pytest plugin about random seed management",
+    "name": "pytest-randomness",
+    "version": "0.1.0"
+  },
+  {
     "description": "Test your README.md file",
     "name": "pytest-readme",
     "version": "1.0.0"
@@ -2367,7 +2372,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.5"
+    "version": "1.0.7"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -3042,7 +3047,7 @@
   {
     "description": "",
     "name": "pytest-xray",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   {
     "description": "A pytest plugin to run Xvfb for tests.",
@@ -3207,7 +3212,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "3.0.4"
+    "version": "3.0.5"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
@@ -3232,7 +3237,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   {
     "description": "Test fixtures for Websauna",
