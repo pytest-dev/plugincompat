@@ -1312,7 +1312,7 @@
   {
     "description": "py.test plugin that activates the fault handler module for tests",
     "name": "pytest-faulthandler",
-    "version": "1.5.0"
+    "version": "1.6.0"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -1497,7 +1497,7 @@
   {
     "description": "Functions to help in using the pytest testing framework",
     "name": "pytest-helper",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "PyTest Helpers Namespace",
@@ -1627,7 +1627,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "UNKNOWN",
@@ -2227,7 +2227,7 @@
   {
     "description": "pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
