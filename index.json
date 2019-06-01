@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -1452,7 +1452,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0rc2.dev5"
+    "version": "3.0.0rc2.dev7"
   },
   {
     "description": "Git repository fixture for py.test",
