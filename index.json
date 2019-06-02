@@ -2842,7 +2842,7 @@
   {
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
