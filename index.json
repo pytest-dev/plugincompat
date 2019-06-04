@@ -37,7 +37,7 @@
   {
     "description": "Doing the OAuth dance with style using Flask, requests, and oauthlib",
     "name": "Flask-Dance",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "The best bot",
@@ -352,7 +352,7 @@
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
     "name": "pyDbOracle",
-    "version": "0.2"
+    "version": "0.4"
   },
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
@@ -1022,7 +1022,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.4.8"
+    "version": "3.5.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1452,7 +1452,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0rc2.dev7"
+    "version": "3.0.0rc2.dev9"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1887,7 +1887,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2507,7 +2507,7 @@
   {
     "description": "Automatically mocks resources from serverless.yml file.",
     "name": "pytest-serverless",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
