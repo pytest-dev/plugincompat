@@ -52,7 +52,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -202,7 +202,7 @@
   {
     "description": "Pythonic web testing",
     "name": "gambit-bromine",
-    "version": "0.3"
+    "version": "0.3.1"
   },
   {
     "description": "simple command-line parser of GitHub Linguist Ruby program.",
@@ -373,6 +373,11 @@
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
     "version": "0.2.5"
+  },
+  {
+    "description": "pytest plugin for pytest-repeat that aggregates test result of the same test in terminal and html(if pytest-html is available) with additional statistics.",
+    "name": "pytest-aggreport",
+    "version": "0.1.1"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -897,7 +902,7 @@
   {
     "description": "Exit pytest test session with custom exit code in different scenarios",
     "name": "pytest-custom-exit-code",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Configure the symbols displayed for test outcomes",
@@ -2442,7 +2447,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.5.15"
+    "version": "2019.6.4"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2982,7 +2987,7 @@
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
     "name": "pytest-vts",
-    "version": "0.4.7"
+    "version": "0.4.8"
   },
   {
     "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
