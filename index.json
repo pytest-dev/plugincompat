@@ -87,7 +87,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.6.4"
+    "version": "2.6.5"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -352,7 +352,7 @@
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
     "name": "pyDbOracle",
-    "version": "0.4"
+    "version": "0.4.1"
   },
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
@@ -412,7 +412,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1070,9 +1070,9 @@
     "version": "1.1.0"
   },
   {
-    "description": "Generate performance rapports from your django database performance tests.",
+    "description": "Generate performance reports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "1.0.0rc1"
+    "version": "1.0.0rc2"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -2232,7 +2232,7 @@
   {
     "description": "pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.1.9"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -3027,7 +3027,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
