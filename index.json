@@ -1072,7 +1072,7 @@
   {
     "description": "Generate performance reports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "1.0.0rc2"
+    "version": "1.0.0rc3"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
