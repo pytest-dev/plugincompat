@@ -52,7 +52,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.6"
+    "version": "0.1.8"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -118,6 +118,11 @@
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
     "version": "0.3"
+  },
+  {
+    "description": "API testing for BC Data Catalog",
+    "name": "ckanext-bcdc-apitests",
+    "version": "0.0.5"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -2332,7 +2337,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
@@ -2512,7 +2517,7 @@
   {
     "description": "Automatically mocks resources from serverless.yml file.",
     "name": "pytest-serverless",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
