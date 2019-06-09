@@ -2452,7 +2452,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.6.4"
+    "version": "2019.6.9"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
