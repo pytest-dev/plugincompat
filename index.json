@@ -77,7 +77,7 @@
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
     "name": "aiomisc-dependency",
-    "version": "0.1.0"
+    "version": "0.1.4"
   },
   {
     "description": "Switcher Boiler Bridge and API",
@@ -380,9 +380,9 @@
     "version": "0.2.5"
   },
   {
-    "description": "pytest plugin for pytest-repeat that aggregates test result of the same test in terminal and html(if pytest-html is available) with additional statistics.",
+    "description": "pytest plugin for pytest-repeat that generate aggregate report of the same test cases with additional statistics details.",
     "name": "pytest-aggreport",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -2803,6 +2803,11 @@
     "description": "take TDD to a new level with py.test and testmon",
     "name": "pytest-testmon",
     "version": "0.9.16"
+  },
+  {
+    "description": "Plugin to use TestObject Suites with Pytest",
+    "name": "pytest-testobject",
+    "version": "0.1.0"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
