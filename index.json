@@ -417,7 +417,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
