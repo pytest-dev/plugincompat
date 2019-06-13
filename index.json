@@ -110,6 +110,11 @@
     "version": "1.7.2"
   },
   {
+    "description": "API testing for BC Data Catalog",
+    "name": "bcdc-apitests",
+    "version": "0.0.6"
+  },
+  {
     "description": "library extracting coastline regions from raster data",
     "name": "beachfront",
     "version": "0.2.5"
@@ -118,11 +123,6 @@
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
     "version": "0.3"
-  },
-  {
-    "description": "API testing for BC Data Catalog",
-    "name": "ckanext-bcdc-apitests",
-    "version": "0.0.5"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -2467,7 +2467,7 @@
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
     "name": "pytest-salt-runtests-bridge",
-    "version": "2019.6.12"
+    "version": "2019.6.14"
   },
   {
     "description": "a pytest plugin for Sanic",
