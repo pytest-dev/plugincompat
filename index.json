@@ -110,11 +110,6 @@
     "version": "1.7.2"
   },
   {
-    "description": "API testing for BC Data Catalog",
-    "name": "bcdc-apitests",
-    "version": "0.0.6"
-  },
-  {
     "description": "library extracting coastline regions from raster data",
     "name": "beachfront",
     "version": "0.2.5"
@@ -342,7 +337,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
@@ -702,7 +697,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.6.3"
+    "version": "1.8.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
