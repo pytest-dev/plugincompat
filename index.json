@@ -697,7 +697,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.8.0"
+    "version": "1.8.1"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1247,7 +1247,7 @@
   {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "Better exceptions",
@@ -1890,9 +1890,9 @@
     "version": "0.9"
   },
   {
-    "description": "",
+    "description": "distributed pytest using multiprocessing",
     "name": "pytest-mproc",
-    "version": "1.0.6"
+    "version": "1.0.9"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2337,7 +2337,7 @@
   {
     "description": "Relaxed test discovery/organization for pytest",
     "name": "pytest-relaxed",
-    "version": "1.1.4"
+    "version": "1.1.5"
   },
   {
     "description": "Pytest plugin for controlling remote data access.",
@@ -2542,7 +2542,7 @@
   {
     "description": "A plugin for testing shell scripts and line-based processes with pytest",
     "name": "pytest-shell",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -3037,7 +3037,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.28.0"
+    "version": "1.29.0"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
