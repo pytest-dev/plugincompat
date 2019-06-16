@@ -1100,6 +1100,11 @@
     "version": "0.6.1"
   },
   {
+    "description": "",
+    "name": "pytest-docker-butla",
+    "version": "0.7.0"
+  },
+  {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
     "version": "1.0.1"
@@ -2612,7 +2617,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
