@@ -777,7 +777,7 @@
   {
     "description": "PyTest plugin for testing Smart Contracts for Ethereum blockchain.",
     "name": "pytest-cobra",
-    "version": "1.0.0a1"
+    "version": "1.0.1"
   },
   {
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
