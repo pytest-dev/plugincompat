@@ -110,6 +110,11 @@
     "version": "1.7.2"
   },
   {
+    "description": "API testing for BC Data Catalog",
+    "name": "bcdc-apitests",
+    "version": "2019.6.18"
+  },
+  {
     "description": "library extracting coastline regions from raster data",
     "name": "beachfront",
     "version": "0.2.5"
@@ -282,7 +287,7 @@
   {
     "description": "A pytest-based tool to list test fixtures declared but not used in a test",
     "name": "loofah",
-    "version": "0.1.4"
+    "version": "0.2.0rc0"
   },
   {
     "description": "MyAnimeList web scraper",
@@ -352,7 +357,7 @@
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
     "name": "pyDbOracle",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
@@ -450,9 +455,9 @@
     "version": "1.1"
   },
   {
-    "description": "apistellar plugin for pytest. ",
+    "description": "apistellar plugin for pytest.",
     "name": "pytest-apistellar",
-    "version": "0.1.9"
+    "version": "0.2.0"
   },
   {
     "description": "AppEngine integration that works well with pytest-django",
@@ -697,7 +702,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "1.8.1"
+    "version": "1.9.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1853,6 +1858,11 @@
     "description": "Utility for adding additional properties to junit xml for IDM QE",
     "name": "pytest-modifyjunit",
     "version": "1.5.post0"
+  },
+  {
+    "description": "PyTest Molecule Plugin :: discover and run molecule tests",
+    "name": "pytest-molecule",
+    "version": "0.1.0"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
