@@ -112,7 +112,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.0.2"
+    "version": "0.1.1"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -653,6 +653,11 @@
     "description": "``py.test`` plugin to run ``BrowserStackLocal`` in background.",
     "name": "pytest-browserstack-local",
     "version": "0.5.0"
+  },
+  {
+    "description": "Pytest plugin Mark test as a bug",
+    "name": "pytest-bug",
+    "version": "0.2.2"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -1472,7 +1477,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0rc2.dev9"
+    "version": "3.0.0rc2.dev90"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2252,7 +2257,7 @@
   {
     "description": "pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -2797,7 +2802,7 @@
   {
     "description": "Test configuration plugin for pytest.",
     "name": "pytest-testconfig",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
