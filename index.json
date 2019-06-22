@@ -112,7 +112,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -568,6 +568,11 @@
     "description": "BDD for pytest",
     "name": "pytest-bdd",
     "version": "3.1.0"
+  },
+  {
+    "description": "Common steps for pytest bdd and splinter integration",
+    "name": "pytest-bdd-splinter",
+    "version": "0.0.1"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
