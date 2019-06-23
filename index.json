@@ -52,7 +52,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -572,7 +572,7 @@
   {
     "description": "Common steps for pytest bdd and splinter integration",
     "name": "pytest-bdd-splinter",
-    "version": "0.0.1"
+    "version": "0.0.3"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -1227,7 +1227,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-elk-reporter",
-    "version": "0.0.6"
+    "version": "0.1.0"
   },
   {
     "description": "A pytest plugin that adds emojis to your test result report",
