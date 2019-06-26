@@ -162,7 +162,7 @@
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
     "name": "django-test-plus",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "A pytest fixture to provide Docker integration.",
@@ -347,7 +347,7 @@
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
     "name": "play-selenium",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
@@ -373,6 +373,11 @@
     "description": "pypom_form",
     "name": "pypom-form",
     "version": "0.3.1"
+  },
+  {
+    "description": "Snapshot Testing utils for Python",
+    "name": "pysnap",
+    "version": "1.0.1"
   },
   {
     "description": "A simple image diff plugin for pytest",
@@ -552,6 +557,11 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
+    "version": "0.6.0"
+  },
+  {
+    "description": "Formatting PyTest output for Azure Pipelines UI",
+    "name": "pytest-azurepipelines42",
     "version": "0.6.0"
   },
   {
@@ -988,6 +998,11 @@
     "description": "Tests that depend on other tests",
     "name": "pytest-depends",
     "version": "0.8.1"
+  },
+  {
+    "description": "Mark tests as testing a deprecated feature with a warning note.",
+    "name": "pytest-deprecate",
+    "version": "1.0.1"
   },
   {
     "description": "Describe-style plugin for pytest",
@@ -1475,6 +1490,11 @@
     "version": "0.0.1-alpha"
   },
   {
+    "description": "A flexible framework for executing BDD gherkin tests",
+    "name": "pytest-gherkin",
+    "version": "0.1.0"
+  },
+  {
     "description": "For finding/executing Ghost Inspector tests",
     "name": "pytest-ghostinspector",
     "version": "0.4.0"
@@ -1918,6 +1938,11 @@
     "description": "A test batcher for multiprocessed Pytest runs",
     "name": "pytest-mp",
     "version": "0.0.4"
+  },
+  {
+    "description": "pytest plugin to collect information from tests",
+    "name": "pytest-mpi",
+    "version": "0.1"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -3207,7 +3232,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.23.9"
+    "version": "1.24.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
