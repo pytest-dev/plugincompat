@@ -422,7 +422,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -688,6 +688,11 @@
     "description": "A plugin that allows you to execute create, update, and read information from BugZilla bugs",
     "name": "pytest-bugzilla-notifier",
     "version": "1.1.9"
+  },
+  {
+    "description": "",
+    "name": "pytest-buildkite",
+    "version": "0.1.2.dev0"
   },
   {
     "description": "Run your tests in Bubblewrap sandboxes",
@@ -1007,7 +1012,7 @@
   {
     "description": "Mark tests as testing a deprecated feature with a warning note.",
     "name": "pytest-deprecate",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Describe-style plugin for pytest",
@@ -1107,7 +1112,7 @@
   {
     "description": "Generate performance reports from your django database performance tests.",
     "name": "pytest-django-queries",
-    "version": "1.0.0rc3"
+    "version": "1.1.0"
   },
   {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
@@ -2413,6 +2418,11 @@
     "description": "Relaxed test discovery/organization for pytest",
     "name": "pytest-relaxed",
     "version": "1.1.5"
+  },
+  {
+    "description": "Pytest plugin to create a temporary directory with remote files",
+    "name": "pytest-remfiles",
+    "version": "0.0.2"
   },
   {
     "description": "Pytest plugin for controlling remote data access.",
