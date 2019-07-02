@@ -1295,6 +1295,11 @@
     "version": "0.1.0a9"
   },
   {
+    "description": "Gherkin runner compatible with Lettuce",
+    "name": "pytest-eucalyptus",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
     "version": "1.2.3"
