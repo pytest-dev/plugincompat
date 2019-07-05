@@ -437,7 +437,7 @@
   {
     "description": "Plugin for py.test to simplify calling ansible modules from tests or fixtures",
     "name": "pytest-ansible",
-    "version": "2.0.2"
+    "version": "2.1.1"
   },
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
@@ -692,7 +692,7 @@
   {
     "description": "Plugin for pytest that automatically publishes coverage and pytest report annotations to Buildkite.",
     "name": "pytest-buildkite",
-    "version": "0.1.4.dev0"
+    "version": "0.2.0"
   },
   {
     "description": "Run your tests in Bubblewrap sandboxes",
@@ -865,9 +865,9 @@
     "version": "0.1.3"
   },
   {
-    "description": "A Pytest plugin for your Cookiecutter templates",
+    "description": "The pytest plugin for your Cookiecutter templates &#127850;",
     "name": "pytest-cookies",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "py.test extension for per-test couchdb databases using couchdbkit",
@@ -1370,9 +1370,9 @@
     "version": "0.0.9"
   },
   {
-    "description": "py.test plugin that activates the fault handler module for tests",
+    "description": "py.test plugin that activates the fault handler module for tests (dummy package)",
     "name": "pytest-faulthandler",
-    "version": "1.6.0"
+    "version": "2.0.1"
   },
   {
     "description": "Integration of fauxfactory into pytest.",
@@ -2912,7 +2912,7 @@
   {
     "description": "A small example package",
     "name": "pytest-testrail2",
-    "version": "2.5"
+    "version": "2.7"
   },
   {
     "description": "Tesults plugin for pytest",
