@@ -345,6 +345,11 @@
     "version": "0.4.0"
   },
   {
+    "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
+    "name": "pipefish",
+    "version": "0.1.1.dev0"
+  },
+  {
     "description": "pytest plugin that let you drive a browser with Selenium",
     "name": "play-selenium",
     "version": "0.0.3"
