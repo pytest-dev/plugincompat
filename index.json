@@ -567,7 +567,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
@@ -1702,7 +1702,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "1.0.5"
+    "version": "1.1.0"
   },
   {
     "description": "UNKNOWN",
