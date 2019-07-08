@@ -52,7 +52,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.9"
+    "version": "0.1.9.1"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -83,6 +83,11 @@
     "description": "Switcher Boiler Unofficial Bridge and API.",
     "name": "aioswitcher",
     "version": "2019.7.2"
+  },
+  {
+    "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
+    "name": "alauda-xdist",
+    "version": "1.30.1"
   },
   {
     "description": "Allure pytest integration",
@@ -587,7 +592,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "3.1.0"
+    "version": "3.1.1"
   },
   {
     "description": "Common steps for pytest bdd and splinter integration",
@@ -2040,6 +2045,11 @@
     "version": "1.0.2"
   },
   {
+    "description": "A pytest plugin for generating Nunit3 test result XML output",
+    "name": "pytest-nunit",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest results data-base and HTML reporter",
     "name": "pytest-ochrus",
     "version": "0.0.6"
@@ -2485,6 +2495,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "Re-run only changed files in specified branch",
+    "name": "pytest-rerun",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
     "version": "7.0"
@@ -2527,7 +2542,7 @@
   {
     "description": "pytest data collector plugin for Testgr",
     "name": "pytest-rt",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "implement a --failed option for pytest",
