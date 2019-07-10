@@ -2937,7 +2937,7 @@
   {
     "description": "A small example package",
     "name": "pytest-testrail2",
-    "version": "2.7.2"
+    "version": "2.7.5"
   },
   {
     "description": "Tesults plugin for pytest",
