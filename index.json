@@ -72,7 +72,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "7.2.5"
+    "version": "8.0.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -277,7 +277,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.1.2"
+    "version": "0.2.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -797,7 +797,7 @@
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
     "name": "pytest-clarity",
-    "version": "0.1.0a1"
+    "version": "0.2.0a1"
   },
   {
     "description": "Easy quality control for CLDF datasets using pytest",
@@ -1157,7 +1157,7 @@
   {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
-    "version": "1.0.1"
+    "version": "2.0.0"
   },
   {
     "description": "A plugin to use docker databases for pytests",
@@ -1857,7 +1857,7 @@
   {
     "description": "Plugin for generating Markdown reports for pytest results",
     "name": "pytest-md",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -2582,7 +2582,7 @@
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
     "name": "pytest-salt-runtests-bridge",
-    "version": "2019.6.14"
+    "version": "2019.7.10"
   },
   {
     "description": "a pytest plugin for Sanic",
@@ -2915,9 +2915,9 @@
     "version": "0.33"
   },
   {
-    "description": "take TDD to a new level with py.test and testmon",
+    "description": "find bugs 10x faster",
     "name": "pytest-testmon",
-    "version": "0.9.16"
+    "version": "0.9.18"
   },
   {
     "description": "Plugin to use TestObject Suites with Pytest",
@@ -2937,7 +2937,7 @@
   {
     "description": "A small example package",
     "name": "pytest-testrail2",
-    "version": "2.7.5"
+    "version": "2.7.6"
   },
   {
     "description": "Tesults plugin for pytest",
