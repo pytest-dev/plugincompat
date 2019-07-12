@@ -352,7 +352,7 @@
   {
     "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
     "name": "pipefish",
-    "version": "0.1.1.dev0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
@@ -577,7 +577,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines42",
-    "version": "0.6.2"
+    "version": "0.8.3"
   },
   {
     "description": "A bandit plugin for pytest",
