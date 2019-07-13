@@ -1290,6 +1290,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Pytest plugin to validate use of envvars on your tests",
+    "name": "pytest-envvars",
+    "version": "0.0.1"
+  },
+  {
     "description": "pytest plugin to check for commented out code",
     "name": "pytest-eradicate",
     "version": "0.0.4"
