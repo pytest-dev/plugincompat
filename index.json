@@ -352,7 +352,7 @@
   {
     "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
     "name": "pipefish",
-    "version": "0.3.0"
+    "version": "0.4.1"
   },
   {
     "description": "pytest plugin that let you drive a browser with Selenium",
@@ -1680,6 +1680,11 @@
     "version": "0.3.1"
   },
   {
+    "description": "",
+    "name": "pytest-it",
+    "version": "0.1.0"
+  },
+  {
     "description": "Run jasmine tests from your pytest test suite",
     "name": "pytest-jasmine",
     "version": "0.0.2"
@@ -2050,9 +2055,9 @@
     "version": "1.0.2"
   },
   {
-    "description": "A pytest plugin for generating Nunit3 test result XML output",
+    "description": "A pytest plugin for generating NUnit3 test result XML output",
     "name": "pytest-nunit",
-    "version": "0.0.5"
+    "version": "0.3.0"
   },
   {
     "description": "pytest results data-base and HTML reporter",
@@ -3017,7 +3022,7 @@
   {
     "description": "py.test plugin for testing Python 3.5+ Tornado code",
     "name": "pytest-tornasync",
-    "version": "0.6.0.post1"
+    "version": "0.6.0.post2"
   },
   {
     "description": "",
@@ -3292,7 +3297,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.25.0"
+    "version": "1.25.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3397,7 +3402,7 @@
   {
     "description": "A rewrite of the builtin doctest module",
     "name": "xdoctest",
-    "version": "0.8.1"
+    "version": "0.8.3"
   },
   {
     "description": "An XResources parser for python applications.",
