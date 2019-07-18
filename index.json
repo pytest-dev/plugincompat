@@ -277,7 +277,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -3302,7 +3302,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.25.3"
+    "version": "1.25.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
