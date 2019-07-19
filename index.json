@@ -397,7 +397,7 @@
   {
     "description": "pytest plugin for pytest-repeat that generate aggregate report of the same test cases with additional statistics details.",
     "name": "pytest-aggreport",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "pytest fixtures for writing aiofiles tests with pyfakefs",
@@ -1167,7 +1167,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.3.0"
+    "version": "1.3.1"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -2432,7 +2432,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -2582,7 +2582,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.6.13"
+    "version": "2019.7.18"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2892,7 +2892,7 @@
   {
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
-    "version": "2018.8.11"
+    "version": "2019.7.18"
   },
   {
     "description": "generate terraform resources to use with pytest",
