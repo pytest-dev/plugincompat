@@ -1685,9 +1685,9 @@
     "version": "0.3.1"
   },
   {
-    "description": "",
+    "description": "Pytest plugin to display test reports as a plaintext spec, inspired by Rspec: https://github.com/mattduck/pytest-it.",
     "name": "pytest-it",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
@@ -2007,7 +2007,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "0.3.0"
+    "version": "1.0.0"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -2437,7 +2437,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -2472,7 +2472,7 @@
   {
     "description": "Pytest plugin for controlling remote data access.",
     "name": "pytest-remotedata",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "py.test plugin to remove stale byte code files.",
@@ -3367,7 +3367,7 @@
   {
     "description": "Fixtures for testinfra and molecule",
     "name": "testaid",
-    "version": "0.3"
+    "version": "0.5"
   },
   {
     "description": "Test infrastructures",
