@@ -277,7 +277,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -362,7 +362,7 @@
   {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
     "name": "purerpc",
-    "version": "0.3.2"
+    "version": "0.4.1"
   },
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
@@ -947,7 +947,7 @@
   {
     "description": "Exit pytest test session with custom exit code in different scenarios",
     "name": "pytest-custom-exit-code",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   {
     "description": "Configure the symbols displayed for test outcomes",
@@ -1817,7 +1817,7 @@
   {
     "description": "Pytest plugin providing three logger fixtures with basic or full writing to log files",
     "name": "pytest-logfest",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
@@ -3307,7 +3307,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.25.4"
+    "version": "1.25.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3367,7 +3367,7 @@
   {
     "description": "Fixtures for testinfra and molecule",
     "name": "testaid",
-    "version": "0.5"
+    "version": "0.6.1"
   },
   {
     "description": "Test infrastructures",
