@@ -92,7 +92,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.7.0"
+    "version": "2.7.1"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -362,7 +362,7 @@
   {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
     "name": "purerpc",
-    "version": "0.4.1"
+    "version": "0.5.2"
   },
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
@@ -597,7 +597,7 @@
   {
     "description": "Common steps for pytest bdd and splinter integration",
     "name": "pytest-bdd-splinter",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -1412,7 +1412,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
@@ -1767,7 +1767,7 @@
   {
     "description": "A pytest plugin to trace resource leaks.",
     "name": "pytest-leaks",
-    "version": "0.2.2"
+    "version": "0.3.0"
   },
   {
     "description": "Select tests of a given level or lower",
@@ -2007,7 +2007,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -3183,6 +3183,11 @@
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
     "version": "1.29.0"
+  },
+  {
+    "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
+    "name": "pytest-xdist-debug-for-graingert",
+    "version": "0.0.1"
   },
   {
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
