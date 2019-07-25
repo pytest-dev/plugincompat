@@ -117,7 +117,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -1612,7 +1612,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2007,7 +2007,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "1.0.1"
+    "version": "1.0.3"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -3312,7 +3312,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.25.5"
+    "version": "1.25.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
