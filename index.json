@@ -52,7 +52,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.9.1"
+    "version": "0.1.9.2"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -582,7 +582,7 @@
   {
     "description": "A bandit plugin for pytest",
     "name": "pytest-bandit",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "pytest plugin for URL based testing",
@@ -1052,7 +1052,7 @@
   {
     "description": "",
     "name": "pytest-dictsdiff",
-    "version": "0.5.6"
+    "version": "0.5.8"
   },
   {
     "description": "A simple plugin to use with pytest",
@@ -1122,7 +1122,7 @@
   {
     "description": "A pytest plugin for preserving the order in which Django runs tests.",
     "name": "pytest-django-ordering",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Generate performance reports from your django database performance tests.",
@@ -1822,7 +1822,7 @@
   {
     "description": "Plugin configuring handlers for loggers from Python logging module.",
     "name": "pytest-logger",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "Configures logging and allows tweaking the log level with a py.test flag",
@@ -2145,6 +2145,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "Simpler PyTest parametrization",
+    "name": "pytest-parametrization",
+    "version": "2019.1.2"
+  },
+  {
     "description": "Pytest plugin for parametrizing tests with default iterables.",
     "name": "pytest-parametrized",
     "version": "1.1"
@@ -2233,6 +2238,11 @@
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
     "version": "0.9"
+  },
+  {
+    "description": "Provides Polecat pytest fixtures",
+    "name": "pytest-polecat",
+    "version": "0.0.0"
   },
   {
     "description": "PonyORM in Pytest",
@@ -3242,7 +3252,7 @@
   {
     "description": "A Zafira plugin for pytest",
     "name": "pytest-zafira",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
@@ -3312,7 +3322,7 @@
   {
     "description": "Reliable Browser Automation & Testing Framework",
     "name": "seleniumbase",
-    "version": "1.25.6"
+    "version": "1.26.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
