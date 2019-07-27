@@ -277,7 +277,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
