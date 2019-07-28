@@ -1527,7 +1527,7 @@
   {
     "description": "A flexible framework for executing BDD gherkin tests",
     "name": "pytest-gherkin",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "For finding/executing Ghost Inspector tests",
@@ -2147,7 +2147,7 @@
   {
     "description": "Simpler PyTest parametrization",
     "name": "pytest-parametrization",
-    "version": "2019.1.2"
+    "version": "2019.1.3"
   },
   {
     "description": "Pytest plugin for parametrizing tests with default iterables.",
@@ -2242,7 +2242,7 @@
   {
     "description": "Provides Polecat pytest fixtures",
     "name": "pytest-polecat",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   {
     "description": "PonyORM in Pytest",
@@ -3320,9 +3320,9 @@
     "version": "0.4.2"
   },
   {
-    "description": "Reliable Browser Automation & Testing Framework",
+    "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.26.1"
+    "version": "1.26.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
