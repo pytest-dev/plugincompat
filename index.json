@@ -502,7 +502,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
@@ -3322,7 +3322,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.26.2"
+    "version": "1.26.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3380,9 +3380,9 @@
     "version": "0.9.1"
   },
   {
-    "description": "Fixtures for testinfra and molecule",
+    "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "Test infrastructures",
