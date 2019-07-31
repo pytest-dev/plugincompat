@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.4"
+    "version": "3.1.5"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -420,6 +420,11 @@
     "version": "0.0.3"
   },
   {
+    "description": "Pytest fixture extending Numpy's allclose function",
+    "name": "pytest-allclose",
+    "version": "1.0.0"
+  },
+  {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor",
     "version": "1.7.10"
@@ -597,7 +602,7 @@
   {
     "description": "Common steps for pytest bdd and splinter integration",
     "name": "pytest-bdd-splinter",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
