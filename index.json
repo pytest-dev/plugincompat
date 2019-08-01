@@ -167,7 +167,7 @@
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
     "name": "django-test-plus",
-    "version": "1.2.1"
+    "version": "1.3.1"
   },
   {
     "description": "A pytest fixture to provide Docker integration.",
@@ -1617,7 +1617,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.3.1"
+    "version": "0.3.3"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2452,7 +2452,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3327,7 +3327,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.26.3"
+    "version": "1.26.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
