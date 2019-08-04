@@ -40,11 +40,6 @@
     "version": "2.2.0"
   },
   {
-    "description": "The best bot",
-    "name": "Maki-Undefined",
-    "version": "2.0.0"
-  },
-  {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
     "version": "0.4.1"
@@ -3387,12 +3382,12 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.6.2"
+    "version": "0.7.1"
   },
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "3.0.5"
+    "version": "3.0.6"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
