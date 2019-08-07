@@ -112,7 +112,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.1.5"
+    "version": "0.1.4"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -947,7 +947,7 @@
   {
     "description": "Exit pytest test session with custom exit code in different scenarios",
     "name": "pytest-custom-exit-code",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Configure the symbols displayed for test outcomes",
@@ -2058,6 +2058,11 @@
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
     "version": "1.0.2"
+  },
+  {
+    "description": "A PyTest Reporter to send test runs to Notion.so",
+    "name": "pytest-notion",
+    "version": "1.0.0"
   },
   {
     "description": "A pytest plugin for generating NUnit3 test result XML output",
@@ -3285,6 +3290,11 @@
     "version": "0.6"
   },
   {
+    "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
+    "name": "python-clu",
+    "version": "0.2.4"
+  },
+  {
     "description": "Unofficial python API client for Hiptest",
     "name": "python-hiptest",
     "version": "0.0.0"
@@ -3382,7 +3392,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.7.4"
+    "version": "0.8.2"
   },
   {
     "description": "Test infrastructures",
