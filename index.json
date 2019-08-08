@@ -2062,7 +2062,7 @@
   {
     "description": "A PyTest Reporter to send test runs to Notion.so",
     "name": "pytest-notion",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "A pytest plugin for generating NUnit3 test result XML output",
@@ -3292,7 +3292,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.2.4"
+    "version": "0.2.5"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3392,7 +3392,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.8.2"
+    "version": "0.8.4"
   },
   {
     "description": "Test infrastructures",
