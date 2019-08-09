@@ -125,6 +125,11 @@
     "version": "0.3"
   },
   {
+    "description": "Python config wrapper, with added goodness",
+    "name": "configa",
+    "version": "1.1.0"
+  },
+  {
     "description": "Extendible configuration testing in parallel.",
     "name": "ctip",
     "version": "0.1.0"
@@ -1362,7 +1367,7 @@
   {
     "description": "A pytest plugin that helps better distinguishing real test failures from setup flakiness.",
     "name": "pytest-failed-to-verify",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Faker integration with the pytest framework.",
@@ -2575,6 +2580,11 @@
     "version": "0.2.3"
   },
   {
+    "description": "Fixtures for seeding tests and making randomness reproducible",
+    "name": "pytest-rng",
+    "version": "1.0.0"
+  },
+  {
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-rpc",
     "version": "1.1.1"
@@ -3292,7 +3302,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.2.5"
+    "version": "0.2.7"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3332,7 +3342,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.27.1"
+    "version": "1.28.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3392,7 +3402,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.8.4"
+    "version": "0.8.7"
   },
   {
     "description": "Test infrastructures",
