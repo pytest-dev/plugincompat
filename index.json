@@ -1542,7 +1542,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.0rc2.dev90"
+    "version": "3.0.1.dev6"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1947,7 +1947,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.0rc1"
+    "version": "1.1.0rc5"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -2233,6 +2233,11 @@
     "description": "pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files",
     "name": "pytest-play",
     "version": "2.3.1"
+  },
+  {
+    "description": "Fixtures for quickly making Matplotlib plots in tests",
+    "name": "pytest-plt",
+    "version": "1.0.0"
   },
   {
     "description": "",
@@ -3342,7 +3347,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.28.0"
+    "version": "1.28.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3402,7 +3407,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.8.7"
+    "version": "0.8.8"
   },
   {
     "description": "Test infrastructures",
