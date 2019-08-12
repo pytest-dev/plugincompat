@@ -602,7 +602,7 @@
   {
     "description": "Common steps for pytest bdd and splinter integration",
     "name": "pytest-bdd-splinter",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -1147,7 +1147,7 @@
   {
     "description": "A djangorestframework plugin for pytest",
     "name": "pytest-djangorestframework",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "A documentation plugin for py.test.",
@@ -2067,7 +2067,7 @@
   {
     "description": "A pytest plugin for testing Jupyter Notebooks",
     "name": "pytest-notebook",
-    "version": "0.3.1"
+    "version": "0.5.1"
   },
   {
     "description": "A pytest plugin to notify test result",
@@ -2267,7 +2267,7 @@
   {
     "description": "Provides Polecat pytest fixtures",
     "name": "pytest-polecat",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "PonyORM in Pytest",
@@ -2632,7 +2632,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.7.20"
+    "version": "2019.8.12"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3055,6 +3055,11 @@
     "version": "1.0.9"
   },
   {
+    "description": "This is just a collection of utilities for pytest, but don't really belong in pytest proper.",
+    "name": "pytest-toolbelt",
+    "version": "0.1.0"
+  },
+  {
     "description": "Numerous useful plugins for pytest.",
     "name": "pytest-toolbox",
     "version": "0.4"
@@ -3422,7 +3427,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.9.0"
+    "version": "0.9.1"
   },
   {
     "description": "Test infrastructures",
