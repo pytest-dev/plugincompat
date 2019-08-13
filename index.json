@@ -1307,7 +1307,7 @@
   {
     "description": "Pytest plugin to validate use of envvars on your tests",
     "name": "pytest-envvars",
-    "version": "0.0.1"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin to check for commented out code",
@@ -1547,7 +1547,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.1.dev6"
+    "version": "3.0.2.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1902,7 +1902,7 @@
   {
     "description": "Mimesis integration with the pytest test runner",
     "name": "pytest-mimesis",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Test your machine learning!",
@@ -1952,7 +1952,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.1.0rc5"
+    "version": "1.1.0rc6"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -2067,7 +2067,7 @@
   {
     "description": "A pytest plugin for testing Jupyter Notebooks",
     "name": "pytest-notebook",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "A pytest plugin to notify test result",
@@ -2632,7 +2632,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.8.12"
+    "version": "2019.8.13"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3327,7 +3327,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.2.7"
+    "version": "0.2.8"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3367,7 +3367,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.28.2"
+    "version": "1.28.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3427,7 +3427,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.9.1"
+    "version": "0.9.4"
   },
   {
     "description": "Test infrastructures",
