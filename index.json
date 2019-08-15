@@ -112,7 +112,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.1.4"
+    "version": "0.2.2"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -498,6 +498,11 @@
     "description": "test Answer Set Programming programs",
     "name": "pytest-asptest",
     "version": "0.1.0"
+  },
+  {
+    "description": "Useful assertion utilities for use with pytest",
+    "name": "pytest-assert-utils",
+    "version": "0.0.1"
   },
   {
     "description": "pytest-assertutil",
@@ -1182,7 +1187,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.3.2"
+    "version": "1.3.3"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1762,7 +1767,7 @@
   {
     "description": "Define pytest fixtures with lambda functions.",
     "name": "pytest-lambda",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "",
@@ -2632,7 +2637,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.8.15"
+    "version": "2019.8.16"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3427,7 +3432,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
-    "version": "0.9.4"
+    "version": "0.9.7"
   },
   {
     "description": "Test infrastructures",
