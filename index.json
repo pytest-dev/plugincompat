@@ -90,6 +90,11 @@
     "version": "2.7.1"
   },
   {
+    "description": "Alternative pytest plugin to pytest-asyncio",
+    "name": "alt-pytest-asyncio",
+    "version": "0.5"
+  },
+  {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
     "version": "2.4.0"
@@ -112,7 +117,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "0.2.2"
+    "version": "0.2.4"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -277,7 +282,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.3.3"
+    "version": "0.4.0"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -2347,7 +2352,7 @@
   {
     "description": "Plugin for py.test to enter PyCharm debugger on uncaught exceptions",
     "name": "pytest-pycharm",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "pytest plugin to run pycodestyle",
@@ -2637,7 +2642,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.8.16"
+    "version": "2019.8.17"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3332,7 +3337,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.2.8"
+    "version": "0.3.1"
   },
   {
     "description": "Unofficial python API client for Hiptest",
