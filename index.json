@@ -1827,7 +1827,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
@@ -3377,7 +3377,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.29.0"
+    "version": "1.29.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
