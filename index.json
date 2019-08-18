@@ -2482,7 +2482,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3052,7 +3052,7 @@
   {
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
@@ -3377,7 +3377,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.29.1"
+    "version": "1.30.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
