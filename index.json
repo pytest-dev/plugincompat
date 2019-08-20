@@ -617,7 +617,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "3.1.1"
+    "version": "3.2.0"
   },
   {
     "description": "Common steps for pytest bdd and splinter integration",
@@ -2307,7 +2307,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
