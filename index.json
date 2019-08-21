@@ -287,7 +287,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -487,7 +487,7 @@
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
     "name": "pytest-aoc",
-    "version": "1.2a6"
+    "version": "1.3a0"
   },
   {
     "description": "apistellar plugin for pytest.",
@@ -617,7 +617,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "3.2.0"
+    "version": "3.2.1"
   },
   {
     "description": "Common steps for pytest bdd and splinter integration",
@@ -1567,7 +1567,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.2.dev7"
+    "version": "3.0.3.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2038,6 +2038,11 @@
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
     "version": "1.0.3"
+  },
+  {
+    "description": "Mypy static type checker plugin for Pytest",
+    "name": "pytest-mypyd",
+    "version": "0.3.5"
   },
   {
     "description": "MySQL process and client fixtures for pytest",
@@ -3142,7 +3147,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.10"
+    "version": "1.11"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
