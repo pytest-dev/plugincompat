@@ -47,7 +47,7 @@
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
     "name": "PyTestReport",
-    "version": "0.1.9.2"
+    "version": "0.1.9.3"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -105,9 +105,9 @@
     "version": "1.2.0"
   },
   {
-    "description": "backports.unittest_mock",
-    "name": "backports.unittest_mock",
-    "version": "1.4"
+    "description": "Make unittest.mock available on older Pythons",
+    "name": "backports.unittest-mock",
+    "version": "1.5"
   },
   {
     "description": "A wrapper for WebDriver that provides some extended and additional functionality",
@@ -257,7 +257,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.1.89"
+    "version": "1.1.91"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -1842,7 +1842,7 @@
   {
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "py.test plugin to capture logbook log messages",
