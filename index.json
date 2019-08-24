@@ -467,7 +467,7 @@
   {
     "description": "pytest-annotate: Generate PyAnnotate annotations from your pytest tests.",
     "name": "pytest-annotate",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Plugin for py.test to simplify calling ansible modules from tests or fixtures",
@@ -3233,6 +3233,11 @@
     "description": "Local continuous test runner with pytest and watchdog.",
     "name": "pytest-watch",
     "version": "4.2.0"
+  },
+  {
+    "description": "Fixtures for pytest for running WDL workflows using Cromwell.",
+    "name": "pytest-wdl",
+    "version": "1.0.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
