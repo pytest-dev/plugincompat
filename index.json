@@ -257,7 +257,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.1.91"
+    "version": "1.1.92"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -1197,7 +1197,7 @@
   {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
-    "version": "3.0.0"
+    "version": "3.1.0"
   },
   {
     "description": "A plugin to use docker databases for pytests",
@@ -3393,6 +3393,11 @@
     "description": "A python client for sat-api",
     "name": "sat-search",
     "version": "0.2.1"
+  },
+  {
+    "description": "Hypothesis strategies for Open API",
+    "name": "schemathesis",
+    "version": "0.1.0"
   },
   {
     "description": "Test Docker container images",
