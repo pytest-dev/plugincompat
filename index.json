@@ -77,7 +77,7 @@
   {
     "description": "Switcher Boiler Unofficial Bridge and API.",
     "name": "aioswitcher",
-    "version": "2019.7.2"
+    "version": "2019.8.28"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -1647,7 +1647,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
