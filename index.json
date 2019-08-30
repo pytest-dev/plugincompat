@@ -257,7 +257,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.1.96"
+    "version": "1.1.97"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -398,6 +398,11 @@
     "description": "Mock object framework",
     "name": "pymox",
     "version": "0.7.9.dev38"
+  },
+  {
+    "description": "A small example package",
+    "name": "pypi-foreverchaos-test",
+    "version": "1.0.0.0"
   },
   {
     "description": "pypom_form",
@@ -602,7 +607,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "1.0.0a1"
+    "version": "1.0.0rc1"
   },
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
@@ -1880,6 +1885,11 @@
     "version": "0.7"
   },
   {
+    "description": "A simple plugin to detect missed pytest tags and markers\"",
+    "name": "pytest-markers-presence",
+    "version": "0.2.0"
+  },
+  {
     "description": "UNKNOWN",
     "name": "pytest-markfiltration",
     "version": "0.8"
@@ -2117,7 +2127,7 @@
   {
     "description": "A pytest plugin for generating NUnit3 test result XML output",
     "name": "pytest-nunit",
-    "version": "0.4.0"
+    "version": "0.5.2"
   },
   {
     "description": "pytest results data-base and HTML reporter",
