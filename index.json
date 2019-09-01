@@ -385,6 +385,11 @@
     "version": "0.5.2"
   },
   {
+    "description": "Ultimate template for new Python 3 projects",
+    "name": "py3-bp",
+    "version": "0.0.2"
+  },
+  {
     "description": "Standard Oracle Using (queries, updates, inserts)",
     "name": "pyDbOracle",
     "version": "0.4.2"
@@ -1577,7 +1582,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.3.dev4"
+    "version": "3.0.4.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1633,6 +1638,11 @@
     "description": "Hide captured output",
     "name": "pytest-hidecaptured",
     "version": "0.2.2"
+  },
+  {
+    "description": "Enforce coverage and report on tests that honor constraints",
+    "name": "pytest-honors",
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -1773,6 +1783,11 @@
     "description": "Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest",
     "name": "pytest-kafka",
     "version": "0.3.1"
+  },
+  {
+    "description": "Kubernetes test support with KIND for pytest",
+    "name": "pytest-kind",
+    "version": "19.9.0"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -3422,7 +3437,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.30.0"
+    "version": "1.31.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
