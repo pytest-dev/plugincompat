@@ -67,7 +67,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "8.0.0"
+    "version": "8.0.1"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -1207,7 +1207,7 @@
   {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
-    "version": "3.1.0"
+    "version": "3.1.1"
   },
   {
     "description": "A plugin to use docker databases for pytests",
@@ -1642,7 +1642,7 @@
   {
     "description": "Enforce coverage and report on tests that honor constraints",
     "name": "pytest-honors",
-    "version": "0.1.1"
+    "version": "0.1.4"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -1902,7 +1902,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "UNKNOWN",
@@ -3350,6 +3350,11 @@
     "version": "0.1.1"
   },
   {
+    "description": "Validate your Python file format with yapf",
+    "name": "pytest-yapf3",
+    "version": "0.2.0"
+  },
+  {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
     "name": "pytest-yield",
     "version": "1.0.0"
@@ -3437,7 +3442,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.31.1"
+    "version": "1.31.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
