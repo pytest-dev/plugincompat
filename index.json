@@ -87,7 +87,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.8.1"
+    "version": "2.8.2"
   },
   {
     "description": "Alternative pytest plugin to pytest-asyncio",
@@ -1482,7 +1482,7 @@
   {
     "description": "pytest plugin to control fixture evaluation order",
     "name": "pytest-fixture-order",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Plugin for pytest which provides tools for fixtures",
@@ -1787,7 +1787,7 @@
   {
     "description": "Kubernetes test support with KIND for pytest",
     "name": "pytest-kind",
-    "version": "19.9.0"
+    "version": "19.9.1"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -3352,7 +3352,7 @@
   {
     "description": "Validate your Python file format with yapf",
     "name": "pytest-yapf3",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
@@ -3397,7 +3397,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.3.1"
+    "version": "0.3.4"
   },
   {
     "description": "Unofficial python API client for Hiptest",
