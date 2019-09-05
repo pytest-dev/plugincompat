@@ -67,7 +67,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "8.0.1"
+    "version": "8.0.3"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -1217,7 +1217,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.3.3"
+    "version": "1.3.4"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -1852,7 +1852,7 @@
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
     "name": "pytest-localftpserver",
-    "version": "0.5.1"
+    "version": "1.0.0"
   },
   {
     "description": "py.test plugin to test server connections locally.",
@@ -1902,7 +1902,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "UNKNOWN",
@@ -2463,6 +2463,11 @@
     "description": "QT app fixture for py.test",
     "name": "pytest-qt-app",
     "version": "1.0.1"
+  },
+  {
+    "description": "A plugin for pytest to manage expected test failures",
+    "name": "pytest-quarantine",
+    "version": "0.1.0a1"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3432,7 +3437,7 @@
   {
     "description": "Hypothesis strategies for Open API",
     "name": "schemathesis",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Test Docker container images",
@@ -3442,7 +3447,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.31.4"
+    "version": "1.31.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
