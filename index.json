@@ -2102,7 +2102,7 @@
   {
     "description": "pytest ngs fixtures",
     "name": "pytest-ngsfixtures",
-    "version": "0.7.6"
+    "version": "0.8.1"
   },
   {
     "description": "A pytest plugin that alerts user of failed test cases with screen notifications",
@@ -2602,7 +2602,7 @@
   {
     "description": "pytest plugin for adding tests' parameters to junit report",
     "name": "pytest-report-parameters",
-    "version": "0.2"
+    "version": "0.3.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
