@@ -272,7 +272,7 @@
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
     "name": "hypothesis-gufunc",
-    "version": "0.0.4"
+    "version": "0.0.5rc2"
   },
   {
     "description": "Test tool for overridable json fixtures",
@@ -1718,6 +1718,11 @@
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
     "version": "1.2.0"
+  },
+  {
+    "description": "Run tests covering a specific file or changeset",
+    "name": "pytest-involve",
+    "version": "0.1.2"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -3437,7 +3442,7 @@
   {
     "description": "Hypothesis strategies for Open API",
     "name": "schemathesis",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Test Docker container images",
