@@ -1652,7 +1652,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "1.9.0"
+    "version": "2.0.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of httpbin",
@@ -1708,6 +1708,11 @@
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
     "version": "0.7.0"
+  },
+  {
+    "description": "Inmanta tests package",
+    "name": "pytest-inmanta-extensions",
+    "version": "2019.3"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -1912,7 +1917,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "UNKNOWN",
@@ -2362,7 +2367,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -2477,7 +2482,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.1.0a1"
+    "version": "0.1.0a2"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -2612,7 +2617,7 @@
   {
     "description": "pytest plugin for adding tests' parameters to junit report",
     "name": "pytest-report-parameters",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3462,7 +3467,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.31.5"
+    "version": "1.31.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
