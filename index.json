@@ -127,7 +127,7 @@
   {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
-    "version": "0.0.1"
+    "version": "0.0.7"
   },
   {
     "description": "CI helper for STScI Jenkins",
@@ -262,7 +262,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.1.99"
+    "version": "1.2.2"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -3472,7 +3472,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.31.8"
+    "version": "1.31.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
