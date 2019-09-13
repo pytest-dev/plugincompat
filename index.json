@@ -1712,7 +1712,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "Inmanta tests package",
@@ -2597,7 +2597,7 @@
   {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
-    "version": "3.0.1"
+    "version": "4.0"
   },
   {
     "description": "Reorder tests depending on their paths and names.",
@@ -3045,6 +3045,11 @@
     "version": "1.0.3"
   },
   {
+    "description": "Plugin for py.test to run relevant tests, based on naively checking if a test contains a reference to the symbol you supply",
+    "name": "pytest-test-this",
+    "version": "0.2.0"
+  },
+  {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
     "version": "0.0.9"
@@ -3242,7 +3247,7 @@
   {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
-    "version": "1.7.1"
+    "version": "1.8.0"
   },
   {
     "description": "Plugin for managing VCR.py cassettes",
