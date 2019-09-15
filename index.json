@@ -3037,7 +3037,7 @@
   {
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
-    "version": "2019.7.18"
+    "version": "2019.9.16"
   },
   {
     "description": "generate terraform resources to use with pytest",
