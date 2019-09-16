@@ -1922,7 +1922,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.5.0"
+    "version": "0.6.1"
   },
   {
     "description": "UNKNOWN",
@@ -1968,6 +1968,11 @@
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
     "version": "1.8.0"
+  },
+  {
+    "description": "Custom metrics report for pytest",
+    "name": "pytest-metrics",
+    "version": "0.1"
   },
   {
     "description": "Mimesis integration with the pytest test runner",
@@ -3052,7 +3057,7 @@
   {
     "description": "Plugin for py.test to run relevant tests, based on naively checking if a test contains a reference to the symbol you supply",
     "name": "pytest-test-this",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A plugin to run tests written in Jupyter notebook",
@@ -3472,7 +3477,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "Test Docker container images",
@@ -3482,7 +3487,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.31.9"
+    "version": "1.32.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
