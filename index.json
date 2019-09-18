@@ -862,7 +862,7 @@
   {
     "description": "",
     "name": "pytest-clld",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
@@ -1932,7 +1932,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.6.3"
+    "version": "0.7.1"
   },
   {
     "description": "UNKNOWN",
@@ -3407,7 +3407,7 @@
   {
     "description": "Validate your Python file format with yapf",
     "name": "pytest-yapf3",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
