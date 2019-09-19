@@ -120,6 +120,11 @@
     "version": "0.2.5"
   },
   {
+    "description": "API testing for BC Data Catalog",
+    "name": "bcdc-apitests-dev",
+    "version": "0.2.8"
+  },
+  {
     "description": "library extracting coastline regions from raster data",
     "name": "beachfront",
     "version": "0.2.5"
@@ -1272,7 +1277,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -1722,7 +1727,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2019.3"
+    "version": "2019.3.1"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -2097,7 +2102,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -2480,9 +2485,9 @@
     "version": "1.7.0"
   },
   {
-    "description": "pytest plugin for interaction with TestRail",
+    "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.2.1"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -3417,7 +3422,7 @@
   {
     "description": "A Zafira plugin for pytest",
     "name": "pytest-zafira",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "OWASP ZAP plugin for py.test.",
@@ -3497,7 +3502,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.1"
+    "version": "1.32.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
