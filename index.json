@@ -122,7 +122,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests-dev",
-    "version": "0.2.8"
+    "version": "0.2.9"
   },
   {
     "description": "library extracting coastline regions from raster data",
@@ -397,7 +397,7 @@
   {
     "description": "Ultimate template for new Python 3 projects",
     "name": "py3-bp",
-    "version": "0.0.2"
+    "version": "0.0.4"
   },
   {
     "description": "Standard Oracle Using (queries, updates, inserts)",
@@ -2507,7 +2507,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.1.0a2"
+    "version": "0.0.0a0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -2972,7 +2972,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.2.0"
+    "version": "0.3.1"
   },
   {
     "description": "Structured logging assertions",
@@ -3412,7 +3412,7 @@
   {
     "description": "Validate your Python file format with yapf",
     "name": "pytest-yapf3",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
