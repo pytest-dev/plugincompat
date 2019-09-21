@@ -97,7 +97,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.5.0"
+    "version": "2.5.1"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -3147,7 +3147,7 @@
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
     "name": "pytest-timeouts",
-    "version": "1.2"
+    "version": "1.2.1"
   },
   {
     "description": "",
