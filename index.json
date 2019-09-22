@@ -345,9 +345,9 @@
     "version": "0.9.2"
   },
   {
-    "description": "mutation testing for Python 2 and 3",
+    "description": "mutation testing for Python 3",
     "name": "mutmut",
-    "version": "1.5.1"
+    "version": "1.6.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -3502,7 +3502,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.2"
+    "version": "1.32.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
