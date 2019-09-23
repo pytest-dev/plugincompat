@@ -1722,7 +1722,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.7.2"
+    "version": "0.8.0"
   },
   {
     "description": "Inmanta tests package",
@@ -3502,7 +3502,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.3"
+    "version": "1.32.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
