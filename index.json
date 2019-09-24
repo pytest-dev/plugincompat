@@ -1240,6 +1240,11 @@
     "version": "0.9"
   },
   {
+    "description": "A simple plugin to use with pytest",
+    "name": "pytest-docker-postgresql",
+    "version": "0.1.0"
+  },
+  {
     "description": "Easy to use, simple to extend, pytest plugin that minimally leverages docker-py.",
     "name": "pytest-docker-py",
     "version": "1.1.3"
@@ -1932,7 +1937,7 @@
   {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
-    "version": "0.7"
+    "version": "0.9.1.dev6"
   },
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
@@ -2167,7 +2172,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Pytest markers for not implemented features and tests.",
@@ -3107,7 +3112,7 @@
   {
     "description": "Plugin to use TestObject Suites with Pytest",
     "name": "pytest-testobject",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -3492,7 +3497,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Test Docker container images",
