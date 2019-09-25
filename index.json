@@ -3492,7 +3492,7 @@
   {
     "description": "A python client for sat-api",
     "name": "sat-search",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
