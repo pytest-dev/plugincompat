@@ -60,6 +60,11 @@
     "version": "0.1.2"
   },
   {
+    "description": "A module to simplify using pytest for AiiDA plugins.",
+    "name": "aiida-pytest",
+    "version": "0.1.0a4"
+  },
+  {
     "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
     "name": "aiohttp-json-rpc",
     "version": "0.8.4.2"
@@ -67,7 +72,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "8.0.3"
+    "version": "9.0.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -357,7 +362,7 @@
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
     "name": "nbval",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "Python interface for the Cephes library.",
@@ -2492,7 +2497,7 @@
   {
     "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -2593,6 +2598,11 @@
     "description": "Pytest plugin for redmine",
     "name": "pytest-redmine",
     "version": "0.0.1"
+  },
+  {
+    "description": "Conveniently run pytest with a dot-formatted test reference.",
+    "name": "pytest-reference-formatter",
+    "version": "0.1"
   },
   {
     "description": "Easy to use fixtures to write regression tests.",
@@ -3247,7 +3257,7 @@
   {
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
-    "version": "1.11"
+    "version": "1.12"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -3330,9 +3340,9 @@
     "version": "4.2.0"
   },
   {
-    "description": "Fixtures for pytest for running WDL workflows using Cromwell.",
+    "description": "Pytest plugin for testing WDL workflows.",
     "name": "pytest-wdl",
-    "version": "1.0.1"
+    "version": "1.1.1"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
@@ -3497,7 +3507,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.6.0"
+    "version": "0.7.1"
   },
   {
     "description": "Test Docker container images",
