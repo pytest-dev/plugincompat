@@ -307,7 +307,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -1997,7 +1997,7 @@
   {
     "description": "Custom metrics report for pytest",
     "name": "pytest-metrics",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Mimesis integration with the pytest test runner",
@@ -2117,7 +2117,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "1.0.3"
+    "version": "1.1.0"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -2302,7 +2302,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -3143,6 +3143,11 @@
     "description": "Tesults plugin for pytest",
     "name": "pytest-tesults",
     "version": "1.1.0"
+  },
+  {
+    "description": "Pytest plugin for time travel",
+    "name": "pytest-thawgun",
+    "version": "0.0.1"
   },
   {
     "description": "Detects thread leaks",
