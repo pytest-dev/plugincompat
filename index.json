@@ -272,7 +272,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -313,6 +313,11 @@
     "description": "labgrid: lab hardware and software control layer",
     "name": "labgrid",
     "version": "0.1.0"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonprosfx",
+    "version": "0.1"
   },
   {
     "description": "",
@@ -562,7 +567,7 @@
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
     "name": "pytest-ast-back-to-python",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   {
     "description": "",
