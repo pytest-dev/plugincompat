@@ -360,6 +360,11 @@
     "version": "1.6.0"
   },
   {
+    "description": "Framework for automating tests involving hardware test fixtures.",
+    "name": "nanaimo",
+    "version": "0.0.3"
+  },
+  {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
     "version": "0.2.8"
@@ -842,7 +847,7 @@
   {
     "description": "check the README when running tests",
     "name": "pytest-checkdocs",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -3527,7 +3532,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.4"
+    "version": "1.32.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
