@@ -72,7 +72,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.0.0"
+    "version": "9.2.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -362,7 +362,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -1237,7 +1237,7 @@
   {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   {
     "description": "A plugin to use docker databases for pytests",
@@ -1767,7 +1767,7 @@
   {
     "description": "Run tests covering a specific file or changeset",
     "name": "pytest-involve",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A py.test plug-in to enable drop to ipdb debugger on test failure.",
@@ -2345,6 +2345,11 @@
     "version": "0.3.1"
   },
   {
+    "description": "Show surprise when tests are passing",
+    "name": "pytest-pikachu",
+    "version": "0.1.0"
+  },
+  {
     "description": "&#129418; The pytest plugin for Firefox Telemetry &#128202;",
     "name": "pytest-pings",
     "version": "0.1.0"
@@ -2507,7 +2512,7 @@
   {
     "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.6.0"
+    "version": "0.7.3"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -2612,7 +2617,7 @@
   {
     "description": "Conveniently run pytest with a dot-formatted test reference.",
     "name": "pytest-reference-formatter",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Easy to use fixtures to write regression tests.",
@@ -3127,7 +3132,7 @@
   {
     "description": "find bugs 10x faster",
     "name": "pytest-testmon",
-    "version": "0.9.18"
+    "version": "0.9.19"
   },
   {
     "description": "Plugin to use TestObject Suites with Pytest",
@@ -3522,7 +3527,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.7.1"
+    "version": "0.7.3"
   },
   {
     "description": "Test Docker container images",
