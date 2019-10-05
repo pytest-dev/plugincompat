@@ -322,7 +322,7 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonprosfx",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "",
@@ -367,7 +367,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -967,7 +967,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.7.1"
+    "version": "2.8.0"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -3132,7 +3132,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "pytest reporting plugin for testlink",
@@ -3537,7 +3537,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   {
     "description": "Test Docker container images",
