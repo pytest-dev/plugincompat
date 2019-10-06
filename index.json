@@ -367,7 +367,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -967,7 +967,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.8.0"
+    "version": "2.8.1"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
