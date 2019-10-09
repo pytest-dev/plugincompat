@@ -155,6 +155,11 @@
     "version": "1.1.0"
   },
   {
+    "description": "A small Gherkin DSL parser that generates stub code",
+    "name": "cornichon",
+    "version": "0.9.0"
+  },
+  {
     "description": "Extendible configuration testing in parallel.",
     "name": "ctip",
     "version": "0.1.0"
@@ -312,7 +317,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -1817,7 +1822,7 @@
   {
     "description": "Test failures are better served with humor.",
     "name": "pytest-joke",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Generate JSON test reports",
@@ -2782,7 +2787,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.10.7"
+    "version": "2019.10.8"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
