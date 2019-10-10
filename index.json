@@ -157,7 +157,7 @@
   {
     "description": "A small Gherkin DSL parser that generates stub code",
     "name": "cornichon",
-    "version": "0.9.0"
+    "version": "0.9.2"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -2807,7 +2807,7 @@
   {
     "description": "a pytest plugin for Sanic",
     "name": "pytest-sanic",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3542,7 +3542,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.8.1"
+    "version": "0.9.0"
   },
   {
     "description": "Test Docker container images",
