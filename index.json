@@ -157,7 +157,7 @@
   {
     "description": "A small Gherkin DSL parser that generates stub code",
     "name": "cornichon",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -1597,7 +1597,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "1.0.2"
+    "version": "1.1.1"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -2072,7 +2072,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.2.0"
+    "version": "1.2.1rc1"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -3552,7 +3552,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.8"
+    "version": "1.32.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
