@@ -1967,7 +1967,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.7.2"
+    "version": "0.7.3"
   },
   {
     "description": "UNKNOWN",
@@ -2432,7 +2432,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -2807,7 +2807,7 @@
   {
     "description": "a pytest plugin for Sanic",
     "name": "pytest-sanic",
-    "version": "1.1.0"
+    "version": "1.1.2"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3102,7 +3102,7 @@
   {
     "description": "Predictable and repeatable tempdir support.",
     "name": "pytest-tempdir",
-    "version": "2019.9.16"
+    "version": "2019.10.12"
   },
   {
     "description": "generate terraform resources to use with pytest",
