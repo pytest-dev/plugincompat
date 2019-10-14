@@ -1877,7 +1877,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
