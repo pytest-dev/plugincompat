@@ -82,7 +82,7 @@
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
     "name": "aiomisc-dependency",
-    "version": "0.1.4"
+    "version": "0.1.7"
   },
   {
     "description": "Switcher Boiler Unofficial Bridge and API.",
@@ -282,7 +282,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -1877,7 +1877,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
