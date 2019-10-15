@@ -22,10 +22,7 @@ import os
 import sys
 from distutils.version import LooseVersion
 
-if sys.version_info >= (3,):
-    from xmlrpc.client import ServerProxy
-else:
-    from xmlrpclib import ServerProxy
+from xmlrpc.client import ServerProxy
 
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), 'index.json')
 

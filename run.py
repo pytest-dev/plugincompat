@@ -44,14 +44,10 @@ from wimpy.util import working_directory
 
 import update_index
 
-if sys.version_info >= (3,):
-    from urllib.request import urlretrieve
-    from xmlrpc.client import ServerProxy
-    from io import StringIO
-else:
-    from urllib import urlretrieve
-    from xmlrpclib import ServerProxy
-    from StringIO import StringIO
+
+from urllib.request import urlretrieve
+from xmlrpc.client import ServerProxy
+from io import StringIO
 
 
 # oh my, urlretrieve is not thread safe :(
