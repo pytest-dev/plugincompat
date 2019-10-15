@@ -287,7 +287,7 @@ class TestView(object):
 
     def test_versions(self):
         assert get_python_versions() == {'py36', 'py37'}
-        assert get_pytest_versions() == {'5.0.0'}
+        assert get_pytest_versions() == {'5.2.0'}
 
     def test_get_with_empty_database(self, client, patched_storage):
         assert len(patched_storage.get_all_results()) == 0
