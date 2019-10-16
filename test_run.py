@@ -11,10 +11,10 @@ import responses
 from requests.exceptions import HTTPError
 
 import run
-from run import PackageResult
 from run import download_package
 from run import extract
 from run import main
+from run import PackageResult
 from run import post_test_results
 from run import process_package
 from run import read_plugins_index
@@ -104,7 +104,7 @@ def test_main(monkeypatch, capsys, posted_results):
         Processing 2 packages with 1 workers
         pytest-plugin-a-0.1.1                                                 PASSED   0.0s [% 50]
         pytest-plugin-b-0.2.2                                                 PASSED   0.0s [%100]
-    
+
         Posted 2 new results
         All done, congratulations :)
         """
@@ -120,9 +120,7 @@ def test_main(monkeypatch, capsys, posted_results):
 @responses.activate
 def test_post_test_results(capsys):
     responses.add(responses.POST, "http://plugincompat.example.com/")
-    post_test_results(
-        canned_results, tox_env="py10", pytest_version="1.2.3", secret="ILIKETURTLES"
-    )
+    post_test_results(canned_results, tox_env="py10", pytest_version="1.2.3", secret="ILIKETURTLES")
     out, err = capsys.readouterr()
     assert err == ""
     assert "Batch of 2 posted\n" in out
@@ -160,18 +158,13 @@ def test_post_test_results_raises_for_status():
     error_message = "Internal Server Error for url: http://plugincompat.example.com"
     with pytest.raises(HTTPError, match=error_message):
         post_test_results(
-            canned_results,
-            tox_env="py10",
-            pytest_version="1.2.3",
-            secret="ILIKETURTLES",
+            canned_results, tox_env="py10", pytest_version="1.2.3", secret="ILIKETURTLES"
         )
 
 
 def test_no_post_if_no_secret(capsys):
     responses.add(responses.POST, "http://plugincompat.example.com", status=500)
-    post_test_results(
-        canned_results, tox_env="py10", pytest_version="1.2.3", secret=None
-    )
+    post_test_results(canned_results, tox_env="py10", pytest_version="1.2.3", secret=None)
     out, err = capsys.readouterr()
     assert err == ""
     assert "Skipping posting batch of 2 because secret is not available" in out
@@ -182,11 +175,7 @@ def test_process_package_skips_if_result_already_on_plugincompat_website():
     url = "http://plugincompat.example.com/output/myplugin-1.0?py=py10&pytest=1.2.3"
     responses.add(responses.GET, url)
     result = process_package(
-        tox_env="py10",
-        pytest_version="1.2.3",
-        name="myplugin",
-        version="1.0",
-        description="'sup",
+        tox_env="py10", pytest_version="1.2.3", name="myplugin", version="1.0", description="'sup"
     )
     assert result == PackageResult(
         name="myplugin",
@@ -205,11 +194,7 @@ def test_process_package_no_dist_available(monkeypatch):
     responses.add(responses.GET, url, status=404)
     monkeypatch.setattr("run.download_package", lambda client, name, version: None)
     result = process_package(
-        tox_env="py10",
-        pytest_version="1.2.3",
-        name="myplugin",
-        version="1.0",
-        description="'sup",
+        tox_env="py10", pytest_version="1.2.3", name="myplugin", version="1.0", description="'sup"
     )
     assert result == PackageResult(
         name="myplugin",
@@ -226,20 +211,14 @@ def test_process_package_no_dist_available(monkeypatch):
 def test_process_package_tox_errored(tmpdir, monkeypatch):
     url = "http://plugincompat.example.com/output/myplugin-1.0?py=py36&pytest=1.2.3"
     responses.add(responses.GET, url, status=404)
-    monkeypatch.setattr(
-        "run.download_package", lambda client, name, version: "myplugin.zip"
-    )
+    monkeypatch.setattr("run.download_package", lambda client, name, version: "myplugin.zip")
     monkeypatch.chdir(tmpdir)
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").ensure(file=True)
-    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir / "myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
-        tox_env="py36",
-        pytest_version="1.2.3",
-        name="myplugin",
-        version="1.0",
-        description="'sup",
+        tox_env="py36", pytest_version="1.2.3", name="myplugin", version="1.0", description="'sup"
     )
     assert result.name == "myplugin"
     assert result.status_code == 1
@@ -251,18 +230,12 @@ def test_process_package_tox_errored(tmpdir, monkeypatch):
 def test_process_package_tox_crash(tmpdir, monkeypatch):
     url = "http://plugincompat.example.com/output/myplugin-1.0?py=py36&pytest=1.2.3"
     responses.add(responses.GET, url, status=404)
-    monkeypatch.setattr(
-        "run.download_package", lambda client, name, version: "myplugin.zip"
-    )
+    monkeypatch.setattr("run.download_package", lambda client, name, version: "myplugin.zip")
     monkeypatch.chdir(tmpdir)
     empty_zipfile_bytes = b"PK\x05\x06" + b"\x00" * 18
     tmpdir.join("myplugin.zip").write(empty_zipfile_bytes)
     result = process_package(
-        tox_env="py36",
-        pytest_version="1.2.3",
-        name="myplugin",
-        version="1.0",
-        description="'sup",
+        tox_env="py36", pytest_version="1.2.3", name="myplugin", version="1.0", description="'sup"
     )
     assert result.name == "myplugin"
     assert result.status_code == 1
@@ -275,27 +248,19 @@ def test_process_package_tox_crash(tmpdir, monkeypatch):
 @responses.activate
 def test_process_package_tox_succeeded(tmpdir, monkeypatch):
     py = "py{}{}".format(*sys.version_info[:2])
-    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.4".format(
-        py
-    )
+    url = "http://plugincompat.example.com/output/myplugin-1.0?py={}&pytest=3.7.4".format(py)
     responses.add(responses.GET, url, status=404)
-    monkeypatch.setattr(
-        "run.download_package", lambda client, name, version: "myplugin.zip"
-    )
+    monkeypatch.setattr("run.download_package", lambda client, name, version: "myplugin.zip")
     monkeypatch.chdir(tmpdir)
     tmpdir.join("myplugin").ensure_dir()
     tmpdir.join("myplugin").join("setup.py").write(
         "from distutils.core import setup\nsetup(name='myplugin', version='1.0')"
     )
     tmpdir.join("myplugin").join("tox.ini").write(canned_tox_ini)
-    with zipfile.ZipFile(str(tmpdir/"myplugin.zip"), mode="w") as z:
+    with zipfile.ZipFile(str(tmpdir / "myplugin.zip"), mode="w") as z:
         z.write("myplugin")
     result = process_package(
-        tox_env=py,
-        pytest_version="3.7.4",
-        name="myplugin",
-        version="1.0",
-        description="'sup",
+        tox_env=py, pytest_version="3.7.4", name="myplugin", version="1.0", description="'sup"
     )
     assert result.name == "myplugin"
     assert result.version == "1.0"
@@ -326,7 +291,7 @@ def test_download_package(monkeypatch):
 
     monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
 
-    class FakeClient(object):
+    class FakeClient:
         def release_urls(self, name, version):
             return [
                 {
@@ -347,9 +312,9 @@ def test_download_package_whl(monkeypatch, mocker):
 
     monkeypatch.setattr("run.urlretrieve", fake_urlretrieve)
 
-    m = mocker.patch.object(run, 'is_compatible', autospec=True, return_value=True)
+    m = mocker.patch.object(run, "is_compatible", autospec=True, return_value=True)
 
-    class FakeClient(object):
+    class FakeClient:
         def release_urls(self, name, version):
             return [
                 {
@@ -374,23 +339,17 @@ def test_download_package_whl(monkeypatch, mocker):
 @responses.activate
 def test_process_package_tox_succeeded_bdist(tmpdir, monkeypatch):
     py = "py{}{}".format(*sys.version_info[:2])
-    url = "http://plugincompat.example.com/output/myplugin-1.0.0?py={}&pytest=3.7.4".format(
-        py
-    )
+    url = "http://plugincompat.example.com/output/myplugin-1.0.0?py={}&pytest=3.7.4".format(py)
     responses.add(responses.GET, url, status=404)
     monkeypatch.setattr(
         "run.download_package", lambda client, name, version: "myplugin-1.0.0-py2.py3-none-any.whl"
     )
     here = os.path.dirname(__file__)
-    canned_whl = os.path.join(here, 'test_data', 'myplugin-1.0.0-py2.py3-none-any.whl')
+    canned_whl = os.path.join(here, "test_data", "myplugin-1.0.0-py2.py3-none-any.whl")
     copy(canned_whl, str(tmpdir))
     monkeypatch.chdir(tmpdir)
     result = process_package(
-        tox_env=py,
-        pytest_version="3.7.4",
-        name="myplugin",
-        version="1.0.0",
-        description="nope",
+        tox_env=py, pytest_version="3.7.4", name="myplugin", version="1.0.0", description="nope"
     )
     assert result.name == "myplugin"
     assert result.version == "1.0.0"
