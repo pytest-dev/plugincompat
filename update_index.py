@@ -84,9 +84,9 @@ def write_plugins_index(file_name, plugins):
     else:
         current_contents = ""
 
-    if contents != current_contents:
+    if contents.strip() != current_contents.strip():
         with open(file_name, "w") as f:
-            f.write(contents)
+            f.write(contents + "\n")
         return True
     else:
         return False
