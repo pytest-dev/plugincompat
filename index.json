@@ -400,6 +400,11 @@
     "version": "1.0.5"
   },
   {
+    "description": "Python lib to get movie, series, episode data from the Open Movie Database (OMDb) api.",
+    "name": "omdbapi",
+    "version": "0.5.4"
+  },
+  {
     "description": "A tool for creating regression tests through logging data during pytest runs.",
     "name": "onaji",
     "version": "0.1.2"
@@ -463,6 +468,11 @@
     "description": "Snapshot Testing utils for Python",
     "name": "pysnap",
     "version": "1.0.1"
+  },
+  {
+    "description": "Test Django migrations through Pytest.",
+    "name": "pytedjmi",
+    "version": "0.3.0"
   },
   {
     "description": "A simple image diff plugin for pytest",
@@ -2127,7 +2137,7 @@
   {
     "description": "pytest plugin to collect information from tests",
     "name": "pytest-mpi",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -2562,7 +2572,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.0.0a0"
+    "version": "0.0.0a4"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3182,7 +3192,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.7.0"
+    "version": "2.7.1"
   },
   {
     "description": "",
