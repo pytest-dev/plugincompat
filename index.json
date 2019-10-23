@@ -1627,7 +1627,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "1.1.1"
+    "version": "1.1.3"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -2592,7 +2592,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.0.0"
+    "version": "0.0.1rc3"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3212,7 +3212,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.8.1"
+    "version": "2.8.2"
   },
   {
     "description": "",
@@ -3691,8 +3691,8 @@
   },
   {
     "description": "Helper for checking variable equivalence by type. Useful for tests.",
-    "name": "type_comparable",
-    "version": "0.3.dev9"
+    "name": "type-comparable",
+    "version": "0.4"
   },
   {
     "description": "The Unmock Python clent",
