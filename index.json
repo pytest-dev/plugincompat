@@ -82,7 +82,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.2.6"
+    "version": "9.3.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -132,7 +132,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "API testing for BC Data Catalog",
@@ -367,6 +367,11 @@
   {
     "description": "Azure Molecule Plugin :: run molecule tests on Azure",
     "name": "molecule-azure",
+    "version": "0.1"
+  },
+  {
+    "description": "digitalocean Molecule Plugin :: run molecule tests on digitalocean",
+    "name": "molecule-digitalocean",
     "version": "0.1"
   },
   {
@@ -612,7 +617,12 @@
   {
     "description": "Meta-package containing dependencies for testing",
     "name": "pytest-astropy",
-    "version": "0.5.0"
+    "version": "0.6.0"
+  },
+  {
+    "description": "pytest plugin to add diagnostic information to the header of the test output",
+    "name": "pytest-astropy-header",
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin for async MongoDB",
@@ -1782,7 +1792,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -2745,6 +2755,11 @@
     "version": "0.1"
   },
   {
+    "description": "A plugin to report summarized results in a table format",
+    "name": "pytest-reporting",
+    "version": "0.1.0"
+  },
+  {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
     "version": "1.0.8"
@@ -3573,6 +3588,11 @@
     "description": "Unofficial python API client for Hiptest",
     "name": "python-hiptest",
     "version": "0.0.0"
+  },
+  {
+    "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
+    "name": "qieman-xdist",
+    "version": "0.0.1"
   },
   {
     "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
