@@ -147,7 +147,7 @@
   {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "CI helper for STScI Jenkins",
