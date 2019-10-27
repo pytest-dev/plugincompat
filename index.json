@@ -377,7 +377,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "mutation testing for Python 3",
@@ -2842,7 +2842,7 @@
   {
     "description": "Invoke py.test as distutils command with dependency resolution",
     "name": "pytest-runner",
-    "version": "5.1"
+    "version": "5.2"
   },
   {
     "description": "",
@@ -2997,7 +2997,7 @@
   {
     "description": "Plugin for adding a marker to slow running tests. &#128012;",
     "name": "pytest-snail",
-    "version": "0.1.0.dev1"
+    "version": "0.1.0rc1"
   },
   {
     "description": "py.test plugin for Snap-CI",
