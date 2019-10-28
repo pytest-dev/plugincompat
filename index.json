@@ -1792,7 +1792,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -3592,7 +3592,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "qieman-xdist",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
