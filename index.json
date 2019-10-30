@@ -147,7 +147,7 @@
   {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "CI helper for STScI Jenkins",
@@ -433,6 +433,11 @@
     "description": "pytest plugin that let you drive a browser with Selenium",
     "name": "play-selenium",
     "version": "0.0.3"
+  },
+  {
+    "description": "Classification and analysis of post-storm response imagery.",
+    "name": "psic",
+    "version": "1.3.1"
   },
   {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
@@ -1407,7 +1412,7 @@
   {
     "description": "Improvements for pytest (rejected upstream)",
     "name": "pytest-enhancements",
-    "version": "0.0.2"
+    "version": "0.0.4"
   },
   {
     "description": "py.test plugin that allows you to add environment variables.",
@@ -1792,7 +1797,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.8"
+    "version": "0.0.12"
   },
   {
     "description": "pytest plugin to collect information from tests",
