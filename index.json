@@ -72,7 +72,7 @@
   {
     "description": "A module to simplify using pytest for AiiDA plugins.",
     "name": "aiida-pytest",
-    "version": "0.1.0a5"
+    "version": "0.1.0a6"
   },
   {
     "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
@@ -527,7 +527,7 @@
   {
     "description": "Plugin for py.test to generate allure xml reports",
     "name": "pytest-allure-adaptor2",
-    "version": "1.7.11"
+    "version": "1.7.12"
   },
   {
     "description": "pytest plugin to test case doc string dls instructions",
@@ -892,7 +892,7 @@
   {
     "description": "check the README when running tests",
     "name": "pytest-checkdocs",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -1817,7 +1817,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2019.3.1"
+    "version": "2019.4"
   },
   {
     "description": "py.test plugin to show failures instantly",
