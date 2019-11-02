@@ -1907,7 +1907,7 @@
   {
     "description": "Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest",
     "name": "pytest-kafka",
-    "version": "0.3.2"
+    "version": "0.4.0"
   },
   {
     "description": "Kubernetes test support with KIND for pytest",
@@ -2612,7 +2612,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.0.1rc3"
+    "version": "0.0.2"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3237,7 +3237,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
-    "version": "2.8.2"
+    "version": "2.8.3"
   },
   {
     "description": "",
