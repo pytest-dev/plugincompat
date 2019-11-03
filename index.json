@@ -2137,7 +2137,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -2612,7 +2612,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "0.0.2"
+    "version": "1.0.0a0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
