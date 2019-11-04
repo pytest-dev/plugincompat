@@ -377,7 +377,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "mutation testing for Python 3",
@@ -2197,7 +2197,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -2612,7 +2612,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "1.0.0a0"
+    "version": "1.0.0b1"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3002,7 +3002,7 @@
   {
     "description": "Plugin for adding a marker to slow running tests. &#128012;",
     "name": "pytest-snail",
-    "version": "0.1.0rc1"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin for Snap-CI",
