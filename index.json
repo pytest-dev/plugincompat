@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.6"
+    "version": "3.1.7"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -338,6 +338,11 @@
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonprosfx",
     "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonrafael",
+    "version": "0.0.2"
   },
   {
     "description": "",
@@ -2693,6 +2698,11 @@
     "description": "Pytest plugin for redmine",
     "name": "pytest-redmine",
     "version": "0.0.1"
+  },
+  {
+    "description": "A plugin to store reference files to ease regression testing",
+    "name": "pytest-ref",
+    "version": "0.1.0"
   },
   {
     "description": "Conveniently run pytest with a dot-formatted test reference.",
