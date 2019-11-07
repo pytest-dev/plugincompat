@@ -292,7 +292,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.2.5"
+    "version": "1.2.7"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -2937,7 +2937,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "1.3.1"
+    "version": "2.0.0"
   },
   {
     "description": "py.test plugin to make session fixtures behave as if written in conftest, even if it is written in some modules",
@@ -3492,7 +3492,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
