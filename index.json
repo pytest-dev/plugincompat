@@ -67,7 +67,7 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "aguiardafa-libpythonpro",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "A module to simplify using pytest for AiiDA plugins.",
@@ -1682,7 +1682,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.4.dev8"
+    "version": "3.0.5.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -3107,7 +3107,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.3.1"
+    "version": "0.4.2"
   },
   {
     "description": "Structured logging assertions",
@@ -3227,7 +3227,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest reporting plugin for testlink",
@@ -3597,7 +3597,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.4.0"
+    "version": "0.4.2"
   },
   {
     "description": "Unofficial python API client for Hiptest",
