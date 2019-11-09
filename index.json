@@ -670,6 +670,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Jticker core",
+    "name": "pytest-automock",
+    "version": "0.1.1"
+  },
+  {
     "description": "Makes pytest skip tests that don not need rerunning",
     "name": "pytest-avoidance",
     "version": "0.3.0"
@@ -977,7 +982,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "0.1.9"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -1202,7 +1207,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.6.0"
+    "version": "3.7.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -1397,7 +1402,7 @@
   {
     "description": "Elasticsearch process and client fixtures for py.test.",
     "name": "pytest-elasticsearch",
-    "version": "1.3.0"
+    "version": "2.0.0"
   },
   {
     "description": "A simple plugin to use with pytest",
