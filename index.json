@@ -672,7 +672,7 @@
   {
     "description": "Pytest plugin for automatical mocks creation",
     "name": "pytest-automock",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Makes pytest skip tests that don not need rerunning",
@@ -2622,7 +2622,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "1.0.0b1"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -2757,7 +2757,7 @@
   {
     "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
     "name": "pytest-replay",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
@@ -2872,7 +2872,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.10.8"
+    "version": "2019.11.11"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2980,9 +2980,14 @@
     "version": "1.7.0"
   },
   {
+    "description": "Simple pytest plugin",
+    "name": "pytest-simple-plugin",
+    "version": "0.0.1"
+  },
+  {
     "description": "simple-settings plugin for pytest",
     "name": "pytest-simple-settings",
-    "version": "0.1.2"
+    "version": "0.1.4"
   },
   {
     "description": "Allow for multiple processes to log to a single file",
