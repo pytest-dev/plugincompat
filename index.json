@@ -382,7 +382,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "1.2.1"
+    "version": "2.0.0"
   },
   {
     "description": "mutation testing for Python 3",
@@ -1662,7 +1662,7 @@
   {
     "description": "Check if requirement files are frozen",
     "name": "pytest-freeze-reqs",
-    "version": "0.1.3"
+    "version": "0.1.8"
   },
   {
     "description": "Wrap tests with fixtures in freeze_time",
@@ -1697,7 +1697,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.5.dev2"
+    "version": "3.0.5.dev4"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -1857,7 +1857,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Run tests covering a specific file or changeset",
@@ -3237,7 +3237,7 @@
   {
     "description": "Test configuration plugin for pytest.",
     "name": "pytest-testconfig",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
