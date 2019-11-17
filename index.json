@@ -397,7 +397,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.2.8"
+    "version": "0.3.0"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -962,7 +962,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "1.4.1"
+    "version": "2.0.0"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -1337,7 +1337,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "1.5.1"
+    "version": "2.0.0"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -1353,6 +1353,11 @@
     "description": "A simple pytest plugin to import names and add them to the doctest namespace.",
     "name": "pytest-doctest-import",
     "version": "0.1.1"
+  },
+  {
+    "description": "A plugin to run doctests in docstrings of Numpy ufuncs",
+    "name": "pytest-doctest-ufunc",
+    "version": "0.1.0"
   },
   {
     "description": "Pytest plugin with advanced doctest features.",
@@ -2572,7 +2577,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "1.4.1"
+    "version": "2.0.0"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
@@ -2582,7 +2587,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-pydocstyle",
-    "version": "1.5.1"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin to check source code with pylint",
@@ -3128,6 +3133,11 @@
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
     "version": "0.4.2"
+  },
+  {
+    "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
+    "name": "pytest-stress",
+    "version": "1.0.0"
   },
   {
     "description": "Structured logging assertions",
