@@ -8,7 +8,7 @@ install:
 env:
   global:
     - secure: "GYMlRL/xmnVjC2+RljsZj0aVNIOv/d7x36UBT5DNo+FlY4jGHin9nb3tckKzwh+VgNexcZ6O4UY6CRHZdTuwME1LlI4Mywx44y48oomA6lz1RMZI6OP9CF3SbcEl/Qs++sS/USEQNGB9IdWnF11dqbJ7XOI2E9CZk4bX9ZLQVdA="
-    - PYTEST_VERSION=5.2.0
+    - PYTEST_VERSION=5.2.4
     - PLUGINCOMPAT_SITE=http://plugincompat.herokuapp.com
 
 jobs:
@@ -17,10 +17,14 @@ jobs:
       python: '3.6'
     - env: RUN_COMMAND="python run.py"
       python: '3.7'
+    - env: RUN_COMMAND="python run.py"
+      python: '3.8'
     - env: RUN_COMMAND="pytest"
       python: '3.6'
     - env: RUN_COMMAND="pytest"
       python: '3.7'
+    - env: RUN_COMMAND="pytest"
+      python: '3.8'
     - env: RUN_COMMAND="pre-commit run --all-files --show-diff-on-failure"
       python: '3.7'
 

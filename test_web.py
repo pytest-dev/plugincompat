@@ -1,6 +1,6 @@
 import os
+from unittest import mock
 
-import mock
 import pytest
 import requests
 from flask import json
@@ -282,8 +282,8 @@ class TestView:
             }
 
     def test_versions(self):
-        assert get_python_versions() == {"py36", "py37"}
-        assert get_pytest_versions() == {"5.2.0"}
+        assert get_python_versions() == {"py36", "py37", "py38"}
+        assert get_pytest_versions() == {"5.2.4"}
 
     def test_get_with_empty_database(self, client, patched_storage):
         assert len(patched_storage.get_all_results()) == 0
