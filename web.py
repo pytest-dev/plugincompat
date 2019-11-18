@@ -3,15 +3,12 @@ import logging
 import os
 import sys
 from distutils.version import LooseVersion
-
-try:
-    from urllib.parse import urlsplit
-except ImportError:
-    from urlparse import urlsplit
+from urllib.parse import urlsplit
 
 import flask
 import pymongo
-from flask import request, render_template
+from flask import render_template
+from flask import request
 
 
 app = flask.Flask("plugincompat")
@@ -22,14 +19,14 @@ def get_python_versions():
     Python versions we are willing to display on the page, in order to ignore
     old and incomplete results.
     """
-    return {"py36", "py37"}
+    return {"py36", "py37", "py38"}
 
 
 def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {"5.2.0"}
+    return {"5.2.4"}
 
 
 class PlugsStorage:

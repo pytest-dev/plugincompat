@@ -40,7 +40,7 @@ def iter_plugins(client, blacklist):
     for name in package_names:
         versions = client.package_releases(name)
         if versions:  # Package can exist without public releases
-            names_and_versions[name] = sorted(versions, key=LooseVersion)[0]
+            names_and_versions[name] = max(versions, key=LooseVersion)
 
     print("pytest-*: %d packages" % len(names_and_versions))
 
