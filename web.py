@@ -7,7 +7,8 @@ from urllib.parse import urlsplit
 
 import flask
 import pymongo
-from flask import request, render_template
+from flask import render_template
+from flask import request
 
 
 app = flask.Flask("plugincompat")
