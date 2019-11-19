@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.7"
+    "version": "3.1.8"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -103,6 +103,11 @@
     "description": "Allure pytest integration",
     "name": "allure-pytest",
     "version": "2.8.6"
+  },
+  {
+    "description": "Allure pytest-bdd integration",
+    "name": "allure-pytest-bdd",
+    "version": "2.8.6b0"
   },
   {
     "description": "Alternative pytest plugin to pytest-asyncio",
@@ -432,7 +437,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
@@ -1387,7 +1392,7 @@
   {
     "description": "DynamoDB fixtures for pytest",
     "name": "pytest-dynamodb",
-    "version": "1.2.0"
+    "version": "2.0.0"
   },
   {
     "description": "Simple API testing with pytest",
@@ -1690,6 +1695,11 @@
     "version": "0.0.1-alpha"
   },
   {
+    "description": "Ensure that gevent is properly patched when invoking pytest",
+    "name": "pytest-gevent",
+    "version": "1.0.0"
+  },
+  {
     "description": "A flexible framework for executing BDD gherkin tests",
     "name": "pytest-gherkin",
     "version": "0.1.7"
@@ -1772,7 +1782,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "Pytest plugin for http mocking (via https://github.com/vilus/mocker)",
@@ -2707,7 +2717,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -2795,6 +2805,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Replacement for the --resultlog option, focused in simplicity and extensibility",
+    "name": "pytest-reportlog",
+    "version": "0.1.0"
+  },
+  {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
     "version": "1.0.8"
@@ -2817,7 +2832,7 @@
   {
     "description": "pytest plugin to re-run tests to eliminate flaky failures",
     "name": "pytest-rerunfailures",
-    "version": "7.0"
+    "version": "8.0"
   },
   {
     "description": "Resilient Circuits fixtures for PyTest.",
@@ -3687,7 +3702,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.32.9"
+    "version": "1.33.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
