@@ -1832,7 +1832,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.17"
+    "version": "0.0.18"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -1977,7 +1977,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
@@ -2967,7 +2967,7 @@
   {
     "description": "Automatically mocks resources from serverless.yml file.",
     "name": "pytest-serverless",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -3147,7 +3147,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
@@ -3280,9 +3280,9 @@
     "version": "0.33"
   },
   {
-    "description": "find bugs 10x faster",
+    "description": "automatically selects tests affected by changed files and methods",
     "name": "pytest-testmon",
-    "version": "0.9.19"
+    "version": "1.0.0"
   },
   {
     "description": "Plugin to use TestObject Suites with Pytest",
@@ -3702,7 +3702,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.33.0"
+    "version": "1.33.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
