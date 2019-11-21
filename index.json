@@ -297,7 +297,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.2.7"
+    "version": "1.2.8"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -338,6 +338,11 @@
     "description": "labgrid: lab hardware and software control layer",
     "name": "labgrid",
     "version": "0.1.0"
+  },
+  {
+    "description": "Modulo para exemplificar construcapipo de projetos Python para curso Pythontools",
+    "name": "libpythonjp",
+    "version": "0.2"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -2902,7 +2907,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.11.12"
+    "version": "2019.11.21"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -2965,9 +2970,9 @@
     "version": "1.7.0"
   },
   {
-    "description": "Automatically mocks resources from serverless.yml file.",
+    "description": "Automatically mocks resources from serverless.yml in pytest using moto.",
     "name": "pytest-serverless",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -3628,6 +3633,11 @@
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
     "version": "1.1.1"
+  },
+  {
+    "description": "Compare data structures containing matching CIDs of different versions and encoding",
+    "name": "pytest_cid",
+    "version": "1.0.0"
   },
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
