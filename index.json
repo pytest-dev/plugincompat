@@ -346,6 +346,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonproVictor",
+    "version": "0.3.1"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonprosfx",
     "version": "0.2"
   },
@@ -422,7 +427,7 @@
   {
     "description": "Tools for testing applications that make network requests.",
     "name": "networktest",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Python lib to get movie, series, episode data from the Open Movie Database (OMDb) api.",
@@ -2500,6 +2505,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "A plugin to help developing and testing other plugins",
+    "name": "pytest-plugin-helpers",
+    "version": "0.1.0"
+  },
+  {
     "description": "",
     "name": "pytest-pmisc",
     "version": "1.0.2"
@@ -2667,7 +2677,7 @@
   {
     "description": "RabbitMQ process and client fixtures for pytest",
     "name": "pytest-rabbitmq",
-    "version": "1.1.2"
+    "version": "2.0.0"
   },
   {
     "description": "Race conditions tester for pytest",
@@ -2742,7 +2752,7 @@
   {
     "description": "A plugin to store reference files to ease regression testing",
     "name": "pytest-ref",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Conveniently run pytest with a dot-formatted test reference.",
@@ -3667,7 +3677,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.4.5"
+    "version": "0.4.8"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3717,7 +3727,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.33.2"
+    "version": "1.33.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
