@@ -347,7 +347,7 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonproVictor",
-    "version": "0.3.1"
+    "version": "0.4"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -3322,7 +3322,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail-e2e",
-    "version": "1.0.4"
+    "version": "2.0.0"
   },
   {
     "description": "",
@@ -3732,7 +3732,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.33.4"
+    "version": "1.33.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
