@@ -515,6 +515,11 @@
     "version": "0.2.5"
   },
   {
+    "description": "pytest plugin for generating test execution results within Jira Test Management (tm4j)",
+    "name": "pytest-adaptavist",
+    "version": "4.0.0"
+  },
+  {
     "description": "pytest plugin for pytest-repeat that generate aggregate report of the same test cases with additional statistics details.",
     "name": "pytest-aggreport",
     "version": "0.1.4"
@@ -3037,7 +3042,7 @@
   {
     "description": "Simple pytest plugin",
     "name": "pytest-simple-plugin",
-    "version": "0.0.2"
+    "version": "0.0.4"
   },
   {
     "description": "simple-settings plugin for pytest",
@@ -3310,9 +3315,9 @@
     "version": "0.33"
   },
   {
-    "description": "automatically selects tests affected by changed files and methods",
+    "description": "selects tests affected by changes files and methods",
     "name": "pytest-testmon",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Plugin to use TestObject Suites with Pytest",
@@ -3692,7 +3697,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.4.8"
+    "version": "0.4.9"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3742,7 +3747,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.33.6"
+    "version": "1.33.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
