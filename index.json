@@ -82,7 +82,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.6.0"
+    "version": "9.6.3"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -1890,6 +1890,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Organizing pytests by integration or not",
+    "name": "pytest-integration",
+    "version": "0.1.0rc2"
+  },
+  {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
     "name": "pytest-interactive",
     "version": "0.1.4"
@@ -1957,7 +1962,7 @@
   {
     "description": "A pytest plugin to report test results as JSON files",
     "name": "pytest-json-report",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "UNKNOWN",
