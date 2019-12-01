@@ -1067,7 +1067,7 @@
   {
     "description": "Use pytest's runner to discover and execute C++ tests",
     "name": "pytest-cpp",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Run cram tests with pytest.",
@@ -2222,7 +2222,7 @@
   {
     "description": "pytest-monkeytype: Generate Monkeytype annotations from your pytest tests.",
     "name": "pytest-monkeytype",
-    "version": "1.0.1"
+    "version": "1.0.5"
   },
   {
     "description": "Fixtures for integration tests of AWS services,uses moto mocking library.",
