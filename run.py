@@ -289,7 +289,7 @@ def main():
     if secret is None and limit is None:
         # bail out early so CI doesn't take forever for a PR
         limit = args.post_chunks * 3
-        print(Fore.CYAN + "Limit forced to {} since secret is unavail".format(limit))
+        print(Fore.CYAN + "Limit forced to {} since secret is unavailable".format(limit))
 
     tox_env = "py%d%d" % sys.version_info[:2]
 
@@ -317,7 +317,7 @@ def main():
 
         print(Fore.CYAN + "Processing {} packages with {} workers".format(len(fs), workers))
 
-        results = (f.result() for f in concurrent.futures.as_completed(fs))
+        results = (f.result(timeout=120.0) for f in concurrent.futures.as_completed(fs))
         results = printer(results, n_total=n_total)  # print them as they complete
         chunked_results = chunks(results, chunk_size=post_chunks)
         for chunk in chunked_results:
