@@ -475,11 +475,6 @@
     "version": "0.1.3"
   },
   {
-    "description": "Classification and analysis of post-storm response imagery.",
-    "name": "psic",
-    "version": "1.3.1"
-  },
-  {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
     "name": "purerpc",
     "version": "0.5.2"
@@ -623,6 +618,11 @@
     "description": "AppEngine integration that works well with pytest-django",
     "name": "pytest-appengine",
     "version": "0.0.2"
+  },
+  {
+    "description": "Pytest plugin for appium",
+    "name": "pytest-appium",
+    "version": "0.1"
   },
   {
     "description": "A plugin to use approvaltests with pytest",
@@ -1830,6 +1830,11 @@
     "version": "2.0.1"
   },
   {
+    "description": "Fixture \"http\" for http requests",
+    "name": "pytest-http",
+    "version": "0.1"
+  },
+  {
     "description": "Pytest plugin for http mocking (via https://github.com/vilus/mocker)",
     "name": "pytest-http-mocker",
     "version": "0.0.1"
@@ -1877,7 +1882,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.19"
+    "version": "0.0.20"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -1897,7 +1902,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2019.4"
+    "version": "2019.5"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -3612,7 +3617,7 @@
   {
     "description": "Pytest plugin for testing WDL workflows.",
     "name": "pytest-wdl",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
@@ -3838,6 +3843,11 @@
     "description": "Variety of remote sensing data for testing",
     "name": "stestdata",
     "version": "0.1.0"
+  },
+  {
+    "description": "PyTest Snapshot Test Utility",
+    "name": "syrupy",
+    "version": "0.0.1"
   },
   {
     "description": "A code-driven QA reporting library",
