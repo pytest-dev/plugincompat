@@ -1315,6 +1315,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "Use a temporary PostgreSQL database with pytest-django",
+    "name": "pytest-django-testing-postgresql",
+    "version": "0.1.post0"
+  },
+  {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
     "version": "0.9.0"
@@ -2982,7 +2987,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.11.27"
+    "version": "2019.12.6"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3232,7 +3237,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
@@ -3847,7 +3852,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "A code-driven QA reporting library",
