@@ -2227,7 +2227,7 @@
   {
     "description": "A set of fixtures to test your requests to HTTP/UDP servers",
     "name": "pytest-mockservers",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -2722,7 +2722,7 @@
   {
     "description": "pytest support for PyQt and PySide applications",
     "name": "pytest-qt",
-    "version": "3.2.2"
+    "version": "3.3.0"
   },
   {
     "description": "QT app fixture for py.test",
@@ -2987,7 +2987,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.6"
+    "version": "2019.12.7"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3852,7 +3852,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "A code-driven QA reporting library",
