@@ -407,7 +407,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "mutation testing for Python 3",
@@ -2247,7 +2247,7 @@
   {
     "description": "pytest plugin for MongoDB fixtures",
     "name": "pytest-mongodb",
-    "version": "2.1.2"
+    "version": "2.2.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -3242,7 +3242,7 @@
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
     "name": "pytest-stress",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Structured logging assertions",
@@ -3852,7 +3852,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "A code-driven QA reporting library",
