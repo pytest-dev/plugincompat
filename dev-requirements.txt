@@ -1,0 +1,6 @@
+-r requirements.txt
+asynctest
+pre-commit
+pytest-datadir
+pytest-mock
+pytest-trio

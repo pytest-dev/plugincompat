@@ -38,6 +38,7 @@ nosetests.xml
 *.tar.gz
 *.tgz
 *.zip
+*.whl
 pytest-*
 *.env*
 .cache/
