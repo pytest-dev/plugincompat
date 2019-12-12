@@ -275,6 +275,11 @@
     "version": "0.0.9"
   },
   {
+    "description": "Approval testing for Python3",
+    "name": "godkjenn",
+    "version": "0.3.1"
+  },
+  {
     "description": "Function set for goodness of fit measure between two signals",
     "name": "goodness-of-fit",
     "version": "1.0.1"
@@ -342,7 +347,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -717,7 +722,7 @@
   {
     "description": "Pytest plugin for automatical mocks creation",
     "name": "pytest-automock",
-    "version": "0.5.0"
+    "version": "0.6.1"
   },
   {
     "description": "Makes pytest skip tests that don not need rerunning",
