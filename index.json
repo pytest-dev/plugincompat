@@ -415,6 +415,11 @@
     "version": "0.1"
   },
   {
+    "description": "libvirt Molecule Plugin :: run molecule tests on libvirt",
+    "name": "molecule-libvirt",
+    "version": "0.0.1"
+  },
+  {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
     "version": "2.0.1"
@@ -923,6 +928,11 @@
     "description": "Cassandra CCM Test Fixtures for pytest",
     "name": "pytest-cassandra",
     "version": "0.1.0"
+  },
+  {
+    "description": "Pytest plugin with server for catching HTTP requests.",
+    "name": "pytest-catch-server",
+    "version": "1.0.0"
   },
   {
     "description": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
@@ -1907,7 +1917,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.20"
+    "version": "0.0.25"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -2322,7 +2332,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -3642,7 +3652,7 @@
   {
     "description": "Pytest plugin for testing WDL workflows.",
     "name": "pytest-wdl",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
