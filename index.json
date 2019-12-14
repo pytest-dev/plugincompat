@@ -65,6 +65,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "Authentication and authorization tools for interacting with the Vuforia Web Services (VWS) API.",
+    "name": "VWS-Test-Fixtures",
+    "version": "2019.12.13.1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "aguiardafa-libpythonpro",
     "version": "0.3"
