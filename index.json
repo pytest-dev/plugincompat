@@ -447,7 +447,7 @@
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
     "name": "nbval",
-    "version": "0.9.3"
+    "version": "0.9.4"
   },
   {
     "description": "Python interface for the Cephes library.",
@@ -872,7 +872,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.2.2"
+    "version": "0.3.0"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -3022,7 +3022,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.7"
+    "version": "2019.12.17"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3792,7 +3792,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3978,5 +3978,10 @@
     "description": "Yet Another Option Parser (full fledged)",
     "name": "yaop",
     "version": "0.1.1"
+  },
+  {
+    "description": "CLI bundle for Zalando developers",
+    "name": "zalando-cli-bundle",
+    "version": "19.12.1"
   }
 ]
