@@ -87,7 +87,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.6.3"
+    "version": "9.6.8"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -352,7 +352,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -1922,7 +1922,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.25"
+    "version": "0.0.26"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -2532,7 +2532,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -2837,7 +2837,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3217,7 +3217,7 @@
   {
     "description": "pytest plugin to display test execution output like a SPECIFICATION",
     "name": "pytest-spec",
-    "version": "1.1.0"
+    "version": "2.0.0"
   },
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
