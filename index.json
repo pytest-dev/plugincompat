@@ -692,7 +692,7 @@
   {
     "description": "pytest plugin to add diagnostic information to the header of the test output",
     "name": "pytest-astropy-header",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for async MongoDB",
@@ -732,7 +732,7 @@
   {
     "description": "Pytest plugin for automatical mocks creation",
     "name": "pytest-automock",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "Makes pytest skip tests that don not need rerunning",
@@ -952,7 +952,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   {
     "description": "Check links in files",
@@ -2837,7 +2837,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.3.6"
+    "version": "0.4.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3022,7 +3022,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.17"
+    "version": "2019.12.18"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3238,6 +3238,11 @@
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
     "version": "1.0.9"
+  },
+  {
+    "description": "Pytest plugin for testing sql on BigQuery engine",
+    "name": "pytest-sql-bigquery",
+    "version": "0.0.1"
   },
   {
     "description": "pytest plugin with sqlalchemy related fixtures",
@@ -3842,7 +3847,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.3"
+    "version": "1.34.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
