@@ -442,7 +442,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -3022,7 +3022,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.18"
+    "version": "2019.12.20"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3892,7 +3892,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "A code-driven QA reporting library",
