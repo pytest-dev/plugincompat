@@ -282,7 +282,7 @@
   {
     "description": "Approval testing for Python3",
     "name": "godkjenn",
-    "version": "0.3.1"
+    "version": "0.4.1"
   },
   {
     "description": "Function set for goodness of fit measure between two signals",
@@ -442,7 +442,7 @@
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
     "name": "nbsmoke",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
@@ -498,6 +498,11 @@
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
     "name": "purerpc",
     "version": "0.5.2"
+  },
+  {
+    "description": "a python base auto testing framework that programming oriented with Structured Language.",
+    "name": "py-ops",
+    "version": "0.1"
   },
   {
     "description": "Ultimate template for new Python 3 projects",
