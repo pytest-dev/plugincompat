@@ -122,7 +122,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.6.0"
+    "version": "2.6.1"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -3852,7 +3852,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.5"
+    "version": "1.34.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
