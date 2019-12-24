@@ -502,7 +502,7 @@
   {
     "description": "a python base auto testing framework that programming oriented with Structured Language.",
     "name": "py-ops",
-    "version": "0.1"
+    "version": "0.1.2"
   },
   {
     "description": "Ultimate template for new Python 3 projects",
@@ -3282,7 +3282,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.4.4"
+    "version": "0.5.0"
   },
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
@@ -3802,7 +3802,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.3"
+    "version": "0.5.4"
   },
   {
     "description": "Unofficial python API client for Hiptest",
