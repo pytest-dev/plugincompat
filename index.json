@@ -1182,7 +1182,7 @@
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
     "name": "pytest-datadir-ng",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "py.test plugin to create a 'tmpdir' containing predefined files/directories.",
@@ -3802,7 +3802,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.4"
+    "version": "0.5.5"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3852,7 +3852,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.6"
+    "version": "1.34.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
