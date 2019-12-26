@@ -2135,6 +2135,11 @@
     "version": "0.4.1"
   },
   {
+    "description": "Package for creating a pytest test run reprot",
+    "name": "pytest-log-report",
+    "version": "1.0.1"
+  },
+  {
     "description": "py.test plugin to capture logbook log messages",
     "name": "pytest-logbook",
     "version": "1.2.0"
@@ -3897,7 +3902,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "A code-driven QA reporting library",
