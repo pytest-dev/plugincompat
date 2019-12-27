@@ -737,7 +737,7 @@
   {
     "description": "Pytest plugin for automatical mocks creation",
     "name": "pytest-automock",
-    "version": "0.6.2"
+    "version": "0.6.3"
   },
   {
     "description": "Makes pytest skip tests that don not need rerunning",
@@ -1667,7 +1667,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
@@ -1942,7 +1942,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "Inmanta tests package",
@@ -3032,7 +3032,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.20"
+    "version": "2019.12.27"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
@@ -3367,7 +3367,7 @@
   {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
     "name": "pytest-tap",
-    "version": "2.4"
+    "version": "2.5"
   },
   {
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
@@ -3807,7 +3807,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.5"
+    "version": "0.5.6"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3857,7 +3857,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.7"
+    "version": "1.34.8"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
