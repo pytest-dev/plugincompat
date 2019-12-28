@@ -172,7 +172,7 @@
   {
     "description": "A small Gherkin DSL parser that generates stub code",
     "name": "cornichon",
-    "version": "0.9.3"
+    "version": "0.9.4"
   },
   {
     "description": "Extendible configuration testing in parallel.",
@@ -3807,7 +3807,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.6"
+    "version": "0.5.7"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -3857,7 +3857,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.8"
+    "version": "1.34.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -3902,7 +3902,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "A code-driven QA reporting library",
