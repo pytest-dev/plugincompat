@@ -71,6 +71,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "adilmar-libpythonpro-package",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "aguiardafa-libpythonpro",
     "version": "0.3"
   },
@@ -172,7 +177,7 @@
   {
     "description": "A small Gherkin DSL parser that generates stub code",
     "name": "cornichon",
-    "version": "0.9.4"
+    "version": "0.9.5"
   },
   {
     "description": "Extendible configuration testing in parallel.",
