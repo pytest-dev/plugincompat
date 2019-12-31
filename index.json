@@ -790,6 +790,11 @@
     "version": "0.4.0"
   },
   {
+    "description": "A simple plugin to use with pytest",
+    "name": "pytest-bdd-web",
+    "version": "0.1.0"
+  },
+  {
     "description": "",
     "name": "pytest-bdd-wrappers",
     "version": "0.0.2"
@@ -3812,7 +3817,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.7"
+    "version": "0.5.8"
   },
   {
     "description": "Unofficial python API client for Hiptest",
