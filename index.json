@@ -330,9 +330,9 @@
     "version": "0.1.5"
   },
   {
-    "description": "A library for property based testing",
+    "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "4.9.0"
+    "version": "5.0.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -3817,7 +3817,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.5.8"
+    "version": "0.5.9"
   },
   {
     "description": "Unofficial python API client for Hiptest",
