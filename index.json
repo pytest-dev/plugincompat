@@ -322,7 +322,7 @@
   {
     "description": "Httptesting HTTP(s) interface testing framework.",
     "name": "httptesting",
-    "version": "1.2.8"
+    "version": "1.2.9"
   },
   {
     "description": "HYAML is a one-liner oriented language",
@@ -332,7 +332,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.0.0"
+    "version": "5.0.1"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -370,9 +370,19 @@
     "version": "0.2"
   },
   {
+    "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
+    "name": "libpythonpro-h",
+    "version": "0.1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonproVictor",
     "version": "0.4"
+  },
+  {
+    "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
+    "name": "libpythonproh",
+    "version": "0.1"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -917,7 +927,7 @@
   {
     "description": "Pytest plugin to only run tests affected by changes",
     "name": "pytest-cagoule",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Enable CamelCase-aware pytest class collection",
