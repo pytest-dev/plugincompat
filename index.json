@@ -332,7 +332,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.0.1"
+    "version": "5.1.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -382,7 +382,7 @@
   {
     "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
     "name": "libpythonproh",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -802,7 +802,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-bdd-web",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "",
