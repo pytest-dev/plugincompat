@@ -442,7 +442,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "2.0.1"
+    "version": "2.1.0"
   },
   {
     "description": "mutation testing for Python 3",
