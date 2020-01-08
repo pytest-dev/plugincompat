@@ -442,7 +442,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "2.1.1"
+    "version": "2.1.3"
   },
   {
     "description": "mutation testing for Python 3",
@@ -452,7 +452,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.0.9"
+    "version": "0.1.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
