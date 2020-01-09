@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.8"
+    "version": "3.1.9"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -332,7 +332,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.1.1"
+    "version": "5.1.2"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -370,11 +370,6 @@
     "version": "0.2"
   },
   {
-    "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
-    "name": "libpythonpro-h",
-    "version": "0.1"
-  },
-  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonproVictor",
     "version": "0.4"
@@ -382,7 +377,7 @@
   {
     "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
     "name": "libpythonproh",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -1522,7 +1517,7 @@
   {
     "description": "pytest plugin with mechanisms for echoing environment variables, package version and generic attributes",
     "name": "pytest-echo",
-    "version": "1.6.0"
+    "version": "1.7.1"
   },
   {
     "description": "Elasticsearch process and client fixtures for py.test.",
@@ -1688,6 +1683,11 @@
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
     "version": "1.0.6"
+  },
+  {
+    "description": "Pytest plugin for filtering based on sub-packages",
+    "name": "pytest-filter-subpackage",
+    "version": "0.1"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
