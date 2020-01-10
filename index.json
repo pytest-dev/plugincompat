@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.1.9"
+    "version": "3.2.2"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -820,9 +820,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "A ``py.test`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.",
+    "description": "A ``pytest`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.",
     "name": "pytest-benchmark",
-    "version": "3.2.2"
+    "version": "3.2.3"
   },
   {
     "description": "A BigchainDB plugin for pytest.",
@@ -1027,7 +1027,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   {
     "description": "PyTest plugin for testing Smart Contracts for Ethereum blockchain.",
@@ -1687,7 +1687,7 @@
   {
     "description": "Pytest plugin for filtering based on sub-packages",
     "name": "pytest-filter-subpackage",
-    "version": "0.1"
+    "version": "0.1.1"
   },
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
@@ -2595,9 +2595,9 @@
     "version": "1.0.6"
   },
   {
-    "description": "Mark test sessions as successful based on a percentage of passed tests.",
+    "description": "Change the exit code of pytest test sessions when a required percent of tests pass.",
     "name": "pytest-percent",
-    "version": "0.0.1"
+    "version": "0.0.3"
   },
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
@@ -2882,7 +2882,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -2912,7 +2912,7 @@
   {
     "description": "pytest plugin for regression tests",
     "name": "pytest-regtest",
-    "version": "1.4.3"
+    "version": "1.4.4"
   },
   {
     "description": "Relaxed test discovery/organization for pytest",
@@ -2977,7 +2977,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   {
     "description": "pytest plugin to check pinned requirements",
