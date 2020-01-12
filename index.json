@@ -480,6 +480,11 @@
     "version": "0.1.2"
   },
   {
+    "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
+    "name": "openapi-tester",
+    "version": "0.0.1"
+  },
+  {
     "description": "Find changes between OpenStack-Ansible versions",
     "name": "osa_differ",
     "version": "0.0.2"
@@ -1832,7 +1837,7 @@
   {
     "description": "Pytest plugin for reporting on coverage of the last git commit.",
     "name": "pytest-gitcov",
-    "version": "0.0.9"
+    "version": "0.1.5"
   },
   {
     "description": "Plugin for py.test that associates tests with github issues using a marker.",
@@ -3442,7 +3447,7 @@
   {
     "description": "Test configuration plugin for pytest.",
     "name": "pytest-testconfig",
-    "version": "0.1.3"
+    "version": "0.2.0"
   },
   {
     "description": "A py.test plugin providing temporary directories in unit tests.",
@@ -3942,7 +3947,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.0.9"
+    "version": "0.1.0"
   },
   {
     "description": "A code-driven QA reporting library",
@@ -3952,7 +3957,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "1.0.0a2"
+    "version": "1.0.0a3"
   },
   {
     "description": "Simple testing of RESTful APIs",
