@@ -162,7 +162,7 @@
   {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
-    "version": "0.1.6"
+    "version": "0.1.8"
   },
   {
     "description": "CI helper for STScI Jenkins",
@@ -287,7 +287,7 @@
   {
     "description": "Approval testing for Python3",
     "name": "godkjenn",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "Function set for goodness of fit measure between two signals",
@@ -332,7 +332,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.1.4"
+    "version": "5.1.5"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -1935,6 +1935,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "help hypo module for pytest",
+    "name": "pytest-hypo-25",
+    "version": "2.3"
+  },
+  {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
     "version": "0.2"
@@ -2867,7 +2872,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "3.2.0"
+    "version": "3.2.1"
   },
   {
     "description": "Pytest plugin about random seed management",
@@ -3947,7 +3952,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A code-driven QA reporting library",
