@@ -292,7 +292,7 @@
   {
     "description": "Approval testing for Python3",
     "name": "godkjenn",
-    "version": "0.5.0"
+    "version": "1.1.0"
   },
   {
     "description": "Function set for goodness of fit measure between two signals",
@@ -457,7 +457,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "2.1.3"
+    "version": "2.2.0"
   },
   {
     "description": "mutation testing for Python 3",
@@ -1512,7 +1512,7 @@
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
     "name": "pytest-drop-dup-tests",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin for dumping test results to json.",
@@ -2412,7 +2412,7 @@
   {
     "description": "Pytest plugin to check mypy output.",
     "name": "pytest-mypy-testing",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -2443,6 +2443,11 @@
     "description": "nginx fixture for pytest - iplweb temporary fork",
     "name": "pytest-nginx-iplweb",
     "version": "1.1.1"
+  },
+  {
+    "description": "",
+    "name": "pytest-ngrok",
+    "version": "0.0.1"
   },
   {
     "description": "pytest ngs fixtures",
@@ -2967,7 +2972,7 @@
   {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
-    "version": "4.0"
+    "version": "5.0"
   },
   {
     "description": "Reorder tests depending on their paths and names.",
@@ -3347,7 +3352,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.7.1"
+    "version": "1.7.2"
   },
   {
     "description": "Run a test suite one failing test at a time.",
