@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.2.2"
+    "version": "3.2.3"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -2447,7 +2447,7 @@
   {
     "description": "",
     "name": "pytest-ngrok",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "pytest ngs fixtures",
@@ -3210,9 +3210,9 @@
     "version": "0.1.1"
   },
   {
-    "description": "A plugin for testing shell scripts and line-based processes with pytest",
+    "description": "A pytest plugin for testing shell scripts and line-based processes",
     "name": "pytest-shell",
-    "version": "0.2.1"
+    "version": "0.2.3"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -3397,7 +3397,7 @@
   {
     "description": "A plugin to fake subprocess for pytest",
     "name": "pytest-subprocess",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
