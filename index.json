@@ -502,7 +502,7 @@
   {
     "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
     "name": "openapi-tester",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Find changes between OpenStack-Ansible versions",
@@ -2527,7 +2527,7 @@
   {
     "description": "Use @pytest.mark.only to run a single test",
     "name": "pytest-only",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Run object-oriented tests in a simple format",
