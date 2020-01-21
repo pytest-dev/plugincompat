@@ -337,7 +337,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.2.0"
+    "version": "5.3.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -457,7 +457,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "2.2.0"
+    "version": "3.0.0"
   },
   {
     "description": "mutation testing for Python 3",
@@ -827,7 +827,7 @@
   {
     "description": "",
     "name": "pytest-bdd-wrappers",
-    "version": "0.0.2"
+    "version": "0.0.4"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
