@@ -827,7 +827,7 @@
   {
     "description": "",
     "name": "pytest-bdd-wrappers",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -1233,6 +1233,11 @@
     "description": "A pytest plugin for managing an archive of test data.",
     "name": "pytest-dataplugin",
     "version": "0.0.2"
+  },
+  {
+    "description": "A py.test plugin recording and comparing test output.",
+    "name": "pytest-datarecorder",
+    "version": "1.0.1"
   },
   {
     "description": "A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).",
@@ -1847,7 +1852,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.6.dev8"
+    "version": "3.0.7.dev2"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2052,7 +2057,7 @@
   {
     "description": "Pytest plugin to display test reports as a plaintext spec, inspired by Rspec: https://github.com/mattduck/pytest-it.",
     "name": "pytest-it",
-    "version": "0.1.2"
+    "version": "0.1.4"
   },
   {
     "description": "Run jasmine tests from your pytest test suite",
@@ -2447,7 +2452,7 @@
   {
     "description": "",
     "name": "pytest-ngrok",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "pytest ngs fixtures",
@@ -4082,6 +4087,6 @@
   {
     "description": "CLI bundle for Zalando developers",
     "name": "zalando-cli-bundle",
-    "version": "19.12.1"
+    "version": "20.1.0"
   }
 ]
