@@ -1530,6 +1530,11 @@
     "version": "2.0.0"
   },
   {
+    "description": "pytest-easy-addoption: Easy way to work with pytest addoption",
+    "name": "pytest-easy-addoption",
+    "version": "0.1.1"
+  },
+  {
     "description": "Simple API testing with pytest",
     "name": "pytest-easy-api",
     "version": "0.0.3"
@@ -1852,7 +1857,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.7.dev2"
+    "version": "3.0.7.dev6"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2927,7 +2932,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3047,7 +3052,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "34.0.195"
+    "version": "35.0.203"
   },
   {
     "description": "Load resource fixture plugin to use with pytest",
@@ -3412,7 +3417,7 @@
   {
     "description": "unittest subTest() support and subtests fixture",
     "name": "pytest-subtests",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
