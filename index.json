@@ -1032,7 +1032,7 @@
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
     "name": "pytest-clarity",
-    "version": "0.2.0a1"
+    "version": "0.3.0a0"
   },
   {
     "description": "Easy quality control for CLDF datasets using pytest",
@@ -1237,7 +1237,7 @@
   {
     "description": "A py.test plugin recording and comparing test output.",
     "name": "pytest-datarecorder",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).",
@@ -2330,6 +2330,11 @@
     "version": "0.2.1"
   },
   {
+    "description": "A pytest plugin for easily instantiating reproducible mock resources.",
+    "name": "pytest-mock-resources",
+    "version": "1.0.0"
+  },
+  {
     "description": "Base fixtures for mockito",
     "name": "pytest-mockito",
     "version": "0.0.4"
@@ -3097,7 +3102,7 @@
   {
     "description": "pytest data collector plugin for Testgr",
     "name": "pytest-rt",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "implement a --failed option for pytest",
@@ -3932,7 +3937,7 @@
   {
     "description": "A python client for sat-api",
     "name": "sat-search",
-    "version": "0.2.2"
+    "version": "0.3.0a1"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
