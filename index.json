@@ -467,7 +467,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -502,7 +502,7 @@
   {
     "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
     "name": "openapi-tester",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Find changes between OpenStack-Ansible versions",
