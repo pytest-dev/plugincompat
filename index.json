@@ -167,7 +167,7 @@
   {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "CI helper for STScI Jenkins",
@@ -998,6 +998,11 @@
     "description": "A set of py.test fixtures for AWS Chalice",
     "name": "pytest-chalice",
     "version": "0.0.4"
+  },
+  {
+    "description": "A pytest fixture for changing current working directory",
+    "name": "pytest-chdir",
+    "version": "0.1.2"
   },
   {
     "description": "A pytest plugin that allows multiple failures per test.",
@@ -1977,7 +1982,7 @@
   {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api",
@@ -3127,7 +3132,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt",
-    "version": "2019.12.27"
+    "version": "2020.1.27"
   },
   {
     "description": "A Pytest plugin that builds and creates docker containers",
