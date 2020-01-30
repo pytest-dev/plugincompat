@@ -342,7 +342,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.3.1"
+    "version": "5.4.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -452,7 +452,7 @@
   {
     "description": "libvirt Molecule Plugin :: run molecule tests on libvirt",
     "name": "molecule-libvirt",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Vagrant Molecule Plugin :: run molecule tests using Vagrant",
@@ -3827,7 +3827,7 @@
   {
     "description": "pytest plugin to manage external processes across test runs",
     "name": "pytest-xprocess",
-    "version": "0.12.1"
+    "version": "0.13.1"
   },
   {
     "description": "",
