@@ -3967,7 +3967,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.34.9"
+    "version": "1.35.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4038,6 +4038,11 @@
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
     "version": "0.9.7"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "teste-do-noia",
+    "version": "0.2"
   },
   {
     "description": "Test infrastructures",
