@@ -195,6 +195,11 @@
     "version": "0.1"
   },
   {
+    "description": "Analysis libraty for project CZELTA (http://czelta.utef.cvut.cz/)",
+    "name": "czelta",
+    "version": "1.0"
+  },
+  {
     "description": "Module created to facilitate the creation and use of data structures",
     "name": "datastructs",
     "version": "0.2.2"
@@ -342,7 +347,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.4.0"
+    "version": "5.4.1"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -438,6 +443,11 @@
     "description": "Azure Molecule Plugin :: run molecule tests on Azure",
     "name": "molecule-azure",
     "version": "0.1"
+  },
+  {
+    "description": "Molecule Containers Driver :: run molecule tests on containers",
+    "name": "molecule-containers",
+    "version": "0.1.dev0"
   },
   {
     "description": "digitalocean Molecule Plugin :: run molecule tests on digitalocean",
@@ -3912,7 +3922,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.2"
+    "version": "0.6.3"
   },
   {
     "description": "Unofficial python API client for Hiptest",
