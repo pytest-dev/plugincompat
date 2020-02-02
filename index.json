@@ -567,7 +567,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.0b2"
+    "version": "2020.0.1"
   },
   {
     "description": "Mock object framework",
@@ -1582,7 +1582,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-elk-reporter",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "Send execution result email",
@@ -2167,7 +2167,7 @@
   {
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
-    "version": "0.6.2"
+    "version": "0.6.3"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
