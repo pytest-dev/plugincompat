@@ -567,7 +567,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.1"
+    "version": "2020.0.2"
   },
   {
     "description": "Mock object framework",
@@ -1807,7 +1807,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.15.0"
+    "version": "0.15.1"
   },
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
@@ -3922,7 +3922,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.3"
+    "version": "0.6.4"
   },
   {
     "description": "Unofficial python API client for Hiptest",
