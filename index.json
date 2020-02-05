@@ -112,7 +112,7 @@
   {
     "description": "Allure pytest integration",
     "name": "allure-pytest",
-    "version": "2.8.7"
+    "version": "2.8.9"
   },
   {
     "description": "Allure pytest integration",
@@ -122,7 +122,7 @@
   {
     "description": "Allure pytest-bdd integration",
     "name": "allure-pytest-bdd",
-    "version": "2.8.7"
+    "version": "2.8.9"
   },
   {
     "description": "Alternative pytest plugin to pytest-asyncio",
@@ -602,7 +602,7 @@
   {
     "description": "pytest plugin for generating test execution results within Jira Test Management (tm4j)",
     "name": "pytest-adaptavist",
-    "version": "4.0.0"
+    "version": "4.0.5"
   },
   {
     "description": "pytest plugin for pytest-repeat that generate aggregate report of the same test cases with additional statistics details.",
@@ -872,7 +872,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.7"
+    "version": "0.3.8"
   },
   {
     "description": "Allow '--black' on older Pythons",
@@ -1662,7 +1662,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "1.3b4"
+    "version": "2.0a2"
   },
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
@@ -1877,7 +1877,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.7.dev6"
+    "version": "3.0.9.dev9"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -3977,7 +3977,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.1"
+    "version": "1.35.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
