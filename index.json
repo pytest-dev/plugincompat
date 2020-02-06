@@ -57,7 +57,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.3.0"
+    "version": "3.3.1"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -127,7 +127,7 @@
   {
     "description": "Alternative pytest plugin to pytest-asyncio",
     "name": "alt-pytest-asyncio",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -172,7 +172,7 @@
   {
     "description": "CI helper for STScI Jenkins",
     "name": "ci-watson",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "Python config wrapper, with added goodness",
@@ -347,7 +347,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.4.1"
+    "version": "5.4.2"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -1978,6 +1978,11 @@
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
     "version": "0.3.4"
+  },
+  {
+    "description": "pytest fixture for HTTPX",
+    "name": "pytest-httpx",
+    "version": "0.0.2"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
