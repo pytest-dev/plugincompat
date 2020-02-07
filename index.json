@@ -347,7 +347,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.4.2"
+    "version": "5.5.1"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -1982,7 +1982,7 @@
   {
     "description": "pytest fixture for HTTPX",
     "name": "pytest-httpx",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -3982,7 +3982,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.2"
+    "version": "1.35.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
