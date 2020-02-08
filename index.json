@@ -10,6 +10,11 @@
     "version": "3.1.0"
   },
   {
+    "description": "Python tools and utilities for working with the AnyBody Modeling System",
+    "name": "AnyPyTools",
+    "version": "1.4.0"
+  },
+  {
     "description": "A highly customisable Discord bot",
     "name": "Blue-DiscordBot",
     "version": "3.2.0"
@@ -648,6 +653,11 @@
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
     "version": "0.0.9"
+  },
+  {
+    "description": "Static code checks used at Alphamoon",
+    "name": "pytest-alphamoon",
+    "version": "0.1.6"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1982,7 +1992,7 @@
   {
     "description": "pytest fixture for HTTPX",
     "name": "pytest-httpx",
-    "version": "0.0.3"
+    "version": "0.0.4"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -3360,6 +3370,11 @@
     "version": "2.0.1"
   },
   {
+    "description": "Pytest plugin for splitting test suite based on test execution time",
+    "name": "pytest-split",
+    "version": "0.1.0"
+  },
+  {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
     "version": "1.0.9"
@@ -3607,7 +3622,7 @@
   {
     "description": "",
     "name": "pytest-tipsi-django",
-    "version": "2.3.1"
+    "version": "2.4.0"
   },
   {
     "description": "Better fixtures management. Various helpers",
