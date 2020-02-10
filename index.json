@@ -657,7 +657,7 @@
   {
     "description": "Static code checks used at Alphamoon",
     "name": "pytest-alphamoon",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -852,7 +852,7 @@
   {
     "description": "",
     "name": "pytest-bdd-wrappers",
-    "version": "0.0.5"
+    "version": "0.1.2"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
@@ -2857,7 +2857,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.14.1"
+    "version": "0.15.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -3297,7 +3297,7 @@
   {
     "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "2.1.1"
+    "version": "2.1.2"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
@@ -3842,6 +3842,11 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist-debug-for-graingert",
+    "version": "0.0.1"
+  },
+  {
+    "description": "forked from pytest-xdist",
+    "name": "pytest-xdist-forked",
     "version": "0.0.1"
   },
   {
