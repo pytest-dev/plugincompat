@@ -487,7 +487,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.2.0"
+    "version": "0.2.2"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -657,7 +657,7 @@
   {
     "description": "Static code checks used at Alphamoon",
     "name": "pytest-alphamoon",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1965,6 +1965,11 @@
     "version": "2.0.1"
   },
   {
+    "description": "Pytest plugin for generating HTML reports with per-test profiling and optionally call graph visualizations. Based on pytest-html by Dave Hunt.",
+    "name": "pytest-html-profiling",
+    "version": "1.0.0"
+  },
+  {
     "description": "Fixture \"http\" for http requests",
     "name": "pytest-http",
     "version": "0.1"
@@ -1992,7 +1997,7 @@
   {
     "description": "pytest fixture for HTTPX",
     "name": "pytest-httpx",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -3217,7 +3222,7 @@
   {
     "description": "A pytest plugin to report flaky tests to Sentry.io",
     "name": "pytest-sentry",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Extensible server fixures for py.test",
@@ -3263,6 +3268,11 @@
     "description": "A pytest plugin for testing shell scripts and line-based processes",
     "name": "pytest-shell",
     "version": "0.2.3"
+  },
+  {
+    "description": "Versatile ZODB abstraction layer - pytest fixtures",
+    "name": "pytest-sheraf",
+    "version": "0.1.1"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -4098,6 +4108,11 @@
     "description": "Helper for checking variable equivalence by type. Useful for tests.",
     "name": "type-comparable",
     "version": "0.4"
+  },
+  {
+    "description": "Versatile ZODB abstraction layer - unittest fixtures",
+    "name": "unittest-sheraf",
+    "version": "0.1.0"
   },
   {
     "description": "The Unmock Python clent",
