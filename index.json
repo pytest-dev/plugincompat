@@ -487,7 +487,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -497,7 +497,7 @@
   {
     "description": "A py.test plugin to validate Jupyter notebooks",
     "name": "nbval",
-    "version": "0.9.4"
+    "version": "0.9.5"
   },
   {
     "description": "Python interface for the Cephes library.",
@@ -657,7 +657,7 @@
   {
     "description": "Static code checks used at Alphamoon",
     "name": "pytest-alphamoon",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -852,7 +852,7 @@
   {
     "description": "",
     "name": "pytest-bdd-wrappers",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A pytest plugin that reports test results to the BeakerLib framework",
