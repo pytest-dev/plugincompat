@@ -97,7 +97,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.6.8"
+    "version": "9.7.0"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -352,7 +352,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.5.1"
+    "version": "5.5.2"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -383,6 +383,11 @@
     "description": "labgrid: lab hardware and software control layer",
     "name": "labgrid",
     "version": "0.1.0"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso Pytools",
+    "name": "lcp.libpythonpro",
+    "version": "0.2"
   },
   {
     "description": "Modulo para exemplificar construcapipo de projetos Python para curso Pythontools",
