@@ -97,7 +97,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.7.0"
+    "version": "9.7.5"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -1942,7 +1942,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.7.4"
+    "version": "1.8.0"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -2000,9 +2000,9 @@
     "version": "0.3.4"
   },
   {
-    "description": "pytest fixture for HTTPX",
+    "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.0.5"
+    "version": "0.1.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -4062,7 +4062,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   {
     "description": "A code-driven QA reporting library",
