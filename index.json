@@ -352,7 +352,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.5.3"
+    "version": "5.5.4"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -1865,6 +1865,11 @@
     "version": "0.4.1"
   },
   {
+    "description": "Pytest plugin for measuring function coverage",
+    "name": "pytest-func-cov",
+    "version": "0.1"
+  },
+  {
     "description": "pytest plugin for Firefox Accounts",
     "name": "pytest-fxa",
     "version": "1.4.0"
@@ -2237,7 +2242,7 @@
   {
     "description": "Live results for pytest",
     "name": "pytest-live",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
