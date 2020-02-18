@@ -577,7 +577,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.2"
+    "version": "2020.0.5"
   },
   {
     "description": "Mock object framework",
@@ -1867,7 +1867,7 @@
   {
     "description": "Pytest plugin for measuring function coverage",
     "name": "pytest-func-cov",
-    "version": "0.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest plugin for Firefox Accounts",
@@ -3197,7 +3197,7 @@
   {
     "description": "a pytest plugin for Sanic",
     "name": "pytest-sanic",
-    "version": "1.1.2"
+    "version": "1.5.0"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3857,7 +3857,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4027,7 +4027,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.3"
+    "version": "1.35.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
