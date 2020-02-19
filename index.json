@@ -137,7 +137,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.7.0"
+    "version": "2.8.0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -470,9 +470,19 @@
     "version": "0.1"
   },
   {
+    "description": "Molecule GCE Plugin :: run molecule tests on Google Cloud Engine",
+    "name": "molecule-gce",
+    "version": "0.1"
+  },
+  {
     "description": "libvirt Molecule Plugin :: run molecule tests on libvirt",
     "name": "molecule-libvirt",
     "version": "0.0.2"
+  },
+  {
+    "description": "Molecule OpenStack Plugin :: run molecule tests on openstack",
+    "name": "molecule-openstack",
+    "version": "0.1"
   },
   {
     "description": "Vagrant Molecule Plugin :: run molecule tests using Vagrant",
@@ -1452,7 +1462,7 @@
   {
     "description": "An RST Documentation Generator for pytest-based test suites",
     "name": "pytest-docgen",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "",
@@ -1867,7 +1877,7 @@
   {
     "description": "Pytest plugin for measuring function coverage",
     "name": "pytest-func-cov",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "pytest plugin for Firefox Accounts",
@@ -2242,7 +2252,7 @@
   {
     "description": "Live results for pytest",
     "name": "pytest-live",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -2932,7 +2942,7 @@
   {
     "description": "RabbitMQ process and client fixtures for pytest",
     "name": "pytest-rabbitmq",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "Race conditions tester for pytest",
@@ -3600,6 +3610,11 @@
     "version": "2.0.0"
   },
   {
+    "description": "PyTest plugin for TestRail",
+    "name": "pytest-testrail-plugin",
+    "version": "0.0.1"
+  },
+  {
     "description": "",
     "name": "pytest-testrail-reporter",
     "version": "1.9"
@@ -3817,7 +3832,7 @@
   {
     "description": "Pytest plugin for testing whatsapp bots with end to end tests",
     "name": "pytest-wa-e2e-plugin",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "pytest plugin to list Python warnings in pytest report",
@@ -4027,7 +4042,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.4"
+    "version": "1.35.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
