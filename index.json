@@ -587,7 +587,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.5"
+    "version": "2020.0.6"
   },
   {
     "description": "Mock object framework",
@@ -1502,7 +1502,7 @@
   {
     "description": "Run, manage and stop Docker Compose project from Docker API",
     "name": "pytest-dockerc",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   {
     "description": "Documentation tool for pytest",
@@ -4122,7 +4122,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "4.0.0"
+    "version": "4.1.0"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
