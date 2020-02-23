@@ -587,7 +587,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.6"
+    "version": "2020.0.7"
   },
   {
     "description": "Mock object framework",
@@ -2082,7 +2082,7 @@
   {
     "description": "pytest plugin to instrument tests",
     "name": "pytest-instrument",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Organizing pytests by integration or not",
@@ -3377,7 +3377,7 @@
   {
     "description": "pytest plugin to run the tests with support of pyspark.",
     "name": "pytest-spark",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "py.test plugin to spawn process and communicate with them.",
@@ -4042,7 +4042,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.7"
+    "version": "1.35.8"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
