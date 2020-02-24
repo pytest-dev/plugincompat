@@ -587,7 +587,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.7"
+    "version": "2020.0.8"
   },
   {
     "description": "Mock object framework",
@@ -2430,6 +2430,11 @@
     "version": "2.2.0"
   },
   {
+    "description": "Pytest plugin for analyzing resource usage.",
+    "name": "pytest-monitor",
+    "version": "1.0.0"
+  },
+  {
     "description": "pytest's monkeypatch subclass with extra functionalities",
     "name": "pytest-monkeyplus",
     "version": "1.1.0"
@@ -2477,7 +2482,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.4.2"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
