@@ -487,7 +487,7 @@
   {
     "description": "Vagrant Molecule Plugin :: run molecule tests using Vagrant",
     "name": "molecule-vagrant",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Python mutation testing: test your tests!",
@@ -537,7 +537,7 @@
   {
     "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
     "name": "openapi-tester",
-    "version": "0.0.3"
+    "version": "0.0.6"
   },
   {
     "description": "Find changes between OpenStack-Ansible versions",
@@ -1602,7 +1602,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-elk-reporter",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "Send execution result email",
@@ -3195,6 +3195,11 @@
     "version": "0.2.dev9"
   },
   {
+    "description": "Pytest Salt Plugin",
+    "name": "pytest-salt-factories",
+    "version": "0.7.2"
+  },
+  {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
     "name": "pytest-salt-from-filenames",
     "version": "2019.1.30.post3"
@@ -3992,7 +3997,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.4"
+    "version": "0.6.5"
   },
   {
     "description": "Unofficial python API client for Hiptest",
