@@ -537,7 +537,7 @@
   {
     "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
     "name": "openapi-tester",
-    "version": "0.0.6"
+    "version": "0.0.8"
   },
   {
     "description": "Find changes between OpenStack-Ansible versions",
@@ -587,7 +587,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.8"
+    "version": "2020.0.9"
   },
   {
     "description": "Mock object framework",
@@ -2472,7 +2472,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.2.1"
+    "version": "1.2.8"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3197,7 +3197,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.2"
+    "version": "0.7.4"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3857,7 +3857,7 @@
   {
     "description": "Pytest plugin for testing WDL workflows.",
     "name": "pytest-wdl",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
