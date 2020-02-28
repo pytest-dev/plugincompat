@@ -377,7 +377,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -2067,7 +2067,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "0.9.0"
+    "version": "1.0.0"
   },
   {
     "description": "Inmanta tests package",
@@ -3197,7 +3197,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.4"
+    "version": "0.7.5"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3462,7 +3462,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
