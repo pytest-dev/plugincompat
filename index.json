@@ -502,7 +502,7 @@
   {
     "description": "mutation testing for Python 3",
     "name": "mutmut",
-    "version": "1.6.0"
+    "version": "1.8.0"
   },
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
@@ -3312,7 +3312,7 @@
   {
     "description": "pytest plugin help to find coupled tests",
     "name": "pytest-sherlock",
-    "version": "0.0.1"
+    "version": "0.1.0"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -4107,7 +4107,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   {
     "description": "A code-driven QA reporting library",
