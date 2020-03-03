@@ -507,7 +507,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -592,7 +592,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.0.9"
+    "version": "2020.1.2"
   },
   {
     "description": "Mock object framework",
@@ -1837,7 +1837,7 @@
   {
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
-    "version": "0.15.1"
+    "version": "1.0.0"
   },
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
@@ -3937,7 +3937,7 @@
   {
     "description": "Create or check file/directory trees described by YAML",
     "name": "pytest-yamltree",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Run tests against wsgi apps defined in yaml",
