@@ -137,7 +137,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "2.8.0"
+    "version": "3.0.4"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -592,7 +592,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.1.2"
+    "version": "2020.1.3"
   },
   {
     "description": "Mock object framework",
@@ -3057,7 +3057,7 @@
   {
     "description": "py.test plugin to remove stale byte code files.",
     "name": "pytest-remove-stale-bytecode",
-    "version": "5.0"
+    "version": "5.0.1"
   },
   {
     "description": "Reorder tests depending on their paths and names.",
@@ -3102,7 +3102,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.0.9"
+    "version": "1.10.0"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -3502,7 +3502,7 @@
   {
     "description": "A plugin to fake subprocess for pytest",
     "name": "pytest-subprocess",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
