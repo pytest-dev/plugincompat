@@ -377,7 +377,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -592,7 +592,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.1.3"
+    "version": "2020.1.4"
   },
   {
     "description": "Mock object framework",
@@ -1462,7 +1462,7 @@
   {
     "description": "An RST Documentation Generator for pytest-based test suites",
     "name": "pytest-docgen",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "",
@@ -2892,7 +2892,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.15.0"
+    "version": "0.15.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -3133,6 +3133,11 @@
     "description": "Load resource fixture plugin to use with pytest",
     "name": "pytest-resource",
     "version": "0.1.3"
+  },
+  {
+    "description": "Simplified requests calls mocking for pytest",
+    "name": "pytest-responsemock",
+    "version": "0.1.0"
   },
   {
     "description": "py.test integration for responses",
