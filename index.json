@@ -1980,9 +1980,9 @@
     "version": "0.2.2"
   },
   {
-    "description": "Enforce coverage and report on tests that honor constraints",
+    "description": "Report on tests that honor constraints, and guard against regressions",
     "name": "pytest-honors",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -2252,7 +2252,7 @@
   {
     "description": "Live results for pytest",
     "name": "pytest-live",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -2362,7 +2362,7 @@
   {
     "description": "Custom metrics report for pytest",
     "name": "pytest-metrics",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Mimesis integration with the pytest test runner",
@@ -2942,7 +2942,7 @@
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
     "name": "pytest-quickcheck",
-    "version": "0.8.3"
+    "version": "0.8.4"
   },
   {
     "description": "RabbitMQ process and client fixtures for pytest",
@@ -3472,7 +3472,7 @@
   {
     "description": "A plugin to pytest stoq",
     "name": "pytest-stoq",
-    "version": "0.6.1"
+    "version": "0.7.0"
   },
   {
     "description": "A Pytest plugin that allows you to loop tests for a user defined amount of time.",
@@ -4135,6 +4135,11 @@
     "version": "0.30.11"
   },
   {
+    "description": "Toy project to test executables defined in a yaml file",
+    "name": "test-exe-matrix",
+    "version": "0.1.4"
+  },
+  {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "testaid",
     "version": "0.9.7"
@@ -4147,7 +4152,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "4.1.0"
+    "version": "5.0.0"
   },
   {
     "description": "A tool that executes a suite of static analysis tools upon a Python project.",
