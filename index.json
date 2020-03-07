@@ -2477,7 +2477,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.2.8"
+    "version": "1.2.9"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
