@@ -1412,7 +1412,7 @@
   {
     "description": "A model instance factory for pytest-django",
     "name": "pytest-django-ifactory",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "The bare minimum to integrate py.test with Django.",
@@ -1980,6 +1980,16 @@
     "version": "0.2.2"
   },
   {
+    "description": "Custom report to display pytest historical execution records",
+    "name": "pytest-historic",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Custom listener to store execution results into MYSQL DB, which is used for pytest-historic report",
+    "name": "pytest-historic-hook",
+    "version": "0.1.0"
+  },
+  {
     "description": "Report on tests that honor constraints, and guard against regressions",
     "name": "pytest-honors",
     "version": "0.1.5"
@@ -2252,7 +2262,7 @@
   {
     "description": "Live results for pytest",
     "name": "pytest-live",
-    "version": "0.4"
+    "version": "0.6"
   },
   {
     "description": "A PyTest plugin which provides an FTP fixture for your tests",
@@ -2623,6 +2633,11 @@
     "description": "Pytest plugin for detecting inadvertent open file handles",
     "name": "pytest-openfiles",
     "version": "0.4.0"
+  },
+  {
+    "description": "pytest plugin for publish results to opentmi",
+    "name": "pytest-opentmi",
+    "version": "0.1.0"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -4015,6 +4030,11 @@
     "version": "0.0.0"
   },
   {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "pytoolsc2",
+    "version": "0.2"
+  },
+  {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "qieman-xdist",
     "version": "0.6"
@@ -4112,7 +4132,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "A code-driven QA reporting library",
