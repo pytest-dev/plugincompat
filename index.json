@@ -235,6 +235,11 @@
     "version": "1.8.2"
   },
   {
+    "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
+    "name": "django-swagger-tester",
+    "version": "0.1.0"
+  },
+  {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
     "name": "django-test-plus",
     "version": "1.4.0"
@@ -2032,7 +2037,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2487,7 +2492,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.3.9"
+    "version": "1.4.1"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2637,7 +2642,7 @@
   {
     "description": "pytest plugin for publish results to opentmi",
     "name": "pytest-opentmi",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -2922,7 +2927,7 @@
   {
     "description": "Pytest fixture \"q\" for pyq",
     "name": "pytest-pyq",
-    "version": "1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Pyramid server fixture for py.test",
@@ -3222,7 +3227,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.6"
+    "version": "0.7.8"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4022,7 +4027,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.5"
+    "version": "0.6.6"
   },
   {
     "description": "Unofficial python API client for Hiptest",
