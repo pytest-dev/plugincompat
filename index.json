@@ -382,7 +382,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -502,7 +502,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   {
     "description": "mutation testing for Python 3",
@@ -1987,7 +1987,7 @@
   {
     "description": "Custom report to display pytest historical execution records",
     "name": "pytest-historic",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Custom listener to store execution results into MYSQL DB, which is used for pytest-historic report",
@@ -2002,7 +2002,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "2.0.1"
+    "version": "2.1.0"
   },
   {
     "description": "Pytest plugin for generating HTML reports with per-test profiling and optionally call graph visualizations. Based on pytest-html by Dave Hunt.",
@@ -2412,7 +2412,7 @@
   {
     "description": "A pytest plugin for easily instantiating reproducible mock resources.",
     "name": "pytest-mock-resources",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Base fixtures for mockito",
@@ -2492,7 +2492,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "1.4.1"
+    "version": "2.0.0"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2642,7 +2642,7 @@
   {
     "description": "pytest plugin for publish results to opentmi",
     "name": "pytest-opentmi",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -3227,7 +3227,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.8"
+    "version": "0.7.9"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4105,6 +4105,11 @@
     "version": "0.0.30"
   },
   {
+    "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
+    "name": "shield34",
+    "version": "1.0.241"
+  },
+  {
     "description": "Pure python tools for SIP testing",
     "name": "sipster",
     "version": "0.0.1"
@@ -4137,7 +4142,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   {
     "description": "A code-driven QA reporting library",
@@ -4247,6 +4252,6 @@
   {
     "description": "CLI bundle for Zalando developers",
     "name": "zalando-cli-bundle",
-    "version": "20.1.0"
+    "version": "20.3.0"
   }
 ]
