@@ -3227,7 +3227,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.9"
+    "version": "0.7.10"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
