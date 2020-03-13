@@ -52,7 +52,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.4.1"
+    "version": "0.5.1"
   },
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
@@ -507,7 +507,7 @@
   {
     "description": "mutation testing for Python 3",
     "name": "mutmut",
-    "version": "1.8.0"
+    "version": "1.8.1"
   },
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
@@ -597,7 +597,7 @@
   {
     "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
     "name": "pyfrc",
-    "version": "2020.1.4"
+    "version": "2020.1.5"
   },
   {
     "description": "Mock object framework",
@@ -3227,7 +3227,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.10"
+    "version": "0.7.13"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
