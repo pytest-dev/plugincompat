@@ -52,7 +52,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
@@ -3122,7 +3122,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "1.10.0"
+    "version": "5.0.0"
   },
   {
     "description": "pytest plugin to check pinned requirements",
