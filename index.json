@@ -512,7 +512,7 @@
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
     "name": "nanaimo",
-    "version": "0.2.4"
+    "version": "0.2.5"
   },
   {
     "description": "Basic notebook checks. Do they run? Do they contain lint?",
@@ -1312,7 +1312,7 @@
   {
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "Manage dependencies of tests",
@@ -2502,7 +2502,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -3825,6 +3825,11 @@
     "version": "2.0.1"
   },
   {
+    "description": "",
+    "name": "pytest-valgrind",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest plugin for providing variables to tests/fixtures",
     "name": "pytest-variables",
     "version": "1.9.0"
@@ -4087,7 +4092,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.8"
+    "version": "1.35.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
