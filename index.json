@@ -962,7 +962,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.3.1"
+    "version": "0.4.0"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -2722,7 +2722,7 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
@@ -4092,7 +4092,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.35.9"
+    "version": "1.36.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
