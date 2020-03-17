@@ -97,7 +97,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.7.5"
+    "version": "9.7.7"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -762,7 +762,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
@@ -962,7 +962,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.4.0"
+    "version": "0.4.6"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -2492,7 +2492,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3227,7 +3227,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.13"
+    "version": "0.7.15"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3662,7 +3662,7 @@
   {
     "description": "A small example package",
     "name": "pytest-testrail2",
-    "version": "2.7.6"
+    "version": "2.7.7"
   },
   {
     "description": "Tesults plugin for pytest",
@@ -3953,6 +3953,11 @@
     "description": "",
     "name": "pytest-xray",
     "version": "0.2.1"
+  },
+  {
+    "description": "",
+    "name": "pytest-xrayjira",
+    "version": "1.0.2"
   },
   {
     "description": "A pytest plugin to run Xvfb for tests.",
