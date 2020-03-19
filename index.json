@@ -357,7 +357,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.6.0"
+    "version": "5.7.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -507,7 +507,7 @@
   {
     "description": "mutation testing for Python 3",
     "name": "mutmut",
-    "version": "1.8.1"
+    "version": "1.9.0"
   },
   {
     "description": "Framework for automating tests involving hardware test fixtures.",
@@ -962,7 +962,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.4.6"
+    "version": "0.5.6"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -2002,7 +2002,7 @@
   {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   {
     "description": "Pytest plugin for generating HTML reports with per-test profiling and optionally call graph visualizations. Based on pytest-html by Dave Hunt.",
@@ -2452,7 +2452,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -2800,6 +2800,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "PyTest Plus Plugin :: extends pytest functionality",
+    "name": "pytest-plus",
+    "version": "0.2"
+  },
+  {
     "description": "",
     "name": "pytest-pmisc",
     "version": "1.0.2"
@@ -2842,7 +2847,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "2.2.1"
+    "version": "2.3.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -3227,7 +3232,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.15"
+    "version": "0.7.16"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
