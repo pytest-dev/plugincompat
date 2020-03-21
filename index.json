@@ -75,6 +75,11 @@
     "version": "2019.12.13.1"
   },
   {
+    "description": "Converts ANSI string to HTML, keeping the coloring",
+    "name": "a2h",
+    "version": "0.1.dev0"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "adilmar-libpythonpro-package",
     "version": "0.2"
@@ -482,7 +487,7 @@
   {
     "description": "EC2 Molecule Plugin :: run molecule tests using AWS EC2",
     "name": "molecule-ec2",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "Molecule GCE Plugin :: run molecule tests on Google Cloud Engine",
@@ -2042,7 +2047,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2387,7 +2392,7 @@
   {
     "description": "Mimesis integration with the pytest test runner",
     "name": "pytest-mimesis",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "Test your machine learning!",
@@ -3407,7 +3412,7 @@
   {
     "description": "A plugin to enable snapshot testing with pytest.",
     "name": "pytest-snapshot",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "Pytest Plugin to disable socket calls during tests",
@@ -3837,7 +3842,7 @@
   {
     "description": "A py.test plugin providing access to vagrant.",
     "name": "pytest-vagrant",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   {
     "description": "",
@@ -4092,7 +4097,7 @@
   {
     "description": "A python client for sat-api",
     "name": "sat-search",
-    "version": "0.3.0a1"
+    "version": "0.3.0b2"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
