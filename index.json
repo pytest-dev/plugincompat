@@ -807,7 +807,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -977,7 +977,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.6.3"
+    "version": "0.7.5"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -1132,7 +1132,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-codestyle",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "Colorizes the progress indicators",
@@ -1537,7 +1537,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-docstyle",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "A py.test plugin for customizing string representations of doctest results.",
@@ -2857,7 +2857,7 @@
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
     "name": "pytest-postgres",
-    "version": "0.6.1"
+    "version": "0.7.0"
   },
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
@@ -2917,7 +2917,7 @@
   {
     "description": "pytest plugin to run pycodestyle",
     "name": "pytest-pycodestyle",
-    "version": "2.0.0"
+    "version": "2.1.2"
   },
   {
     "description": "py.test plugin to connect to a remote debug server with PyDev or PyCharm.",
@@ -2927,7 +2927,7 @@
   {
     "description": "pytest plugin to run pydocstyle",
     "name": "pytest-pydocstyle",
-    "version": "2.0.0"
+    "version": "2.1.2"
   },
   {
     "description": "pytest plugin to check source code with pylint",
@@ -3217,7 +3217,7 @@
   {
     "description": "pytest data collector plugin for Testgr",
     "name": "pytest-rt",
-    "version": "0.5.1"
+    "version": "1.0.0"
   },
   {
     "description": "implement a --failed option for pytest",
@@ -3247,7 +3247,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.19"
+    "version": "0.7.20"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3852,7 +3852,7 @@
   {
     "description": "A py.test plugin providing access to vagrant.",
     "name": "pytest-vagrant",
-    "version": "2.0.2"
+    "version": "2.0.3"
   },
   {
     "description": "",
