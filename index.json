@@ -210,9 +210,9 @@
     "version": "1.0"
   },
   {
-    "description": "Friendly dataset operations for your data science needs",
+    "description": "Fluent dataset operations, compatible with your favorite libraries",
     "name": "datasetops",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "Module created to facilitate the creation and use of data structures",
@@ -367,7 +367,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.7.0"
+    "version": "5.7.1"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -498,6 +498,11 @@
     "description": "libvirt Molecule Plugin :: run molecule tests on libvirt",
     "name": "molecule-libvirt",
     "version": "0.0.2"
+  },
+  {
+    "description": "LCD Molecule Plugin :: run molecule tests on LXD",
+    "name": "molecule-lxd",
+    "version": "0.1.dev0"
   },
   {
     "description": "Molecule OpenStack Plugin :: run molecule tests on openstack",
@@ -807,7 +812,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -3247,7 +3252,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.20"
+    "version": "0.7.24"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3685,9 +3690,9 @@
     "version": "1.9"
   },
   {
-    "description": "A small example package",
+    "description": "Forked pytest-testrail plugin with support pytest-xdist",
     "name": "pytest-testrail2",
-    "version": "2.7.7"
+    "version": "2.7.9"
   },
   {
     "description": "Tesults plugin for pytest",
@@ -3818,6 +3823,11 @@
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
     "version": "0.5.2"
+  },
+  {
+    "description": "Test Class Base",
+    "name": "pytest-tstcls",
+    "version": "2020.1.1"
   },
   {
     "description": "A twisted plugin for py.test.",
@@ -4067,7 +4077,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.6"
+    "version": "0.6.7"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -4147,7 +4157,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.241"
+    "version": "1.0.244"
   },
   {
     "description": "Pure python tools for SIP testing",
