@@ -367,7 +367,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.7.1"
+    "version": "5.8.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -392,7 +392,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.6.3"
+    "version": "0.6.4"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -2962,7 +2962,7 @@
   {
     "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.9.1"
+    "version": "0.9.2"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -3252,7 +3252,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.7.24"
+    "version": "0.8.1"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3602,7 +3602,7 @@
   {
     "description": "Test Anything Protocol (TAP) reporting plugin for pytest",
     "name": "pytest-tap",
-    "version": "3.0"
+    "version": "3.1"
   },
   {
     "description": "tblineinfo is a py.test plugin that insert the node id in the final py.test report when --tb=line option is used",
@@ -4192,7 +4192,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.6"
+    "version": "0.3.7"
   },
   {
     "description": "A code-driven QA reporting library",
