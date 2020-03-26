@@ -3252,7 +3252,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.8.1"
+    "version": "0.8.6"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3362,7 +3362,7 @@
   {
     "description": "pytest plugin help to find coupled tests",
     "name": "pytest-sherlock",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
