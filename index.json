@@ -212,7 +212,7 @@
   {
     "description": "Fluent dataset operations, compatible with your favorite libraries",
     "name": "datasetops",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Module created to facilitate the creation and use of data structures",
@@ -283,6 +283,11 @@
     "description": "Simple slack bot for providing teammates with anonymous feedback",
     "name": "feedbackbot",
     "version": "0.0.2"
+  },
+  {
+    "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
+    "name": "flake8-pytest-style",
+    "version": "1.0.0"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -572,7 +577,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
@@ -982,7 +987,7 @@
   {
     "description": "Pytest plugin Mark test as a bug",
     "name": "pytest-bug",
-    "version": "0.7.5"
+    "version": "0.7.6"
   },
   {
     "description": "py.test bugzilla integration plugin",
@@ -2432,7 +2437,7 @@
   {
     "description": "A pytest plugin for easily instantiating reproducible mock resources.",
     "name": "pytest-mock-resources",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   {
     "description": "Base fixtures for mockito",
@@ -3252,7 +3257,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.8.6"
+    "version": "0.8.7"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4077,7 +4082,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.6.7"
+    "version": "0.6.8"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -4137,7 +4142,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.36.5"
+    "version": "1.36.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
