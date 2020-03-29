@@ -62,7 +62,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.3.2"
+    "version": "3.3.3"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -138,6 +138,11 @@
     "description": "Alternative pytest plugin to pytest-asyncio",
     "name": "alt-pytest-asyncio",
     "version": "0.5.2"
+  },
+  {
+    "description": "Utilities for testing AppDaemon applications",
+    "name": "appdaemon-testing",
+    "version": "0.1.2"
   },
   {
     "description": "Clean, human-readable tests for Appdaemon",
@@ -421,6 +426,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-leandro",
+    "version": "1.0"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-pytools",
     "version": "0.2"
   },
@@ -477,7 +487,7 @@
   {
     "description": "Azure Molecule Plugin :: run molecule tests on Azure",
     "name": "molecule-azure",
-    "version": "0.1"
+    "version": "0.3"
   },
   {
     "description": "Molecule Containers Driver :: run molecule tests on containers",
@@ -817,7 +827,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -2537,7 +2547,7 @@
   {
     "description": "Pytest plugin to check mypy output.",
     "name": "pytest-mypy-testing",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -3257,7 +3267,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.9.2"
+    "version": "0.9.6"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4142,7 +4152,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.36.6"
+    "version": "1.36.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4162,7 +4172,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.244"
+    "version": "1.0.248"
   },
   {
     "description": "Pure python tools for SIP testing",
@@ -4198,6 +4208,11 @@
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
     "version": "0.3.7"
+  },
+  {
+    "description": "Fixtures for ansible, testinfra and molecule",
+    "name": "takeltest",
+    "version": "0.1.0"
   },
   {
     "description": "A code-driven QA reporting library",
