@@ -827,7 +827,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -1087,7 +1087,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.3.0"
+    "version": "0.3.2"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -1732,7 +1732,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "2.0a2"
+    "version": "2.1b3"
   },
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
@@ -2487,7 +2487,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -2547,7 +2547,7 @@
   {
     "description": "Pytest plugin to check mypy output.",
     "name": "pytest-mypy-testing",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -4152,7 +4152,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.36.7"
+    "version": "1.36.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
