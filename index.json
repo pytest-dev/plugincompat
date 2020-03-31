@@ -782,7 +782,7 @@
   {
     "description": "Useful assertion utilities for use with pytest",
     "name": "pytest-assert-utils",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "pytest-assertutil",
@@ -1422,7 +1422,7 @@
   {
     "description": "A Django plugin for pytest.",
     "name": "pytest-django",
-    "version": "3.8.0"
+    "version": "3.9.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -2462,7 +2462,7 @@
   {
     "description": "A set of fixtures to test your requests to HTTP/UDP servers",
     "name": "pytest-mockservers",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Utility for adding additional properties to junit xml for IDM QE",
@@ -2487,7 +2487,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -2977,7 +2977,7 @@
   {
     "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -3197,7 +3197,7 @@
   {
     "description": "Simplified requests calls mocking for pytest",
     "name": "pytest-responsemock",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "py.test integration for responses",
@@ -3267,7 +3267,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.9.6"
+    "version": "0.9.7"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3498,6 +3498,11 @@
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
     "version": "1.0.9"
+  },
+  {
+    "description": "sqitch for pytest",
+    "name": "pytest-sqitch",
+    "version": "0.1.0"
   },
   {
     "description": "Yet another SQL-testing framework for BigQuery provided by pytest plugin ",
@@ -4212,7 +4217,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "takeltest",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "A code-driven QA reporting library",
