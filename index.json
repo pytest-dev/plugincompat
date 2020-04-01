@@ -2430,9 +2430,9 @@
     "version": "0.3.0"
   },
   {
-    "description": "Thin-wrapper around the mock package for easier use with py.test",
+    "description": "Thin-wrapper around the mock package for easier use with pytest",
     "name": "pytest-mock",
-    "version": "2.0.0"
+    "version": "3.0.0"
   },
   {
     "description": "A mock API server with configurable routes and responses available as a fixture.",
@@ -2448,6 +2448,11 @@
     "description": "A pytest plugin for easily instantiating reproducible mock resources.",
     "name": "pytest-mock-resources",
     "version": "1.2.1"
+  },
+  {
+    "description": "Mock server plugin for pytest",
+    "name": "pytest-mock-server",
+    "version": "0.1.0"
   },
   {
     "description": "Base fixtures for mockito",
@@ -3267,7 +3272,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.9.7"
+    "version": "0.9.8"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4142,7 +4147,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "0.9.0"
+    "version": "1.0.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
