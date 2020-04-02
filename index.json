@@ -102,7 +102,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.7.7"
+    "version": "9.7.8"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -1952,7 +1952,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.0.9.dev9"
+    "version": "3.1.1.dev14"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2107,7 +2107,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.26"
+    "version": "0.0.27"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -3167,7 +3167,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "5.0.0"
+    "version": "5.0.1"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -3310,6 +3310,11 @@
     "version": "1.9.1"
   },
   {
+    "description": "pytest plugin for Selenium",
+    "name": "pytest-selenium-enhancer",
+    "version": "1.4.2"
+  },
+  {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
     "name": "pytest-selenium-pdiff",
     "version": "0.4.0"
@@ -3442,7 +3447,7 @@
   {
     "description": "A plugin to enable snapshot testing with pytest.",
     "name": "pytest-snapshot",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Pytest Plugin to disable socket calls during tests",
