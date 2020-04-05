@@ -62,7 +62,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.3.3"
+    "version": "3.3.4"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -250,9 +250,9 @@
     "version": "1.8.2"
   },
   {
-    "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
+    "description": "Test utility for your Swagger documentation.",
     "name": "django-swagger-tester",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
@@ -1367,7 +1367,7 @@
   {
     "description": "Tests that depend on other tests",
     "name": "pytest-depends",
-    "version": "0.8.1"
+    "version": "1.0.1"
   },
   {
     "description": "Mark tests as testing a deprecated feature with a warning note.",
@@ -1962,7 +1962,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev26"
+    "version": "3.1.1.dev32"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2147,7 +2147,7 @@
   {
     "description": "pytest plugin to instrument tests",
     "name": "pytest-instrument",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Organizing pytests by integration or not",
@@ -2552,7 +2552,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -3308,6 +3308,11 @@
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
     "version": "1.0a6"
+  },
+  {
+    "description": "pytest plugin to modify fixture scope",
+    "name": "pytest-scope-modifying",
+    "version": "0.1.0"
   },
   {
     "description": "An encrypted password store for use within pytest cases",
