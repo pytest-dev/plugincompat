@@ -210,6 +210,11 @@
     "version": "0.1"
   },
   {
+    "description": "Curio",
+    "name": "curio",
+    "version": "1.2"
+  },
+  {
     "description": "Analysis libraty for project CZELTA (http://czelta.utef.cvut.cz/)",
     "name": "czelta",
     "version": "1.0"
@@ -2487,7 +2492,7 @@
   {
     "description": "pytest plugin to modify fixture scope",
     "name": "pytest-modifyscope",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
@@ -2552,7 +2557,7 @@
   {
     "description": "Utility for writing multi-host tests for pytest",
     "name": "pytest-multihost",
-    "version": "3.0"
+    "version": "3.4"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -3307,7 +3312,7 @@
   {
     "description": "a pytest plugin for Sanic",
     "name": "pytest-sanic",
-    "version": "1.6.0"
+    "version": "1.6.1"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3407,7 +3412,7 @@
   {
     "description": "pytest plugin help to find coupled tests",
     "name": "pytest-sherlock",
-    "version": "0.1.2"
+    "version": "0.1.6"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -3522,7 +3527,7 @@
   {
     "description": "Pytest plugin for splitting test suite based on test execution time",
     "name": "pytest-split",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
@@ -3727,7 +3732,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail-e2e",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "PyTest plugin for TestRail",
