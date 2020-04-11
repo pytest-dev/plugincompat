@@ -1327,7 +1327,7 @@
   {
     "description": "Manager for test data providing downloads, caching of generated files, and a context for temp directories.",
     "name": "pytest-datadir-mgr",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -1977,7 +1977,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev32"
+    "version": "3.1.1.dev34"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -3487,7 +3487,7 @@
   {
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
