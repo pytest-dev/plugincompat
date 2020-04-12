@@ -382,7 +382,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.8.0"
+    "version": "5.8.2"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -2145,6 +2145,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "pytest stack validation prior to testing executing",
+    "name": "pytest-infrastructure",
+    "version": "0.0.2"
+  },
+  {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
     "version": "1.0.0"
@@ -2502,7 +2507,7 @@
   {
     "description": "pytest plugin to modify fixture scope",
     "name": "pytest-modifyscope",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
@@ -3998,6 +4003,11 @@
     "description": "Pytest plugin for testing WDL workflows.",
     "name": "pytest-wdl",
     "version": "1.4.0"
+  },
+  {
+    "description": "An interactive web UI test runner for PyTest",
+    "name": "pytest-web-ui",
+    "version": "1.0.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
