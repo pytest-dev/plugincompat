@@ -52,7 +52,7 @@
   {
     "description": "A Python3 annotation program to select the best gene model in each locus",
     "name": "Mikado",
-    "version": "2.0rc1"
+    "version": "2.0rc2"
   },
   {
     "description": "Python wrapper for OTRS (using REST API)",
@@ -382,7 +382,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.8.2"
+    "version": "5.8.3"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -617,7 +617,7 @@
   {
     "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
     "name": "purerpc",
-    "version": "0.5.2"
+    "version": "0.6.1"
   },
   {
     "description": "a python base auto testing framework that programming oriented with Structured Language.",
@@ -1500,6 +1500,11 @@
     "version": "1.1.0"
   },
   {
+    "description": "A pytest plugin to help writing unit test for django-rq",
+    "name": "pytest-django-rq",
+    "version": "0.2.0"
+  },
+  {
     "description": "py.test plugin for reporting the number of SQLs executed per django testcase.",
     "name": "pytest-django-sqlcounts",
     "version": "0.1.0"
@@ -2172,7 +2177,7 @@
   {
     "description": "Organizing pytests by integration or not",
     "name": "pytest-integration",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
@@ -4197,7 +4202,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4212,7 +4217,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.37.0"
+    "version": "1.37.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
