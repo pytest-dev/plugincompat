@@ -1327,7 +1327,7 @@
   {
     "description": "Manager for test data providing downloads, caching of generated files, and a context for temp directories.",
     "name": "pytest-datadir-mgr",
-    "version": "0.1.4"
+    "version": "0.1.6"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -1982,7 +1982,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev34"
+    "version": "3.1.1.dev40"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -3180,6 +3180,11 @@
     "version": "1.2.0"
   },
   {
+    "description": "A pytest plugin to report on repository standards conformance",
+    "name": "pytest-repo-health",
+    "version": "0.1.0"
+  },
+  {
     "description": "Creates json report that is compatible with atom.io's linter message format",
     "name": "pytest-report",
     "version": "0.2.1"
@@ -4202,7 +4207,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
