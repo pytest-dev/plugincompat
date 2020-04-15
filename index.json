@@ -297,7 +297,7 @@
   {
     "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
     "name": "flake8-pytest-style",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -382,7 +382,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.8.3"
+    "version": "5.9.0"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -897,7 +897,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "1.0.0rc1"
+    "version": "1.0.0rc2"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -1837,7 +1837,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "Pytest plugin for filtering based on sub-packages",
@@ -2677,7 +2677,7 @@
   {
     "description": "A pytest plugin for generating NUnit3 test result XML output",
     "name": "pytest-nunit",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "pytest results data-base and HTML reporter",
@@ -3092,7 +3092,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "3.2.1"
+    "version": "3.3.0"
   },
   {
     "description": "Pytest plugin about random seed management",
@@ -3212,7 +3212,7 @@
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
     "name": "pytest-reportportal",
-    "version": "5.0.2"
+    "version": "5.0.3"
   },
   {
     "description": "pytest plugin to check pinned requirements",
@@ -3322,7 +3322,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.9.8"
+    "version": "0.9.9"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4207,7 +4207,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.1.2"
+    "version": "1.2.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4222,7 +4222,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.37.1"
+    "version": "1.37.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
