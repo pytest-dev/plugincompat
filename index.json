@@ -12,7 +12,7 @@
   {
     "description": "Python tools and utilities for working with the AnyBody Modeling System",
     "name": "AnyPyTools",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -382,7 +382,7 @@
   {
     "description": "A library for property-based testing",
     "name": "hypothesis",
-    "version": "5.9.0"
+    "version": "5.9.1"
   },
   {
     "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
@@ -1327,7 +1327,7 @@
   {
     "description": "Manager for test data providing downloads, caching of generated files, and a context for temp directories.",
     "name": "pytest-datadir-mgr",
-    "version": "0.1.6"
+    "version": "0.2.0"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -3092,7 +3092,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "3.3.0"
+    "version": "3.3.1"
   },
   {
     "description": "Pytest plugin about random seed management",
