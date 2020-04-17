@@ -57,7 +57,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.7.1"
+    "version": "0.8.0"
   },
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
@@ -622,7 +622,7 @@
   {
     "description": "a python base auto testing framework that programming oriented with Structured Language.",
     "name": "py-ops",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "Ultimate template for new Python 3 projects",
@@ -1373,6 +1373,11 @@
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
     "version": "2.2.0"
+  },
+  {
+    "description": "",
+    "name": "pytest-demo",
+    "version": "0.1.3"
   },
   {
     "description": "Manage dependencies of tests",
@@ -2177,7 +2182,7 @@
   {
     "description": "Organizing pytests by integration or not",
     "name": "pytest-integration",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "A pytest plugin for console based interactive test selection just after the collection phase",
@@ -2532,7 +2537,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -2587,7 +2592,7 @@
   {
     "description": "pytest plugin for writing tests for mypy plugins",
     "name": "pytest-mypy-plugins",
-    "version": "1.2.1"
+    "version": "1.3.0"
   },
   {
     "description": "Pytest plugin to check mypy output.",
@@ -2717,7 +2722,7 @@
   {
     "description": "Pytest plugin for detecting inadvertent open file handles",
     "name": "pytest-openfiles",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "pytest plugin for publish results to opentmi",
@@ -3207,7 +3212,7 @@
   {
     "description": "Replacement for the --resultlog option, focused in simplicity and extensibility",
     "name": "pytest-reportlog",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Agent for Reporting results of tests to the Report Portal",
@@ -3322,7 +3327,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.9.9"
+    "version": "0.10.0"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3558,6 +3563,11 @@
     "description": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.",
     "name": "pytest-split-tests",
     "version": "1.0.9"
+  },
+  {
+    "description": "A Dynamic test tool for Splunk Apps and Add-ons",
+    "name": "pytest-splunk-addon",
+    "version": "1.0.6a1"
   },
   {
     "description": "sqitch for pytest",
