@@ -85,6 +85,11 @@
     "version": "0.1.dev0"
   },
   {
+    "description": "Modulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "abglibpythonpro",
+    "version": "0.1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "adilmar-libpythonpro-package",
     "version": "0.2"
@@ -1562,7 +1567,7 @@
   {
     "description": "A plugin to use docker databases for pytests",
     "name": "pytest-docker-db",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "pytest docker fixtures",
@@ -3572,7 +3577,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.6a5"
+    "version": "1.0.6a6"
   },
   {
     "description": "sqitch for pytest",
@@ -4062,7 +4067,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.2.3"
+    "version": "1.3.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4242,7 +4247,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.37.4"
+    "version": "1.37.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4297,7 +4302,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.3.9"
+    "version": "0.4.1"
   },
   {
     "description": "Fixtures for ansible, testinfra and molecule",
