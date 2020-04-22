@@ -887,7 +887,7 @@
   {
     "description": "Pytest plugin for automatical mocks creation",
     "name": "pytest-automock",
-    "version": "0.6.3"
+    "version": "0.7.0"
   },
   {
     "description": "Makes pytest skip tests that don not need rerunning",
@@ -1117,7 +1117,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.3.2"
+    "version": "0.3.4"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -1407,7 +1407,7 @@
   {
     "description": "Describe-style plugin for pytest",
     "name": "pytest-describe",
-    "version": "0.12.0"
+    "version": "1.0.0"
   },
   {
     "description": "plugin for rich text descriptions",
@@ -3582,7 +3582,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.6a6"
+    "version": "1.0.6a8"
   },
   {
     "description": "sqitch for pytest",
@@ -4252,7 +4252,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.37.7"
+    "version": "1.37.8"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4307,7 +4307,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "Fixtures for ansible, testinfra and molecule",
