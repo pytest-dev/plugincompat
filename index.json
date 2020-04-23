@@ -922,7 +922,7 @@
   {
     "description": "BDD for pytest",
     "name": "pytest-bdd",
-    "version": "3.2.1"
+    "version": "3.3.0"
   },
   {
     "description": "Common steps for pytest bdd and splinter integration",
@@ -1707,7 +1707,7 @@
   {
     "description": "Pytest plugin to represent test output with emoji support",
     "name": "pytest-emoji-output",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Improvements for pytest (rejected upstream)",
@@ -3087,7 +3087,7 @@
   {
     "description": "An implementation of pytest.raises as a pytest.mark fixture",
     "name": "pytest-raises",
-    "version": "0.10"
+    "version": "0.11"
   },
   {
     "description": "Simple pytest plugin to look for regex in Exceptions",
@@ -4192,7 +4192,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.7.0"
+    "version": "0.7.1"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -4272,7 +4272,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.248"
+    "version": "1.0.250"
   },
   {
     "description": "Pure python tools for SIP testing",
