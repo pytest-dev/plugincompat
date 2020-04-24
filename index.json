@@ -57,7 +57,7 @@
   {
     "description": "Python wrapper for OTRS (using REST API)",
     "name": "PyOTRS",
-    "version": "0.8.0"
+    "version": "0.9.0"
   },
   {
     "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
@@ -262,7 +262,7 @@
   {
     "description": "Django test utility for validating Swagger documentation",
     "name": "django-swagger-tester",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
@@ -608,6 +608,11 @@
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
     "version": "0.5.2"
+  },
+  {
+    "description": "Literate computing for literate programming",
+    "name": "pidgy",
+    "version": "2020.4.23"
   },
   {
     "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
@@ -1337,7 +1342,7 @@
   {
     "description": "Manager for test data providing downloads, caching of generated files, and a context for temp directories.",
     "name": "pytest-datadir-mgr",
-    "version": "0.2.0"
+    "version": "1.0.1"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -1902,7 +1907,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -2437,7 +2442,7 @@
   {
     "description": "Match test output against patterns stored in files",
     "name": "pytest-matcher",
-    "version": "1.3.3"
+    "version": "1.3.5"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
@@ -3582,7 +3587,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.6a8"
+    "version": "1.0.6b1"
   },
   {
     "description": "sqitch for pytest",
