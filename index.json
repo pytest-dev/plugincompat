@@ -225,6 +225,11 @@
     "version": "1.0"
   },
   {
+    "description": "Laboratory automation for the behavioral and social sciences",
+    "name": "dallinger",
+    "version": "6.2.0"
+  },
+  {
     "description": "Fluent dataset operations, compatible with your favorite libraries",
     "name": "datasetops",
     "version": "0.0.6"
@@ -293,6 +298,11 @@
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "eng-libpythonpro",
     "version": "0.2"
+  },
+  {
+    "description": "Hypothesis strategies for Open API / Swagger schemas",
+    "name": "enhancedschemathesis",
+    "version": "0.0.1"
   },
   {
     "description": "Collection of utils for the Falcon Framework",
@@ -427,6 +437,11 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso Pytools",
     "name": "lcp.libpythonpro",
+    "version": "0.2"
+  },
+  {
+    "description": "Lib para projetos pessoais",
+    "name": "libjonatas",
     "version": "0.2"
   },
   {
@@ -1172,7 +1187,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "3.0.1"
+    "version": "4.0.0"
   },
   {
     "description": "PyTest plugin for testing Smart Contracts for Ethereum blockchain.",
@@ -2057,7 +2072,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.9.0"
+    "version": "1.9.1"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -2597,7 +2612,7 @@
   {
     "description": "",
     "name": "pytest-mproc",
-    "version": "2.0.2"
+    "version": "3.0.2"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2617,7 +2632,7 @@
   {
     "description": "Pytest plugin to check mypy output.",
     "name": "pytest-mypy-testing",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -2878,6 +2893,11 @@
     "description": "&#129418; The pytest plugin for Firefox Telemetry &#128202;",
     "name": "pytest-pings",
     "version": "0.1.0"
+  },
+  {
+    "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
+    "name": "pytest-pinpoint",
+    "version": "0.1.1"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -4257,7 +4277,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.37.8"
+    "version": "1.37.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
