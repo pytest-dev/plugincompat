@@ -50,6 +50,11 @@
     "version": "3.0.0"
   },
   {
+    "description": "A highly customisable Discord bot",
+    "name": "Kr0nOs",
+    "version": "3.4.1"
+  },
+  {
     "description": "A Python3 annotation program to select the best gene model in each locus",
     "name": "Mikado",
     "version": "2.0rc2"
@@ -442,6 +447,11 @@
   {
     "description": "Lib para projetos pessoais",
     "name": "libjonatas",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo de estudos para pytools do curso python pro",
+    "name": "liblearnpro",
     "version": "0.2"
   },
   {
@@ -2610,9 +2620,9 @@
     "version": "0.9"
   },
   {
-    "description": "",
+    "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.0.2"
+    "version": "3.0.6"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2622,7 +2632,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -3042,7 +3052,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.15.1"
+    "version": "0.16.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -3642,7 +3652,7 @@
   {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
-    "version": "1.7.2"
+    "version": "1.7.3"
   },
   {
     "description": "Run a test suite one failing test at a time.",
@@ -3707,7 +3717,7 @@
   {
     "description": "pytest-sugar is a plugin for pytest that changes the default look and feel of pytest (e.g. progressbar, show tests that fail instantly).",
     "name": "pytest-sugar",
-    "version": "0.9.2"
+    "version": "0.9.3"
   },
   {
     "description": "Workaround for https://github.com/Frozenball/pytest-sugar/issues/159",
@@ -3867,7 +3877,7 @@
   {
     "description": "A timer plugin for pytest",
     "name": "pytest-timer",
-    "version": "0.0.3"
+    "version": "0.0.8"
   },
   {
     "description": "",
@@ -4297,7 +4307,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.250"
+    "version": "1.0.253"
   },
   {
     "description": "Pure python tools for SIP testing",
