@@ -232,7 +232,7 @@
   {
     "description": "Laboratory automation for the behavioral and social sciences",
     "name": "dallinger",
-    "version": "6.2.0"
+    "version": "6.2.1"
   },
   {
     "description": "Fluent dataset operations, compatible with your favorite libraries",
@@ -468,6 +468,11 @@
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-leandro",
     "version": "1.0"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-lm",
+    "version": "0.2"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -2630,6 +2635,11 @@
     "version": "3.4"
   },
   {
+    "description": "Multi-process logs handling and other helpers for pytest",
+    "name": "pytest-multilog",
+    "version": "1.0"
+  },
+  {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
     "version": "0.6.2"
@@ -2897,7 +2907,7 @@
   {
     "description": "Slice in your test base thanks to powerful markers.",
     "name": "pytest-pilot",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "&#129418; The pytest plugin for Firefox Telemetry &#128202;",
@@ -3052,7 +3062,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.16.0"
+    "version": "0.16.1"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -3617,7 +3627,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.6b1"
+    "version": "1.0.7a1"
   },
   {
     "description": "sqitch for pytest",
@@ -3822,7 +3832,7 @@
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail-e2e",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "PyTest plugin for TestRail",
@@ -4272,7 +4282,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.2.0"
+    "version": "1.3.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4307,7 +4317,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.253"
+    "version": "1.0.255"
   },
   {
     "description": "Pure python tools for SIP testing",
