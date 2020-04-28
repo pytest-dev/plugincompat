@@ -72,7 +72,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.3.5"
+    "version": "3.3.7"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -88,11 +88,6 @@
     "description": "Converts ANSI string to HTML, keeping the coloring",
     "name": "a2h",
     "version": "0.1.dev0"
-  },
-  {
-    "description": "Modulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "abglibpythonpro",
-    "version": "0.1"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -232,7 +227,7 @@
   {
     "description": "Laboratory automation for the behavioral and social sciences",
     "name": "dallinger",
-    "version": "6.2.1"
+    "version": "6.2.2"
   },
   {
     "description": "Fluent dataset operations, compatible with your favorite libraries",
@@ -797,7 +792,7 @@
   {
     "description": "Pytest fixture which runs given ansible playbook file.",
     "name": "pytest-ansible-playbook-runner",
-    "version": "0.0.2"
+    "version": "0.0.5"
   },
   {
     "description": "Bust functools.lru_cache when running pytest to avoid test pollution",
@@ -1178,6 +1173,11 @@
     "description": "Parallelize pytest across CircleCI workers.",
     "name": "pytest-circleci-parallelized",
     "version": "0.0.4"
+  },
+  {
+    "description": "Backport of CKAN 2.9 pytest plugin and fixtures to CAKN 2.8",
+    "name": "pytest-ckan",
+    "version": "0.0.11"
   },
   {
     "description": "A plugin providing an alternative, colourful diff output for failing assertions.",
@@ -2627,7 +2627,7 @@
   {
     "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.0.6"
+    "version": "3.1.1"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3457,7 +3457,7 @@
   {
     "description": "Automatically mocks resources from serverless.yml in pytest using moto.",
     "name": "pytest-serverless",
-    "version": "0.10.0"
+    "version": "0.10.1"
   },
   {
     "description": "Services plugin for pytest testing framework",
@@ -3627,7 +3627,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.7a1"
+    "version": "1.0.7a2"
   },
   {
     "description": "sqitch for pytest",
@@ -3692,7 +3692,7 @@
   {
     "description": "Stub packages, modules and attributes.",
     "name": "pytest-stub",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Provide stub implementations for subprocesses in Python tests",
@@ -3707,7 +3707,7 @@
   {
     "description": "A plugin to fake subprocess for pytest",
     "name": "pytest-subprocess",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
@@ -4282,7 +4282,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
