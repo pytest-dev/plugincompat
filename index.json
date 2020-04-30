@@ -637,7 +637,7 @@
   {
     "description": "Powell's Derivative-Free Optimization solvers",
     "name": "pdfo",
-    "version": "0.1"
+    "version": "0.3"
   },
   {
     "description": "Literate computing for literate programming",
@@ -1667,7 +1667,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -2042,7 +2042,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev40"
+    "version": "3.1.1.dev57"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2222,7 +2222,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2020.1"
+    "version": "2020.2"
   },
   {
     "description": "py.test plugin to show failures instantly",
@@ -2267,7 +2267,7 @@
   {
     "description": "py.test plugin to check import ordering using isort",
     "name": "pytest-isort",
-    "version": "0.3.1"
+    "version": "1.0.0"
   },
   {
     "description": "Pytest plugin to display test reports as a plaintext spec, inspired by Rspec: https://github.com/mattduck/pytest-it.",
@@ -2647,7 +2647,7 @@
   {
     "description": "Add the mutation testing feature to pytest",
     "name": "pytest-mutagen",
-    "version": "1.0"
+    "version": "1.0.4"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -3277,7 +3277,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.1.0a2"
+    "version": "0.1.0a3"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3647,7 +3647,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.7a4"
+    "version": "1.0.7b1"
   },
   {
     "description": "sqitch for pytest",
