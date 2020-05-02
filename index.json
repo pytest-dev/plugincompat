@@ -1152,7 +1152,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.3.4"
+    "version": "0.4.0"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -2322,7 +2322,7 @@
   {
     "description": "Kubernetes test support with KIND for pytest",
     "name": "pytest-kind",
-    "version": "20.1.0"
+    "version": "20.5.1"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -2632,7 +2632,7 @@
   {
     "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.1.2"
+    "version": "3.2.0"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
