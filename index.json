@@ -2125,6 +2125,11 @@
     "version": "0.1.5"
   },
   {
+    "description": "Integrates the Hoverfly HTTP proxy into Pytest",
+    "name": "pytest-hoverfly-wrapper",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
     "version": "2.1.1"
@@ -2322,7 +2327,7 @@
   {
     "description": "Kubernetes test support with KIND for pytest",
     "name": "pytest-kind",
-    "version": "20.5.1"
+    "version": "20.5.2"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -2642,7 +2647,7 @@
   {
     "description": "Multi-process logs handling and other helpers for pytest",
     "name": "pytest-multilog",
-    "version": "1.0"
+    "version": "1.0.1"
   },
   {
     "description": "Add the mutation testing feature to pytest",
@@ -3587,7 +3592,7 @@
   {
     "description": "A plugin to enable snapshot testing with pytest.",
     "name": "pytest-snapshot",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "Pytest Plugin to disable socket calls during tests",
@@ -3652,7 +3657,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.0.8a3"
+    "version": "1.1.0"
   },
   {
     "description": "sqitch for pytest",
@@ -4022,7 +4027,7 @@
   {
     "description": "Text User Interface for running python tests",
     "name": "pytest-ui",
-    "version": "0.3.5b0"
+    "version": "0.3.6b0"
   },
   {
     "description": "A pytest plugin for filtering unittest-based test classes",
@@ -4147,7 +4152,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.31.0"
+    "version": "1.32.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4290,6 +4295,11 @@
     "version": "0.3.0"
   },
   {
+    "description": "Library",
+    "name": "regress",
+    "version": "0.0.3"
+  },
+  {
     "description": "Python client library for the Responsys Interact REST API",
     "name": "responsysrest",
     "version": "0.1.9"
@@ -4342,7 +4352,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.255"
+    "version": "1.0.257"
   },
   {
     "description": "Pure python tools for SIP testing",
