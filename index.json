@@ -1002,7 +1002,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.8"
+    "version": "0.3.9"
   },
   {
     "description": "Allow '--black' on older Pythons",
@@ -1667,7 +1667,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.5.0"
+    "version": "0.6.1"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -2052,7 +2052,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev57"
+    "version": "3.1.1.dev66"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2517,7 +2517,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   {
     "description": "Custom metrics report for pytest",
@@ -3292,12 +3292,12 @@
   {
     "description": "Generate Pytest reports with templates",
     "name": "pytest-reporter",
-    "version": "0.1.0a1"
+    "version": "0.2.0"
   },
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.1.0a3"
+    "version": "0.2.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3608,6 +3608,11 @@
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
     "version": "0.3.4"
+  },
+  {
+    "description": "",
+    "name": "pytest-soft-assertions",
+    "version": "0.1.1"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
