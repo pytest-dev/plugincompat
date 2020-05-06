@@ -1152,7 +1152,7 @@
   {
     "description": "Check links in files",
     "name": "pytest-check-links",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "pytest plugin to test Check_MK checks",
@@ -3092,7 +3092,7 @@
   {
     "description": "pytest plugin to check source code with pylint",
     "name": "pytest-pylint",
-    "version": "0.16.1"
+    "version": "0.17.0"
   },
   {
     "description": "Easily test your HTTP library against a local copy of pypi",
@@ -3348,6 +3348,11 @@
     "description": "Load resource fixture plugin to use with pytest",
     "name": "pytest-resource",
     "version": "0.1.3"
+  },
+  {
+    "description": "Provides path for uniform access to test resources in isolated directory",
+    "name": "pytest-resource-path",
+    "version": "1.0.0"
   },
   {
     "description": "Simplified requests calls mocking for pytest",
@@ -3612,7 +3617,7 @@
   {
     "description": "",
     "name": "pytest-soft-assertions",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Solr process and client fixtures for py.test.",
@@ -4337,7 +4342,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
