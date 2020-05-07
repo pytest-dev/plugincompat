@@ -640,6 +640,11 @@
     "version": "0.3"
   },
   {
+    "description": "OpenCL-based physics simulation package",
+    "name": "physicl",
+    "version": "0.0.1"
+  },
+  {
     "description": "Literate computing for literate programming",
     "name": "pidgy",
     "version": "2020.4.23"
@@ -772,7 +777,7 @@
   {
     "description": "Static code checks used at Alphamoon",
     "name": "pytest-alphamoon",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "This fixture provides a configured \"driver\" for Android Automated Testing, using uiautomator2.",
@@ -1202,7 +1207,7 @@
   {
     "description": "",
     "name": "pytest-clld",
-    "version": "1.0.0"
+    "version": "1.0.2"
   },
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
@@ -2337,7 +2342,7 @@
   {
     "description": "Kubernetes test support with KIND for pytest",
     "name": "pytest-kind",
-    "version": "20.5.2"
+    "version": "20.5.3"
   },
   {
     "description": "A pytest plugin that can automaticly skip test case based on dependence info calculated by trace",
@@ -2505,6 +2510,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "A pytest plugin to make a test results report with Markdown table format.",
+    "name": "pytest-md-report",
+    "version": "0.0.1"
+  },
+  {
     "description": "Estimates memory consumption of test functions",
     "name": "pytest-memprof",
     "version": "0.2.0"
@@ -2647,7 +2657,7 @@
   {
     "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.0"
+    "version": "3.2.3"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2698,6 +2708,11 @@
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
     "name": "pytest-neo",
     "version": "0.2.1"
+  },
+  {
+    "description": "A simple plugin to disable network on socket level.",
+    "name": "pytest-network",
+    "version": "0.0.1"
   },
   {
     "description": "nginx fixture for pytest",
@@ -3432,7 +3447,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.10.0"
+    "version": "0.10.4"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
