@@ -112,7 +112,7 @@
   {
     "description": "aiomisc - miscellaneous utils for asyncio",
     "name": "aiomisc",
-    "version": "9.7.8"
+    "version": "9.8.4"
   },
   {
     "description": "aiomisc-dependency - dependency injection in aiomisc",
@@ -2295,6 +2295,11 @@
     "version": "0.1.4"
   },
   {
+    "description": "Nicer list and iterable assertion messages for pytest",
+    "name": "pytest-iterassert",
+    "version": "0.0.2"
+  },
+  {
     "description": "Run jasmine tests from your pytest test suite",
     "name": "pytest-jasmine",
     "version": "0.0.2"
@@ -2512,7 +2517,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -2957,7 +2962,7 @@
   {
     "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
     "name": "pytest-pinpoint",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "Pytest plugin for functional testing of data analysispipelines",
@@ -4357,7 +4362,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.5.0"
+    "version": "1.5.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
