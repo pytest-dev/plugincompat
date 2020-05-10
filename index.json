@@ -440,6 +440,11 @@
     "version": "0.2"
   },
   {
+    "description": "M&#243;dulo criado para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libGetAvatarGitHub",
+    "version": "0.2"
+  },
+  {
     "description": "Lib para projetos pessoais",
     "name": "libjonatas",
     "version": "0.2"
@@ -1317,7 +1322,7 @@
   {
     "description": "Run cram tests with pytest.",
     "name": "pytest-cram",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Manages CrateDB instances during your integration tests",
@@ -2082,7 +2087,7 @@
   {
     "description": "pytest plugin to annotate failed tests with a workflow command for GitHub Actions",
     "name": "pytest-github-actions-annotate-failures",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -2527,7 +2532,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.0.4"
+    "version": "0.0.6"
   },
   {
     "description": "Estimates memory consumption of test functions",
