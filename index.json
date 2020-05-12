@@ -2682,7 +2682,7 @@
   {
     "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.3"
+    "version": "3.2.4"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3062,7 +3062,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "2.3.0"
+    "version": "2.4.0"
   },
   {
     "description": "Minitest-style test colors",
@@ -3622,7 +3622,7 @@
   {
     "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "2.1.2"
+    "version": "2.2.0"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
@@ -4532,7 +4532,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.0.9"
+    "version": "1.1.0"
   },
   {
     "description": "Test fixtures for Websauna",
