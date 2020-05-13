@@ -267,7 +267,7 @@
   {
     "description": "Django test utility for validating Swagger documentation",
     "name": "django-swagger-tester",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
@@ -1530,6 +1530,11 @@
     "version": "3.0.0.2"
   },
   {
+    "description": "A djangocachexdist plugin for pytest",
+    "name": "pytest-django-cache-xdist",
+    "version": "0.1.1"
+  },
+  {
     "description": "Integrate CasperJS with your django tests as a pytest fixture.",
     "name": "pytest-django-casperjs",
     "version": "0.1.0"
@@ -1927,7 +1932,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Pytest plugin for filtering based on sub-packages",
@@ -1972,7 +1977,7 @@
   {
     "description": "pytest plugin to check FLAKE8 requirements",
     "name": "pytest-flake8",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "A pytest fixture for testing flake8 plugins.",
@@ -1998,6 +2003,11 @@
     "description": "A set of py.test fixtures to test Flask applications.",
     "name": "pytest-flask",
     "version": "1.0.0"
+  },
+  {
+    "description": "'A pytest plugin to test Flask-SocketIO servers.'",
+    "name": "pytest-flask-socketio",
+    "version": "0.1.0a0"
   },
   {
     "description": "A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.",
@@ -2537,7 +2547,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -2642,7 +2652,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
@@ -3052,7 +3062,7 @@
   {
     "description": "",
     "name": "pytest-pop",
-    "version": "1.1"
+    "version": "2.4"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -4382,7 +4392,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.6.0"
+    "version": "1.6.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4417,7 +4427,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.257"
+    "version": "1.0.259"
   },
   {
     "description": "Pure python tools for SIP testing",
@@ -4457,7 +4467,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "takeltest",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A code-driven QA reporting library",
@@ -4532,7 +4542,7 @@
   {
     "description": "Enhances a selenium webdriver to record screenshots along the way",
     "name": "uw-webdriver-recorder",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Test fixtures for Websauna",
