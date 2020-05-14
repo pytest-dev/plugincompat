@@ -2957,12 +2957,12 @@
   {
     "description": "Change the exit code of pytest test sessions when a required percent of tests pass.",
     "name": "pytest-percent",
-    "version": "0.0.4"
+    "version": "0.1.0"
   },
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
     "name": "pytest-pgsql",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   {
     "description": "Run the tests related to the changed files",
@@ -3060,9 +3060,9 @@
     "version": "1.1"
   },
   {
-    "description": "",
+    "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "2.4"
+    "version": "2.5"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3327,7 +3327,7 @@
   {
     "description": "A pytest plugin to report on repository standards conformance",
     "name": "pytest-repo-health",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
@@ -3727,7 +3727,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.1.1a3"
+    "version": "1.1.1a4"
   },
   {
     "description": "sqitch for pytest",
@@ -3948,6 +3948,11 @@
     "description": "Forked pytest-testrail plugin with support pytest-xdist",
     "name": "pytest-testrail2",
     "version": "2.7.9"
+  },
+  {
+    "description": "pytest plugin for creating TestRail runs and adding results",
+    "name": "pytest-testraill",
+    "version": "0.0.2"
   },
   {
     "description": "Tesults plugin for pytest",
@@ -4345,6 +4350,11 @@
     "version": "0.0.0"
   },
   {
+    "description": "Support Tools for Machine Learning VIVIDLY",
+    "name": "python-vivid",
+    "version": "0.3.1.1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "pytoolsc2",
     "version": "0.2"
@@ -4427,7 +4437,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.259"
+    "version": "1.0.261"
   },
   {
     "description": "Pure python tools for SIP testing",
