@@ -427,7 +427,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.6.4"
+    "version": "0.7.0"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -637,7 +637,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "Powell's Derivative-Free Optimization solvers",
@@ -3347,7 +3347,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3930,6 +3930,11 @@
     "version": "2.8.3"
   },
   {
+    "description": "pytest plugin for Testrail",
+    "name": "pytest-testrail-client",
+    "version": "0.1.1"
+  },
+  {
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail-e2e",
     "version": "2.2.1"
@@ -3948,11 +3953,6 @@
     "description": "Forked pytest-testrail plugin with support pytest-xdist",
     "name": "pytest-testrail2",
     "version": "2.7.9"
-  },
-  {
-    "description": "pytest plugin for creating TestRail runs and adding results",
-    "name": "pytest-testraill",
-    "version": "0.0.2"
   },
   {
     "description": "Tesults plugin for pytest",
@@ -4417,7 +4417,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.38.0"
+    "version": "1.38.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
