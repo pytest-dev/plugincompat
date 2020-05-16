@@ -1,0 +1,12 @@
+asks
+attrs
+colorama
+distlib >= 0.2.8
+Flask
+gunicorn == 19.5
+packaging
+pymongo >= 3
+requests >= 1.3.0
+tox
+trio
+wimpy >= 0.4
