@@ -2,13 +2,13 @@ import itertools
 import logging
 import os
 import sys
-from distutils.version import LooseVersion
 from urllib.parse import urlsplit
 
 import flask
 import pymongo
 from flask import render_template
 from flask import request
+from packaging.version import parse
 
 
 app = flask.Flask("plugincompat")
@@ -185,7 +185,7 @@ def get_namespace_for_rendering(all_results):
         if not descriptions.get(lib_name):
             descriptions[lib_name] = result.get("description", "")
 
-    latest_pytest_ver = max(pytest_versions, key=LooseVersion)
+    latest_pytest_ver = max(pytest_versions, key=parse)
     return dict(
         python_versions=sorted(python_versions),
         lib_names=sorted(lib_names),
@@ -200,12 +200,9 @@ def get_namespace_for_rendering(all_results):
 def get_latest_versions(names_and_versions):
     """
     Returns an iterator of (name, version) from the given list of (name,
-    version), but returning only the latest version of the package. Uses
-    distutils.LooseVersion to ensure compatibility with PEP386.
+    version), but returning only the latest version of the package.
     """
-    names_and_versions = sorted(
-        (name, LooseVersion(version)) for (name, version) in names_and_versions
-    )
+    names_and_versions = sorted((name, parse(version)) for (name, version) in names_and_versions)
     for name, grouped_versions in itertools.groupby(names_and_versions, key=lambda x: x[0]):
         name, loose_version = list(grouped_versions)[-1]
         yield name, str(loose_version)
