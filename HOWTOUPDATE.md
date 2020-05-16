@@ -1,3 +1,4 @@
+# Update Site
 
 Follow this steps to update Python and pytest versions on the site:
 
@@ -17,3 +18,14 @@ Follow this steps to update Python and pytest versions on the site:
 3. Update `test_versions` in `test_web.py`.
 
 4. Finally push `master` to GitHub and Heroku.
+
+# Update Requirements
+
+Install `pip-tools` in a Python 3.7 virtual environment and execute:
+
+```
+$ pip install --update -r requirements.in
+$ pip-compile requirements.in
+```
+
+And commit everything.

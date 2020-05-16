@@ -1,7 +1,6 @@
 language: python
 services:
   - mongodb
-dist: xenial
 install:
   - pip install -r dev-requirements.txt -U pytest==$PYTEST_VERSION
 
