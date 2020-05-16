@@ -520,6 +520,11 @@
     "version": "0.2.0rc0"
   },
   {
+    "description": "Lambda toolkit and message pipeline.",
+    "name": "lpipe",
+    "version": "2.0.24"
+  },
+  {
     "description": "MyAnimeList web scraper",
     "name": "mal-scraper",
     "version": "0.3.0"
@@ -1807,7 +1812,7 @@
   {
     "description": "Pytest plugin to validate use of envvars on your tests",
     "name": "pytest-envvars",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin to check for commented out code",
@@ -4402,7 +4407,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.6.1"
+    "version": "1.6.2"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4512,6 +4517,11 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "teste-do-noia",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "testelibpythonpro",
     "version": "0.2"
   },
   {
