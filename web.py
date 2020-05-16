@@ -26,7 +26,7 @@ def get_pytest_versions():
     """
     Same as `get_python_versions`, but for pytest versions.
     """
-    return {"5.2.4"}
+    return {"5.4.2"}
 
 
 class PlugsStorage:
