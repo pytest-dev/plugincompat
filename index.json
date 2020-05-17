@@ -587,7 +587,7 @@
   {
     "description": "Python mutation testing: test your tests!",
     "name": "mutatest",
-    "version": "3.0.1"
+    "version": "3.0.2"
   },
   {
     "description": "mutation testing for Python 3",
@@ -3383,6 +3383,11 @@
     "description": "A simple plugin to use with pytest",
     "name": "pytest-requests",
     "version": "0.3.0"
+  },
+  {
+    "description": "Make multi-threaded pytest test cases fail when they should",
+    "name": "pytest-reraise",
+    "version": "1.0.0"
   },
   {
     "description": "Re-run only changed files in specified branch",
