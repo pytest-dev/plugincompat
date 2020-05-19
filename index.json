@@ -466,6 +466,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-jes",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-leandro",
     "version": "1.0"
   },
@@ -3072,7 +3077,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "2.5"
+    "version": "3"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3292,7 +3297,7 @@
   {
     "description": "Easy to use fixtures to write regression tests.",
     "name": "pytest-regressions",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "description": "pytest plugin for regression tests",
@@ -3742,7 +3747,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.1.1a6"
+    "version": "1.1.1a9"
   },
   {
     "description": "sqitch for pytest",
@@ -3972,7 +3977,7 @@
   {
     "description": "Tesults plugin for pytest",
     "name": "pytest-tesults",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "pytest-ligo",
@@ -4432,7 +4437,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.38.3"
+    "version": "1.38.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4452,7 +4457,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.261"
+    "version": "1.0.263"
   },
   {
     "description": "Pure python tools for SIP testing",
