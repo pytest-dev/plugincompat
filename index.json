@@ -860,6 +860,11 @@
     "version": "0.3"
   },
   {
+    "description": "Process-based ASGI test client for pytest",
+    "name": "pytest-asgi-xclient",
+    "version": "0.1.1"
+  },
+  {
     "description": "test Answer Set Programming programs",
     "name": "pytest-asptest",
     "version": "0.1.0"
@@ -1842,7 +1847,7 @@
   {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
-    "version": "1.2.3"
+    "version": "1.4.0"
   },
   {
     "description": "Better exceptions",
@@ -2312,7 +2317,7 @@
   {
     "description": "Pytest fixtures for Invenio.",
     "name": "pytest-invenio",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   {
     "description": "Run tests covering a specific file or changeset",
@@ -2705,9 +2710,9 @@
     "version": "0.9"
   },
   {
-    "description": "low-startup-overhead, scalabe, distributed-testing pytest plugin",
+    "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.4"
+    "version": "3.2.6"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -2872,7 +2877,7 @@
   {
     "description": "pytest plugin for publish results to opentmi",
     "name": "pytest-opentmi",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -3077,7 +3082,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "3"
+    "version": "4.4"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -4102,7 +4107,7 @@
   {
     "description": "Pytest plugin for trio",
     "name": "pytest-trio",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "Test Class Base",
@@ -4242,7 +4247,7 @@
   {
     "description": "A pytest plugin for configuring workflow/pipeline tests using YAML files",
     "name": "pytest-workflow",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4373,6 +4378,11 @@
     "description": "Support Tools for Machine Learning VIVIDLY",
     "name": "python-vivid",
     "version": "0.3.1.1"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "pythonpro",
+    "version": "0.2"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
