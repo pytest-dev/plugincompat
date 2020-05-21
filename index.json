@@ -302,7 +302,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "enhancedschemathesis",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "description": "Collection of utils for the Falcon Framework",
@@ -917,7 +917,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.4.1"
+    "version": "0.5.0"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -1707,7 +1707,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.6.1"
+    "version": "0.7.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -2712,7 +2712,7 @@
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.6"
+    "version": "3.2.7"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3842,7 +3842,7 @@
   {
     "description": "unittest subTest() support and subtests fixture",
     "name": "pytest-subtests",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.",
@@ -3992,7 +3992,7 @@
   {
     "description": "Pytest plugin for time travel",
     "name": "pytest-thawgun",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Detects thread leaks",
