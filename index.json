@@ -486,6 +486,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro2",
+    "version": "0.3"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonproVictor",
     "version": "0.4"
   },
@@ -860,9 +865,9 @@
     "version": "0.3"
   },
   {
-    "description": "Process-based ASGI test client for pytest",
-    "name": "pytest-asgi-xclient",
-    "version": "0.1.1"
+    "description": "Convenient ASGI client/server fixtures for Pytest",
+    "name": "pytest-asgi-server",
+    "version": "0.2.0"
   },
   {
     "description": "test Answer Set Programming programs",
@@ -917,7 +922,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -2657,7 +2662,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.2.5"
+    "version": "1.2.6"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -2727,7 +2732,7 @@
   {
     "description": "Add the mutation testing feature to pytest",
     "name": "pytest-mutagen",
-    "version": "1.0.5"
+    "version": "1.1.0"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -2977,7 +2982,7 @@
   {
     "description": "Change the exit code of pytest test sessions when a required percent of tests pass.",
     "name": "pytest-percent",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "Pytest plugins and helpers for tests using a Postgres database.",
@@ -3507,7 +3512,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.10.5"
+    "version": "0.10.6"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
