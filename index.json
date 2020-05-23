@@ -922,7 +922,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.6.0"
+    "version": "0.8.3"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -1182,7 +1182,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test.",
     "name": "pytest-check",
-    "version": "0.3.8"
+    "version": "0.3.9"
   },
   {
     "description": "Check links in files",
@@ -1317,7 +1317,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.8.1"
+    "version": "2.9.0"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -1737,7 +1737,7 @@
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
     "name": "pytest-drop-dup-tests",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "A pytest plugin for dumping test results to json.",
@@ -2067,7 +2067,7 @@
   {
     "description": "Pytest plugin for measuring function coverage",
     "name": "pytest-func-cov",
-    "version": "0.1.3"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for Firefox Accounts",
@@ -3013,6 +3013,11 @@
     "description": "&#129418; The pytest plugin for Firefox Telemetry &#128202;",
     "name": "pytest-pings",
     "version": "0.1.0"
+  },
+  {
+    "description": "A simple pytest plugin for pinning tests",
+    "name": "pytest-pinned",
+    "version": "0.1.1"
   },
   {
     "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
@@ -4125,6 +4130,11 @@
     "version": "1.12"
   },
   {
+    "description": "Typhoon HIL plugin for pytest",
+    "name": "pytest-tytest",
+    "version": "0.1.7"
+  },
+  {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
     "name": "pytest-ubersmith",
     "version": "1.2.0"
@@ -4452,7 +4462,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.38.4"
+    "version": "1.38.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
