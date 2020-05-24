@@ -152,7 +152,7 @@
   {
     "description": "Clean, human-readable tests for Appdaemon",
     "name": "appdaemontestframework",
-    "version": "3.0.5"
+    "version": "4.0.0b0"
   },
   {
     "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
@@ -922,7 +922,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.8.3"
+    "version": "0.8.5"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -2067,7 +2067,7 @@
   {
     "description": "Pytest plugin for measuring function coverage",
     "name": "pytest-func-cov",
-    "version": "0.2.0"
+    "version": "0.2.2"
   },
   {
     "description": "pytest plugin for Firefox Accounts",
@@ -2572,7 +2572,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -3437,7 +3437,7 @@
   {
     "description": "Provides path for uniform access to test resources in isolated directory",
     "name": "pytest-resource-path",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Simplified requests calls mocking for pytest",
@@ -4132,7 +4132,7 @@
   {
     "description": "Typhoon HIL plugin for pytest",
     "name": "pytest-tytest",
-    "version": "0.1.7"
+    "version": "0.1.8"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -4407,7 +4407,7 @@
   {
     "description": "Qase TMS Pytest Plugin",
     "name": "qase-pytest",
-    "version": "1.0.0a4"
+    "version": "1.1.0b3"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4462,7 +4462,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.38.5"
+    "version": "1.38.6"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4532,7 +4532,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "1.0.0a3"
+    "version": "1.1.5"
   },
   {
     "description": "Simple testing of RESTful APIs",
