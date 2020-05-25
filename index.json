@@ -80,6 +80,11 @@
     "version": "0.2.0"
   },
   {
+    "description": "&#22522;&#20110;Posedion&#39033;&#30446;&#20013;&#24120;&#29992;&#24037;&#20855;&#31867;&#25554;&#20214;",
+    "name": "Tetis",
+    "version": "0.0.45"
+  },
+  {
     "description": "Authentication and authorization tools for interacting with the Vuforia Web Services (VWS) API.",
     "name": "VWS-Test-Fixtures",
     "version": "2019.12.13.1"
@@ -198,6 +203,11 @@
     "description": "Python config wrapper, with added goodness",
     "name": "configa",
     "version": "1.1.0"
+  },
+  {
+    "description": "Sistema de buscas de CPF, CEP, CNPJ",
+    "name": "consultas",
+    "version": "0.5"
   },
   {
     "description": "A small Gherkin DSL parser that generates stub code",
@@ -638,11 +648,6 @@
     "description": "A tool for creating regression tests through logging data during pytest runs.",
     "name": "onaji",
     "version": "0.1.2"
-  },
-  {
-    "description": "Test utility for asserting that your API outputs actually match your OpenAPI/Swagger specification.",
-    "name": "openapi-tester",
-    "version": "0.0.8"
   },
   {
     "description": "Find changes between OpenStack-Ansible versions",
@@ -2237,7 +2242,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2537,7 +2542,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.8.0"
+    "version": "0.9.1"
   },
   {
     "description": "UNKNOWN",
@@ -4462,7 +4467,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.38.6"
+    "version": "1.39.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4482,7 +4487,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.263"
+    "version": "1.0.265"
   },
   {
     "description": "Pure python tools for SIP testing",
@@ -4532,7 +4537,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "1.1.5"
+    "version": "1.2.2"
   },
   {
     "description": "Simple testing of RESTful APIs",
