@@ -55,6 +55,11 @@
     "version": "3.4.1"
   },
   {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "LibPythonPro-Atila",
+    "version": "0.1"
+  },
+  {
     "description": "A Python3 annotation program to select the best gene model in each locus",
     "name": "Mikado",
     "version": "2.0rc2"
@@ -471,6 +476,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-arturlauth",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-eric",
     "version": "0.2"
   },
@@ -488,6 +498,11 @@
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-lm",
     "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-lu",
+    "version": "0.3"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -1202,7 +1217,7 @@
   {
     "description": "check the README when running tests",
     "name": "pytest-checkdocs",
-    "version": "1.2.3"
+    "version": "2.1.1"
   },
   {
     "description": "plugin to check if there are ipdb debugs left",
@@ -2297,7 +2312,7 @@
   {
     "description": "A py.test plugin providing fixtures to simplify inmanta modules testing.",
     "name": "pytest-inmanta",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Inmanta tests package",
@@ -4007,7 +4022,7 @@
   {
     "description": "Pytest plugin for time travel",
     "name": "pytest-thawgun",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Detects thread leaks",
@@ -4137,7 +4152,7 @@
   {
     "description": "Typhoon HIL plugin for pytest",
     "name": "pytest-tytest",
-    "version": "0.1.8"
+    "version": "0.1.9"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
