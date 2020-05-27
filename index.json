@@ -195,6 +195,11 @@
     "version": "0.2.5"
   },
   {
+    "description": "Python test fixtures for your local AWS cloud stack",
+    "name": "boto3-fixtures",
+    "version": "0.0.4b2"
+  },
+  {
     "description": "Faster Than Light Command Line Test Client",
     "name": "bugcatcher",
     "version": "0.1.9"
@@ -212,7 +217,7 @@
   {
     "description": "Sistema de buscas de CPF, CEP, CNPJ",
     "name": "consultas",
-    "version": "0.5"
+    "version": "0.6"
   },
   {
     "description": "A small Gherkin DSL parser that generates stub code",
@@ -2177,7 +2182,7 @@
   {
     "description": "Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.",
     "name": "pytest-harvest",
-    "version": "1.9.1"
+    "version": "1.9.2"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
@@ -3112,7 +3117,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "4.4"
+    "version": "5"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3287,7 +3292,7 @@
   {
     "description": "Pytest plugin to randomly order tests and control random.seed.",
     "name": "pytest-randomly",
-    "version": "3.3.1"
+    "version": "3.4.0"
   },
   {
     "description": "Pytest plugin about random seed management",
@@ -3447,7 +3452,7 @@
   {
     "description": "Resilient Circuits fixtures for PyTest.",
     "name": "pytest-resilient-circuits",
-    "version": "35.0.203"
+    "version": "37.0.214"
   },
   {
     "description": "Load resource fixture plugin to use with pytest",
@@ -4382,7 +4387,7 @@
   {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest_docker_tools",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest plugin for apps written with Google's AppEngine",
@@ -4402,7 +4407,7 @@
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
     "name": "python-clu",
-    "version": "0.7.1"
+    "version": "0.7.2"
   },
   {
     "description": "Unofficial python API client for Hiptest",
@@ -4467,7 +4472,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.6.2"
+    "version": "1.6.3"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
