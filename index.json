@@ -55,6 +55,11 @@
     "version": "3.4.1"
   },
   {
+    "description": "A highly customisable Discord bot",
+    "name": "Kr0nOs-Bot",
+    "version": "3.3.9.dev1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "LibPythonPro-Atila",
     "version": "0.1"
@@ -307,7 +312,7 @@
   {
     "description": "Uses docker to spawn containers for services required during tests",
     "name": "docker-services",
-    "version": "0.3.2"
+    "version": "0.4.0"
   },
   {
     "description": "Cuckoo Sandbox Shellcode Identification & Formatting",
@@ -447,7 +452,7 @@
   {
     "description": "A Kubernetes integration test framework in Python.",
     "name": "kubetest",
-    "version": "0.7.0"
+    "version": "0.8.1"
   },
   {
     "description": "labgrid: lab hardware and software control layer",
@@ -1227,7 +1232,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "0.3.5"
+    "version": "1.0.1"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -2742,7 +2747,7 @@
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.8"
+    "version": "3.2.9"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3042,7 +3047,7 @@
   {
     "description": "A simple pytest plugin for pinning tests",
     "name": "pytest-pinned",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
@@ -4492,7 +4497,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.39.1"
+    "version": "1.39.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
