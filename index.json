@@ -952,7 +952,7 @@
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.8.5"
+    "version": "0.9.0"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -1232,7 +1232,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "1.0.1"
+    "version": "1.0.5"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -2218,6 +2218,11 @@
     "description": "Custom listener to store execution results into MYSQL DB, which is used for pytest-historic report",
     "name": "pytest-historic-hook",
     "version": "0.1.2"
+  },
+  {
+    "description": "A pytest plugin for use with homeassistant custom components.",
+    "name": "pytest-homeassistant",
+    "version": "0.1.0"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -4482,7 +4487,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.6.3"
+    "version": "1.7.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
