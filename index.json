@@ -1232,7 +1232,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -1593,6 +1593,11 @@
     "description": "Pytest plugin used to setup environment variables with django-dotenv",
     "name": "pytest-django-dotenv",
     "version": "0.1.2"
+  },
+  {
+    "description": "Factories for your Django models that can be used as Pytest fixtures.",
+    "name": "pytest-django-factories",
+    "version": "0.2.0"
   },
   {
     "description": "A Django plugin for pytest.",
@@ -3052,7 +3057,7 @@
   {
     "description": "A simple pytest plugin for pinning tests",
     "name": "pytest-pinned",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
@@ -3732,7 +3737,7 @@
   {
     "description": "Pytest Plugin to disable socket calls during tests",
     "name": "pytest-socket",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "",
@@ -4323,6 +4328,11 @@
     "description": "Pytest fixtures providing data read from function, module or package related (x)files.",
     "name": "pytest-xfiles",
     "version": "0.2.0"
+  },
+  {
+    "description": "Extended logging for test and decorators",
+    "name": "pytest-xlog",
+    "version": "0.1.5"
   },
   {
     "description": "An extended parametrizing plugin of pytest.",
