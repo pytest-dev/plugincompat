@@ -12,7 +12,7 @@
   {
     "description": "Python tools and utilities for working with the AnyBody Modeling System",
     "name": "AnyPyTools",
-    "version": "1.4.2"
+    "version": "1.4.3"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -202,7 +202,7 @@
   {
     "description": "Python test fixtures for your local AWS cloud stack",
     "name": "boto3-fixtures",
-    "version": "0.0.4b2"
+    "version": "0.0.5"
   },
   {
     "description": "Faster Than Light Command Line Test Client",
@@ -682,7 +682,7 @@
   {
     "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
     "name": "parasolr",
-    "version": "0.5.3"
+    "version": "0.5.4"
   },
   {
     "description": "Powell's Derivative-Free Optimization solvers",
@@ -2777,7 +2777,7 @@
   {
     "description": "Add the mutation testing feature to pytest",
     "name": "pytest-mutagen",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -3062,7 +3062,7 @@
   {
     "description": "A simple pytest plugin for pinning tests",
     "name": "pytest-pinned",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   {
     "description": "A pytest plugin which runs SBFL algorithms to detect faults.",
@@ -3233,6 +3233,11 @@
     "description": "Pytest fixture \"q\" for pyq",
     "name": "pytest-pyq",
     "version": "1.2.0"
+  },
+  {
+    "description": "pytest pyramid providing basic fixtures for testing pyramid applications with pytest test suite",
+    "name": "pytest-pyramid",
+    "version": "0.3.2"
   },
   {
     "description": "Pyramid server fixture for py.test",
@@ -3807,7 +3812,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.1.1b1"
+    "version": "1.1.2a1"
   },
   {
     "description": "sqitch for pytest",
@@ -4517,7 +4522,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.39.3"
+    "version": "1.39.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
