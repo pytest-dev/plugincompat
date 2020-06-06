@@ -480,6 +480,11 @@
     "version": "0.2"
   },
   {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python",
+    "name": "libpython",
+    "version": "0.1"
+  },
+  {
     "description": "Modulo para exemplificar construcapipo de projetos Python para curso Pythontools",
     "name": "libpythonjp",
     "version": "0.2"
@@ -1902,7 +1907,7 @@
   {
     "description": "pytest plugin for testing executables",
     "name": "pytest-executable",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
@@ -1912,7 +1917,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "2.1b3"
+    "version": "2.2b1"
   },
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
@@ -2317,7 +2322,7 @@
   {
     "description": "Plugin for influxdb and pytest integration.",
     "name": "pytest-influxdb",
-    "version": "0.0.27"
+    "version": "0.0.28"
   },
   {
     "description": "pytest plugin to collect information from tests",
@@ -3337,7 +3342,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
