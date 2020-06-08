@@ -270,6 +270,11 @@
     "version": "0.9.6"
   },
   {
+    "description": "A CLI and library for interacting with DataTorch",
+    "name": "datatorch",
+    "version": "0.1.0"
+  },
+  {
     "description": "Create decorators easily in python.",
     "name": "decopatch",
     "version": "1.4.1"
@@ -1907,7 +1912,7 @@
   {
     "description": "pytest plugin for testing executables",
     "name": "pytest-executable",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "py.test plugin to store test expectations and mark tests based on them",
@@ -2543,6 +2548,11 @@
     "description": "Pytest plugin for AWS integration tests",
     "name": "pytest-localstack",
     "version": "0.4.1"
+  },
+  {
+    "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
+    "name": "pytest-locker",
+    "version": "0.2.0"
   },
   {
     "description": "Package for creating a pytest test run reprot",
@@ -3802,7 +3812,7 @@
   {
     "description": "Splinter plugin for pytest testing framework",
     "name": "pytest-splinter",
-    "version": "2.0.1"
+    "version": "2.1.0"
   },
   {
     "description": "Pytest plugin for splitting test suite based on test execution time",
@@ -4297,7 +4307,7 @@
   {
     "description": "An interactive web UI test runner for PyTest",
     "name": "pytest-web-ui",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
@@ -4527,7 +4537,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.39.4"
+    "version": "1.39.5"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
