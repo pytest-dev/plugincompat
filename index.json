@@ -272,7 +272,7 @@
   {
     "description": "A CLI and library for interacting with DataTorch",
     "name": "datatorch",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Create decorators easily in python.",
@@ -697,7 +697,7 @@
   {
     "description": "Powell's Derivative-Free Optimization solvers",
     "name": "pdfo",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "OpenCL-based physics simulation package",
@@ -1017,7 +1017,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "1.0.0rc2"
+    "version": "1.0.0rc4"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -4592,7 +4592,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.4.4"
+    "version": "0.5.0"
   },
   {
     "description": "Fixtures for ansible, testinfra and molecule",
