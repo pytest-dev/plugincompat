@@ -695,11 +695,6 @@
     "version": "0.5.4"
   },
   {
-    "description": "Powell's Derivative-Free Optimization solvers",
-    "name": "pdfo",
-    "version": "0.4"
-  },
-  {
     "description": "OpenCL-based physics simulation package",
     "name": "physicl",
     "version": "0.0.1"
@@ -1772,7 +1767,7 @@
   {
     "description": "A pytest plugin for adding test results into doorstop items.",
     "name": "pytest-doorstop",
-    "version": "0.1.0b0"
+    "version": "1.0.0"
   },
   {
     "description": "A py.test plugin that parses environment files before running tests",
@@ -2252,7 +2247,7 @@
   {
     "description": "Integrates the Hoverfly HTTP proxy into Pytest",
     "name": "pytest-hoverfly-wrapper",
-    "version": "0.1.4"
+    "version": "0.2.0"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -2792,7 +2787,7 @@
   {
     "description": "Add the mutation testing feature to pytest",
     "name": "pytest-mutagen",
-    "version": "1.1.1"
+    "version": "1.2.1"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
@@ -2942,7 +2937,7 @@
   {
     "description": "pytest plugin for publish results to opentmi",
     "name": "pytest-opentmi",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "include/exclude values of fixtures in pytest",
@@ -3442,7 +3437,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.3.4"
+    "version": "0.4.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3582,7 +3577,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.10.6"
+    "version": "0.10.7"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3827,7 +3822,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.0"
+    "version": "1.2.1a1"
   },
   {
     "description": "sqitch for pytest",
@@ -4267,7 +4262,7 @@
   {
     "description": "Pytest plugin for asserting data against voluptuous schema.",
     "name": "pytest-voluptuous",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "pytest plugin for automatic recording of http stubbed tests",
@@ -4382,7 +4377,7 @@
   {
     "description": "A pytest plugin to run Xvfb for tests.",
     "name": "pytest-xvfb",
-    "version": "1.2.0"
+    "version": "2.0.0"
   },
   {
     "description": "This plugin is used to load yaml output to your test using pytest framework.",
