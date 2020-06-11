@@ -24,8 +24,8 @@ Follow this steps to update Python and pytest versions on the site:
 Install `pip-tools` in a Python 3.7 virtual environment and execute:
 
 ```
-$ pip install --update -r requirements.in
-$ pip-compile requirements.in
+$ pip install --upgrade -r requirements.in
+$ pip-compile --upgrade
 ```
 
 And commit everything.
