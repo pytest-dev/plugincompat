@@ -82,7 +82,7 @@
   {
     "description": "A highly customisable Discord bot",
     "name": "Red-DiscordBot",
-    "version": "3.3.8"
+    "version": "3.3.9"
   },
   {
     "description": "SOCKS5 server management tool and library",
@@ -118,6 +118,11 @@
     "description": "A module to simplify using pytest for AiiDA plugins.",
     "name": "aiida-pytest",
     "version": "0.1.0a6"
+  },
+  {
+    "description": "Schedule async tasks and manage them using a REST API or WEB UI",
+    "name": "aiocronjob",
+    "version": "0.2.4"
   },
   {
     "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
@@ -272,7 +277,7 @@
   {
     "description": "A CLI and library for interacting with DataTorch",
     "name": "datatorch",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Create decorators easily in python.",
@@ -347,7 +352,7 @@
   {
     "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
     "name": "flake8-pytest-style",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -637,7 +642,7 @@
   {
     "description": "Vagrant Molecule Plugin :: run molecule tests using Vagrant",
     "name": "molecule-vagrant",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Python mutation testing: test your tests!",
@@ -2247,7 +2252,7 @@
   {
     "description": "Integrates the Hoverfly HTTP proxy into Pytest",
     "name": "pytest-hoverfly-wrapper",
-    "version": "0.3.0"
+    "version": "0.3.2"
   },
   {
     "description": "pytest plugin for generating HTML reports",
@@ -2882,7 +2887,7 @@
   {
     "description": "A pytest plugin to notify test result",
     "name": "pytest-notifier",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "Pytest markers for not implemented features and tests.",
@@ -3442,7 +3447,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3832,7 +3837,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.1a1"
+    "version": "1.2.1a2"
   },
   {
     "description": "sqitch for pytest",
@@ -4325,6 +4330,11 @@
     "version": "1.0.1"
   },
   {
+    "description": "Testing Tornado.",
+    "name": "pytest-whirlwind",
+    "version": "0.1.0"
+  },
+  {
     "description": "pytest addon for displaying the whole node id for failures",
     "name": "pytest-wholenodeid",
     "version": "0.2"
@@ -4597,7 +4607,7 @@
   {
     "description": "PyTest Snapshot Test Utility",
     "name": "syrupy",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   {
     "description": "Fixtures for ansible, testinfra and molecule",
