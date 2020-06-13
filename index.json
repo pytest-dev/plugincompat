@@ -277,7 +277,7 @@
   {
     "description": "A CLI and library for interacting with DataTorch",
     "name": "datatorch",
-    "version": "0.1.2"
+    "version": "0.1.6"
   },
   {
     "description": "Create decorators easily in python.",
@@ -2552,7 +2552,7 @@
   {
     "description": "lockable resource plugin for pytest",
     "name": "pytest-lockable",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
@@ -4532,7 +4532,7 @@
   {
     "description": "A python client for sat-api",
     "name": "sat-search",
-    "version": "0.3.0b4"
+    "version": "0.3.0rc1"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
@@ -4657,7 +4657,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "5.1.0"
+    "version": "5.2.1"
   },
   {
     "description": "Library",
