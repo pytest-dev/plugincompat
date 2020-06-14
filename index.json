@@ -1120,6 +1120,11 @@
     "version": "1.2.0"
   },
   {
+    "description": "A pytest plugin for running tests on a Briefcase project.",
+    "name": "pytest-briefcase",
+    "version": "0.1.1"
+  },
+  {
     "description": "A pytest plugin for console based browser test selection just after the collection phase",
     "name": "pytest-browser",
     "version": "0.2.0"
@@ -1877,7 +1882,7 @@
   {
     "description": "Pytest plugin to validate use of envvars on your tests",
     "name": "pytest-envvars",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   {
     "description": "pytest plugin to check for commented out code",
@@ -2355,9 +2360,9 @@
     "version": "2020.2.1"
   },
   {
-    "description": "py.test plugin to show failures instantly",
+    "description": "pytest plugin to show failures instantly",
     "name": "pytest-instafail",
-    "version": "0.4.1.post0"
+    "version": "0.4.2"
   },
   {
     "description": "pytest plugin to instrument tests",
@@ -3357,7 +3362,7 @@
   {
     "description": "A pytest plugin that allows to record network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3635,9 +3640,9 @@
     "version": "0.4.0"
   },
   {
-    "description": "Reliable Browser Automation & Testing Framework",
+    "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "0.2.0"
+    "version": "0.4.0"
   },
   {
     "description": "Send pytest execution result email",
@@ -4092,7 +4097,7 @@
   {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "1.3.4"
+    "version": "1.4.0"
   },
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
@@ -4535,6 +4540,11 @@
     "version": "0.3.0rc1"
   },
   {
+    "description": "Web Automation & Testing Framework - https://seleniumbase.io",
+    "name": "sbase",
+    "version": "0.4.0"
+  },
+  {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
     "version": "1.7.0"
@@ -4552,7 +4562,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.39.5"
+    "version": "1.40.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
