@@ -352,7 +352,7 @@
   {
     "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
     "name": "flake8-pytest-style",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -432,7 +432,7 @@
   {
     "description": "HYAML is a one-liner oriented language",
     "name": "hyaml",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "description": "A library for property-based testing",
@@ -2215,6 +2215,11 @@
     "version": "1.9.2"
   },
   {
+    "description": "A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.",
+    "name": "pytest-helm-chart",
+    "version": "0.1.1"
+  },
+  {
     "description": "Functions to help in using the pytest testing framework",
     "name": "pytest-helper",
     "version": "0.2.2"
@@ -3452,7 +3457,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -4547,7 +4552,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
