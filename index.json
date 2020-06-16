@@ -1782,7 +1782,7 @@
   {
     "description": "A py.test plugin that parses environment files before running tests",
     "name": "pytest-dotenv",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   {
     "description": "A Django REST framework plugin for pytest.",
@@ -2252,7 +2252,7 @@
   {
     "description": "A pytest plugin for use with homeassistant custom components.",
     "name": "pytest-homeassistant",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -4102,7 +4102,7 @@
   {
     "description": "py.test plugin to abort hanging tests",
     "name": "pytest-timeout",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Linux-only Pytest plugin to control durations of various test case execution phases",
@@ -4540,6 +4540,11 @@
     "version": "0.5.9"
   },
   {
+    "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
+    "name": "santoku",
+    "version": "200616.2"
+  },
+  {
     "description": "A python client for sat-api",
     "name": "sat-search",
     "version": "0.3.0rc1"
@@ -4567,7 +4572,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.40.0"
+    "version": "1.40.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
