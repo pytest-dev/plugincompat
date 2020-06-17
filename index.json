@@ -220,6 +220,11 @@
     "version": "0.5"
   },
   {
+    "description": "A collection of APIs to develop CLAMS app for python",
+    "name": "clams-python",
+    "version": "0.0.1a1"
+  },
+  {
     "description": "Python config wrapper, with added goodness",
     "name": "configa",
     "version": "1.1.0"
@@ -551,6 +556,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonprojn",
+    "version": "0.2"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonprosfx",
     "version": "0.2"
   },
@@ -772,7 +782,7 @@
   {
     "description": "Test Django migrations through Pytest.",
     "name": "pytedjmi",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A simple image diff plugin for pytest",
@@ -1252,7 +1262,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -2562,7 +2572,7 @@
   {
     "description": "lockable resource plugin for pytest",
     "name": "pytest-lockable",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
@@ -3647,7 +3657,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "0.4.0"
+    "version": "1.40.1"
   },
   {
     "description": "Send pytest execution result email",
@@ -3672,7 +3682,7 @@
   {
     "description": "Services plugin for pytest testing framework",
     "name": "pytest-services",
-    "version": "2.0.1"
+    "version": "2.1.0"
   },
   {
     "description": "py.test plugin to make session fixtures behave as if written in conftest, even if it is written in some modules",
@@ -3847,7 +3857,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.1a2"
+    "version": "1.2.1a3"
   },
   {
     "description": "sqitch for pytest",
@@ -4152,7 +4162,7 @@
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
     "name": "pytest-tornado",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   {
     "description": "A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.",
@@ -4542,7 +4552,7 @@
   {
     "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
     "name": "santoku",
-    "version": "200616.2"
+    "version": "200617.4"
   },
   {
     "description": "A python client for sat-api",
@@ -4552,7 +4562,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "0.4.0"
+    "version": "1.40.1"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
@@ -4632,7 +4642,7 @@
   {
     "description": "Fixtures for ansible, testinfra and molecule",
     "name": "takeltest",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": "A code-driven QA reporting library",
