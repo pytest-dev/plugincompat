@@ -610,6 +610,11 @@
     "version": "0.0.2"
   },
   {
+    "description": "AliCloud ECS Molecule Plugin :: run molecule tests using AliCloud ECS (Aliyun ECS)",
+    "name": "molecule-alicloud",
+    "version": "0.1.dev0"
+  },
+  {
     "description": "Azure Molecule Plugin :: run molecule tests on Azure",
     "name": "molecule-azure",
     "version": "0.3"
@@ -2027,7 +2032,7 @@
   {
     "description": "A pytest plugin to treat non-assertion failures as test errors.",
     "name": "pytest-finer-verdicts",
-    "version": "1.0.6"
+    "version": "1.0.6.post1"
   },
   {
     "description": "pytest plugin to manipulate firefox",
@@ -3457,7 +3462,7 @@
   {
     "description": "pytest plugin for adding tests' parameters to junit report",
     "name": "pytest-report-parameters",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Generate Pytest reports with templates",
@@ -4552,7 +4557,7 @@
   {
     "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
     "name": "santoku",
-    "version": "200617.4"
+    "version": "200617.5"
   },
   {
     "description": "A python client for sat-api",
@@ -4582,7 +4587,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.40.1"
+    "version": "1.40.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
