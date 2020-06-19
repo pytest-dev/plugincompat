@@ -787,7 +787,7 @@
   {
     "description": "Test Django migrations through Pytest.",
     "name": "pytedjmi",
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   {
     "description": "A simple image diff plugin for pytest",
@@ -2907,7 +2907,7 @@
   {
     "description": "A pytest plugin for sending a desktop notification and playing a sound upon completion of tests",
     "name": "pytest-notification",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   {
     "description": "A pytest plugin to notify test result",
@@ -3182,7 +3182,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "5"
+    "version": "5.1"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3570,6 +3570,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "This package name is reserved by Xilinx, Inc.",
+    "name": "pytest-roast",
+    "version": "0.1.1"
+  },
+  {
     "description": "Pytest integration with rotest",
     "name": "pytest-rotest",
     "version": "0.1.0"
@@ -3862,7 +3867,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.1a3"
+    "version": "1.2.1a8"
   },
   {
     "description": "sqitch for pytest",
@@ -3942,7 +3947,7 @@
   {
     "description": "A plugin to fake subprocess for pytest",
     "name": "pytest-subprocess",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
@@ -4342,7 +4347,7 @@
   {
     "description": "An interactive web UI test runner for PyTest",
     "name": "pytest-web-ui",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
@@ -4557,7 +4562,7 @@
   {
     "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
     "name": "santoku",
-    "version": "200617.5"
+    "version": "200618.6"
   },
   {
     "description": "A python client for sat-api",
