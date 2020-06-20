@@ -1042,7 +1042,7 @@
   {
     "description": "pytest plugin for URL based testing",
     "name": "pytest-base-url",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   {
     "description": "BDD for pytest",
@@ -2797,7 +2797,7 @@
   {
     "description": "pytest plugin to collect information from tests",
     "name": "pytest-mpi",
-    "version": "0.3"
+    "version": "0.4"
   },
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
@@ -3867,7 +3867,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.1a8"
+    "version": "1.2.1b1"
   },
   {
     "description": "sqitch for pytest",
