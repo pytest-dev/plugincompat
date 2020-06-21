@@ -3182,7 +3182,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "5.1"
+    "version": "5.2"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -4577,7 +4577,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
