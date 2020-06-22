@@ -4250,6 +4250,11 @@
     "version": "0.3.6b0"
   },
   {
+    "description": "Plugin for py.test set a different exit code on uncaught exceptions",
+    "name": "pytest-unhandled-exception-exit-code",
+    "version": "0.0.2"
+  },
+  {
     "description": "A pytest plugin for filtering unittest-based test classes",
     "name": "pytest-unittest-filter",
     "version": "0.2.1"
@@ -4577,7 +4582,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "schemathesis",
-    "version": "1.9.0"
+    "version": "1.9.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
