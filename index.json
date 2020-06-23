@@ -342,7 +342,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger schemas",
     "name": "enhancedschemathesis",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   {
     "description": "Collection of utils for the Falcon Framework",
@@ -4233,6 +4233,11 @@
     "description": "A twisted plugin for py.test.",
     "name": "pytest-twisted",
     "version": "1.12"
+  },
+  {
+    "description": "Typhoon HIL plugin for pytest",
+    "name": "pytest-typhoon-xray",
+    "version": "0.1.16"
   },
   {
     "description": "Typhoon HIL plugin for pytest",
