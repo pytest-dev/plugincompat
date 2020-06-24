@@ -787,7 +787,7 @@
   {
     "description": "Test Django migrations through Pytest.",
     "name": "pytedjmi",
-    "version": "0.4.1"
+    "version": "0.4.3"
   },
   {
     "description": "A simple image diff plugin for pytest",
@@ -1857,7 +1857,7 @@
   {
     "description": "Send execution result email",
     "name": "pytest-email",
-    "version": "0.1"
+    "version": "0.2"
   },
   {
     "description": "A pytest plugin that adds emojis to your test result report",
