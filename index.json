@@ -1477,7 +1477,7 @@
   {
     "description": "Manager for test data providing downloads, caching of generated files, and a context for temp directories.",
     "name": "pytest-datadir-mgr",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Fixtures for pytest allowing test functions/methods to easily retrieve test resources from the local filesystem.",
@@ -2122,7 +2122,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "1.1.3"
+    "version": "1.2.0"
   },
   {
     "description": "Check if requirement files are frozen",
@@ -2648,6 +2648,11 @@
     "description": "Match test output against patterns stored in files",
     "name": "pytest-matcher",
     "version": "1.3.5"
+  },
+  {
+    "description": "Provide tools for generating tests from combinations of fixtures.",
+    "name": "pytest-matrix",
+    "version": "0.7.7"
   },
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
@@ -3767,7 +3772,7 @@
   {
     "description": "Pytest to Slack reporting plugin",
     "name": "pytest-slack",
-    "version": "2.2.0"
+    "version": "2.2.4"
   },
   {
     "description": "A plugin for collecting tests that touch changed code",
@@ -4490,6 +4495,11 @@
     "version": "1.0.0"
   },
   {
+    "description": "Too many faillure, less tests.",
+    "name": "pytest_covid",
+    "version": "0.0.5"
+  },
+  {
     "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
     "name": "pytest_docker_tools",
     "version": "0.2.1"
@@ -4503,11 +4513,6 @@
     "description": "A py.test plugin that runs tests its found in your Markdown files.",
     "name": "pytest_markdown",
     "version": "0.0.7"
-  },
-  {
-    "description": "Provide tools for generating tests from combinations of fixtures.",
-    "name": "pytest_matrix",
-    "version": "0.6"
   },
   {
     "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
