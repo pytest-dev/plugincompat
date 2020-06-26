@@ -832,7 +832,7 @@
   {
     "description": "A pytest plugin for verifying alembic migrations.",
     "name": "pytest-alembic",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Pytest fixture extending Numpy's allclose function",
@@ -1968,6 +1968,11 @@
     "description": "Factory Boy support for pytest.",
     "name": "pytest-factoryboy",
     "version": "2.0.3"
+  },
+  {
+    "description": "Generates pytest fixtures that allow the use of type hinting",
+    "name": "pytest-factoryboy-fixtures",
+    "version": "0.1"
   },
   {
     "description": "A pytest plugin that helps better distinguishing real test failures from setup flakiness.",
@@ -4527,7 +4532,7 @@
   {
     "description": "Support Tools for Machine Learning VIVIDLY",
     "name": "python-vivid",
-    "version": "0.3.1.1"
+    "version": "0.3.2.0"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -4607,7 +4612,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.40.2"
+    "version": "1.41.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
