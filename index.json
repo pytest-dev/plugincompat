@@ -832,7 +832,7 @@
   {
     "description": "A pytest plugin for verifying alembic migrations.",
     "name": "pytest-alembic",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": "Pytest fixture extending Numpy's allclose function",
@@ -1922,7 +1922,7 @@
   {
     "description": "pytest plugin for generating excel reports",
     "name": "pytest-excel",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   {
     "description": "Better exceptions",
