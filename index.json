@@ -232,7 +232,7 @@
   {
     "description": "Sistema de buscas de CPF, CEP, CNPJ",
     "name": "consultas",
-    "version": "0.6"
+    "version": "0.8"
   },
   {
     "description": "A small Gherkin DSL parser that generates stub code",
