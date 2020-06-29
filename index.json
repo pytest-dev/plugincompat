@@ -2587,7 +2587,7 @@
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
     "name": "pytest-locker",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "Package for creating a pytest test run reprot",
@@ -4612,7 +4612,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.41.0"
+    "version": "1.42.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
