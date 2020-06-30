@@ -2027,7 +2027,7 @@
   {
     "description": "run test cases filter by mark",
     "name": "pytest-filter-case",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Pytest plugin for filtering based on sub-packages",
@@ -2288,6 +2288,11 @@
     "description": "pytest plugin for generating HTML reports",
     "name": "pytest-html",
     "version": "2.1.1"
+  },
+  {
+    "description": "optimized pytest plugin for generating HTML reports",
+    "name": "pytest-html-lee",
+    "version": "0.0.1"
   },
   {
     "description": "Pytest plugin for generating HTML reports with per-test profiling and optionally call graph visualizations. Based on pytest-html by Dave Hunt.",
@@ -3910,6 +3915,11 @@
     "version": "1.1.6"
   },
   {
+    "description": "A small description",
+    "name": "pytest-stepfunctions",
+    "version": "0.1a1"
+  },
+  {
     "description": "Create step-wise / incremental tests in pytest.",
     "name": "pytest-steps",
     "version": "1.7.3"
@@ -4022,7 +4032,7 @@
   {
     "description": "A pytest plugin for using terraform fixtures",
     "name": "pytest-terraform",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "generate terraform resources to use with pytest",
@@ -4082,7 +4092,7 @@
   {
     "description": "pytest plugin for Testrail",
     "name": "pytest-testrail-client",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   {
     "description": "pytest plugin for creating TestRail runs and adding results",
@@ -4612,7 +4622,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.42.0"
+    "version": "1.42.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
