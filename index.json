@@ -12,7 +12,7 @@
   {
     "description": "Python tools and utilities for working with the AnyBody Modeling System",
     "name": "AnyPyTools",
-    "version": "1.4.3"
+    "version": "1.4.4"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -735,6 +735,11 @@
     "version": "0.0.3"
   },
   {
+    "description": "Projeto vazio ainda mas pode ser usado futuramente",
+    "name": "projecto",
+    "version": "0.2"
+  },
+  {
     "description": "Collection, aggregation, and cataloging of storm imagery for the purpose of data sciences and analysis.",
     "name": "psi-collect",
     "version": "0.1.3"
@@ -1237,7 +1242,7 @@
   {
     "description": "A set of py.test fixtures for AWS Chalice",
     "name": "pytest-chalice",
-    "version": "0.0.4"
+    "version": "0.0.5"
   },
   {
     "description": "A pytest fixture for changing current working directory",
@@ -2822,7 +2827,7 @@
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "3.2.9"
+    "version": "4.0.2"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3208,6 +3213,11 @@
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
     "version": "2.4.0"
+  },
+  {
+    "description": "pytest plugin with powerful fixtures",
+    "name": "pytest-power",
+    "version": "0.1.1"
   },
   {
     "description": "Minitest-style test colors",
@@ -4605,9 +4615,9 @@
     "version": "1.40.1"
   },
   {
-    "description": "Hypothesis strategies for Open API / Swagger schemas",
+    "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
     "name": "schemathesis",
-    "version": "1.9.1"
+    "version": "2.0.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
