@@ -207,7 +207,7 @@
   {
     "description": "Python test fixtures for your local AWS cloud stack",
     "name": "boto3-fixtures",
-    "version": "0.0.5"
+    "version": "0.0.8"
   },
   {
     "description": "Faster Than Light Command Line Test Client",
@@ -515,6 +515,11 @@
     "version": "0.2"
   },
   {
+    "description": "Exerc&#237;cio de aprendizagem referente cria&#231;&#227;o de projetos na linguagem Python, Curso Python Pro.",
+    "name": "libpythonpro-gc",
+    "version": "0.1"
+  },
+  {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-jes",
     "version": "0.2"
@@ -737,7 +742,7 @@
   {
     "description": "Projeto vazio ainda mas pode ser usado futuramente",
     "name": "projecto",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "Collection, aggregation, and cataloging of storm imagery for the purpose of data sciences and analysis.",
@@ -837,7 +842,7 @@
   {
     "description": "A pytest plugin for verifying alembic migrations.",
     "name": "pytest-alembic",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   {
     "description": "Pytest fixture extending Numpy's allclose function",
@@ -2392,7 +2397,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2020.2.1"
+    "version": "2020.3"
   },
   {
     "description": "pytest plugin to show failures instantly",
@@ -2592,7 +2597,7 @@
   {
     "description": "lockable resource plugin for pytest",
     "name": "pytest-lockable",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
@@ -3217,7 +3222,7 @@
   {
     "description": "pytest plugin with powerful fixtures",
     "name": "pytest-power",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Minitest-style test colors",
@@ -4632,7 +4637,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.42.1"
+    "version": "1.42.3"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
