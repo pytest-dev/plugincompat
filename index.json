@@ -232,7 +232,7 @@
   {
     "description": "Sistema de buscas de CPF, CEP, CNPJ",
     "name": "consultas",
-    "version": "0.8"
+    "version": "1.0"
   },
   {
     "description": "A small Gherkin DSL parser that generates stub code",
@@ -1737,7 +1737,7 @@
   {
     "description": "pytest docker fixtures",
     "name": "pytest-docker-fixtures",
-    "version": "1.3.7"
+    "version": "1.3.8"
   },
   {
     "description": "pytest plugin for writing functional tests with pexpect and docker",
@@ -2597,7 +2597,7 @@
   {
     "description": "lockable resource plugin for pytest",
     "name": "pytest-lockable",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
@@ -3665,6 +3665,11 @@
     "version": "1.6.1"
   },
   {
+    "description": "Web Automation & Testing Framework - https://seleniumbase.io",
+    "name": "pytest-sbase",
+    "version": "1.42.4"
+  },
+  {
     "description": "pytest plugin for test scenarios",
     "name": "pytest-scenario",
     "version": "1.0a6"
@@ -4637,7 +4642,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.42.3"
+    "version": "1.42.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
