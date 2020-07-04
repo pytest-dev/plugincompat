@@ -192,7 +192,7 @@
   {
     "description": "API testing for BC Data Catalog",
     "name": "bcdc-apitests",
-    "version": "1.0.2"
+    "version": "1.0.4"
   },
   {
     "description": "API testing for BC Data Catalog",
@@ -2647,7 +2647,7 @@
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
     "name": "pytest-markers-presence",
-    "version": "0.9.1"
+    "version": "0.9.2"
   },
   {
     "description": "UNKNOWN",
@@ -3937,7 +3937,7 @@
   {
     "description": "A small description",
     "name": "pytest-stepfunctions",
-    "version": "0.1a1"
+    "version": "0.1a2"
   },
   {
     "description": "Create step-wise / incremental tests in pytest.",
