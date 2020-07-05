@@ -345,11 +345,6 @@
     "version": "1.0.2"
   },
   {
-    "description": "Collection of utils for the Falcon Framework",
-    "name": "falcon-toolkit",
-    "version": "0.0.1"
-  },
-  {
     "description": "Simple slack bot for providing teammates with anonymous feedback",
     "name": "feedbackbot",
     "version": "0.0.2"
