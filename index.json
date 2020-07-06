@@ -232,7 +232,7 @@
   {
     "description": "Sistema de buscas de CPF, CEP, CNPJ",
     "name": "consultas",
-    "version": "1.0"
+    "version": "1.2"
   },
   {
     "description": "A small Gherkin DSL parser that generates stub code",
@@ -2242,6 +2242,11 @@
   {
     "description": "A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.",
     "name": "pytest-helm-chart",
+    "version": "0.1.1"
+  },
+  {
+    "description": "A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.",
+    "name": "pytest-helm-charts",
     "version": "0.1.1"
   },
   {
