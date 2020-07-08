@@ -225,6 +225,11 @@
     "version": "0.0.1a1"
   },
   {
+    "description": "Plug-n-play reinforcement learning with OpenAI Gym and JAX",
+    "name": "coax",
+    "version": "0.1.0rc1"
+  },
+  {
     "description": "Python config wrapper, with added goodness",
     "name": "configa",
     "version": "1.1.0"
@@ -1312,7 +1317,7 @@
   {
     "description": "Distributed tests planner plugin for pytest testing framework.",
     "name": "pytest-cloud",
-    "version": "4.0.0"
+    "version": "5.0.0"
   },
   {
     "description": "PyTest plugin for testing Smart Contracts for Ethereum blockchain.",
@@ -1862,7 +1867,7 @@
   {
     "description": "Send execution result email",
     "name": "pytest-email",
-    "version": "0.2"
+    "version": "0.3"
   },
   {
     "description": "A pytest plugin that adds emojis to your test result report",
@@ -2350,6 +2355,11 @@
     "version": "2.3"
   },
   {
+    "description": "A plugin to sent pytest results to an Ibutsu server",
+    "name": "pytest-ibutsu",
+    "version": "1.0.33"
+  },
+  {
     "description": "use icdiff for better error messages in pytest assertions",
     "name": "pytest-icdiff",
     "version": "0.5"
@@ -2832,7 +2842,7 @@
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "4.0.2"
+    "version": "4.0.3"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -3767,7 +3777,7 @@
   {
     "description": "pytest plugin help to find coupled tests",
     "name": "pytest-sherlock",
-    "version": "0.1.6"
+    "version": "0.2.0"
   },
   {
     "description": "A goodie-bag of unix shell and environment tools for py.test",
@@ -3902,7 +3912,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.1b1"
+    "version": "1.2.2a3"
   },
   {
     "description": "sqitch for pytest",
