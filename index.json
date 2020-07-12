@@ -2737,7 +2737,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with pytest",
     "name": "pytest-mock",
-    "version": "3.1.1"
+    "version": "3.2.0"
   },
   {
     "description": "A mock API server with configurable routes and responses available as a fixture.",
