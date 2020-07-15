@@ -312,7 +312,7 @@
   {
     "description": "Django test utility for validating Swagger documentation",
     "name": "django-swagger-tester",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "django-test-plus provides useful additions to Django's default TestCase",
@@ -3667,7 +3667,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.10.7"
+    "version": "0.11.0"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3927,7 +3927,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.3a4"
+    "version": "1.2.3a5"
   },
   {
     "description": "sqitch for pytest",
@@ -4637,7 +4637,7 @@
   {
     "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
     "name": "santoku",
-    "version": "200618.6"
+    "version": "200715.8"
   },
   {
     "description": "A python client for sat-api",
@@ -4652,7 +4652,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
     "name": "schemathesis",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
