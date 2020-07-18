@@ -3932,7 +3932,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.3a9"
+    "version": "1.2.3b1"
   },
   {
     "description": "sqitch for pytest",
@@ -4817,7 +4817,7 @@
   {
     "description": "desc",
     "name": "uw-webdriver-recorder",
-    "version": "2.0.2"
+    "version": "3.0.0"
   },
   {
     "description": "Test fixtures for Websauna",
