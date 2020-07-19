@@ -165,6 +165,11 @@
     "version": "0.5.2"
   },
   {
+    "description": "A high-powered command line menu framework.",
+    "name": "app-skellington",
+    "version": "0.1.1"
+  },
+  {
     "description": "Utilities for testing AppDaemon applications",
     "name": "appdaemon-testing",
     "version": "0.1.2"
