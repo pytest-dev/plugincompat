@@ -2162,7 +2162,7 @@
   {
     "description": "Wrap tests with fixtures in freeze_time",
     "name": "pytest-freezegun",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "Pytest plugin for measuring function coverage",
@@ -2622,7 +2622,7 @@
   {
     "description": "lockable resource plugin for pytest",
     "name": "pytest-lockable",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   {
     "description": " Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed ",
@@ -3937,7 +3937,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.3b1"
+    "version": "1.2.4a3"
   },
   {
     "description": "sqitch for pytest",
