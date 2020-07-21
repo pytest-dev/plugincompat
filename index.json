@@ -300,6 +300,11 @@
     "version": "1.4.1"
   },
   {
+    "description": "Dependency injection microframework for Python",
+    "name": "dependency-injector",
+    "version": "3.23.0"
+  },
+  {
     "description": "Picky test coverage for pytest",
     "name": "divide-and-cover",
     "version": "0.1.1"
@@ -2897,7 +2902,7 @@
   {
     "description": "MySQL process and client fixtures for pytest",
     "name": "pytest-mysql",
-    "version": "2.0.2"
+    "version": "2.0.3"
   },
   {
     "description": "pytest plugin for visual testing websites using selenium",
@@ -3512,7 +3517,7 @@
   {
     "description": "A pytest plugin to report on repository standards conformance",
     "name": "pytest-repo-health",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "Creates json report that is compatible with atom.io's linter message format",
@@ -4677,7 +4682,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.42.9"
+    "version": "1.43.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4787,7 +4792,7 @@
   {
     "description": "Test infrastructures",
     "name": "testinfra",
-    "version": "5.2.1"
+    "version": "5.2.2"
   },
   {
     "description": "Library",
