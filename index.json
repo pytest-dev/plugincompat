@@ -272,7 +272,7 @@
   {
     "description": "Laboratory automation for the behavioral and social sciences",
     "name": "dallinger",
-    "version": "6.3.0"
+    "version": "6.3.1"
   },
   {
     "description": "Fluent dataset operations, compatible with your favorite libraries",
@@ -328,6 +328,11 @@
     "description": "django-test-plus provides useful additions to Django's default TestCase",
     "name": "django-test-plus",
     "version": "1.4.0"
+  },
+  {
+    "description": "django-xss-fuzzer: An XSS vulnerability fuzz tester for Django views.",
+    "name": "django-xss-fuzzer",
+    "version": "0.2.0"
   },
   {
     "description": "django-friendship provides an easy extensible interface for following and friendship",
@@ -2272,7 +2277,7 @@
   {
     "description": "A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.",
     "name": "pytest-helm-charts",
-    "version": "0.1.6"
+    "version": "0.1.7"
   },
   {
     "description": "Functions to help in using the pytest testing framework",
