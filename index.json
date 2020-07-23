@@ -292,7 +292,7 @@
   {
     "description": "A CLI and library for interacting with DataTorch",
     "name": "datatorch",
-    "version": "0.1.6"
+    "version": "0.2.2"
   },
   {
     "description": "Create decorators easily in python.",
@@ -302,7 +302,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.23.0"
+    "version": "3.23.1"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -332,7 +332,7 @@
   {
     "description": "django-xss-fuzzer: An XSS vulnerability fuzz tester for Django views.",
     "name": "django-xss-fuzzer",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "django-friendship provides an easy extensible interface for following and friendship",
@@ -1067,7 +1067,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "1.0.0rc4"
+    "version": "1.0.0rc5"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -1302,7 +1302,7 @@
   {
     "description": "plugin to check if there are ipdb debugs left",
     "name": "pytest-checkipdb",
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   {
     "description": "py.test plugin for CircleCI",
@@ -1562,7 +1562,7 @@
   {
     "description": "A simple plugin to list unused fixtures in pytest",
     "name": "pytest-deadfixtures",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "",
@@ -2712,7 +2712,7 @@
   {
     "description": "pytest plugin to run the mccabe code complexity checker.",
     "name": "pytest-mccabe",
-    "version": "1.0"
+    "version": "2.0"
   },
   {
     "description": "Plugin for generating Markdown reports for pytest results",
@@ -3947,7 +3947,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.4a3"
+    "version": "1.2.4a6"
   },
   {
     "description": "sqitch for pytest",
@@ -4672,7 +4672,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
     "name": "schemathesis",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4687,7 +4687,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.43.0"
+    "version": "1.43.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4707,7 +4707,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.268"
+    "version": "1.0.271"
   },
   {
     "description": "Pure python tools for SIP testing",
