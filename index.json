@@ -292,7 +292,7 @@
   {
     "description": "A CLI and library for interacting with DataTorch",
     "name": "datatorch",
-    "version": "0.2.2"
+    "version": "0.2.4"
   },
   {
     "description": "Create decorators easily in python.",
@@ -302,7 +302,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.23.1"
+    "version": "3.23.2"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -372,7 +372,7 @@
   {
     "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
     "name": "flake8-pytest-style",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -3247,7 +3247,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "5.3"
+    "version": "6.0"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3737,7 +3737,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium-enhancer",
-    "version": "1.5.1"
+    "version": "1.5.2"
   },
   {
     "description": "A pytest package implementing perceptualdiff for Selenium tests.",
@@ -3897,7 +3897,7 @@
   {
     "description": "A simple plugin to first execute tests that historically failed more",
     "name": "pytest-sorter",
-    "version": "0.1.8"
+    "version": "0.2.2"
   },
   {
     "description": "Test-ordering plugin for pytest",
