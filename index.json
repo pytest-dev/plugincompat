@@ -162,7 +162,7 @@
   {
     "description": "Alternative pytest plugin to pytest-asyncio",
     "name": "alt-pytest-asyncio",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   {
     "description": "A high-powered command line menu framework.",
@@ -1503,6 +1503,11 @@
     "description": "Fixture \"data\" and \"case_data\" for test from yaml file",
     "name": "pytest-data-file",
     "version": "0.1"
+  },
+  {
+    "description": "Pytest plugin for remote Databricks notebooks testing",
+    "name": "pytest-databricks",
+    "version": "0.0.0"
   },
   {
     "description": "pytest plugin for test data directories and files",
@@ -2882,7 +2887,7 @@
   {
     "description": "Add the mutation testing feature to pytest",
     "name": "pytest-mutagen",
-    "version": "1.2.1"
+    "version": "1.3"
   },
   {
     "description": "Mypy static type checker plugin for Pytest",
