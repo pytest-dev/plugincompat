@@ -3612,7 +3612,7 @@
   {
     "description": "Simplified requests calls mocking for pytest",
     "name": "pytest-responsemock",
-    "version": "0.2.0"
+    "version": "1.0.0"
   },
   {
     "description": "py.test integration for responses",
