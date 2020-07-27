@@ -1507,7 +1507,7 @@
   {
     "description": "Pytest plugin for remote Databricks notebooks testing",
     "name": "pytest-databricks",
-    "version": "0.0.0"
+    "version": "0.0.6"
   },
   {
     "description": "pytest plugin for test data directories and files",
@@ -2343,6 +2343,11 @@
     "description": "Pytest plugin for generating HTML reports with per-test profiling and optionally call graph visualizations. Based on pytest-html by Dave Hunt.",
     "name": "pytest-html-profiling",
     "version": "1.0.0"
+  },
+  {
+    "description": "Generates a static html report based on pytest framework",
+    "name": "pytest-html-reporter",
+    "version": "0.0.3"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -3952,7 +3957,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.4a6"
+    "version": "1.2.4a8"
   },
   {
     "description": "sqitch for pytest",
@@ -4677,7 +4682,7 @@
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
     "name": "schemathesis",
-    "version": "2.2.1"
+    "version": "2.3.0"
   },
   {
     "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
@@ -4692,7 +4697,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.43.1"
+    "version": "1.44.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
