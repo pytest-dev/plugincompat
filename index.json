@@ -12,7 +12,7 @@
   {
     "description": "Python tools and utilities for working with the AnyBody Modeling System",
     "name": "AnyPyTools",
-    "version": "1.4.4"
+    "version": "1.4.5"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -623,6 +623,11 @@
     "description": "MyAnimeList web scraper",
     "name": "mal-scraper",
     "version": "0.3.0"
+  },
+  {
+    "description": "Python convenient utilities for personal usage",
+    "name": "markkk",
+    "version": "0.0.6"
   },
   {
     "description": "Command line utility for using the Pytest testing framework in 3ds Max",
@@ -2167,7 +2172,7 @@
   {
     "description": "run tests in isolated forked subprocesses",
     "name": "pytest-forked",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   {
     "description": "Check if requirement files are frozen",
@@ -2347,7 +2352,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -3697,7 +3702,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.13.0"
+    "version": "0.20.2"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -4487,7 +4492,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "1.33.0"
+    "version": "1.34.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
@@ -4697,7 +4702,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.44.1"
+    "version": "1.44.2"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4717,7 +4722,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.271"
+    "version": "1.0.275"
   },
   {
     "description": "Pure python tools for SIP testing",
