@@ -302,7 +302,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.25.0"
+    "version": "3.25.1"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -2247,7 +2247,7 @@
   {
     "description": "pytest plugin to annotate failed tests with a workflow command for GitHub Actions",
     "name": "pytest-github-actions-annotate-failures",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -2742,7 +2742,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -3212,7 +3212,7 @@
   {
     "description": "A pytest wrapper with fixtures for Playwright to automate web browsers",
     "name": "pytest-playwright",
-    "version": "0.0.4"
+    "version": "0.0.4.1"
   },
   {
     "description": "Fixtures for quickly making Matplotlib plots in tests",
@@ -4707,7 +4707,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.44.3"
+    "version": "1.45.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4893,6 +4893,11 @@
     "description": "Yet Another Option Parser (full fledged)",
     "name": "yaop",
     "version": "0.1.1"
+  },
+  {
+    "description": "Test acceleration usable in the YourBase CI",
+    "name": "yourbase",
+    "version": "0.0.4"
   },
   {
     "description": "CLI bundle for Zalando developers",
