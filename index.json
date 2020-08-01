@@ -1822,12 +1822,12 @@
   {
     "description": "A plugin to run doctests in docstrings of Numpy ufuncs",
     "name": "pytest-doctest-ufunc",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.7.0"
+    "version": "0.8.0.dev0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -2357,7 +2357,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.0.7"
+    "version": "0.0.8"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -2387,7 +2387,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -3967,7 +3967,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.5a1"
+    "version": "1.2.5a3"
   },
   {
     "description": "sqitch for pytest",
@@ -4787,7 +4787,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "Simple testing of RESTful APIs",
