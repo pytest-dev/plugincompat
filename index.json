@@ -3562,7 +3562,7 @@
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3892,7 +3892,7 @@
   {
     "description": "A plugin to enable snapshot testing with pytest.",
     "name": "pytest-snapshot",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "",
@@ -4567,7 +4567,7 @@
   {
     "description": "Validate your Python file format with yapf",
     "name": "pytest-yapf3",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   {
     "description": "PyTest plugin to run tests concurrently, each `yield` switch context to other one",
@@ -4712,7 +4712,7 @@
   {
     "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
     "name": "seleniumbase",
-    "version": "1.45.0"
+    "version": "1.45.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4767,7 +4767,7 @@
   {
     "description": "Call a function in all superclasses as easy as `supers(self).foo(42)`",
     "name": "supers",
-    "version": "0.1.3"
+    "version": "0.1.5"
   },
   {
     "description": "A mock backend for testing swift.",
