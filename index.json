@@ -377,7 +377,7 @@
   {
     "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
     "name": "flake8-pytest-style",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -2377,7 +2377,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -2402,7 +2402,7 @@
   {
     "description": "pytest-httpserver is a httpserver for pytest",
     "name": "pytest-httpserver",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   {
     "description": "Send responses to httpx.",
@@ -3232,7 +3232,7 @@
   {
     "description": "A pytest wrapper with fixtures for Playwright to automate web browsers",
     "name": "pytest-playwright",
-    "version": "0.0.4.1"
+    "version": "0.0.5"
   },
   {
     "description": "Fixtures for quickly making Matplotlib plots in tests",
@@ -3727,7 +3727,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.50.1"
+    "version": "0.50.2"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3772,7 +3772,7 @@
   {
     "description": "pytest plugin for Selenium",
     "name": "pytest-selenium",
-    "version": "1.9.1"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin for Selenium",
@@ -3962,7 +3962,7 @@
   {
     "description": "Doctest plugin for pytest with support for Sphinx-specific doctest-directives",
     "name": "pytest-sphinx",
-    "version": "0.3"
+    "version": "0.3.1"
   },
   {
     "description": "Exports unit tests as test runs in SpiraTest/Team/Plan",
@@ -3987,7 +3987,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.5a3"
+    "version": "1.2.6a2"
   },
   {
     "description": "sqitch for pytest",
@@ -4182,7 +4182,7 @@
   {
     "description": "selects tests affected by changed files and methods",
     "name": "pytest-testmon",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "Plugin to use TestObject Suites with Pytest",
@@ -4752,7 +4752,7 @@
   {
     "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
     "name": "shield34",
-    "version": "1.0.278"
+    "version": "1.0.286"
   },
   {
     "description": "Pure python tools for SIP testing",
@@ -4882,7 +4882,7 @@
   {
     "description": "desc",
     "name": "uw-webdriver-recorder",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   {
     "description": "Test fixtures for Websauna",
