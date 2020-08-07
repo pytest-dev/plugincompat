@@ -307,7 +307,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.26.0"
+    "version": "3.27.0"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -2347,7 +2347,7 @@
   {
     "description": "A pytest plugin for use with homeassistant custom components.",
     "name": "pytest-homeassistant",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -3727,7 +3727,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.50.2"
+    "version": "0.50.4"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3987,7 +3987,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.6a2"
+    "version": "1.2.6a4"
   },
   {
     "description": "sqitch for pytest",
