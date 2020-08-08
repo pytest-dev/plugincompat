@@ -566,6 +566,11 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
+    "name": "libpythonpro-ntg",
+    "version": "0.4"
+  },
+  {
+    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-pytools",
     "version": "0.2"
   },
@@ -2407,7 +2412,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -3727,7 +3732,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.50.4"
+    "version": "0.50.7"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3747,7 +3752,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.45.2"
+    "version": "1.46.0"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3787,7 +3792,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.45.2"
+    "version": "1.46.0"
   },
   {
     "description": "Send pytest execution result email",
@@ -4272,7 +4277,7 @@
   {
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
@@ -4712,7 +4717,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "1.45.2"
+    "version": "1.46.0"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
@@ -4730,9 +4735,9 @@
     "version": "0.4.2"
   },
   {
-    "description": "Fast, Easy, and Reliable Browser Automation & Testing.",
+    "description": "Web Automation and Testing Framework - seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.45.2"
+    "version": "1.46.0"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
@@ -4812,7 +4817,7 @@
   {
     "description": "Simple testing of RESTful APIs",
     "name": "tavern",
-    "version": "1.2.3"
+    "version": "1.3.0"
   },
   {
     "description": "Simple testing of RESTful APIs",
