@@ -307,7 +307,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.27.0"
+    "version": "3.28.0"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -567,7 +567,7 @@
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
     "name": "libpythonpro-ntg",
-    "version": "0.4"
+    "version": "0.5"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -1467,7 +1467,7 @@
   {
     "description": "Run cram tests with pytest.",
     "name": "pytest-cram",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "description": "Manages CrateDB instances during your integration tests",
@@ -2912,7 +2912,7 @@
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
     "name": "pytest-mproc",
-    "version": "4.0.3"
+    "version": "4.0.4"
   },
   {
     "description": "Utility for writing multi-host tests for pytest",
@@ -4737,7 +4737,7 @@
   {
     "description": "Web Automation and Testing Framework - seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.46.0"
+    "version": "1.46.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
