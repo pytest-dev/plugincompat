@@ -12,7 +12,7 @@
   {
     "description": "Python tools and utilities for working with the AnyBody Modeling System",
     "name": "AnyPyTools",
-    "version": "1.4.5"
+    "version": "1.4.6"
   },
   {
     "description": "A highly customisable Discord bot",
@@ -307,7 +307,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.30.0"
+    "version": "3.30.2"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -1680,9 +1680,9 @@
     "version": "0.1.2"
   },
   {
-    "description": "A pytest plugin to report test results to a Discord channel.",
+    "description": "A pytest plugin to notify test results to a Discord channel.",
     "name": "pytest-discord",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -1832,7 +1832,7 @@
   {
     "description": "Pytest fixtures for testing with docker registries.",
     "name": "pytest-docker-registry-fixtures",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Run, manage and stop Docker Compose project from Docker API",
@@ -1907,7 +1907,7 @@
   {
     "description": "A pytest plugin to rerun tests dynamically based off of test outcome and output.",
     "name": "pytest-dynamicrerun",
-    "version": "1.0.6"
+    "version": "1.1.0"
   },
   {
     "description": "DynamoDB fixtures for pytest",
@@ -2003,6 +2003,11 @@
     "description": "Pytest plugin to treat skipped tests a test failure",
     "name": "pytest-error-for-skips",
     "version": "2.0.2"
+  },
+  {
+    "description": "PyTest plugin for testing Smart Contracts for Ethereum Virtual Machine (EVM).",
+    "name": "pytest-eth",
+    "version": "0.0.0.dev1"
   },
   {
     "description": "py.test plugin for testing Ethereum smart contracts",
@@ -2797,7 +2802,7 @@
   {
     "description": "A pytest plugin to make a test results report with Markdown table format.",
     "name": "pytest-md-report",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Estimates memory consumption of test functions",
@@ -3322,7 +3327,7 @@
   {
     "description": "A pytest plugin to help with testing pop projects",
     "name": "pytest-pop",
-    "version": "6.2"
+    "version": "6.3"
   },
   {
     "description": "Run PostgreSQL in Docker container in Pytest.",
@@ -3532,7 +3537,7 @@
   {
     "description": "Provides pytest plugins for reporting request/response traffic, screenshots, and more to ReportPortal",
     "name": "pytest-recordings",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "Redis fixtures and fixture factories for Pytest.",
@@ -3787,7 +3792,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.46.3"
+    "version": "1.46.4"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3827,7 +3832,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.46.3"
+    "version": "1.46.4"
   },
   {
     "description": "Send pytest execution result email",
@@ -4752,7 +4757,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "1.46.3"
+    "version": "1.46.4"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
@@ -4772,7 +4777,7 @@
   {
     "description": "Web Automation and Test Framework - https://seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.46.3"
+    "version": "1.46.4"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
