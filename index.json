@@ -307,7 +307,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.30.2"
+    "version": "3.30.4"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -1535,6 +1535,11 @@
     "version": "0.1.0"
   },
   {
+    "description": "A pytest plugin for checking of modified code using Darker",
+    "name": "pytest-darker",
+    "version": "0.1.2"
+  },
+  {
     "description": "pytest fixtures to run dash applications.",
     "name": "pytest-dash",
     "version": "2.1.2"
@@ -1687,7 +1692,7 @@
   {
     "description": "A pytest plugin to notify test results to a Discord channel.",
     "name": "pytest-discord",
-    "version": "0.0.3"
+    "version": "0.0.5"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -1912,7 +1917,7 @@
   {
     "description": "A pytest plugin to rerun tests dynamically based off of test outcome and output.",
     "name": "pytest-dynamicrerun",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   {
     "description": "DynamoDB fixtures for pytest",
@@ -3430,6 +3435,11 @@
     "version": "2.0.3"
   },
   {
+    "description": "Plugin for running pyppeteer in pytest.",
+    "name": "pytest-pyppeteer",
+    "version": "0.1.0"
+  },
+  {
     "description": "Pytest fixture \"q\" for pyq",
     "name": "pytest-pyq",
     "version": "1.2.0"
@@ -3627,12 +3637,12 @@
   {
     "description": "Generate Pytest reports with templates",
     "name": "pytest-reporter",
-    "version": "0.3.1"
+    "version": "0.4.0"
   },
   {
     "description": "A basic HTML report template for Pytest",
     "name": "pytest-reporter-html1",
-    "version": "0.6.1"
+    "version": "0.7.0"
   },
   {
     "description": "Pytest plugin for reportinfra",
@@ -3797,7 +3807,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.46.6"
+    "version": "1.46.7"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3837,7 +3847,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.46.6"
+    "version": "1.46.7"
   },
   {
     "description": "Send pytest execution result email",
@@ -4187,7 +4197,7 @@
   {
     "description": "A pytest plugin for using terraform fixtures",
     "name": "pytest-terraform",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   {
     "description": "generate terraform resources to use with pytest",
@@ -4762,7 +4772,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "1.46.6"
+    "version": "1.46.7"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
@@ -4782,7 +4792,7 @@
   {
     "description": "Web Automation and Test Framework - https://seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.46.6"
+    "version": "1.46.7"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
