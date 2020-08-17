@@ -337,7 +337,7 @@
   {
     "description": "django-xss-fuzzer: An XSS vulnerability fuzz tester for Django views.",
     "name": "django-xss-fuzzer",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "django-friendship provides an easy extensible interface for following and friendship",
@@ -382,7 +382,7 @@
   {
     "description": "A lazy web-framework based on Flask",
     "name": "flask-fantasy",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   {
     "description": "Python utilities for packer/pyinfra/pytest deploiments",
@@ -1842,7 +1842,7 @@
   {
     "description": "Pytest fixtures for testing with docker registries.",
     "name": "pytest-docker-registry-fixtures",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Run, manage and stop Docker Compose project from Docker API",
@@ -2398,6 +2398,11 @@
     "description": "A pytest plugin for use with homeassistant custom components.",
     "name": "pytest-homeassistant",
     "version": "0.1.3"
+  },
+  {
+    "description": "Experimental package to automatically extract test plugins for Home Assistant custom components",
+    "name": "pytest-homeassistant-custom-component",
+    "version": "0.0.5"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -3702,7 +3707,7 @@
   {
     "description": "Provides path for uniform access to test resources in isolated directory",
     "name": "pytest-resource-path",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "description": "Simplified requests calls mocking for pytest",
@@ -4232,7 +4237,7 @@
   {
     "description": "A testdox format reporter for pytest",
     "name": "pytest-testdox",
-    "version": "1.2.1"
+    "version": "2.0.0"
   },
   {
     "description": "pytest reporting plugin for testlink",
