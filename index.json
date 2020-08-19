@@ -591,8 +591,8 @@
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro2",
-    "version": "0.3"
+    "name": "libpythonpro1994",
+    "version": "0.5"
   },
   {
     "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
@@ -1022,7 +1022,7 @@
   {
     "description": "A pytest plugin that allows multiple failures per test",
     "name": "pytest-assume",
-    "version": "2.3.0"
+    "version": "2.3.2"
   },
   {
     "description": "A plugin for pytest devs to view how assertion rewriting recodes the AST",
@@ -1398,6 +1398,11 @@
     "description": "pytest plugin to add source code sanity checks (pep8 and friends)",
     "name": "pytest-codecheckers",
     "version": "0.2"
+  },
+  {
+    "description": "Automatically create pytest test signatures",
+    "name": "pytest-codegen",
+    "version": "0.1.1"
   },
   {
     "description": "pytest plugin to run pycodestyle",
@@ -2182,7 +2187,7 @@
   {
     "description": "Plugin for pytest which provides tools for fixtures",
     "name": "pytest-fixture-tools",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "Common fixtures for pytest",
@@ -2402,7 +2407,7 @@
   {
     "description": "Experimental package to automatically extract test plugins for Home Assistant custom components",
     "name": "pytest-homeassistant-custom-component",
-    "version": "0.0.5"
+    "version": "0.0.6"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -2432,7 +2437,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.1.0"
+    "version": "0.1.2"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -2668,6 +2673,11 @@
     "description": "It helps to use fixtures in pytest.mark.parametrize",
     "name": "pytest-lazy-fixture",
     "version": "0.6.3"
+  },
+  {
+    "description": "python-ldap fixtures for pytest",
+    "name": "pytest-ldap",
+    "version": "0.0.1"
   },
   {
     "description": "A pytest plugin to trace resource leaks.",
@@ -3092,7 +3102,7 @@
   {
     "description": "py.test plugin to run Odoo tests",
     "name": "pytest-odoo",
-    "version": "0.5.0"
+    "version": "0.6.0"
   },
   {
     "description": "Project description",
@@ -3292,7 +3302,7 @@
   {
     "description": "Fixtures for quickly making Matplotlib plots in tests",
     "name": "pytest-plt",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   {
     "description": "A plugin to help developing and testing other plugins",
@@ -3707,7 +3717,7 @@
   {
     "description": "Provides path for uniform access to test resources in isolated directory",
     "name": "pytest-resource-path",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "Simplified requests calls mocking for pytest",
@@ -3812,7 +3822,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.46.7"
+    "version": "1.46.9"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3852,7 +3862,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.46.7"
+    "version": "1.46.9"
   },
   {
     "description": "Send pytest execution result email",
@@ -4052,7 +4062,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.6a6"
+    "version": "1.2.6a8"
   },
   {
     "description": "sqitch for pytest",
@@ -4767,7 +4777,7 @@
   {
     "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
     "name": "santoku",
-    "version": "200715.8"
+    "version": "200819.9"
   },
   {
     "description": "A python client for sat-api",
@@ -4777,7 +4787,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "1.46.7"
+    "version": "1.46.9"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
@@ -4797,7 +4807,7 @@
   {
     "description": "Web Automation and Test Framework - https://seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.46.7"
+    "version": "1.46.9"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
