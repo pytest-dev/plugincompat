@@ -307,7 +307,7 @@
   {
     "description": "Dependency injection microframework for Python",
     "name": "dependency-injector",
-    "version": "3.30.4"
+    "version": "3.31.0"
   },
   {
     "description": "Picky test coverage for pytest",
@@ -657,7 +657,7 @@
   {
     "description": "Python convenient utilities for personal usage",
     "name": "markkk",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "Command line utility for using the Pytest testing framework in 3ds Max",
@@ -853,6 +853,11 @@
     "description": "pypom_form",
     "name": "pypom-form",
     "version": "0.3.1"
+  },
+  {
+    "description": "Package for aiding writing classes with lots of similar simple properties without the boilerplate",
+    "name": "pyproprop",
+    "version": "0.0.4"
   },
   {
     "description": "Snapshot Testing utils for Python",
@@ -1292,7 +1297,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -3362,7 +3367,7 @@
   {
     "description": "Postgresql fixtures and fixture factories for Pytest.",
     "name": "pytest-postgresql",
-    "version": "2.4.0"
+    "version": "2.4.1"
   },
   {
     "description": "pytest plugin with powerful fixtures",
@@ -3822,7 +3827,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.47.0"
+    "version": "1.47.1"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3862,7 +3867,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.47.0"
+    "version": "1.47.1"
   },
   {
     "description": "Send pytest execution result email",
@@ -4787,7 +4792,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "sbase",
-    "version": "1.47.0"
+    "version": "1.47.1"
   },
   {
     "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
@@ -4807,7 +4812,7 @@
   {
     "description": "Web Automation and Test Framework - https://seleniumbase.io",
     "name": "seleniumbase",
-    "version": "1.47.0"
+    "version": "1.47.1"
   },
   {
     "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
