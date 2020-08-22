@@ -1,875 +1,5 @@
 [
   {
-    "description": "A highly customisable Discord bot",
-    "name": "AN-DiscordBot",
-    "version": "3.9.4"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "ANBOT",
-    "version": "3.1.0"
-  },
-  {
-    "description": "Python tools and utilities for working with the AnyBody Modeling System",
-    "name": "AnyPyTools",
-    "version": "1.4.6"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "Blue-DiscordBot",
-    "version": "3.2.0"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "BotEXBotBase",
-    "version": "3.1.3"
-  },
-  {
-    "description": "A webmention receiver and publisher, written in Python (WSGI application)",
-    "name": "Bussator",
-    "version": "0.2"
-  },
-  {
-    "description": "Creates Apsim-Project files from given parameters and files.",
-    "name": "CrApsim",
-    "version": "0.0.1a0"
-  },
-  {
-    "description": "Automated Malware Analysis System",
-    "name": "Cuckoo",
-    "version": "2.0.7a1"
-  },
-  {
-    "description": "Multi-purpose search engine for various protocols.",
-    "name": "Findex-GUI",
-    "version": "0.2.18"
-  },
-  {
-    "description": "Doing the OAuth dance with style using Flask, requests, and oauthlib",
-    "name": "Flask-Dance",
-    "version": "3.0.0"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "Kr0nOs",
-    "version": "3.4.1"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "Kr0nOs-Bot",
-    "version": "3.3.9.dev4"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "LibPythonPro-Atila",
-    "version": "0.1"
-  },
-  {
-    "description": "A Python3 annotation program to select the best gene model in each locus",
-    "name": "Mikado",
-    "version": "2.0rc2"
-  },
-  {
-    "description": "Python wrapper for OTRS (using REST API)",
-    "name": "PyOTRS",
-    "version": "0.9.0"
-  },
-  {
-    "description": "The HTML Report for Python unit testing Base on HTMLTestRunner",
-    "name": "PyTestReport",
-    "version": "0.2.1"
-  },
-  {
-    "description": "A highly customisable Discord bot",
-    "name": "Red-DiscordBot",
-    "version": "3.3.9"
-  },
-  {
-    "description": "SOCKS5 server management tool and library",
-    "name": "Socks5man",
-    "version": "0.2.0"
-  },
-  {
-    "description": "&#22522;&#20110;Posedion&#39033;&#30446;&#20013;&#24120;&#29992;&#24037;&#20855;&#31867;&#25554;&#20214;",
-    "name": "Tetis",
-    "version": "0.0.45"
-  },
-  {
-    "description": "Authentication and authorization tools for interacting with the Vuforia Web Services (VWS) API.",
-    "name": "VWS-Test-Fixtures",
-    "version": "2020.8.2.0"
-  },
-  {
-    "description": "Converts ANSI string to HTML, keeping the coloring",
-    "name": "a2h",
-    "version": "0.1.dev0"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "adilmar-libpythonpro-package",
-    "version": "0.2"
-  },
-  {
-    "description": "aggregateGithubCommits: Aggregate Github commit count by author and time.",
-    "name": "aggregateGithubCommits",
-    "version": "3.20200806"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "aguiardafa-libpythonpro",
-    "version": "0.3"
-  },
-  {
-    "description": "A module to simplify using pytest for AiiDA plugins.",
-    "name": "aiida-pytest",
-    "version": "0.1.0a6"
-  },
-  {
-    "description": "Schedule async tasks and manage them using a REST API or WEB UI",
-    "name": "aiocronjob",
-    "version": "0.2.4"
-  },
-  {
-    "description": "Implementation JSON-RPC 2.0 server and client using aiohttp on top of websockets transport",
-    "name": "aiohttp-json-rpc",
-    "version": "0.8.4.2"
-  },
-  {
-    "description": "aiomisc - miscellaneous utils for asyncio",
-    "name": "aiomisc",
-    "version": "9.8.4"
-  },
-  {
-    "description": "aiomisc-dependency - dependency injection in aiomisc",
-    "name": "aiomisc-dependency",
-    "version": "0.1.7"
-  },
-  {
-    "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
-    "name": "alauda-xdist",
-    "version": "1.30.1"
-  },
-  {
-    "description": "Allure pytest integration",
-    "name": "allure-pytest",
-    "version": "2.8.9"
-  },
-  {
-    "description": "Allure pytest integration",
-    "name": "allure-pytest-acn",
-    "version": "2.8.6"
-  },
-  {
-    "description": "Allure pytest-bdd integration",
-    "name": "allure-pytest-bdd",
-    "version": "2.8.9"
-  },
-  {
-    "description": "Alternative pytest plugin to pytest-asyncio",
-    "name": "alt-pytest-asyncio",
-    "version": "0.5.3"
-  },
-  {
-    "description": "A high-powered command line menu framework.",
-    "name": "app-skellington",
-    "version": "0.1.1"
-  },
-  {
-    "description": "Utilities for testing AppDaemon applications",
-    "name": "appdaemon-testing",
-    "version": "0.1.2"
-  },
-  {
-    "description": "Clean, human-readable tests for Appdaemon",
-    "name": "appdaemontestframework",
-    "version": "4.0.0b0"
-  },
-  {
-    "description": "Utility to allow some functions to be 'mocked by default' when running tests.",
-    "name": "automock",
-    "version": "1.2.0"
-  },
-  {
-    "description": "Make unittest.mock available on older Pythons",
-    "name": "backports.unittest-mock",
-    "version": "1.5"
-  },
-  {
-    "description": "A wrapper for WebDriver that provides some extended and additional functionality",
-    "name": "basepage",
-    "version": "1.7.2"
-  },
-  {
-    "description": "API testing for BC Data Catalog",
-    "name": "bcdc-apitests",
-    "version": "1.0.4"
-  },
-  {
-    "description": "API testing for BC Data Catalog",
-    "name": "bcdc-apitests-dev",
-    "version": "1.0.9"
-  },
-  {
-    "description": "library extracting coastline regions from raster data",
-    "name": "beachfront",
-    "version": "0.2.5"
-  },
-  {
-    "description": "Python test fixtures for your local AWS cloud stack",
-    "name": "boto3-fixtures",
-    "version": "0.0.8"
-  },
-  {
-    "description": "Faster Than Light Command Line Test Client",
-    "name": "bugcatcher",
-    "version": "0.1.9"
-  },
-  {
-    "description": "CI helper for STScI Jenkins",
-    "name": "ci-watson",
-    "version": "0.5"
-  },
-  {
-    "description": "A collection of APIs to develop CLAMS app for python",
-    "name": "clams-python",
-    "version": "0.0.1a1"
-  },
-  {
-    "description": "Plug-n-play reinforcement learning with OpenAI Gym and JAX",
-    "name": "coax",
-    "version": "0.1.0rc1"
-  },
-  {
-    "description": "Python config wrapper, with added goodness",
-    "name": "configa",
-    "version": "1.1.0"
-  },
-  {
-    "description": "Sistema de buscas de CPF, CEP, CNPJ",
-    "name": "consultas",
-    "version": "1.2"
-  },
-  {
-    "description": "A small Gherkin DSL parser that generates stub code",
-    "name": "cornichon",
-    "version": "0.9.5"
-  },
-  {
-    "description": "Extendible configuration testing in parallel.",
-    "name": "ctip",
-    "version": "0.1.0"
-  },
-  {
-    "description": "Cuckoo Sandbox Setup Monitoring",
-    "name": "cuckoo-brood",
-    "version": "0.1"
-  },
-  {
-    "description": "Curio",
-    "name": "curio",
-    "version": "1.2"
-  },
-  {
-    "description": "Analysis libraty for project CZELTA (http://czelta.utef.cvut.cz/)",
-    "name": "czelta",
-    "version": "1.0"
-  },
-  {
-    "description": "Laboratory automation for the behavioral and social sciences",
-    "name": "dallinger",
-    "version": "6.4.0"
-  },
-  {
-    "description": "Fluent dataset operations, compatible with your favorite libraries",
-    "name": "datasetops",
-    "version": "0.0.6"
-  },
-  {
-    "description": "Module created to facilitate the creation and use of data structures",
-    "name": "datastructs",
-    "version": "0.2.2"
-  },
-  {
-    "description": "Test driven data-wrangling and data validation.",
-    "name": "datatest",
-    "version": "0.9.6"
-  },
-  {
-    "description": "A CLI and library for interacting with DataTorch",
-    "name": "datatorch",
-    "version": "0.2.4"
-  },
-  {
-    "description": "Create decorators easily in python.",
-    "name": "decopatch",
-    "version": "1.4.1"
-  },
-  {
-    "description": "Dependency injection microframework for Python",
-    "name": "dependency-injector",
-    "version": "3.31.0"
-  },
-  {
-    "description": "Picky test coverage for pytest",
-    "name": "divide-and-cover",
-    "version": "0.1.1"
-  },
-  {
-    "description": "Automantic compress files after upload",
-    "name": "django-compress-field",
-    "version": "0.9.9"
-  },
-  {
-    "description": "django-friendship provides an easy extensible interface for following and friendship",
-    "name": "django-friendship",
-    "version": "1.9.1"
-  },
-  {
-    "description": "Django test utility for validating Swagger documentation",
-    "name": "django-swagger-tester",
-    "version": "1.0.5"
-  },
-  {
-    "description": "django-test-plus provides useful additions to Django's default TestCase",
-    "name": "django-test-plus",
-    "version": "1.4.0"
-  },
-  {
-    "description": "django-xss-fuzzer: An XSS vulnerability fuzz tester for Django views.",
-    "name": "django-xss-fuzzer",
-    "version": "0.3.1"
-  },
-  {
-    "description": "django-friendship provides an easy extensible interface for following and friendship",
-    "name": "django2-friendship",
-    "version": "2.0.0"
-  },
-  {
-    "description": "A pytest fixture to provide Docker integration.",
-    "name": "docker-integration",
-    "version": "0.0.3"
-  },
-  {
-    "description": "Uses docker to spawn containers for services required during tests",
-    "name": "docker-services",
-    "version": "0.4.0"
-  },
-  {
-    "description": "Cuckoo Sandbox Shellcode Identification & Formatting",
-    "name": "egghatch",
-    "version": "0.2.3"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "eng-libpythonpro",
-    "version": "0.2"
-  },
-  {
-    "description": "Hypothesis strategies for Open API / Swagger schemas",
-    "name": "enhancedschemathesis",
-    "version": "1.0.2"
-  },
-  {
-    "description": "Simple slack bot for providing teammates with anonymous feedback",
-    "name": "feedbackbot",
-    "version": "0.0.2"
-  },
-  {
-    "description": "A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.",
-    "name": "flake8-pytest-style",
-    "version": "1.2.3"
-  },
-  {
-    "description": "A lazy web-framework based on Flask",
-    "name": "flask-fantasy",
-    "version": "0.4.2"
-  },
-  {
-    "description": "Python utilities for packer/pyinfra/pytest deploiments",
-    "name": "fpr-infra",
-    "version": "0.1.9"
-  },
-  {
-    "description": "Python utilities for packer deploiments",
-    "name": "fpr-packer",
-    "version": "0.2.3a1"
-  },
-  {
-    "description": "Helper to create fake filesystem and quick capture its state (or state of a real one).",
-    "name": "fsforge",
-    "version": "0.3.7"
-  },
-  {
-    "description": "Pythonic web testing",
-    "name": "gambit-bromine",
-    "version": "0.3.1"
-  },
-  {
-    "description": "simple command-line parser of GitHub Linguist Ruby program.",
-    "name": "ghlinguist",
-    "version": "1.0.0"
-  },
-  {
-    "description": "",
-    "name": "github-wrapper",
-    "version": "0.0.9"
-  },
-  {
-    "description": "Gitlab tool for recursive clone",
-    "name": "gitlab-clone",
-    "version": "0.1.3"
-  },
-  {
-    "description": "Approval testing for Python3",
-    "name": "godkjenn",
-    "version": "1.1.0"
-  },
-  {
-    "description": "Function set for goodness of fit measure between two signals",
-    "name": "goodness-of-fit",
-    "version": "1.0.1"
-  },
-  {
-    "description": "goodplay enables you to test your deployments and distributed software infrastructure by reusing your existing knowledge of Ansible.",
-    "name": "goodplay",
-    "version": "0.9.1"
-  },
-  {
-    "description": "a simple virtual machine management tool",
-    "name": "hark",
-    "version": "1.0.0.dev3"
-  },
-  {
-    "description": "tool to build hark images",
-    "name": "hark-builder",
-    "version": "1.0.0.dev6"
-  },
-  {
-    "description": "image store service for the hark tool",
-    "name": "hark-imagestore",
-    "version": "1.0.0.dev4"
-  },
-  {
-    "description": "",
-    "name": "hcache",
-    "version": "1.0.3"
-  },
-  {
-    "description": "Httptesting HTTP(s) interface testing framework.",
-    "name": "httptesting",
-    "version": "1.2.9"
-  },
-  {
-    "description": "HYAML is a one-liner oriented language",
-    "name": "hyaml",
-    "version": "0.1.6"
-  },
-  {
-    "description": "A library for property-based testing",
-    "name": "hypothesis",
-    "version": "5.9.1"
-  },
-  {
-    "description": "Extension to hypothesis to generate inputs for general universal (GU) numpy functions.",
-    "name": "hypothesis-gufunc",
-    "version": "0.0.6"
-  },
-  {
-    "description": "Test tool for overridable json fixtures",
-    "name": "jabstract",
-    "version": "0.1.3"
-  },
-  {
-    "description": "Routines and classes supporting MongoDB environments",
-    "name": "jaraco.mongodb",
-    "version": "9.4b5"
-  },
-  {
-    "description": "PostgreSQL services by jaraco",
-    "name": "jaraco.postgres",
-    "version": "5.0"
-  },
-  {
-    "description": "Write and run pytest tests inside a notebook! Why? Because you can!",
-    "name": "jupyter-pytest-2",
-    "version": "1.0.1"
-  },
-  {
-    "description": "A Kubernetes integration test framework in Python.",
-    "name": "kubetest",
-    "version": "0.8.1"
-  },
-  {
-    "description": "labgrid: lab hardware and software control layer",
-    "name": "labgrid",
-    "version": "0.1.0"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso Pytools",
-    "name": "lcp.libpythonpro",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "lib-curso-python-pro",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo criado para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libGetAvatarGitHub",
-    "version": "0.2"
-  },
-  {
-    "description": "Lib para projetos pessoais",
-    "name": "libjonatas",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo de estudos para pytools do curso python pro",
-    "name": "liblearnpro",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python",
-    "name": "libpython",
-    "version": "0.2"
-  },
-  {
-    "description": "Modulo para exemplificar construcapipo de projetos Python para curso Pythontools",
-    "name": "libpythonjp",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-arturlauth",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-eric",
-    "version": "0.2"
-  },
-  {
-    "description": "Exerc&#237;cio de aprendizagem referente cria&#231;&#227;o de projetos na linguagem Python, Curso Python Pro.",
-    "name": "libpythonpro-gc",
-    "version": "0.1"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-jes",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-leandro",
-    "version": "1.0"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-lm",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-lu",
-    "version": "0.3"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-lucas",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-ntg",
-    "version": "0.6"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro-pytools",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonpro1994",
-    "version": "0.5"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonproVictor",
-    "version": "0.4"
-  },
-  {
-    "description": "Treinamentos diversos em Python para aprender algumas ferramentas em python.",
-    "name": "libpythonproh",
-    "version": "0.3"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonprojn",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonprosfx",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonproteste",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "libpythonrafael",
-    "version": "0.0.2"
-  },
-  {
-    "description": "",
-    "name": "limix-ext",
-    "version": "1.0.0"
-  },
-  {
-    "description": "Simple but powerful assertion and verification of logged lines.",
-    "name": "logassert",
-    "version": "5"
-  },
-  {
-    "description": "easy log use for extra infos",
-    "name": "logz",
-    "version": "0.12"
-  },
-  {
-    "description": "A pytest-based tool to list test fixtures declared but not used in a test",
-    "name": "loofah",
-    "version": "0.2.0rc0"
-  },
-  {
-    "description": "Lambda toolkit and message pipeline.",
-    "name": "lpipe",
-    "version": "2.0.24"
-  },
-  {
-    "description": "MyAnimeList web scraper",
-    "name": "mal-scraper",
-    "version": "0.3.0"
-  },
-  {
-    "description": "Python convenient utilities for personal usage",
-    "name": "markkk",
-    "version": "0.0.9"
-  },
-  {
-    "description": "Command line utility for using the Pytest testing framework in 3ds Max",
-    "name": "maxpytest",
-    "version": "1.0.3"
-  },
-  {
-    "description": "A mock SSH server emulating Aerohive devices",
-    "name": "mock-aerohive",
-    "version": "0.0.2"
-  },
-  {
-    "description": "AliCloud ECS Molecule Plugin :: run molecule tests using AliCloud ECS (Aliyun ECS)",
-    "name": "molecule-alicloud",
-    "version": "0.1.dev0"
-  },
-  {
-    "description": "Azure Molecule Plugin :: run molecule tests on Azure",
-    "name": "molecule-azure",
-    "version": "0.3"
-  },
-  {
-    "description": "Molecule Containers Driver :: run molecule tests on containers",
-    "name": "molecule-containers",
-    "version": "0.1.dev0"
-  },
-  {
-    "description": "digitalocean Molecule Plugin :: run molecule tests on digitalocean",
-    "name": "molecule-digitalocean",
-    "version": "0.1"
-  },
-  {
-    "description": "EC2 Molecule Plugin :: run molecule tests using AWS EC2",
-    "name": "molecule-ec2",
-    "version": "0.2"
-  },
-  {
-    "description": "Molecule GCE Plugin :: run molecule tests on Google Cloud Engine",
-    "name": "molecule-gce",
-    "version": "0.1"
-  },
-  {
-    "description": "libvirt Molecule Plugin :: run molecule tests on libvirt",
-    "name": "molecule-libvirt",
-    "version": "0.0.2"
-  },
-  {
-    "description": "LCD Molecule Plugin :: run molecule tests on LXD",
-    "name": "molecule-lxd",
-    "version": "0.1.dev0"
-  },
-  {
-    "description": "Molecule OpenStack Plugin :: run molecule tests on openstack",
-    "name": "molecule-openstack",
-    "version": "0.1"
-  },
-  {
-    "description": "Vagrant Molecule Plugin :: run molecule tests using Vagrant",
-    "name": "molecule-vagrant",
-    "version": "0.3"
-  },
-  {
-    "description": "Python mutation testing: test your tests!",
-    "name": "mutatest",
-    "version": "3.0.2"
-  },
-  {
-    "description": "mutation testing for Python 3",
-    "name": "mutmut",
-    "version": "1.9.0"
-  },
-  {
-    "description": "Framework for automating tests involving hardware test fixtures.",
-    "name": "nanaimo",
-    "version": "0.2.5"
-  },
-  {
-    "description": "Basic notebook checks. Do they run? Do they contain lint?",
-    "name": "nbsmoke",
-    "version": "0.4.1"
-  },
-  {
-    "description": "A py.test plugin to validate Jupyter notebooks",
-    "name": "nbval",
-    "version": "0.9.6"
-  },
-  {
-    "description": "Python interface for the Cephes library.",
-    "name": "ncephes",
-    "version": "1.0.5"
-  },
-  {
-    "description": "Tools for testing applications that make network requests.",
-    "name": "networktest",
-    "version": "1.0.5"
-  },
-  {
-    "description": "Python lib to get movie, series, episode data from the Open Movie Database (OMDb) api.",
-    "name": "omdbapi",
-    "version": "0.5.4"
-  },
-  {
-    "description": "A tool for creating regression tests through logging data during pytest runs.",
-    "name": "onaji",
-    "version": "0.1.2"
-  },
-  {
-    "description": "Find changes between OpenStack-Ansible versions",
-    "name": "osa_differ",
-    "version": "0.0.2"
-  },
-  {
-    "description": "Lightweight python library for Solr indexing, searching and schema management with optional Django integration.",
-    "name": "parasolr",
-    "version": "0.5.4"
-  },
-  {
-    "description": "OpenCL-based physics simulation package",
-    "name": "physicl",
-    "version": "0.0.1"
-  },
-  {
-    "description": "Literate computing for literate programming",
-    "name": "pidgy",
-    "version": "2020.4.23"
-  },
-  {
-    "description": "Process JUnit XML and Cobertura coverage XML reports into Markdown",
-    "name": "pipefish",
-    "version": "0.4.2"
-  },
-  {
-    "description": "pytest plugin that let you drive a browser with Selenium",
-    "name": "play-selenium",
-    "version": "0.0.3"
-  },
-  {
-    "description": "Projeto vazio ainda mas pode ser usado futuramente",
-    "name": "projecto",
-    "version": "0.3"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "projetolibpythonpro",
-    "version": "0.2"
-  },
-  {
-    "description": "Collection, aggregation, and cataloging of storm imagery for the purpose of data sciences and analysis.",
-    "name": "psi-collect",
-    "version": "0.1.3"
-  },
-  {
-    "description": "Asynchronous pure Python gRPC client and server implementation supporting asyncio, uvloop, curio and trio",
-    "name": "purerpc",
-    "version": "0.6.1"
-  },
-  {
-    "description": "a python base auto testing framework that programming oriented with Structured Language.",
-    "name": "py-ops",
-    "version": "0.1.4"
-  },
-  {
-    "description": "Ultimate template for new Python 3 projects",
-    "name": "py3-bp",
-    "version": "0.0.4"
-  },
-  {
-    "description": "Standard Oracle Using (queries, updates, inserts)",
-    "name": "pyDbOracle",
-    "version": "0.4.2"
-  },
-  {
-    "description": "pyfakefs implements a fake file system that mocks the Python file system modules.",
-    "name": "pyfakefs",
-    "version": "4.1.0"
-  },
-  {
-    "description": "Development tools library for python interpreter used for the FIRST Robotics Competition",
-    "name": "pyfrc",
-    "version": "2020.1.5"
-  },
-  {
-    "description": "Mock object framework",
-    "name": "pymox",
-    "version": "0.7.9.dev38"
-  },
-  {
-    "description": "A small example package",
-    "name": "pypi-foreverchaos-test",
-    "version": "1.0.0.0"
-  },
-  {
-    "description": "pypom_form",
-    "name": "pypom-form",
-    "version": "0.3.1"
-  },
-  {
-    "description": "Package for aiding writing classes with lots of similar simple properties without the boilerplate",
-    "name": "pyproprop",
-    "version": "0.0.4"
-  },
-  {
-    "description": "Snapshot Testing utils for Python",
-    "name": "pysnap",
-    "version": "1.0.1"
-  },
-  {
-    "description": "Test Django migrations through Pytest.",
-    "name": "pytedjmi",
-    "version": "0.4.3"
-  },
-  {
     "description": "A simple image diff plugin for pytest",
     "name": "pytest-Inomaly",
     "version": "0.2.5"
@@ -932,7 +62,7 @@
   {
     "description": "pytest plugin to test case doc string dls instructions",
     "name": "pytest-allure-dsl",
-    "version": "0.0.9"
+    "version": "0.0.13"
   },
   {
     "description": "Static code checks used at Alphamoon",
@@ -977,7 +107,7 @@
   {
     "description": "Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures",
     "name": "pytest-aoc",
-    "version": "1.3a0"
+    "version": "1.1"
   },
   {
     "description": "apistellar plugin for pytest.",
@@ -1057,12 +187,12 @@
   {
     "description": "Pytest support for asyncio.",
     "name": "pytest-asyncio",
-    "version": "0.9.0"
+    "version": "0.14.0"
   },
   {
     "description": "Run all your asynchronous tests cooperatively.",
     "name": "pytest-asyncio-cooperative",
-    "version": "0.9.0"
+    "version": "0.11.2"
   },
   {
     "description": "pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests",
@@ -1112,7 +242,7 @@
   {
     "description": "Formatting PyTest output for Azure Pipelines UI",
     "name": "pytest-azurepipelines",
-    "version": "1.0.0rc5"
+    "version": "0.8.0"
   },
   {
     "description": "A bandit plugin for pytest",
@@ -1172,7 +302,7 @@
   {
     "description": "A pytest plugin to enable format checking with black",
     "name": "pytest-black",
-    "version": "0.3.9"
+    "version": "0.3.10"
   },
   {
     "description": "Allow '--black' on older Pythons",
@@ -1252,7 +382,7 @@
   {
     "description": "Plugin for pytest that automatically publishes coverage and pytest report annotations to Buildkite.",
     "name": "pytest-buildkite",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   {
     "description": "Run your tests in Bubblewrap sandboxes",
@@ -1472,7 +602,7 @@
   {
     "description": "Pytest plugin for measuring coverage.",
     "name": "pytest-cov",
-    "version": "2.9.0"
+    "version": "2.10.1"
   },
   {
     "description": "Pytest plugin for excluding tests based on coverage data",
@@ -1682,7 +812,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-diff",
-    "version": "0.1.9"
+    "version": "0.1.14"
   },
   {
     "description": "Common py.test support for Diffeo packages",
@@ -1792,7 +922,7 @@
   {
     "description": "Nice pytest plugin to help you with Django pluggable application testing.",
     "name": "pytest-djangoapp",
-    "version": "0.9.0"
+    "version": "0.14.0"
   },
   {
     "description": "A djangorestframework plugin for pytest",
@@ -1810,9 +940,9 @@
     "version": "1.3.0"
   },
   {
-    "description": "",
+    "description": "Simple pytest fixtures for Docker and docker-compose based tests",
     "name": "pytest-docker",
-    "version": "0.6.1"
+    "version": "0.8.0"
   },
   {
     "description": "",
@@ -1892,7 +1022,7 @@
   {
     "description": "Pytest plugin with advanced doctest features.",
     "name": "pytest-doctestplus",
-    "version": "0.8.0.dev0"
+    "version": "0.8.0"
   },
   {
     "description": "Some extra stuff that we use ininternally",
@@ -1912,7 +1042,7 @@
   {
     "description": "A Django REST framework plugin for pytest.",
     "name": "pytest-drf",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1967,7 +1097,7 @@
   {
     "description": "A simple plugin to use with pytest",
     "name": "pytest-elk-reporter",
-    "version": "0.1.9"
+    "version": "0.1.10"
   },
   {
     "description": "Send execution result email",
@@ -2030,9 +1160,9 @@
     "version": "0.0.0.dev1"
   },
   {
-    "description": "py.test plugin for testing Ethereum smart contracts",
+    "description": "pytest-ethereum: Pytest library for ethereum projects.",
     "name": "pytest-ethereum",
-    "version": "0.1.0a9"
+    "version": "0.1.2"
   },
   {
     "description": "Pytest Plugin for BDD",
@@ -2067,7 +1197,7 @@
   {
     "description": "Better testing with expecter and pytest.",
     "name": "pytest-expecter",
-    "version": "2.2b2"
+    "version": "2.2"
   },
   {
     "description": "This plugin is used to expect multiple assert using pytest framework.",
@@ -2132,7 +1262,7 @@
   {
     "description": "Use SCM and coverage to run only needed tests",
     "name": "pytest-fastest",
-    "version": "0.0.9"
+    "version": "0.0.10"
   },
   {
     "description": "py.test plugin that activates the fault handler module for tests (dummy package)",
@@ -2307,7 +1437,7 @@
   {
     "description": "A set of pytest fixtures for testing Girder applications.",
     "name": "pytest-girder",
-    "version": "3.1.1.dev93"
+    "version": "3.1.0"
   },
   {
     "description": "Git repository fixture for py.test",
@@ -2327,7 +1457,7 @@
   {
     "description": "pytest plugin to annotate failed tests with a workflow command for GitHub Actions",
     "name": "pytest-github-actions-annotate-failures",
-    "version": "0.0.8"
+    "version": "0.1.0"
   },
   {
     "description": "py.test plugin to ignore the same files as git",
@@ -2442,7 +1572,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.1.2"
+    "version": "0.1.4"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -2607,7 +1737,7 @@
   {
     "description": "py.test JIRA integration plugin, using markers",
     "name": "pytest-jira",
-    "version": "0.3.0"
+    "version": "0.3.15"
   },
   {
     "description": "Limit parallel tests with posix jobserver.",
@@ -2787,7 +1917,7 @@
   {
     "description": "py.test bugzilla integration plugin, using markers",
     "name": "pytest-marker-bugzilla",
-    "version": "0.9.1.dev6"
+    "version": "0.9.4"
   },
   {
     "description": "A simple plugin to detect missed pytest tags and markers\"",
@@ -2847,7 +1977,7 @@
   {
     "description": "pytest plugin for test session metadata",
     "name": "pytest-metadata",
-    "version": "1.9.0"
+    "version": "1.10.0"
   },
   {
     "description": "Custom metrics report for pytest",
@@ -2872,7 +2002,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with pytest",
     "name": "pytest-mock",
-    "version": "3.2.0"
+    "version": "3.3.0"
   },
   {
     "description": "A mock API server with configurable routes and responses available as a fixture.",
@@ -2922,7 +2052,7 @@
   {
     "description": "PyTest Molecule Plugin :: discover and run molecule tests",
     "name": "pytest-molecule",
-    "version": "1.3.0a0"
+    "version": "1.3.0"
   },
   {
     "description": "MongoDB process and client fixtures plugin for py.test.",
@@ -2972,7 +2102,7 @@
   {
     "description": "pytest plugin to help with testing figures output from Matplotlib",
     "name": "pytest-mpl",
-    "version": "0.9"
+    "version": "0.11"
   },
   {
     "description": "low-startup-overhead, scalable, distributed-testing pytest plugin",
@@ -3022,7 +2152,7 @@
   {
     "description": "pytest plugin for visual testing websites using selenium",
     "name": "pytest-needle",
-    "version": "0.3.8"
+    "version": "0.3.11"
   },
   {
     "description": "pytest-neo is a plugin for pytest that shows tests like screen of Matrix.",
@@ -3157,7 +2287,7 @@
   {
     "description": "A pytest plugin for orchestrating tests",
     "name": "pytest-orchestration",
-    "version": "0.0.9"
+    "version": "0.0.10"
   },
   {
     "description": "pytest plugin to run your tests in a specific order",
@@ -3222,12 +2352,12 @@
   {
     "description": "A pytest command-line option for pdb breakpoints",
     "name": "pytest-pdb-break",
-    "version": "0.0.8"
+    "version": "0.0.10"
   },
   {
     "description": "pytest plugin for fuzzing with Peach API Security",
     "name": "pytest-peach",
-    "version": "1.5.9"
+    "version": "1.5.41"
   },
   {
     "description": "py.test plugin for pep257",
@@ -3322,7 +2452,7 @@
   {
     "description": "",
     "name": "pytest-pmisc",
-    "version": "1.0.2"
+    "version": "1.0.7"
   },
   {
     "description": "pytest plugin for collecting test cases and recording test results",
@@ -3332,7 +2462,7 @@
   {
     "description": "pytest plugin for collecting polarion test cases data",
     "name": "pytest-polarion-collect",
-    "version": "0.9"
+    "version": "0.25.0"
   },
   {
     "description": "Provides Polecat pytest fixtures",
@@ -3457,7 +2587,7 @@
   {
     "description": "Plugin for running pyppeteer in pytest.",
     "name": "pytest-pyppeteer",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
@@ -3477,7 +2607,7 @@
   {
     "description": "Pytest plugin for interaction with TestRail",
     "name": "pytest-pytestrail",
-    "version": "0.9.3"
+    "version": "0.10.4"
   },
   {
     "description": "pytest plugin for adding to the PYTHONPATH from command line or configs.",
@@ -3497,7 +2627,7 @@
   {
     "description": "A plugin for pytest to manage expected test failures",
     "name": "pytest-quarantine",
-    "version": "2.0.0a0"
+    "version": "2.0.0"
   },
   {
     "description": "pytest plugin to generate random data inspired by QuickCheck",
@@ -3802,7 +2932,7 @@
   {
     "description": "A Pytest plugin that builds and creates docker containers",
     "name": "pytest-salt-containers",
-    "version": "0.2.dev9"
+    "version": "0.2.9"
   },
   {
     "description": "Pytest Salt Plugin",
@@ -3817,7 +2947,7 @@
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
     "name": "pytest-salt-runtests-bridge",
-    "version": "2019.7.10"
+    "version": "2019.12.5"
   },
   {
     "description": "a pytest plugin for Sanic",
@@ -3827,7 +2957,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.47.1"
+    "version": "1.47.2"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3867,7 +2997,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.47.1"
+    "version": "1.47.2"
   },
   {
     "description": "Send pytest execution result email",
@@ -4067,7 +3197,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.2.6a9"
+    "version": "1.3.0"
   },
   {
     "description": "sqitch for pytest",
@@ -4102,7 +3232,7 @@
   {
     "description": "A small description",
     "name": "pytest-stepfunctions",
-    "version": "0.1a2"
+    "version": "0.1"
   },
   {
     "description": "Create step-wise / incremental tests in pytest.",
@@ -4152,7 +3282,7 @@
   {
     "description": "A plugin to fake subprocess for pytest",
     "name": "pytest-subprocess",
-    "version": "0.1.5"
+    "version": "1.0.0"
   },
   {
     "description": "A hack to explicitly set up and tear down fixtures.",
@@ -4237,7 +3367,7 @@
   {
     "description": "A plugin to run tests written in Jupyter notebook",
     "name": "pytest-testbook",
-    "version": "0.0.9"
+    "version": "0.0.10"
   },
   {
     "description": "Test configuration plugin for pytest.",
@@ -4362,7 +3492,7 @@
   {
     "description": "",
     "name": "pytest-tomato",
-    "version": "1.0.9"
+    "version": "1.0.20"
   },
   {
     "description": "This is just a collection of utilities for pytest, but don't really belong in pytest proper.",
@@ -4447,7 +3577,7 @@
   {
     "description": "Typhoon HIL plugin for pytest",
     "name": "pytest-tytest",
-    "version": "0.1.9"
+    "version": "0.1.13"
   },
   {
     "description": "Easily mock calls to ubersmith at the `requests` level.",
@@ -4688,325 +3818,5 @@
     "description": "Extend py.test for RPC OpenStack testing.",
     "name": "pytest-zigzag",
     "version": "1.1.1"
-  },
-  {
-    "description": "Compare data structures containing matching CIDs of different versions and encoding",
-    "name": "pytest_cid",
-    "version": "1.1.0"
-  },
-  {
-    "description": "Too many faillure, less tests.",
-    "name": "pytest_covid",
-    "version": "0.0.5"
-  },
-  {
-    "description": "An opionated set of helpers for defining Docker integration test environments with py.test fixtures.",
-    "name": "pytest_docker_tools",
-    "version": "0.2.2"
-  },
-  {
-    "description": "pytest plugin for apps written with Google's AppEngine",
-    "name": "pytest_gae",
-    "version": "0.2.4"
-  },
-  {
-    "description": "A py.test plugin that runs tests its found in your Markdown files.",
-    "name": "pytest_markdown",
-    "version": "0.0.7"
-  },
-  {
-    "description": "CLU - Common Lightweight Utilities, or Command-Line Utilities (your pick)",
-    "name": "python-clu",
-    "version": "0.7.2"
-  },
-  {
-    "description": "Cookiecutter CLI to start projects in Python",
-    "name": "python-cutter",
-    "version": "0.1"
-  },
-  {
-    "description": "Unofficial python API client for Hiptest",
-    "name": "python-hiptest",
-    "version": "0.0.0"
-  },
-  {
-    "description": "Support Tools for Machine Learning VIVIDLY",
-    "name": "python-vivid",
-    "version": "0.3.2.0"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "pythonpro",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "pytoolsc2",
-    "version": "0.2"
-  },
-  {
-    "description": "Qase TMS Pytest Plugin",
-    "name": "qase-pytest",
-    "version": "1.1.0b5"
-  },
-  {
-    "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
-    "name": "qieman-xdist",
-    "version": "0.6"
-  },
-  {
-    "description": "InfluxQL / MySQL / Mongo query generator from json-represented filters (mongodb-like query objects)",
-    "name": "querify",
-    "version": "0.1.0"
-  },
-  {
-    "description": "A recommendation application using either item-based or user-based approaches",
-    "name": "recommender-engine",
-    "version": "0.3.0"
-  },
-  {
-    "description": "Library",
-    "name": "regress",
-    "version": "0.0.4"
-  },
-  {
-    "description": "Python client library for the Responsys Interact REST API",
-    "name": "responsysrest",
-    "version": "0.1.9"
-  },
-  {
-    "description": "rigor",
-    "name": "rigor",
-    "version": "0.5.9"
-  },
-  {
-    "description": "Custom Python wrapper around many third party APIs, including AWS, BigQuery, Slack and Salesforce.",
-    "name": "santoku",
-    "version": "200819.9"
-  },
-  {
-    "description": "A python client for sat-api",
-    "name": "sat-search",
-    "version": "0.3.0rc1"
-  },
-  {
-    "description": "Web Automation & Testing Framework - https://seleniumbase.io",
-    "name": "sbase",
-    "version": "1.47.1"
-  },
-  {
-    "description": "Hypothesis strategies for Open API / Swagger and GraphQL schemas",
-    "name": "schemathesis",
-    "version": "2.3.3"
-  },
-  {
-    "description": "A Pytest plugin to record Scrapy responses and use them as testing fixtures.",
-    "name": "scrapy-mock",
-    "version": "0.1.0"
-  },
-  {
-    "description": "Test Docker container images",
-    "name": "seaworthy",
-    "version": "0.4.2"
-  },
-  {
-    "description": "Web Automation and Test Framework - https://seleniumbase.io",
-    "name": "seleniumbase",
-    "version": "1.47.1"
-  },
-  {
-    "description": "Python libraries for extracting Sentinel-2's metadata from Amazon S3",
-    "name": "sentinel-s3",
-    "version": "0.8.0"
-  },
-  {
-    "description": "This is the SG_Test_Env Project",
-    "name": "sg-test-env",
-    "version": "0.0.1"
-  },
-  {
-    "description": "This is the SG_TESTING Project",
-    "name": "sg-testing",
-    "version": "0.0.30"
-  },
-  {
-    "description": "Python client for Shield34, an AI-based solution for Selenium coders who want to keep using Selenium while enjoying stability, deep analysis and much shorter test runs.",
-    "name": "shield34",
-    "version": "1.0.302"
-  },
-  {
-    "description": "Pure python tools for SIP testing",
-    "name": "sipster",
-    "version": "0.0.1"
-  },
-  {
-    "description": "",
-    "name": "slacktools-slackfixtures",
-    "version": "1.0.0"
-  },
-  {
-    "description": "github: https://github.com/fy0/slim",
-    "name": "slim",
-    "version": "0.0.4"
-  },
-  {
-    "description": "Snapshot Testing utils for Python",
-    "name": "snapshottest",
-    "version": "0.5.1"
-  },
-  {
-    "description": "specd",
-    "name": "specd",
-    "version": "0.2.8"
-  },
-  {
-    "description": "Variety of remote sensing data for testing",
-    "name": "stestdata",
-    "version": "0.1.0"
-  },
-  {
-    "description": "Call a function in all superclasses as easy as `supers(self).foo(42)`",
-    "name": "supers",
-    "version": "0.1.5"
-  },
-  {
-    "description": "A mock backend for testing swift.",
-    "name": "swiftmock",
-    "version": "0.0.1.dev0"
-  },
-  {
-    "description": "PyTest Snapshot Test Utility",
-    "name": "syrupy",
-    "version": "0.6.1"
-  },
-  {
-    "description": "Fixtures for ansible, testinfra and molecule",
-    "name": "takeltest",
-    "version": "0.4.0"
-  },
-  {
-    "description": "A code-driven QA reporting library",
-    "name": "tasting",
-    "version": "0.0.1"
-  },
-  {
-    "description": "Simple testing of RESTful APIs",
-    "name": "tavern",
-    "version": "1.4.0"
-  },
-  {
-    "description": "Simple testing of RESTful APIs",
-    "name": "tavern-extended",
-    "version": "0.9.1"
-  },
-  {
-    "description": "Simple testing of RESTful APIs",
-    "name": "tavern-grpc",
-    "version": "0.30.11"
-  },
-  {
-    "description": "Toy project to test executables defined in a yaml file",
-    "name": "test-exe-matrix",
-    "version": "0.1.5"
-  },
-  {
-    "description": "Fixtures for ansible, testinfra and molecule",
-    "name": "testaid",
-    "version": "0.9.7"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "teste-do-noia",
-    "version": "0.2"
-  },
-  {
-    "description": "M&#243;dulo para exemplificar constru&#231;&#227;o de projetos Python no curso PyTools",
-    "name": "testelibpythonpro",
-    "version": "0.2"
-  },
-  {
-    "description": "Test infrastructures",
-    "name": "testinfra",
-    "version": "5.2.2"
-  },
-  {
-    "description": "Library",
-    "name": "testoot",
-    "version": "0.0.5"
-  },
-  {
-    "description": "A tool that executes a suite of static analysis tools upon a Python project.",
-    "name": "tidypy",
-    "version": "0.9.0"
-  },
-  {
-    "description": "Transfer learning info.",
-    "name": "transfer-learning",
-    "version": "0.2"
-  },
-  {
-    "description": "Helper for checking variable equivalence by type. Useful for tests.",
-    "name": "type-comparable",
-    "version": "0.4"
-  },
-  {
-    "description": "Versatile ZODB abstraction layer - unittest fixtures",
-    "name": "unittest-sheraf",
-    "version": "0.1.0"
-  },
-  {
-    "description": "The Unmock Python clent",
-    "name": "unmock",
-    "version": "0.1.2"
-  },
-  {
-    "description": "desc",
-    "name": "uw-webdriver-recorder",
-    "version": "3.0.1"
-  },
-  {
-    "description": "Test fixtures for Websauna",
-    "name": "websauna.tests",
-    "version": "1.0a8"
-  },
-  {
-    "description": "A multiprocessing web-scraping application to scrape wiki pages and find minimum number of links between two given wiki pages.",
-    "name": "wikilink",
-    "version": "0.3.0.post1"
-  },
-  {
-    "description": "Arcade 2D survival game.",
-    "name": "worldmor",
-    "version": "0.3.1"
-  },
-  {
-    "description": "A rewrite of the builtin doctest module",
-    "name": "xdoctest",
-    "version": "0.9.1"
-  },
-  {
-    "description": "An XResources parser for python applications.",
-    "name": "xparser",
-    "version": "0.0.4rc0"
-  },
-  {
-    "description": "cli app for customizing terminals",
-    "name": "xthematic",
-    "version": "0.0.3"
-  },
-  {
-    "description": "Yet Another Option Parser (full fledged)",
-    "name": "yaop",
-    "version": "0.1.1"
-  },
-  {
-    "description": "Test acceleration usable in the YourBase CI",
-    "name": "yourbase",
-    "version": "0.0.4"
-  },
-  {
-    "description": "CLI bundle for Zalando developers",
-    "name": "zalando-cli-bundle",
-    "version": "20.3.0"
   }
 ]
