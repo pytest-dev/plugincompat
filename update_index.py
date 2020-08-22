@@ -26,7 +26,7 @@ INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), "index.json")
 BLACKLIST = {"pytest-nbsmoke"}
 
 
-def iter_plugins(client, blacklist):
+def iter_plugins(client, blacklist, *, consider_classifier=True):
     """
     Returns an iterator of (name, latest version, summary) from PyPI.
 
@@ -45,14 +45,17 @@ def iter_plugins(client, blacklist):
     print("pytest-*: %d packages" % len(names_and_versions))
 
     # search for the new Pytest classifier
-    found = client.browse(["Framework :: Pytest"])
-    valid = 0
-    for name, version in found:
-        if name and version:
-            names_and_versions[name] = version
-            valid += 1
-    print("classifier: %d packages (%d valid)" % (len(found), valid))
-    print("total: %d packages" % len(names_and_versions))
+    if consider_classifier:
+        found = client.browse(["Framework :: Pytest"])
+        valid = 0
+        for name, version in found:
+            if name and version:
+                names_and_versions[name] = version
+                valid += 1
+        print("classifier: %d packages (%d valid)" % (len(found), valid))
+        print("total: %d packages" % len(names_and_versions))
+    else:
+        print("skipping search by classifier")
 
     for name, version in names_and_versions.items():
         if name not in blacklist:
@@ -94,7 +97,7 @@ def write_plugins_index(file_name, plugins):
 
 def main():
     client = ServerProxy("https://pypi.org/pypi")
-    plugins = sorted(iter_plugins(client, BLACKLIST))
+    plugins = sorted(iter_plugins(client, BLACKLIST, consider_classifier=False))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
         print(INDEX_FILE_NAME, "updated, push to GitHub.")
