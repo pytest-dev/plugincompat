@@ -1,6 +1,7 @@
 asks
 attrs
 colorama
+dnspython
 distlib >= 0.2.8
 Flask
 gunicorn == 19.5
