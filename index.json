@@ -537,7 +537,7 @@
   {
     "description": "Automatically create pytest test signatures",
     "name": "pytest-codegen",
-    "version": "0.1.1"
+    "version": "0.0.2"
   },
   {
     "description": "pytest plugin to run pycodestyle",
@@ -1042,7 +1042,7 @@
   {
     "description": "A Django REST framework plugin for pytest.",
     "name": "pytest-drf",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1572,7 +1572,7 @@
   {
     "description": "Generates a static html report based on pytest framework",
     "name": "pytest-html-reporter",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   {
     "description": "Fixture \"http\" for http requests",
@@ -2957,7 +2957,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.47.2"
+    "version": "1.47.4"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -2997,7 +2997,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.47.2"
+    "version": "1.47.4"
   },
   {
     "description": "Send pytest execution result email",
