@@ -537,7 +537,7 @@
   {
     "description": "Automatically create pytest test signatures",
     "name": "pytest-codegen",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   {
     "description": "pytest plugin to run pycodestyle",
@@ -2127,7 +2127,7 @@
   {
     "description": "Mypy static type checker plugin for Pytest",
     "name": "pytest-mypy",
-    "version": "0.6.2"
+    "version": "0.7.0"
   },
   {
     "description": "pytest plugin for writing tests for mypy plugins",
@@ -2767,7 +2767,7 @@
   {
     "description": "Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests",
     "name": "pytest-replay",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   {
     "description": "A pytest plugin to report on repository standards conformance",
@@ -3483,6 +3483,11 @@
     "description": "A pytest plugin that limits the output to just the things you need.",
     "name": "pytest-tldr",
     "version": "0.2.2"
+  },
+  {
+    "description": "Cloud Jira Test Management (TM4J) PyTest reporter plugin",
+    "name": "pytest-tm4j-reporter",
+    "version": "0.1.1"
   },
   {
     "description": "A small plugin for the pytest testing framework, marking TODO comments as failure",
