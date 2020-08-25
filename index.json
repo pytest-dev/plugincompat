@@ -147,7 +147,7 @@
   {
     "description": "Useful assertion utilities for use with pytest",
     "name": "pytest-assert-utils",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   {
     "description": "pytest-assertutil",
@@ -552,7 +552,7 @@
   {
     "description": "pytest framework for testing different aspects of a common method",
     "name": "pytest-common-subject",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "description": "Concurrently execute test cases with multithread, multiprocess and gevent",
@@ -952,7 +952,7 @@
   {
     "description": "Manages Docker containers during your integration tests",
     "name": "pytest-docker-compose",
-    "version": "3.1.2"
+    "version": "3.1.3"
   },
   {
     "description": "A plugin to use docker databases for pytests",
@@ -1317,7 +1317,7 @@
   {
     "description": "pytest plugin to control fixture evaluation order",
     "name": "pytest-fixture-order",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   {
     "description": "Plugin for pytest which provides tools for fixtures",
@@ -2937,7 +2937,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.77.0"
+    "version": "0.80.1"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -2957,7 +2957,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.47.4"
+    "version": "1.47.5"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -2997,7 +2997,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.47.4"
+    "version": "1.47.5"
   },
   {
     "description": "Send pytest execution result email",
@@ -3197,7 +3197,7 @@
   {
     "description": "A Dynamic test tool for Splunk Apps and Add-ons",
     "name": "pytest-splunk-addon",
-    "version": "1.3.0"
+    "version": "1.3.1"
   },
   {
     "description": "sqitch for pytest",
@@ -3732,7 +3732,7 @@
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
     "name": "pytest-xdist",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   {
     "description": "pytest xdist plugin for distributed testing and loop-on-failing modes",
