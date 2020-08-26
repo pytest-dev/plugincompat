@@ -550,6 +550,11 @@
     "version": "1.1"
   },
   {
+    "description": "An interactive GUI test runner for PyTest",
+    "name": "pytest-commander",
+    "version": "2.0.0"
+  },
+  {
     "description": "pytest framework for testing different aspects of a common method",
     "name": "pytest-common-subject",
     "version": "1.0.4"
@@ -1042,7 +1047,7 @@
   {
     "description": "A Django REST framework plugin for pytest.",
     "name": "pytest-drf",
-    "version": "1.0.4"
+    "version": "1.1.0"
   },
   {
     "description": "A Pytest plugin to drop duplicated tests during collection",
@@ -1602,7 +1607,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -2002,7 +2007,7 @@
   {
     "description": "Thin-wrapper around the mock package for easier use with pytest",
     "name": "pytest-mock",
-    "version": "3.3.0"
+    "version": "3.3.1"
   },
   {
     "description": "A mock API server with configurable routes and responses available as a fixture.",
@@ -2017,7 +2022,7 @@
   {
     "description": "A pytest plugin for easily instantiating reproducible mock resources.",
     "name": "pytest-mock-resources",
-    "version": "1.3.2"
+    "version": "1.4.0"
   },
   {
     "description": "Mock server plugin for pytest",
@@ -2587,7 +2592,7 @@
   {
     "description": "Plugin for running pyppeteer in pytest.",
     "name": "pytest-pyppeteer",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   {
     "description": "Pytest fixture \"q\" for pyq",
@@ -2957,7 +2962,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-sbase",
-    "version": "1.47.5"
+    "version": "1.48.0"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -2997,7 +3002,7 @@
   {
     "description": "Web Automation & Testing Framework - https://seleniumbase.io",
     "name": "pytest-seleniumbase",
-    "version": "1.47.5"
+    "version": "1.48.0"
   },
   {
     "description": "Send pytest execution result email",
@@ -3697,7 +3702,7 @@
   {
     "description": "An interactive web UI test runner for PyTest",
     "name": "pytest-web-ui",
-    "version": "1.3.1"
+    "version": "1.4.0"
   },
   {
     "description": "Selenium webdriver fixture for py.test",
