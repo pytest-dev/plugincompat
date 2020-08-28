@@ -127,8 +127,8 @@ class PlugsStorage:
         Base.metadata.create_all(self._engine)
 
     def get_all_results(self):
-        session = self._session_maker()
-        return [x.as_dict() for x in session.query(PluginResult).all()]
+        with closing(self._session_maker()) as session:
+            return [x.as_dict() for x in session.query(PluginResult).all()]
 
     def get_test_results(self, name, version):
         """
