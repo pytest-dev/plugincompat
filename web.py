@@ -158,12 +158,18 @@ class PlugsStorage:
         return result
 
 
+_storage = None
+
+
 def get_storage_for_view():
     """
     Returns a storage instance to be used by the view functions. This exists
     solely we can mock this function during testing.
     """
-    return PlugsStorage()
+    global _storage
+    if _storage is None:
+        _storage = PlugsStorage()
+    return _storage
 
 
 def authenticate(json_data):
