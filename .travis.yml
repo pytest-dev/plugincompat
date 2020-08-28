@@ -1,6 +1,4 @@
 language: python
-services:
-  - mongodb
 install:
   - pip install -r dev-requirements.txt -U pytest==$PYTEST_VERSION
 

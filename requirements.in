@@ -1,13 +1,13 @@
 asks
 attrs
 colorama
-dnspython
 distlib >= 0.2.8
 Flask
 gunicorn >= 19.5
 packaging
-pymongo >= 3
+psycopg2
 requests >= 1.3.0
+sqlalchemy
 tox
 trio
 wimpy >= 0.4
