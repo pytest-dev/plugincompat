@@ -13,78 +13,13 @@ from web import get_python_versions
 from web import PlugsStorage
 
 
-class MemoryStorage:
-    """
-    Mock class that simulates a PlugsStorage instance. This class simply
-    holds the values in memory, and is used by TestView as a mock to the real
-    storage class, allowing the view to be tested without a database.
-    """
-
-    def __init__(self):
-        self._results = []
-
-    def add_test_result(self, result):
-        required = {"name", "version", "env", "pytest", "status"}
-        if not required.issubset(result):
-            raise TypeError("Invalid keys given: %s" % result.keys())
-
-        for index, existing_result in enumerate(self._results):
-            if (
-                existing_result["name"] == result["name"]
-                and existing_result["version"] == result["version"]
-                and existing_result["env"] == result["env"]
-                and existing_result["pytest"] == result["pytest"]
-            ):
-                self._results[index] = result
-                break
-        else:
-            self._results.append(result)
-
-    def get_all_results(self):
-        return self._results
-
-    def get_test_results(self, name, version):
-        result = []
-        for entry in self._results:
-            if entry["name"] == name and entry["version"] == version:
-                result.append(entry)
-        return result
-
-    def drop_all(self):
-        self._results[:] = []
+@pytest.fixture
+def storage():
+    with PlugsStorage("sqlite:///:memory:") as st:
+        yield st
 
 
-@pytest.fixture(params=[PlugsStorage, MemoryStorage])
-def storage(request):
-    """
-    Initializes a Storage for execution in a test environment. This fixture
-    will instantiate the storage class given in the parameters. This way we
-    ensure both the real implementation and dummy implementation work in the
-    same way.
-
-    When initializing the real PlugsStorage(), it will use a test-specific
-    data-base to avoid any conflicts between tests and to avoid clashing with
-    real databases.
-    """
-    if request.param is PlugsStorage:
-        db_name = "testing-{}".format(request.node.name)
-
-        plugs_storage = PlugsStorage(default_db_name=db_name)
-        plugs_storage.__TESTING__ = True
-
-        def finalizer():
-            plugs_storage.get_connection().drop_database(db_name)
-
-        request.addfinalizer(finalizer)
-        return plugs_storage
-    elif request.param is MemoryStorage:
-        memory_storage = MemoryStorage()
-        return memory_storage
-    else:
-        assert False
-
-
-def make_result_data(**kwparams):
+def make_result_payload(**kwparams):
     result = {
         "name": "mylib",
         "version": "1.0",
@@ -112,23 +47,23 @@ class TestPlugsStorage:
 
         with pytest.raises(TypeError):
             # missing "env" key
-            invalid_result = make_result_data()
+            invalid_result = make_result_payload()
             del invalid_result["env"]
             storage.add_test_result(invalid_result)
 
-        result1 = make_result_data()
+        result1 = make_result_payload()
         storage.add_test_result(result1)
         assert storage.get_test_results("mylib", "1.0") == [result1]
 
-        result2 = make_result_data(env="py33", status="failed")
+        result2 = make_result_payload(env="py33", status="failed")
         storage.add_test_result(result2)
         assert storage.get_test_results("mylib", "1.0") == [result1, result2]
 
-        result3 = make_result_data(env="py33")
+        result3 = make_result_payload(env="py33")
         storage.add_test_result(result3)
         assert storage.get_test_results("mylib", "1.0") == [result1, result3]
 
-        result4 = make_result_data(version="1.1", output="another output")
+        result4 = make_result_payload(version="1.1", output="another output")
         storage.add_test_result(result4)
         assert storage.get_test_results("mylib", "1.0") == [result1, result3]
         assert storage.get_test_results("mylib", "1.1") == [result4]
@@ -139,21 +74,21 @@ class TestPlugsStorage:
     def test_get_all_results(self, storage):
         assert list(storage.get_all_results()) == []
 
-        result1 = make_result_data()
+        result1 = make_result_payload()
         storage.add_test_result(result1)
         assert list(storage.get_all_results()) == [result1]
 
-        result2 = make_result_data(version="1.1")
+        result2 = make_result_payload(version="1.1")
         storage.add_test_result(result2)
         assert list(storage.get_all_results()) == [result1, result2]
 
-        result3 = make_result_data(name="myotherlib")
+        result3 = make_result_payload(name="myotherlib")
         storage.add_test_result(result3)
         assert list(storage.get_all_results()) == [result1, result2, result3]
 
     def test_drop_all(self, storage):
-        result1 = make_result_data()
-        result2 = make_result_data(version="1.1")
+        result1 = make_result_payload()
+        result2 = make_result_payload(version="1.1")
         storage.add_test_result(result1)
         storage.add_test_result(result2)
         assert len(storage.get_all_results()) == 2
@@ -162,11 +97,10 @@ class TestPlugsStorage:
         assert len(storage.get_all_results()) == 0
 
 
-@pytest.fixture
-def patched_storage(monkeypatch):
-    result = MemoryStorage()
-    monkeypatch.setattr(web, "get_storage_for_view", lambda: result)
-    return result
+@pytest.fixture(autouse=True)
+def patched_storage(storage, monkeypatch):
+    monkeypatch.setattr(web, "get_storage_for_view", lambda: storage)
+    return storage
 
 
 @pytest.fixture
@@ -195,28 +129,28 @@ class TestView:
 
     def test_auth_failure(self, client, patched_storage):
         assert patched_storage.get_all_results() == []
-        self.post_result(client, make_result_data(), secret="invalid", expected_status=401)
+        self.post_result(client, make_result_payload(), secret="invalid", expected_status=401)
         assert patched_storage.get_all_results() == []
 
     def test_index_post(self, client, patched_storage):
-        result1 = make_result_data()
+        result1 = make_result_payload()
         self.post_result(client, result1)
         assert patched_storage.get_all_results() == [result1]
 
-        result2 = make_result_data(env="py33")
+        result2 = make_result_payload(env="py33")
         self.post_result(client, result2)
         assert patched_storage.get_all_results() == [result1, result2]
 
-        result3 = make_result_data(name="myotherlib")
-        result4 = make_result_data(name="myotherlib", env="py33")
+        result3 = make_result_payload(name="myotherlib")
+        result4 = make_result_payload(name="myotherlib", env="py33")
         self.post_result(client, [result3, result4])
         assert patched_storage.get_all_results() == [result1, result2, result3, result4]
 
     def test_index_get_json(self, client, patched_storage):
-        self.post_result(client, make_result_data())
-        self.post_result(client, make_result_data(env="py33"))
-        self.post_result(client, make_result_data(name="myotherlib"))
-        self.post_result(client, make_result_data(name="myotherlib", env="py33"))
+        self.post_result(client, make_result_payload())
+        self.post_result(client, make_result_payload(env="py33"))
+        self.post_result(client, make_result_payload(name="myotherlib"))
+        self.post_result(client, make_result_payload(name="myotherlib", env="py33"))
         assert len(patched_storage.get_all_results()) == 4
 
         response = client.get("/?json=1")
@@ -232,16 +166,16 @@ class TestView:
             mock_pytest_versions.return_value = {"2.4", "2.3"}
             # post results; only the latest lib versions should be rendered
             all_results = [
-                make_result_data(),
-                make_result_data(env="py26", status="failed"),
-                make_result_data(env="py32", status="failed"),
-                make_result_data(env="py33", status="failed"),
-                make_result_data(name="myotherlib", version="1.8", pytest="2.4"),
-                make_result_data(env="py33", pytest="2.4"),
-                make_result_data(env="py33", pytest="2.4", version="0.6"),
-                make_result_data(env="py33", pytest="2.4", version="0.7"),
-                make_result_data(env="py33", pytest="2.4", version="0.8"),
-                make_result_data(
+                make_result_payload(),
+                make_result_payload(env="py26", status="failed"),
+                make_result_payload(env="py32", status="failed"),
+                make_result_payload(env="py33", status="failed"),
+                make_result_payload(name="myotherlib", version="1.8", pytest="2.4"),
+                make_result_payload(env="py33", pytest="2.4"),
+                make_result_payload(env="py33", pytest="2.4", version="0.6"),
+                make_result_payload(env="py33", pytest="2.4", version="0.7"),
+                make_result_payload(env="py33", pytest="2.4", version="0.8"),
+                make_result_payload(
                     name="myotherlib",
                     version="2.0",
                     pytest="2.4",
@@ -250,7 +184,7 @@ class TestView:
                 ),
             ]
 
-            bad_result = make_result_data(name="badlib")
+            bad_result = make_result_payload(name="badlib")
             del bad_result["output"]
             all_results.append(bad_result)
 
@@ -293,9 +227,9 @@ class TestView:
 
     @pytest.mark.parametrize("lib_version", ["1.0", "1.2", "latest"])
     def test_get_output(self, client, lib_version):
-        self.post_result(client, make_result_data(version="0.9", output="ver 0.9", pytest="2.3"))
-        self.post_result(client, make_result_data(version="1.0", output="ver 1.0", pytest="2.3"))
-        self.post_result(client, make_result_data(version="1.2", output="ver 1.2", pytest="2.3"))
+        self.post_result(client, make_result_payload(version="0.9", output="ver 0.9", pytest="2.3"))
+        self.post_result(client, make_result_payload(version="1.0", output="ver 1.0", pytest="2.3"))
+        self.post_result(client, make_result_payload(version="1.2", output="ver 1.2", pytest="2.3"))
 
         url = "/output/mylib-{}?py=py27&pytest=2.3".format(lib_version)
         response = client.get(url)
@@ -308,7 +242,7 @@ class TestView:
 
     @pytest.mark.parametrize("lib_version", ["1.0", "latest"])
     def test_get_output_missing(self, client, patched_storage, lib_version):
-        post_data = make_result_data()
+        post_data = make_result_payload()
         del post_data["output"]
         patched_storage.add_test_result(post_data)
 
@@ -324,7 +258,7 @@ class TestView:
 
     @pytest.mark.parametrize("lib_version", ["1.0", "latest"])
     def test_status_image(self, client, lib_version):
-        self.post_result(client, make_result_data())
+        self.post_result(client, make_result_payload())
 
         response = client.get("/status/mylib-{}?py=py27&pytest=2.3".format(lib_version))
         assert response.content_type == "image/png"
@@ -335,9 +269,9 @@ def _post_dummy_data():
     posts some dummy data on the local server for manual testing.
     """
     results = [
-        make_result_data(pytest="3.1.0", env="py27", name="pytest-xdist", version="1.14"),
-        make_result_data(pytest="3.1.0", env="py36", name="pytest-xdist", version="1.14"),
-        make_result_data(pytest="3.1.0", env="py36", name="pytest-mock", version="1.6.0"),
+        make_result_payload(pytest="3.1.0", env="py27", name="pytest-xdist", version="1.14"),
+        make_result_payload(pytest="3.1.0", env="py36", name="pytest-xdist", version="1.14"),
+        make_result_payload(pytest="3.1.0", env="py36", name="pytest-mock", version="1.6.0"),
     ]
 
     data = {"secret": os.environ["POST_KEY"], "results": results}

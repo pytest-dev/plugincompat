@@ -2,13 +2,55 @@ import itertools
 import logging
 import os
 import sys
-from urllib.parse import urlsplit
+from contextlib import closing
 
 import flask
-import pymongo
 from flask import render_template
 from flask import request
 from packaging.version import parse
+from sqlalchemy import Column
+from sqlalchemy import create_engine
+from sqlalchemy import Integer
+from sqlalchemy import String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+Base = declarative_base()
+
+
+class PluginResult(Base):
+    """Results of testing a pytest plugin against a pytest and python version."""
+
+    __tablename__ = "results"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, index=True)
+    version = Column(String, index=True)
+    env = Column(String)
+    pytest = Column(String)
+    status = Column(String)
+    output = Column(String)
+    description = Column(String, default="")
+
+    def as_dict(self):
+        return {
+            "name": self.name,
+            "version": self.version,
+            "env": self.env,
+            "pytest": self.pytest,
+            "status": self.status,
+            "output": self.output,
+            "description": self.description,
+        }
+
+    def __repr__(self):
+        attrs = [f"{k}={v!r}" for k, v in self.as_dict().items()]
+        return f"PluginResult({', '.join(attrs)})"
+
+    def __eq__(self, other):
+        if not isinstance(other, PluginResult):
+            return NotImplemented
+        return self.as_dict() == other.as_dict()
 
 
 app = flask.Flask("plugincompat")
@@ -34,23 +76,19 @@ class PlugsStorage:
     API around a MongoDatabase used to add and obtain test results for pytest plugins.
     """
 
-    def __init__(self, default_db_name="test-results"):
-        mongodb_uri = os.environ.get(
-            "MONGO_URI", "mongodb://localhost:27017/{}".format(default_db_name)
-        )
-        db_name = urlsplit(mongodb_uri).path[1:]
-        self._connection = pymongo.MongoClient(mongodb_uri, retryWrites=False)
-        self._db = self._connection[db_name]
+    def __init__(self, url=None):
+        url = url or os.environ["DATABASE_URL"]
+        self._engine = create_engine(url)
+        Base.metadata.create_all(self._engine)
+        self._session_maker = sessionmaker(autocommit=False, autoflush=False, bind=self._engine)
 
-        self._db.results.create_index([("name", pymongo.ASCENDING), ("version", pymongo.ASCENDING)])
+    def __enter__(self):
+        return self
 
-        self.__TESTING__ = False
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self._engine.dispose()
 
-    def get_connection(self):
-        assert self.__TESTING__
-        return self._connection
-
-    def add_test_result(self, result):
+    def add_test_result(self, payload):
         """
         :param result: adds results from a compatibility test for a pytest plugin.
 
@@ -61,30 +99,36 @@ class PlugsStorage:
             * "pytest": pytest version of the test. Examples: "2.3.5"
             * "status": "ok" or "fail".
             * "output": string with output from running tox commands.
+            * "description": description of this package (optional).
         """
-        expected = {"name", "version", "env", "pytest", "status", "output"}
-        if not expected.issubset(result):
-            raise TypeError("Invalid keys given: %s" % result.keys())
+        expected = {"name", "version", "env", "pytest", "status"}
+        if not expected.issubset(payload):
+            raise TypeError("Invalid keys given: %s" % payload.keys())
 
-        query = {
-            "name": result["name"],
-            "version": result["version"],
-            "env": result["env"],
-            "pytest": result["pytest"],
-        }
-        entry = self._db.results.find_one(query)
-        if entry is None:
-            entry = query
-        entry["status"] = result["status"]
-        entry["output"] = result["output"]
-        entry["description"] = result.get("description", "")
-        self._db.results.save(entry)
+        with closing(self._session_maker()) as session:
+            result = (
+                session.query(PluginResult)
+                .filter(PluginResult.name == payload["name"])
+                .filter(PluginResult.version == payload["version"])
+                .filter(PluginResult.env == payload["env"])
+                .filter(PluginResult.pytest == payload["pytest"])
+                .first()
+            )
+            if result is None:
+                result = PluginResult(**payload)
+            result.status = payload["status"]
+            result.output = payload.get("output", "")
+            result.description = payload.get("description", "")
+            session.add(result)
+            session.commit()
 
     def drop_all(self):
-        self._db.drop_collection("results")
+        Base.metadata.drop_all(self._engine)
+        Base.metadata.create_all(self._engine)
 
     def get_all_results(self):
-        return self._filter_entry_ids(self._db.results.find())
+        session = self._session_maker()
+        return [x.as_dict() for x in session.query(PluginResult).all()]
 
     def get_test_results(self, name, version):
         """
@@ -92,10 +136,12 @@ class PlugsStorage:
         version. If version is LATEST_VERSION, only results for highest
         version number are returned.
         """
-        query = {"name": name}
-        if version != LATEST_VERSION:
-            query.update({"version": version})
-        results = self._filter_entry_ids(self._db.results.find(query))
+        with closing(self._session_maker()) as session:
+            q = session.query(PluginResult).filter(PluginResult.name == name)
+            if version != LATEST_VERSION:
+                q = q.filter(PluginResult.version == version)
+            results = [p.as_dict() for p in q.all()]
+
         if version != LATEST_VERSION:
             return results
         else:
