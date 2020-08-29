@@ -98,8 +98,8 @@ class TestPlugsStorage:
 
 
 @pytest.fixture(autouse=True)
-def patched_storage(storage, monkeypatch):
-    monkeypatch.setattr(web, "get_storage_for_view", lambda: storage)
+def force_sqlite(storage, monkeypatch):
+    monkeypatch.setattr(web, "_storage", storage)
     return storage
 
 
@@ -127,31 +127,34 @@ class TestView:
         response = client.post("/", data=json.dumps(data), content_type="application/json")
         assert response.status_code == expected_status
 
-    def test_auth_failure(self, client, patched_storage):
-        assert patched_storage.get_all_results() == []
-        self.post_result(client, make_result_payload(), secret="invalid", expected_status=401)
-        assert patched_storage.get_all_results() == []
+    def test_singleton_storage(self):
+        assert web.get_storage_for_view() is web.get_storage_for_view()
 
-    def test_index_post(self, client, patched_storage):
+    def test_auth_failure(self, client, storage):
+        assert storage.get_all_results() == []
+        self.post_result(client, make_result_payload(), secret="invalid", expected_status=401)
+        assert storage.get_all_results() == []
+
+    def test_index_post(self, client, storage):
         result1 = make_result_payload()
         self.post_result(client, result1)
-        assert patched_storage.get_all_results() == [result1]
+        assert storage.get_all_results() == [result1]
 
         result2 = make_result_payload(env="py33")
         self.post_result(client, result2)
-        assert patched_storage.get_all_results() == [result1, result2]
+        assert storage.get_all_results() == [result1, result2]
 
         result3 = make_result_payload(name="myotherlib")
         result4 = make_result_payload(name="myotherlib", env="py33")
         self.post_result(client, [result3, result4])
-        assert patched_storage.get_all_results() == [result1, result2, result3, result4]
+        assert storage.get_all_results() == [result1, result2, result3, result4]
 
-    def test_index_get_json(self, client, patched_storage):
+    def test_index_get_json(self, client, storage):
         self.post_result(client, make_result_payload())
         self.post_result(client, make_result_payload(env="py33"))
         self.post_result(client, make_result_payload(name="myotherlib"))
         self.post_result(client, make_result_payload(name="myotherlib", env="py33"))
-        assert len(patched_storage.get_all_results()) == 4
+        assert len(storage.get_all_results()) == 4
 
         response = client.get("/?json=1")
         results = json.loads(response.data)["data"]
@@ -219,8 +222,8 @@ class TestView:
         assert get_python_versions() == {"py36", "py37", "py38"}
         assert get_pytest_versions() == {"6.0.1"}
 
-    def test_get_with_empty_database(self, client, patched_storage):
-        assert len(patched_storage.get_all_results()) == 0
+    def test_get_with_empty_database(self, client, storage):
+        assert len(storage.get_all_results()) == 0
 
         response = client.get("/")
         assert response.data.decode("utf-8") == "Database is empty"
@@ -241,10 +244,10 @@ class TestView:
         assert response.status_code == 200
 
     @pytest.mark.parametrize("lib_version", ["1.0", "latest"])
-    def test_get_output_missing(self, client, patched_storage, lib_version):
+    def test_get_output_missing(self, client, storage, lib_version):
         post_data = make_result_payload()
         del post_data["output"]
-        patched_storage.add_test_result(post_data)
+        storage.add_test_result(post_data)
 
         response = client.get("/output/mylib-{}?py=py27&pytest=2.3".format(lib_version))
         assert response.data.decode("utf-8") == "<no output available>"
