@@ -56,7 +56,7 @@ class RateLimitedServerProxy:
                     return_value = request_method()
                 fetched_releases = True
             except Fault as fault:
-                # If PyPI times us out, sleep and try again depending on the error message received
+                # If PyPI errors due to too many requests, sleep and try again depending on the error message received
                 unandled_exception = True
 
                 # The fault message is of form:
@@ -67,6 +67,8 @@ class RateLimitedServerProxy:
                     time.sleep(sleep_amt)
                     unhandled_exception = False
 
+                # The fault message is of form:
+                #   The action could not be performed because there were too many requests by the client.
                 too_many_requests_regex_match = re.search('^.+The action could not be performed because there were too many requests by the client.$', fault.faultString)
                 if too_many_requests_regex_match is not None:
                     time.sleep(60)
