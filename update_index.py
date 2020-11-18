@@ -28,53 +28,69 @@ INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), "index.json")
 
 BLACKLIST = {"pytest-nbsmoke"}
 
+class RateLimitedServerProxy:
+    def __init__(self, uri):
+        self._server_proxy = ServerProxy(uri)
 
-def get_releases_for_package(client, package_name):
-    """
-    Get all release versions for package 'package_name' and return them to the caller
+    def browse(self, classifiers):
+        return self._rate_limit_request(self._server_proxy.browse, [classifiers])
 
-    :param client: xmlrpclib.ServerProxy
-    :param package_name: package name to search for
-    """
-    versions = None
+    def list_packages(self):
+        return self._rate_limit_request(self._server_proxy.list_packages)
 
-    fetched_releases = False
-    while not fetched_releases:
-        try:
-            versions = client.package_releases(package_name)
-            fetched_releases = True
-        except Fault as fault:
-            # The message is like:
-            #   The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.
-            #raise ValueError(fault.faultString)
-            regex_match = re.search('^.+Limit may reset in (\d+) seconds\.$', fault.faultString)
-            if regex_match is None:
-                raise fault
+    def package_releases(self, package_name):
+        return self._rate_limit_request(self._server_proxy.package_releases, [package_name])
 
-            sleep_amt = int(regex_match.group(1))
-            time.sleep(sleep_amt)
+    def release_data(self, name, version):
+        return self._rate_limit_request(self._server_proxy.release_data, [name, version])
 
-    return versions
+    def _rate_limit_request(self, request_method, args=None):
+        return_value = None
+
+        fetched_releases = False
+        while not fetched_releases:
+            try:
+                if args is not None:
+                    return_value = request_method(*args)
+                else:
+                    return_value = request_method()
+                fetched_releases = True
+            except Fault as fault:
+                # If PyPI times us out, sleep and try again depending on the error message received
+                unandled_exception = True
+
+                # The fault message is of form:
+                #   The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.
+                limit_reset_regex_match = re.search('^.+Limit may reset in (\d+) seconds\.$', fault.faultString)
+                if limit_reset_regex_match is not None:
+                    sleep_amt = int(limit_reset_regex_match.group(1))
+                    time.sleep(sleep_amt)
+                    unhandled_exception = False
+
+                too_many_requests_regex_match = re.search('^.+The action could not be performed because there were too many requests by the client.$', fault.faultString)
+                if too_many_requests_regex_match is not None:
+                    time.sleep(60)
+                    unhandled_exception = False
+
+                if unhandled_exception:
+                    raise fault
+
+        return return_value
 
 
 def iter_plugins(client, blacklist, *, consider_classifier=True):
     """
     Returns an iterator of (name, latest version, summary) from PyPI.
 
-    :param client: xmlrpclib.ServerProxy
+    :param client: RateLimitedServerProxy
     :param search: package names to search for
     """
     # previously we used the more efficient "search" XMLRPC method, but
     # that stopped returning all results after a while
     package_names = [x for x in client.list_packages() if x.startswith("pytest-")]
-    package_names = package_names[1:50] # TEMP: for testing full set is way too large
     names_and_versions = {}
-    print("TEMP: Processing '{}' packages".format(len(package_names)))
-    counter = 0
     for name in package_names:
-        print("process package '{}'".format(counter))
-        counter += 1
-        versions = get_releases_for_package(client, name)
+        versions = client.package_releases(name)
         if versions:  # Package can exist without public releases
             names_and_versions[name] = max(versions, key=LooseVersion)
 
@@ -132,7 +148,7 @@ def write_plugins_index(file_name, plugins):
 
 
 def main():
-    client = ServerProxy("https://pypi.org/pypi")
+    client = RateLimitedServerProxy("https://pypi.org/pypi")
     plugins = sorted(iter_plugins(client, BLACKLIST, consider_classifier=False))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
