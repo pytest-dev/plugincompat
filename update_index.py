@@ -17,13 +17,44 @@ trigger a new travis build using the new versions.
 """
 import json
 import os
+import re
 import sys
+import time
 from distutils.version import LooseVersion
+from xmlrpc.client import Fault
 from xmlrpc.client import ServerProxy
 
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), "index.json")
 
 BLACKLIST = {"pytest-nbsmoke"}
+
+
+def get_releases_for_package(client, package_name):
+    """
+    Get all release versions for package 'package_name' and return them to the caller
+
+    :param client: xmlrpclib.ServerProxy
+    :param package_name: package name to search for
+    """
+    versions = None
+
+    fetched_releases = False
+    while not fetched_releases:
+        try:
+            versions = client.package_releases(package_name)
+            fetched_releases = True
+        except Fault as fault:
+            # The message is like:
+            #   The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.
+            #raise ValueError(fault.faultString)
+            regex_match = re.search('^.+Limit may reset in (\d+) seconds\.$', fault.faultString)
+            if regex_match is None:
+                raise fault
+
+            sleep_amt = int(regex_match.group(1))
+            time.sleep(sleep_amt)
+
+    return versions
 
 
 def iter_plugins(client, blacklist, *, consider_classifier=True):
@@ -36,9 +67,14 @@ def iter_plugins(client, blacklist, *, consider_classifier=True):
     # previously we used the more efficient "search" XMLRPC method, but
     # that stopped returning all results after a while
     package_names = [x for x in client.list_packages() if x.startswith("pytest-")]
+    package_names = package_names[1:50] # TEMP: for testing full set is way too large
     names_and_versions = {}
+    print("TEMP: Processing '{}' packages".format(len(package_names)))
+    counter = 0
     for name in package_names:
-        versions = client.package_releases(name)
+        print("process package '{}'".format(counter))
+        counter += 1
+        versions = get_releases_for_package(client, name)
         if versions:  # Package can exist without public releases
             names_and_versions[name] = max(versions, key=LooseVersion)
 
