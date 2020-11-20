@@ -31,7 +31,6 @@ from io import StringIO
 from tempfile import mkdtemp
 from typing import List
 from typing import Optional
-from xmlrpc.client import ServerProxy
 from zipfile import ZipFile
 
 import asks
@@ -45,6 +44,7 @@ from wimpy.util import strip_suffix
 from wimpy.util import working_directory
 
 import update_index
+from pypi_rpc_client.proxy import RateLimitedProxy
 
 
 async def download_package(client, session, name, version):
@@ -264,7 +264,7 @@ async def run_package(session, tox_env, pytest_version, name, version, descripti
         except Exception:
             pass
 
-    client = ServerProxy("https://pypi.org/pypi")
+    client = RateLimitedProxy("https://pypi.org/pypi")
     basename = await download_package(client, session, name, version)
     if basename is None:
         status_code, output = 1, "No source or compatible distribution found"
