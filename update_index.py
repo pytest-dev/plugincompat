@@ -28,56 +28,50 @@ INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), "index.json")
 
 BLACKLIST = {"pytest-nbsmoke"}
 
+
 class RateLimitedServerProxy:
     def __init__(self, uri):
         self._server_proxy = ServerProxy(uri)
 
     def browse(self, classifiers):
-        return self._rate_limit_request(self._server_proxy.browse, [classifiers])
+        return self._rate_limit_request(self._server_proxy.browse, classifiers)
 
     def list_packages(self):
         return self._rate_limit_request(self._server_proxy.list_packages)
 
     def package_releases(self, package_name):
-        return self._rate_limit_request(self._server_proxy.package_releases, [package_name])
+        return self._rate_limit_request(self._server_proxy.package_releases, package_name)
 
     def release_data(self, name, version):
-        return self._rate_limit_request(self._server_proxy.release_data, [name, version])
+        return self._rate_limit_request(self._server_proxy.release_data, name, version)
 
-    def _rate_limit_request(self, request_method, args=None):
-        return_value = None
-
-        fetched_releases = False
-        while not fetched_releases:
+    def _rate_limit_request(self, request_method, *args):
+        while True:
             try:
-                if args is not None:
-                    return_value = request_method(*args)
-                else:
-                    return_value = request_method()
-                fetched_releases = True
+                return request_method(*args)
             except Fault as fault:
                 # If PyPI errors due to too many requests, sleep and try again depending on the error message received
-                unandled_exception = True
-
                 # The fault message is of form:
                 #   The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.
-                limit_reset_regex_match = re.search('^.+Limit may reset in (\d+) seconds\.$', fault.faultString)
+                limit_reset_regex_match = re.search(
+                    r"^.+Limit may reset in (\d+) seconds\.$", fault.faultString
+                )
                 if limit_reset_regex_match is not None:
                     sleep_amt = int(limit_reset_regex_match.group(1))
                     time.sleep(sleep_amt)
-                    unhandled_exception = False
+                    continue
 
                 # The fault message is of form:
                 #   The action could not be performed because there were too many requests by the client.
-                too_many_requests_regex_match = re.search('^.+The action could not be performed because there were too many requests by the client.$', fault.faultString)
+                too_many_requests_regex_match = re.search(
+                    "^.+The action could not be performed because there were too many requests by the client.$",
+                    fault.faultString,
+                )
                 if too_many_requests_regex_match is not None:
                     time.sleep(60)
-                    unhandled_exception = False
+                    continue
 
-                if unhandled_exception:
-                    raise fault
-
-        return return_value
+                raise
 
 
 def iter_plugins(client, blacklist, *, consider_classifier=True):
