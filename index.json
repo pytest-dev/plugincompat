@@ -597,7 +597,7 @@
   {
     "description": "Pytest plugin for testing console scripts",
     "name": "pytest-console-scripts",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   {
     "description": "pytest plugin with fixtures for testing consul aware apps",
@@ -1342,7 +1342,7 @@
   {
     "description": "A pytest plugin that runs marked tests when files change.",
     "name": "pytest-filemarker",
-    "version": "0.1.0.dev3"
+    "version": "0.1.0.dev4"
   },
   {
     "description": "run test cases filter by mark",
@@ -2172,7 +2172,7 @@
   {
     "description": "Pytest plugin for analyzing resource usage.",
     "name": "pytest-monitor",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "description": "pytest's monkeypatch subclass with extra functionalities",
