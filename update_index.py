@@ -17,68 +17,21 @@ trigger a new travis build using the new versions.
 """
 import json
 import os
-import re
 import sys
-import time
 from distutils.version import LooseVersion
-from xmlrpc.client import Fault
-from xmlrpc.client import ServerProxy
+
+from pypi_rpc_client.proxy import RateLimitedProxy
 
 INDEX_FILE_NAME = os.path.join(os.path.dirname(__file__), "index.json")
 
 BLACKLIST = {"pytest-nbsmoke"}
 
 
-class RateLimitedServerProxy:
-    def __init__(self, uri):
-        self._server_proxy = ServerProxy(uri)
-
-    def browse(self, classifiers):
-        return self._rate_limit_request(self._server_proxy.browse, classifiers)
-
-    def list_packages(self):
-        return self._rate_limit_request(self._server_proxy.list_packages)
-
-    def package_releases(self, package_name):
-        return self._rate_limit_request(self._server_proxy.package_releases, package_name)
-
-    def release_data(self, name, version):
-        return self._rate_limit_request(self._server_proxy.release_data, name, version)
-
-    def _rate_limit_request(self, request_method, *args):
-        while True:
-            try:
-                return request_method(*args)
-            except Fault as fault:
-                # If PyPI errors due to too many requests, sleep and try again depending on the error message received
-                # The fault message is of form:
-                #   The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.
-                limit_reset_regex_match = re.search(
-                    r"^.+Limit may reset in (\d+) seconds\.$", fault.faultString
-                )
-                if limit_reset_regex_match is not None:
-                    sleep_amt = int(limit_reset_regex_match.group(1))
-                    time.sleep(sleep_amt)
-                    continue
-
-                # The fault message is of form:
-                #   The action could not be performed because there were too many requests by the client.
-                too_many_requests_regex_match = re.search(
-                    "^.+The action could not be performed because there were too many requests by the client.$",
-                    fault.faultString,
-                )
-                if too_many_requests_regex_match is not None:
-                    time.sleep(60)
-                    continue
-
-                raise
-
-
 def iter_plugins(client, blacklist, *, consider_classifier=True):
     """
     Returns an iterator of (name, latest version, summary) from PyPI.
 
-    :param client: RateLimitedServerProxy
+    :param client: RateLimitedProxy
     :param search: package names to search for
     """
     # previously we used the more efficient "search" XMLRPC method, but
@@ -144,7 +97,7 @@ def write_plugins_index(file_name, plugins):
 
 
 def main():
-    client = RateLimitedServerProxy("https://pypi.org/pypi")
+    client = RateLimitedProxy("https://pypi.org/pypi")
     plugins = sorted(iter_plugins(client, BLACKLIST, consider_classifier=False))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
