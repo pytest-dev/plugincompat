@@ -1,4 +1,5 @@
 -r requirements.txt
+-r update-index-requirements.txt
 asynctest
 pre-commit
 pytest-datadir

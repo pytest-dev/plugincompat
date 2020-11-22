@@ -6,6 +6,7 @@ git clone https://github.com/pytest-dev/plugincompat.git
 
 echo "Updating..."
 cd plugincompat
+pip install -r update-index-requirements.txt
 python update_index.py
 
 echo "Push..."
