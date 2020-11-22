@@ -110,7 +110,7 @@ def write_plugins_index(file_name, plugins):
 
 def main():
     client = RateLimitedProxy("https://pypi.org/pypi")
-    plugins = sorted(iter_plugins(client, BLACKLIST, consider_classifier=True))
+    plugins = sorted(iter_plugins(client, BLACKLIST, consider_classifier=False))
 
     if write_plugins_index(INDEX_FILE_NAME, plugins):
         print(INDEX_FILE_NAME, "updated, push to GitHub.")
