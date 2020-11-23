@@ -1537,7 +1537,7 @@
   {
     "description": "Plugin for pytest that offloads expected outputs to data files",
     "name": "pytest-golden",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   {
     "description": "Get graphql schema as fixture for pytest",
