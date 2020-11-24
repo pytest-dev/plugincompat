@@ -2562,7 +2562,7 @@
   {
     "description": "A pytest wrapper with fixtures for Playwright to automate web browsers",
     "name": "pytest-playwright",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   {
     "description": "Fixtures for quickly making Matplotlib plots in tests",
@@ -3077,7 +3077,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.96.0"
+    "version": "0.97.0"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3097,7 +3097,7 @@
   {
     "description": "The complete web automation library for end-to-end testing.",
     "name": "pytest-sbase",
-    "version": "1.50.7"
+    "version": "1.50.8"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3137,7 +3137,7 @@
   {
     "description": "The complete web automation library for end-to-end testing.",
     "name": "pytest-seleniumbase",
-    "version": "1.50.7"
+    "version": "1.50.8"
   },
   {
     "description": "Send pytest execution result email",
@@ -3568,6 +3568,11 @@
     "description": "pytest plugin for creating TestRail runs and adding results",
     "name": "pytest-testrail",
     "version": "2.9.0"
+  },
+  {
+    "description": "&#1055;&#1083;&#1072;&#1075;&#1080;&#1085; Pytest, &#1076;&#1083;&#1103; &#1080;&#1085;&#1090;&#1077;&#1075;&#1088;&#1072;&#1094;&#1080;&#1080; &#1089; TestRail",
+    "name": "pytest-testrail-api",
+    "version": "0.3.0"
   },
   {
     "description": "pytest plugin for Testrail",
