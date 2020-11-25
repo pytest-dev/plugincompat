@@ -5,7 +5,7 @@ git config --global user.email pytestbot@gmail.com
 git clone https://github.com/pytest-dev/plugincompat.git
 
 echo "Updating..."
-cd plugincompat
+cd plugincompat || exit
 pip install -r update-index-requirements.txt
 python update_index.py
 
@@ -15,4 +15,4 @@ git commit -a -m "Updating index (from heroku)"
 #   https://github.com/settings/tokens
 # and made available to this script as a config var setting in Heroku:
 #   https://dashboard.heroku.com/apps/plugincompat/settings
-git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/pytest-dev/plugincompat.git master
+git push "https://$GITHUB_TOKEN:x-oauth-basic@github.com/pytest-dev/plugincompat.git" master
