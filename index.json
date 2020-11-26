@@ -432,7 +432,7 @@
   {
     "description": "Separate test code from test cases in pytest.",
     "name": "pytest-cases",
-    "version": "2.3.0"
+    "version": "2.4.0"
   },
   {
     "description": "Cassandra CCM Test Fixtures for pytest",
@@ -1617,7 +1617,7 @@
   {
     "description": "Experimental package to automatically extract test plugins for Home Assistant custom components",
     "name": "pytest-homeassistant-custom-component",
-    "version": "0.0.20"
+    "version": "0.0.21"
   },
   {
     "description": "Report on tests that honor constraints, and guard against regressions",
@@ -1677,7 +1677,7 @@
   {
     "description": "Send responses to httpx.",
     "name": "pytest-httpx",
-    "version": "0.10.0"
+    "version": "0.10.1"
   },
   {
     "description": "Visualise PyTest status via your Phillips Hue lights",
@@ -1747,7 +1747,7 @@
   {
     "description": "Inmanta tests package",
     "name": "pytest-inmanta-extensions",
-    "version": "2020.5"
+    "version": "2020.5.1"
   },
   {
     "description": "A practical snapshot testing plugin for pytest",
@@ -1922,7 +1922,7 @@
   {
     "description": "A pytest plugin to manage interfacing with libiio contexts",
     "name": "pytest-libiio",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   {
     "description": "Pytest plugin that shows notifications about the test run",
@@ -2837,7 +2837,7 @@
   {
     "description": "A pytest plugin that allows you recording of network interactions via VCR.py",
     "name": "pytest-recording",
-    "version": "0.10.0"
+    "version": "0.11.0"
   },
   {
     "description": "Provides pytest plugins for reporting request/response traffic, screenshots, and more to ReportPortal",
@@ -3077,7 +3077,7 @@
   {
     "description": "Pytest Salt Plugin",
     "name": "pytest-salt-factories",
-    "version": "0.97.0"
+    "version": "0.98.0"
   },
   {
     "description": "Simple PyTest Plugin For Salt's Test Suite Specifically",
@@ -3097,7 +3097,7 @@
   {
     "description": "The complete web automation library for end-to-end testing.",
     "name": "pytest-sbase",
-    "version": "1.50.8"
+    "version": "1.50.13"
   },
   {
     "description": "pytest plugin for test scenarios",
@@ -3137,7 +3137,7 @@
   {
     "description": "The complete web automation library for end-to-end testing.",
     "name": "pytest-seleniumbase",
-    "version": "1.50.8"
+    "version": "1.50.13"
   },
   {
     "description": "Send pytest execution result email",
@@ -3572,7 +3572,7 @@
   {
     "description": "&#1055;&#1083;&#1072;&#1075;&#1080;&#1085; Pytest, &#1076;&#1083;&#1103; &#1080;&#1085;&#1090;&#1077;&#1075;&#1088;&#1072;&#1094;&#1080;&#1080; &#1089; TestRail",
     "name": "pytest-testrail-api",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   {
     "description": "pytest plugin for Testrail",
