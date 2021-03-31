@@ -1,5 +1,11 @@
 # plugincompat #
 
+## This repository has been retired ##
+
+For more information, see [#66](https://github.com/pytest-dev/plugincompat/issues/66).
+
+---
+
 Compatibility checks for pytest plugins.
 
 ![plug](static/electrical-plug-th.png)

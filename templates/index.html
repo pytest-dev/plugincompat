@@ -5,111 +5,14 @@
 <div class="row">
 <h1>pytest Plugins Compatibility</h1>
 
-    <p>This page shows results of compatibility tests between <a href="https://pytest.org">pytest</a> plugins
-       against different versions of the python interpreter.
-    </p>
-    <p>The plugins are listed and tested automatically from <a href="https://pypi.org/">PyPI</a>.
-        For more information, please see <a href="https://github.com/pytest-dev/plugincompat">
-            https://github.com/pytest-dev/plugincompat</a>.
-    </p>
+<h2>This page is now retired</h2>
 
-    <p>PyPI projects that match "pytest-*" are considered plugins.</p>
+<p>A list of plugins is now available at <a href="https://docs.pytest.org/en/latest/reference/plugin_list.html">https://docs.pytest.org/en/latest/reference/plugin_list.html</a> in the official pytest documentation.</p>
 
-    <p>
-        <strong>Note:</strong> although some may appear as "broken" keep in mind
-        that all dependencies may not be installed during testing, particularly
-        if a dependency is too big or requires a dedicated server (such
-        as <a href="https://pypi.org/project/pytest-jira">pytest-jira</a>,
-        which requires a jira server, or
-        <a href="https://pypi.org/project/pytest-qt">pytest-qt</a>,
-        which requires PyQt or PySide, both which take a long time to install).
-        Take the information you find here with a grain of salt, and rely on
-        each plugin's homepage for up-to-date compatibility information.
-    </p>
+<p>This website was an excellent learning tool and provided a nice list of all pytest plugins available. It implements a non-trivial workflow where we execute jobs on <a href="https://travis-ci.com/">Travis</a> that test each plugin for compatibility against some pytest and Python versions, along with their descriptions (<a href="https://github.com/pytest-dev/plugincompat/blob/master/OVERVIEW.md">more info</a>).</p>
 
-    <table class="striped rounded metro">
-        <caption>pytest-{{ latest_pytest_ver }}: {{ lib_names|count }} plugins</caption>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                {% for python_ver in python_versions %}
-                <th>{{ python_ver }}</th>
-                {% endfor %}
-            </tr>
-        </thead>
-        <tbody>
-            {% for lib_name in lib_names %}
-            <tr>
-                <td><a href="https://pypi.org/project/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></td>
-                <td>{{ descriptions[lib_name]}}</td>
-                {% for python_ver in python_versions %}
-                    <td>
-                    <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, latest_pytest_ver) }}">
-                    {% if statuses.get((lib_name, python_ver, latest_pytest_ver)) == "ok" %}
-                        <img src="{{ url_for('static', filename='ok.png') }}"/>
-                    {% elif statuses.get((lib_name, python_ver, latest_pytest_ver)) == "fail" %}
-                        <img src="{{ url_for('static', filename='fail.png') }}"/>
-                    {% else %}
-                        <img src="{{ url_for('static', filename='unknown.png') }}"/>
-                    {% endif %}
-                    </a>
-                    </td>
-                {% endfor %}
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<p>Maintaining the website has a non-zero cost in time, and also things are not perfect, so I decided to just stop maintaining it, given that the new list of plugins in pytest documentation already gives a good overview of the plugin ecosystem (see <a href="https://github.com/pytest-dev/plugincompat/issues/66">#66</a> for more details).</p>
 
-    {% if pytest_versions|count > 1 %}
-    {% for lib_name in lib_names %}
-        <a id="{{lib_name}}"/>
-        <table class="striped rounded metro">
-            <caption><a href="https://pypi.org/project/{{ lib_name.rsplit('-', 1)[0] }}">{{ lib_name }}</a></caption>
-            <thead>
-                <tr>
-                    <th>pytest</th>
-                    {% for python_ver in python_versions %}
-                    <th>{{ python_ver }}</th>
-                    {% endfor %}
-                </tr>
-            </thead>
-            <tbody>
-                {% for pytest_ver in pytest_versions %}
-                    <tr>
-                    <td>{{ pytest_ver }}</td>
-                    {% for python_ver in python_versions %}
-                        <td>
-                            <a href="{{ '/output/%s?py=%s&pytest=%s' % (lib_name, python_ver, pytest_ver) }}">
-                        {% if statuses.get((lib_name, python_ver, pytest_ver)) == "ok" %}
-                            <img src="{{ url_for('static', filename='ok.png') }}"/>
-                        {% elif statuses.get((lib_name, python_ver, pytest_ver)) == "fail" %}
-                            <img src="{{ url_for('static', filename='fail.png') }}"/>
-                        {% else %}
-                            <img src="{{ url_for('static', filename='unknown.png') }}"/>
-                        {% endif %}
-                            </a>
-                        </td>
-                    {% endfor %}
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    {% endfor %}
-    {% endif %}
+<p>The website will be shut down sometime in the future, but the <a href="https://github.com/pytest-dev/plugincompat">github repository</a> will remain there for reference.</p>
 
-</div>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-43463457-3']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+<p>The source code of the website, for those interested, is available at <a href="https://github.com/pytest-dev/plugincompat">github.com/pytest-dev/plugincompat</a>.</p>
